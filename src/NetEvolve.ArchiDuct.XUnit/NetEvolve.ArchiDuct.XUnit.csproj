@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFrameworks>$(NetEvolve_ProjectTargetFrameworks)</TargetFrameworks>
+
+    <PackageTags>$(PackageTags);xunit</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
