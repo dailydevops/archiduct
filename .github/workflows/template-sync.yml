@@ -1,0 +1,24 @@
+name: Update template files
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  template-sync:
+    if: github.actor != 'dependabot[bot]' && github.repository == 'dailydevops/dotnet-template'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ahmadnassri/action-template-repository-sync@v2.6.0
+        with:
+          github-token: ${{ secrets.TEMPLATE_SYNC }}
+          dry-run: false
+          skip-ci: true

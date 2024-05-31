@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      dotnet-logging:
+        required: true
+        type: choice
+        default: minimal
+        options:
+          - quiet
+          - minimal
+          - normal
+          - detailed
+          - diagnostic
+
+jobs:
+  all:
+    if: github.run_id != 1
+    name: Build & Tests
+    uses: dailydevops/pipelines/.github/workflows/cicd-dotnet.yml@0.10.3
+    with:
+      disablePublish: true
+      dotnet-logging: ${{ inputs.dotnet-logging }}
+      dotnet-version: ${{ vars.NE_DOTNET_TARGETFRAMEWORKS }}
+      solution: ###SOLUTION###
+    secrets: inherit
