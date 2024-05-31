@@ -12,9 +12,9 @@
   <PropertyGroup Label="Package settings">
     <Title>$(MSBuildProjectName)</Title>
     <Description></Description>
-    <RepositoryUrl></RepositoryUrl>
-    <PackageProjectUrl></PackageProjectUrl>
-    <PackageTags></PackageTags>
+    <RepositoryUrl>https://github.com/dailydevops/archiduct.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/dailydevops/archiduct.git</PackageProjectUrl>
+    <PackageTags>test;architecture;archiduct</PackageTags>
     <CopyrightYearStart>2024</CopyrightYearStart>
   </PropertyGroup>
 
