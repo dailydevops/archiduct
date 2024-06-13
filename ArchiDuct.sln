@@ -41,8 +41,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetEvolve.ArchiDuct.XUnit.T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetEvolve.ArchiDuct.Tests.Integration", "tests\NetEvolve.ArchiDuct.Tests.Integration\NetEvolve.ArchiDuct.Tests.Integration.csproj", "{59B69788-809A-41A4-8ECA-3867E3420DA9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetEvolve.ArchiDuct.Tests.Architecture", "tests\NetEvolve.ArchiDuct.Tests.Architecture\NetEvolve.ArchiDuct.Tests.Architecture.csproj", "{C365560E-8796-428F-9F1E-7CEFC7E834D5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,10 +75,6 @@ Global
 		{59B69788-809A-41A4-8ECA-3867E3420DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59B69788-809A-41A4-8ECA-3867E3420DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59B69788-809A-41A4-8ECA-3867E3420DA9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C365560E-8796-428F-9F1E-7CEFC7E834D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C365560E-8796-428F-9F1E-7CEFC7E834D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C365560E-8796-428F-9F1E-7CEFC7E834D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C365560E-8796-428F-9F1E-7CEFC7E834D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,7 +87,6 @@ Global
 		{BCC67743-7318-4D81-A233-B9AAEE92F1C5} = {B6D0628F-AF7C-4084-B0E9-DAF38BAC412E}
 		{A0EDC002-D096-4751-8ED4-93DB4BA72950} = {B6D0628F-AF7C-4084-B0E9-DAF38BAC412E}
 		{59B69788-809A-41A4-8ECA-3867E3420DA9} = {B6D0628F-AF7C-4084-B0E9-DAF38BAC412E}
-		{C365560E-8796-428F-9F1E-7CEFC7E834D5} = {B6D0628F-AF7C-4084-B0E9-DAF38BAC412E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89C5B33E-14D6-408D-B3CD-2E0A7C11D4B5}
