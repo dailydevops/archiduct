@@ -12,7 +12,7 @@
   <PropertyGroup Label="Package settings">
     <Title>$(MSBuildProjectName)</Title>
     <Description>.NET Architecture Test Framework</Description>
-    <RepositoryUrl>https://github.com/dailydevops/archiduct.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/dailydevops/archiduct</RepositoryUrl>
     <PackageProjectUrl>https://github.com/dailydevops/archiduct.git</PackageProjectUrl>
     <PackageReleaseNotes>$(RepositoryUrl)/releases</PackageReleaseNotes>
     <PackageTags>test;architecture;archiduct</PackageTags>
