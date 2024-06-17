@@ -22,7 +22,7 @@ public sealed class ModelDelegate : ModelTypeBase
     public override ModelKind Kind => ModelKind.Delegate;
 
     /// <inheritdoc />
-    public IEnumerable<ModelParameter> Parameters { get; } = default!;
+    public HashSet<ModelParameter> Parameters { get; } = default!;
 
     /// <summary>
     /// Returns the type id of the parameter.
@@ -41,7 +41,7 @@ public sealed class ModelDelegate : ModelTypeBase
         {
             Parameters = delegateMethod
                 .Parameters.Select(p => new ModelParameter(p, this))
-                .ToArray();
+                .ToHashSet();
 
             ReturnTypeId = ModelFactory.GetReturnTypeId(delegateMethod);
         }
