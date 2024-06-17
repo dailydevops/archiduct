@@ -130,8 +130,8 @@ internal static class ModelFactory
         return $"T:{returnType.ReflectionName}";
     }
 
-    internal static IEnumerable<ModelModifier> MapModifiers(IParameter parameter) =>
-        GetModifiers(parameter).ToArray();
+    internal static HashSet<ModelModifier> MapModifiers(IParameter parameter) =>
+        GetModifiers(parameter).ToHashSet();
 
     private static IEnumerable<ModelModifier> GetModifiers(IParameter parameter)
     {
