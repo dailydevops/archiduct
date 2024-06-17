@@ -68,6 +68,7 @@ public sealed class ArchitectureCollector : IArchitectureCollector
             MatchCasing = MatchCasing.CaseInsensitive,
             MatchType = MatchType.Simple,
             AttributesToSkip = FileAttributes.Hidden | FileAttributes.System,
+            IgnoreInaccessible = true,
         };
 
         foreach (var candidate in directory.EnumerateFiles("*.(dll|exe)", options))
