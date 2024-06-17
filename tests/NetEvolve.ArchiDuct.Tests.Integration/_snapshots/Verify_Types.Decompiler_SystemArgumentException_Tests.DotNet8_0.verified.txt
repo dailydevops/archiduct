@@ -1,0 +1,566 @@
+﻿{
+  N:System, T:System.ArgumentException: {
+    BaseTypes: [
+      T:System.SystemException,
+      T:System.Exception,
+      T:System.Object
+    ],
+    FullId: N:System, T:System.ArgumentException,
+    FullName: System.ArgumentException,
+    Id: T:System.ArgumentException,
+    Implementations: [
+      T:System.Runtime.Serialization.ISerializable
+    ],
+    InheritedMembers: [
+      M:System.SystemException.#ctor,
+      M:System.SystemException.#ctor(System.String),
+      M:System.SystemException.#ctor(System.String,System.Exception),
+      M:System.SystemException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+      F:System.Exception._exceptionMethod,
+      F:System.Exception._message,
+      F:System.Exception._data,
+      F:System.Exception._innerException,
+      F:System.Exception._helpURL,
+      F:System.Exception._stackTrace,
+      F:System.Exception._watsonBuckets,
+      F:System.Exception._stackTraceString,
+      F:System.Exception._remoteStackTraceString,
+      F:System.Exception._dynamicMethods,
+      F:System.Exception._source,
+      F:System.Exception._ipForWatsonBuckets,
+      F:System.Exception._xptrs,
+      F:System.Exception._xcode,
+      F:System.Exception._HResult,
+      F:System.Exception._COMPlusExceptionCode,
+      F:System.Exception.InnerExceptionPrefix,
+      M:System.Exception.CreateDataContainer,
+      M:System.Exception.IsImmutableAgileException(System.Exception),
+      M:System.Exception.GetMethodFromStackTrace(System.Object),
+      M:System.Exception.GetExceptionMethodFromStackTrace,
+      M:System.Exception.OnDeserialized(System.Runtime.Serialization.StreamingContext),
+      M:System.Exception.InternalPreserveStackTrace,
+      M:System.Exception.PrepareForForeignExceptionRaise,
+      M:System.Exception.GetStackTracesDeepCopy(System.Exception,System.Byte[]@,System.Object[]@),
+      M:System.Exception.SaveStackTracesFromDeepCopy(System.Exception,System.Byte[],System.Object[]),
+      M:System.Exception.GetExceptionCount,
+      M:System.Exception.RestoreDispatchState(System.Exception.DispatchState@),
+      M:System.Exception.GetMessageFromNativeResources(System.Exception.ExceptionMessageKind),
+      M:System.Exception.GetMessageFromNativeResources(System.Exception.ExceptionMessageKind,System.Runtime.CompilerServices.StringHandleOnStack),
+      M:System.Exception.CaptureDispatchState,
+      M:System.Exception.CanSetRemoteStackTrace,
+      M:System.Exception.GetHelpContext(System.UInt32@),
+      M:System.Exception.#ctor,
+      M:System.Exception.#ctor(System.String),
+      M:System.Exception.#ctor(System.String,System.Exception),
+      M:System.Exception.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+      M:System.Exception.GetClassName,
+      M:System.Exception.GetBaseException,
+      M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+      M:System.Exception.ToString,
+      M:System.Exception.GetType,
+      M:System.Exception.RestoreRemoteStackTrace(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+      M:System.Exception.GetStackTrace,
+      M:System.Exception.SetCurrentStackTrace,
+      M:System.Exception.SetRemoteStackTrace(System.String),
+      M:System.Exception.{ToString}g__Write|60_0(System.String,System.Span{System.Char}@),
+      P:System.Exception.TargetSite,
+      P:System.Exception.HasBeenThrown,
+      P:System.Exception.SerializationWatsonBuckets,
+      P:System.Exception.Message,
+      P:System.Exception.Data,
+      P:System.Exception.InnerException,
+      P:System.Exception.HelpLink,
+      P:System.Exception.Source,
+      P:System.Exception.HResult,
+      P:System.Exception.StackTrace,
+      P:System.Exception.SerializationStackTraceString,
+      E:System.Exception.SerializeObjectState,
+      M:System.Object.GetType,
+      M:System.Object.MemberwiseClone,
+      M:System.Object.Finalize,
+      M:System.Object.ToString,
+      M:System.Object.Equals(System.Object),
+      M:System.Object.Equals(System.Object,System.Object),
+      M:System.Object.ReferenceEquals(System.Object,System.Object),
+      M:System.Object.GetHashCode
+    ],
+    IsNested: false,
+    Kind: Class,
+    Members: [
+      {
+        FullId: T:System.ArgumentException, F:System.ArgumentException._paramName,
+        FullName: System.ArgumentException._paramName,
+        Id: F:System.ArgumentException._paramName,
+        Kind: Field,
+        Modifiers: [
+          Private,
+          ReadOnly
+        ],
+        Name: _paramName,
+        ParentId: T:System.ArgumentException,
+        ReturnTypeId: T:System.String
+      },
+      {
+        FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor,
+        FullName: System.ArgumentException..ctor,
+        Id: M:System.ArgumentException.#ctor,
+        Kind: Constructor,
+        Modifiers: [
+          Public
+        ],
+        Name: .ctor,
+        OverloadedMembers: [
+          M:System.ArgumentException.#ctor(System.String),
+          M:System.ArgumentException.#ctor(System.String,System.Exception),
+          M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+          M:System.ArgumentException.#ctor(System.String,System.String),
+          M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+        ],
+        ParentId: T:System.ArgumentException,
+        ReturnTypeId: T:System.Void,
+        Summary: Initializes a new instance of the <see cref="T:System.ArgumentException" /> class.
+      },
+      {
+        FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.String),
+        FullName: System.ArgumentException..ctor,
+        Id: M:System.ArgumentException.#ctor(System.String),
+        Kind: Constructor,
+        Modifiers: [
+          Public
+        ],
+        Name: .ctor,
+        OverloadedMembers: [
+          M:System.ArgumentException.#ctor,
+          M:System.ArgumentException.#ctor(System.String,System.Exception),
+          M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+          M:System.ArgumentException.#ctor(System.String,System.String),
+          M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+        ],
+        Parameters: [
+          {
+            FullId: M:System.ArgumentException.#ctor(System.String), M:System.ArgumentException.#ctor(System.String).message,
+            FullName: System.ArgumentException..ctor.message,
+            Id: M:System.ArgumentException.#ctor(System.String).message,
+            Kind: Parameter,
+            Name: message,
+            ParentId: M:System.ArgumentException.#ctor(System.String),
+            Summary: The error message that explains the reason for the exception.,
+            TypeId: T:System.String
+          }
+        ],
+        ParentId: T:System.ArgumentException,
+        ReturnTypeId: T:System.Void,
+        Summary: Initializes a new instance of the <see cref="T:System.ArgumentException" /> class with a specified error message.
+      },
+      {
+        FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.String,System.Exception),
+        FullName: System.ArgumentException..ctor,
+        Id: M:System.ArgumentException.#ctor(System.String,System.Exception),
+        Kind: Constructor,
+        Modifiers: [
+          Public
+        ],
+        Name: .ctor,
+        OverloadedMembers: [
+          M:System.ArgumentException.#ctor,
+          M:System.ArgumentException.#ctor(System.String),
+          M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+          M:System.ArgumentException.#ctor(System.String,System.String),
+          M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+        ],
+        Parameters: [
+          {
+            FullId: M:System.ArgumentException.#ctor(System.String,System.Exception), M:System.ArgumentException.#ctor(System.String,System.Exception).message,
+            FullName: System.ArgumentException..ctor.message,
+            Id: M:System.ArgumentException.#ctor(System.String,System.Exception).message,
+            Kind: Parameter,
+            Name: message,
+            ParentId: M:System.ArgumentException.#ctor(System.String,System.Exception),
+            Summary: The error message that explains the reason for the exception.,
+            TypeId: T:System.String
+          },
+          {
+            FullId: M:System.ArgumentException.#ctor(System.String,System.Exception), M:System.ArgumentException.#ctor(System.String,System.Exception).innerException,
+            FullName: System.ArgumentException..ctor.innerException,
+            Id: M:System.ArgumentException.#ctor(System.String,System.Exception).innerException,
+            Kind: Parameter,
+            Name: innerException,
+            ParentId: M:System.ArgumentException.#ctor(System.String,System.Exception),
+            Summary: The exception that is the cause of the current exception. If the <paramref name="innerException" /> parameter is not a null reference, the current exception is raised in a <see langword="catch" /> block that handles the inner exception.,
+            TypeId: T:System.Exception
+          }
+        ],
+        ParentId: T:System.ArgumentException,
+        ReturnTypeId: T:System.Void,
+        Summary: Initializes a new instance of the <see cref="T:System.ArgumentException" /> class with a specified error message and a reference to the inner exception that is the cause of this exception.
+      },
+      {
+        FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+        FullName: System.ArgumentException..ctor,
+        Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+        Kind: Constructor,
+        Modifiers: [
+          Public
+        ],
+        Name: .ctor,
+        OverloadedMembers: [
+          M:System.ArgumentException.#ctor,
+          M:System.ArgumentException.#ctor(System.String),
+          M:System.ArgumentException.#ctor(System.String,System.Exception),
+          M:System.ArgumentException.#ctor(System.String,System.String),
+          M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+        ],
+        Parameters: [
+          {
+            FullId: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception), M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).message,
+            FullName: System.ArgumentException..ctor.message,
+            Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).message,
+            Kind: Parameter,
+            Name: message,
+            ParentId: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+            Summary: The error message that explains the reason for the exception.,
+            TypeId: T:System.String
+          },
+          {
+            FullId: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception), M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).paramName,
+            FullName: System.ArgumentException..ctor.paramName,
+            Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).paramName,
+            Kind: Parameter,
+            Name: paramName,
+            ParentId: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+            Summary: The name of the parameter that caused the current exception.,
+            TypeId: T:System.String
+          },
+          {
+            FullId: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception), M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).innerException,
+            FullName: System.ArgumentException..ctor.innerException,
+            Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).innerException,
+            Kind: Parameter,
+            Name: innerException,
+            ParentId: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+            Summary: The exception that is the cause of the current exception. If the <paramref name="innerException" /> parameter is not a null reference, the current exception is raised in a <see langword="catch" /> block that handles the inner exception.,
+            TypeId: T:System.Exception
+          }
+        ],
+        ParentId: T:System.ArgumentException,
+        ReturnTypeId: T:System.Void,
+        Summary: Initializes a new instance of the <see cref="T:System.ArgumentException" /> class with a specified error message, the parameter name, and a reference to the inner exception that is the cause of this exception.
+      },
+      {
+        FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.String,System.String),
+        FullName: System.ArgumentException..ctor,
+        Id: M:System.ArgumentException.#ctor(System.String,System.String),
+        Kind: Constructor,
+        Modifiers: [
+          Public
+        ],
+        Name: .ctor,
+        OverloadedMembers: [
+          M:System.ArgumentException.#ctor,
+          M:System.ArgumentException.#ctor(System.String),
+          M:System.ArgumentException.#ctor(System.String,System.Exception),
+          M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+          M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+        ],
+        Parameters: [
+          {
+            FullId: M:System.ArgumentException.#ctor(System.String,System.String), M:System.ArgumentException.#ctor(System.String,System.String).message,
+            FullName: System.ArgumentException..ctor.message,
+            Id: M:System.ArgumentException.#ctor(System.String,System.String).message,
+            Kind: Parameter,
+            Name: message,
+            ParentId: M:System.ArgumentException.#ctor(System.String,System.String),
+            Summary: The error message that explains the reason for the exception.,
+            TypeId: T:System.String
+          },
+          {
+            FullId: M:System.ArgumentException.#ctor(System.String,System.String), M:System.ArgumentException.#ctor(System.String,System.String).paramName,
+            FullName: System.ArgumentException..ctor.paramName,
+            Id: M:System.ArgumentException.#ctor(System.String,System.String).paramName,
+            Kind: Parameter,
+            Name: paramName,
+            ParentId: M:System.ArgumentException.#ctor(System.String,System.String),
+            Summary: The name of the parameter that caused the current exception.,
+            TypeId: T:System.String
+          }
+        ],
+        ParentId: T:System.ArgumentException,
+        ReturnTypeId: T:System.Void,
+        Summary: Initializes a new instance of the <see cref="T:System.ArgumentException" /> class with a specified error message and the name of the parameter that causes this exception.
+      },
+      {
+        FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+        FullName: System.ArgumentException..ctor,
+        Id: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+        Kind: Constructor,
+        Modifiers: [
+          Protected
+        ],
+        Name: .ctor,
+        OverloadedMembers: [
+          M:System.ArgumentException.#ctor,
+          M:System.ArgumentException.#ctor(System.String),
+          M:System.ArgumentException.#ctor(System.String,System.Exception),
+          M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+          M:System.ArgumentException.#ctor(System.String,System.String)
+        ],
+        Parameters: [
+          {
+            FullId: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext), M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
+            FullName: System.ArgumentException..ctor.info,
+            Id: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
+            Kind: Parameter,
+            Name: info,
+            ParentId: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+            Summary: The object that holds the serialized object data.,
+            TypeId: T:System.Runtime.Serialization.SerializationInfo
+          },
+          {
+            FullId: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext), M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
+            FullName: System.ArgumentException..ctor.context,
+            Id: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
+            Kind: Parameter,
+            Name: context,
+            ParentId: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+            Summary: The contextual information about the source or destination.,
+            TypeId: T:System.Runtime.Serialization.StreamingContext
+          }
+        ],
+        ParentId: T:System.ArgumentException,
+        ReturnTypeId: T:System.Void,
+        Summary: Initializes a new instance of the <see cref="T:System.ArgumentException" /> class with serialized data.
+      },
+      {
+        FullId: T:System.ArgumentException, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+        FullName: System.ArgumentException.GetObjectData,
+        Id: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+        Kind: Method,
+        Modifiers: [
+          Public,
+          Override
+        ],
+        Name: GetObjectData,
+        Parameters: [
+          {
+            FullId: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext), M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
+            FullName: System.ArgumentException.GetObjectData.info,
+            Id: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
+            Kind: Parameter,
+            Name: info,
+            ParentId: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+            Summary: The object that holds the serialized object data.,
+            TypeId: T:System.Runtime.Serialization.SerializationInfo
+          },
+          {
+            FullId: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext), M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
+            FullName: System.ArgumentException.GetObjectData.context,
+            Id: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
+            Kind: Parameter,
+            Name: context,
+            ParentId: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+            Summary: The contextual information about the source or destination.,
+            TypeId: T:System.Runtime.Serialization.StreamingContext
+          }
+        ],
+        ParentId: T:System.ArgumentException,
+        ReturnTypeId: T:System.Void,
+        Summary: Sets the <see cref="T:System.Runtime.Serialization.SerializationInfo" /> object with the parameter name and additional exception information.
+      },
+      {
+        FullId: T:System.ArgumentException, M:System.ArgumentException.SetMessageField,
+        FullName: System.ArgumentException.SetMessageField,
+        Id: M:System.ArgumentException.SetMessageField,
+        Kind: Method,
+        Modifiers: [
+          Private
+        ],
+        Name: SetMessageField,
+        ParentId: T:System.ArgumentException,
+        ReturnTypeId: T:System.Void
+      },
+      {
+        FullId: T:System.ArgumentException, M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String),
+        FullName: System.ArgumentException.ThrowIfNullOrEmpty,
+        Id: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String),
+        Kind: Method,
+        Modifiers: [
+          Public,
+          Static
+        ],
+        Name: ThrowIfNullOrEmpty,
+        Parameters: [
+          {
+            FullId: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String), M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String).argument,
+            FullName: System.ArgumentException.ThrowIfNullOrEmpty.argument,
+            Id: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String).argument,
+            Kind: Parameter,
+            Name: argument,
+            ParentId: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String),
+            TypeId: T:System.String
+          },
+          {
+            FullId: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String), M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String).paramName,
+            FullName: System.ArgumentException.ThrowIfNullOrEmpty.paramName,
+            Id: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String).paramName,
+            Kind: Parameter,
+            Name: paramName,
+            OptionalValue: <null>,
+            ParentId: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String),
+            TypeId: T:System.String
+          }
+        ],
+        ParentId: T:System.ArgumentException,
+        ReturnTypeId: T:System.Void
+      },
+      {
+        FullId: T:System.ArgumentException, M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String),
+        FullName: System.ArgumentException.ThrowIfNullOrWhiteSpace,
+        Id: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String),
+        Kind: Method,
+        Modifiers: [
+          Public,
+          Static
+        ],
+        Name: ThrowIfNullOrWhiteSpace,
+        Parameters: [
+          {
+            FullId: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String), M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String).argument,
+            FullName: System.ArgumentException.ThrowIfNullOrWhiteSpace.argument,
+            Id: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String).argument,
+            Kind: Parameter,
+            Name: argument,
+            ParentId: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String),
+            TypeId: T:System.String
+          },
+          {
+            FullId: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String), M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String).paramName,
+            FullName: System.ArgumentException.ThrowIfNullOrWhiteSpace.paramName,
+            Id: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String).paramName,
+            Kind: Parameter,
+            Name: paramName,
+            OptionalValue: <null>,
+            ParentId: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String),
+            TypeId: T:System.String
+          }
+        ],
+        ParentId: T:System.ArgumentException,
+        ReturnTypeId: T:System.Void
+      },
+      {
+        FullId: T:System.ArgumentException, M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String),
+        FullName: System.ArgumentException.ThrowNullOrEmptyException,
+        Id: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String),
+        Kind: Method,
+        Modifiers: [
+          Private,
+          Static
+        ],
+        Name: ThrowNullOrEmptyException,
+        Parameters: [
+          {
+            FullId: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String), M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String).argument,
+            FullName: System.ArgumentException.ThrowNullOrEmptyException.argument,
+            Id: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String).argument,
+            Kind: Parameter,
+            Name: argument,
+            ParentId: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String),
+            TypeId: T:System.String
+          },
+          {
+            FullId: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String), M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String).paramName,
+            FullName: System.ArgumentException.ThrowNullOrEmptyException.paramName,
+            Id: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String).paramName,
+            Kind: Parameter,
+            Name: paramName,
+            ParentId: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String),
+            TypeId: T:System.String
+          }
+        ],
+        ParentId: T:System.ArgumentException,
+        ReturnTypeId: T:System.Void
+      },
+      {
+        FullId: T:System.ArgumentException, M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String),
+        FullName: System.ArgumentException.ThrowNullOrWhiteSpaceException,
+        Id: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String),
+        Kind: Method,
+        Modifiers: [
+          Private,
+          Static
+        ],
+        Name: ThrowNullOrWhiteSpaceException,
+        Parameters: [
+          {
+            FullId: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String), M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String).argument,
+            FullName: System.ArgumentException.ThrowNullOrWhiteSpaceException.argument,
+            Id: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String).argument,
+            Kind: Parameter,
+            Name: argument,
+            ParentId: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String),
+            TypeId: T:System.String
+          },
+          {
+            FullId: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String), M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String).paramName,
+            FullName: System.ArgumentException.ThrowNullOrWhiteSpaceException.paramName,
+            Id: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String).paramName,
+            Kind: Parameter,
+            Name: paramName,
+            ParentId: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String),
+            TypeId: T:System.String
+          }
+        ],
+        ParentId: T:System.ArgumentException,
+        ReturnTypeId: T:System.Void
+      },
+      {
+        FullId: T:System.ArgumentException, P:System.ArgumentException.Message,
+        FullName: System.ArgumentException.Message,
+        Id: P:System.ArgumentException.Message,
+        Kind: Property,
+        Modifiers: [
+          Public,
+          Override
+        ],
+        Name: Message,
+        ParentId: T:System.ArgumentException,
+        ReturnTypeId: T:System.String,
+        Returns:
+A text string describing the details of the exception. The value of this property takes one of two forms:  
+  Condition  
+
+  Value  
+
+  The <paramref name="paramName" /> is a null reference (<see langword="Nothing" /> in Visual Basic) or of zero length.  
+
+  The <paramref name="message" /> string passed to the constructor.  
+
+  The <paramref name="paramName" /> is not null reference (<see langword="Nothing" /> in Visual Basic) and it has a length greater than zero.  
+
+  The <paramref name="message" /> string appended with the name of the invalid parameter.,
+        Summary: Gets the error message and the parameter name, or only the error message if no parameter name is set.
+      },
+      {
+        FullId: T:System.ArgumentException, P:System.ArgumentException.ParamName,
+        FullName: System.ArgumentException.ParamName,
+        Id: P:System.ArgumentException.ParamName,
+        Kind: Property,
+        Modifiers: [
+          Public,
+          Virtual
+        ],
+        Name: ParamName,
+        ParentId: T:System.ArgumentException,
+        ReturnTypeId: T:System.String,
+        Returns: The parameter name.,
+        Summary: Gets the name of the parameter that causes this exception.
+      }
+    ],
+    Modifiers: [
+      Public
+    ],
+    Name: ArgumentException,
+    NamespaceId: N:System,
+    ParentId: N:System,
+    Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+  }
+}

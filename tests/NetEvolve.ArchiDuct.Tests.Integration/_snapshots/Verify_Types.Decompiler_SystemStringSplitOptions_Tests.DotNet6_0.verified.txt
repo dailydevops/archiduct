@@ -1,0 +1,56 @@
+﻿{
+  N:System, T:System.StringSplitOptions: {
+    BaseTypes: [
+      T:System.Enum,
+      T:System.ValueType,
+      T:System.Object
+    ],
+    FullId: N:System, T:System.StringSplitOptions,
+    FullName: System.StringSplitOptions,
+    Id: T:System.StringSplitOptions,
+    IsNested: false,
+    Kind: Enum,
+    Members: [
+      {
+        FullId: T:System.StringSplitOptions, F:System.StringSplitOptions.None,
+        FullName: System.StringSplitOptions.None,
+        Id: F:System.StringSplitOptions.None,
+        Kind: EnumMember,
+        Name: None,
+        ParentId: T:System.StringSplitOptions,
+        ReturnTypeId: T:System.StringSplitOptions,
+        Summary: The return value includes array elements that contain an empty string,
+        Value: 0
+      },
+      {
+        FullId: T:System.StringSplitOptions, F:System.StringSplitOptions.RemoveEmptyEntries,
+        FullName: System.StringSplitOptions.RemoveEmptyEntries,
+        Id: F:System.StringSplitOptions.RemoveEmptyEntries,
+        Kind: EnumMember,
+        Name: RemoveEmptyEntries,
+        ParentId: T:System.StringSplitOptions,
+        ReturnTypeId: T:System.StringSplitOptions,
+        Summary: The return value does not include array elements that contain an empty string,
+        Value: 1
+      },
+      {
+        FullId: T:System.StringSplitOptions, F:System.StringSplitOptions.TrimEntries,
+        FullName: System.StringSplitOptions.TrimEntries,
+        Id: F:System.StringSplitOptions.TrimEntries,
+        Kind: EnumMember,
+        Name: TrimEntries,
+        ParentId: T:System.StringSplitOptions,
+        ReturnTypeId: T:System.StringSplitOptions,
+        Value: 2
+      }
+    ],
+    Modifiers: [
+      Public
+    ],
+    Name: StringSplitOptions,
+    NamespaceId: N:System,
+    ParentId: N:System,
+    Summary: Specifies whether applicable <see cref="Overload:System.String.Split" /> method overloads include or omit empty substrings from the return value.,
+    UnderlyingType: T:System.Int32
+  }
+}

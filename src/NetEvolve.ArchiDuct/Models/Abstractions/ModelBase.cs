@@ -71,8 +71,8 @@ public abstract class ModelBase
     /// </summary>
     /// <param name="elementName">Property name within the documentation xml.</param>
     /// <returns>Returns the full documentation for <paramref name="elementName"/> as xml.</returns>
-    public XElement? GetElement(string? elementName) =>
-        elementName is null || string.IsNullOrWhiteSpace(elementName)
+    protected internal XElement? GetElement(string? elementName) =>
+        string.IsNullOrWhiteSpace(elementName)
             ? _documentation
             : _documentation?.Element(elementName.Trim());
 
@@ -81,8 +81,8 @@ public abstract class ModelBase
     /// </summary>
     /// <param name="elementName">Property name within the documentation xml.</param>
     /// <returns>Returns the full documentation for <paramref name="elementName"/> as xml.</returns>
-    public IEnumerable<XElement>? GetElements(string? elementName) =>
-        elementName is null || string.IsNullOrWhiteSpace(elementName)
+    protected internal IEnumerable<XElement>? GetElements(string? elementName) =>
+        string.IsNullOrWhiteSpace(elementName)
             ? _documentation?.Elements()
             : _documentation?.Elements(elementName.Trim());
 
@@ -92,7 +92,7 @@ public abstract class ModelBase
     /// <param name="elementName">Property name within the documentation xml.</param>
     /// <param name="convertElement">Possibility to format child elements.</param>
     /// <returns>Returns the documentation for <paramref name="elementName"/>.</returns>
-    public string? GetElementValue(
+    protected internal string? GetElementValue(
         string? elementName = null,
         Func<XNode?, string?>? convertElement = null
     ) => _documentation.GetElementValue(elementName, convertElement);

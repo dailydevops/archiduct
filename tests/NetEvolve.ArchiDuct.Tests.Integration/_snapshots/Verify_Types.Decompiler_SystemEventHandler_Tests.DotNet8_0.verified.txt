@@ -1,0 +1,45 @@
+﻿{
+  N:System, T:System.EventHandler: {
+    BaseTypes: [
+      T:System.MulticastDelegate,
+      T:System.Delegate,
+      T:System.Object
+    ],
+    FullId: N:System, T:System.EventHandler,
+    FullName: System.EventHandler,
+    Id: T:System.EventHandler,
+    IsNested: false,
+    Kind: Delegate,
+    Modifiers: [
+      Public,
+      Sealed
+    ],
+    Name: EventHandler,
+    NamespaceId: N:System,
+    Parameters: [
+      {
+        FullId: T:System.EventHandler, T:System.EventHandler.sender,
+        FullName: System.EventHandler.sender,
+        Id: T:System.EventHandler.sender,
+        Kind: Parameter,
+        Name: sender,
+        ParentId: T:System.EventHandler,
+        Summary: The source of the event.,
+        TypeId: T:System.Object
+      },
+      {
+        FullId: T:System.EventHandler, T:System.EventHandler.e,
+        FullName: System.EventHandler.e,
+        Id: T:System.EventHandler.e,
+        Kind: Parameter,
+        Name: e,
+        ParentId: T:System.EventHandler,
+        Summary: An object that contains no event data.,
+        TypeId: T:System.EventArgs
+      }
+    ],
+    ParentId: N:System,
+    ReturnTypeId: T:System.Void,
+    Summary: Represents the method that will handle an event that has no event data.
+  }
+}

@@ -147,5 +147,10 @@ public enum ModelModifier
     /// TODO: Proper comments
     /// </summary>
     /// <seealso href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/this"/>
-    This
+    This,
+
+    /// <summary>
+    /// Marks an parameter as optional.
+    /// </summary>
+    Optional,
 }

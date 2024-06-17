@@ -62,12 +62,10 @@ internal sealed partial class Decompiler : IDisposable
         var typeSystem = _decompiler.TypeSystem;
         var mainModule = typeSystem.MainModule;
 
-        if (!TryGetDocumentationProvider(mainModule, out var documentationProvider))
+        if (TryGetDocumentationProvider(mainModule, out var documentationProvider))
         {
-            throw new InvalidOperationException("Unable to load documentation provider.");
+            _decompiler.DocumentationProvider = documentationProvider;
         }
-
-        _decompiler.DocumentationProvider = documentationProvider;
 
         return DecompileModule(mainModule, filters);
     }
@@ -122,7 +120,7 @@ internal sealed partial class Decompiler : IDisposable
                     && member.Name.Equals(x.Name, Ordinal)
                 )
                 .Select(x => x.Id)
-                .ToArray();
+                .ToHashSet();
         }
     }
 
@@ -134,7 +132,7 @@ internal sealed partial class Decompiler : IDisposable
             {
                 modelWithParameters.TypeParameters = genericMethod
                     .TypeParameters.Select(p => new ModelTypeParameter(p, modelWithParameters))
-                    .ToArray();
+                    .ToHashSet();
             }
 
             if (
@@ -144,11 +142,10 @@ internal sealed partial class Decompiler : IDisposable
             {
                 modelWithParameters.Parameters = parameterizedMember
                     .Parameters.Select(p => new ModelParameter(p, modelWithParameters))
-                    .ToArray();
+                    .ToHashSet();
             }
         }
-
-        if (
+        else if (
             result is ModelIndexer modelIndexer
             && member is IParameterizedMember parameterized
             && parameterized.Parameters.Any()
@@ -156,7 +153,7 @@ internal sealed partial class Decompiler : IDisposable
         {
             modelIndexer.Parameters = parameterized
                 .Parameters.Select(p => new ModelParameter(p, modelIndexer))
-                .ToArray();
+                .ToHashSet();
         }
     }
 
@@ -175,12 +172,14 @@ internal sealed partial class Decompiler : IDisposable
         [NotNullWhen(true)] out IDocumentationProvider? documentationProvider
     )
     {
-        if (!_documentationProviders.TryGetValue(module, out documentationProvider))
-        {
-            documentationProvider =
-                XmlDocLoader.LoadDocumentation(module.PEFile) ?? XmlDocLoader.MscorlibDocumentation;
-            return _documentationProviders.TryAdd(module, documentationProvider);
-        }
+        documentationProvider = _documentationProviders.GetOrAdd(
+            module,
+            m =>
+            {
+                return XmlDocLoader.LoadDocumentation(m.PEFile)
+                    ?? XmlDocLoader.MscorlibDocumentation;
+            }
+        );
 
         return true;
     }
@@ -230,23 +229,22 @@ internal sealed partial class Decompiler : IDisposable
         parentModel.AddMember(describedMember);
     }
 
-    private void DescribeMemberModels(ITypeDefinition typeDefinition, ModelTypeBase describedModel)
+    private void MapMemberModels(ITypeDefinition typeDefinition, ModelTypeBase describedModel)
     {
-        if (typeDefinition.Kind != TypeKind.Delegate)
+        if (typeDefinition.Kind == TypeKind.Delegate)
         {
-            foreach (var member in typeDefinition.Members)
-            {
-                DescribeMemberModel(member, describedModel);
-            }
-
-            MapModelMemberOverloads(describedModel);
+            return;
         }
+
+        foreach (var member in typeDefinition.Members)
+        {
+            DescribeMemberModel(member, describedModel);
+        }
+
+        MapModelMemberOverloads(describedModel);
     }
 
-    private void DescribeTypeModel(
-        ITypeDefinition typeDefinition,
-        ModelEntityBase? parentEntity = null
-    )
+    private void MapTypeModel(ITypeDefinition typeDefinition, ModelEntityBase? parentEntity = null)
     {
         if (IsTypeDefinitionExcluded(typeDefinition))
         {
@@ -258,27 +256,20 @@ internal sealed partial class Decompiler : IDisposable
             //TODO: Include undocumented items?
         }
 
-        var ns = GetOrAddNamespace(typeDefinition.Namespace);
-
-        if (parentEntity is null)
-        {
-            parentEntity = ns;
-        }
-
         var describedModel = ModelFactory.CreateModelType(
             typeDefinition,
-            parentEntity,
+            parentEntity ?? GetOrAddNamespace(typeDefinition.Namespace),
             documentation
         );
 
         MapModelTypeParameters(typeDefinition, describedModel);
-        DescribeMemberModels(typeDefinition, describedModel);
+        MapMemberModels(typeDefinition, describedModel);
 
         _modelTypes.Add(describedModel);
 
         foreach (var nestedTypeDefinition in typeDefinition.NestedTypes)
         {
-            DescribeTypeModel(nestedTypeDefinition, describedModel);
+            MapTypeModel(nestedTypeDefinition, describedModel);
         }
     }
 
@@ -291,7 +282,7 @@ internal sealed partial class Decompiler : IDisposable
                 continue;
             }
 
-            DescribeTypeModel(typeDefinition);
+            MapTypeModel(typeDefinition);
         }
     }
 
@@ -321,12 +312,7 @@ internal sealed partial class Decompiler : IDisposable
     {
         var entity = IdStringProvider.FindEntity(id, _resolver);
 
-        if (TryGetDocumentation(entity, out var documentation))
-        {
-            return documentation;
-        }
-
-        return null;
+        return TryGetDocumentation(entity, out var documentation) ? documentation : null;
     }
 
     private ModelNamespace GetOrAddNamespace(string fullNamespace)

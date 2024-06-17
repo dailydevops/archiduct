@@ -1,0 +1,75 @@
+﻿{
+  N:System, T:System.Func`3: {
+    BaseTypes: [
+      T:System.MulticastDelegate,
+      T:System.Delegate,
+      T:System.Object
+    ],
+    FullId: N:System, T:System.Func`3,
+    FullName: System.Func,
+    Id: T:System.Func`3,
+    IsNested: false,
+    Kind: Delegate,
+    Modifiers: [
+      Public,
+      Sealed
+    ],
+    Name: Func,
+    NamespaceId: N:System,
+    Parameters: [
+      {
+        FullId: T:System.Func`3, T:System.Func`3.arg1,
+        FullName: System.Func.arg1,
+        Id: T:System.Func`3.arg1,
+        Kind: Parameter,
+        Name: arg1,
+        ParentId: T:System.Func`3,
+        Summary: The first parameter of the method that this delegate encapsulates.,
+        TypeId: T:System.Func`3.T1
+      },
+      {
+        FullId: T:System.Func`3, T:System.Func`3.arg2,
+        FullName: System.Func.arg2,
+        Id: T:System.Func`3.arg2,
+        Kind: Parameter,
+        Name: arg2,
+        ParentId: T:System.Func`3,
+        Summary: The second parameter of the method that this delegate encapsulates.,
+        TypeId: T:System.Func`3.T2
+      }
+    ],
+    ParentId: N:System,
+    ReturnTypeId: T:System.Func`3.TResult,
+    Returns: The return value of the method that this delegate encapsulates.,
+    Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.,
+    TypeParameters: [
+      {
+        FullId: T:System.Func`3, T:System.Func`3.T1,
+        FullName: System.Func.T1,
+        Id: T:System.Func`3.T1,
+        Kind: TypeParameter,
+        Name: T1,
+        ParentId: T:System.Func`3,
+        Summary: The type of the first parameter of the method that this delegate encapsulates.
+      },
+      {
+        FullId: T:System.Func`3, T:System.Func`3.T2,
+        FullName: System.Func.T2,
+        Id: T:System.Func`3.T2,
+        Kind: TypeParameter,
+        Name: T2,
+        ParentId: T:System.Func`3,
+        Summary: The type of the second parameter of the method that this delegate encapsulates.
+      },
+      {
+        FullId: T:System.Func`3, T:System.Func`3.TResult,
+        FullName: System.Func.TResult,
+        Id: T:System.Func`3.TResult,
+        Kind: TypeParameter,
+        Name: TResult,
+        ParentId: T:System.Func`3,
+        Summary: The type of the return value of the method that this delegate encapsulates.
+      }
+    ]
+  }
+}

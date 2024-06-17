@@ -77,12 +77,39 @@ public interface IArchitectureCollector
         bool includeReferences = false
     );
 
+    /// <summary>
+    /// Adds a namespace filter to all previously added assemblies. If the filter is applied, only the types that match the filter will be collected.
+    /// </summary>
+    /// <param name="constraint">
+    /// The constraint to filter the namespaces.
+    /// </param>
+    /// <returns>
+    /// The current instance of the <see cref="IArchitectureCollector"/>.
+    /// </returns>
     IArchitectureCollector FilterNamespace(IConstraint constraint);
 
-    IArchitectureCollector FilterType(Type type, bool includeReferences = false);
+    /// <summary>
+    /// Adds a <see cref="Type"/> filter to the assembly. If the filter is applied, only the types that match the filter will be collected.
+    /// </summary>
+    /// <param name="type">
+    /// The type to filter.
+    /// </param>
+    /// <returns>
+    /// The current instance of the <see cref="IArchitectureCollector"/>.
+    /// </returns>
+    IArchitectureCollector FilterType(Type type);
 
-    IArchitectureCollector FilterType<T>(bool includeReferences = false)
-        where T : notnull => FilterType(typeof(T), includeReferences);
+    /// <summary>
+    /// Adds a <see cref="Type"/> filter to the assembly. If the filter is applied, only the types that match the filter will be collected.
+    /// </summary>
+    /// <typeparam name="T">
+    /// The type to filter.
+    /// </typeparam>
+    /// <returns>
+    /// The current instance of the <see cref="IArchitectureCollector"/>.
+    /// </returns>
+    IArchitectureCollector FilterType<T>()
+        where T : notnull => FilterType(typeof(T));
 
     /// <summary>
     /// Executes the collection of the assembly information and types.

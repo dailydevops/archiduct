@@ -1,0 +1,271 @@
+﻿{
+  N:System, T:System.Range: {
+    BaseTypes: [
+      T:System.ValueType,
+      T:System.Object
+    ],
+    FullId: N:System, T:System.Range,
+    FullName: System.Range,
+    Id: T:System.Range,
+    Implementations: [
+      T:System.IEquatable`1
+    ],
+    InheritedMembers: [
+      M:System.ValueType.Equals(System.Object),
+      M:System.ValueType.CanCompareBits(System.Object),
+      M:System.ValueType.GetHashCode,
+      M:System.ValueType.ToString,
+      M:System.Object.GetType,
+      M:System.Object.MemberwiseClone,
+      M:System.Object.Finalize,
+      M:System.Object.ToString,
+      M:System.Object.Equals(System.Object),
+      M:System.Object.Equals(System.Object,System.Object),
+      M:System.Object.ReferenceEquals(System.Object,System.Object),
+      M:System.Object.GetHashCode
+    ],
+    IsNested: false,
+    Kind: Struct,
+    Members: [
+      {
+        FullId: T:System.Range, M:System.Range.#ctor(System.Index,System.Index),
+        FullName: System.Range..ctor,
+        Id: M:System.Range.#ctor(System.Index,System.Index),
+        Kind: Constructor,
+        Modifiers: [
+          Public
+        ],
+        Name: .ctor,
+        Parameters: [
+          {
+            FullId: M:System.Range.#ctor(System.Index,System.Index), M:System.Range.#ctor(System.Index,System.Index).start,
+            FullName: System.Range..ctor.start,
+            Id: M:System.Range.#ctor(System.Index,System.Index).start,
+            Kind: Parameter,
+            Name: start,
+            ParentId: M:System.Range.#ctor(System.Index,System.Index),
+            TypeId: T:System.Index
+          },
+          {
+            FullId: M:System.Range.#ctor(System.Index,System.Index), M:System.Range.#ctor(System.Index,System.Index).end,
+            FullName: System.Range..ctor.end,
+            Id: M:System.Range.#ctor(System.Index,System.Index).end,
+            Kind: Parameter,
+            Name: end,
+            ParentId: M:System.Range.#ctor(System.Index,System.Index),
+            TypeId: T:System.Index
+          }
+        ],
+        ParentId: T:System.Range,
+        ReturnTypeId: T:System.Void
+      },
+      {
+        FullId: T:System.Range, M:System.Range.Equals(System.Object),
+        FullName: System.Range.Equals,
+        Id: M:System.Range.Equals(System.Object),
+        Kind: Method,
+        Modifiers: [
+          Public,
+          Override
+        ],
+        Name: Equals,
+        OverloadedMembers: [
+          M:System.Range.Equals(System.Range)
+        ],
+        Parameters: [
+          {
+            FullId: M:System.Range.Equals(System.Object), M:System.Range.Equals(System.Object).value,
+            FullName: System.Range.Equals.value,
+            Id: M:System.Range.Equals(System.Object).value,
+            Kind: Parameter,
+            Name: value,
+            ParentId: M:System.Range.Equals(System.Object),
+            TypeId: T:System.Object
+          }
+        ],
+        ParentId: T:System.Range,
+        ReturnTypeId: T:System.Boolean
+      },
+      {
+        FullId: T:System.Range, M:System.Range.Equals(System.Range),
+        FullName: System.Range.Equals,
+        Id: M:System.Range.Equals(System.Range),
+        Kind: Method,
+        Modifiers: [
+          Public
+        ],
+        Name: Equals,
+        OverloadedMembers: [
+          M:System.Range.Equals(System.Object)
+        ],
+        Parameters: [
+          {
+            FullId: M:System.Range.Equals(System.Range), M:System.Range.Equals(System.Range).other,
+            FullName: System.Range.Equals.other,
+            Id: M:System.Range.Equals(System.Range).other,
+            Kind: Parameter,
+            Name: other,
+            ParentId: M:System.Range.Equals(System.Range),
+            TypeId: T:System.Range
+          }
+        ],
+        ParentId: T:System.Range,
+        ReturnTypeId: T:System.Boolean
+      },
+      {
+        FullId: T:System.Range, M:System.Range.GetHashCode,
+        FullName: System.Range.GetHashCode,
+        Id: M:System.Range.GetHashCode,
+        Kind: Method,
+        Modifiers: [
+          Public,
+          Override
+        ],
+        Name: GetHashCode,
+        ParentId: T:System.Range,
+        ReturnTypeId: T:System.Int32
+      },
+      {
+        FullId: T:System.Range, M:System.Range.ToString,
+        FullName: System.Range.ToString,
+        Id: M:System.Range.ToString,
+        Kind: Method,
+        Modifiers: [
+          Public,
+          Override
+        ],
+        Name: ToString,
+        ParentId: T:System.Range,
+        ReturnTypeId: T:System.String
+      },
+      {
+        FullId: T:System.Range, M:System.Range.StartAt(System.Index),
+        FullName: System.Range.StartAt,
+        Id: M:System.Range.StartAt(System.Index),
+        Kind: Method,
+        Modifiers: [
+          Public,
+          Static
+        ],
+        Name: StartAt,
+        Parameters: [
+          {
+            FullId: M:System.Range.StartAt(System.Index), M:System.Range.StartAt(System.Index).start,
+            FullName: System.Range.StartAt.start,
+            Id: M:System.Range.StartAt(System.Index).start,
+            Kind: Parameter,
+            Name: start,
+            ParentId: M:System.Range.StartAt(System.Index),
+            TypeId: T:System.Index
+          }
+        ],
+        ParentId: T:System.Range,
+        ReturnTypeId: T:System.Range
+      },
+      {
+        FullId: T:System.Range, M:System.Range.EndAt(System.Index),
+        FullName: System.Range.EndAt,
+        Id: M:System.Range.EndAt(System.Index),
+        Kind: Method,
+        Modifiers: [
+          Public,
+          Static
+        ],
+        Name: EndAt,
+        Parameters: [
+          {
+            FullId: M:System.Range.EndAt(System.Index), M:System.Range.EndAt(System.Index).end,
+            FullName: System.Range.EndAt.end,
+            Id: M:System.Range.EndAt(System.Index).end,
+            Kind: Parameter,
+            Name: end,
+            ParentId: M:System.Range.EndAt(System.Index),
+            TypeId: T:System.Index
+          }
+        ],
+        ParentId: T:System.Range,
+        ReturnTypeId: T:System.Range
+      },
+      {
+        FullId: T:System.Range, M:System.Range.GetOffsetAndLength(System.Int32),
+        FullName: System.Range.GetOffsetAndLength,
+        Id: M:System.Range.GetOffsetAndLength(System.Int32),
+        Kind: Method,
+        Modifiers: [
+          Public
+        ],
+        Name: GetOffsetAndLength,
+        Parameters: [
+          {
+            FullId: M:System.Range.GetOffsetAndLength(System.Int32), M:System.Range.GetOffsetAndLength(System.Int32).length,
+            FullName: System.Range.GetOffsetAndLength.length,
+            Id: M:System.Range.GetOffsetAndLength(System.Int32).length,
+            Kind: Parameter,
+            Name: length,
+            ParentId: M:System.Range.GetOffsetAndLength(System.Int32),
+            TypeId: T:System.Int32
+          }
+        ],
+        ParentId: T:System.Range,
+        ReturnTypeId: T:System.ValueTuple`2[[System.Int32],[System.Int32]]
+      },
+      {
+        FullId: T:System.Range, M:System.Range.ThrowArgumentOutOfRangeException,
+        FullName: System.Range.ThrowArgumentOutOfRangeException,
+        Id: M:System.Range.ThrowArgumentOutOfRangeException,
+        Kind: Method,
+        Modifiers: [
+          Private,
+          Static
+        ],
+        Name: ThrowArgumentOutOfRangeException,
+        ParentId: T:System.Range,
+        ReturnTypeId: T:System.Void
+      },
+      {
+        FullId: T:System.Range, P:System.Range.Start,
+        FullName: System.Range.Start,
+        Id: P:System.Range.Start,
+        Kind: Property,
+        Modifiers: [
+          Public
+        ],
+        Name: Start,
+        ParentId: T:System.Range,
+        ReturnTypeId: T:System.Index
+      },
+      {
+        FullId: T:System.Range, P:System.Range.End,
+        FullName: System.Range.End,
+        Id: P:System.Range.End,
+        Kind: Property,
+        Modifiers: [
+          Public
+        ],
+        Name: End,
+        ParentId: T:System.Range,
+        ReturnTypeId: T:System.Index
+      },
+      {
+        FullId: T:System.Range, P:System.Range.All,
+        FullName: System.Range.All,
+        Id: P:System.Range.All,
+        Kind: Property,
+        Modifiers: [
+          Public,
+          Static
+        ],
+        Name: All,
+        ParentId: T:System.Range,
+        ReturnTypeId: T:System.Range
+      }
+    ],
+    Modifiers: [
+      Public,
+      ReadOnly
+    ],
+    Name: Range,
+    NamespaceId: N:System,
+    ParentId: N:System
+  }
+}

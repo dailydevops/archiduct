@@ -8,18 +8,16 @@ using static NetEvolve.ArchiDuct.Models.DocumentationXmlPropertyConstants;
 
 internal static class XElementExtensions
 {
-    private static readonly Func<XNode?, string?> _defaultConvert = (node) =>
-    {
-        return node switch
+    private static readonly Func<XNode?, string?> _defaultConvert = node =>
+        node switch
         {
-            null => null,
+            null => string.Empty,
             XElement element when element.Name.LocalName.Equals(Para, OrdinalIgnoreCase)
                 => element.Value,
             XCData cData => cData.Value,
             XText text => text.Value,
             _ => node.ToString(),
         };
-    };
 
     public static string? GetCRefAttribute(this XElement? element) =>
         element?.Attribute(CRef)?.Value;

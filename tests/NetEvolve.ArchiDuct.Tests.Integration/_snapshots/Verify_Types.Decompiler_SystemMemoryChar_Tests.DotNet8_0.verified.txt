@@ -1,0 +1,683 @@
+﻿{
+  N:System, T:System.Memory`1: {
+    BaseTypes: [
+      T:System.ValueType,
+      T:System.Object
+    ],
+    FullId: N:System, T:System.Memory`1,
+    FullName: System.Memory,
+    Id: T:System.Memory`1,
+    Implementations: [
+      T:System.IEquatable`1
+    ],
+    InheritedMembers: [
+      M:System.ValueType.Equals(System.Object),
+      M:System.ValueType.CanCompareBits(System.Object),
+      M:System.ValueType.GetHashCode,
+      M:System.ValueType.ToString,
+      M:System.Object.GetType,
+      M:System.Object.MemberwiseClone,
+      M:System.Object.Finalize,
+      M:System.Object.ToString,
+      M:System.Object.Equals(System.Object),
+      M:System.Object.Equals(System.Object,System.Object),
+      M:System.Object.ReferenceEquals(System.Object,System.Object),
+      M:System.Object.GetHashCode
+    ],
+    IsNested: false,
+    Kind: Struct,
+    Members: [
+      {
+        FullId: T:System.Memory`1, F:System.Memory`1._object,
+        FullName: System.Memory._object,
+        Id: F:System.Memory`1._object,
+        Kind: Field,
+        Modifiers: [
+          Private,
+          ReadOnly
+        ],
+        Name: _object,
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Object
+      },
+      {
+        FullId: T:System.Memory`1, F:System.Memory`1._index,
+        FullName: System.Memory._index,
+        Id: F:System.Memory`1._index,
+        Kind: Field,
+        Modifiers: [
+          Private,
+          ReadOnly
+        ],
+        Name: _index,
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Int32
+      },
+      {
+        FullId: T:System.Memory`1, F:System.Memory`1._length,
+        FullName: System.Memory._length,
+        Id: F:System.Memory`1._length,
+        Kind: Field,
+        Modifiers: [
+          Private,
+          ReadOnly
+        ],
+        Name: _length,
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Int32
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.#ctor(`0[]),
+        FullName: System.Memory..ctor,
+        Id: M:System.Memory`1.#ctor(`0[]),
+        Kind: Constructor,
+        Modifiers: [
+          Public
+        ],
+        Name: .ctor,
+        OverloadedMembers: [
+          M:System.Memory`1.#ctor(`0[],System.Int32),
+          M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+          M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+          M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+          M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32)
+        ],
+        Parameters: [
+          {
+            FullId: M:System.Memory`1.#ctor(`0[]), M:System.Memory`1.#ctor(`0[]).array,
+            FullName: System.Memory..ctor.array,
+            Id: M:System.Memory`1.#ctor(`0[]).array,
+            Kind: Parameter,
+            Name: array,
+            ParentId: M:System.Memory`1.#ctor(`0[]),
+            TypeId: T:`0[]
+          }
+        ],
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Void
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.#ctor(`0[],System.Int32),
+        FullName: System.Memory..ctor,
+        Id: M:System.Memory`1.#ctor(`0[],System.Int32),
+        Kind: Constructor,
+        Modifiers: [
+          Internal
+        ],
+        Name: .ctor,
+        OverloadedMembers: [
+          M:System.Memory`1.#ctor(`0[]),
+          M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+          M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+          M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+          M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32)
+        ],
+        Parameters: [
+          {
+            FullId: M:System.Memory`1.#ctor(`0[],System.Int32), M:System.Memory`1.#ctor(`0[],System.Int32).array,
+            FullName: System.Memory..ctor.array,
+            Id: M:System.Memory`1.#ctor(`0[],System.Int32).array,
+            Kind: Parameter,
+            Name: array,
+            ParentId: M:System.Memory`1.#ctor(`0[],System.Int32),
+            TypeId: T:`0[]
+          },
+          {
+            FullId: M:System.Memory`1.#ctor(`0[],System.Int32), M:System.Memory`1.#ctor(`0[],System.Int32).start,
+            FullName: System.Memory..ctor.start,
+            Id: M:System.Memory`1.#ctor(`0[],System.Int32).start,
+            Kind: Parameter,
+            Name: start,
+            ParentId: M:System.Memory`1.#ctor(`0[],System.Int32),
+            TypeId: T:System.Int32
+          }
+        ],
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Void
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+        FullName: System.Memory..ctor,
+        Id: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+        Kind: Constructor,
+        Modifiers: [
+          Public
+        ],
+        Name: .ctor,
+        OverloadedMembers: [
+          M:System.Memory`1.#ctor(`0[]),
+          M:System.Memory`1.#ctor(`0[],System.Int32),
+          M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+          M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+          M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32)
+        ],
+        Parameters: [
+          {
+            FullId: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32), M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).array,
+            FullName: System.Memory..ctor.array,
+            Id: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).array,
+            Kind: Parameter,
+            Name: array,
+            ParentId: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+            TypeId: T:`0[]
+          },
+          {
+            FullId: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32), M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).start,
+            FullName: System.Memory..ctor.start,
+            Id: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).start,
+            Kind: Parameter,
+            Name: start,
+            ParentId: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+            TypeId: T:System.Int32
+          },
+          {
+            FullId: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32), M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).length,
+            FullName: System.Memory..ctor.length,
+            Id: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).length,
+            Kind: Parameter,
+            Name: length,
+            ParentId: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+            TypeId: T:System.Int32
+          }
+        ],
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Void
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+        FullName: System.Memory..ctor,
+        Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+        Kind: Constructor,
+        Modifiers: [
+          Internal
+        ],
+        Name: .ctor,
+        OverloadedMembers: [
+          M:System.Memory`1.#ctor(`0[]),
+          M:System.Memory`1.#ctor(`0[],System.Int32),
+          M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+          M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+          M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32)
+        ],
+        Parameters: [
+          {
+            FullId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32), M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32).manager,
+            FullName: System.Memory..ctor.manager,
+            Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32).manager,
+            Kind: Parameter,
+            Name: manager,
+            ParentId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+            TypeId: T:System.Buffers.MemoryManager`1[[`0]]
+          },
+          {
+            FullId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32), M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32).length,
+            FullName: System.Memory..ctor.length,
+            Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32).length,
+            Kind: Parameter,
+            Name: length,
+            ParentId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+            TypeId: T:System.Int32
+          }
+        ],
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Void
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+        FullName: System.Memory..ctor,
+        Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+        Kind: Constructor,
+        Modifiers: [
+          Internal
+        ],
+        Name: .ctor,
+        OverloadedMembers: [
+          M:System.Memory`1.#ctor(`0[]),
+          M:System.Memory`1.#ctor(`0[],System.Int32),
+          M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+          M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+          M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32)
+        ],
+        Parameters: [
+          {
+            FullId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32), M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).manager,
+            FullName: System.Memory..ctor.manager,
+            Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).manager,
+            Kind: Parameter,
+            Name: manager,
+            ParentId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+            TypeId: T:System.Buffers.MemoryManager`1[[`0]]
+          },
+          {
+            FullId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32), M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).start,
+            FullName: System.Memory..ctor.start,
+            Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).start,
+            Kind: Parameter,
+            Name: start,
+            ParentId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+            TypeId: T:System.Int32
+          },
+          {
+            FullId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32), M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).length,
+            FullName: System.Memory..ctor.length,
+            Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).length,
+            Kind: Parameter,
+            Name: length,
+            ParentId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+            TypeId: T:System.Int32
+          }
+        ],
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Void
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+        FullName: System.Memory..ctor,
+        Id: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+        Kind: Constructor,
+        Modifiers: [
+          Internal
+        ],
+        Name: .ctor,
+        OverloadedMembers: [
+          M:System.Memory`1.#ctor(`0[]),
+          M:System.Memory`1.#ctor(`0[],System.Int32),
+          M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+          M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+          M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32)
+        ],
+        Parameters: [
+          {
+            FullId: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32), M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).obj,
+            FullName: System.Memory..ctor.obj,
+            Id: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).obj,
+            Kind: Parameter,
+            Name: obj,
+            ParentId: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+            TypeId: T:System.Object
+          },
+          {
+            FullId: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32), M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).start,
+            FullName: System.Memory..ctor.start,
+            Id: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).start,
+            Kind: Parameter,
+            Name: start,
+            ParentId: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+            TypeId: T:System.Int32
+          },
+          {
+            FullId: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32), M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).length,
+            FullName: System.Memory..ctor.length,
+            Id: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).length,
+            Kind: Parameter,
+            Name: length,
+            ParentId: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+            TypeId: T:System.Int32
+          }
+        ],
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Void
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
+        FullName: System.Memory.op_Implicit,
+        Id: M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
+        Kind: Operator,
+        Modifiers: [
+          Public,
+          Static
+        ],
+        Name: op_Implicit,
+        OverloadedMembers: [
+          M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0},
+          M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0}
+        ],
+        Parameters: [
+          {
+            FullId: M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0}, M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0}.array,
+            FullName: System.Memory.op_Implicit.array,
+            Id: M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0}.array,
+            Kind: Parameter,
+            Name: array,
+            ParentId: M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
+            TypeId: T:`0[]
+          }
+        ],
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Memory`1[[`0]]
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0},
+        FullName: System.Memory.op_Implicit,
+        Id: M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0},
+        Kind: Operator,
+        Modifiers: [
+          Public,
+          Static
+        ],
+        Name: op_Implicit,
+        OverloadedMembers: [
+          M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
+          M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0}
+        ],
+        Parameters: [
+          {
+            FullId: M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0}, M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0}.segment,
+            FullName: System.Memory.op_Implicit.segment,
+            Id: M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0}.segment,
+            Kind: Parameter,
+            Name: segment,
+            ParentId: M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0},
+            TypeId: T:System.ArraySegment`1[[`0]]
+          }
+        ],
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Memory`1[[`0]]
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0},
+        FullName: System.Memory.op_Implicit,
+        Id: M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0},
+        Kind: Operator,
+        Modifiers: [
+          Public,
+          Static
+        ],
+        Name: op_Implicit,
+        OverloadedMembers: [
+          M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
+          M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0}
+        ],
+        Parameters: [
+          {
+            FullId: M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0}, M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0}.memory,
+            FullName: System.Memory.op_Implicit.memory,
+            Id: M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0}.memory,
+            Kind: Parameter,
+            Name: memory,
+            ParentId: M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0},
+            TypeId: T:System.Memory`1[[`0]]
+          }
+        ],
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.ReadOnlyMemory`1[[`0]]
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.ToString,
+        FullName: System.Memory.ToString,
+        Id: M:System.Memory`1.ToString,
+        Kind: Method,
+        Modifiers: [
+          Public,
+          Override
+        ],
+        Name: ToString,
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.String
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.Slice(System.Int32),
+        FullName: System.Memory.Slice,
+        Id: M:System.Memory`1.Slice(System.Int32),
+        Kind: Method,
+        Modifiers: [
+          Public
+        ],
+        Name: Slice,
+        OverloadedMembers: [
+          M:System.Memory`1.Slice(System.Int32,System.Int32)
+        ],
+        Parameters: [
+          {
+            FullId: M:System.Memory`1.Slice(System.Int32), M:System.Memory`1.Slice(System.Int32).start,
+            FullName: System.Memory.Slice.start,
+            Id: M:System.Memory`1.Slice(System.Int32).start,
+            Kind: Parameter,
+            Name: start,
+            ParentId: M:System.Memory`1.Slice(System.Int32),
+            TypeId: T:System.Int32
+          }
+        ],
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Memory`1[[`0]]
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.Slice(System.Int32,System.Int32),
+        FullName: System.Memory.Slice,
+        Id: M:System.Memory`1.Slice(System.Int32,System.Int32),
+        Kind: Method,
+        Modifiers: [
+          Public
+        ],
+        Name: Slice,
+        OverloadedMembers: [
+          M:System.Memory`1.Slice(System.Int32)
+        ],
+        Parameters: [
+          {
+            FullId: M:System.Memory`1.Slice(System.Int32,System.Int32), M:System.Memory`1.Slice(System.Int32,System.Int32).start,
+            FullName: System.Memory.Slice.start,
+            Id: M:System.Memory`1.Slice(System.Int32,System.Int32).start,
+            Kind: Parameter,
+            Name: start,
+            ParentId: M:System.Memory`1.Slice(System.Int32,System.Int32),
+            TypeId: T:System.Int32
+          },
+          {
+            FullId: M:System.Memory`1.Slice(System.Int32,System.Int32), M:System.Memory`1.Slice(System.Int32,System.Int32).length,
+            FullName: System.Memory.Slice.length,
+            Id: M:System.Memory`1.Slice(System.Int32,System.Int32).length,
+            Kind: Parameter,
+            Name: length,
+            ParentId: M:System.Memory`1.Slice(System.Int32,System.Int32),
+            TypeId: T:System.Int32
+          }
+        ],
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Memory`1[[`0]]
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.CopyTo(System.Memory{`0}),
+        FullName: System.Memory.CopyTo,
+        Id: M:System.Memory`1.CopyTo(System.Memory{`0}),
+        Kind: Method,
+        Modifiers: [
+          Public
+        ],
+        Name: CopyTo,
+        Parameters: [
+          {
+            FullId: M:System.Memory`1.CopyTo(System.Memory{`0}), M:System.Memory`1.CopyTo(System.Memory{`0}).destination,
+            FullName: System.Memory.CopyTo.destination,
+            Id: M:System.Memory`1.CopyTo(System.Memory{`0}).destination,
+            Kind: Parameter,
+            Name: destination,
+            ParentId: M:System.Memory`1.CopyTo(System.Memory{`0}),
+            TypeId: T:System.Memory`1[[`0]]
+          }
+        ],
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Void
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.TryCopyTo(System.Memory{`0}),
+        FullName: System.Memory.TryCopyTo,
+        Id: M:System.Memory`1.TryCopyTo(System.Memory{`0}),
+        Kind: Method,
+        Modifiers: [
+          Public
+        ],
+        Name: TryCopyTo,
+        Parameters: [
+          {
+            FullId: M:System.Memory`1.TryCopyTo(System.Memory{`0}), M:System.Memory`1.TryCopyTo(System.Memory{`0}).destination,
+            FullName: System.Memory.TryCopyTo.destination,
+            Id: M:System.Memory`1.TryCopyTo(System.Memory{`0}).destination,
+            Kind: Parameter,
+            Name: destination,
+            ParentId: M:System.Memory`1.TryCopyTo(System.Memory{`0}),
+            TypeId: T:System.Memory`1[[`0]]
+          }
+        ],
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Boolean
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.Pin,
+        FullName: System.Memory.Pin,
+        Id: M:System.Memory`1.Pin,
+        Kind: Method,
+        Modifiers: [
+          Public
+        ],
+        Name: Pin,
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Buffers.MemoryHandle
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.ToArray,
+        FullName: System.Memory.ToArray,
+        Id: M:System.Memory`1.ToArray,
+        Kind: Method,
+        Modifiers: [
+          Public
+        ],
+        Name: ToArray,
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:`0[]
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.Equals(System.Object),
+        FullName: System.Memory.Equals,
+        Id: M:System.Memory`1.Equals(System.Object),
+        Kind: Method,
+        Modifiers: [
+          Public,
+          Override
+        ],
+        Name: Equals,
+        OverloadedMembers: [
+          M:System.Memory`1.Equals(System.Memory{`0})
+        ],
+        Parameters: [
+          {
+            FullId: M:System.Memory`1.Equals(System.Object), M:System.Memory`1.Equals(System.Object).obj,
+            FullName: System.Memory.Equals.obj,
+            Id: M:System.Memory`1.Equals(System.Object).obj,
+            Kind: Parameter,
+            Name: obj,
+            ParentId: M:System.Memory`1.Equals(System.Object),
+            TypeId: T:System.Object
+          }
+        ],
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Boolean
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.Equals(System.Memory{`0}),
+        FullName: System.Memory.Equals,
+        Id: M:System.Memory`1.Equals(System.Memory{`0}),
+        Kind: Method,
+        Modifiers: [
+          Public
+        ],
+        Name: Equals,
+        OverloadedMembers: [
+          M:System.Memory`1.Equals(System.Object)
+        ],
+        Parameters: [
+          {
+            FullId: M:System.Memory`1.Equals(System.Memory{`0}), M:System.Memory`1.Equals(System.Memory{`0}).other,
+            FullName: System.Memory.Equals.other,
+            Id: M:System.Memory`1.Equals(System.Memory{`0}).other,
+            Kind: Parameter,
+            Name: other,
+            ParentId: M:System.Memory`1.Equals(System.Memory{`0}),
+            TypeId: T:System.Memory`1[[`0]]
+          }
+        ],
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Boolean
+      },
+      {
+        FullId: T:System.Memory`1, M:System.Memory`1.GetHashCode,
+        FullName: System.Memory.GetHashCode,
+        Id: M:System.Memory`1.GetHashCode,
+        Kind: Method,
+        Modifiers: [
+          Public,
+          Override
+        ],
+        Name: GetHashCode,
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Int32
+      },
+      {
+        FullId: T:System.Memory`1, P:System.Memory`1.Empty,
+        FullName: System.Memory.Empty,
+        Id: P:System.Memory`1.Empty,
+        Kind: Property,
+        Modifiers: [
+          Public,
+          Static
+        ],
+        Name: Empty,
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Memory`1[[`0]]
+      },
+      {
+        FullId: T:System.Memory`1, P:System.Memory`1.Length,
+        FullName: System.Memory.Length,
+        Id: P:System.Memory`1.Length,
+        Kind: Property,
+        Modifiers: [
+          Public
+        ],
+        Name: Length,
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Int32
+      },
+      {
+        FullId: T:System.Memory`1, P:System.Memory`1.IsEmpty,
+        FullName: System.Memory.IsEmpty,
+        Id: P:System.Memory`1.IsEmpty,
+        Kind: Property,
+        Modifiers: [
+          Public
+        ],
+        Name: IsEmpty,
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Boolean
+      },
+      {
+        FullId: T:System.Memory`1, P:System.Memory`1.Span,
+        FullName: System.Memory.Span,
+        Id: P:System.Memory`1.Span,
+        Kind: Property,
+        Modifiers: [
+          Public
+        ],
+        Name: Span,
+        ParentId: T:System.Memory`1,
+        ReturnTypeId: T:System.Span`1[[`0]]
+      }
+    ],
+    Modifiers: [
+      Public,
+      ReadOnly
+    ],
+    Name: Memory,
+    NamespaceId: N:System,
+    ParentId: N:System,
+    TypeParameters: [
+      {
+        FullId: T:System.Memory`1, T:System.Memory`1.T,
+        FullName: System.Memory.T,
+        Id: T:System.Memory`1.T,
+        Kind: TypeParameter,
+        Name: T,
+        ParentId: T:System.Memory`1
+      }
+    ]
+  }
+}

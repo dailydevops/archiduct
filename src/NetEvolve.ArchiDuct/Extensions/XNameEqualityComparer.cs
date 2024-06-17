@@ -13,7 +13,7 @@ internal sealed class XNameEqualityComparer : IEqualityComparer<XName?>
     private XNameEqualityComparer() { }
 
     public bool Equals(XName? x, XName? y) =>
-        x == y || x is not null && y is not null && x.LocalName.Equals(y.LocalName, Ordinal);
+        x == y || (x is not null && y is not null && x.LocalName.Equals(y.LocalName, Ordinal));
 
     public int GetHashCode(XName? obj) => obj?.GetHashCode() ?? default;
 }

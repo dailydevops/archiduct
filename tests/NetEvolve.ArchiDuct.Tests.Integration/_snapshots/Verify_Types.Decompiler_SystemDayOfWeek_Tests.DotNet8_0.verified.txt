@@ -1,0 +1,101 @@
+﻿{
+  N:System, T:System.DayOfWeek: {
+    BaseTypes: [
+      T:System.Enum,
+      T:System.ValueType,
+      T:System.Object
+    ],
+    FullId: N:System, T:System.DayOfWeek,
+    FullName: System.DayOfWeek,
+    Id: T:System.DayOfWeek,
+    IsNested: false,
+    Kind: Enum,
+    Members: [
+      {
+        FullId: T:System.DayOfWeek, F:System.DayOfWeek.Sunday,
+        FullName: System.DayOfWeek.Sunday,
+        Id: F:System.DayOfWeek.Sunday,
+        Kind: EnumMember,
+        Name: Sunday,
+        ParentId: T:System.DayOfWeek,
+        ReturnTypeId: T:System.DayOfWeek,
+        Summary: Indicates Sunday.,
+        Value: 0
+      },
+      {
+        FullId: T:System.DayOfWeek, F:System.DayOfWeek.Monday,
+        FullName: System.DayOfWeek.Monday,
+        Id: F:System.DayOfWeek.Monday,
+        Kind: EnumMember,
+        Name: Monday,
+        ParentId: T:System.DayOfWeek,
+        ReturnTypeId: T:System.DayOfWeek,
+        Summary: Indicates Monday.,
+        Value: 1
+      },
+      {
+        FullId: T:System.DayOfWeek, F:System.DayOfWeek.Tuesday,
+        FullName: System.DayOfWeek.Tuesday,
+        Id: F:System.DayOfWeek.Tuesday,
+        Kind: EnumMember,
+        Name: Tuesday,
+        ParentId: T:System.DayOfWeek,
+        ReturnTypeId: T:System.DayOfWeek,
+        Summary: Indicates Tuesday.,
+        Value: 2
+      },
+      {
+        FullId: T:System.DayOfWeek, F:System.DayOfWeek.Wednesday,
+        FullName: System.DayOfWeek.Wednesday,
+        Id: F:System.DayOfWeek.Wednesday,
+        Kind: EnumMember,
+        Name: Wednesday,
+        ParentId: T:System.DayOfWeek,
+        ReturnTypeId: T:System.DayOfWeek,
+        Summary: Indicates Wednesday.,
+        Value: 3
+      },
+      {
+        FullId: T:System.DayOfWeek, F:System.DayOfWeek.Thursday,
+        FullName: System.DayOfWeek.Thursday,
+        Id: F:System.DayOfWeek.Thursday,
+        Kind: EnumMember,
+        Name: Thursday,
+        ParentId: T:System.DayOfWeek,
+        ReturnTypeId: T:System.DayOfWeek,
+        Summary: Indicates Thursday.,
+        Value: 4
+      },
+      {
+        FullId: T:System.DayOfWeek, F:System.DayOfWeek.Friday,
+        FullName: System.DayOfWeek.Friday,
+        Id: F:System.DayOfWeek.Friday,
+        Kind: EnumMember,
+        Name: Friday,
+        ParentId: T:System.DayOfWeek,
+        ReturnTypeId: T:System.DayOfWeek,
+        Summary: Indicates Friday.,
+        Value: 5
+      },
+      {
+        FullId: T:System.DayOfWeek, F:System.DayOfWeek.Saturday,
+        FullName: System.DayOfWeek.Saturday,
+        Id: F:System.DayOfWeek.Saturday,
+        Kind: EnumMember,
+        Name: Saturday,
+        ParentId: T:System.DayOfWeek,
+        ReturnTypeId: T:System.DayOfWeek,
+        Summary: Indicates Saturday.,
+        Value: 6
+      }
+    ],
+    Modifiers: [
+      Public
+    ],
+    Name: DayOfWeek,
+    NamespaceId: N:System,
+    ParentId: N:System,
+    Summary: Specifies the day of the week.,
+    UnderlyingType: T:System.Int32
+  }
+}

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
 using ICSharpCode.Decompiler.TypeSystem;
+using NetEvolve.ArchiDuct.Internals;
 using NetEvolve.ArchiDuct.Models.Abstractions;
 using NetEvolve.ArchiDuct.Models.Members;
 
@@ -23,6 +24,11 @@ public sealed class ModelDelegate : ModelTypeBase
     /// <inheritdoc />
     public IEnumerable<ModelParameter> Parameters { get; } = default!;
 
+    /// <summary>
+    /// Returns the type id of the parameter.
+    /// </summary>
+    public string ReturnTypeId { get; } = default!;
+
     /// <inheritdoc />
     internal ModelDelegate(
         ITypeDefinition typeDefinition,
@@ -36,6 +42,8 @@ public sealed class ModelDelegate : ModelTypeBase
             Parameters = delegateMethod
                 .Parameters.Select(p => new ModelParameter(p, this))
                 .ToArray();
+
+            ReturnTypeId = ModelFactory.GetReturnTypeId(delegateMethod);
         }
     }
 }

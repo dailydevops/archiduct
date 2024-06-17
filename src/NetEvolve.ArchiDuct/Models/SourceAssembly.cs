@@ -3,8 +3,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-internal sealed record SourceAssembly
+internal sealed record SourceAssembly(Assembly Assembly)
 {
-    public Assembly Assembly { get; init; } = default!;
     public HashSet<SourceFilter> Filters { get; init; } = [];
 }

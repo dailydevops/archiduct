@@ -1,11 +1,11 @@
-﻿namespace NetEvolve.ArchiDuct.Tests.Integration.TestCases;
+﻿namespace NetEvolve.ArchiDuct.Tests.Integration._internals;
 
 using System.Threading.Tasks;
 using NetEvolve.ArchiDuct.Abstractions;
 using Xunit;
 
-public sealed class GenericTestCaseProvider<TClass> : IAsyncLifetime
-    where TClass : notnull
+public sealed class GenericTypeProvider<TType> : IAsyncLifetime
+    where TType : notnull
 {
     public IArchitecture Architecture { get; private set; } = default!;
 
@@ -14,7 +14,7 @@ public sealed class GenericTestCaseProvider<TClass> : IAsyncLifetime
     public async Task InitializeAsync() =>
         Architecture = await ArchitectureCollector
             .Create()
-            .FilterType<TClass>()
+            .FilterType<TType>()
             .CollectAsync()
             .ConfigureAwait(false);
 }
