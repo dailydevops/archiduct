@@ -3,4 +3,4 @@
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
 public class Decompiler_SystemIComparable_Tests(GenericTypeProvider<System.IComparable> provider)
-    : TestCaseBase<System.IComparable>(provider, disableMembersCheck: true) { }
+    : TypesTestCaseBase<System.IComparable>(provider, disableMembersCheck: true) { }

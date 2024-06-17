@@ -3,4 +3,4 @@
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
 public class Decompiler_SystemEventHandler_Tests(GenericTypeProvider<System.EventHandler> provider)
-    : TestCaseBase<System.EventHandler>(provider, disableMembersCheck: true) { }
+    : TypesTestCaseBase<System.EventHandler>(provider, disableMembersCheck: true) { }

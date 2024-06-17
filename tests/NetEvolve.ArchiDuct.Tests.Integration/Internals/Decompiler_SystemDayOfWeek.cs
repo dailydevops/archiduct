@@ -3,4 +3,4 @@
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
 public class Decompiler_SystemDayOfWeek_Tests(GenericTypeProvider<System.DayOfWeek> provider)
-    : TestCaseBase<System.DayOfWeek>(provider) { }
+    : TypesTestCaseBase<System.DayOfWeek>(provider) { }
