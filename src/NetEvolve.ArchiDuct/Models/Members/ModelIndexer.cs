@@ -14,7 +14,7 @@ public sealed class ModelIndexer : ModelProperty
     public override ModelKind Kind => ModelKind.Indexer;
 
     /// <inheritdoc />
-    public IEnumerable<ModelParameter> Parameters { get; internal set; } = default!;
+    public HashSet<ModelParameter> Parameters { get; internal set; } = default!;
 
     /// <inheritdoc />
     internal ModelIndexer(IProperty indexer, ModelTypeBase parentEntity, XElement? documentation)

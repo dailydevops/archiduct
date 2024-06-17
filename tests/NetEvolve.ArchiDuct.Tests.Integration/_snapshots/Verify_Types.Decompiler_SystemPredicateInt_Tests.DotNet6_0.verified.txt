@@ -1,0 +1,47 @@
+﻿{
+  N:System, T:System.Predicate`1: {
+    BaseTypes: [
+      T:System.MulticastDelegate,
+      T:System.Delegate,
+      T:System.Object
+    ],
+    FullId: N:System, T:System.Predicate`1,
+    FullName: System.Predicate,
+    Id: T:System.Predicate`1,
+    IsNested: false,
+    Kind: Delegate,
+    Modifiers: [
+      Public,
+      Sealed
+    ],
+    Name: Predicate,
+    NamespaceId: N:System,
+    Parameters: [
+      {
+        FullId: T:System.Predicate`1, T:System.Predicate`1.obj,
+        FullName: System.Predicate.obj,
+        Id: T:System.Predicate`1.obj,
+        Kind: Parameter,
+        Name: obj,
+        ParentId: T:System.Predicate`1,
+        Summary: The object to compare against the criteria defined within the method represented by this delegate.,
+        TypeId: T:System.Predicate`1.T
+      }
+    ],
+    ParentId: N:System,
+    ReturnTypeId: T:System.Boolean,
+    Returns: <see langword="true" /> if <paramref name="obj" /> meets the criteria defined within the method represented by this delegate; otherwise, <see langword="false" />.,
+    Summary: Represents the method that defines a set of criteria and determines whether the specified object meets those criteria.,
+    TypeParameters: [
+      {
+        FullId: T:System.Predicate`1, T:System.Predicate`1.T,
+        FullName: System.Predicate.T,
+        Id: T:System.Predicate`1.T,
+        Kind: TypeParameter,
+        Name: T,
+        ParentId: T:System.Predicate`1,
+        Summary: The type of the object to compare.
+      }
+    ]
+  }
+}

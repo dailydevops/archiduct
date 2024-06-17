@@ -1,0 +1,84 @@
+﻿{
+  N:System, T:System.Action`3: {
+    BaseTypes: [
+      T:System.MulticastDelegate,
+      T:System.Delegate,
+      T:System.Object
+    ],
+    FullId: N:System, T:System.Action`3,
+    FullName: System.Action,
+    Id: T:System.Action`3,
+    IsNested: false,
+    Kind: Delegate,
+    Modifiers: [
+      Public,
+      Sealed
+    ],
+    Name: Action,
+    NamespaceId: N:System,
+    Parameters: [
+      {
+        FullId: T:System.Action`3, T:System.Action`3.arg1,
+        FullName: System.Action.arg1,
+        Id: T:System.Action`3.arg1,
+        Kind: Parameter,
+        Name: arg1,
+        ParentId: T:System.Action`3,
+        Summary: The first parameter of the method that this delegate encapsulates.,
+        TypeId: T:System.Action`3.T1
+      },
+      {
+        FullId: T:System.Action`3, T:System.Action`3.arg2,
+        FullName: System.Action.arg2,
+        Id: T:System.Action`3.arg2,
+        Kind: Parameter,
+        Name: arg2,
+        ParentId: T:System.Action`3,
+        Summary: The second parameter of the method that this delegate encapsulates.,
+        TypeId: T:System.Action`3.T2
+      },
+      {
+        FullId: T:System.Action`3, T:System.Action`3.arg3,
+        FullName: System.Action.arg3,
+        Id: T:System.Action`3.arg3,
+        Kind: Parameter,
+        Name: arg3,
+        ParentId: T:System.Action`3,
+        Summary: The third parameter of the method that this delegate encapsulates.,
+        TypeId: T:System.Action`3.T3
+      }
+    ],
+    ParentId: N:System,
+    ReturnTypeId: T:System.Void,
+    Summary: Encapsulates a method that has three parameters and does not return a value.,
+    TypeParameters: [
+      {
+        FullId: T:System.Action`3, T:System.Action`3.T1,
+        FullName: System.Action.T1,
+        Id: T:System.Action`3.T1,
+        Kind: TypeParameter,
+        Name: T1,
+        ParentId: T:System.Action`3,
+        Summary: The type of the first parameter of the method that this delegate encapsulates.
+      },
+      {
+        FullId: T:System.Action`3, T:System.Action`3.T2,
+        FullName: System.Action.T2,
+        Id: T:System.Action`3.T2,
+        Kind: TypeParameter,
+        Name: T2,
+        ParentId: T:System.Action`3,
+        Summary: The type of the second parameter of the method that this delegate encapsulates.
+      },
+      {
+        FullId: T:System.Action`3, T:System.Action`3.T3,
+        FullName: System.Action.T3,
+        Id: T:System.Action`3.T3,
+        Kind: TypeParameter,
+        Name: T3,
+        ParentId: T:System.Action`3,
+        Summary: The type of the third parameter of the method that this delegate encapsulates.
+      }
+    ]
+  }
+}

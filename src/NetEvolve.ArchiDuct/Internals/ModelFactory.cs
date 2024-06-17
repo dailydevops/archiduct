@@ -1,4 +1,6 @@
-﻿namespace NetEvolve.ArchiDuct.Models;
+﻿using NetEvolve.ArchiDuct.Models;
+
+namespace NetEvolve.ArchiDuct.Internals;
 
 using System;
 using System.Collections.Generic;
@@ -54,6 +56,7 @@ internal static class ModelFactory
             _ => throw new InvalidOperationException()
         };
 
+        model.ReturnTypeId = GetReturnTypeId(member);
         model.Modifiers = MapModifiers(member);
 
         return model;
@@ -65,6 +68,7 @@ internal static class ModelFactory
         XElement? documentation
     )
     {
+#pragma warning disable IDE0072 // Add missing cases
         ModelTypeBase model = typeDefinition.Kind switch
         {
             TypeKind.Class when typeDefinition.IsRecord
@@ -80,6 +84,7 @@ internal static class ModelFactory
             TypeKind.Enum => new ModelEnum(typeDefinition, parentEntity, documentation),
             _ => throw new InvalidOperationException(),
         };
+#pragma warning restore IDE0072 // Add missing cases
 
         model.BaseTypes = typeDefinition.GetAllBaseTypeIds();
         model.Modifiers = MapModifiers(typeDefinition);
@@ -88,6 +93,41 @@ internal static class ModelFactory
         model.NamespaceId = parentEntity.Id;
 
         return model;
+    }
+
+    internal static string GetReturnTypeId(IMember member)
+    {
+        var returnType = member.ReturnType;
+        if (returnType.Kind == TypeKind.TypeParameter)
+        {
+            if (
+                member.MemberDefinition is IMethod method
+                && method.TypeParameters.Any(x => x.Name.Equals(returnType.Name, Ordinal))
+            )
+            {
+                return $"T:{method.ReflectionName}.{returnType.Name}";
+            }
+
+            return $"T:{member.DeclaringTypeDefinition!.ReflectionName}.{returnType.Name}";
+        }
+
+        return $"T:{returnType.ReflectionName}";
+    }
+
+    internal static string GetReturnTypeId(IParameter parameter)
+    {
+        var returnType = parameter.Type;
+        if (returnType.Kind == TypeKind.TypeParameter && parameter.Owner is IMethod method)
+        {
+            if (method.TypeParameters.Any(x => x.Name.Equals(returnType.Name, Ordinal)))
+            {
+                return $"T:{method.ReflectionName}.{returnType.Name}";
+            }
+
+            return $"T:{method.DeclaringTypeDefinition!.ReflectionName}.{returnType.Name}";
+        }
+
+        return $"T:{returnType.ReflectionName}";
     }
 
     internal static IEnumerable<ModelModifier> MapModifiers(IParameter parameter) =>
@@ -152,32 +192,35 @@ internal static class ModelFactory
             yield return ModelModifier.Private;
         }
 
-        if (type.IsAbstract && type.Kind != TypeKind.Interface)
+        if (type.Kind != TypeKind.Enum)
         {
-            yield return ModelModifier.Abstract;
-        }
+            if (type.IsAbstract && type.Kind != TypeKind.Interface)
+            {
+                yield return ModelModifier.Abstract;
+            }
 
-        if (type.IsReadOnly)
-        {
-            yield return ModelModifier.ReadOnly;
-        }
+            if (type.IsReadOnly)
+            {
+                yield return ModelModifier.ReadOnly;
+            }
 
-        if (type.IsSealed && type.Kind != TypeKind.Struct)
-        {
-            yield return ModelModifier.Sealed;
-        }
+            if (type.IsSealed && type.Kind != TypeKind.Struct)
+            {
+                yield return ModelModifier.Sealed;
+            }
 
-        if (type.IsStatic)
-        {
-            yield return ModelModifier.Static;
-        }
+            if (type.IsStatic)
+            {
+                yield return ModelModifier.Static;
+            }
 
-        if (type.IsByRefLike && type.Kind == TypeKind.Struct)
-        {
-            yield return ModelModifier.Ref;
-        }
+            if (type.IsByRefLike && type.Kind == TypeKind.Struct)
+            {
+                yield return ModelModifier.Ref;
+            }
 
-        // TODO: unsafe
+            // TODO: unsafe
+        }
     }
 
     private static IEnumerable<ModelModifier> GetModifiers(IMember m)
@@ -316,10 +359,11 @@ internal static class ModelFactory
         }
     }
 
-    private static ModelModifier[] MapModifiers(ITypeDefinition typeDefinition) =>
-        GetModifiers(typeDefinition).ToArray();
+    private static HashSet<ModelModifier> MapModifiers(ITypeDefinition typeDefinition) =>
+        GetModifiers(typeDefinition).ToHashSet();
 
-    private static ModelModifier[] MapModifiers(IMember member) => GetModifiers(member).ToArray();
+    private static HashSet<ModelModifier> MapModifiers(IMember member) =>
+        GetModifiers(member).ToHashSet();
 
     private static bool HasFileAccessModifier(ITypeDefinition typeDefinition)
     {

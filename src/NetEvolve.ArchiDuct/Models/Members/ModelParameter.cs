@@ -3,8 +3,8 @@
 using System.Collections.Generic;
 using ICSharpCode.Decompiler.TypeSystem;
 using NetEvolve.ArchiDuct.Extensions;
+using NetEvolve.ArchiDuct.Internals;
 using NetEvolve.ArchiDuct.Models.Abstractions;
-using NetEvolve.ArchiDuct.Models.Types;
 
 /// <inheritdoc />
 public sealed class ModelParameter : ModelEntityBase
@@ -17,6 +17,16 @@ public sealed class ModelParameter : ModelEntityBase
     /// </summary>
     public IEnumerable<ModelModifier> Modifiers { get; }
 
+    /// <summary>
+    /// Returns the type id of the parameter.
+    /// </summary>
+    public string TypeId { get; }
+
+    /// <summary>
+    /// Gets the optional value of this parameter. If IsOptional is false, this will be always null.
+    /// </summary>
+    public string? OptionalValue { get; }
+
     /// <inheritdoc />
     public override string? Remarks => null;
 
@@ -26,33 +36,21 @@ public sealed class ModelParameter : ModelEntityBase
     /// <inheritdoc />
     public override string? Summary => this.GetParameterDocumentation(Name);
 
-    /// <inheritdoc />
-    internal ModelParameter(IParameter parameter, ModelMemberAdvancedBase parentEntity)
+    internal ModelParameter(IParameter parameter, ModelEntityBase parentEntity)
         : base(
             $"{parentEntity.Id}.{parameter.Name}",
             parameter.Name,
             $"{parentEntity.FullName}.{parameter.Name}",
             parentEntity,
             parentEntity._documentation
-        ) => Modifiers = ModelFactory.MapModifiers(parameter);
+        )
+    {
+        Modifiers = ModelFactory.MapModifiers(parameter);
+        TypeId = ModelFactory.GetReturnTypeId(parameter);
 
-    /// <inheritdoc />
-    internal ModelParameter(IParameter parameter, ModelDelegate parentEntity)
-        : base(
-            $"{parentEntity.Id}.{parameter.Name}",
-            parameter.Name,
-            $"{parentEntity.FullName}.{parameter.Name}",
-            parentEntity,
-            parentEntity._documentation
-        ) => Modifiers = ModelFactory.MapModifiers(parameter);
-
-    /// <inheritdoc />
-    internal ModelParameter(IParameter parameter, ModelIndexer parentEntity)
-        : base(
-            $"{parentEntity.Id}.{parameter.Name}",
-            parameter.Name,
-            $"{parentEntity.FullName}.{parameter.Name}",
-            parentEntity,
-            parentEntity._documentation
-        ) => Modifiers = ModelFactory.MapModifiers(parameter);
+        if (parameter.IsOptional)
+        {
+            OptionalValue = parameter.GetConstantValue(true)?.ToString() ?? "<null>";
+        }
+    }
 }

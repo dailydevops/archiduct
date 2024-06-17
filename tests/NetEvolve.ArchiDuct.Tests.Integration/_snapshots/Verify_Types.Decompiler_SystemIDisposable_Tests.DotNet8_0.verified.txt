@@ -1,0 +1,31 @@
+﻿{
+  N:System, T:System.IDisposable: {
+    FullId: N:System, T:System.IDisposable,
+    FullName: System.IDisposable,
+    Id: T:System.IDisposable,
+    IsNested: false,
+    Kind: Interface,
+    Members: [
+      {
+        FullId: T:System.IDisposable, M:System.IDisposable.Dispose,
+        FullName: System.IDisposable.Dispose,
+        Id: M:System.IDisposable.Dispose,
+        Kind: Method,
+        Modifiers: [
+          Public
+        ],
+        Name: Dispose,
+        ParentId: T:System.IDisposable,
+        ReturnTypeId: T:System.Void,
+        Summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+      }
+    ],
+    Modifiers: [
+      Public
+    ],
+    Name: IDisposable,
+    NamespaceId: N:System,
+    ParentId: N:System,
+    Summary: Provides a mechanism for releasing unmanaged resources.
+  }
+}

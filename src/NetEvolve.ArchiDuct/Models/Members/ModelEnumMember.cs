@@ -12,7 +12,13 @@ public sealed class ModelEnumMember : ModelMemberBase
     /// <inheritdoc />
     public override ModelKind Kind => ModelKind.EnumMember;
 
+    /// <summary>
+    /// The numeric value of the enum member.
+    /// </summary>
+    public string? Value { get; }
+
     /// <inheritdoc />
     internal ModelEnumMember(IField enumMember, ModelTypeBase parentEntity, XElement? documentation)
-        : base(enumMember, parentEntity, documentation) { }
+        : base(enumMember, parentEntity, documentation) =>
+        Value = enumMember.GetConstantValue()!.ToString();
 }

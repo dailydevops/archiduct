@@ -27,11 +27,7 @@ internal static class ITypeDefinitionExtensions
 
     public static IEnumerable<string> GetAllImplementationIds(this ITypeDefinition typeDefinition)
     {
-        if (
-            typeDefinition.Kind == TypeKind.Enum
-            || typeDefinition.Kind == TypeKind.Interface
-            || typeDefinition.Kind == TypeKind.Delegate
-        )
+        if (typeDefinition.Kind is TypeKind.Enum or TypeKind.Interface or TypeKind.Delegate)
         {
             return [];
         }
@@ -45,7 +41,7 @@ internal static class ITypeDefinitionExtensions
 
     public static IEnumerable<string> GetAllInheritedMemberIds(this ITypeDefinition typeDefinition)
     {
-        if (typeDefinition.Kind == TypeKind.Enum || typeDefinition.Kind == TypeKind.Delegate)
+        if (typeDefinition.Kind is TypeKind.Enum or TypeKind.Delegate)
         {
             return [];
         }

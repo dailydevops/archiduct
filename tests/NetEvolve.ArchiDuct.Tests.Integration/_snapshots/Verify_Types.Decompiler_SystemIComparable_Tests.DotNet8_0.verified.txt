@@ -1,0 +1,60 @@
+﻿{
+  N:System, T:System.IComparable: {
+    FullId: N:System, T:System.IComparable,
+    FullName: System.IComparable,
+    Id: T:System.IComparable,
+    IsNested: false,
+    Kind: Interface,
+    Members: [
+      {
+        FullId: T:System.IComparable, M:System.IComparable.CompareTo(System.Object),
+        FullName: System.IComparable.CompareTo,
+        Id: M:System.IComparable.CompareTo(System.Object),
+        Kind: Method,
+        Modifiers: [
+          Public
+        ],
+        Name: CompareTo,
+        Parameters: [
+          {
+            FullId: M:System.IComparable.CompareTo(System.Object), M:System.IComparable.CompareTo(System.Object).obj,
+            FullName: System.IComparable.CompareTo.obj,
+            Id: M:System.IComparable.CompareTo(System.Object).obj,
+            Kind: Parameter,
+            Name: obj,
+            ParentId: M:System.IComparable.CompareTo(System.Object),
+            Summary: An object to compare with this instance.,
+            TypeId: T:System.Object
+          }
+        ],
+        ParentId: T:System.IComparable,
+        ReturnTypeId: T:System.Int32,
+        Returns:
+A value that indicates the relative order of the objects being compared. The return value has these meanings:  
+  Value  
+
+  Meaning  
+
+  Less than zero  
+
+  This instance precedes <paramref name="obj" /> in the sort order.  
+
+  Zero  
+
+  This instance occurs in the same position in the sort order as <paramref name="obj" />.  
+
+  Greater than zero  
+
+  This instance follows <paramref name="obj" /> in the sort order.,
+        Summary: Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object.
+      }
+    ],
+    Modifiers: [
+      Public
+    ],
+    Name: IComparable,
+    NamespaceId: N:System,
+    ParentId: N:System,
+    Summary: Defines a generalized type-specific comparison method that a value type or class implements to order or sort its instances.
+  }
+}

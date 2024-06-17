@@ -15,6 +15,11 @@ public abstract class ModelMemberBase : ModelEntityBase
     /// </summary>
     public IEnumerable<ModelModifier> Modifiers { get; internal set; } = [];
 
+    /// <summary>
+    /// Returns the type id of the return type.
+    /// </summary>
+    public string ReturnTypeId { get; internal set; }
+
     /// <inheritdoc />
     private protected ModelMemberBase(IMember member, ModelTypeBase parent, XElement? documentation)
         : base(member.GetIdString(), member.Name, member.FullName, parent, documentation) { }

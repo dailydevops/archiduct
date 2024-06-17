@@ -32,7 +32,7 @@ public sealed class ArchitectureCollector : IArchitectureCollector
     {
         Argument.ThrowIfNull(assembly);
 
-        var source = new SourceAssembly { Assembly = assembly, };
+        var source = new SourceAssembly(assembly);
 
         if (!_registeredSources.Add(source))
         {
@@ -100,11 +100,7 @@ public sealed class ArchitectureCollector : IArchitectureCollector
 
         foreach (var source in _registeredSources)
         {
-            if (
-                !source.Filters.Add(
-                    new SourceFilter(typeDefinition => typeDefinition.Namespace, constraint)
-                )
-            )
+            if (!source.Filters.Add(new SourceFilter(td => td.Namespace, constraint)))
             {
                 throw new ArgumentException("SourceFilter already registered.", nameof(constraint));
             }
@@ -113,22 +109,19 @@ public sealed class ArchitectureCollector : IArchitectureCollector
         return this;
     }
 
-    /// <inheritdoc cref="IArchitectureCollector.FilterType(Type, bool)"/>
-    public IArchitectureCollector FilterType(Type type, bool includeReferences = false)
+    /// <inheritdoc cref="IArchitectureCollector.FilterType(Type)"/>
+    public IArchitectureCollector FilterType(Type type)
     {
         Argument.ThrowIfNull(type);
 
         var assembly = type.Assembly;
-        var typeFullName = type.FullName!;
+        var typeFullName = $"{type.Namespace}.{type.Name}";
 
-        if (
-            !_registeredSources.TryGetValue(
-                new SourceAssembly { Assembly = assembly, },
-                out var source
-            )
-        )
+        var sourceAssembly = new SourceAssembly(assembly);
+
+        if (!_registeredSources.TryGetValue(sourceAssembly, out var source))
         {
-            source = new SourceAssembly { Assembly = assembly, };
+            source = sourceAssembly;
 
             if (!_registeredSources.Add(source))
             {
@@ -141,7 +134,7 @@ public sealed class ArchitectureCollector : IArchitectureCollector
         if (
             !source.Filters.Add(
                 new SourceFilter(
-                    typeDefinition => typeDefinition.FullName,
+                    td => td.ReflectionName,
                     Value.Not.Null.And.EqualTo(typeFullName, Ordinal)
                 )
             )
