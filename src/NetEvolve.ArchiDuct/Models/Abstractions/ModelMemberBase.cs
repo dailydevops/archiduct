@@ -13,7 +13,7 @@ public abstract class ModelMemberBase : ModelEntityBase
     /// <summary>
     /// Collection of all modifiers for this type.
     /// </summary>
-    public IEnumerable<ModelModifier> Modifiers { get; internal set; } = [];
+    public HashSet<ModelModifier> Modifiers { get; internal set; } = [];
 
     /// <summary>
     /// Returns the type id of the return type.

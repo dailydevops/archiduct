@@ -17,7 +17,7 @@ public sealed class ModelNamespace : ModelEntityBase
     /// Enumerable of all types within this namespace.
     /// </summary>
     /// <value>Enumerable of all described types.</value>
-    public IEnumerable<string> Types { get; set; } = [];
+    public HashSet<string> Types { get; internal set; } = [];
 
     internal static readonly char[] _segmentSeparator = ['.'];
 
