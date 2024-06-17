@@ -10,7 +10,9 @@ internal static class IEntityExtensions
         && !method.Parameters.Any()
         && (
             method.DeclaringType.Kind is TypeKind.Struct or TypeKind.Enum
-            || method.DeclaringTypeDefinition is ITypeDefinition declaringType
+            || (
+                method.DeclaringTypeDefinition is ITypeDefinition declaringType
                 && declaringType.GetConstructors().Count() == 1
+            )
         );
 }

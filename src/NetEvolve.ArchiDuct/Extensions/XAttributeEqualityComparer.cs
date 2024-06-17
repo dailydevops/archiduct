@@ -16,10 +16,12 @@ internal sealed class XAttributeEqualityComparer : IEqualityComparer<XAttribute?
     /// <inheritdoc/>
     public bool Equals(XAttribute? x, XAttribute? y) =>
         x == y
-        || x is not null
+        || (
+            x is not null
             && y is not null
             && XNameEqualityComparer.Instance.Equals(x.Name, y.Name)
-            && x.Value.Equals(y.Value, Ordinal);
+            && x.Value.Equals(y.Value, Ordinal)
+        );
 
     /// <inheritdoc/>
     public int GetHashCode(XAttribute? obj) => obj?.GetHashCode() ?? default;

@@ -48,7 +48,7 @@ public abstract class ModelTypeBase : ModelEntityBase
     /// <summary>
     /// Collection of all modifiers for this type.
     /// </summary>
-    public IEnumerable<ModelModifier> Modifiers { get; internal set; } = [];
+    public HashSet<ModelModifier> Modifiers { get; internal set; } = [];
 
     /// <summary>
     /// Unique ID string that identifies the namespace.
