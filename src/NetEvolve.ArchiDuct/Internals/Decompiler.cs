@@ -172,6 +172,12 @@ internal sealed partial class Decompiler : IDisposable
         [NotNullWhen(true)] out IDocumentationProvider? documentationProvider
     )
     {
+        if (module?.PEFile is null)
+        {
+            documentationProvider = null;
+            return false;
+        }
+
         documentationProvider = _documentationProviders.GetOrAdd(
             module,
             m =>
