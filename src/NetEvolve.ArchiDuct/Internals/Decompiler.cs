@@ -163,7 +163,7 @@ internal sealed partial class Decompiler : IDisposable
         {
             model.TypeParameters = typeDefinition
                 .TypeParameters.Select(p => new ModelTypeParameter(p, model))
-                .ToArray();
+                .ToHashSet();
         }
     }
 
@@ -340,25 +340,25 @@ internal sealed partial class Decompiler : IDisposable
             m.NestedTypes = _modelTypes
                 .Where(x => m.Id.Equals(x.ParentId, Ordinal))
                 .Select(x => x.Id)
-                .ToArray();
+                .ToHashSet();
             m.DerivedTypes = _modelTypes
                 .Where(x =>
                     x.BaseTypes.Union(x.Implementations, StringComparer.Ordinal)
                         .Any(t => t.Equals(m.Id, Ordinal))
                 )
                 .Select(x => x.Id)
-                .ToArray();
+                .ToHashSet();
         });
         _modelNamespaces.ForEach(ns =>
         {
             ns.Types = _modelTypes
                 .Where(t => ns.Id.Equals(t.NamespaceId, Ordinal))
                 .Select(x => x.Id)
-                .ToArray();
+                .ToHashSet();
         });
 
-        _modelAssembly.Namespaces = _modelNamespaces;
-        _modelAssembly.Types = _modelTypes;
+        _modelAssembly.Namespaces = _modelNamespaces.ToHashSet();
+        _modelAssembly.Types = _modelTypes.ToHashSet();
     }
 
     private static bool ShouldNotBeDescribedAccessModifier(IMember entity) =>
