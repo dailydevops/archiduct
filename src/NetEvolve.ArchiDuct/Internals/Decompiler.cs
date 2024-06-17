@@ -81,7 +81,7 @@ internal sealed partial class Decompiler : IDisposable
         // TODO: Assembly Attributes
 
 
-        DescribeTypeModels(module, filters);
+        MapTypeModels(module, filters);
 
         SetReferences();
 
@@ -184,7 +184,7 @@ internal sealed partial class Decompiler : IDisposable
         return true;
     }
 
-    private void DescribeMemberModel(IMember member, ModelTypeBase parentModel)
+    private void MapMemberModel(IMember member, ModelTypeBase parentModel)
     {
         if (member.IsCompilerGeneratedOrIsInCompilerGeneratedClass())
         {
@@ -238,7 +238,7 @@ internal sealed partial class Decompiler : IDisposable
 
         foreach (var member in typeDefinition.Members)
         {
-            DescribeMemberModel(member, describedModel);
+            MapMemberModel(member, describedModel);
         }
 
         MapModelMemberOverloads(describedModel);
@@ -273,7 +273,7 @@ internal sealed partial class Decompiler : IDisposable
         }
     }
 
-    private void DescribeTypeModels(IModule module, HashSet<SourceFilter> filters)
+    private void MapTypeModels(IModule module, HashSet<SourceFilter> filters)
     {
         foreach (var typeDefinition in module.TopLevelTypeDefinitions)
         {
