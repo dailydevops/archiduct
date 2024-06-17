@@ -15,7 +15,7 @@ public sealed class ModelParameter : ModelEntityBase
     /// <summary>
     /// Collection of all modifiers for this type.
     /// </summary>
-    public IEnumerable<ModelModifier> Modifiers { get; }
+    public HashSet<ModelModifier> Modifiers { get; }
 
     /// <summary>
     /// Returns the type id of the parameter.
