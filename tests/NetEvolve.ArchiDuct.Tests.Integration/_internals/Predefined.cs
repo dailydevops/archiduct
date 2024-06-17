@@ -2,7 +2,6 @@
 
 using System.IO;
 using System.Runtime.CompilerServices;
-using NetEvolve.ArchiDuct.Models.Members;
 using VerifyTests;
 using VerifyXunit;
 
