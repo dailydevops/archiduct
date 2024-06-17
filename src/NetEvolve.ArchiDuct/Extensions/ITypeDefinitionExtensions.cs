@@ -9,7 +9,7 @@ internal static class ITypeDefinitionExtensions
         this ITypeDefinition typeDefinition
     ) => typeDefinition.GetAllBaseTypeDefinitions().Reverse().Skip(1);
 
-    public static IEnumerable<string> GetAllBaseTypeIds(this ITypeDefinition typeDefinition)
+    public static HashSet<string> GetAllBaseTypeIds(this ITypeDefinition typeDefinition)
     {
         var baseTypeDefinitions = typeDefinition.EnumerateBaseTypeDefinitions();
         if (typeDefinition.Kind != TypeKind.Interface)
@@ -22,10 +22,10 @@ internal static class ITypeDefinitionExtensions
             baseTypeIds = baseTypeIds.Where(x => !x.Equals("T:System.Object", OrdinalIgnoreCase));
         }
 
-        return baseTypeIds.ToArray();
+        return baseTypeIds.ToHashSet();
     }
 
-    public static IEnumerable<string> GetAllImplementationIds(this ITypeDefinition typeDefinition)
+    public static HashSet<string> GetAllImplementationIds(this ITypeDefinition typeDefinition)
     {
         if (typeDefinition.Kind is TypeKind.Enum or TypeKind.Interface or TypeKind.Delegate)
         {
@@ -36,10 +36,10 @@ internal static class ITypeDefinitionExtensions
             .EnumerateBaseTypeDefinitions()
             .Where(x => x.Kind == TypeKind.Interface)
             .Select(x => x.GetIdString())
-            .ToArray();
+            .ToHashSet();
     }
 
-    public static IEnumerable<string> GetAllInheritedMemberIds(this ITypeDefinition typeDefinition)
+    public static HashSet<string> GetAllInheritedMemberIds(this ITypeDefinition typeDefinition)
     {
         if (typeDefinition.Kind is TypeKind.Enum or TypeKind.Delegate)
         {
@@ -60,6 +60,6 @@ internal static class ITypeDefinitionExtensions
             );
         }
 
-        return inheritedMemberIds.ToArray();
+        return inheritedMemberIds.ToHashSet();
     }
 }
