@@ -18,7 +18,7 @@ public abstract class ModelMemberBase : ModelEntityBase
     /// <summary>
     /// Returns the type id of the return type.
     /// </summary>
-    public string ReturnTypeId { get; internal set; }
+    public string ReturnTypeId { get; internal set; } = $"T:System.Void";
 
     /// <inheritdoc />
     private protected ModelMemberBase(IMember member, ModelTypeBase parent, XElement? documentation)
