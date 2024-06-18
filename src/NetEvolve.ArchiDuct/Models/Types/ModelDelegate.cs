@@ -27,7 +27,7 @@ public sealed class ModelDelegate : ModelTypeBase
     /// <summary>
     /// Returns the type id of the parameter.
     /// </summary>
-    public string ReturnTypeId { get; } = default!;
+    public string ReturnTypeId { get; } = Constants.SystemVoid;
 
     /// <inheritdoc />
     internal ModelDelegate(
