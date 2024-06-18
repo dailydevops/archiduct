@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using NetEvolve.ArchiDuct.Abstractions;
 using static System.StringComparer;
 
-internal class Architecture : IArchitecture
+internal sealed class Architecture : IArchitecture
 {
     private readonly AssemblyDictionary _assemblies;
     private readonly MembersDictionary _members;
