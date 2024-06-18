@@ -5,5 +5,5 @@ using System.Reflection;
 
 internal sealed record SourceAssembly(Assembly Assembly)
 {
-    public HashSet<SourceFilter> Filters { get; init; } = [];
+    public HashSet<SourceFilter> Filters { get; } = [];
 }
