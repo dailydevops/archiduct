@@ -1,5 +1,35 @@
 ﻿{
   N:System, T:System.IComparable: {
+    Attributes: [
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute,
+        Summary: Defines a generalized type-specific comparison method that a value type or class implements to order or sort its instances.
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute,
+        Summary: Defines a generalized type-specific comparison method that a value type or class implements to order or sort its instances.
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute,
+        Summary: Defines a generalized type-specific comparison method that a value type or class implements to order or sort its instances.
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute,
+        Summary: Defines a generalized type-specific comparison method that a value type or class implements to order or sort its instances.
+      }
+    ],
     FullId: N:System, T:System.IComparable,
     FullName: System.IComparable,
     Id: T:System.IComparable,

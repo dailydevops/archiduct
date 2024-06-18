@@ -1,5 +1,43 @@
 ﻿{
   N:System, T:System.Uri: {
+    Attributes: [
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      }
+    ],
     BaseTypes: [
       T:System.Object
     ],
@@ -510,6 +548,14 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Attributes: [
+          {
+            FullName: System.Diagnostics.CodeAnalysis.MemberNotNullAttribute,
+            Id: T:System.Diagnostics.CodeAnalysis.MemberNotNullAttribute,
+            Kind: Attribute,
+            Name: MemberNotNullAttribute
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.EnsureUriInfo,
         FullName: System.Uri.EnsureUriInfo,
         Id: M:System.Uri.EnsureUriInfo,
@@ -534,6 +580,14 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.Diagnostics.CodeAnalysis.MemberNotNullAttribute,
+            Id: T:System.Diagnostics.CodeAnalysis.MemberNotNullAttribute,
+            Kind: Attribute,
+            Name: MemberNotNullAttribute
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.EnsureHostString(System.Boolean),
         FullName: System.Uri.EnsureHostString,
         Id: M:System.Uri.EnsureHostString(System.Boolean),
@@ -590,6 +644,15 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.#ctor(System.String,System.Boolean),
         FullName: System.Uri..ctor,
         Id: M:System.Uri.#ctor(System.String,System.Boolean),
@@ -632,6 +695,15 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.#ctor(System.Uri,System.String,System.Boolean),
         FullName: System.Uri..ctor,
         Id: M:System.Uri.#ctor(System.Uri,System.String,System.Boolean),
@@ -812,6 +884,21 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          },
+          {
+            FullName: System.ComponentModel.EditorBrowsableAttribute,
+            Id: T:System.ComponentModel.EditorBrowsableAttribute,
+            Kind: Attribute,
+            Name: EditorBrowsableAttribute
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         FullName: System.Uri..ctor,
         Id: M:System.Uri.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
@@ -886,6 +973,14 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.Diagnostics.CodeAnalysis.MemberNotNullAttribute,
+            Id: T:System.Diagnostics.CodeAnalysis.MemberNotNullAttribute,
+            Kind: Attribute,
+            Name: MemberNotNullAttribute
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.CreateUri(System.Uri,System.String,System.Boolean),
         FullName: System.Uri.CreateUri,
         Id: M:System.Uri.CreateUri(System.Uri,System.String,System.Boolean),
@@ -2658,6 +2753,15 @@
         ReturnTypeId: T:System.String
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.MakeRelative(System.Uri),
         FullName: System.Uri.MakeRelative,
         Id: M:System.Uri.MakeRelative(System.Uri),
@@ -2681,6 +2785,15 @@
         ReturnTypeId: T:System.String
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.Canonicalize,
         FullName: System.Uri.Canonicalize,
         Id: M:System.Uri.Canonicalize,
@@ -2694,6 +2807,15 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.Parse,
         FullName: System.Uri.Parse,
         Id: M:System.Uri.Parse,
@@ -2707,6 +2829,15 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.Escape,
         FullName: System.Uri.Escape,
         Id: M:System.Uri.Escape,
@@ -2720,6 +2851,15 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.Unescape(System.String),
         FullName: System.Uri.Unescape,
         Id: M:System.Uri.Unescape(System.String),
@@ -2744,6 +2884,15 @@
         ReturnTypeId: T:System.String
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.EscapeString(System.String),
         FullName: System.Uri.EscapeString,
         Id: M:System.Uri.EscapeString(System.String),
@@ -2768,6 +2917,15 @@
         ReturnTypeId: T:System.String
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.CheckSecurity,
         FullName: System.Uri.CheckSecurity,
         Id: M:System.Uri.CheckSecurity,
@@ -2781,6 +2939,15 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.IsReservedCharacter(System.Char),
         FullName: System.Uri.IsReservedCharacter,
         Id: M:System.Uri.IsReservedCharacter(System.Char),
@@ -2805,6 +2972,15 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.IsExcludedCharacter(System.Char),
         FullName: System.Uri.IsExcludedCharacter,
         Id: M:System.Uri.IsExcludedCharacter(System.Char),
@@ -2829,6 +3005,15 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.IsBadFileSystemCharacter(System.Char),
         FullName: System.Uri.IsBadFileSystemCharacter,
         Id: M:System.Uri.IsBadFileSystemCharacter(System.Char),
@@ -2853,6 +3038,14 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Attributes: [
+          {
+            FullName: System.Diagnostics.CodeAnalysis.MemberNotNullAttribute,
+            Id: T:System.Diagnostics.CodeAnalysis.MemberNotNullAttribute,
+            Kind: Attribute,
+            Name: MemberNotNullAttribute
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.CreateThis(System.String,System.Boolean,System.UriKind,System.UriCreationOptions@),
         FullName: System.Uri.CreateThis,
         Id: M:System.Uri.CreateThis(System.String,System.Boolean,System.UriKind,System.UriCreationOptions@),
@@ -3383,6 +3576,15 @@
         ReturnTypeId: T:System.String
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.EscapeUriString(System.String),
         FullName: System.Uri.EscapeUriString,
         Id: M:System.Uri.EscapeUriString(System.String),
@@ -3757,6 +3959,14 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Attributes: [
+          {
+            FullName: System.Diagnostics.CodeAnalysis.MemberNotNullAttribute,
+            Id: T:System.Diagnostics.CodeAnalysis.MemberNotNullAttribute,
+            Kind: Attribute,
+            Name: MemberNotNullAttribute
+          }
+        ],
         FullId: T:System.Uri, M:System.Uri.CreateThisFromUri(System.Uri),
         FullName: System.Uri.CreateThisFromUri,
         Id: M:System.Uri.CreateThisFromUri(System.Uri),
@@ -4228,6 +4438,62 @@
     ParentId: N:System
   },
   T:System.Uri, T:System.Uri.Check: {
+    Attributes: [
+      {
+        FullName: System.FlagsAttribute,
+        Id: T:System.FlagsAttribute,
+        Kind: Attribute,
+        Name: FlagsAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      }
+    ],
     BaseTypes: [
       T:System.Enum,
       T:System.ValueType,
@@ -4339,6 +4605,62 @@
     UnderlyingType: T:System.Int32
   },
   T:System.Uri, T:System.Uri.Flags: {
+    Attributes: [
+      {
+        FullName: System.FlagsAttribute,
+        Id: T:System.FlagsAttribute,
+        Kind: Attribute,
+        Name: FlagsAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      }
+    ],
     BaseTypes: [
       T:System.Enum,
       T:System.ValueType,
@@ -4930,6 +5252,32 @@
     UnderlyingType: T:System.UInt64
   },
   T:System.Uri, T:System.Uri.MoreInfo: {
+    Attributes: [
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      }
+    ],
     BaseTypes: [
       T:System.Object
     ],
@@ -5019,6 +5367,50 @@
     ParentId: T:System.Uri
   },
   T:System.Uri, T:System.Uri.Offset: {
+    Attributes: [
+      {
+        FullName: System.Runtime.InteropServices.StructLayoutAttribute,
+        Id: T:System.Runtime.InteropServices.StructLayoutAttribute,
+        Kind: Attribute,
+        Name: StructLayoutAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      }
+    ],
     BaseTypes: [
       T:System.ValueType,
       T:System.Object
@@ -5148,6 +5540,32 @@
     ParentId: T:System.Uri
   },
   T:System.Uri, T:System.Uri.UriInfo: {
+    Attributes: [
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      }
+    ],
     BaseTypes: [
       T:System.Object
     ],

@@ -1,5 +1,91 @@
 ﻿{
   N:System, T:System.ArgumentNullException: {
+    Attributes: [
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute,
+        Summary: The exception that is thrown when a null reference (<see langword="Nothing" /> in Visual Basic) is passed to a method that does not accept it as a valid argument.
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute,
+        Summary: The exception that is thrown when a null reference (<see langword="Nothing" /> in Visual Basic) is passed to a method that does not accept it as a valid argument.
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute,
+        Summary: The exception that is thrown when a null reference (<see langword="Nothing" /> in Visual Basic) is passed to a method that does not accept it as a valid argument.
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute,
+        Summary: The exception that is thrown when a null reference (<see langword="Nothing" /> in Visual Basic) is passed to a method that does not accept it as a valid argument.
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute,
+        Summary: The exception that is thrown when a null reference (<see langword="Nothing" /> in Visual Basic) is passed to a method that does not accept it as a valid argument.
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute,
+        Summary: The exception that is thrown when a null reference (<see langword="Nothing" /> in Visual Basic) is passed to a method that does not accept it as a valid argument.
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute,
+        Summary: The exception that is thrown when a null reference (<see langword="Nothing" /> in Visual Basic) is passed to a method that does not accept it as a valid argument.
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute,
+        Summary: The exception that is thrown when a null reference (<see langword="Nothing" /> in Visual Basic) is passed to a method that does not accept it as a valid argument.
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute,
+        Summary: The exception that is thrown when a null reference (<see langword="Nothing" /> in Visual Basic) is passed to a method that does not accept it as a valid argument.
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute,
+        Summary: The exception that is thrown when a null reference (<see langword="Nothing" /> in Visual Basic) is passed to a method that does not accept it as a valid argument.
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute,
+        Summary: The exception that is thrown when a null reference (<see langword="Nothing" /> in Visual Basic) is passed to a method that does not accept it as a valid argument.
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute,
+        Summary: The exception that is thrown when a null reference (<see langword="Nothing" /> in Visual Basic) is passed to a method that does not accept it as a valid argument.
+      }
+    ],
     BaseTypes: [
       T:System.ArgumentException,
       T:System.SystemException,
@@ -236,6 +322,21 @@
         Summary: Initializes an instance of the <see cref="T:System.ArgumentNullException" /> class with a specified error message and the name of the parameter that causes this exception.
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          },
+          {
+            FullName: System.ComponentModel.EditorBrowsableAttribute,
+            Id: T:System.ComponentModel.EditorBrowsableAttribute,
+            Kind: Attribute,
+            Name: EditorBrowsableAttribute
+          }
+        ],
         FullId: T:System.ArgumentNullException, M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         FullName: System.ArgumentNullException..ctor,
         Id: M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
@@ -315,6 +416,15 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.CLSCompliantAttribute,
+            Id: T:System.CLSCompliantAttribute,
+            Kind: Attribute,
+            Name: CLSCompliantAttribute,
+            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+          }
+        ],
         FullId: T:System.ArgumentNullException, M:System.ArgumentNullException.ThrowIfNull(System.Void*,System.String),
         FullName: System.ArgumentNullException.ThrowIfNull,
         Id: M:System.ArgumentNullException.ThrowIfNull(System.Void*,System.String),
@@ -391,6 +501,14 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute,
+            Id: T:System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute,
+            Kind: Attribute,
+            Name: DoesNotReturnAttribute
+          }
+        ],
         FullId: T:System.ArgumentNullException, M:System.ArgumentNullException.Throw(System.String),
         FullName: System.ArgumentNullException.Throw,
         Id: M:System.ArgumentNullException.Throw(System.String),

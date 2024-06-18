@@ -17,22 +17,6 @@ using static NetEvolve.ArchiDuct.Constants;
 
 internal sealed partial class Decompiler : IDisposable
 {
-    private static readonly ConcurrentDictionary<
-        IModule,
-        IDocumentationProvider
-    > _documentationProviders = new ConcurrentDictionary<IModule, IDocumentationProvider>(
-        new ModuleEqualityComparer()
-    );
-
-    private static readonly string[] _ignoredElements =
-    [
-        DocumentationXmlPropertyConstants.Example,
-        DocumentationXmlPropertyConstants.Remarks,
-        DocumentationXmlPropertyConstants.Returns,
-        DocumentationXmlPropertyConstants.SeeAlso,
-        DocumentationXmlPropertyConstants.Summary
-    ];
-
     private readonly CSharpDecompiler _decompiler;
 
     private readonly List<ModelNamespace> _modelNamespaces;
@@ -64,7 +48,7 @@ internal sealed partial class Decompiler : IDisposable
         var typeSystem = _decompiler.TypeSystem;
         var mainModule = typeSystem.MainModule;
 
-        if (TryGetDocumentationProvider(mainModule, out var documentationProvider))
+        if (ModelFactory.TryGetDocumentationProvider(mainModule, out var documentationProvider))
         {
             _decompiler.DocumentationProvider = documentationProvider;
         }
@@ -85,25 +69,40 @@ internal sealed partial class Decompiler : IDisposable
     {
         _modelAssembly = new ModelAssembly(
             module,
-            GetDocumentation($"T:{module.AssemblyName}.{AssemblyDoc}")
+            ModelFactory.GetDocumentation($"T:{module.AssemblyName}.{AssemblyDoc}", _resolver)
         );
 
+        MapAttributes(module);
         MapTypeModels(module, filters);
         SetReferences();
 
         // TODO: Add GitVersion informations
-        // TODO: Assembly Attributes
-
-
-
 
         return _modelAssembly;
     }
 
-    private static XElement? ConvertToDocumentation(string? documentationString) =>
-        string.IsNullOrWhiteSpace(documentationString)
-            ? null
-            : XElement.Parse($"<doc>{documentationString}</doc>");
+    private void MapAttributes(IModule module)
+    {
+        var attributes = module.GetAssemblyAttributes();
+
+        foreach (var attribute in attributes)
+        {
+            if (attribute is null)
+            {
+                continue;
+            }
+
+            var typeDefinition = attribute.AttributeType.GetDefinition()!;
+
+            _ = _modelAssembly.Attributes.Add(
+                new ModelAttribute(
+                    attribute,
+                    typeDefinition,
+                    ModelFactory.GetDocumentation(typeDefinition?.GetIdString(), _resolver)
+                )
+            );
+        }
+    }
 
     private static bool IsDocumentationHelperClass(string name) =>
         name.EndsWith(AssemblyDoc, Ordinal) || name.EndsWith(NamespaceDoc, Ordinal);
@@ -179,29 +178,6 @@ internal sealed partial class Decompiler : IDisposable
         }
     }
 
-    private static bool TryGetDocumentationProvider(
-        IModule module,
-        [NotNullWhen(true)] out IDocumentationProvider? documentationProvider
-    )
-    {
-        if (module?.PEFile is null)
-        {
-            documentationProvider = null;
-            return false;
-        }
-
-        documentationProvider = _documentationProviders.GetOrAdd(
-            module,
-            m =>
-            {
-                return XmlDocLoader.LoadDocumentation(m.PEFile)
-                    ?? XmlDocLoader.MscorlibDocumentation;
-            }
-        );
-
-        return true;
-    }
-
     private void MapMemberModel(IMember member, ModelTypeBase parentModel)
     {
         if (member.IsCompilerGeneratedOrIsInCompilerGeneratedClass())
@@ -214,7 +190,7 @@ internal sealed partial class Decompiler : IDisposable
             return;
         }
 
-        if (!TryGetDocumentation(member, out var documentation))
+        if (!ModelFactory.TryGetDocumentation(member, _resolver, out var documentation))
         {
             //TODO: Include undocumented items?
         }
@@ -237,7 +213,8 @@ internal sealed partial class Decompiler : IDisposable
         var describedMember = ModelFactory.CreateModelMemberType(
             member,
             parentModel,
-            documentation
+            documentation,
+            _resolver
         );
         MapModelMemberParameters(member, describedMember);
 
@@ -269,7 +246,7 @@ internal sealed partial class Decompiler : IDisposable
             return;
         }
 
-        if (TryGetDocumentation(typeDefinition, out var documentation))
+        if (ModelFactory.TryGetDocumentation(typeDefinition, _resolver, out var documentation))
         {
             //TODO: Include undocumented items?
         }
@@ -277,7 +254,8 @@ internal sealed partial class Decompiler : IDisposable
         var describedModel = ModelFactory.CreateModelType(
             typeDefinition,
             parentEntity ?? GetOrAddNamespace(typeDefinition.Namespace),
-            documentation
+            documentation,
+            _resolver
         );
 
         MapModelTypeParameters(typeDefinition, describedModel);
@@ -326,13 +304,6 @@ internal sealed partial class Decompiler : IDisposable
         }
     }
 
-    private XElement? GetDocumentation(string id)
-    {
-        var entity = IdStringProvider.FindEntity(id, _resolver);
-
-        return TryGetDocumentation(entity, out var documentation) ? documentation : null;
-    }
-
     private ModelNamespace GetOrAddNamespace(string fullNamespace)
     {
         var @namespace = _modelNamespaces.Find(x => x.FullName.Equals(fullNamespace, Ordinal));
@@ -342,7 +313,7 @@ internal sealed partial class Decompiler : IDisposable
             @namespace = new ModelNamespace(
                 fullNamespace,
                 _modelAssembly,
-                GetDocumentation($"T:{fullNamespace}.{NamespaceDoc}")
+                ModelFactory.GetDocumentation($"T:{fullNamespace}.{NamespaceDoc}", _resolver)
             );
 
             _modelNamespaces.Add(@namespace);
@@ -381,137 +352,4 @@ internal sealed partial class Decompiler : IDisposable
 
     private static bool ShouldNotBeDescribedAccessModifier(IMember entity) =>
         entity is IMethod method && method.IsExplicitInterfaceImplementation;
-
-    private bool TryGetDocFromBaseClass(
-        IEntity entity,
-        [NotNullWhen(true)] out XElement? baseDocumentation
-    )
-    {
-        XElement? resultDocumentation = null;
-        var result =
-            entity is ITypeDefinition typeDefinition
-            && typeDefinition
-                .EnumerateBaseTypeDefinitions()
-                .Any(type => TryGetDocumentation(type, out resultDocumentation));
-        baseDocumentation = resultDocumentation;
-        return result;
-    }
-
-    private bool TryGetDocFromExplicit(
-        IEntity entity,
-        [NotNullWhen(true)] out XElement? baseDocumentation
-    )
-    {
-        XElement? resultDocumentation = null;
-        var result =
-            entity is IMember member
-            && member.IsExplicitInterfaceImplementation
-            && member.ExplicitlyImplementedInterfaceMembers.Any(type =>
-                TryGetDocumentation(type, out resultDocumentation)
-            );
-        baseDocumentation = resultDocumentation;
-        return result;
-    }
-
-    private bool TryGetDocFromInterface(
-        IEntity entity,
-        [NotNullWhen(true)] out XElement? baseDocumentation
-    )
-    {
-        XElement? resultDocumentation = null;
-        var result = false;
-        if (entity is IMember member)
-        {
-            var parentName = member.DeclaringTypeDefinition!.FullName;
-            var entityId = member.GetIdString();
-
-            result =
-                member.DeclaringTypeDefinition is not null
-                && member
-                    .DeclaringTypeDefinition.EnumerateBaseTypeDefinitions()
-                    .Any(type =>
-                    {
-                        if (type.Kind != TypeKind.Interface)
-                        {
-                            return false;
-                        }
-
-                        _ = TryGetDocumentationProvider(type.ParentModule!, out _);
-
-                        var lookupId = entityId.Replace(
-                            parentName,
-                            type.FullName
-#if !NETSTANDARD2_0
-                            ,
-                            OrdinalIgnoreCase
-#endif
-                        );
-                        resultDocumentation = GetDocumentation(lookupId);
-                        return resultDocumentation is not null;
-                    });
-        }
-
-        baseDocumentation = resultDocumentation;
-        return result;
-    }
-
-    private bool TryGetDocFromReference(
-        string? reference,
-        [NotNullWhen(true)] out XElement? baseDocumentation
-    )
-    {
-        baseDocumentation = null;
-
-        if (reference is not null)
-        {
-            baseDocumentation = GetDocumentation(reference);
-        }
-
-        return baseDocumentation is not null;
-    }
-
-    private bool TryGetDocumentation(
-        IEntity? entity,
-        [NotNullWhen(true)] out XElement? documentation
-    )
-    {
-        documentation = null;
-
-        if (entity is null || entity.ParentModule is null)
-        {
-            return false;
-        }
-
-        if (!TryGetDocumentationProvider(entity.ParentModule, out var documentationProvider))
-        {
-            return false;
-        }
-
-        var result = ConvertToDocumentation(documentationProvider.GetDocumentation(entity));
-
-        if (result is null)
-        {
-            return false;
-        }
-
-        if (result.HasInheritDoc(out var inheritedDocumentation))
-        {
-            var reference = inheritedDocumentation.GetCRefAttribute();
-            inheritedDocumentation.Remove();
-
-            if (
-                TryGetDocFromReference(reference, out var baseDocumentation)
-                || TryGetDocFromExplicit(entity, out baseDocumentation)
-                || TryGetDocFromBaseClass(entity, out baseDocumentation)
-                || TryGetDocFromInterface(entity, out baseDocumentation)
-            )
-            {
-                result = baseDocumentation.Merge(result, _ignoredElements);
-            }
-        }
-
-        documentation = result;
-
-        return documentation is not null;
-    }
 }

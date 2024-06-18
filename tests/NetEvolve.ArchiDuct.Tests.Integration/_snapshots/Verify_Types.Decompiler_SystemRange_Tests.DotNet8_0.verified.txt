@@ -1,5 +1,43 @@
 ﻿{
   N:System, T:System.Range: {
+    Attributes: [
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      }
+    ],
     BaseTypes: [
       T:System.ValueType,
       T:System.Object
@@ -60,6 +98,14 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute,
+            Id: T:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute,
+            Kind: Attribute,
+            Name: UnconditionalSuppressMessageAttribute
+          }
+        ],
         FullId: T:System.Range, M:System.Range.Equals(System.Object),
         FullName: System.Range.Equals,
         Id: M:System.Range.Equals(System.Object),
@@ -113,6 +159,15 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Attributes: [
+          {
+            FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+            Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+            Kind: Attribute,
+            Name: MethodImplAttribute,
+            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Range, M:System.Range.GetHashCode,
         FullName: System.Range.GetHashCode,
         Id: M:System.Range.GetHashCode,
@@ -187,6 +242,15 @@
         ReturnTypeId: T:System.Range
       },
       {
+        Attributes: [
+          {
+            FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+            Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+            Kind: Attribute,
+            Name: MethodImplAttribute,
+            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Range, M:System.Range.GetOffsetAndLength(System.Int32),
         FullName: System.Range.GetOffsetAndLength,
         Id: M:System.Range.GetOffsetAndLength(System.Int32),

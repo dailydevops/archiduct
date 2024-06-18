@@ -1,5 +1,63 @@
 ﻿{
   N:System, T:System.AttributeUsageAttribute: {
+    Attributes: [
+      {
+        FullName: System.AttributeUsageAttribute,
+        Id: T:System.AttributeUsageAttribute,
+        Kind: Attribute,
+        Name: AttributeUsageAttribute,
+        Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute,
+        Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+      },
+      {
+        FullName: System.AttributeUsageAttribute,
+        Id: T:System.AttributeUsageAttribute,
+        Kind: Attribute,
+        Name: AttributeUsageAttribute,
+        Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute,
+        Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute,
+        Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute,
+        Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute,
+        Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute,
+        Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+      }
+    ],
     BaseTypes: [
       T:System.Attribute,
       T:System.Object

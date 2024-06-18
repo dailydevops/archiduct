@@ -1,5 +1,56 @@
 ﻿{
   N:System.Text, T:System.Text.StringBuilder: {
+    Attributes: [
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute,
+        Summary: Represents a mutable string of characters. This class cannot be inherited.
+      },
+      {
+        FullName: System.Reflection.DefaultMemberAttribute,
+        Id: T:System.Reflection.DefaultMemberAttribute,
+        Kind: Attribute,
+        Name: DefaultMemberAttribute,
+        Summary: Represents a mutable string of characters. This class cannot be inherited.
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute,
+        Summary: Represents a mutable string of characters. This class cannot be inherited.
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute,
+        Summary: Represents a mutable string of characters. This class cannot be inherited.
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute,
+        Summary: Represents a mutable string of characters. This class cannot be inherited.
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute,
+        Summary: Represents a mutable string of characters. This class cannot be inherited.
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute,
+        Summary: Represents a mutable string of characters. This class cannot be inherited.
+      }
+    ],
     BaseTypes: [
       T:System.Object
     ],
@@ -1517,6 +1568,15 @@
         Summary: Appends the string representation of a specified <see cref="T:System.Char" /> object to this instance.
       },
       {
+        Attributes: [
+          {
+            FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+            Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+            Kind: Attribute,
+            Name: MethodImplAttribute,
+            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendWithExpansion(System.Char),
         FullName: System.Text.StringBuilder.AppendWithExpansion,
         Id: M:System.Text.StringBuilder.AppendWithExpansion(System.Char),
@@ -1544,6 +1604,15 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.CLSCompliantAttribute,
+            Id: T:System.CLSCompliantAttribute,
+            Kind: Attribute,
+            Name: CLSCompliantAttribute,
+            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.SByte),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.SByte),
@@ -1976,6 +2045,15 @@
         Summary: Appends the string representation of a specified decimal number to this instance.
       },
       {
+        Attributes: [
+          {
+            FullName: System.CLSCompliantAttribute,
+            Id: T:System.CLSCompliantAttribute,
+            Kind: Attribute,
+            Name: CLSCompliantAttribute,
+            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.UInt16),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.UInt16),
@@ -2030,6 +2108,15 @@
         Summary: Appends the string representation of a specified 16-bit unsigned integer to this instance.
       },
       {
+        Attributes: [
+          {
+            FullName: System.CLSCompliantAttribute,
+            Id: T:System.CLSCompliantAttribute,
+            Kind: Attribute,
+            Name: CLSCompliantAttribute,
+            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.UInt32),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.UInt32),
@@ -2084,6 +2171,15 @@
         Summary: Appends the string representation of a specified 32-bit unsigned integer to this instance.
       },
       {
+        Attributes: [
+          {
+            FullName: System.CLSCompliantAttribute,
+            Id: T:System.CLSCompliantAttribute,
+            Kind: Attribute,
+            Name: CLSCompliantAttribute,
+            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.UInt64),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.UInt64),
@@ -3065,6 +3161,15 @@
         Summary: Inserts the string representation of a Boolean value into this instance at the specified character position.
       },
       {
+        Attributes: [
+          {
+            FullName: System.CLSCompliantAttribute,
+            Id: T:System.CLSCompliantAttribute,
+            Kind: Attribute,
+            Name: CLSCompliantAttribute,
+            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.SByte),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.SByte),
@@ -3723,6 +3828,15 @@
         Summary: Inserts the string representation of a decimal number into this instance at the specified character position.
       },
       {
+        Attributes: [
+          {
+            FullName: System.CLSCompliantAttribute,
+            Id: T:System.CLSCompliantAttribute,
+            Kind: Attribute,
+            Name: CLSCompliantAttribute,
+            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.UInt16),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.UInt16),
@@ -3781,6 +3895,15 @@
         Summary: Inserts the string representation of a 16-bit unsigned integer into this instance at the specified character position.
       },
       {
+        Attributes: [
+          {
+            FullName: System.CLSCompliantAttribute,
+            Id: T:System.CLSCompliantAttribute,
+            Kind: Attribute,
+            Name: CLSCompliantAttribute,
+            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.UInt32),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.UInt32),
@@ -3839,6 +3962,15 @@
         Summary: Inserts the string representation of a 32-bit unsigned integer into this instance at the specified character position.
       },
       {
+        Attributes: [
+          {
+            FullName: System.CLSCompliantAttribute,
+            Id: T:System.CLSCompliantAttribute,
+            Kind: Attribute,
+            Name: CLSCompliantAttribute,
+            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.UInt64),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.UInt64),
@@ -5338,6 +5470,15 @@
         Summary: Replaces, within a substring of this instance, all occurrences of a specified character with another specified character.
       },
       {
+        Attributes: [
+          {
+            FullName: System.CLSCompliantAttribute,
+            Id: T:System.CLSCompliantAttribute,
+            Kind: Attribute,
+            Name: CLSCompliantAttribute,
+            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Char*,System.Int32),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Char*,System.Int32),
@@ -6048,6 +6189,15 @@
         Summary: Gets or sets the length of the current <see cref="T:System.Text.StringBuilder" /> object.
       },
       {
+        Attributes: [
+          {
+            FullName: System.Runtime.CompilerServices.IndexerNameAttribute,
+            Id: T:System.Runtime.CompilerServices.IndexerNameAttribute,
+            Kind: Attribute,
+            Name: IndexerNameAttribute,
+            Summary: Indicates the name by which an indexer is known in programming languages that do not support indexers directly.
+          }
+        ],
         FullId: T:System.Text.StringBuilder, P:System.Text.StringBuilder.Chars(System.Int32),
         FullName: System.Text.StringBuilder.Chars,
         Id: P:System.Text.StringBuilder.Chars(System.Int32),
@@ -6100,6 +6250,56 @@
     Summary: Represents a mutable string of characters. This class cannot be inherited.
   },
   T:System.Text.StringBuilder, T:System.Text.StringBuilder.AppendInterpolatedStringHandler: {
+    Attributes: [
+      {
+        FullName: System.ComponentModel.EditorBrowsableAttribute,
+        Id: T:System.ComponentModel.EditorBrowsableAttribute,
+        Kind: Attribute,
+        Name: EditorBrowsableAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.InterpolatedStringHandlerAttribute,
+        Id: T:System.Runtime.CompilerServices.InterpolatedStringHandlerAttribute,
+        Kind: Attribute,
+        Name: InterpolatedStringHandlerAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      }
+    ],
     BaseTypes: [
       T:System.ValueType,
       T:System.Object
@@ -6768,6 +6968,15 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+            Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+            Kind: Attribute,
+            Name: MethodImplAttribute,
+            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendCustomFormatter``1(``0,System.String),
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendCustomFormatter,
         Id: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendCustomFormatter``1(``0,System.String),
@@ -6818,6 +7027,44 @@
     ParentId: T:System.Text.StringBuilder
   },
   T:System.Text.StringBuilder, T:System.Text.StringBuilder.ChunkEnumerator: {
+    Attributes: [
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      }
+    ],
     BaseTypes: [
       T:System.ValueType,
       T:System.Object
@@ -6881,6 +7128,14 @@
         ReturnTypeId: T:System.Text.StringBuilder+ChunkEnumerator+ManyChunkInfo
       },
       {
+        Attributes: [
+          {
+            FullName: System.ComponentModel.EditorBrowsableAttribute,
+            Id: T:System.ComponentModel.EditorBrowsableAttribute,
+            Kind: Attribute,
+            Name: EditorBrowsableAttribute
+          }
+        ],
         FullId: T:System.Text.StringBuilder.ChunkEnumerator, M:System.Text.StringBuilder.ChunkEnumerator.GetEnumerator,
         FullName: System.Text.StringBuilder.ChunkEnumerator.GetEnumerator,
         Id: M:System.Text.StringBuilder.ChunkEnumerator.GetEnumerator,
@@ -6975,6 +7230,32 @@
     ParentId: T:System.Text.StringBuilder
   },
   T:System.Text.StringBuilder.ChunkEnumerator, T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo: {
+    Attributes: [
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      }
+    ],
     BaseTypes: [
       T:System.Object
     ],

@@ -13,6 +13,11 @@ public sealed class ModelAssembly : ModelBase
 {
     private readonly Version _version;
 
+    /// <summary>
+    /// Enumerable of all attributes within this assembly.
+    /// </summary>
+    public HashSet<ModelAttribute> Attributes { get; } = [];
+
     /// <inheritdoc />
     public override ModelKind Kind => ModelKind.Assembly;
 
