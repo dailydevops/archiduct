@@ -1,12 +1,11 @@
-﻿using NetEvolve.ArchiDuct.Models;
-
-namespace NetEvolve.ArchiDuct.Internals;
+﻿namespace NetEvolve.ArchiDuct.Internals;
 
 using System;
 using System.Collections.Generic;
 using System.Xml.Linq;
 using ICSharpCode.Decompiler.TypeSystem;
 using NetEvolve.ArchiDuct.Extensions;
+using NetEvolve.ArchiDuct.Models;
 using NetEvolve.ArchiDuct.Models.Abstractions;
 using NetEvolve.ArchiDuct.Models.Members;
 using NetEvolve.ArchiDuct.Models.Types;
