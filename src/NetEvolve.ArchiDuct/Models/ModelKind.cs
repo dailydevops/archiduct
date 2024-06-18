@@ -22,6 +22,11 @@ public enum ModelKind
     /// </summary>
     Namespace,
 
+    /// <summary>
+    /// Object that describes an attribute, typically applied to a type or member.
+    /// </summary>
+    Attribute,
+
     // Types
 
     /// <summary>

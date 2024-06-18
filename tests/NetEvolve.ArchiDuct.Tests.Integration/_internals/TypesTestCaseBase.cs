@@ -11,5 +11,5 @@ public abstract class TypesTestCaseBase<TTestCase>(
     where TTestCase : notnull
 {
     [Fact]
-    public async Task Verify_Types() => _ = await Verifier.Verify(provider.Architecture.Types);
+    public async Task Verify_Types() => _ = await Verifier.Verify(_provider.Architecture.Types);
 }

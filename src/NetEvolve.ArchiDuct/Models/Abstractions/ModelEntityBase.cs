@@ -6,6 +6,11 @@ using System.Xml.Linq;
 public abstract class ModelEntityBase : ModelBase
 {
     /// <summary>
+    /// Enumerable of all attributes within this type or member.
+    /// </summary>
+    public HashSet<ModelAttribute> Attributes { get; internal set; } = [];
+
+    /// <summary>
     /// Unique ID string that identifies the type or member, this includes the parent ID.
     /// </summary>
     public string FullId { get; private set; }

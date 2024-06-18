@@ -1,8 +1,11 @@
 ﻿namespace NetEvolve.ArchiDuct.Internals;
 
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
+using ICSharpCode.Decompiler.Documentation;
 using ICSharpCode.Decompiler.TypeSystem;
 using NetEvolve.ArchiDuct.Extensions;
 using NetEvolve.ArchiDuct.Models;
@@ -14,12 +17,52 @@ using static ICSharpCode.Decompiler.TypeSystem.Accessibility;
 
 internal static class ModelFactory
 {
-    internal static readonly string[] _fileTypeSeparator = ["__"];
+    private static readonly string[] _fileTypeSeparator = ["__"];
+
+    private static readonly string[] _ignoredElements =
+    [
+        DocumentationXmlPropertyConstants.Example,
+        DocumentationXmlPropertyConstants.Remarks,
+        DocumentationXmlPropertyConstants.Returns,
+        DocumentationXmlPropertyConstants.SeeAlso,
+        DocumentationXmlPropertyConstants.Summary
+    ];
+
+    private static readonly ConcurrentDictionary<
+        IModule,
+        IDocumentationProvider
+    > _documentationProviders = new ConcurrentDictionary<IModule, IDocumentationProvider>(
+        new ModuleEqualityComparer()
+    );
+
+    public static bool TryGetDocumentationProvider(
+        IModule module,
+        [NotNullWhen(true)] out IDocumentationProvider? documentationProvider
+    )
+    {
+        if (module?.PEFile is null)
+        {
+            documentationProvider = null;
+            return false;
+        }
+
+        documentationProvider = _documentationProviders.GetOrAdd(
+            module,
+            m =>
+            {
+                return XmlDocLoader.LoadDocumentation(m.PEFile)
+                    ?? XmlDocLoader.MscorlibDocumentation;
+            }
+        );
+
+        return true;
+    }
 
     public static ModelMemberBase CreateModelMemberType(
         IMember member,
         ModelTypeBase parentModel,
-        XElement? documentation
+        XElement? documentation,
+        ITypeResolveContext resolver
     )
     {
         ModelMemberBase model = member switch
@@ -57,6 +100,7 @@ internal static class ModelFactory
 
         model.ReturnTypeId = GetReturnTypeId(member);
         model.Modifiers = MapModifiers(member);
+        model.Attributes = MapAttributes(member, resolver);
 
         return model;
     }
@@ -64,7 +108,8 @@ internal static class ModelFactory
     public static ModelTypeBase CreateModelType(
         ITypeDefinition typeDefinition,
         ModelEntityBase parentEntity,
-        XElement? documentation
+        XElement? documentation,
+        ITypeResolveContext resolver
     )
     {
 #pragma warning disable IDE0072 // Add missing cases
@@ -90,9 +135,56 @@ internal static class ModelFactory
         model.Implementations = typeDefinition.GetAllImplementationIds();
         model.InheritedMembers = typeDefinition.GetAllInheritedMemberIds();
         model.NamespaceId = parentEntity.Id;
+        model.Attributes = MapAttributes(typeDefinition, resolver);
 
         return model;
     }
+
+    internal static HashSet<ModelAttribute> MapAttributes(
+        IMember member,
+        ITypeResolveContext resolver
+    ) =>
+        member
+            .GetAttributes(true)
+            .Aggregate(
+                new HashSet<ModelAttribute>(),
+                (set, attribute) =>
+                {
+                    var typeDefinition = attribute.AttributeType.GetDefinition()!;
+
+                    _ = set.Add(
+                        new ModelAttribute(
+                            attribute,
+                            typeDefinition,
+                            GetDocumentation(typeDefinition.GetIdString(), resolver)
+                        )
+                    );
+                    return set;
+                }
+            );
+
+    internal static HashSet<ModelAttribute> MapAttributes(
+        ITypeDefinition typeDefinition,
+        ITypeResolveContext resolver
+    ) =>
+        typeDefinition
+            .GetAttributes(true)
+            .Aggregate(
+                new HashSet<ModelAttribute>(),
+                (set, attribute) =>
+                {
+                    var attributeTypeDefinition = attribute.AttributeType.GetDefinition()!;
+
+                    _ = set.Add(
+                        new ModelAttribute(
+                            attribute,
+                            attributeTypeDefinition,
+                            GetDocumentation(typeDefinition.GetIdString(), resolver)
+                        )
+                    );
+                    return set;
+                }
+            );
 
     internal static string GetReturnTypeId(IMember member)
     {
@@ -374,4 +466,159 @@ internal static class ModelFactory
         return entityName.Length > 1
             && typeDefinition.Name.StartsWith($"<{entityName[1]}>", Ordinal);
     }
+
+    private static bool TryGetDocFromBaseClass(
+        IEntity entity,
+        ITypeResolveContext resolver,
+        [NotNullWhen(true)] out XElement? baseDocumentation
+    )
+    {
+        XElement? resultDocumentation = null;
+        var result =
+            entity is ITypeDefinition typeDefinition
+            && typeDefinition
+                .EnumerateBaseTypeDefinitions()
+                .Any(type => TryGetDocumentation(type, resolver, out resultDocumentation));
+        baseDocumentation = resultDocumentation;
+        return result;
+    }
+
+    private static bool TryGetDocFromExplicit(
+        IEntity entity,
+        ITypeResolveContext resolver,
+        [NotNullWhen(true)] out XElement? baseDocumentation
+    )
+    {
+        XElement? resultDocumentation = null;
+        var result =
+            entity is IMember member
+            && member.IsExplicitInterfaceImplementation
+            && member.ExplicitlyImplementedInterfaceMembers.Any(type =>
+                TryGetDocumentation(type, resolver, out resultDocumentation)
+            );
+        baseDocumentation = resultDocumentation;
+        return result;
+    }
+
+    private static bool TryGetDocFromInterface(
+        IEntity entity,
+        ITypeResolveContext resolver,
+        [NotNullWhen(true)] out XElement? baseDocumentation
+    )
+    {
+        XElement? resultDocumentation = null;
+        var result = false;
+        if (entity is IMember member)
+        {
+            var parentName = member.DeclaringTypeDefinition!.FullName;
+            var entityId = member.GetIdString();
+
+            result =
+                member.DeclaringTypeDefinition is not null
+                && member
+                    .DeclaringTypeDefinition.EnumerateBaseTypeDefinitions()
+                    .Any(type =>
+                    {
+                        if (type.Kind != TypeKind.Interface)
+                        {
+                            return false;
+                        }
+
+                        _ = TryGetDocumentationProvider(type.ParentModule!, out _);
+
+                        var lookupId = entityId.Replace(
+                            parentName,
+                            type.FullName
+#if !NETSTANDARD2_0
+                            ,
+                            OrdinalIgnoreCase
+#endif
+                        );
+                        resultDocumentation = GetDocumentation(lookupId, resolver);
+                        return resultDocumentation is not null;
+                    });
+        }
+
+        baseDocumentation = resultDocumentation;
+        return result;
+    }
+
+    private static bool TryGetDocFromReference(
+        string? reference,
+        ITypeResolveContext resolver,
+        [NotNullWhen(true)] out XElement? baseDocumentation
+    )
+    {
+        baseDocumentation = null;
+
+        if (reference is not null)
+        {
+            baseDocumentation = GetDocumentation(reference, resolver);
+        }
+
+        return baseDocumentation is not null;
+    }
+
+    internal static XElement? GetDocumentation(string? id, ITypeResolveContext resolver)
+    {
+        if (string.IsNullOrWhiteSpace(id))
+        {
+            return null;
+        }
+
+        var entity = IdStringProvider.FindEntity(id, resolver);
+
+        return TryGetDocumentation(entity, resolver, out var documentation) ? documentation : null;
+    }
+
+    internal static bool TryGetDocumentation(
+        IEntity? entity,
+        ITypeResolveContext resolver,
+        [NotNullWhen(true)] out XElement? documentation
+    )
+    {
+        documentation = null;
+
+        if (entity is null || entity.ParentModule is null)
+        {
+            return false;
+        }
+
+        if (!TryGetDocumentationProvider(entity.ParentModule, out var documentationProvider))
+        {
+            return false;
+        }
+
+        var result = ConvertToDocumentation(documentationProvider.GetDocumentation(entity));
+
+        if (result is null)
+        {
+            return false;
+        }
+
+        if (result.HasInheritDoc(out var inheritedDocumentation))
+        {
+            var reference = inheritedDocumentation.GetCRefAttribute();
+            inheritedDocumentation.Remove();
+
+            if (
+                TryGetDocFromReference(reference, resolver, out var baseDocumentation)
+                || TryGetDocFromExplicit(entity, resolver, out baseDocumentation)
+                || TryGetDocFromBaseClass(entity, resolver, out baseDocumentation)
+                || TryGetDocFromInterface(entity, resolver, out baseDocumentation)
+            )
+            {
+                result = baseDocumentation.Merge(result, _ignoredElements);
+            }
+        }
+
+        documentation = result;
+
+        return documentation is not null;
+    }
+
+    private static XElement? ConvertToDocumentation(string? documentationString) =>
+        string.IsNullOrWhiteSpace(documentationString)
+            ? null
+            : XElement.Parse($"<doc>{documentationString}</doc>");
 }

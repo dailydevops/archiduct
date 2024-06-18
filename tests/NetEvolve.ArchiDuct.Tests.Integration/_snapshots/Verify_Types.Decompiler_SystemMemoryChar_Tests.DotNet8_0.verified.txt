@@ -1,5 +1,55 @@
 ﻿{
   N:System, T:System.Memory`1: {
+    Attributes: [
+      {
+        FullName: System.Diagnostics.DebuggerTypeProxyAttribute,
+        Id: T:System.Diagnostics.DebuggerTypeProxyAttribute,
+        Kind: Attribute,
+        Name: DebuggerTypeProxyAttribute
+      },
+      {
+        FullName: System.Diagnostics.DebuggerDisplayAttribute,
+        Id: T:System.Diagnostics.DebuggerDisplayAttribute,
+        Kind: Attribute,
+        Name: DebuggerDisplayAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      }
+    ],
     BaseTypes: [
       T:System.ValueType,
       T:System.Object
@@ -67,6 +117,15 @@
         ReturnTypeId: T:System.Int32
       },
       {
+        Attributes: [
+          {
+            FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+            Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+            Kind: Attribute,
+            Name: MethodImplAttribute,
+            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Memory`1, M:System.Memory`1.#ctor(`0[]),
         FullName: System.Memory..ctor,
         Id: M:System.Memory`1.#ctor(`0[]),
@@ -97,6 +156,15 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+            Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+            Kind: Attribute,
+            Name: MethodImplAttribute,
+            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Memory`1, M:System.Memory`1.#ctor(`0[],System.Int32),
         FullName: System.Memory..ctor,
         Id: M:System.Memory`1.#ctor(`0[],System.Int32),
@@ -136,6 +204,15 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+            Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+            Kind: Attribute,
+            Name: MethodImplAttribute,
+            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Memory`1, M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
         FullName: System.Memory..ctor,
         Id: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
@@ -184,6 +261,15 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+            Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+            Kind: Attribute,
+            Name: MethodImplAttribute,
+            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Memory`1, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
         FullName: System.Memory..ctor,
         Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
@@ -223,6 +309,15 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+            Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+            Kind: Attribute,
+            Name: MethodImplAttribute,
+            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Memory`1, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
         FullName: System.Memory..ctor,
         Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
@@ -271,6 +366,15 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+            Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+            Kind: Attribute,
+            Name: MethodImplAttribute,
+            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Memory`1, M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
         FullName: System.Memory..ctor,
         Id: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
@@ -416,6 +520,15 @@
         ReturnTypeId: T:System.String
       },
       {
+        Attributes: [
+          {
+            FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+            Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+            Kind: Attribute,
+            Name: MethodImplAttribute,
+            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Memory`1, M:System.Memory`1.Slice(System.Int32),
         FullName: System.Memory.Slice,
         Id: M:System.Memory`1.Slice(System.Int32),
@@ -442,6 +555,15 @@
         ReturnTypeId: T:System.Memory`1[[`0]]
       },
       {
+        Attributes: [
+          {
+            FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+            Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+            Kind: Attribute,
+            Name: MethodImplAttribute,
+            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Memory`1, M:System.Memory`1.Slice(System.Int32,System.Int32),
         FullName: System.Memory.Slice,
         Id: M:System.Memory`1.Slice(System.Int32,System.Int32),
@@ -547,6 +669,20 @@
         ReturnTypeId: T:`0[]
       },
       {
+        Attributes: [
+          {
+            FullName: System.ComponentModel.EditorBrowsableAttribute,
+            Id: T:System.ComponentModel.EditorBrowsableAttribute,
+            Kind: Attribute,
+            Name: EditorBrowsableAttribute
+          },
+          {
+            FullName: System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute,
+            Id: T:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute,
+            Kind: Attribute,
+            Name: UnconditionalSuppressMessageAttribute
+          }
+        ],
         FullId: T:System.Memory`1, M:System.Memory`1.Equals(System.Object),
         FullName: System.Memory.Equals,
         Id: M:System.Memory`1.Equals(System.Object),
@@ -600,6 +736,21 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Attributes: [
+          {
+            FullName: System.ComponentModel.EditorBrowsableAttribute,
+            Id: T:System.ComponentModel.EditorBrowsableAttribute,
+            Kind: Attribute,
+            Name: EditorBrowsableAttribute
+          },
+          {
+            FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+            Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+            Kind: Attribute,
+            Name: MethodImplAttribute,
+            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+          }
+        ],
         FullId: T:System.Memory`1, M:System.Memory`1.GetHashCode,
         FullName: System.Memory.GetHashCode,
         Id: M:System.Memory`1.GetHashCode,

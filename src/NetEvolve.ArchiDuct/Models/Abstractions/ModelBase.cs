@@ -9,6 +9,7 @@ using NetEvolve.ArchiDuct.Extensions;
 /// Represents a type or member description.
 /// </summary>
 public abstract class ModelBase
+// TODO: Add DisplayValue
 {
     internal readonly XElement? _documentation;
 
