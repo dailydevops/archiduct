@@ -1,5 +1,71 @@
 ﻿{
   N:System, T:System.Func`3: {
+    Attributes: [
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute,
+        Returns: The return value of the method that this delegate encapsulates.,
+        Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute,
+        Returns: The return value of the method that this delegate encapsulates.,
+        Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute,
+        Returns: The return value of the method that this delegate encapsulates.,
+        Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute,
+        Returns: The return value of the method that this delegate encapsulates.,
+        Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute,
+        Returns: The return value of the method that this delegate encapsulates.,
+        Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute,
+        Returns: The return value of the method that this delegate encapsulates.,
+        Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute,
+        Returns: The return value of the method that this delegate encapsulates.,
+        Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute,
+        Returns: The return value of the method that this delegate encapsulates.,
+        Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.
+      }
+    ],
     BaseTypes: [
       T:System.MulticastDelegate,
       T:System.Delegate,

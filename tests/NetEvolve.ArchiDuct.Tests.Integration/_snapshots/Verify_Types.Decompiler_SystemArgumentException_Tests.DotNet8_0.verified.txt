@@ -1,5 +1,77 @@
 ﻿{
   N:System, T:System.ArgumentException: {
+    Attributes: [
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute,
+        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute,
+        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute,
+        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute,
+        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute,
+        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute,
+        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute,
+        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute,
+        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute,
+        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute,
+        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+      }
+    ],
     BaseTypes: [
       T:System.SystemException,
       T:System.Exception,
@@ -289,6 +361,21 @@
         Summary: Initializes a new instance of the <see cref="T:System.ArgumentException" /> class with a specified error message and the name of the parameter that causes this exception.
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          },
+          {
+            FullName: System.ComponentModel.EditorBrowsableAttribute,
+            Id: T:System.ComponentModel.EditorBrowsableAttribute,
+            Kind: Attribute,
+            Name: EditorBrowsableAttribute
+          }
+        ],
         FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         FullName: System.ArgumentException..ctor,
         Id: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
@@ -331,6 +418,34 @@
         Summary: Initializes a new instance of the <see cref="T:System.ArgumentException" /> class with serialized data.
       },
       {
+        Attributes: [
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          },
+          {
+            FullName: System.ComponentModel.EditorBrowsableAttribute,
+            Id: T:System.ComponentModel.EditorBrowsableAttribute,
+            Kind: Attribute,
+            Name: EditorBrowsableAttribute
+          },
+          {
+            FullName: System.ObsoleteAttribute,
+            Id: T:System.ObsoleteAttribute,
+            Kind: Attribute,
+            Name: ObsoleteAttribute,
+            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+          },
+          {
+            FullName: System.ComponentModel.EditorBrowsableAttribute,
+            Id: T:System.ComponentModel.EditorBrowsableAttribute,
+            Kind: Attribute,
+            Name: EditorBrowsableAttribute
+          }
+        ],
         FullId: T:System.ArgumentException, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         FullName: System.ArgumentException.GetObjectData,
         Id: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
@@ -447,6 +562,14 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute,
+            Id: T:System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute,
+            Kind: Attribute,
+            Name: DoesNotReturnAttribute
+          }
+        ],
         FullId: T:System.ArgumentException, M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String),
         FullName: System.ArgumentException.ThrowNullOrEmptyException,
         Id: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String),
@@ -480,6 +603,14 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Attributes: [
+          {
+            FullName: System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute,
+            Id: T:System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute,
+            Kind: Attribute,
+            Name: DoesNotReturnAttribute
+          }
+        ],
         FullId: T:System.ArgumentException, M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String),
         FullName: System.ArgumentException.ThrowNullOrWhiteSpaceException,
         Id: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String),
