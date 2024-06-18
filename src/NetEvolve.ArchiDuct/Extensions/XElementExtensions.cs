@@ -8,7 +8,7 @@ using static NetEvolve.ArchiDuct.Models.DocumentationXmlPropertyConstants;
 
 internal static class XElementExtensions
 {
-    private static readonly Func<XNode?, string?> _defaultConvert = node =>
+    private static readonly Func<XNode?, string> _defaultConvert = node =>
         node switch
         {
             null => string.Empty,
@@ -25,7 +25,7 @@ internal static class XElementExtensions
     public static string? GetElementValue(
         this XElement? element,
         string? elementName = default,
-        Func<XNode?, string?>? convertElement = default
+        Func<XNode?, string>? convertElement = default
     )
     {
         var nodes =
