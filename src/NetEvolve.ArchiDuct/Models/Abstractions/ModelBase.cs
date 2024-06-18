@@ -94,6 +94,6 @@ public abstract class ModelBase
     /// <returns>Returns the documentation for <paramref name="elementName"/>.</returns>
     protected internal string? GetElementValue(
         string? elementName = null,
-        Func<XNode?, string?>? convertElement = null
+        Func<XNode?, string>? convertElement = null
     ) => _documentation.GetElementValue(elementName, convertElement);
 }
