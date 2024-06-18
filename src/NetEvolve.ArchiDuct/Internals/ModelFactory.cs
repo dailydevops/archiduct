@@ -55,7 +55,7 @@ internal static class ModelFactory
             }
         );
 
-        return true;
+        return documentationProvider is not null;
     }
 
     public static ModelMemberBase CreateModelMemberType(
