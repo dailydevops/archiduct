@@ -13,6 +13,11 @@ public enum ModelKind
     Assembly,
 
     /// <summary>
+    /// Object that describes a reference, typically to another assembly. Like a NuGet package or a project reference.
+    /// </summary>
+    Reference,
+
+    /// <summary>
     /// Object that describes a namespace.
     /// </summary>
     Namespace,

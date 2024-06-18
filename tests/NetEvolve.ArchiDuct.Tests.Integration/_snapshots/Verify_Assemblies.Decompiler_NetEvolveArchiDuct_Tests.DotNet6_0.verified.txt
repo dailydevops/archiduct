@@ -1,0 +1,121 @@
+﻿{
+  A:NetEvolve.ArchiDuct: {
+    FullName: NetEvolve.ArchiDuct,
+    Id: A:NetEvolve.ArchiDuct,
+    Name: NetEvolve.ArchiDuct,
+    Namespaces: [
+      {
+        FullId: A:NetEvolve.ArchiDuct, N:NetEvolve.ArchiDuct,
+        FullName: NetEvolve.ArchiDuct,
+        Id: N:NetEvolve.ArchiDuct,
+        Kind: Namespace,
+        Name: ArchiDuct,
+        ParentId: A:NetEvolve.ArchiDuct,
+        Types: [
+          T:NetEvolve.ArchiDuct.ArchitectureCollector
+        ]
+      }
+    ],
+    References: [
+      {
+        FullName: System.Runtime,
+        Id: A:System.Runtime,
+        Kind: Reference,
+        Name: System.Runtime,
+        Version: 6.0.0.0
+      },
+      {
+        FullName: System.Collections,
+        Id: A:System.Collections,
+        Kind: Reference,
+        Name: System.Collections,
+        Version: 6.0.0.0
+      },
+      {
+        FullName: NetEvolve.FluentValue,
+        Id: A:NetEvolve.FluentValue,
+        Kind: Reference,
+        Name: NetEvolve.FluentValue,
+        Version: 0.2.0.0
+      },
+      {
+        FullName: ICSharpCode.Decompiler,
+        Id: A:ICSharpCode.Decompiler,
+        Kind: Reference,
+        Name: ICSharpCode.Decompiler,
+        Version: 8.2.0.7535
+      },
+      {
+        FullName: System.Xml.XDocument,
+        Id: A:System.Xml.XDocument,
+        Kind: Reference,
+        Name: System.Xml.XDocument,
+        Version: 6.0.0.0
+      },
+      {
+        FullName: System.Collections.Concurrent,
+        Id: A:System.Collections.Concurrent,
+        Kind: Reference,
+        Name: System.Collections.Concurrent,
+        Version: 6.0.0.0
+      },
+      {
+        FullName: NetEvolve.Arguments,
+        Id: A:NetEvolve.Arguments,
+        Kind: Reference,
+        Name: NetEvolve.Arguments,
+        Version: 1.2.12.0
+      },
+      {
+        FullName: System.Threading.Tasks.Parallel,
+        Id: A:System.Threading.Tasks.Parallel,
+        Kind: Reference,
+        Name: System.Threading.Tasks.Parallel,
+        Version: 6.0.0.0
+      },
+      {
+        FullName: System.Linq,
+        Id: A:System.Linq,
+        Kind: Reference,
+        Name: System.Linq,
+        Version: 6.0.0.0
+      },
+      {
+        FullName: System.Private.CoreLib,
+        Id: A:System.Private.CoreLib,
+        Kind: Reference,
+        Name: System.Private.CoreLib,
+        Version: 6.0.0.0
+      },
+      {
+        FullName: System.Private.Uri,
+        Id: A:System.Private.Uri,
+        Kind: Reference,
+        Name: System.Private.Uri,
+        Version: 6.0.0.0
+      },
+      {
+        FullName: System.Private.Xml.Linq,
+        Id: A:System.Private.Xml.Linq,
+        Kind: Reference,
+        Name: System.Private.Xml.Linq,
+        Version: 6.0.0.0
+      },
+      {
+        FullName: System.Runtime.InteropServices,
+        Id: A:System.Runtime.InteropServices,
+        Kind: Reference,
+        Name: System.Runtime.InteropServices,
+        Version: 6.0.0.0
+      },
+      {
+        FullName: System.Runtime.CompilerServices.Unsafe,
+        Id: A:System.Runtime.CompilerServices.Unsafe,
+        Kind: Reference,
+        Name: System.Runtime.CompilerServices.Unsafe,
+        Version: 6.0.0.0
+      }
+    ],
+    Version: 0.2.0.0
+  }
+}

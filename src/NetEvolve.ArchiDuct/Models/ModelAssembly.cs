@@ -23,6 +23,11 @@ public sealed class ModelAssembly : ModelBase
     public HashSet<ModelNamespace> Namespaces { get; internal set; } = [];
 
     /// <summary>
+    /// Enumerable of all references within this assembly.
+    /// </summary>
+    public HashSet<ModelReference> References { get; internal set; } = [];
+
+    /// <summary>
     /// Enumerable of all types within this assembly.
     /// </summary>
     /// <value>Enumerable of all described types.</value>

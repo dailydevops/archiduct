@@ -41,6 +41,8 @@ internal sealed partial class Decompiler : IDisposable
 
     private readonly CSharpResolver _resolver;
 
+    private readonly Version _zeroVersion = Version.Parse("0.0.0.0");
+
     private bool _disposedValue;
 
     private ModelAssembly _modelAssembly = default!;
@@ -67,7 +69,16 @@ internal sealed partial class Decompiler : IDisposable
             _decompiler.DocumentationProvider = documentationProvider;
         }
 
-        return DecompileModule(mainModule, filters);
+        var model = DecompileModule(mainModule, filters);
+
+        model.References = typeSystem
+            .ReferencedModules.Where(module =>
+                module.PEFile is not null && module.AssemblyVersion != _zeroVersion
+            )
+            .Select(module => new ModelReference(module))
+            .ToHashSet();
+
+        return model;
     }
 
     private ModelAssembly DecompileModule(IModule module, HashSet<SourceFilter> filters)
@@ -76,14 +87,15 @@ internal sealed partial class Decompiler : IDisposable
             module,
             GetDocumentation($"T:{module.AssemblyName}.{AssemblyDoc}")
         );
+
+        MapTypeModels(module, filters);
+        SetReferences();
+
         // TODO: Add GitVersion informations
-        // TODO: Assembly References
         // TODO: Assembly Attributes
 
 
-        MapTypeModels(module, filters);
 
-        SetReferences();
 
         return _modelAssembly;
     }

@@ -1,0 +1,21 @@
+﻿{
+  A:System.Private.CoreLib: {
+    FullName: System.Private.CoreLib,
+    Id: A:System.Private.CoreLib,
+    Name: System.Private.CoreLib,
+    Namespaces: [
+      {
+        FullId: A:System.Private.CoreLib, N:System,
+        FullName: System,
+        Id: N:System,
+        Kind: Namespace,
+        Name: System,
+        ParentId: A:System.Private.CoreLib,
+        Types: [
+          T:System.String
+        ]
+      }
+    ],
+    Version: 8.0.0.0
+  }
+}
