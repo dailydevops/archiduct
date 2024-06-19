@@ -1,8 +1,5 @@
 ﻿namespace NetEvolve.ArchiDuct.Internals;
 
-using System.Collections.Concurrent;
-using System.Diagnostics.CodeAnalysis;
-using System.Xml.Linq;
 using ICSharpCode.Decompiler;
 using ICSharpCode.Decompiler.CSharp;
 using ICSharpCode.Decompiler.CSharp.Resolver;
@@ -346,8 +343,8 @@ internal sealed partial class Decompiler : IDisposable
                 .ToHashSet();
         });
 
-        _modelAssembly.Namespaces = _modelNamespaces.ToHashSet();
-        _modelAssembly.Types = _modelTypes.ToHashSet();
+        _modelAssembly.Namespaces = [.. _modelNamespaces];
+        _modelAssembly.Types = [.. _modelTypes];
     }
 
     private static bool ShouldNotBeDescribedAccessModifier(IMember entity) =>
