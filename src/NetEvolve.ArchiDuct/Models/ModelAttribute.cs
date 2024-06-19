@@ -1,7 +1,6 @@
 ﻿namespace NetEvolve.ArchiDuct.Models;
 
 using System.Diagnostics.CodeAnalysis;
-using System.Windows.Markup;
 using System.Xml.Linq;
 using ICSharpCode.Decompiler.Documentation;
 using ICSharpCode.Decompiler.TypeSystem;

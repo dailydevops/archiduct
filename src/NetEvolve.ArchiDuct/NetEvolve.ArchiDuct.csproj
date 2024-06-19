@@ -8,6 +8,8 @@
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
 
     <PackageReference Include="ICSharpCode.Decompiler" />
+
+    <PackageReference Include="Mono.Cecil" />
     <PackageReference Include="NetEvolve.Arguments" />
     <PackageReference Include="NetEvolve.FluentValue" />
   </ItemGroup>
