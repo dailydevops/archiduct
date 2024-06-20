@@ -9,6 +9,9 @@ using NetEvolve.ArchiDuct.Models.Documentation;
 public abstract class ModelBase
 // TODO: Add DisplayValue
 {
+    /// <summary>
+    /// Gets the documentation for the described object.
+    /// </summary>
     public ModelDocumentation? Documentation { get; }
 
     /// <summary>

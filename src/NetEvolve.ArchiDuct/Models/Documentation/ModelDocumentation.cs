@@ -135,5 +135,8 @@ public sealed class ModelDocumentation
         XElement? documentation,
         string? elementName = null,
         Func<XNode?, string>? convertElement = null
-    ) => documentation?.GetElementValue(elementName, convertElement);
+    ) =>
+        string.IsNullOrWhiteSpace(elementName)
+            ? null
+            : documentation?.GetElementValue(elementName.Trim(), convertElement);
 }
