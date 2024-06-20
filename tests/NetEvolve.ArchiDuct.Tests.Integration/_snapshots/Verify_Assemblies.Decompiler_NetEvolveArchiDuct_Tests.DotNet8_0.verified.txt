@@ -213,6 +213,12 @@
         Name: System.Linq
       },
       {
+        FullName: System.Threading.Thread,
+        Id: A:System.Threading.Thread,
+        Kind: Reference,
+        Name: System.Threading.Thread
+      },
+      {
         FullName: System.Private.CoreLib,
         Id: A:System.Private.CoreLib,
         Kind: Reference,
