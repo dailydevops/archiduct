@@ -6,12 +6,16 @@ using NetEvolve.ArchiDuct.Models;
 using static NetEvolve.ArchiDuct.Models.DocumentationXmlAttributeConstants;
 using static NetEvolve.ArchiDuct.Models.DocumentationXmlPropertyConstants;
 
+/// <summary>
+/// Represents the xml documentation for a model.
+/// </summary>
 public sealed class ModelDocumentation
 {
-    private string? _remarks;
-    private string? _returns;
     private readonly XElement _documentation;
-    private string? _summary;
+
+    private readonly string? _remarks;
+    private readonly string? _returns;
+    private readonly string? _summary;
 
     /// <summary>
     /// Gets the content from the xml &lt;remarks/&gt; tag.
@@ -95,16 +99,16 @@ public sealed class ModelDocumentation
         return documentation;
     }
 
-    /// <summary>
-    /// Determines the parentDocumentation element for the parameter <paramref name="elementName"/>.
-    /// </summary>
-    /// <param name="documentation">The parentDocumentation xml to search for the <paramref name="elementName"/>. Can be null.</param>
-    /// <param name="elementName">Property name within the parentDocumentation xml.</param>
-    /// <returns>Returns the full parentDocumentation for <paramref name="elementName"/> as xml.</returns>
-    protected internal static XElement? GetElement(XElement? documentation, string? elementName) =>
-        string.IsNullOrWhiteSpace(elementName)
-            ? documentation
-            : documentation?.Element(elementName.Trim());
+    ///// <summary>
+    ///// Determines the parentDocumentation element for the parameter <paramref name="elementName"/>.
+    ///// </summary>
+    ///// <param name="documentation">The parentDocumentation xml to search for the <paramref name="elementName"/>. Can be null.</param>
+    ///// <param name="elementName">Property name within the parentDocumentation xml.</param>
+    ///// <returns>Returns the full parentDocumentation for <paramref name="elementName"/> as xml.</returns>
+    //private static XElement? GetElement(XElement? documentation, string? elementName) =>
+    //    string.IsNullOrWhiteSpace(elementName)
+    //        ? documentation
+    //        : documentation?.Element(elementName.Trim());
 
     /// <summary>
     /// Determines the parentDocumentation elements for the parameter <paramref name="elementName"/>.
@@ -112,7 +116,7 @@ public sealed class ModelDocumentation
     /// <param name="documentation">The parentDocumentation xml to search for the <paramref name="elementName"/>. Can be null.</param>
     /// <param name="elementName">Property name within the parentDocumentation xml.</param>
     /// <returns>Returns the full parentDocumentation for <paramref name="elementName"/> as xml.</returns>
-    protected internal static IEnumerable<XElement>? GetElements(
+    private static IEnumerable<XElement>? GetElements(
         XElement? documentation,
         string? elementName
     ) =>
