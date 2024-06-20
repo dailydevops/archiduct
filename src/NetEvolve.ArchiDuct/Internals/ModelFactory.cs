@@ -46,19 +46,27 @@ internal static class ModelFactory
                 if (m.PEFile is not null && File.Exists(m.PEFile.FileName))
                 {
 #pragma warning disable RS0030 // Do not use banned APIs
-                    Console.WriteLine($"Loading documentation for {m.PEFile.FileName}");
+                    Console.Write($"Loading documentation for {m.PEFile.FileName}");
 #pragma warning restore RS0030 // Do not use banned APIs
 
                     provider = DocumentationLoader.LoadDocumentation(m.PEFile);
+
+#pragma warning disable RS0030 // Do not use banned APIs
+                    Console.WriteLine(provider is not null ? " - Successful" : " - Failed");
+#pragma warning restore RS0030 // Do not use banned APIs
                 }
 
                 if (provider is null)
                 {
 #pragma warning disable RS0030 // Do not use banned APIs
-                    Console.WriteLine("Loading mscorlib documentation");
+                    Console.Write("Loading mscorlib documentation");
 #pragma warning restore RS0030 // Do not use banned APIs
 
                     provider = DocumentationLoader.MscorlibDocumentation;
+
+#pragma warning disable RS0030 // Do not use banned APIs
+                    Console.WriteLine(provider is not null ? " - Successful" : " - Failed");
+#pragma warning restore RS0030 // Do not use banned APIs
                 }
 
                 return provider;
