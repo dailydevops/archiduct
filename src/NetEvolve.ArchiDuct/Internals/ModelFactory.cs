@@ -117,15 +117,9 @@ internal static class ModelFactory
 #pragma warning disable IDE0072 // Add missing cases
         ModelTypeBase model = typeDefinition.Kind switch
         {
-            TypeKind.Class when typeDefinition.IsRecord
-                => new ModelRecordClass(typeDefinition, parentEntity, documentation),
-            TypeKind.Class when !typeDefinition.IsRecord
-                => new ModelClass(typeDefinition, parentEntity, documentation),
+            TypeKind.Class => new ModelClass(typeDefinition, parentEntity, documentation),
             TypeKind.Interface => new ModelInterface(typeDefinition, parentEntity, documentation),
-            TypeKind.Struct when typeDefinition.IsRecord
-                => new ModelRecordStruct(typeDefinition, parentEntity, documentation),
-            TypeKind.Struct when !typeDefinition.IsRecord
-                => new ModelStruct(typeDefinition, parentEntity, documentation),
+            TypeKind.Struct => new ModelStruct(typeDefinition, parentEntity, documentation),
             TypeKind.Delegate => new ModelDelegate(typeDefinition, parentEntity, documentation),
             TypeKind.Enum => new ModelEnum(typeDefinition, parentEntity, documentation),
             _ => throw new InvalidOperationException(),

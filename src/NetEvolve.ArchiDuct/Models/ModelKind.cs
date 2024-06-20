@@ -35,19 +35,9 @@ public enum ModelKind
     Class,
 
     /// <summary>
-    /// Object that describes a record class.
-    /// </summary>
-    RecordClass,
-
-    /// <summary>
     /// Object that describes a struct.
     /// </summary>
     Struct,
-
-    /// <summary>
-    /// Object that describes a record struct.
-    /// </summary>
-    RecordStruct,
 
     /// <summary>
     /// Object that describes an interface.

@@ -65,6 +65,7 @@
       M:System.Object.GetHashCode
     ],
     IsNested: false,
+    IsRecord: false,
     Kind: Struct,
     Members: [
       {

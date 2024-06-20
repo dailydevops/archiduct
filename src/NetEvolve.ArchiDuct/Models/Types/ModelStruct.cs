@@ -9,6 +9,11 @@ using NetEvolve.ArchiDuct.Models.Abstractions;
 /// </summary>
 public sealed class ModelStruct : ModelTypeBase
 {
+    /// <summary>
+    /// Gets a value indicating whether the struct is a <see langword="record"/>.
+    /// </summary>
+    public bool IsRecord { get; }
+
     /// <inheritdoc />
     public override ModelKind Kind => ModelKind.Struct;
 
@@ -18,5 +23,5 @@ public sealed class ModelStruct : ModelTypeBase
         ModelBase parentEntity,
         XElement? documentation
     )
-        : base(typeDefinition, parentEntity, documentation) { }
+        : base(typeDefinition, parentEntity, documentation) => IsRecord = typeDefinition.IsRecord;
 }

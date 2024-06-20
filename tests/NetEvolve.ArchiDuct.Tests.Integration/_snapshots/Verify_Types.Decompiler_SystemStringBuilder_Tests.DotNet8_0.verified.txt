@@ -64,6 +64,7 @@
       M:System.Object.GetHashCode
     ],
     IsNested: false,
+    IsRecord: false,
     Kind: Class,
     Members: [
       {
@@ -6047,6 +6048,7 @@
       M:System.Object.GetHashCode
     ],
     IsNested: true,
+    IsRecord: false,
     Kind: Struct,
     Members: [
       {
@@ -6811,6 +6813,7 @@
       M:System.Object.GetHashCode
     ],
     IsNested: true,
+    IsRecord: false,
     Kind: Struct,
     Members: [
       {
@@ -6997,6 +7000,7 @@
       M:System.Object.GetHashCode
     ],
     IsNested: true,
+    IsRecord: false,
     Kind: Class,
     Members: [
       {
