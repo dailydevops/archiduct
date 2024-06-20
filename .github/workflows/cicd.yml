@@ -27,6 +27,5 @@ jobs:
       disablePublish: true
       dotnet-logging: ${{ inputs.dotnet-logging }}
       dotnet-version: ${{ vars.NE_DOTNET_TARGETFRAMEWORKS }}
-      runs-on-tests: windows-latest
       solution: ./ArchiDuct.sln
     secrets: inherit
