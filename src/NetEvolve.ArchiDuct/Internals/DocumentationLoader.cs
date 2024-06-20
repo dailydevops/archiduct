@@ -82,7 +82,7 @@ internal static class DocumentationLoader
             _
                 => LookupLocalizedXmlDoc(_referencePath, @".NETFramework\v4.0", assemblyFileName)
                     ?? LookupLocalizedXmlDoc(_frameworkPath, "v4.0.30319", assemblyFileName)
-            ?? LookupLocalizedXmlDoc(_unixPath, assemblyFileName)
+                    ?? LookupLocalizedXmlDoc(_unixPath, assemblyFileName)
                     ?? LookupLocalizedXmlDoc(_mono45Path, assemblyFileName)
                     ?? LookupLocalizedXmlDoc(_mono40Path, assemblyFileName)
                     ?? LookupLocalizedXmlDoc(_mono35Path, assemblyFileName)
