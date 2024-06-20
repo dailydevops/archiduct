@@ -5,64 +5,55 @@
         FullName: System.FlagsAttribute,
         Id: T:System.FlagsAttribute,
         Kind: Attribute,
-        Name: FlagsAttribute,
-        Summary: Specifies whether applicable <see cref="Overload:System.String.Split" /> method overloads include or omit empty substrings from the return value.
+        Name: FlagsAttribute
       },
       {
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: Specifies whether applicable <see cref="Overload:System.String.Split" /> method overloads include or omit empty substrings from the return value.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: Specifies whether applicable <see cref="Overload:System.String.Split" /> method overloads include or omit empty substrings from the return value.
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: Specifies whether applicable <see cref="Overload:System.String.Split" /> method overloads include or omit empty substrings from the return value.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: Specifies whether applicable <see cref="Overload:System.String.Split" /> method overloads include or omit empty substrings from the return value.
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: Specifies whether applicable <see cref="Overload:System.String.Split" /> method overloads include or omit empty substrings from the return value.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Summary: Specifies whether applicable <see cref="Overload:System.String.Split" /> method overloads include or omit empty substrings from the return value.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Summary: Specifies whether applicable <see cref="Overload:System.String.Split" /> method overloads include or omit empty substrings from the return value.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: Specifies whether applicable <see cref="Overload:System.String.Split" /> method overloads include or omit empty substrings from the return value.
+        Name: TypeForwardedFromAttribute
       }
     ],
     BaseTypes: [
@@ -84,7 +75,6 @@
         Name: None,
         ParentId: T:System.StringSplitOptions,
         ReturnTypeId: T:System.StringSplitOptions,
-        Summary: The return value includes array elements that contain an empty string,
         Value: 0
       },
       {
@@ -95,7 +85,6 @@
         Name: RemoveEmptyEntries,
         ParentId: T:System.StringSplitOptions,
         ReturnTypeId: T:System.StringSplitOptions,
-        Summary: The return value does not include array elements that contain an empty string,
         Value: 1
       },
       {
@@ -115,7 +104,6 @@
     Name: StringSplitOptions,
     NamespaceId: N:System,
     ParentId: N:System,
-    Summary: Specifies whether applicable <see cref="Overload:System.String.Split" /> method overloads include or omit empty substrings from the return value.,
     UnderlyingType: T:System.Int32
   }
 }

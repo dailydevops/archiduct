@@ -5,57 +5,49 @@
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Summary: Represents the method that will handle an event that has no event data.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Summary: Represents the method that will handle an event that has no event data.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Summary: Represents the method that will handle an event that has no event data.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Summary: Represents the method that will handle an event that has no event data.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: Represents the method that will handle an event that has no event data.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Summary: Represents the method that will handle an event that has no event data.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Summary: Represents the method that will handle an event that has no event data.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: Represents the method that will handle an event that has no event data.
+        Name: TypeForwardedFromAttribute
       }
     ],
     BaseTypes: [
@@ -82,7 +74,6 @@
         Kind: Parameter,
         Name: sender,
         ParentId: T:System.EventHandler,
-        Summary: The source of the event.,
         TypeId: T:System.Object
       },
       {
@@ -92,12 +83,10 @@
         Kind: Parameter,
         Name: e,
         ParentId: T:System.EventHandler,
-        Summary: An object that contains no event data.,
         TypeId: T:System.EventArgs
       }
     ],
     ParentId: N:System,
-    ReturnTypeId: T:System.Void,
-    Summary: Represents the method that will handle an event that has no event data.
+    ReturnTypeId: T:System.Void
   }
 }

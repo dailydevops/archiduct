@@ -617,8 +617,7 @@
             FullName: System.ObsoleteAttribute,
             Id: T:System.ObsoleteAttribute,
             Kind: Attribute,
-            Name: ObsoleteAttribute,
-            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+            Name: ObsoleteAttribute
           }
         ],
         FullId: T:System.Uri, M:System.Uri.#ctor(System.String,System.Boolean),
@@ -668,8 +667,7 @@
             FullName: System.ObsoleteAttribute,
             Id: T:System.ObsoleteAttribute,
             Kind: Attribute,
-            Name: ObsoleteAttribute,
-            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+            Name: ObsoleteAttribute
           }
         ],
         FullId: T:System.Uri, M:System.Uri.#ctor(System.Uri,System.String,System.Boolean),
@@ -2545,8 +2543,7 @@
             FullName: System.ObsoleteAttribute,
             Id: T:System.ObsoleteAttribute,
             Kind: Attribute,
-            Name: ObsoleteAttribute,
-            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+            Name: ObsoleteAttribute
           }
         ],
         FullId: T:System.Uri, M:System.Uri.MakeRelative(System.Uri),
@@ -2577,8 +2574,7 @@
             FullName: System.ObsoleteAttribute,
             Id: T:System.ObsoleteAttribute,
             Kind: Attribute,
-            Name: ObsoleteAttribute,
-            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+            Name: ObsoleteAttribute
           }
         ],
         FullId: T:System.Uri, M:System.Uri.Canonicalize,
@@ -2599,8 +2595,7 @@
             FullName: System.ObsoleteAttribute,
             Id: T:System.ObsoleteAttribute,
             Kind: Attribute,
-            Name: ObsoleteAttribute,
-            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+            Name: ObsoleteAttribute
           }
         ],
         FullId: T:System.Uri, M:System.Uri.Parse,
@@ -2621,8 +2616,7 @@
             FullName: System.ObsoleteAttribute,
             Id: T:System.ObsoleteAttribute,
             Kind: Attribute,
-            Name: ObsoleteAttribute,
-            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+            Name: ObsoleteAttribute
           }
         ],
         FullId: T:System.Uri, M:System.Uri.Escape,
@@ -2643,8 +2637,7 @@
             FullName: System.ObsoleteAttribute,
             Id: T:System.ObsoleteAttribute,
             Kind: Attribute,
-            Name: ObsoleteAttribute,
-            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+            Name: ObsoleteAttribute
           }
         ],
         FullId: T:System.Uri, M:System.Uri.Unescape(System.String),
@@ -2676,8 +2669,7 @@
             FullName: System.ObsoleteAttribute,
             Id: T:System.ObsoleteAttribute,
             Kind: Attribute,
-            Name: ObsoleteAttribute,
-            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+            Name: ObsoleteAttribute
           }
         ],
         FullId: T:System.Uri, M:System.Uri.EscapeString(System.String),
@@ -2709,8 +2701,7 @@
             FullName: System.ObsoleteAttribute,
             Id: T:System.ObsoleteAttribute,
             Kind: Attribute,
-            Name: ObsoleteAttribute,
-            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+            Name: ObsoleteAttribute
           }
         ],
         FullId: T:System.Uri, M:System.Uri.CheckSecurity,
@@ -2731,8 +2722,7 @@
             FullName: System.ObsoleteAttribute,
             Id: T:System.ObsoleteAttribute,
             Kind: Attribute,
-            Name: ObsoleteAttribute,
-            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+            Name: ObsoleteAttribute
           }
         ],
         FullId: T:System.Uri, M:System.Uri.IsReservedCharacter(System.Char),
@@ -2764,8 +2754,7 @@
             FullName: System.ObsoleteAttribute,
             Id: T:System.ObsoleteAttribute,
             Kind: Attribute,
-            Name: ObsoleteAttribute,
-            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+            Name: ObsoleteAttribute
           }
         ],
         FullId: T:System.Uri, M:System.Uri.IsExcludedCharacter(System.Char),
@@ -2797,8 +2786,7 @@
             FullName: System.ObsoleteAttribute,
             Id: T:System.ObsoleteAttribute,
             Kind: Attribute,
-            Name: ObsoleteAttribute,
-            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+            Name: ObsoleteAttribute
           }
         ],
         FullId: T:System.Uri, M:System.Uri.IsBadFileSystemCharacter(System.Char),
@@ -3360,8 +3348,7 @@
             FullName: System.ObsoleteAttribute,
             Id: T:System.ObsoleteAttribute,
             Kind: Attribute,
-            Name: ObsoleteAttribute,
-            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+            Name: ObsoleteAttribute
           }
         ],
         FullId: T:System.Uri, M:System.Uri.EscapeUriString(System.String),
