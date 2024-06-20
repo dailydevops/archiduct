@@ -169,7 +169,6 @@
           T:System.String
         ]
       }
-    ],
-    Version: 8.0.0.0
+    ]
   }
 }
