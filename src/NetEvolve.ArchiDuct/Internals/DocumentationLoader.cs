@@ -48,7 +48,7 @@ internal static class DocumentationLoader
 
     private static readonly string _referencePath = Path.Combine(
         Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86),
-        @"Reference Assemblies\Microsoft\\Framework"
+        @"Reference Assemblies\Microsoft\Framework"
     );
     private static readonly string _frameworkPath = Path.Combine(
         Environment.GetFolderPath(Environment.SpecialFolder.Windows),
