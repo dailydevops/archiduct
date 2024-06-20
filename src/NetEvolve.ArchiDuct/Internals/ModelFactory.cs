@@ -40,18 +40,30 @@ internal static class ModelFactory
         [NotNullWhen(true)] out IDocumentationProvider? documentationProvider
     )
     {
-        if (module?.PEFile is null)
-        {
-            documentationProvider = null;
-            return false;
-        }
-
         documentationProvider = _documentationProviders.GetOrAdd(
             module,
             m =>
             {
-                return XmlDocLoader.LoadDocumentation(m.PEFile)
-                    ?? XmlDocLoader.MscorlibDocumentation;
+                XmlDocumentationProvider? provider = null;
+                if (m.PEFile is not null && File.Exists(m.PEFile.FileName))
+                {
+#pragma warning disable RS0030 // Do not use banned APIs
+                    Console.WriteLine($"Loading documentation for {m.PEFile.FileName}");
+#pragma warning restore RS0030 // Do not use banned APIs
+
+                    provider = DocumentationLoader.LoadDocumentation(m.PEFile);
+                }
+
+                if (provider is null)
+                {
+#pragma warning disable RS0030 // Do not use banned APIs
+                    Console.WriteLine("Loading mscorlib documentation");
+#pragma warning restore RS0030 // Do not use banned APIs
+
+                    provider = DocumentationLoader.MscorlibDocumentation;
+                }
+
+                return provider;
             }
         );
 
