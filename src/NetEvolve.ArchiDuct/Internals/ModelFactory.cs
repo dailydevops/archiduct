@@ -30,10 +30,8 @@ internal static class ModelFactory
 
     private static readonly ConcurrentDictionary<
         IModule,
-        IDocumentationProvider
-    > _documentationProviders = new ConcurrentDictionary<IModule, IDocumentationProvider>(
-        new ModuleEqualityComparer()
-    );
+        IDocumentationProvider?
+    > _documentationProviders = new(new ModuleEqualityComparer());
 
     public static bool TryGetDocumentationProvider(
         IModule module,
