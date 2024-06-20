@@ -53,9 +53,7 @@ internal sealed partial class Decompiler : IDisposable
         var model = DecompileModule(mainModule, filters);
 
         model.References = typeSystem
-            .ReferencedModules.Where(module =>
-                module.PEFile is not null && module.AssemblyVersion != _zeroVersion
-            )
+            .ReferencedModules.Where(module => module.AssemblyVersion != _zeroVersion)
             .Select(module => new ModelReference(module))
             .ToHashSet();
 

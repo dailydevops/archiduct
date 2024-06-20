@@ -213,6 +213,12 @@
         Name: System.Linq
       },
       {
+        FullName: System.Console,
+        Id: A:System.Console,
+        Kind: Reference,
+        Name: System.Console
+      },
+      {
         FullName: System.Threading.Thread,
         Id: A:System.Threading.Thread,
         Kind: Reference,

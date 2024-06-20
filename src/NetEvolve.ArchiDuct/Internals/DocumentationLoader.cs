@@ -3,6 +3,7 @@
 using System;
 using System.Collections.Concurrent;
 using System.Diagnostics.CodeAnalysis;
+using System.Runtime.InteropServices;
 using ICSharpCode.Decompiler.Documentation;
 using ICSharpCode.Decompiler.Metadata;
 
@@ -61,28 +62,37 @@ internal static class DocumentationLoader
 #pragma warning restore CA1802 // Use literals where appropriate
 
 
-    private static string? FindXmlDocumentation(string assemblyFileName, TargetRuntime runtime) =>
-        runtime switch
+    private static string? FindXmlDocumentation(string assemblyFileName, TargetRuntime runtime)
+    {
+        if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
         {
-            TargetRuntime.Net_1_0
-                => LookupLocalizedXmlDoc(_frameworkPath, "v1.0.3705", assemblyFileName),
-            TargetRuntime.Net_1_1
-                => LookupLocalizedXmlDoc(_frameworkPath, "v1.1.4322", assemblyFileName),
-            TargetRuntime.Net_2_0
-                => LookupLocalizedXmlDoc(_frameworkPath, "v2.0.50727", assemblyFileName)
-                    ?? LookupLocalizedXmlDoc(_referencePath, "v3.5", assemblyFileName)
-                    ?? LookupLocalizedXmlDoc(_referencePath, "v3.0", assemblyFileName)
-                    ?? LookupLocalizedXmlDoc(
+            return runtime switch
+            {
+                TargetRuntime.Net_1_0
+                    => LookupLocalizedXmlDoc(_frameworkPath, "v1.0.3705", assemblyFileName),
+                TargetRuntime.Net_1_1
+                    => LookupLocalizedXmlDoc(_frameworkPath, "v1.1.4322", assemblyFileName),
+                TargetRuntime.Net_2_0
+                    => LookupLocalizedXmlDoc(_frameworkPath, "v2.0.50727", assemblyFileName)
+                        ?? LookupLocalizedXmlDoc(_referencePath, "v3.5", assemblyFileName)
+                        ?? LookupLocalizedXmlDoc(_referencePath, "v3.0", assemblyFileName)
+                        ?? LookupLocalizedXmlDoc(
+                            _referencePath,
+                            @".NETFramework\v3.5\Profile\Client",
+                            assemblyFileName
+                        ),
+                _
+                    => LookupLocalizedXmlDoc(
                         _referencePath,
-                        @".NETFramework\v3.5\Profile\Client",
+                        @".NETFramework\v4.0",
                         assemblyFileName
-                    ),
-            _
-                => LookupLocalizedXmlDoc(_referencePath, @".NETFramework\v4.0", assemblyFileName)
-                    ?? LookupLocalizedXmlDoc(_frameworkPath, "v4.0.30319", assemblyFileName)
-                    ?? LookupLocalizedXmlDoc(_unixPath, assemblyFileName)
-                    ?? LookupLocalizedXmlDoc(_unixSharedPath, assemblyFileName),
-        };
+                    ) ?? LookupLocalizedXmlDoc(_frameworkPath, "v4.0.30319", assemblyFileName)
+            };
+        }
+
+        return LookupLocalizedXmlDoc(_unixPath, assemblyFileName)
+            ?? LookupLocalizedXmlDoc(_unixSharedPath, assemblyFileName);
+    }
 
     internal static string? LookupLocalizedXmlDoc(params string[] pathSegments) =>
         LookupLocalizedXmlDoc(Path.Combine(pathSegments));
