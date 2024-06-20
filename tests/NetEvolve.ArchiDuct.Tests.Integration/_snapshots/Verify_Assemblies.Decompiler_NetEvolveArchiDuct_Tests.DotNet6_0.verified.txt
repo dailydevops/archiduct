@@ -207,6 +207,18 @@
         Name: System.Linq
       },
       {
+        FullName: System.Runtime.InteropServices.RuntimeInformation,
+        Id: A:System.Runtime.InteropServices.RuntimeInformation,
+        Kind: Reference,
+        Name: System.Runtime.InteropServices.RuntimeInformation
+      },
+      {
+        FullName: System.Console,
+        Id: A:System.Console,
+        Kind: Reference,
+        Name: System.Console
+      },
+      {
         FullName: System.Threading.Thread,
         Id: A:System.Threading.Thread,
         Kind: Reference,
