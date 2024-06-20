@@ -5,29 +5,25 @@
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: Defines a generalized type-specific comparison method that a value type or class implements to order or sort its instances.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Summary: Defines a generalized type-specific comparison method that a value type or class implements to order or sort its instances.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Summary: Defines a generalized type-specific comparison method that a value type or class implements to order or sort its instances.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: Defines a generalized type-specific comparison method that a value type or class implements to order or sort its instances.
+        Name: TypeForwardedFromAttribute
       }
     ],
     FullId: N:System, T:System.IComparable,
@@ -53,30 +49,11 @@
             Kind: Parameter,
             Name: obj,
             ParentId: M:System.IComparable.CompareTo(System.Object),
-            Summary: An object to compare with this instance.,
             TypeId: T:System.Object
           }
         ],
         ParentId: T:System.IComparable,
-        ReturnTypeId: T:System.Int32,
-        Returns:
-A value that indicates the relative order of the objects being compared. The return value has these meanings:  
-  Value  
-
-  Meaning  
-
-  Less than zero  
-
-  This instance precedes <paramref name="obj" /> in the sort order.  
-
-  Zero  
-
-  This instance occurs in the same position in the sort order as <paramref name="obj" />.  
-
-  Greater than zero  
-
-  This instance follows <paramref name="obj" /> in the sort order.,
-        Summary: Compares the current instance with another object of the same type and returns an integer that indicates whether the current instance precedes, follows, or occurs in the same position in the sort order as the other object.
+        ReturnTypeId: T:System.Int32
       }
     ],
     Modifiers: [
@@ -84,7 +61,6 @@ A value that indicates the relative order of the objects being compared. The ret
     ],
     Name: IComparable,
     NamespaceId: N:System,
-    ParentId: N:System,
-    Summary: Defines a generalized type-specific comparison method that a value type or class implements to order or sort its instances.
+    ParentId: N:System
   }
 }

@@ -5,65 +5,49 @@
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Returns: <see langword="true" /> if <paramref name="obj" /> meets the criteria defined within the method represented by this delegate; otherwise, <see langword="false" />.,
-        Summary: Represents the method that defines a set of criteria and determines whether the specified object meets those criteria.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Returns: <see langword="true" /> if <paramref name="obj" /> meets the criteria defined within the method represented by this delegate; otherwise, <see langword="false" />.,
-        Summary: Represents the method that defines a set of criteria and determines whether the specified object meets those criteria.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Returns: <see langword="true" /> if <paramref name="obj" /> meets the criteria defined within the method represented by this delegate; otherwise, <see langword="false" />.,
-        Summary: Represents the method that defines a set of criteria and determines whether the specified object meets those criteria.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Returns: <see langword="true" /> if <paramref name="obj" /> meets the criteria defined within the method represented by this delegate; otherwise, <see langword="false" />.,
-        Summary: Represents the method that defines a set of criteria and determines whether the specified object meets those criteria.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Returns: <see langword="true" /> if <paramref name="obj" /> meets the criteria defined within the method represented by this delegate; otherwise, <see langword="false" />.,
-        Summary: Represents the method that defines a set of criteria and determines whether the specified object meets those criteria.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Returns: <see langword="true" /> if <paramref name="obj" /> meets the criteria defined within the method represented by this delegate; otherwise, <see langword="false" />.,
-        Summary: Represents the method that defines a set of criteria and determines whether the specified object meets those criteria.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Returns: <see langword="true" /> if <paramref name="obj" /> meets the criteria defined within the method represented by this delegate; otherwise, <see langword="false" />.,
-        Summary: Represents the method that defines a set of criteria and determines whether the specified object meets those criteria.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Returns: <see langword="true" /> if <paramref name="obj" /> meets the criteria defined within the method represented by this delegate; otherwise, <see langword="false" />.,
-        Summary: Represents the method that defines a set of criteria and determines whether the specified object meets those criteria.
+        Name: TypeForwardedFromAttribute
       }
     ],
     BaseTypes: [
@@ -90,14 +74,11 @@
         Kind: Parameter,
         Name: obj,
         ParentId: T:System.Predicate`1,
-        Summary: The object to compare against the criteria defined within the method represented by this delegate.,
         TypeId: T:System.Predicate`1.T
       }
     ],
     ParentId: N:System,
     ReturnTypeId: T:System.Boolean,
-    Returns: <see langword="true" /> if <paramref name="obj" /> meets the criteria defined within the method represented by this delegate; otherwise, <see langword="false" />.,
-    Summary: Represents the method that defines a set of criteria and determines whether the specified object meets those criteria.,
     TypeParameters: [
       {
         FullId: T:System.Predicate`1, T:System.Predicate`1.T,
@@ -105,8 +86,7 @@
         Id: T:System.Predicate`1.T,
         Kind: TypeParameter,
         Name: T,
-        ParentId: T:System.Predicate`1,
-        Summary: The type of the object to compare.
+        ParentId: T:System.Predicate`1
       }
     ]
   }

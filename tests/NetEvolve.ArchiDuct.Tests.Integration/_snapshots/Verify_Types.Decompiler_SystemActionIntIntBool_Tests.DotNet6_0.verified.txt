@@ -5,57 +5,49 @@
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Summary: Encapsulates a method that has three parameters and does not return a value.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Summary: Encapsulates a method that has three parameters and does not return a value.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Summary: Encapsulates a method that has three parameters and does not return a value.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Summary: Encapsulates a method that has three parameters and does not return a value.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: Encapsulates a method that has three parameters and does not return a value.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Summary: Encapsulates a method that has three parameters and does not return a value.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Summary: Encapsulates a method that has three parameters and does not return a value.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: Encapsulates a method that has three parameters and does not return a value.
+        Name: TypeForwardedFromAttribute
       }
     ],
     BaseTypes: [
@@ -82,7 +74,6 @@
         Kind: Parameter,
         Name: arg1,
         ParentId: T:System.Action`3,
-        Summary: The first parameter of the method that this delegate encapsulates.,
         TypeId: T:System.Action`3.T1
       },
       {
@@ -92,7 +83,6 @@
         Kind: Parameter,
         Name: arg2,
         ParentId: T:System.Action`3,
-        Summary: The second parameter of the method that this delegate encapsulates.,
         TypeId: T:System.Action`3.T2
       },
       {
@@ -102,13 +92,11 @@
         Kind: Parameter,
         Name: arg3,
         ParentId: T:System.Action`3,
-        Summary: The third parameter of the method that this delegate encapsulates.,
         TypeId: T:System.Action`3.T3
       }
     ],
     ParentId: N:System,
     ReturnTypeId: T:System.Void,
-    Summary: Encapsulates a method that has three parameters and does not return a value.,
     TypeParameters: [
       {
         FullId: T:System.Action`3, T:System.Action`3.T1,
@@ -116,8 +104,7 @@
         Id: T:System.Action`3.T1,
         Kind: TypeParameter,
         Name: T1,
-        ParentId: T:System.Action`3,
-        Summary: The type of the first parameter of the method that this delegate encapsulates.
+        ParentId: T:System.Action`3
       },
       {
         FullId: T:System.Action`3, T:System.Action`3.T2,
@@ -125,8 +112,7 @@
         Id: T:System.Action`3.T2,
         Kind: TypeParameter,
         Name: T2,
-        ParentId: T:System.Action`3,
-        Summary: The type of the second parameter of the method that this delegate encapsulates.
+        ParentId: T:System.Action`3
       },
       {
         FullId: T:System.Action`3, T:System.Action`3.T3,
@@ -134,8 +120,7 @@
         Id: T:System.Action`3.T3,
         Kind: TypeParameter,
         Name: T3,
-        ParentId: T:System.Action`3,
-        Summary: The type of the third parameter of the method that this delegate encapsulates.
+        ParentId: T:System.Action`3
       }
     ]
   }

@@ -124,8 +124,7 @@
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
             Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
             Kind: Attribute,
-            Name: MethodImplAttribute,
-            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+            Name: MethodImplAttribute
           }
         ],
         FullId: T:System.Memory`1, M:System.Memory`1.#ctor(`0[]),
@@ -163,8 +162,7 @@
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
             Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
             Kind: Attribute,
-            Name: MethodImplAttribute,
-            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+            Name: MethodImplAttribute
           }
         ],
         FullId: T:System.Memory`1, M:System.Memory`1.#ctor(`0[],System.Int32),
@@ -211,8 +209,7 @@
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
             Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
             Kind: Attribute,
-            Name: MethodImplAttribute,
-            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+            Name: MethodImplAttribute
           }
         ],
         FullId: T:System.Memory`1, M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
@@ -268,8 +265,7 @@
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
             Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
             Kind: Attribute,
-            Name: MethodImplAttribute,
-            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+            Name: MethodImplAttribute
           }
         ],
         FullId: T:System.Memory`1, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
@@ -316,8 +312,7 @@
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
             Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
             Kind: Attribute,
-            Name: MethodImplAttribute,
-            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+            Name: MethodImplAttribute
           }
         ],
         FullId: T:System.Memory`1, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
@@ -373,8 +368,7 @@
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
             Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
             Kind: Attribute,
-            Name: MethodImplAttribute,
-            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+            Name: MethodImplAttribute
           }
         ],
         FullId: T:System.Memory`1, M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
@@ -527,8 +521,7 @@
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
             Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
             Kind: Attribute,
-            Name: MethodImplAttribute,
-            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+            Name: MethodImplAttribute
           }
         ],
         FullId: T:System.Memory`1, M:System.Memory`1.Slice(System.Int32),
@@ -562,8 +555,7 @@
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
             Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
             Kind: Attribute,
-            Name: MethodImplAttribute,
-            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+            Name: MethodImplAttribute
           }
         ],
         FullId: T:System.Memory`1, M:System.Memory`1.Slice(System.Int32,System.Int32),
@@ -749,8 +741,7 @@
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
             Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
             Kind: Attribute,
-            Name: MethodImplAttribute,
-            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+            Name: MethodImplAttribute
           }
         ],
         FullId: T:System.Memory`1, M:System.Memory`1.GetHashCode,

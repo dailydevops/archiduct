@@ -5,57 +5,49 @@
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: Specifies the day of the week.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: Specifies the day of the week.
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: Specifies the day of the week.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: Specifies the day of the week.
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: Specifies the day of the week.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Summary: Specifies the day of the week.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Summary: Specifies the day of the week.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: Specifies the day of the week.
+        Name: TypeForwardedFromAttribute
       }
     ],
     BaseTypes: [
@@ -77,7 +69,6 @@
         Name: Sunday,
         ParentId: T:System.DayOfWeek,
         ReturnTypeId: T:System.DayOfWeek,
-        Summary: Indicates Sunday.,
         Value: 0
       },
       {
@@ -88,7 +79,6 @@
         Name: Monday,
         ParentId: T:System.DayOfWeek,
         ReturnTypeId: T:System.DayOfWeek,
-        Summary: Indicates Monday.,
         Value: 1
       },
       {
@@ -99,7 +89,6 @@
         Name: Tuesday,
         ParentId: T:System.DayOfWeek,
         ReturnTypeId: T:System.DayOfWeek,
-        Summary: Indicates Tuesday.,
         Value: 2
       },
       {
@@ -110,7 +99,6 @@
         Name: Wednesday,
         ParentId: T:System.DayOfWeek,
         ReturnTypeId: T:System.DayOfWeek,
-        Summary: Indicates Wednesday.,
         Value: 3
       },
       {
@@ -121,7 +109,6 @@
         Name: Thursday,
         ParentId: T:System.DayOfWeek,
         ReturnTypeId: T:System.DayOfWeek,
-        Summary: Indicates Thursday.,
         Value: 4
       },
       {
@@ -132,7 +119,6 @@
         Name: Friday,
         ParentId: T:System.DayOfWeek,
         ReturnTypeId: T:System.DayOfWeek,
-        Summary: Indicates Friday.,
         Value: 5
       },
       {
@@ -143,7 +129,6 @@
         Name: Saturday,
         ParentId: T:System.DayOfWeek,
         ReturnTypeId: T:System.DayOfWeek,
-        Summary: Indicates Saturday.,
         Value: 6
       }
     ],
@@ -153,7 +138,6 @@
     Name: DayOfWeek,
     NamespaceId: N:System,
     ParentId: N:System,
-    Summary: Specifies the day of the week.,
     UnderlyingType: T:System.Int32
   }
 }

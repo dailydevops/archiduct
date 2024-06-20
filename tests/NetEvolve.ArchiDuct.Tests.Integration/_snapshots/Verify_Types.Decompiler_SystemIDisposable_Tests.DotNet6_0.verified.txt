@@ -5,29 +5,25 @@
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: Provides a mechanism for releasing unmanaged resources.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Summary: Provides a mechanism for releasing unmanaged resources.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Summary: Provides a mechanism for releasing unmanaged resources.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: Provides a mechanism for releasing unmanaged resources.
+        Name: TypeForwardedFromAttribute
       }
     ],
     FullId: N:System, T:System.IDisposable,
@@ -46,8 +42,7 @@
         ],
         Name: Dispose,
         ParentId: T:System.IDisposable,
-        ReturnTypeId: T:System.Void,
-        Summary: Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+        ReturnTypeId: T:System.Void
       }
     ],
     Modifiers: [
@@ -55,7 +50,6 @@
     ],
     Name: IDisposable,
     NamespaceId: N:System,
-    ParentId: N:System,
-    Summary: Provides a mechanism for releasing unmanaged resources.
+    ParentId: N:System
   }
 }

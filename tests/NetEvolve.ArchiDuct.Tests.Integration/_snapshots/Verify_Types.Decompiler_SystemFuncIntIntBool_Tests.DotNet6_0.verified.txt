@@ -5,65 +5,49 @@
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Returns: The return value of the method that this delegate encapsulates.,
-        Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Returns: The return value of the method that this delegate encapsulates.,
-        Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Returns: The return value of the method that this delegate encapsulates.,
-        Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Returns: The return value of the method that this delegate encapsulates.,
-        Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Returns: The return value of the method that this delegate encapsulates.,
-        Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Returns: The return value of the method that this delegate encapsulates.,
-        Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Returns: The return value of the method that this delegate encapsulates.,
-        Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Returns: The return value of the method that this delegate encapsulates.,
-        Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.
+        Name: TypeForwardedFromAttribute
       }
     ],
     BaseTypes: [
@@ -90,7 +74,6 @@
         Kind: Parameter,
         Name: arg1,
         ParentId: T:System.Func`3,
-        Summary: The first parameter of the method that this delegate encapsulates.,
         TypeId: T:System.Func`3.T1
       },
       {
@@ -100,14 +83,11 @@
         Kind: Parameter,
         Name: arg2,
         ParentId: T:System.Func`3,
-        Summary: The second parameter of the method that this delegate encapsulates.,
         TypeId: T:System.Func`3.T2
       }
     ],
     ParentId: N:System,
     ReturnTypeId: T:System.Func`3.TResult,
-    Returns: The return value of the method that this delegate encapsulates.,
-    Summary: Encapsulates a method that has two parameters and returns a value of the type specified by the <typeparamref name="TResult" /> parameter.,
     TypeParameters: [
       {
         FullId: T:System.Func`3, T:System.Func`3.T1,
@@ -115,8 +95,7 @@
         Id: T:System.Func`3.T1,
         Kind: TypeParameter,
         Name: T1,
-        ParentId: T:System.Func`3,
-        Summary: The type of the first parameter of the method that this delegate encapsulates.
+        ParentId: T:System.Func`3
       },
       {
         FullId: T:System.Func`3, T:System.Func`3.T2,
@@ -124,8 +103,7 @@
         Id: T:System.Func`3.T2,
         Kind: TypeParameter,
         Name: T2,
-        ParentId: T:System.Func`3,
-        Summary: The type of the second parameter of the method that this delegate encapsulates.
+        ParentId: T:System.Func`3
       },
       {
         FullId: T:System.Func`3, T:System.Func`3.TResult,
@@ -133,8 +111,7 @@
         Id: T:System.Func`3.TResult,
         Kind: TypeParameter,
         Name: TResult,
-        ParentId: T:System.Func`3,
-        Summary: The type of the return value of the method that this delegate encapsulates.
+        ParentId: T:System.Func`3
       }
     ]
   }

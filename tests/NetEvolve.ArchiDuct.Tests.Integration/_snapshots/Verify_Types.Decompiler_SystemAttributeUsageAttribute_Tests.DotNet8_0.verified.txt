@@ -5,57 +5,49 @@
         FullName: System.AttributeUsageAttribute,
         Id: T:System.AttributeUsageAttribute,
         Kind: Attribute,
-        Name: AttributeUsageAttribute,
-        Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+        Name: AttributeUsageAttribute
       },
       {
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+        Name: SerializableAttribute
       },
       {
         FullName: System.AttributeUsageAttribute,
         Id: T:System.AttributeUsageAttribute,
         Kind: Attribute,
-        Name: AttributeUsageAttribute,
-        Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+        Name: AttributeUsageAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+        Name: TypeForwardedFromAttribute
       }
     ],
     BaseTypes: [
@@ -201,13 +193,11 @@
             Kind: Parameter,
             Name: validOn,
             ParentId: M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets),
-            Summary: The set of values combined using a bitwise OR operation to indicate which program elements are valid.,
             TypeId: T:System.AttributeTargets
           }
         ],
         ParentId: T:System.AttributeUsageAttribute,
-        ReturnTypeId: T:System.Void,
-        Summary: Initializes a new instance of the <see cref="T:System.AttributeUsageAttribute" /> class with the specified list of <see cref="T:System.AttributeTargets" />, the <see cref="P:System.AttributeUsageAttribute.AllowMultiple" /> value, and the <see cref="P:System.AttributeUsageAttribute.Inherited" /> value.
+        ReturnTypeId: T:System.Void
       },
       {
         FullId: T:System.AttributeUsageAttribute, M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets,System.Boolean,System.Boolean),
@@ -276,9 +266,7 @@
         ],
         Name: ValidOn,
         ParentId: T:System.AttributeUsageAttribute,
-        ReturnTypeId: T:System.AttributeTargets,
-        Returns: One or several <see cref="T:System.AttributeTargets" /> values. The default is <see langword="All" />.,
-        Summary: Gets a set of values identifying which program elements that the indicated attribute can be applied to.
+        ReturnTypeId: T:System.AttributeTargets
       },
       {
         FullId: T:System.AttributeUsageAttribute, P:System.AttributeUsageAttribute.AllowMultiple,
@@ -290,9 +278,7 @@
         ],
         Name: AllowMultiple,
         ParentId: T:System.AttributeUsageAttribute,
-        ReturnTypeId: T:System.Boolean,
-        Returns: <see langword="true" /> if more than one instance is allowed to be specified; otherwise, <see langword="false" />. The default is <see langword="false" />.,
-        Summary: Gets or sets a Boolean value indicating whether more than one instance of the indicated attribute can be specified for a single program element.
+        ReturnTypeId: T:System.Boolean
       },
       {
         FullId: T:System.AttributeUsageAttribute, P:System.AttributeUsageAttribute.Inherited,
@@ -304,9 +290,7 @@
         ],
         Name: Inherited,
         ParentId: T:System.AttributeUsageAttribute,
-        ReturnTypeId: T:System.Boolean,
-        Returns: <see langword="true" /> if the attribute can be inherited by derived classes and overriding members; otherwise, <see langword="false" />. The default is <see langword="true" />.,
-        Summary: Gets or sets a <see cref="T:System.Boolean" /> value that determines whether the indicated attribute is inherited by derived classes and overriding members.
+        ReturnTypeId: T:System.Boolean
       }
     ],
     Modifiers: [
@@ -315,7 +299,6 @@
     ],
     Name: AttributeUsageAttribute,
     NamespaceId: N:System,
-    ParentId: N:System,
-    Summary: Specifies the usage of another attribute class. This class cannot be inherited.
+    ParentId: N:System
   }
 }

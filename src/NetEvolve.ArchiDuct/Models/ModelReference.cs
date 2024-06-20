@@ -3,6 +3,7 @@
 using System;
 using ICSharpCode.Decompiler.TypeSystem;
 using NetEvolve.ArchiDuct.Models.Abstractions;
+using NetEvolve.ArchiDuct.Models.Documentation;
 
 /// <summary>
 /// Describes a reference, or dependency, to another assembly.
@@ -20,6 +21,10 @@ public sealed class ModelReference : ModelBase
     public Version Version => _version;
 
     internal ModelReference(IModule module)
-        : base($"A:{module.AssemblyName}", module.AssemblyName, module.AssemblyName, null) =>
-        _version = module.AssemblyVersion;
+        : base(
+            $"A:{module.AssemblyName}",
+            module.AssemblyName,
+            module.AssemblyName,
+            (ModelDocumentation?)null
+        ) => _version = module.AssemblyVersion;
 }

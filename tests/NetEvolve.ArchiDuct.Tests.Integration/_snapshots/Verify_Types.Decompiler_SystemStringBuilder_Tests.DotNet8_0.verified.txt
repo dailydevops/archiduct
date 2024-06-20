@@ -5,50 +5,43 @@
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: Represents a mutable string of characters. This class cannot be inherited.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Reflection.DefaultMemberAttribute,
         Id: T:System.Reflection.DefaultMemberAttribute,
         Kind: Attribute,
-        Name: DefaultMemberAttribute,
-        Summary: Represents a mutable string of characters. This class cannot be inherited.
+        Name: DefaultMemberAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: Represents a mutable string of characters. This class cannot be inherited.
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: Represents a mutable string of characters. This class cannot be inherited.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Summary: Represents a mutable string of characters. This class cannot be inherited.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Summary: Represents a mutable string of characters. This class cannot be inherited.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: Represents a mutable string of characters. This class cannot be inherited.
+        Name: TypeForwardedFromAttribute
       }
     ],
     BaseTypes: [
@@ -295,8 +288,7 @@
           M:System.Text.StringBuilder.#ctor(System.Int32,System.Int32,System.Text.StringBuilder)
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Void,
-        Summary: Initializes a new instance of the <see cref="T:System.Text.StringBuilder" /> class.
+        ReturnTypeId: T:System.Void
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.#ctor(System.Int32),
@@ -325,13 +317,11 @@
             Kind: Parameter,
             Name: capacity,
             ParentId: M:System.Text.StringBuilder.#ctor(System.Int32),
-            Summary: The suggested starting size of this instance.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Void,
-        Summary: Initializes a new instance of the <see cref="T:System.Text.StringBuilder" /> class using the specified capacity.
+        ReturnTypeId: T:System.Void
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.#ctor(System.String),
@@ -360,13 +350,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.#ctor(System.String),
-            Summary: The string used to initialize the value of the instance. If <paramref name="value" /> is <see langword="null" />, the new <see cref="T:System.Text.StringBuilder" /> will contain the empty string (that is, it contains <see cref="F:System.String.Empty" />).,
             TypeId: T:System.String
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Void,
-        Summary: Initializes a new instance of the <see cref="T:System.Text.StringBuilder" /> class using the specified string.
+        ReturnTypeId: T:System.Void
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.#ctor(System.String,System.Int32),
@@ -395,7 +383,6 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.#ctor(System.String,System.Int32),
-            Summary: The string used to initialize the value of the instance. If <paramref name="value" /> is <see langword="null" />, the new <see cref="T:System.Text.StringBuilder" /> will contain the empty string (that is, it contains <see cref="F:System.String.Empty" />).,
             TypeId: T:System.String
           },
           {
@@ -405,13 +392,11 @@
             Kind: Parameter,
             Name: capacity,
             ParentId: M:System.Text.StringBuilder.#ctor(System.String,System.Int32),
-            Summary: The suggested starting size of the <see cref="T:System.Text.StringBuilder" />.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Void,
-        Summary: Initializes a new instance of the <see cref="T:System.Text.StringBuilder" /> class using the specified string and capacity.
+        ReturnTypeId: T:System.Void
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.#ctor(System.String,System.Int32,System.Int32,System.Int32),
@@ -440,7 +425,6 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.#ctor(System.String,System.Int32,System.Int32,System.Int32),
-            Summary: The string that contains the substring used to initialize the value of this instance. If <paramref name="value" /> is <see langword="null" />, the new <see cref="T:System.Text.StringBuilder" /> will contain the empty string (that is, it contains <see cref="F:System.String.Empty" />).,
             TypeId: T:System.String
           },
           {
@@ -450,7 +434,6 @@
             Kind: Parameter,
             Name: startIndex,
             ParentId: M:System.Text.StringBuilder.#ctor(System.String,System.Int32,System.Int32,System.Int32),
-            Summary: The position within <paramref name="value" /> where the substring begins.,
             TypeId: T:System.Int32
           },
           {
@@ -460,7 +443,6 @@
             Kind: Parameter,
             Name: length,
             ParentId: M:System.Text.StringBuilder.#ctor(System.String,System.Int32,System.Int32,System.Int32),
-            Summary: The number of characters in the substring.,
             TypeId: T:System.Int32
           },
           {
@@ -470,13 +452,11 @@
             Kind: Parameter,
             Name: capacity,
             ParentId: M:System.Text.StringBuilder.#ctor(System.String,System.Int32,System.Int32,System.Int32),
-            Summary: The suggested starting size of the <see cref="T:System.Text.StringBuilder" />.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Void,
-        Summary: Initializes a new instance of the <see cref="T:System.Text.StringBuilder" /> class from the specified substring and capacity.
+        ReturnTypeId: T:System.Void
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.#ctor(System.Int32,System.Int32),
@@ -505,7 +485,6 @@
             Kind: Parameter,
             Name: capacity,
             ParentId: M:System.Text.StringBuilder.#ctor(System.Int32,System.Int32),
-            Summary: The suggested starting size of the <see cref="T:System.Text.StringBuilder" />.,
             TypeId: T:System.Int32
           },
           {
@@ -515,13 +494,11 @@
             Kind: Parameter,
             Name: maxCapacity,
             ParentId: M:System.Text.StringBuilder.#ctor(System.Int32,System.Int32),
-            Summary: The maximum number of characters the current string can contain.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Void,
-        Summary: Initializes a new instance of the <see cref="T:System.Text.StringBuilder" /> class that starts with a specified capacity and can grow to a specified maximum.
+        ReturnTypeId: T:System.Void
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
@@ -582,14 +559,11 @@
             Kind: Parameter,
             Name: capacity,
             ParentId: M:System.Text.StringBuilder.EnsureCapacity(System.Int32),
-            Summary: The minimum capacity to ensure.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Int32,
-        Returns: The new capacity of this instance.,
-        Summary: Ensures that the capacity of this instance of <see cref="T:System.Text.StringBuilder" /> is at least the specified value.
+        ReturnTypeId: T:System.Int32
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.ToString,
@@ -605,9 +579,7 @@
           M:System.Text.StringBuilder.ToString(System.Int32,System.Int32)
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.String,
-        Returns: A string whose value is the same as this instance.,
-        Summary: Converts the value of this instance to a <see cref="T:System.String" />.
+        ReturnTypeId: T:System.String
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.ToString(System.Int32,System.Int32),
@@ -629,7 +601,6 @@
             Kind: Parameter,
             Name: startIndex,
             ParentId: M:System.Text.StringBuilder.ToString(System.Int32,System.Int32),
-            Summary: The starting position of the substring in this instance.,
             TypeId: T:System.Int32
           },
           {
@@ -639,14 +610,11 @@
             Kind: Parameter,
             Name: length,
             ParentId: M:System.Text.StringBuilder.ToString(System.Int32,System.Int32),
-            Summary: The length of the substring.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.String,
-        Returns: A string whose value is the same as the specified substring of this instance.,
-        Summary: Converts the value of a substring of this instance to a <see cref="T:System.String" />.
+        ReturnTypeId: T:System.String
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Clear,
@@ -658,9 +626,7 @@
         ],
         Name: Clear,
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: An object whose <see cref="P:System.Text.StringBuilder.Length" /> is 0 (zero).,
-        Summary: Removes all characters from the current <see cref="T:System.Text.StringBuilder" /> instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.GetChunks,
@@ -719,7 +685,6 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.Char,System.Int32),
-            Summary: The character to append.,
             TypeId: T:System.Char
           },
           {
@@ -729,14 +694,11 @@
             Kind: Parameter,
             Name: repeatCount,
             ParentId: M:System.Text.StringBuilder.Append(System.Char,System.Int32),
-            Summary: The number of times to append <paramref name="value" />.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends a specified number of copies of the string representation of a Unicode character to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendWithExpansion(System.Char,System.Int32),
@@ -819,7 +781,6 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.Char[],System.Int32,System.Int32),
-            Summary: A character array.,
             TypeId: T:System.Char[]
           },
           {
@@ -829,7 +790,6 @@
             Kind: Parameter,
             Name: startIndex,
             ParentId: M:System.Text.StringBuilder.Append(System.Char[],System.Int32,System.Int32),
-            Summary: The starting position in <paramref name="value" />.,
             TypeId: T:System.Int32
           },
           {
@@ -839,14 +799,11 @@
             Kind: Parameter,
             Name: charCount,
             ParentId: M:System.Text.StringBuilder.Append(System.Char[],System.Int32,System.Int32),
-            Summary: The number of characters to append.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the string representation of a specified subarray of Unicode characters to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.String),
@@ -893,14 +850,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.String),
-            Summary: The string to append.,
             TypeId: T:System.String
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends a copy of the specified string to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.String,System.Int32,System.Int32),
@@ -947,7 +901,6 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.String,System.Int32,System.Int32),
-            Summary: The string that contains the substring to append.,
             TypeId: T:System.String
           },
           {
@@ -957,7 +910,6 @@
             Kind: Parameter,
             Name: startIndex,
             ParentId: M:System.Text.StringBuilder.Append(System.String,System.Int32,System.Int32),
-            Summary: The starting position of the substring within <paramref name="value" />.,
             TypeId: T:System.Int32
           },
           {
@@ -967,14 +919,11 @@
             Kind: Parameter,
             Name: count,
             ParentId: M:System.Text.StringBuilder.Append(System.String,System.Int32,System.Int32),
-            Summary: The number of characters in <paramref name="value" /> to append.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends a copy of a specified substring to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Text.StringBuilder),
@@ -1152,9 +1101,7 @@
           M:System.Text.StringBuilder.AppendLine(System.IFormatProvider,System.Text.StringBuilder.AppendInterpolatedStringHandler@)
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the default line terminator to the end of the current <see cref="T:System.Text.StringBuilder" /> object.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendLine(System.String),
@@ -1178,14 +1125,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.AppendLine(System.String),
-            Summary: The string to append.,
             TypeId: T:System.String
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends a copy of the specified string followed by the default line terminator to the end of the current <see cref="T:System.Text.StringBuilder" /> object.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.CopyTo(System.Int32,System.Char[],System.Int32,System.Int32),
@@ -1207,7 +1151,6 @@
             Kind: Parameter,
             Name: sourceIndex,
             ParentId: M:System.Text.StringBuilder.CopyTo(System.Int32,System.Char[],System.Int32,System.Int32),
-            Summary: The starting position in this instance where characters will be copied from. The index is zero-based.,
             TypeId: T:System.Int32
           },
           {
@@ -1217,7 +1160,6 @@
             Kind: Parameter,
             Name: destination,
             ParentId: M:System.Text.StringBuilder.CopyTo(System.Int32,System.Char[],System.Int32,System.Int32),
-            Summary: The array where characters will be copied.,
             TypeId: T:System.Char[]
           },
           {
@@ -1227,7 +1169,6 @@
             Kind: Parameter,
             Name: destinationIndex,
             ParentId: M:System.Text.StringBuilder.CopyTo(System.Int32,System.Char[],System.Int32,System.Int32),
-            Summary: The starting position in <paramref name="destination" /> where characters will be copied. The index is zero-based.,
             TypeId: T:System.Int32
           },
           {
@@ -1237,13 +1178,11 @@
             Kind: Parameter,
             Name: count,
             ParentId: M:System.Text.StringBuilder.CopyTo(System.Int32,System.Char[],System.Int32,System.Int32),
-            Summary: The number of characters to be copied.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Void,
-        Summary: Copies the characters from a specified segment of this instance to a specified segment of a destination <see cref="T:System.Char" /> array.
+        ReturnTypeId: T:System.Void
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.CopyTo(System.Int32,System.Span{System.Char},System.Int32),
@@ -1328,7 +1267,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -1338,7 +1276,6 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
-            Summary: The string to insert.,
             TypeId: T:System.String
           },
           {
@@ -1348,14 +1285,11 @@
             Kind: Parameter,
             Name: count,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
-            Summary: The number of times to insert <paramref name="value" />.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after insertion has completed.,
-        Summary: Inserts one or more copies of a specified string into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.ReadOnlySpan{System.Char},System.Int32),
@@ -1440,7 +1374,6 @@
             Kind: Parameter,
             Name: startIndex,
             ParentId: M:System.Text.StringBuilder.Remove(System.Int32,System.Int32),
-            Summary: The zero-based position in this instance where removal begins.,
             TypeId: T:System.Int32
           },
           {
@@ -1450,14 +1383,11 @@
             Kind: Parameter,
             Name: length,
             ParentId: M:System.Text.StringBuilder.Remove(System.Int32,System.Int32),
-            Summary: The number of characters to remove.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the excise operation has completed.,
-        Summary: Removes the specified range of characters from this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Boolean),
@@ -1504,14 +1434,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.Boolean),
-            Summary: The Boolean value to append.,
             TypeId: T:System.Boolean
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the string representation of a specified Boolean value to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Char),
@@ -1558,14 +1485,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.Char),
-            Summary: The UTF-16-encoded code unit to append.,
             TypeId: T:System.Char
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the string representation of a specified <see cref="T:System.Char" /> object to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         Attributes: [
@@ -1573,8 +1497,7 @@
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
             Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
             Kind: Attribute,
-            Name: MethodImplAttribute,
-            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+            Name: MethodImplAttribute
           }
         ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendWithExpansion(System.Char),
@@ -1609,8 +1532,7 @@
             FullName: System.CLSCompliantAttribute,
             Id: T:System.CLSCompliantAttribute,
             Kind: Attribute,
-            Name: CLSCompliantAttribute,
-            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+            Name: CLSCompliantAttribute
           }
         ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.SByte),
@@ -1657,14 +1579,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.SByte),
-            Summary: The value to append.,
             TypeId: T:System.SByte
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the string representation of a specified 8-bit signed integer to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Byte),
@@ -1711,14 +1630,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.Byte),
-            Summary: The value to append.,
             TypeId: T:System.Byte
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the string representation of a specified 8-bit unsigned integer to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Int16),
@@ -1765,14 +1681,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.Int16),
-            Summary: The value to append.,
             TypeId: T:System.Int16
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the string representation of a specified 16-bit signed integer to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Int32),
@@ -1819,14 +1732,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.Int32),
-            Summary: The value to append.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the string representation of a specified 32-bit signed integer to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Int64),
@@ -1873,14 +1783,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.Int64),
-            Summary: The value to append.,
             TypeId: T:System.Int64
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the string representation of a specified 64-bit signed integer to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Single),
@@ -1927,14 +1834,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.Single),
-            Summary: The value to append.,
             TypeId: T:System.Single
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the string representation of a specified single-precision floating-point number to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Double),
@@ -1981,14 +1885,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.Double),
-            Summary: The value to append.,
             TypeId: T:System.Double
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the string representation of a specified double-precision floating-point number to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Decimal),
@@ -2035,14 +1936,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.Decimal),
-            Summary: The value to append.,
             TypeId: T:System.Decimal
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the string representation of a specified decimal number to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         Attributes: [
@@ -2050,8 +1948,7 @@
             FullName: System.CLSCompliantAttribute,
             Id: T:System.CLSCompliantAttribute,
             Kind: Attribute,
-            Name: CLSCompliantAttribute,
-            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+            Name: CLSCompliantAttribute
           }
         ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.UInt16),
@@ -2098,14 +1995,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.UInt16),
-            Summary: The value to append.,
             TypeId: T:System.UInt16
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the string representation of a specified 16-bit unsigned integer to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         Attributes: [
@@ -2113,8 +2007,7 @@
             FullName: System.CLSCompliantAttribute,
             Id: T:System.CLSCompliantAttribute,
             Kind: Attribute,
-            Name: CLSCompliantAttribute,
-            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+            Name: CLSCompliantAttribute
           }
         ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.UInt32),
@@ -2161,14 +2054,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.UInt32),
-            Summary: The value to append.,
             TypeId: T:System.UInt32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the string representation of a specified 32-bit unsigned integer to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         Attributes: [
@@ -2176,8 +2066,7 @@
             FullName: System.CLSCompliantAttribute,
             Id: T:System.CLSCompliantAttribute,
             Kind: Attribute,
-            Name: CLSCompliantAttribute,
-            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+            Name: CLSCompliantAttribute
           }
         ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.UInt64),
@@ -2224,14 +2113,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.UInt64),
-            Summary: The value to append.,
             TypeId: T:System.UInt64
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the string representation of a specified 64-bit unsigned integer to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendSpanFormattable``1(``0),
@@ -2311,14 +2197,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.Object),
-            Summary: The object to append.,
             TypeId: T:System.Object
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the string representation of a specified object to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Char[]),
@@ -2365,14 +2248,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.Char[]),
-            Summary: The array of characters to append.,
             TypeId: T:System.Char[]
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends the string representation of the Unicode characters in a specified array to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.ReadOnlySpan{System.Char}),
@@ -3083,7 +2963,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.String),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -3093,14 +2972,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.String),
-            Summary: The string to insert.,
             TypeId: T:System.String
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts a string into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Boolean),
@@ -3141,7 +3017,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Boolean),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -3151,14 +3026,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Boolean),
-            Summary: The value to insert.,
             TypeId: T:System.Boolean
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts the string representation of a Boolean value into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         Attributes: [
@@ -3166,8 +3038,7 @@
             FullName: System.CLSCompliantAttribute,
             Id: T:System.CLSCompliantAttribute,
             Kind: Attribute,
-            Name: CLSCompliantAttribute,
-            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+            Name: CLSCompliantAttribute
           }
         ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.SByte),
@@ -3208,7 +3079,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.SByte),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -3218,14 +3088,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.SByte),
-            Summary: The value to insert.,
             TypeId: T:System.SByte
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts the string representation of a specified 8-bit signed integer into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Byte),
@@ -3266,7 +3133,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Byte),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -3276,14 +3142,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Byte),
-            Summary: The value to insert.,
             TypeId: T:System.Byte
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts the string representation of a specified 8-bit unsigned integer into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Int16),
@@ -3324,7 +3187,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Int16),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -3334,14 +3196,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Int16),
-            Summary: The value to insert.,
             TypeId: T:System.Int16
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts the string representation of a specified 16-bit signed integer into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Char),
@@ -3382,7 +3241,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Char),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -3392,14 +3250,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Char),
-            Summary: The value to insert.,
             TypeId: T:System.Char
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts the string representation of a specified Unicode character into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Char[]),
@@ -3440,7 +3295,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Char[]),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -3450,14 +3304,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Char[]),
-            Summary: The character array to insert.,
             TypeId: T:System.Char[]
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts the string representation of a specified array of Unicode characters into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Char[],System.Int32,System.Int32),
@@ -3498,7 +3349,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Char[],System.Int32,System.Int32),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -3508,7 +3358,6 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Char[],System.Int32,System.Int32),
-            Summary: A character array.,
             TypeId: T:System.Char[]
           },
           {
@@ -3518,7 +3367,6 @@
             Kind: Parameter,
             Name: startIndex,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Char[],System.Int32,System.Int32),
-            Summary: The starting index within <paramref name="value" />.,
             TypeId: T:System.Int32
           },
           {
@@ -3528,14 +3376,11 @@
             Kind: Parameter,
             Name: charCount,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Char[],System.Int32,System.Int32),
-            Summary: The number of characters to insert.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts the string representation of a specified subarray of Unicode characters into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Int32),
@@ -3576,7 +3421,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Int32),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -3586,14 +3430,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Int32),
-            Summary: The value to insert.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts the string representation of a specified 32-bit signed integer into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Int64),
@@ -3634,7 +3475,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Int64),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -3644,14 +3484,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Int64),
-            Summary: The value to insert.,
             TypeId: T:System.Int64
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts the string representation of a 64-bit signed integer into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Single),
@@ -3692,7 +3529,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Single),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -3702,14 +3538,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Single),
-            Summary: The value to insert.,
             TypeId: T:System.Single
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts the string representation of a single-precision floating point number into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Double),
@@ -3750,7 +3583,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Double),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -3760,14 +3592,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Double),
-            Summary: The value to insert.,
             TypeId: T:System.Double
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts the string representation of a double-precision floating-point number into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Decimal),
@@ -3808,7 +3637,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Decimal),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -3818,14 +3646,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Decimal),
-            Summary: The value to insert.,
             TypeId: T:System.Decimal
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts the string representation of a decimal number into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         Attributes: [
@@ -3833,8 +3658,7 @@
             FullName: System.CLSCompliantAttribute,
             Id: T:System.CLSCompliantAttribute,
             Kind: Attribute,
-            Name: CLSCompliantAttribute,
-            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+            Name: CLSCompliantAttribute
           }
         ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.UInt16),
@@ -3875,7 +3699,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.UInt16),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -3885,14 +3708,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.UInt16),
-            Summary: The value to insert.,
             TypeId: T:System.UInt16
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts the string representation of a 16-bit unsigned integer into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         Attributes: [
@@ -3900,8 +3720,7 @@
             FullName: System.CLSCompliantAttribute,
             Id: T:System.CLSCompliantAttribute,
             Kind: Attribute,
-            Name: CLSCompliantAttribute,
-            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+            Name: CLSCompliantAttribute
           }
         ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.UInt32),
@@ -3942,7 +3761,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.UInt32),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -3952,14 +3770,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.UInt32),
-            Summary: The value to insert.,
             TypeId: T:System.UInt32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts the string representation of a 32-bit unsigned integer into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         Attributes: [
@@ -3967,8 +3782,7 @@
             FullName: System.CLSCompliantAttribute,
             Id: T:System.CLSCompliantAttribute,
             Kind: Attribute,
-            Name: CLSCompliantAttribute,
-            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+            Name: CLSCompliantAttribute
           }
         ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.UInt64),
@@ -4009,7 +3823,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.UInt64),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -4019,14 +3832,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.UInt64),
-            Summary: The value to insert.,
             TypeId: T:System.UInt64
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts the string representation of a 64-bit unsigned integer into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Object),
@@ -4067,7 +3877,6 @@
             Kind: Parameter,
             Name: index,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Object),
-            Summary: The position in this instance where insertion begins.,
             TypeId: T:System.Int32
           },
           {
@@ -4077,14 +3886,11 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Insert(System.Int32,System.Object),
-            Summary: The object to insert, or <see langword="null" />.,
             TypeId: T:System.Object
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the insert operation has completed.,
-        Summary: Inserts the string representation of an object into this instance at the specified character position.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.ReadOnlySpan{System.Char}),
@@ -4214,7 +4020,6 @@
             Kind: Parameter,
             Name: format,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
-            Summary: A composite format string.,
             TypeId: T:System.String
           },
           {
@@ -4224,14 +4029,11 @@
             Kind: Parameter,
             Name: arg0,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
-            Summary: An object to format.,
             TypeId: T:System.Object
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance with <paramref name="format" /> appended. Each format item in <paramref name="format" /> is replaced by the string representation of <paramref name="arg0" />.,
-        Summary: Appends the string returned by processing a composite format string, which contains zero or more format items, to this instance. Each format item is replaced by the string representation of a single argument.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object),
@@ -4265,7 +4067,6 @@
             Kind: Parameter,
             Name: format,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object),
-            Summary: A composite format string.,
             TypeId: T:System.String
           },
           {
@@ -4275,7 +4076,6 @@
             Kind: Parameter,
             Name: arg0,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object),
-            Summary: The first object to format.,
             TypeId: T:System.Object
           },
           {
@@ -4285,14 +4085,11 @@
             Kind: Parameter,
             Name: arg1,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object),
-            Summary: The second object to format.,
             TypeId: T:System.Object
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance with <paramref name="format" /> appended. Each format item in <paramref name="format" /> is replaced by the string representation of the corresponding object argument.,
-        Summary: Appends the string returned by processing a composite format string, which contains zero or more format items, to this instance. Each format item is replaced by the string representation of either of two arguments.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object,System.Object),
@@ -4326,7 +4123,6 @@
             Kind: Parameter,
             Name: format,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object,System.Object),
-            Summary: A composite format string.,
             TypeId: T:System.String
           },
           {
@@ -4336,7 +4132,6 @@
             Kind: Parameter,
             Name: arg0,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object,System.Object),
-            Summary: The first object to format.,
             TypeId: T:System.Object
           },
           {
@@ -4346,7 +4141,6 @@
             Kind: Parameter,
             Name: arg1,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object,System.Object),
-            Summary: The second object to format.,
             TypeId: T:System.Object
           },
           {
@@ -4356,14 +4150,11 @@
             Kind: Parameter,
             Name: arg2,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object,System.Object),
-            Summary: The third object to format.,
             TypeId: T:System.Object
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance with <paramref name="format" /> appended. Each format item in <paramref name="format" /> is replaced by the string representation of the corresponding object argument.,
-        Summary: Appends the string returned by processing a composite format string, which contains zero or more format items, to this instance. Each format item is replaced by the string representation of either of three arguments.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.String,System.Object[]),
@@ -4397,7 +4188,6 @@
             Kind: Parameter,
             Name: format,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.String,System.Object[]),
-            Summary: A composite format string.,
             TypeId: T:System.String
           },
           {
@@ -4410,14 +4200,11 @@
             ],
             Name: args,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.String,System.Object[]),
-            Summary: An array of objects to format.,
             TypeId: T:System.Object[]
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance with <paramref name="format" /> appended. Each format item in <paramref name="format" /> is replaced by the string representation of the corresponding object argument.,
-        Summary: Appends the string returned by processing a composite format string, which contains zero or more format items, to this instance. Each format item is replaced by the string representation of a corresponding argument in a parameter array.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object),
@@ -4451,7 +4238,6 @@
             Kind: Parameter,
             Name: provider,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object),
-            Summary: An object that supplies culture-specific formatting information.,
             TypeId: T:System.IFormatProvider
           },
           {
@@ -4461,7 +4247,6 @@
             Kind: Parameter,
             Name: format,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object),
-            Summary: A composite format string.,
             TypeId: T:System.String
           },
           {
@@ -4471,14 +4256,11 @@
             Kind: Parameter,
             Name: arg0,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object),
-            Summary: The object to format.,
             TypeId: T:System.Object
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed. After the append operation, this instance contains any data that existed before the operation, suffixed by a copy of <paramref name="format" /> in which any format specification is replaced by the string representation of <paramref name="arg0" />.,
-        Summary: Appends the string returned by processing a composite format string, which contains zero or more format items, to this instance. Each format item is replaced by the string representation of a single argument using a specified format provider.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object),
@@ -4512,7 +4294,6 @@
             Kind: Parameter,
             Name: provider,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object),
-            Summary: An object that supplies culture-specific formatting information.,
             TypeId: T:System.IFormatProvider
           },
           {
@@ -4522,7 +4303,6 @@
             Kind: Parameter,
             Name: format,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object),
-            Summary: A composite format string.,
             TypeId: T:System.String
           },
           {
@@ -4532,7 +4312,6 @@
             Kind: Parameter,
             Name: arg0,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object),
-            Summary: The first object to format.,
             TypeId: T:System.Object
           },
           {
@@ -4542,14 +4321,11 @@
             Kind: Parameter,
             Name: arg1,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object),
-            Summary: The second object to format.,
             TypeId: T:System.Object
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed. After the append operation, this instance contains any data that existed before the operation, suffixed by a copy of <paramref name="format" /> where any format specification is replaced by the string representation of the corresponding object argument.,
-        Summary: Appends the string returned by processing a composite format string, which contains zero or more format items, to this instance. Each format item is replaced by the string representation of either of two arguments using a specified format provider.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object,System.Object),
@@ -4583,7 +4359,6 @@
             Kind: Parameter,
             Name: provider,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object,System.Object),
-            Summary: An object that supplies culture-specific formatting information.,
             TypeId: T:System.IFormatProvider
           },
           {
@@ -4593,7 +4368,6 @@
             Kind: Parameter,
             Name: format,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object,System.Object),
-            Summary: A composite format string.,
             TypeId: T:System.String
           },
           {
@@ -4603,7 +4377,6 @@
             Kind: Parameter,
             Name: arg0,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object,System.Object),
-            Summary: The first object to format.,
             TypeId: T:System.Object
           },
           {
@@ -4613,7 +4386,6 @@
             Kind: Parameter,
             Name: arg1,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object,System.Object),
-            Summary: The second object to format.,
             TypeId: T:System.Object
           },
           {
@@ -4623,14 +4395,11 @@
             Kind: Parameter,
             Name: arg2,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object,System.Object),
-            Summary: The third object to format.,
             TypeId: T:System.Object
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed. After the append operation, this instance contains any data that existed before the operation, suffixed by a copy of <paramref name="format" /> where any format specification is replaced by the string representation of the corresponding object argument.,
-        Summary: Appends the string returned by processing a composite format string, which contains zero or more format items, to this instance. Each format item is replaced by the string representation of either of three arguments using a specified format provider.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object[]),
@@ -4664,7 +4433,6 @@
             Kind: Parameter,
             Name: provider,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object[]),
-            Summary: An object that supplies culture-specific formatting information.,
             TypeId: T:System.IFormatProvider
           },
           {
@@ -4674,7 +4442,6 @@
             Kind: Parameter,
             Name: format,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object[]),
-            Summary: A composite format string.,
             TypeId: T:System.String
           },
           {
@@ -4687,14 +4454,11 @@
             ],
             Name: args,
             ParentId: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object[]),
-            Summary: An array of objects to format.,
             TypeId: T:System.Object[]
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed. After the append operation, this instance contains any data that existed before the operation, suffixed by a copy of <paramref name="format" /> where any format specification is replaced by the string representation of the corresponding object argument.,
-        Summary: Appends the string returned by processing a composite format string, which contains zero or more format items, to this instance. Each format item is replaced by the string representation of a corresponding argument in a parameter array using a specified format provider.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormatHelper(System.IFormatProvider,System.String,System.ReadOnlySpan{System.Object}),
@@ -5232,7 +4996,6 @@
             Kind: Parameter,
             Name: oldValue,
             ParentId: M:System.Text.StringBuilder.Replace(System.String,System.String),
-            Summary: The string to replace.,
             TypeId: T:System.String
           },
           {
@@ -5242,14 +5005,11 @@
             Kind: Parameter,
             Name: newValue,
             ParentId: M:System.Text.StringBuilder.Replace(System.String,System.String),
-            Summary: The string that replaces <paramref name="oldValue" />, or <see langword="null" />.,
             TypeId: T:System.String
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance with all instances of <paramref name="oldValue" /> replaced by <paramref name="newValue" />.,
-        Summary: Replaces all occurrences of a specified string in this instance with another specified string.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Equals(System.Text.StringBuilder),
@@ -5271,14 +5031,11 @@
             Kind: Parameter,
             Name: sb,
             ParentId: M:System.Text.StringBuilder.Equals(System.Text.StringBuilder),
-            Summary: An object to compare with this instance, or <see langword="null" />.,
             TypeId: T:System.Text.StringBuilder
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Boolean,
-        Returns: <see langword="true" /> if this instance and <paramref name="sb" /> have equal string, <see cref="P:System.Text.StringBuilder.Capacity" />, and <see cref="P:System.Text.StringBuilder.MaxCapacity" /> values; otherwise, <see langword="false" />.,
-        Summary: Returns a value indicating whether this instance is equal to a specified object.
+        ReturnTypeId: T:System.Boolean
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Equals(System.ReadOnlySpan{System.Char}),
@@ -5328,7 +5085,6 @@
             Kind: Parameter,
             Name: oldValue,
             ParentId: M:System.Text.StringBuilder.Replace(System.String,System.String,System.Int32,System.Int32),
-            Summary: The string to replace.,
             TypeId: T:System.String
           },
           {
@@ -5338,7 +5094,6 @@
             Kind: Parameter,
             Name: newValue,
             ParentId: M:System.Text.StringBuilder.Replace(System.String,System.String,System.Int32,System.Int32),
-            Summary: The string that replaces <paramref name="oldValue" />, or <see langword="null" />.,
             TypeId: T:System.String
           },
           {
@@ -5348,7 +5103,6 @@
             Kind: Parameter,
             Name: startIndex,
             ParentId: M:System.Text.StringBuilder.Replace(System.String,System.String,System.Int32,System.Int32),
-            Summary: The position in this instance where the substring begins.,
             TypeId: T:System.Int32
           },
           {
@@ -5358,14 +5112,11 @@
             Kind: Parameter,
             Name: count,
             ParentId: M:System.Text.StringBuilder.Replace(System.String,System.String,System.Int32,System.Int32),
-            Summary: The length of the substring.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance with all instances of <paramref name="oldValue" /> replaced by <paramref name="newValue" /> in the range from <paramref name="startIndex" /> to <paramref name="startIndex" /> + <paramref name="count" /> - 1.,
-        Summary: Replaces, within a substring of this instance, all occurrences of a specified string with another specified string.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Replace(System.Char,System.Char),
@@ -5389,7 +5140,6 @@
             Kind: Parameter,
             Name: oldChar,
             ParentId: M:System.Text.StringBuilder.Replace(System.Char,System.Char),
-            Summary: The character to replace.,
             TypeId: T:System.Char
           },
           {
@@ -5399,14 +5149,11 @@
             Kind: Parameter,
             Name: newChar,
             ParentId: M:System.Text.StringBuilder.Replace(System.Char,System.Char),
-            Summary: The character that replaces <paramref name="oldChar" />.,
             TypeId: T:System.Char
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance with <paramref name="oldChar" /> replaced by <paramref name="newChar" />.,
-        Summary: Replaces all occurrences of a specified character in this instance with another specified character.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Replace(System.Char,System.Char,System.Int32,System.Int32),
@@ -5430,7 +5177,6 @@
             Kind: Parameter,
             Name: oldChar,
             ParentId: M:System.Text.StringBuilder.Replace(System.Char,System.Char,System.Int32,System.Int32),
-            Summary: The character to replace.,
             TypeId: T:System.Char
           },
           {
@@ -5440,7 +5186,6 @@
             Kind: Parameter,
             Name: newChar,
             ParentId: M:System.Text.StringBuilder.Replace(System.Char,System.Char,System.Int32,System.Int32),
-            Summary: The character that replaces <paramref name="oldChar" />.,
             TypeId: T:System.Char
           },
           {
@@ -5450,7 +5195,6 @@
             Kind: Parameter,
             Name: startIndex,
             ParentId: M:System.Text.StringBuilder.Replace(System.Char,System.Char,System.Int32,System.Int32),
-            Summary: The position in this instance where the substring begins.,
             TypeId: T:System.Int32
           },
           {
@@ -5460,14 +5204,11 @@
             Kind: Parameter,
             Name: count,
             ParentId: M:System.Text.StringBuilder.Replace(System.Char,System.Char,System.Int32,System.Int32),
-            Summary: The length of the substring.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance with <paramref name="oldChar" /> replaced by <paramref name="newChar" /> in the range from <paramref name="startIndex" /> to <paramref name="startIndex" /> + <paramref name="count" /> -1.,
-        Summary: Replaces, within a substring of this instance, all occurrences of a specified character with another specified character.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         Attributes: [
@@ -5475,8 +5216,7 @@
             FullName: System.CLSCompliantAttribute,
             Id: T:System.CLSCompliantAttribute,
             Kind: Attribute,
-            Name: CLSCompliantAttribute,
-            Summary: Indicates whether a program element is compliant with the Common Language Specification (CLS). This class cannot be inherited.
+            Name: CLSCompliantAttribute
           }
         ],
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Char*,System.Int32),
@@ -5523,7 +5263,6 @@
             Kind: Parameter,
             Name: value,
             ParentId: M:System.Text.StringBuilder.Append(System.Char*,System.Int32),
-            Summary: A pointer to an array of characters.,
             TypeId: T:System.Char*
           },
           {
@@ -5533,14 +5272,11 @@
             Kind: Parameter,
             Name: valueCount,
             ParentId: M:System.Text.StringBuilder.Append(System.Char*,System.Int32),
-            Summary: The number of characters in the array.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Text.StringBuilder,
-        Returns: A reference to this instance after the append operation has completed.,
-        Summary: Appends an array of Unicode characters starting at a specified address to this instance.
+        ReturnTypeId: T:System.Text.StringBuilder
       },
       {
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Char@,System.Int32),
@@ -6156,9 +5892,7 @@
         ],
         Name: Capacity,
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Int32,
-        Returns: The maximum number of characters that can be contained in the memory allocated by the current instance. Its value can range from <see cref="P:System.Text.StringBuilder.Length" /> to <see cref="P:System.Text.StringBuilder.MaxCapacity" />.,
-        Summary: Gets or sets the maximum number of characters that can be contained in the memory allocated by the current instance.
+        ReturnTypeId: T:System.Int32
       },
       {
         FullId: T:System.Text.StringBuilder, P:System.Text.StringBuilder.MaxCapacity,
@@ -6170,9 +5904,7 @@
         ],
         Name: MaxCapacity,
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Int32,
-        Returns: The maximum number of characters this instance can hold.,
-        Summary: Gets the maximum capacity of this instance.
+        ReturnTypeId: T:System.Int32
       },
       {
         FullId: T:System.Text.StringBuilder, P:System.Text.StringBuilder.Length,
@@ -6184,9 +5916,7 @@
         ],
         Name: Length,
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Int32,
-        Returns: The length of this instance.,
-        Summary: Gets or sets the length of the current <see cref="T:System.Text.StringBuilder" /> object.
+        ReturnTypeId: T:System.Int32
       },
       {
         Attributes: [
@@ -6194,8 +5924,7 @@
             FullName: System.Runtime.CompilerServices.IndexerNameAttribute,
             Id: T:System.Runtime.CompilerServices.IndexerNameAttribute,
             Kind: Attribute,
-            Name: IndexerNameAttribute,
-            Summary: Indicates the name by which an indexer is known in programming languages that do not support indexers directly.
+            Name: IndexerNameAttribute
           }
         ],
         FullId: T:System.Text.StringBuilder, P:System.Text.StringBuilder.Chars(System.Int32),
@@ -6214,14 +5943,11 @@
             Kind: Parameter,
             Name: index,
             ParentId: P:System.Text.StringBuilder.Chars(System.Int32),
-            Summary: The position of the character.,
             TypeId: T:System.Int32
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Char,
-        Returns: The Unicode character at position <paramref name="index" />.,
-        Summary: Gets or sets the character at the specified character position in this instance.
+        ReturnTypeId: T:System.Char
       },
       {
         FullId: T:System.Text.StringBuilder, P:System.Text.StringBuilder.RemainingCurrentChunk,
@@ -6246,8 +5972,7 @@
       T:System.Text.StringBuilder.ChunkEnumerator,
       T:System.Text.StringBuilder.AppendInterpolatedStringHandler
     ],
-    ParentId: N:System.Text,
-    Summary: Represents a mutable string of characters. This class cannot be inherited.
+    ParentId: N:System.Text
   },
   T:System.Text.StringBuilder, T:System.Text.StringBuilder.AppendInterpolatedStringHandler: {
     Attributes: [
@@ -6973,8 +6698,7 @@
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
             Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
             Kind: Attribute,
-            Name: MethodImplAttribute,
-            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+            Name: MethodImplAttribute
           }
         ],
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendCustomFormatter``1(``0,System.String),

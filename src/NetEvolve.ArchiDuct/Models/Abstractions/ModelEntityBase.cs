@@ -1,6 +1,7 @@
 ﻿namespace NetEvolve.ArchiDuct.Models.Abstractions;
 
 using System.Xml.Linq;
+using NetEvolve.ArchiDuct.Models.Documentation;
 
 /// <inheritdoc />
 public abstract class ModelEntityBase : ModelBase
@@ -19,6 +20,20 @@ public abstract class ModelEntityBase : ModelBase
     /// Unique ID string that identifies the parent, could be namespace or type.
     /// </summary>
     public string ParentId { get; private set; }
+
+    private protected ModelEntityBase(
+        string id,
+        string name,
+        string fullName,
+        ModelBase parentEntity,
+        ModelDocumentation? documentation
+    )
+        : base(id, name, fullName, documentation)
+    {
+        ParentId = parentEntity.Id;
+
+        FullId = $"{ParentId}, {Id}";
+    }
 
     private protected ModelEntityBase(
         string id,

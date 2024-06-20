@@ -166,8 +166,7 @@
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
             Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
             Kind: Attribute,
-            Name: MethodImplAttribute,
-            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+            Name: MethodImplAttribute
           }
         ],
         FullId: T:System.Range, M:System.Range.GetHashCode,
@@ -249,8 +248,7 @@
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
             Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
             Kind: Attribute,
-            Name: MethodImplAttribute,
-            Summary: Specifies the details of how a method is implemented. This class cannot be inherited.
+            Name: MethodImplAttribute
           }
         ],
         FullId: T:System.Range, M:System.Range.GetOffsetAndLength(System.Int32),
