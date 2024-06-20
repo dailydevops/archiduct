@@ -2,9 +2,9 @@
 
 using System.Collections.Generic;
 using ICSharpCode.Decompiler.TypeSystem;
-using NetEvolve.ArchiDuct.Extensions;
 using NetEvolve.ArchiDuct.Internals;
 using NetEvolve.ArchiDuct.Models.Abstractions;
+using NetEvolve.ArchiDuct.Models.Documentation;
 
 /// <inheritdoc />
 public sealed class ModelParameter : ModelEntityBase
@@ -27,22 +27,13 @@ public sealed class ModelParameter : ModelEntityBase
     /// </summary>
     public string? OptionalValue { get; }
 
-    /// <inheritdoc />
-    public override string? Remarks => null;
-
-    /// <inheritdoc />
-    public override string? Returns => null;
-
-    /// <inheritdoc />
-    public override string? Summary => this.GetParameterDocumentation(Name);
-
     internal ModelParameter(IParameter parameter, ModelEntityBase parentEntity)
         : base(
             $"{parentEntity.Id}.{parameter.Name}",
             parameter.Name,
             $"{parentEntity.FullName}.{parameter.Name}",
             parentEntity,
-            parentEntity._documentation
+            ModelDocumentation.LoadParameter(parentEntity.Documentation, parameter.Name)
         )
     {
         Modifiers = ModelFactory.MapModifiers(parameter);

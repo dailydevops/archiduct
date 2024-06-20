@@ -33,7 +33,6 @@ internal static class ModelFactory
         IDocumentationProvider?
     > _documentationProviders = new(new ModuleEqualityComparer());
 
-    [SuppressMessage("ApiDesign", "RS0030:Do not use banned APIs", Justification = "<Pending>")]
     public static bool TryGetDocumentationProvider(
         IModule module,
         [NotNullWhen(true)] out IDocumentationProvider? documentationProvider
@@ -46,20 +45,12 @@ internal static class ModelFactory
                 XmlDocumentationProvider? provider = null;
                 if (m.PEFile is not null && File.Exists(m.PEFile.FileName))
                 {
-                    Console.Write($"Loading documentation for {m.PEFile.FileName}");
-
-                    provider = DocumentationLoader.LoadDocumentation(m.PEFile);
-
-                    Console.WriteLine(provider is not null ? " - Successful" : " - Failed");
+                    provider = XmlDocLoader.LoadDocumentation(m.PEFile);
                 }
 
                 if (provider is null)
                 {
-                    Console.Write("Loading mscorlib documentation");
-
-                    provider = DocumentationLoader.MscorlibDocumentation;
-
-                    Console.WriteLine(provider is not null ? " - Successful" : " - Failed");
+                    provider = XmlDocLoader.MscorlibDocumentation;
                 }
 
                 return provider;

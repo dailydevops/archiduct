@@ -1,9 +1,7 @@
 ﻿namespace NetEvolve.ArchiDuct.Models.Abstractions;
 
-using System;
-using System.Collections.Generic;
 using System.Xml.Linq;
-using NetEvolve.ArchiDuct.Extensions;
+using NetEvolve.ArchiDuct.Models.Documentation;
 
 /// <summary>
 /// Represents a type or member description.
@@ -11,7 +9,7 @@ using NetEvolve.ArchiDuct.Extensions;
 public abstract class ModelBase
 // TODO: Add DisplayValue
 {
-    internal readonly XElement? _documentation;
+    public ModelDocumentation? Documentation { get; }
 
     /// <summary>
     /// Gets the fully qualified name of the class the return type is pointing to.
@@ -44,57 +42,20 @@ public abstract class ModelBase
     /// </returns>
     public string Name { get; }
 
-    /// <summary>
-    /// Gets the content from the xml &lt;remarks/&gt; tag.
-    /// </summary>
-    public virtual string? Remarks => GetElementValue(DocumentationXmlPropertyConstants.Remarks);
-
-    /// <summary>
-    /// Gets the content from the xml &lt;returns/&gt; tag.
-    /// </summary>
-    public virtual string? Returns => GetElementValue(DocumentationXmlPropertyConstants.Returns);
-
-    /// <summary>
-    /// Gets the content from the xml &lt;summary/&gt; tag.
-    /// </summary>
-    public virtual string? Summary => GetElementValue(DocumentationXmlPropertyConstants.Summary);
-
     private protected ModelBase(string id, string name, string fullName, XElement? documentation)
+        : this(id, name, fullName, ModelDocumentation.Default(documentation)) { }
+
+    private protected ModelBase(
+        string id,
+        string name,
+        string fullName,
+        ModelDocumentation? documentation
+    )
     {
         Id = id;
         Name = name;
         FullName = fullName;
-        _documentation = documentation;
+
+        Documentation = documentation;
     }
-
-    /// <summary>
-    /// Determines the documentation element for the parameter <paramref name="elementName"/>.
-    /// </summary>
-    /// <param name="elementName">Property name within the documentation xml.</param>
-    /// <returns>Returns the full documentation for <paramref name="elementName"/> as xml.</returns>
-    protected internal XElement? GetElement(string? elementName) =>
-        string.IsNullOrWhiteSpace(elementName)
-            ? _documentation
-            : _documentation?.Element(elementName.Trim());
-
-    /// <summary>
-    /// Determines the documentation elements for the parameter <paramref name="elementName"/>.
-    /// </summary>
-    /// <param name="elementName">Property name within the documentation xml.</param>
-    /// <returns>Returns the full documentation for <paramref name="elementName"/> as xml.</returns>
-    protected internal IEnumerable<XElement>? GetElements(string? elementName) =>
-        string.IsNullOrWhiteSpace(elementName)
-            ? _documentation?.Elements()
-            : _documentation?.Elements(elementName.Trim());
-
-    /// <summary>
-    /// Determines the documentation content for the parameter <paramref name="elementName"/>.
-    /// </summary>
-    /// <param name="elementName">Property name within the documentation xml.</param>
-    /// <param name="convertElement">Possibility to format child elements.</param>
-    /// <returns>Returns the documentation for <paramref name="elementName"/>.</returns>
-    protected internal string? GetElementValue(
-        string? elementName = null,
-        Func<XNode?, string>? convertElement = null
-    ) => _documentation.GetElementValue(elementName, convertElement);
 }

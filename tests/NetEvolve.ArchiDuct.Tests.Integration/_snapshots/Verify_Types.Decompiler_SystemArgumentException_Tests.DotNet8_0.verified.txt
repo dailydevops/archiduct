@@ -5,71 +5,61 @@
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.SerializableAttribute,
         Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute,
-        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
         Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
         Kind: Attribute,
-        Name: ClassInterfaceAttribute,
-        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+        Name: ClassInterfaceAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ComVisibleAttribute,
         Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute,
-        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+        Name: ComVisibleAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute,
-        Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+        Name: TypeForwardedFromAttribute
       }
     ],
     BaseTypes: [
@@ -189,8 +179,7 @@
           M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
         ],
         ParentId: T:System.ArgumentException,
-        ReturnTypeId: T:System.Void,
-        Summary: Initializes a new instance of the <see cref="T:System.ArgumentException" /> class.
+        ReturnTypeId: T:System.Void
       },
       {
         FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.String),
@@ -216,13 +205,11 @@
             Kind: Parameter,
             Name: message,
             ParentId: M:System.ArgumentException.#ctor(System.String),
-            Summary: The error message that explains the reason for the exception.,
             TypeId: T:System.String
           }
         ],
         ParentId: T:System.ArgumentException,
-        ReturnTypeId: T:System.Void,
-        Summary: Initializes a new instance of the <see cref="T:System.ArgumentException" /> class with a specified error message.
+        ReturnTypeId: T:System.Void
       },
       {
         FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.String,System.Exception),
@@ -248,7 +235,6 @@
             Kind: Parameter,
             Name: message,
             ParentId: M:System.ArgumentException.#ctor(System.String,System.Exception),
-            Summary: The error message that explains the reason for the exception.,
             TypeId: T:System.String
           },
           {
@@ -258,13 +244,11 @@
             Kind: Parameter,
             Name: innerException,
             ParentId: M:System.ArgumentException.#ctor(System.String,System.Exception),
-            Summary: The exception that is the cause of the current exception. If the <paramref name="innerException" /> parameter is not a null reference, the current exception is raised in a <see langword="catch" /> block that handles the inner exception.,
             TypeId: T:System.Exception
           }
         ],
         ParentId: T:System.ArgumentException,
-        ReturnTypeId: T:System.Void,
-        Summary: Initializes a new instance of the <see cref="T:System.ArgumentException" /> class with a specified error message and a reference to the inner exception that is the cause of this exception.
+        ReturnTypeId: T:System.Void
       },
       {
         FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
@@ -290,7 +274,6 @@
             Kind: Parameter,
             Name: message,
             ParentId: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
-            Summary: The error message that explains the reason for the exception.,
             TypeId: T:System.String
           },
           {
@@ -300,7 +283,6 @@
             Kind: Parameter,
             Name: paramName,
             ParentId: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
-            Summary: The name of the parameter that caused the current exception.,
             TypeId: T:System.String
           },
           {
@@ -310,13 +292,11 @@
             Kind: Parameter,
             Name: innerException,
             ParentId: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
-            Summary: The exception that is the cause of the current exception. If the <paramref name="innerException" /> parameter is not a null reference, the current exception is raised in a <see langword="catch" /> block that handles the inner exception.,
             TypeId: T:System.Exception
           }
         ],
         ParentId: T:System.ArgumentException,
-        ReturnTypeId: T:System.Void,
-        Summary: Initializes a new instance of the <see cref="T:System.ArgumentException" /> class with a specified error message, the parameter name, and a reference to the inner exception that is the cause of this exception.
+        ReturnTypeId: T:System.Void
       },
       {
         FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.String,System.String),
@@ -342,7 +322,6 @@
             Kind: Parameter,
             Name: message,
             ParentId: M:System.ArgumentException.#ctor(System.String,System.String),
-            Summary: The error message that explains the reason for the exception.,
             TypeId: T:System.String
           },
           {
@@ -352,13 +331,11 @@
             Kind: Parameter,
             Name: paramName,
             ParentId: M:System.ArgumentException.#ctor(System.String,System.String),
-            Summary: The name of the parameter that caused the current exception.,
             TypeId: T:System.String
           }
         ],
         ParentId: T:System.ArgumentException,
-        ReturnTypeId: T:System.Void,
-        Summary: Initializes a new instance of the <see cref="T:System.ArgumentException" /> class with a specified error message and the name of the parameter that causes this exception.
+        ReturnTypeId: T:System.Void
       },
       {
         Attributes: [
@@ -366,8 +343,7 @@
             FullName: System.ObsoleteAttribute,
             Id: T:System.ObsoleteAttribute,
             Kind: Attribute,
-            Name: ObsoleteAttribute,
-            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+            Name: ObsoleteAttribute
           },
           {
             FullName: System.ComponentModel.EditorBrowsableAttribute,
@@ -399,7 +375,6 @@
             Kind: Parameter,
             Name: info,
             ParentId: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
-            Summary: The object that holds the serialized object data.,
             TypeId: T:System.Runtime.Serialization.SerializationInfo
           },
           {
@@ -409,13 +384,11 @@
             Kind: Parameter,
             Name: context,
             ParentId: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
-            Summary: The contextual information about the source or destination.,
             TypeId: T:System.Runtime.Serialization.StreamingContext
           }
         ],
         ParentId: T:System.ArgumentException,
-        ReturnTypeId: T:System.Void,
-        Summary: Initializes a new instance of the <see cref="T:System.ArgumentException" /> class with serialized data.
+        ReturnTypeId: T:System.Void
       },
       {
         Attributes: [
@@ -423,8 +396,7 @@
             FullName: System.ObsoleteAttribute,
             Id: T:System.ObsoleteAttribute,
             Kind: Attribute,
-            Name: ObsoleteAttribute,
-            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+            Name: ObsoleteAttribute
           },
           {
             FullName: System.ComponentModel.EditorBrowsableAttribute,
@@ -436,8 +408,7 @@
             FullName: System.ObsoleteAttribute,
             Id: T:System.ObsoleteAttribute,
             Kind: Attribute,
-            Name: ObsoleteAttribute,
-            Summary: Marks the program elements that are no longer in use. This class cannot be inherited.
+            Name: ObsoleteAttribute
           },
           {
             FullName: System.ComponentModel.EditorBrowsableAttribute,
@@ -463,7 +434,6 @@
             Kind: Parameter,
             Name: info,
             ParentId: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
-            Summary: The object that holds the serialized object data.,
             TypeId: T:System.Runtime.Serialization.SerializationInfo
           },
           {
@@ -473,13 +443,11 @@
             Kind: Parameter,
             Name: context,
             ParentId: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
-            Summary: The contextual information about the source or destination.,
             TypeId: T:System.Runtime.Serialization.StreamingContext
           }
         ],
         ParentId: T:System.ArgumentException,
-        ReturnTypeId: T:System.Void,
-        Summary: Sets the <see cref="T:System.Runtime.Serialization.SerializationInfo" /> object with the parameter name and additional exception information.
+        ReturnTypeId: T:System.Void
       },
       {
         FullId: T:System.ArgumentException, M:System.ArgumentException.SetMessageField,
@@ -654,21 +622,7 @@
         ],
         Name: Message,
         ParentId: T:System.ArgumentException,
-        ReturnTypeId: T:System.String,
-        Returns:
-A text string describing the details of the exception. The value of this property takes one of two forms:  
-  Condition  
-
-  Value  
-
-  The <paramref name="paramName" /> is a null reference (<see langword="Nothing" /> in Visual Basic) or of zero length.  
-
-  The <paramref name="message" /> string passed to the constructor.  
-
-  The <paramref name="paramName" /> is not null reference (<see langword="Nothing" /> in Visual Basic) and it has a length greater than zero.  
-
-  The <paramref name="message" /> string appended with the name of the invalid parameter.,
-        Summary: Gets the error message and the parameter name, or only the error message if no parameter name is set.
+        ReturnTypeId: T:System.String
       },
       {
         FullId: T:System.ArgumentException, P:System.ArgumentException.ParamName,
@@ -681,9 +635,7 @@ A text string describing the details of the exception. The value of this propert
         ],
         Name: ParamName,
         ParentId: T:System.ArgumentException,
-        ReturnTypeId: T:System.String,
-        Returns: The parameter name.,
-        Summary: Gets the name of the parameter that causes this exception.
+        ReturnTypeId: T:System.String
       }
     ],
     Modifiers: [
@@ -691,7 +643,6 @@ A text string describing the details of the exception. The value of this propert
     ],
     Name: ArgumentException,
     NamespaceId: N:System,
-    ParentId: N:System,
-    Summary: The exception that is thrown when one of the arguments provided to a method is not valid.
+    ParentId: N:System
   }
 }

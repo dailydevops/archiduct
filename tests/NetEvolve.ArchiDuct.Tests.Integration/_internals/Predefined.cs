@@ -3,6 +3,7 @@
 using System;
 using System.IO;
 using System.Runtime.CompilerServices;
+using NetEvolve.ArchiDuct.Models.Documentation;
 using VerifyTests;
 using VerifyXunit;
 
@@ -28,5 +29,8 @@ internal static class Predefined
         VerifierSettings.HashParameters();
 
         VerifierSettings.IgnoreMembersWithType<Version>();
+
+        // TODO: Workaround: Until the documentation XML files are also played out on Non-Windows system.
+        VerifierSettings.IgnoreMembersWithType<ModelDocumentation>();
     }
 }
