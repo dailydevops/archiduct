@@ -53,10 +53,15 @@ internal static class DocumentationLoader
         Environment.GetFolderPath(Environment.SpecialFolder.Windows),
         @"Microsoft.NET\Framework"
     );
-    private const string Mono45Path = "/usr/local/lib/mono/4.5/";
-    private const string Mono40Path = "/usr/local/lib/mono/4.0/";
-    private const string Mono35Path = "/usr/local/lib/mono/3.5/";
-    private const string Mono20Path = "/usr/local/lib/mono/2.0/";
+
+#pragma warning disable CA1802 // Use literals where appropriate
+    private static readonly string _unixPath = "/usr/share/dotnet/shared/";
+    private static readonly string _mono45Path = "/usr/local/lib/mono/4.5/";
+    private static readonly string _mono40Path = "/usr/local/lib/mono/4.0/";
+    private static readonly string _mono35Path = "/usr/local/lib/mono/3.5/";
+    private static readonly string _mono20Path = "/usr/local/lib/mono/2.0/";
+#pragma warning restore CA1802 // Use literals where appropriate
+
 
     private static string? FindXmlDocumentation(string assemblyFileName, TargetRuntime runtime) =>
         runtime switch
@@ -77,10 +82,11 @@ internal static class DocumentationLoader
             _
                 => LookupLocalizedXmlDoc(_referencePath, @".NETFramework\v4.0", assemblyFileName)
                     ?? LookupLocalizedXmlDoc(_frameworkPath, "v4.0.30319", assemblyFileName)
-                    ?? LookupLocalizedXmlDoc(Mono45Path, assemblyFileName)
-                    ?? LookupLocalizedXmlDoc(Mono40Path, assemblyFileName)
-                    ?? LookupLocalizedXmlDoc(Mono35Path, assemblyFileName)
-                    ?? LookupLocalizedXmlDoc(Mono20Path, assemblyFileName),
+            ?? LookupLocalizedXmlDoc(_unixPath, assemblyFileName)
+                    ?? LookupLocalizedXmlDoc(_mono45Path, assemblyFileName)
+                    ?? LookupLocalizedXmlDoc(_mono40Path, assemblyFileName)
+                    ?? LookupLocalizedXmlDoc(_mono35Path, assemblyFileName)
+                    ?? LookupLocalizedXmlDoc(_mono20Path, assemblyFileName),
         };
 
     internal static string? LookupLocalizedXmlDoc(params string[] pathSegments) =>
