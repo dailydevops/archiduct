@@ -56,11 +56,8 @@ internal static class DocumentationLoader
     );
 
 #pragma warning disable CA1802 // Use literals where appropriate
-    private static readonly string _unixPath = "/usr/share/dotnet/shared/";
-    private static readonly string _mono45Path = "/usr/local/lib/mono/4.5/";
-    private static readonly string _mono40Path = "/usr/local/lib/mono/4.0/";
-    private static readonly string _mono35Path = "/usr/local/lib/mono/3.5/";
-    private static readonly string _mono20Path = "/usr/local/lib/mono/2.0/";
+    private static readonly string _unixPath = "/usr/share/dotnet/";
+    private static readonly string _unixSharedPath = "/usr/share/dotnet/shared/";
 #pragma warning restore CA1802 // Use literals where appropriate
 
 
@@ -84,10 +81,7 @@ internal static class DocumentationLoader
                 => LookupLocalizedXmlDoc(_referencePath, @".NETFramework\v4.0", assemblyFileName)
                     ?? LookupLocalizedXmlDoc(_frameworkPath, "v4.0.30319", assemblyFileName)
                     ?? LookupLocalizedXmlDoc(_unixPath, assemblyFileName)
-                    ?? LookupLocalizedXmlDoc(_mono45Path, assemblyFileName)
-                    ?? LookupLocalizedXmlDoc(_mono40Path, assemblyFileName)
-                    ?? LookupLocalizedXmlDoc(_mono35Path, assemblyFileName)
-                    ?? LookupLocalizedXmlDoc(_mono20Path, assemblyFileName),
+                    ?? LookupLocalizedXmlDoc(_unixSharedPath, assemblyFileName),
         };
 
     internal static string? LookupLocalizedXmlDoc(params string[] pathSegments) =>
