@@ -171,6 +171,7 @@
       M:System.Object.GetHashCode
     ],
     IsNested: false,
+    IsRecord: false,
     Kind: Class,
     Members: [
       {

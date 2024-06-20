@@ -3,8 +3,6 @@
 using System.Xml.Linq;
 using NetEvolve.ArchiDuct.Extensions;
 using NetEvolve.ArchiDuct.Models;
-using static NetEvolve.ArchiDuct.Models.DocumentationXmlAttributeConstants;
-using static NetEvolve.ArchiDuct.Models.DocumentationXmlPropertyConstants;
 
 /// <summary>
 /// Represents the xml documentation for a model.
@@ -71,8 +69,14 @@ public sealed class ModelDocumentation
 
         var documentation = new ModelDocumentation(
             parentDocumentation._documentation,
-            GetElements(parentDocumentation._documentation, Param)
-                ?.FirstOrDefault(p => string.Equals(p.Attribute(Name)?.Value, name, Ordinal))
+            GetElements(parentDocumentation._documentation, DocumentationXmlPropertyConstants.Param)
+                ?.FirstOrDefault(p =>
+                    string.Equals(
+                        p.Attribute(DocumentationXmlAttributeConstants.Name)?.Value,
+                        name,
+                        Ordinal
+                    )
+                )
                 .GetElementValue()
         );
 
@@ -91,8 +95,17 @@ public sealed class ModelDocumentation
 
         var documentation = new ModelDocumentation(
             parentDocumentation._documentation,
-            GetElements(parentDocumentation._documentation, TypeParam)
-                ?.FirstOrDefault(p => string.Equals(p.Attribute(Name)?.Value, name, Ordinal))
+            GetElements(
+                parentDocumentation._documentation,
+                DocumentationXmlPropertyConstants.TypeParam
+            )
+                ?.FirstOrDefault(p =>
+                    string.Equals(
+                        p.Attribute(DocumentationXmlAttributeConstants.Name)?.Value,
+                        name,
+                        Ordinal
+                    )
+                )
                 .GetElementValue()
         );
 
