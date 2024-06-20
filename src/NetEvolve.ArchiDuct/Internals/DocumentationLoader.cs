@@ -2,6 +2,7 @@
 
 using System;
 using System.Collections.Concurrent;
+using System.Diagnostics.CodeAnalysis;
 using ICSharpCode.Decompiler.Documentation;
 using ICSharpCode.Decompiler.Metadata;
 
@@ -92,6 +93,7 @@ internal static class DocumentationLoader
     internal static string? LookupLocalizedXmlDoc(params string[] pathSegments) =>
         LookupLocalizedXmlDoc(Path.Combine(pathSegments));
 
+    [SuppressMessage("ApiDesign", "RS0030:Do not use banned APIs", Justification = "<Pending>")]
     internal static string? LookupLocalizedXmlDoc(string fileName)
     {
         if (string.IsNullOrEmpty(fileName))
@@ -102,6 +104,7 @@ internal static class DocumentationLoader
         var directory = Path.GetDirectoryName(fileName);
         if (directory is null || !Directory.Exists(directory))
         {
+            Console.WriteLine($"Directory {directory} does not exist.");
             return null;
         }
 
@@ -138,6 +141,9 @@ internal static class DocumentationLoader
                 return localizedXmlDocFile;
             }
         }
+
+        Console.WriteLine($"Could not find XML documentation file for {fileName}.");
+
         return null;
     }
 
