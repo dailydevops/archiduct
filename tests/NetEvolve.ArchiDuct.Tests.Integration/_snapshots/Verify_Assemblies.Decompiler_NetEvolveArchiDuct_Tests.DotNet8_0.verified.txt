@@ -156,108 +156,92 @@
         FullName: System.Runtime,
         Id: A:System.Runtime,
         Kind: Reference,
-        Name: System.Runtime,
-        Version: 8.0.0.0
+        Name: System.Runtime
       },
       {
         FullName: System.Collections.Immutable,
         Id: A:System.Collections.Immutable,
         Kind: Reference,
-        Name: System.Collections.Immutable,
-        Version: 8.0.0.0
+        Name: System.Collections.Immutable
       },
       {
         FullName: System.Collections,
         Id: A:System.Collections,
         Kind: Reference,
-        Name: System.Collections,
-        Version: 8.0.0.0
+        Name: System.Collections
       },
       {
         FullName: NetEvolve.FluentValue,
         Id: A:NetEvolve.FluentValue,
         Kind: Reference,
-        Name: NetEvolve.FluentValue,
-        Version: 0.2.0.0
+        Name: NetEvolve.FluentValue
       },
       {
         FullName: ICSharpCode.Decompiler,
         Id: A:ICSharpCode.Decompiler,
         Kind: Reference,
-        Name: ICSharpCode.Decompiler,
-        Version: 8.2.0.7535
+        Name: ICSharpCode.Decompiler
       },
       {
         FullName: System.Xml.XDocument,
         Id: A:System.Xml.XDocument,
         Kind: Reference,
-        Name: System.Xml.XDocument,
-        Version: 8.0.0.0
+        Name: System.Xml.XDocument
       },
       {
         FullName: System.Collections.Concurrent,
         Id: A:System.Collections.Concurrent,
         Kind: Reference,
-        Name: System.Collections.Concurrent,
-        Version: 8.0.0.0
+        Name: System.Collections.Concurrent
       },
       {
         FullName: NetEvolve.Arguments,
         Id: A:NetEvolve.Arguments,
         Kind: Reference,
-        Name: NetEvolve.Arguments,
-        Version: 1.2.12.0
+        Name: NetEvolve.Arguments
       },
       {
         FullName: System.Threading.Tasks.Parallel,
         Id: A:System.Threading.Tasks.Parallel,
         Kind: Reference,
-        Name: System.Threading.Tasks.Parallel,
-        Version: 8.0.0.0
+        Name: System.Threading.Tasks.Parallel
       },
       {
         FullName: System.Linq,
         Id: A:System.Linq,
         Kind: Reference,
-        Name: System.Linq,
-        Version: 8.0.0.0
+        Name: System.Linq
       },
       {
         FullName: System.Private.CoreLib,
         Id: A:System.Private.CoreLib,
         Kind: Reference,
-        Name: System.Private.CoreLib,
-        Version: 8.0.0.0
+        Name: System.Private.CoreLib
       },
       {
         FullName: System.Private.Uri,
         Id: A:System.Private.Uri,
         Kind: Reference,
-        Name: System.Private.Uri,
-        Version: 8.0.0.0
+        Name: System.Private.Uri
       },
       {
         FullName: System.Private.Xml.Linq,
         Id: A:System.Private.Xml.Linq,
         Kind: Reference,
-        Name: System.Private.Xml.Linq,
-        Version: 8.0.0.0
+        Name: System.Private.Xml.Linq
       },
       {
         FullName: System.Runtime.InteropServices,
         Id: A:System.Runtime.InteropServices,
         Kind: Reference,
-        Name: System.Runtime.InteropServices,
-        Version: 8.0.0.0
+        Name: System.Runtime.InteropServices
       },
       {
         FullName: System.Runtime.CompilerServices.Unsafe,
         Id: A:System.Runtime.CompilerServices.Unsafe,
         Kind: Reference,
-        Name: System.Runtime.CompilerServices.Unsafe,
-        Version: 8.0.0.0
+        Name: System.Runtime.CompilerServices.Unsafe
       }
-    ],
-    Version: 0.2.0.0
+    ]
   }
 }

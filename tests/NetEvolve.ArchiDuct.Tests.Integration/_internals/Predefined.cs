@@ -1,5 +1,6 @@
 ﻿namespace NetEvolve.ArchiDuct.Tests.Integration._internals;
 
+using System;
 using System.IO;
 using System.Runtime.CompilerServices;
 using VerifyTests;
@@ -25,5 +26,7 @@ internal static class Predefined
 
         VerifierSettings.UniqueForTargetFrameworkAndVersion();
         VerifierSettings.HashParameters();
+
+        VerifierSettings.IgnoreMembersWithType<Version>();
     }
 }
