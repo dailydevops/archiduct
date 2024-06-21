@@ -192,8 +192,7 @@
             TypeId: T:System.AttributeTargets
           }
         ],
-        ParentId: T:System.AttributeUsageAttribute,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.AttributeUsageAttribute
       },
       {
         Accessibility: Internal,
@@ -234,8 +233,7 @@
             TypeId: T:System.Boolean
           }
         ],
-        ParentId: T:System.AttributeUsageAttribute,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.AttributeUsageAttribute
       },
       {
         Accessibility: Private,
@@ -247,8 +245,7 @@
           Static
         ],
         Name: .cctor,
-        ParentId: T:System.AttributeUsageAttribute,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.AttributeUsageAttribute
       },
       {
         Accessibility: Public,

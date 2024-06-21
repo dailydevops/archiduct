@@ -138,6 +138,15 @@
         ParentId: T:System.DayOfWeek,
         ReturnTypeId: T:System.DayOfWeek,
         Value: 6
+      },
+      {
+        Accessibility: Public,
+        FullId: T:System.DayOfWeek, M:System.DayOfWeek.#ctor,
+        FullName: System.DayOfWeek..ctor,
+        Id: M:System.DayOfWeek.#ctor,
+        Kind: Constructor,
+        Name: .ctor,
+        ParentId: T:System.DayOfWeek
       }
     ],
     Name: DayOfWeek,

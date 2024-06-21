@@ -618,8 +618,7 @@
             TypeId: T:System.String
           }
         ],
-        ParentId: T:System.Uri,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Uri
       },
       {
         Accessibility: Public,
@@ -666,8 +665,7 @@
             TypeId: T:System.Boolean
           }
         ],
-        ParentId: T:System.Uri,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Uri
       },
       {
         Accessibility: Public,
@@ -723,8 +721,7 @@
             TypeId: T:System.Boolean
           }
         ],
-        ParentId: T:System.Uri,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Uri
       },
       {
         Accessibility: Public,
@@ -763,8 +760,7 @@
             TypeId: T:System.UriKind
           }
         ],
-        ParentId: T:System.Uri,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Uri
       },
       {
         Accessibility: Public,
@@ -806,8 +802,7 @@
             TypeId: T:System.UriCreationOptions&
           }
         ],
-        ParentId: T:System.Uri,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Uri
       },
       {
         Accessibility: Public,
@@ -846,8 +841,7 @@
             TypeId: T:System.String
           }
         ],
-        ParentId: T:System.Uri,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Uri
       },
       {
         Accessibility: Protected,
@@ -897,6 +891,34 @@
             Kind: Parameter,
             Name: streamingContext,
             ParentId: M:System.Uri.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+            TypeId: T:System.Runtime.Serialization.StreamingContext
+          }
+        ],
+        ParentId: T:System.Uri
+      },
+      {
+        FullId: T:System.Uri, M:System.Uri.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+        FullName: System.Uri.System.Runtime.Serialization.ISerializable.GetObjectData,
+        Id: M:System.Uri.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+        Kind: ExplicitMethod,
+        Name: System.Runtime.Serialization.ISerializable.GetObjectData,
+        Parameters: [
+          {
+            FullId: M:System.Uri.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext), M:System.Uri.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).serializationInfo,
+            FullName: System.Uri.System.Runtime.Serialization.ISerializable.GetObjectData.serializationInfo,
+            Id: M:System.Uri.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).serializationInfo,
+            Kind: Parameter,
+            Name: serializationInfo,
+            ParentId: M:System.Uri.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+            TypeId: T:System.Runtime.Serialization.SerializationInfo
+          },
+          {
+            FullId: M:System.Uri.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext), M:System.Uri.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).streamingContext,
+            FullName: System.Uri.System.Runtime.Serialization.ISerializable.GetObjectData.streamingContext,
+            Id: M:System.Uri.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).streamingContext,
+            Kind: Parameter,
+            Name: streamingContext,
+            ParentId: M:System.Uri.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
             TypeId: T:System.Runtime.Serialization.StreamingContext
           }
         ],
@@ -1017,8 +1039,7 @@
             TypeId: T:System.Uri
           }
         ],
-        ParentId: T:System.Uri,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Uri
       },
       {
         Accessibility: Private,
@@ -1400,6 +1421,85 @@
         ],
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
+      },
+      {
+        FullId: T:System.Uri, M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
+        FullName: System.Uri.System.ISpanFormattable.TryFormat,
+        Id: M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
+        Kind: ExplicitMethod,
+        Name: System.ISpanFormattable.TryFormat,
+        Parameters: [
+          {
+            FullId: M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider), M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).destination,
+            FullName: System.Uri.System.ISpanFormattable.TryFormat.destination,
+            Id: M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).destination,
+            Kind: Parameter,
+            Name: destination,
+            ParentId: M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
+            TypeId: T:System.Span`1[[System.Char]]
+          },
+          {
+            FullId: M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider), M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).charsWritten,
+            FullName: System.Uri.System.ISpanFormattable.TryFormat.charsWritten,
+            Id: M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).charsWritten,
+            Kind: Parameter,
+            Modifiers: [
+              Out
+            ],
+            Name: charsWritten,
+            ParentId: M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
+            TypeId: T:System.Int32&
+          },
+          {
+            FullId: M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider), M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).format,
+            FullName: System.Uri.System.ISpanFormattable.TryFormat.format,
+            Id: M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).format,
+            Kind: Parameter,
+            Name: format,
+            ParentId: M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
+            TypeId: T:System.ReadOnlySpan`1[[System.Char]]
+          },
+          {
+            FullId: M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider), M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).provider,
+            FullName: System.Uri.System.ISpanFormattable.TryFormat.provider,
+            Id: M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).provider,
+            Kind: Parameter,
+            Name: provider,
+            ParentId: M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
+            TypeId: T:System.IFormatProvider
+          }
+        ],
+        ParentId: T:System.Uri,
+        ReturnTypeId: T:System.Boolean
+      },
+      {
+        FullId: T:System.Uri, M:System.Uri.System#IFormattable#ToString(System.String,System.IFormatProvider),
+        FullName: System.Uri.System.IFormattable.ToString,
+        Id: M:System.Uri.System#IFormattable#ToString(System.String,System.IFormatProvider),
+        Kind: ExplicitMethod,
+        Name: System.IFormattable.ToString,
+        Parameters: [
+          {
+            FullId: M:System.Uri.System#IFormattable#ToString(System.String,System.IFormatProvider), M:System.Uri.System#IFormattable#ToString(System.String,System.IFormatProvider).format,
+            FullName: System.Uri.System.IFormattable.ToString.format,
+            Id: M:System.Uri.System#IFormattable#ToString(System.String,System.IFormatProvider).format,
+            Kind: Parameter,
+            Name: format,
+            ParentId: M:System.Uri.System#IFormattable#ToString(System.String,System.IFormatProvider),
+            TypeId: T:System.String
+          },
+          {
+            FullId: M:System.Uri.System#IFormattable#ToString(System.String,System.IFormatProvider), M:System.Uri.System#IFormattable#ToString(System.String,System.IFormatProvider).formatProvider,
+            FullName: System.Uri.System.IFormattable.ToString.formatProvider,
+            Id: M:System.Uri.System#IFormattable#ToString(System.String,System.IFormatProvider).formatProvider,
+            Kind: Parameter,
+            Name: formatProvider,
+            ParentId: M:System.Uri.System#IFormattable#ToString(System.String,System.IFormatProvider),
+            TypeId: T:System.IFormatProvider
+          }
+        ],
+        ParentId: T:System.Uri,
+        ReturnTypeId: T:System.String
       },
       {
         Accessibility: Public,
@@ -3618,8 +3718,7 @@
             TypeId: T:System.String
           }
         ],
-        ParentId: T:System.Uri,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Uri
       },
       {
         Accessibility: Internal,
@@ -3877,8 +3976,7 @@
           Static
         ],
         Name: .cctor,
-        ParentId: T:System.Uri,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Uri
       },
       {
         Accessibility: Private,
@@ -4724,6 +4822,15 @@
         ParentId: T:System.Uri.Check,
         ReturnTypeId: T:System.Uri+Check,
         Value: 8
+      },
+      {
+        Accessibility: Public,
+        FullId: T:System.Uri.Check, M:System.Uri.Check.#ctor,
+        FullName: System.Uri.Check..ctor,
+        Id: M:System.Uri.Check.#ctor,
+        Kind: Constructor,
+        Name: .ctor,
+        ParentId: T:System.Uri.Check
       }
     ],
     Name: Check,
@@ -5426,6 +5533,15 @@
         ParentId: T:System.Uri.Flags,
         ReturnTypeId: T:System.Uri+Flags,
         Value: 9223372036854775808
+      },
+      {
+        Accessibility: Public,
+        FullId: T:System.Uri.Flags, M:System.Uri.Flags.#ctor,
+        FullName: System.Uri.Flags..ctor,
+        Id: M:System.Uri.Flags.#ctor,
+        Kind: Constructor,
+        Name: .ctor,
+        ParentId: T:System.Uri.Flags
       }
     ],
     Name: Flags,
@@ -5530,6 +5646,15 @@
         Name: RemoteUrl,
         ParentId: T:System.Uri.MoreInfo,
         ReturnTypeId: T:System.String
+      },
+      {
+        Accessibility: Public,
+        FullId: T:System.Uri.MoreInfo, M:System.Uri.MoreInfo.#ctor,
+        FullName: System.Uri.MoreInfo..ctor,
+        Id: M:System.Uri.MoreInfo.#ctor,
+        Kind: Constructor,
+        Name: .ctor,
+        ParentId: T:System.Uri.MoreInfo
       }
     ],
     Modifiers: [
@@ -5689,6 +5814,15 @@
         Name: End,
         ParentId: T:System.Uri.Offset,
         ReturnTypeId: T:System.UInt16
+      },
+      {
+        Accessibility: Public,
+        FullId: T:System.Uri.Offset, M:System.Uri.Offset.#ctor,
+        FullName: System.Uri.Offset..ctor,
+        Id: M:System.Uri.Offset.#ctor,
+        Kind: Constructor,
+        Name: .ctor,
+        ParentId: T:System.Uri.Offset
       }
     ],
     Name: Offset,
@@ -5812,6 +5946,15 @@
         Name: _moreInfo,
         ParentId: T:System.Uri.UriInfo,
         ReturnTypeId: T:System.Uri+MoreInfo
+      },
+      {
+        Accessibility: Public,
+        FullId: T:System.Uri.UriInfo, M:System.Uri.UriInfo.#ctor,
+        FullName: System.Uri.UriInfo..ctor,
+        Id: M:System.Uri.UriInfo.#ctor,
+        Kind: Constructor,
+        Name: .ctor,
+        ParentId: T:System.Uri.UriInfo
       },
       {
         Accessibility: Public,

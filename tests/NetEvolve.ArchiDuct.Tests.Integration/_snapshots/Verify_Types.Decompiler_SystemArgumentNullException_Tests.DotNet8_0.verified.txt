@@ -192,8 +192,7 @@
           M:System.ArgumentNullException.#ctor(System.String,System.String),
           M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
         ],
-        ParentId: T:System.ArgumentNullException,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.ArgumentNullException
       },
       {
         Accessibility: Public,
@@ -219,8 +218,7 @@
             TypeId: T:System.String
           }
         ],
-        ParentId: T:System.ArgumentNullException,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.ArgumentNullException
       },
       {
         Accessibility: Public,
@@ -255,8 +253,7 @@
             TypeId: T:System.Exception
           }
         ],
-        ParentId: T:System.ArgumentNullException,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.ArgumentNullException
       },
       {
         Accessibility: Public,
@@ -291,8 +288,7 @@
             TypeId: T:System.String
           }
         ],
-        ParentId: T:System.ArgumentNullException,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.ArgumentNullException
       },
       {
         Accessibility: Protected,
@@ -341,8 +337,7 @@
             TypeId: T:System.Runtime.Serialization.StreamingContext
           }
         ],
-        ParentId: T:System.ArgumentNullException,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.ArgumentNullException
       },
       {
         Accessibility: Public,

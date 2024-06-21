@@ -178,8 +178,7 @@
           M:System.ArgumentException.#ctor(System.String,System.String),
           M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
         ],
-        ParentId: T:System.ArgumentException,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.ArgumentException
       },
       {
         Accessibility: Public,
@@ -206,8 +205,7 @@
             TypeId: T:System.String
           }
         ],
-        ParentId: T:System.ArgumentException,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.ArgumentException
       },
       {
         Accessibility: Public,
@@ -243,8 +241,7 @@
             TypeId: T:System.Exception
           }
         ],
-        ParentId: T:System.ArgumentException,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.ArgumentException
       },
       {
         Accessibility: Public,
@@ -289,8 +286,7 @@
             TypeId: T:System.Exception
           }
         ],
-        ParentId: T:System.ArgumentException,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.ArgumentException
       },
       {
         Accessibility: Public,
@@ -326,8 +322,7 @@
             TypeId: T:System.String
           }
         ],
-        ParentId: T:System.ArgumentException,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.ArgumentException
       },
       {
         Accessibility: Protected,
@@ -377,8 +372,7 @@
             TypeId: T:System.Runtime.Serialization.StreamingContext
           }
         ],
-        ParentId: T:System.ArgumentException,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.ArgumentException
       },
       {
         Accessibility: Public,

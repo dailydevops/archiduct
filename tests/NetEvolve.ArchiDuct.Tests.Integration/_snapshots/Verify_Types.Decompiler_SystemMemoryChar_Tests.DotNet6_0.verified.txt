@@ -140,7 +140,8 @@
           M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
           M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
           M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
-          M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32)
+          M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+          M:System.Memory`1.#ctor
         ],
         Parameters: [
           {
@@ -153,8 +154,7 @@
             TypeId: T:`0[]
           }
         ],
-        ParentId: T:System.Memory`1,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Memory`1
       },
       {
         Accessibility: Internal,
@@ -176,7 +176,8 @@
           M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
           M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
           M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
-          M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32)
+          M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+          M:System.Memory`1.#ctor
         ],
         Parameters: [
           {
@@ -198,8 +199,7 @@
             TypeId: T:System.Int32
           }
         ],
-        ParentId: T:System.Memory`1,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Memory`1
       },
       {
         Accessibility: Public,
@@ -221,7 +221,8 @@
           M:System.Memory`1.#ctor(`0[],System.Int32),
           M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
           M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
-          M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32)
+          M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+          M:System.Memory`1.#ctor
         ],
         Parameters: [
           {
@@ -252,8 +253,7 @@
             TypeId: T:System.Int32
           }
         ],
-        ParentId: T:System.Memory`1,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Memory`1
       },
       {
         Accessibility: Internal,
@@ -275,7 +275,8 @@
           M:System.Memory`1.#ctor(`0[],System.Int32),
           M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
           M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
-          M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32)
+          M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+          M:System.Memory`1.#ctor
         ],
         Parameters: [
           {
@@ -297,8 +298,7 @@
             TypeId: T:System.Int32
           }
         ],
-        ParentId: T:System.Memory`1,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Memory`1
       },
       {
         Accessibility: Internal,
@@ -320,7 +320,8 @@
           M:System.Memory`1.#ctor(`0[],System.Int32),
           M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
           M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
-          M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32)
+          M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+          M:System.Memory`1.#ctor
         ],
         Parameters: [
           {
@@ -351,8 +352,7 @@
             TypeId: T:System.Int32
           }
         ],
-        ParentId: T:System.Memory`1,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Memory`1
       },
       {
         Accessibility: Internal,
@@ -374,7 +374,8 @@
           M:System.Memory`1.#ctor(`0[],System.Int32),
           M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
           M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
-          M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32)
+          M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+          M:System.Memory`1.#ctor
         ],
         Parameters: [
           {
@@ -405,8 +406,7 @@
             TypeId: T:System.Int32
           }
         ],
-        ParentId: T:System.Memory`1,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Memory`1
       },
       {
         Accessibility: Public,
@@ -731,6 +731,23 @@
         Name: GetHashCode,
         ParentId: T:System.Memory`1,
         ReturnTypeId: T:System.Int32
+      },
+      {
+        Accessibility: Public,
+        FullId: T:System.Memory`1, M:System.Memory`1.#ctor,
+        FullName: System.Memory..ctor,
+        Id: M:System.Memory`1.#ctor,
+        Kind: Constructor,
+        Name: .ctor,
+        OverloadedMembers: [
+          M:System.Memory`1.#ctor(`0[]),
+          M:System.Memory`1.#ctor(`0[],System.Int32),
+          M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+          M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+          M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+          M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32)
+        ],
+        ParentId: T:System.Memory`1
       },
       {
         Accessibility: Public,

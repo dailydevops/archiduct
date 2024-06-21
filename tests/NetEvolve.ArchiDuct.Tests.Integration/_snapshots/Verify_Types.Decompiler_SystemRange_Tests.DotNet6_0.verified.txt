@@ -76,6 +76,9 @@
         Id: M:System.Range.#ctor(System.Index,System.Index),
         Kind: Constructor,
         Name: .ctor,
+        OverloadedMembers: [
+          M:System.Range.#ctor
+        ],
         Parameters: [
           {
             FullId: M:System.Range.#ctor(System.Index,System.Index), M:System.Range.#ctor(System.Index,System.Index).start,
@@ -96,8 +99,7 @@
             TypeId: T:System.Index
           }
         ],
-        ParentId: T:System.Range,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Range
       },
       {
         Accessibility: Public,
@@ -268,6 +270,18 @@
         ],
         ParentId: T:System.Range,
         ReturnTypeId: T:System.ValueTuple`2[[System.Int32],[System.Int32]]
+      },
+      {
+        Accessibility: Public,
+        FullId: T:System.Range, M:System.Range.#ctor,
+        FullName: System.Range..ctor,
+        Id: M:System.Range.#ctor,
+        Kind: Constructor,
+        Name: .ctor,
+        OverloadedMembers: [
+          M:System.Range.#ctor(System.Index,System.Index)
+        ],
+        ParentId: T:System.Range
       },
       {
         Accessibility: Public,

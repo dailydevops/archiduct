@@ -180,20 +180,9 @@ internal sealed partial class Decompiler : IDisposable
             return;
         }
 
-        if (ShouldNotBeDescribedAccessModifier(member))
-        {
-            return;
-        }
-
         if (!ModelFactory.TryGetDocumentation(member, _resolver, out var documentation))
         {
             //TODO: Include undocumented items?
-        }
-
-        if (member.IsDefaultConstructor() && documentation is null)
-        {
-            // TODO: Logging?
-            return;
         }
 
         if (

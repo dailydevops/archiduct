@@ -43,7 +43,7 @@ public sealed class ModelDelegate : ModelTypeBase
                 .Parameters.Select(p => new ModelParameter(p, this))
                 .ToHashSet();
 
-            ReturnTypeId = ModelFactory.GetReturnTypeId(delegateMethod);
+            ReturnTypeId = ModelFactory.GetReturnTypeId(delegateMethod)!;
         }
     }
 }
