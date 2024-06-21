@@ -25,19 +25,19 @@ internal sealed class Architecture : IArchitecture
 
     internal Architecture(List<ModelAssembly> modelAssemblies)
     {
-        _assemblies = modelAssemblies.ToDictionaryInternal(x => x.Id, Ordinal);
+        _assemblies = modelAssemblies.ToDictionaryInternal(x => x.FullName, Ordinal);
 
         _members = modelAssemblies
             .SelectMany(x => x.Types)
             .SelectMany(x => x.Members)
-            .ToDictionaryInternal(x => x.FullId, Ordinal);
+            .ToDictionaryInternal(x => x.FullName, Ordinal);
 
         _namespaces = modelAssemblies
             .SelectMany(x => x.Namespaces)
-            .ToDictionaryInternal(x => x.FullId, Ordinal);
+            .ToDictionaryInternal(x => x.FullName, Ordinal);
 
         _types = modelAssemblies
             .SelectMany(x => x.Types)
-            .ToDictionaryInternal(x => x.FullId, Ordinal);
+            .ToDictionaryInternal(x => x.FullName, Ordinal);
     }
 }

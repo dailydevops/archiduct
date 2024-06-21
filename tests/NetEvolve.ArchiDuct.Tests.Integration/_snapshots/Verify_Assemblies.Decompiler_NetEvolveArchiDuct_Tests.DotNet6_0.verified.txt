@@ -1,5 +1,5 @@
 ﻿{
-  A:NetEvolve.ArchiDuct: {
+  NetEvolve.ArchiDuct: {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
@@ -121,8 +121,7 @@
     Name: NetEvolve.ArchiDuct,
     Namespaces: [
       {
-        FullId: A:NetEvolve.ArchiDuct, N:NetEvolve.ArchiDuct,
-        FullName: NetEvolve.ArchiDuct,
+        FullName: NetEvolve.ArchiDuct, NetEvolve.ArchiDuct,
         Id: N:NetEvolve.ArchiDuct,
         Kind: Namespace,
         Name: ArchiDuct,

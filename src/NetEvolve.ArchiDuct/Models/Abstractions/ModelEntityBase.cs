@@ -12,11 +12,6 @@ public abstract class ModelEntityBase : ModelBase
     public HashSet<ModelAttribute> Attributes { get; internal set; } = [];
 
     /// <summary>
-    /// Unique ID string that identifies the type or member, this includes the parent ID.
-    /// </summary>
-    public string FullId { get; private set; }
-
-    /// <summary>
     /// Unique ID string that identifies the parent, could be namespace or type.
     /// </summary>
     public string ParentId { get; private set; }
@@ -28,12 +23,7 @@ public abstract class ModelEntityBase : ModelBase
         ModelBase parentEntity,
         ModelDocumentation? documentation
     )
-        : base(id, name, fullName, documentation)
-    {
-        ParentId = parentEntity.Id;
-
-        FullId = $"{ParentId}, {Id}";
-    }
+        : base(id, name, fullName, documentation) => ParentId = parentEntity.Id;
 
     private protected ModelEntityBase(
         string id,
@@ -42,10 +32,5 @@ public abstract class ModelEntityBase : ModelBase
         ModelBase parentEntity,
         XElement? documentation
     )
-        : base(id, name, fullName, documentation)
-    {
-        ParentId = parentEntity.Id;
-
-        FullId = $"{ParentId}, {Id}";
-    }
+        : base(id, name, fullName, documentation) => ParentId = parentEntity.Id;
 }
