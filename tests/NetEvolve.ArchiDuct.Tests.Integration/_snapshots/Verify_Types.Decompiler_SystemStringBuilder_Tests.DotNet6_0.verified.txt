@@ -4911,16 +4911,43 @@
         Accessibility: Public,
         FullId: T:System.Text.StringBuilder, P:System.Text.StringBuilder.Capacity,
         FullName: System.Text.StringBuilder.Capacity,
+        Getter: {
+          FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.get_Capacity,
+          FullName: System.Text.StringBuilder.get_Capacity,
+          Id: M:System.Text.StringBuilder.get_Capacity,
+          Kind: Method,
+          Name: get_Capacity,
+          ParentId: T:System.Text.StringBuilder,
+          ReturnTypeId: T:System.Void
+        },
         Id: P:System.Text.StringBuilder.Capacity,
         Kind: Property,
         Name: Capacity,
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Int32
+        ReturnTypeId: T:System.Int32,
+        Setter: {
+          FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.set_Capacity(System.Int32),
+          FullName: System.Text.StringBuilder.set_Capacity,
+          Id: M:System.Text.StringBuilder.set_Capacity(System.Int32),
+          Kind: Method,
+          Name: set_Capacity,
+          ParentId: T:System.Text.StringBuilder,
+          ReturnTypeId: T:System.Void
+        }
       },
       {
         Accessibility: Public,
         FullId: T:System.Text.StringBuilder, P:System.Text.StringBuilder.MaxCapacity,
         FullName: System.Text.StringBuilder.MaxCapacity,
+        Getter: {
+          FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.get_MaxCapacity,
+          FullName: System.Text.StringBuilder.get_MaxCapacity,
+          Id: M:System.Text.StringBuilder.get_MaxCapacity,
+          Kind: Method,
+          Name: get_MaxCapacity,
+          ParentId: T:System.Text.StringBuilder,
+          ReturnTypeId: T:System.Void
+        },
         Id: P:System.Text.StringBuilder.MaxCapacity,
         Kind: Property,
         Name: MaxCapacity,
@@ -4931,11 +4958,29 @@
         Accessibility: Public,
         FullId: T:System.Text.StringBuilder, P:System.Text.StringBuilder.Length,
         FullName: System.Text.StringBuilder.Length,
+        Getter: {
+          FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.get_Length,
+          FullName: System.Text.StringBuilder.get_Length,
+          Id: M:System.Text.StringBuilder.get_Length,
+          Kind: Method,
+          Name: get_Length,
+          ParentId: T:System.Text.StringBuilder,
+          ReturnTypeId: T:System.Void
+        },
         Id: P:System.Text.StringBuilder.Length,
         Kind: Property,
         Name: Length,
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Int32
+        ReturnTypeId: T:System.Int32,
+        Setter: {
+          FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.set_Length(System.Int32),
+          FullName: System.Text.StringBuilder.set_Length,
+          Id: M:System.Text.StringBuilder.set_Length(System.Int32),
+          Kind: Method,
+          Name: set_Length,
+          ParentId: T:System.Text.StringBuilder,
+          ReturnTypeId: T:System.Void
+        }
       },
       {
         Accessibility: Public,
@@ -4949,6 +4994,15 @@
         ],
         FullId: T:System.Text.StringBuilder, P:System.Text.StringBuilder.Chars(System.Int32),
         FullName: System.Text.StringBuilder.Chars,
+        Getter: {
+          FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.get_Chars(System.Int32),
+          FullName: System.Text.StringBuilder.get_Chars,
+          Id: M:System.Text.StringBuilder.get_Chars(System.Int32),
+          Kind: Method,
+          Name: get_Chars,
+          ParentId: T:System.Text.StringBuilder,
+          ReturnTypeId: T:System.Void
+        },
         Id: P:System.Text.StringBuilder.Chars(System.Int32),
         Kind: Indexer,
         Name: Chars,
@@ -4964,12 +5018,30 @@
           }
         ],
         ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Char
+        ReturnTypeId: T:System.Char,
+        Setter: {
+          FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.set_Chars(System.Int32,System.Char),
+          FullName: System.Text.StringBuilder.set_Chars,
+          Id: M:System.Text.StringBuilder.set_Chars(System.Int32,System.Char),
+          Kind: Method,
+          Name: set_Chars,
+          ParentId: T:System.Text.StringBuilder,
+          ReturnTypeId: T:System.Void
+        }
       },
       {
         Accessibility: Private,
         FullId: T:System.Text.StringBuilder, P:System.Text.StringBuilder.RemainingCurrentChunk,
         FullName: System.Text.StringBuilder.RemainingCurrentChunk,
+        Getter: {
+          FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.get_RemainingCurrentChunk,
+          FullName: System.Text.StringBuilder.get_RemainingCurrentChunk,
+          Id: M:System.Text.StringBuilder.get_RemainingCurrentChunk,
+          Kind: Method,
+          Name: get_RemainingCurrentChunk,
+          ParentId: T:System.Text.StringBuilder,
+          ReturnTypeId: T:System.Void
+        },
         Id: P:System.Text.StringBuilder.RemainingCurrentChunk,
         Kind: Property,
         Name: RemainingCurrentChunk,
@@ -5917,6 +5989,15 @@
         Accessibility: Public,
         FullId: T:System.Text.StringBuilder.ChunkEnumerator, P:System.Text.StringBuilder.ChunkEnumerator.Current,
         FullName: System.Text.StringBuilder.ChunkEnumerator.Current,
+        Getter: {
+          FullId: T:System.Text.StringBuilder.ChunkEnumerator, M:System.Text.StringBuilder.ChunkEnumerator.get_Current,
+          FullName: System.Text.StringBuilder.ChunkEnumerator.get_Current,
+          Id: M:System.Text.StringBuilder.ChunkEnumerator.get_Current,
+          Kind: Method,
+          Name: get_Current,
+          ParentId: T:System.Text.StringBuilder.ChunkEnumerator,
+          ReturnTypeId: T:System.Void
+        },
         Id: P:System.Text.StringBuilder.ChunkEnumerator.Current,
         Kind: Property,
         Name: Current,
