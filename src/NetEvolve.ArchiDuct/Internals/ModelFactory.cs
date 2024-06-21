@@ -224,8 +224,13 @@ internal static class ModelFactory
                 }
             );
 
-    internal static string GetReturnTypeId(IMember member)
+    internal static string? GetReturnTypeId(IMember member)
     {
+        if (member is IMethod constructor && constructor.IsConstructor)
+        {
+            return null;
+        }
+
         var returnType = member.ReturnType;
         if (returnType.Kind == TypeKind.TypeParameter)
         {
