@@ -254,6 +254,15 @@
         Accessibility: Public,
         FullId: T:System.AttributeUsageAttribute, P:System.AttributeUsageAttribute.ValidOn,
         FullName: System.AttributeUsageAttribute.ValidOn,
+        Getter: {
+          FullId: T:System.AttributeUsageAttribute, M:System.AttributeUsageAttribute.get_ValidOn,
+          FullName: System.AttributeUsageAttribute.get_ValidOn,
+          Id: M:System.AttributeUsageAttribute.get_ValidOn,
+          Kind: Method,
+          Name: get_ValidOn,
+          ParentId: T:System.AttributeUsageAttribute,
+          ReturnTypeId: T:System.Void
+        },
         Id: P:System.AttributeUsageAttribute.ValidOn,
         Kind: Property,
         Name: ValidOn,
@@ -264,21 +273,57 @@
         Accessibility: Public,
         FullId: T:System.AttributeUsageAttribute, P:System.AttributeUsageAttribute.AllowMultiple,
         FullName: System.AttributeUsageAttribute.AllowMultiple,
+        Getter: {
+          FullId: T:System.AttributeUsageAttribute, M:System.AttributeUsageAttribute.get_AllowMultiple,
+          FullName: System.AttributeUsageAttribute.get_AllowMultiple,
+          Id: M:System.AttributeUsageAttribute.get_AllowMultiple,
+          Kind: Method,
+          Name: get_AllowMultiple,
+          ParentId: T:System.AttributeUsageAttribute,
+          ReturnTypeId: T:System.Void
+        },
         Id: P:System.AttributeUsageAttribute.AllowMultiple,
         Kind: Property,
         Name: AllowMultiple,
         ParentId: T:System.AttributeUsageAttribute,
-        ReturnTypeId: T:System.Boolean
+        ReturnTypeId: T:System.Boolean,
+        Setter: {
+          FullId: T:System.AttributeUsageAttribute, M:System.AttributeUsageAttribute.set_AllowMultiple(System.Boolean),
+          FullName: System.AttributeUsageAttribute.set_AllowMultiple,
+          Id: M:System.AttributeUsageAttribute.set_AllowMultiple(System.Boolean),
+          Kind: Method,
+          Name: set_AllowMultiple,
+          ParentId: T:System.AttributeUsageAttribute,
+          ReturnTypeId: T:System.Void
+        }
       },
       {
         Accessibility: Public,
         FullId: T:System.AttributeUsageAttribute, P:System.AttributeUsageAttribute.Inherited,
         FullName: System.AttributeUsageAttribute.Inherited,
+        Getter: {
+          FullId: T:System.AttributeUsageAttribute, M:System.AttributeUsageAttribute.get_Inherited,
+          FullName: System.AttributeUsageAttribute.get_Inherited,
+          Id: M:System.AttributeUsageAttribute.get_Inherited,
+          Kind: Method,
+          Name: get_Inherited,
+          ParentId: T:System.AttributeUsageAttribute,
+          ReturnTypeId: T:System.Void
+        },
         Id: P:System.AttributeUsageAttribute.Inherited,
         Kind: Property,
         Name: Inherited,
         ParentId: T:System.AttributeUsageAttribute,
-        ReturnTypeId: T:System.Boolean
+        ReturnTypeId: T:System.Boolean,
+        Setter: {
+          FullId: T:System.AttributeUsageAttribute, M:System.AttributeUsageAttribute.set_Inherited(System.Boolean),
+          FullName: System.AttributeUsageAttribute.set_Inherited,
+          Id: M:System.AttributeUsageAttribute.set_Inherited(System.Boolean),
+          Kind: Method,
+          Name: set_Inherited,
+          ParentId: T:System.AttributeUsageAttribute,
+          ReturnTypeId: T:System.Void
+        }
       }
     ],
     Modifiers: [
