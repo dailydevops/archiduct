@@ -3649,12 +3649,13 @@
         Accessibility: Private,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.IsImplicitFile,
         Getter: {
+          Accessibility: Private,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_IsImplicitFile,
           Id: M:System.Uri.get_IsImplicitFile,
           Kind: Method,
           Name: get_IsImplicitFile,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Uri.IsImplicitFile,
         Kind: Property,
@@ -3666,12 +3667,13 @@
         Accessibility: Private,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.IsUncOrDosPath,
         Getter: {
+          Accessibility: Private,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_IsUncOrDosPath,
           Id: M:System.Uri.get_IsUncOrDosPath,
           Kind: Method,
           Name: get_IsUncOrDosPath,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Uri.IsUncOrDosPath,
         Kind: Property,
@@ -3683,12 +3685,13 @@
         Accessibility: Private,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.IsDosPath,
         Getter: {
+          Accessibility: Private,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_IsDosPath,
           Id: M:System.Uri.get_IsDosPath,
           Kind: Method,
           Name: get_IsDosPath,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Uri.IsDosPath,
         Kind: Property,
@@ -3700,12 +3703,13 @@
         Accessibility: Private,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.IsUncPath,
         Getter: {
+          Accessibility: Private,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_IsUncPath,
           Id: M:System.Uri.get_IsUncPath,
           Kind: Method,
           Name: get_IsUncPath,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Uri.IsUncPath,
         Kind: Property,
@@ -3717,12 +3721,13 @@
         Accessibility: Private,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.IsUnixPath,
         Getter: {
+          Accessibility: Private,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_IsUnixPath,
           Id: M:System.Uri.get_IsUnixPath,
           Kind: Method,
           Name: get_IsUnixPath,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Uri.IsUnixPath,
         Kind: Property,
@@ -3734,12 +3739,13 @@
         Accessibility: Private,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.HostType,
         Getter: {
+          Accessibility: Private,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_HostType,
           Id: M:System.Uri.get_HostType,
           Kind: Method,
           Name: get_HostType,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Uri+Flags
         },
         Id: P:System.Uri.HostType,
         Kind: Property,
@@ -3751,12 +3757,13 @@
         Accessibility: Private,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.Syntax,
         Getter: {
+          Accessibility: Private,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_Syntax,
           Id: M:System.Uri.get_Syntax,
           Kind: Method,
           Name: get_Syntax,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.UriParser
         },
         Id: P:System.Uri.Syntax,
         Kind: Property,
@@ -3768,12 +3775,13 @@
         Accessibility: Private,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.IsNotAbsoluteUri,
         Getter: {
+          Accessibility: Private,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_IsNotAbsoluteUri,
           Id: M:System.Uri.get_IsNotAbsoluteUri,
           Kind: Method,
           Name: get_IsNotAbsoluteUri,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Uri.IsNotAbsoluteUri,
         Kind: Property,
@@ -3785,12 +3793,13 @@
         Accessibility: Private,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.IriParsing,
         Getter: {
+          Accessibility: Private,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_IriParsing,
           Id: M:System.Uri.get_IriParsing,
           Kind: Method,
           Name: get_IriParsing,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Uri.IriParsing,
         Kind: Property,
@@ -3802,12 +3811,13 @@
         Accessibility: Internal,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.DisablePathAndQueryCanonicalization,
         Getter: {
+          Accessibility: Internal,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_DisablePathAndQueryCanonicalization,
           Id: M:System.Uri.get_DisablePathAndQueryCanonicalization,
           Kind: Method,
           Name: get_DisablePathAndQueryCanonicalization,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Uri.DisablePathAndQueryCanonicalization,
         Kind: Property,
@@ -3819,12 +3829,13 @@
         Accessibility: Internal,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.UserDrivenParsing,
         Getter: {
+          Accessibility: Internal,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_UserDrivenParsing,
           Id: M:System.Uri.get_UserDrivenParsing,
           Kind: Method,
           Name: get_UserDrivenParsing,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Uri.UserDrivenParsing,
         Kind: Property,
@@ -3836,12 +3847,13 @@
         Accessibility: Private,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.SecuredPathIndex,
         Getter: {
+          Accessibility: Private,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_SecuredPathIndex,
           Id: M:System.Uri.get_SecuredPathIndex,
           Kind: Method,
           Name: get_SecuredPathIndex,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Int32
         },
         Id: P:System.Uri.SecuredPathIndex,
         Kind: Property,
@@ -3853,12 +3865,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.AbsolutePath,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_AbsolutePath,
           Id: M:System.Uri.get_AbsolutePath,
           Kind: Method,
           Name: get_AbsolutePath,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.Uri.AbsolutePath,
         Kind: Property,
@@ -3870,12 +3883,13 @@
         Accessibility: Private,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.PrivateAbsolutePath,
         Getter: {
+          Accessibility: Private,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_PrivateAbsolutePath,
           Id: M:System.Uri.get_PrivateAbsolutePath,
           Kind: Method,
           Name: get_PrivateAbsolutePath,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.Uri.PrivateAbsolutePath,
         Kind: Property,
@@ -3887,12 +3901,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.AbsoluteUri,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_AbsoluteUri,
           Id: M:System.Uri.get_AbsoluteUri,
           Kind: Method,
           Name: get_AbsoluteUri,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.Uri.AbsoluteUri,
         Kind: Property,
@@ -3904,12 +3919,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.LocalPath,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_LocalPath,
           Id: M:System.Uri.get_LocalPath,
           Kind: Method,
           Name: get_LocalPath,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.Uri.LocalPath,
         Kind: Property,
@@ -3921,12 +3937,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.Authority,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_Authority,
           Id: M:System.Uri.get_Authority,
           Kind: Method,
           Name: get_Authority,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.Uri.Authority,
         Kind: Property,
@@ -3938,12 +3955,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.HostNameType,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_HostNameType,
           Id: M:System.Uri.get_HostNameType,
           Kind: Method,
           Name: get_HostNameType,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.UriHostNameType
         },
         Id: P:System.Uri.HostNameType,
         Kind: Property,
@@ -3955,12 +3973,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.IsDefaultPort,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_IsDefaultPort,
           Id: M:System.Uri.get_IsDefaultPort,
           Kind: Method,
           Name: get_IsDefaultPort,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Uri.IsDefaultPort,
         Kind: Property,
@@ -3972,12 +3991,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.IsFile,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_IsFile,
           Id: M:System.Uri.get_IsFile,
           Kind: Method,
           Name: get_IsFile,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Uri.IsFile,
         Kind: Property,
@@ -3989,12 +4009,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.IsLoopback,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_IsLoopback,
           Id: M:System.Uri.get_IsLoopback,
           Kind: Method,
           Name: get_IsLoopback,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Uri.IsLoopback,
         Kind: Property,
@@ -4006,12 +4027,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.PathAndQuery,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_PathAndQuery,
           Id: M:System.Uri.get_PathAndQuery,
           Kind: Method,
           Name: get_PathAndQuery,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.Uri.PathAndQuery,
         Kind: Property,
@@ -4023,12 +4045,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.Segments,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_Segments,
           Id: M:System.Uri.get_Segments,
           Kind: Method,
           Name: get_Segments,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String[]
         },
         Id: P:System.Uri.Segments,
         Kind: Property,
@@ -4040,12 +4063,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.IsUnc,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_IsUnc,
           Id: M:System.Uri.get_IsUnc,
           Kind: Method,
           Name: get_IsUnc,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Uri.IsUnc,
         Kind: Property,
@@ -4057,12 +4081,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.Host,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_Host,
           Id: M:System.Uri.get_Host,
           Kind: Method,
           Name: get_Host,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.Uri.Host,
         Kind: Property,
@@ -4074,12 +4099,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.Port,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_Port,
           Id: M:System.Uri.get_Port,
           Kind: Method,
           Name: get_Port,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Int32
         },
         Id: P:System.Uri.Port,
         Kind: Property,
@@ -4091,12 +4117,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.Query,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_Query,
           Id: M:System.Uri.get_Query,
           Kind: Method,
           Name: get_Query,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.Uri.Query,
         Kind: Property,
@@ -4108,12 +4135,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.Fragment,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_Fragment,
           Id: M:System.Uri.get_Fragment,
           Kind: Method,
           Name: get_Fragment,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.Uri.Fragment,
         Kind: Property,
@@ -4125,12 +4153,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.Scheme,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_Scheme,
           Id: M:System.Uri.get_Scheme,
           Kind: Method,
           Name: get_Scheme,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.Uri.Scheme,
         Kind: Property,
@@ -4142,12 +4171,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.OriginalString,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_OriginalString,
           Id: M:System.Uri.get_OriginalString,
           Kind: Method,
           Name: get_OriginalString,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.Uri.OriginalString,
         Kind: Property,
@@ -4159,12 +4189,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.DnsSafeHost,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_DnsSafeHost,
           Id: M:System.Uri.get_DnsSafeHost,
           Kind: Method,
           Name: get_DnsSafeHost,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.Uri.DnsSafeHost,
         Kind: Property,
@@ -4176,12 +4207,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.IdnHost,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_IdnHost,
           Id: M:System.Uri.get_IdnHost,
           Kind: Method,
           Name: get_IdnHost,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.Uri.IdnHost,
         Kind: Property,
@@ -4193,12 +4225,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.IsAbsoluteUri,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_IsAbsoluteUri,
           Id: M:System.Uri.get_IsAbsoluteUri,
           Kind: Method,
           Name: get_IsAbsoluteUri,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Uri.IsAbsoluteUri,
         Kind: Property,
@@ -4210,12 +4243,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.UserEscaped,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_UserEscaped,
           Id: M:System.Uri.get_UserEscaped,
           Kind: Method,
           Name: get_UserEscaped,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Uri.UserEscaped,
         Kind: Property,
@@ -4227,12 +4261,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.UserInfo,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.get_UserInfo,
           Id: M:System.Uri.get_UserInfo,
           Kind: Method,
           Name: get_UserInfo,
           ParentId: T:System.Uri,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.Uri.UserInfo,
         Kind: Property,
@@ -5461,12 +5496,13 @@
         Accessibility: Public,
         FullName: System.Private.Uri, Version=8.0.0.0, P:System.Uri.UriInfo.MoreInfo,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.UriInfo.get_MoreInfo,
           Id: M:System.Uri.UriInfo.get_MoreInfo,
           Kind: Method,
           Name: get_MoreInfo,
           ParentId: T:System.Uri.UriInfo,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Uri+MoreInfo
         },
         Id: P:System.Uri.UriInfo.MoreInfo,
         Kind: Property,

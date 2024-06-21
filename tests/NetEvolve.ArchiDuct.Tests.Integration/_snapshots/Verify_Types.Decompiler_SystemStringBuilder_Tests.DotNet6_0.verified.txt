@@ -4595,12 +4595,13 @@
         Accessibility: Public,
         FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Text.StringBuilder.Capacity,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Text.StringBuilder.get_Capacity,
           Id: M:System.Text.StringBuilder.get_Capacity,
           Kind: Method,
           Name: get_Capacity,
           ParentId: T:System.Text.StringBuilder,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Int32
         },
         Id: P:System.Text.StringBuilder.Capacity,
         Kind: Property,
@@ -4608,6 +4609,7 @@
         ParentId: T:System.Text.StringBuilder,
         ReturnTypeId: T:System.Int32,
         Setter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Text.StringBuilder.set_Capacity(System.Int32),
           Id: M:System.Text.StringBuilder.set_Capacity(System.Int32),
           Kind: Method,
@@ -4620,12 +4622,13 @@
         Accessibility: Public,
         FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Text.StringBuilder.MaxCapacity,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Text.StringBuilder.get_MaxCapacity,
           Id: M:System.Text.StringBuilder.get_MaxCapacity,
           Kind: Method,
           Name: get_MaxCapacity,
           ParentId: T:System.Text.StringBuilder,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Int32
         },
         Id: P:System.Text.StringBuilder.MaxCapacity,
         Kind: Property,
@@ -4637,12 +4640,13 @@
         Accessibility: Public,
         FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Text.StringBuilder.Length,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Text.StringBuilder.get_Length,
           Id: M:System.Text.StringBuilder.get_Length,
           Kind: Method,
           Name: get_Length,
           ParentId: T:System.Text.StringBuilder,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Int32
         },
         Id: P:System.Text.StringBuilder.Length,
         Kind: Property,
@@ -4650,6 +4654,7 @@
         ParentId: T:System.Text.StringBuilder,
         ReturnTypeId: T:System.Int32,
         Setter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Text.StringBuilder.set_Length(System.Int32),
           Id: M:System.Text.StringBuilder.set_Length(System.Int32),
           Kind: Method,
@@ -4670,12 +4675,13 @@
         ],
         FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Text.StringBuilder.Chars(System.Int32),
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Text.StringBuilder.get_Chars(System.Int32),
           Id: M:System.Text.StringBuilder.get_Chars(System.Int32),
           Kind: Method,
           Name: get_Chars,
           ParentId: T:System.Text.StringBuilder,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Char
         },
         Id: P:System.Text.StringBuilder.Chars(System.Int32),
         Kind: Indexer,
@@ -4693,6 +4699,7 @@
         ParentId: T:System.Text.StringBuilder,
         ReturnTypeId: T:System.Char,
         Setter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Text.StringBuilder.set_Chars(System.Int32,System.Char),
           Id: M:System.Text.StringBuilder.set_Chars(System.Int32,System.Char),
           Kind: Method,
@@ -4705,12 +4712,13 @@
         Accessibility: Private,
         FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Text.StringBuilder.RemainingCurrentChunk,
         Getter: {
+          Accessibility: Private,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Text.StringBuilder.get_RemainingCurrentChunk,
           Id: M:System.Text.StringBuilder.get_RemainingCurrentChunk,
           Kind: Method,
           Name: get_RemainingCurrentChunk,
           ParentId: T:System.Text.StringBuilder,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Span`1[[System.Char]]
         },
         Id: P:System.Text.StringBuilder.RemainingCurrentChunk,
         Kind: Property,
@@ -5618,12 +5626,13 @@
         Accessibility: Public,
         FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Text.StringBuilder.ChunkEnumerator.Current,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Text.StringBuilder.ChunkEnumerator.get_Current,
           Id: M:System.Text.StringBuilder.ChunkEnumerator.get_Current,
           Kind: Method,
           Name: get_Current,
           ParentId: T:System.Text.StringBuilder.ChunkEnumerator,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.ReadOnlyMemory`1[[System.Char]]
         },
         Id: P:System.Text.StringBuilder.ChunkEnumerator.Current,
         Kind: Property,
