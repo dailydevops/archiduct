@@ -9,8 +9,18 @@ using NetEvolve.ArchiDuct.Models.Abstractions;
 /// </summary>
 public class ModelProperty : ModelMemberBase
 {
+    /// <summary>
+    /// Gets the getter method.
+    /// </summary>
+    public ModelMethod? Getter { get; }
+
     /// <inheritdoc />
     public override ModelKind Kind => ModelKind.Property;
+
+    /// <summary>
+    /// Gets the setter method.
+    /// </summary>
+    public ModelMethod? Setter { get; }
 
     /// <summary>
     /// Gets the content from the xml &lt;value/&gt; tag.
@@ -19,5 +29,16 @@ public class ModelProperty : ModelMemberBase
 
     /// <inheritdoc />
     internal ModelProperty(IProperty property, ModelTypeBase parentEntity, XElement? documentation)
-        : base(property, parentEntity, documentation) { }
+        : base(property, parentEntity, documentation)
+    {
+        if (property.Getter is not null)
+        {
+            Getter = new ModelMethod(property.Getter, parentEntity, documentation);
+        }
+
+        if (property.Setter is not null)
+        {
+            Setter = new ModelMethod(property.Setter, parentEntity, documentation);
+        }
+    }
 }

@@ -273,6 +273,15 @@
         Accessibility: Public,
         FullId: T:System.Range, P:System.Range.Start,
         FullName: System.Range.Start,
+        Getter: {
+          FullId: T:System.Range, M:System.Range.get_Start,
+          FullName: System.Range.get_Start,
+          Id: M:System.Range.get_Start,
+          Kind: Method,
+          Name: get_Start,
+          ParentId: T:System.Range,
+          ReturnTypeId: T:System.Void
+        },
         Id: P:System.Range.Start,
         Kind: Property,
         Name: Start,
@@ -283,6 +292,15 @@
         Accessibility: Public,
         FullId: T:System.Range, P:System.Range.End,
         FullName: System.Range.End,
+        Getter: {
+          FullId: T:System.Range, M:System.Range.get_End,
+          FullName: System.Range.get_End,
+          Id: M:System.Range.get_End,
+          Kind: Method,
+          Name: get_End,
+          ParentId: T:System.Range,
+          ReturnTypeId: T:System.Void
+        },
         Id: P:System.Range.End,
         Kind: Property,
         Name: End,
@@ -293,6 +311,15 @@
         Accessibility: Public,
         FullId: T:System.Range, P:System.Range.All,
         FullName: System.Range.All,
+        Getter: {
+          FullId: T:System.Range, M:System.Range.get_All,
+          FullName: System.Range.get_All,
+          Id: M:System.Range.get_All,
+          Kind: Method,
+          Name: get_All,
+          ParentId: T:System.Range,
+          ReturnTypeId: T:System.Void
+        },
         Id: P:System.Range.All,
         Kind: Property,
         Modifiers: [

@@ -603,6 +603,15 @@
         Accessibility: Public,
         FullId: T:System.ArgumentException, P:System.ArgumentException.Message,
         FullName: System.ArgumentException.Message,
+        Getter: {
+          FullId: T:System.ArgumentException, M:System.ArgumentException.get_Message,
+          FullName: System.ArgumentException.get_Message,
+          Id: M:System.ArgumentException.get_Message,
+          Kind: Method,
+          Name: get_Message,
+          ParentId: T:System.ArgumentException,
+          ReturnTypeId: T:System.Void
+        },
         Id: P:System.ArgumentException.Message,
         Kind: Property,
         Modifiers: [
@@ -616,6 +625,15 @@
         Accessibility: Public,
         FullId: T:System.ArgumentException, P:System.ArgumentException.ParamName,
         FullName: System.ArgumentException.ParamName,
+        Getter: {
+          FullId: T:System.ArgumentException, M:System.ArgumentException.get_ParamName,
+          FullName: System.ArgumentException.get_ParamName,
+          Id: M:System.ArgumentException.get_ParamName,
+          Kind: Method,
+          Name: get_ParamName,
+          ParentId: T:System.ArgumentException,
+          ReturnTypeId: T:System.Void
+        },
         Id: P:System.ArgumentException.ParamName,
         Kind: Property,
         Modifiers: [
