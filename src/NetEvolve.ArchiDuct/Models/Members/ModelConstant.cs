@@ -10,7 +10,7 @@ using NetEvolve.ArchiDuct.Models.Abstractions;
 public sealed class ModelConstant : ModelMemberBase
 {
     /// <inheritdoc />
-    public override ModelKind Kind => ModelKind.Field;
+    public override ModelKind Kind => ModelKind.Constant;
 
     /// <inheritdoc />
     internal ModelConstant(IField field, ModelTypeBase parentEntity, XElement? documentation)
