@@ -134,7 +134,6 @@ internal static class ModelFactory
         model.Modifiers = MapModifiers(typeDefinition);
         model.Implementations = typeDefinition.GetAllImplementationIds();
         model.InheritedMembers = typeDefinition.GetAllInheritedMemberIds();
-        model.NamespaceId = parentEntity.Id;
         model.Attributes = MapAttributes(typeDefinition, resolver);
 
         return model;

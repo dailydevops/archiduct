@@ -87,6 +87,7 @@ public abstract class ModelTypeBase : ModelEntityBase
     {
         _members = new Dictionary<string, ModelMemberBase>(StringComparer.Ordinal);
 
+        NamespaceId = parentEntity.Id;
         IsNested = typeDefinition.FullTypeName.IsNested;
     }
 
