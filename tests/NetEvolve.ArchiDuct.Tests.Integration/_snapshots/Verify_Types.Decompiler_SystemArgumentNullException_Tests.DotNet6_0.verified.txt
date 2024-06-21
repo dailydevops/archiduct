@@ -1,5 +1,5 @@
 ﻿{
-  N:System, T:System.ArgumentNullException: {
+  System.Private.CoreLib, Version=6.0.0.0, T:System.ArgumentNullException: {
     Accessibility: Public,
     Attributes: [
       {
@@ -81,8 +81,7 @@
       T:System.Exception,
       T:System.Object
     ],
-    FullId: N:System, T:System.ArgumentNullException,
-    FullName: System.ArgumentNullException,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.ArgumentNullException,
     Id: T:System.ArgumentNullException,
     Implementations: [
       T:System.Runtime.Serialization.ISerializable
@@ -177,8 +176,7 @@
     Members: [
       {
         Accessibility: Public,
-        FullId: T:System.ArgumentNullException, M:System.ArgumentNullException.#ctor,
-        FullName: System.ArgumentNullException..ctor,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.#ctor,
         Id: M:System.ArgumentNullException.#ctor,
         Kind: Constructor,
         Name: .ctor,
@@ -192,8 +190,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.ArgumentNullException, M:System.ArgumentNullException.#ctor(System.String),
-        FullName: System.ArgumentNullException..ctor,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.#ctor(System.String),
         Id: M:System.ArgumentNullException.#ctor(System.String),
         Kind: Constructor,
         Name: .ctor,
@@ -205,8 +202,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.ArgumentNullException.#ctor(System.String), M:System.ArgumentNullException.#ctor(System.String).paramName,
-            FullName: System.ArgumentNullException..ctor.paramName,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.#ctor(System.String).paramName,
             Id: M:System.ArgumentNullException.#ctor(System.String).paramName,
             Kind: Parameter,
             Name: paramName,
@@ -218,8 +214,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.ArgumentNullException, M:System.ArgumentNullException.#ctor(System.String,System.Exception),
-        FullName: System.ArgumentNullException..ctor,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.#ctor(System.String,System.Exception),
         Id: M:System.ArgumentNullException.#ctor(System.String,System.Exception),
         Kind: Constructor,
         Name: .ctor,
@@ -231,8 +226,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.ArgumentNullException.#ctor(System.String,System.Exception), M:System.ArgumentNullException.#ctor(System.String,System.Exception).message,
-            FullName: System.ArgumentNullException..ctor.message,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.#ctor(System.String,System.Exception).message,
             Id: M:System.ArgumentNullException.#ctor(System.String,System.Exception).message,
             Kind: Parameter,
             Name: message,
@@ -240,8 +234,7 @@
             TypeId: T:System.String
           },
           {
-            FullId: M:System.ArgumentNullException.#ctor(System.String,System.Exception), M:System.ArgumentNullException.#ctor(System.String,System.Exception).innerException,
-            FullName: System.ArgumentNullException..ctor.innerException,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.#ctor(System.String,System.Exception).innerException,
             Id: M:System.ArgumentNullException.#ctor(System.String,System.Exception).innerException,
             Kind: Parameter,
             Name: innerException,
@@ -253,8 +246,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.ArgumentNullException, M:System.ArgumentNullException.#ctor(System.String,System.String),
-        FullName: System.ArgumentNullException..ctor,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.#ctor(System.String,System.String),
         Id: M:System.ArgumentNullException.#ctor(System.String,System.String),
         Kind: Constructor,
         Name: .ctor,
@@ -266,8 +258,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.ArgumentNullException.#ctor(System.String,System.String), M:System.ArgumentNullException.#ctor(System.String,System.String).paramName,
-            FullName: System.ArgumentNullException..ctor.paramName,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.#ctor(System.String,System.String).paramName,
             Id: M:System.ArgumentNullException.#ctor(System.String,System.String).paramName,
             Kind: Parameter,
             Name: paramName,
@@ -275,8 +266,7 @@
             TypeId: T:System.String
           },
           {
-            FullId: M:System.ArgumentNullException.#ctor(System.String,System.String), M:System.ArgumentNullException.#ctor(System.String,System.String).message,
-            FullName: System.ArgumentNullException..ctor.message,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.#ctor(System.String,System.String).message,
             Id: M:System.ArgumentNullException.#ctor(System.String,System.String).message,
             Kind: Parameter,
             Name: message,
@@ -288,8 +278,7 @@
       },
       {
         Accessibility: Protected,
-        FullId: T:System.ArgumentNullException, M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
-        FullName: System.ArgumentNullException..ctor,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         Id: M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         Kind: Constructor,
         Name: .ctor,
@@ -301,8 +290,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext), M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
-            FullName: System.ArgumentNullException..ctor.info,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
             Id: M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
             Kind: Parameter,
             Name: info,
@@ -310,8 +298,7 @@
             TypeId: T:System.Runtime.Serialization.SerializationInfo
           },
           {
-            FullId: M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext), M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
-            FullName: System.ArgumentNullException..ctor.context,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
             Id: M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
             Kind: Parameter,
             Name: context,
@@ -323,8 +310,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.ArgumentNullException, M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String),
-        FullName: System.ArgumentNullException.ThrowIfNull,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String),
         Id: M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String),
         Kind: Method,
         Modifiers: [
@@ -333,8 +319,7 @@
         Name: ThrowIfNull,
         Parameters: [
           {
-            FullId: M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String), M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String).argument,
-            FullName: System.ArgumentNullException.ThrowIfNull.argument,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String).argument,
             Id: M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String).argument,
             Kind: Parameter,
             Name: argument,
@@ -342,8 +327,7 @@
             TypeId: T:System.Object
           },
           {
-            FullId: M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String), M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String).paramName,
-            FullName: System.ArgumentNullException.ThrowIfNull.paramName,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String).paramName,
             Id: M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String).paramName,
             Kind: Parameter,
             Name: paramName,
@@ -365,8 +349,7 @@
             Name: DoesNotReturnAttribute
           }
         ],
-        FullId: T:System.ArgumentNullException, M:System.ArgumentNullException.Throw(System.String),
-        FullName: System.ArgumentNullException.Throw,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.Throw(System.String),
         Id: M:System.ArgumentNullException.Throw(System.String),
         Kind: Method,
         Modifiers: [
@@ -375,8 +358,7 @@
         Name: Throw,
         Parameters: [
           {
-            FullId: M:System.ArgumentNullException.Throw(System.String), M:System.ArgumentNullException.Throw(System.String).paramName,
-            FullName: System.ArgumentNullException.Throw.paramName,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentNullException.Throw(System.String).paramName,
             Id: M:System.ArgumentNullException.Throw(System.String).paramName,
             Kind: Parameter,
             Name: paramName,

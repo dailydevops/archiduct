@@ -22,7 +22,13 @@ public sealed class ModelNamespace : ModelEntityBase
     internal static readonly char[] _segmentSeparator = ['.'];
 
     internal ModelNamespace(string fullName, ModelAssembly parentEntity, XElement? documentation)
-        : base($"N:{fullName}", GetLastSegment(fullName), fullName, parentEntity, documentation) { }
+        : base(
+            $"N:{fullName}",
+            GetLastSegment(fullName),
+            $"{parentEntity.FullName}, {fullName}",
+            parentEntity,
+            documentation
+        ) { }
 
     private static string GetLastSegment(string fullName) =>
         string.IsNullOrWhiteSpace(fullName)

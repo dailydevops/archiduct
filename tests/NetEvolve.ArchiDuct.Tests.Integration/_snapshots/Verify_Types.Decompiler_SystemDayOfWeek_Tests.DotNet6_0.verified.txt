@@ -1,5 +1,5 @@
 ﻿{
-  N:System, T:System.DayOfWeek: {
+  System.Private.CoreLib, Version=6.0.0.0, T:System.DayOfWeek: {
     Accessibility: Public,
     Attributes: [
       {
@@ -56,16 +56,14 @@
       T:System.ValueType,
       T:System.Object
     ],
-    FullId: N:System, T:System.DayOfWeek,
-    FullName: System.DayOfWeek,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.DayOfWeek,
     Id: T:System.DayOfWeek,
     IsNested: false,
     Kind: Enum,
     Members: [
       {
         Accessibility: Public,
-        FullId: T:System.DayOfWeek, F:System.DayOfWeek.Sunday,
-        FullName: System.DayOfWeek.Sunday,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Sunday,
         Id: F:System.DayOfWeek.Sunday,
         Kind: EnumMember,
         Name: Sunday,
@@ -75,8 +73,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.DayOfWeek, F:System.DayOfWeek.Monday,
-        FullName: System.DayOfWeek.Monday,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Monday,
         Id: F:System.DayOfWeek.Monday,
         Kind: EnumMember,
         Name: Monday,
@@ -86,8 +83,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.DayOfWeek, F:System.DayOfWeek.Tuesday,
-        FullName: System.DayOfWeek.Tuesday,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Tuesday,
         Id: F:System.DayOfWeek.Tuesday,
         Kind: EnumMember,
         Name: Tuesday,
@@ -97,8 +93,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.DayOfWeek, F:System.DayOfWeek.Wednesday,
-        FullName: System.DayOfWeek.Wednesday,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Wednesday,
         Id: F:System.DayOfWeek.Wednesday,
         Kind: EnumMember,
         Name: Wednesday,
@@ -108,8 +103,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.DayOfWeek, F:System.DayOfWeek.Thursday,
-        FullName: System.DayOfWeek.Thursday,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Thursday,
         Id: F:System.DayOfWeek.Thursday,
         Kind: EnumMember,
         Name: Thursday,
@@ -119,8 +113,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.DayOfWeek, F:System.DayOfWeek.Friday,
-        FullName: System.DayOfWeek.Friday,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Friday,
         Id: F:System.DayOfWeek.Friday,
         Kind: EnumMember,
         Name: Friday,
@@ -130,8 +123,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.DayOfWeek, F:System.DayOfWeek.Saturday,
-        FullName: System.DayOfWeek.Saturday,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Saturday,
         Id: F:System.DayOfWeek.Saturday,
         Kind: EnumMember,
         Name: Saturday,
@@ -141,8 +133,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.DayOfWeek, M:System.DayOfWeek.#ctor,
-        FullName: System.DayOfWeek..ctor,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.DayOfWeek.#ctor,
         Id: M:System.DayOfWeek.#ctor,
         Kind: Constructor,
         Name: .ctor,

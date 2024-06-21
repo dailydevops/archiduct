@@ -16,11 +16,12 @@ internal static class ArchitectureExtensions
         Func<TSource, TKey> keySelector,
         IEqualityComparer<TKey>? comparer
     )
-        where TKey : notnull => source.
+        where TKey : notnull =>
+        source.DistinctBy(keySelector)
 #if NET8_0_OR_GREATER
-        ToFrozenDictionary
+        .ToFrozenDictionary
 #else
-        ToDictionary
+        .ToDictionary
 #endif
         (keySelector, comparer);
 }

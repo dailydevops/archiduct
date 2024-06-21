@@ -1,5 +1,5 @@
 ﻿{
-  N:System, T:System.Action`3: {
+  System.Private.CoreLib, Version=8.0.0.0, T:System.Action`3: {
     Accessibility: Public,
     Attributes: [
       {
@@ -56,8 +56,7 @@
       T:System.Delegate,
       T:System.Object
     ],
-    FullId: N:System, T:System.Action`3,
-    FullName: System.Action,
+    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Action`3,
     Id: T:System.Action`3,
     IsNested: false,
     Kind: Delegate,
@@ -68,8 +67,7 @@
     NamespaceId: N:System,
     Parameters: [
       {
-        FullId: T:System.Action`3, T:System.Action`3.arg1,
-        FullName: System.Action.arg1,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Action`3.arg1,
         Id: T:System.Action`3.arg1,
         Kind: Parameter,
         Name: arg1,
@@ -77,8 +75,7 @@
         TypeId: T:System.Action`3.T1
       },
       {
-        FullId: T:System.Action`3, T:System.Action`3.arg2,
-        FullName: System.Action.arg2,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Action`3.arg2,
         Id: T:System.Action`3.arg2,
         Kind: Parameter,
         Name: arg2,
@@ -86,8 +83,7 @@
         TypeId: T:System.Action`3.T2
       },
       {
-        FullId: T:System.Action`3, T:System.Action`3.arg3,
-        FullName: System.Action.arg3,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Action`3.arg3,
         Id: T:System.Action`3.arg3,
         Kind: Parameter,
         Name: arg3,
@@ -99,24 +95,21 @@
     ReturnTypeId: T:System.Void,
     TypeParameters: [
       {
-        FullId: T:System.Action`3, T:System.Action`3.T1,
-        FullName: System.Action.T1,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Action`3.T1,
         Id: T:System.Action`3.T1,
         Kind: TypeParameter,
         Name: T1,
         ParentId: T:System.Action`3
       },
       {
-        FullId: T:System.Action`3, T:System.Action`3.T2,
-        FullName: System.Action.T2,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Action`3.T2,
         Id: T:System.Action`3.T2,
         Kind: TypeParameter,
         Name: T2,
         ParentId: T:System.Action`3
       },
       {
-        FullId: T:System.Action`3, T:System.Action`3.T3,
-        FullName: System.Action.T3,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Action`3.T3,
         Id: T:System.Action`3.T3,
         Kind: TypeParameter,
         Name: T3,

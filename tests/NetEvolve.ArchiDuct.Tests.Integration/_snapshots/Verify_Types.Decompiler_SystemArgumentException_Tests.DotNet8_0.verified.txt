@@ -1,5 +1,5 @@
 ﻿{
-  N:System, T:System.ArgumentException: {
+  System.Private.CoreLib, Version=8.0.0.0, T:System.ArgumentException: {
     Accessibility: Public,
     Attributes: [
       {
@@ -68,8 +68,7 @@
       T:System.Exception,
       T:System.Object
     ],
-    FullId: N:System, T:System.ArgumentException,
-    FullName: System.ArgumentException,
+    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.ArgumentException,
     Id: T:System.ArgumentException,
     Implementations: [
       T:System.Runtime.Serialization.ISerializable
@@ -153,8 +152,7 @@
     Members: [
       {
         Accessibility: Private,
-        FullId: T:System.ArgumentException, F:System.ArgumentException._paramName,
-        FullName: System.ArgumentException._paramName,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, F:System.ArgumentException._paramName,
         Id: F:System.ArgumentException._paramName,
         Kind: Field,
         Modifiers: [
@@ -166,8 +164,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor,
-        FullName: System.ArgumentException..ctor,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.#ctor,
         Id: M:System.ArgumentException.#ctor,
         Kind: Constructor,
         Name: .ctor,
@@ -182,8 +179,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.String),
-        FullName: System.ArgumentException..ctor,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.#ctor(System.String),
         Id: M:System.ArgumentException.#ctor(System.String),
         Kind: Constructor,
         Name: .ctor,
@@ -196,8 +192,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.ArgumentException.#ctor(System.String), M:System.ArgumentException.#ctor(System.String).message,
-            FullName: System.ArgumentException..ctor.message,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.#ctor(System.String).message,
             Id: M:System.ArgumentException.#ctor(System.String).message,
             Kind: Parameter,
             Name: message,
@@ -209,8 +204,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.String,System.Exception),
-        FullName: System.ArgumentException..ctor,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.#ctor(System.String,System.Exception),
         Id: M:System.ArgumentException.#ctor(System.String,System.Exception),
         Kind: Constructor,
         Name: .ctor,
@@ -223,8 +217,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.ArgumentException.#ctor(System.String,System.Exception), M:System.ArgumentException.#ctor(System.String,System.Exception).message,
-            FullName: System.ArgumentException..ctor.message,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.#ctor(System.String,System.Exception).message,
             Id: M:System.ArgumentException.#ctor(System.String,System.Exception).message,
             Kind: Parameter,
             Name: message,
@@ -232,8 +225,7 @@
             TypeId: T:System.String
           },
           {
-            FullId: M:System.ArgumentException.#ctor(System.String,System.Exception), M:System.ArgumentException.#ctor(System.String,System.Exception).innerException,
-            FullName: System.ArgumentException..ctor.innerException,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.#ctor(System.String,System.Exception).innerException,
             Id: M:System.ArgumentException.#ctor(System.String,System.Exception).innerException,
             Kind: Parameter,
             Name: innerException,
@@ -245,8 +237,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
-        FullName: System.ArgumentException..ctor,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
         Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
         Kind: Constructor,
         Name: .ctor,
@@ -259,8 +250,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception), M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).message,
-            FullName: System.ArgumentException..ctor.message,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).message,
             Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).message,
             Kind: Parameter,
             Name: message,
@@ -268,8 +258,7 @@
             TypeId: T:System.String
           },
           {
-            FullId: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception), M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).paramName,
-            FullName: System.ArgumentException..ctor.paramName,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).paramName,
             Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).paramName,
             Kind: Parameter,
             Name: paramName,
@@ -277,8 +266,7 @@
             TypeId: T:System.String
           },
           {
-            FullId: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception), M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).innerException,
-            FullName: System.ArgumentException..ctor.innerException,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).innerException,
             Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).innerException,
             Kind: Parameter,
             Name: innerException,
@@ -290,8 +278,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.String,System.String),
-        FullName: System.ArgumentException..ctor,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.#ctor(System.String,System.String),
         Id: M:System.ArgumentException.#ctor(System.String,System.String),
         Kind: Constructor,
         Name: .ctor,
@@ -304,8 +291,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.ArgumentException.#ctor(System.String,System.String), M:System.ArgumentException.#ctor(System.String,System.String).message,
-            FullName: System.ArgumentException..ctor.message,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.#ctor(System.String,System.String).message,
             Id: M:System.ArgumentException.#ctor(System.String,System.String).message,
             Kind: Parameter,
             Name: message,
@@ -313,8 +299,7 @@
             TypeId: T:System.String
           },
           {
-            FullId: M:System.ArgumentException.#ctor(System.String,System.String), M:System.ArgumentException.#ctor(System.String,System.String).paramName,
-            FullName: System.ArgumentException..ctor.paramName,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.#ctor(System.String,System.String).paramName,
             Id: M:System.ArgumentException.#ctor(System.String,System.String).paramName,
             Kind: Parameter,
             Name: paramName,
@@ -340,8 +325,7 @@
             Name: EditorBrowsableAttribute
           }
         ],
-        FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
-        FullName: System.ArgumentException..ctor,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         Id: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         Kind: Constructor,
         Name: .ctor,
@@ -354,8 +338,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext), M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
-            FullName: System.ArgumentException..ctor.info,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
             Id: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
             Kind: Parameter,
             Name: info,
@@ -363,8 +346,7 @@
             TypeId: T:System.Runtime.Serialization.SerializationInfo
           },
           {
-            FullId: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext), M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
-            FullName: System.ArgumentException..ctor.context,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
             Id: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
             Kind: Parameter,
             Name: context,
@@ -402,8 +384,7 @@
             Name: EditorBrowsableAttribute
           }
         ],
-        FullId: T:System.ArgumentException, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
-        FullName: System.ArgumentException.GetObjectData,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         Id: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         Kind: Method,
         Modifiers: [
@@ -412,8 +393,7 @@
         Name: GetObjectData,
         Parameters: [
           {
-            FullId: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext), M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
-            FullName: System.ArgumentException.GetObjectData.info,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
             Id: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
             Kind: Parameter,
             Name: info,
@@ -421,8 +401,7 @@
             TypeId: T:System.Runtime.Serialization.SerializationInfo
           },
           {
-            FullId: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext), M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
-            FullName: System.ArgumentException.GetObjectData.context,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
             Id: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
             Kind: Parameter,
             Name: context,
@@ -435,8 +414,7 @@
       },
       {
         Accessibility: Private,
-        FullId: T:System.ArgumentException, M:System.ArgumentException.SetMessageField,
-        FullName: System.ArgumentException.SetMessageField,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.SetMessageField,
         Id: M:System.ArgumentException.SetMessageField,
         Kind: Method,
         Name: SetMessageField,
@@ -445,8 +423,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.ArgumentException, M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String),
-        FullName: System.ArgumentException.ThrowIfNullOrEmpty,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String),
         Id: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String),
         Kind: Method,
         Modifiers: [
@@ -455,8 +432,7 @@
         Name: ThrowIfNullOrEmpty,
         Parameters: [
           {
-            FullId: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String), M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String).argument,
-            FullName: System.ArgumentException.ThrowIfNullOrEmpty.argument,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String).argument,
             Id: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String).argument,
             Kind: Parameter,
             Name: argument,
@@ -464,8 +440,7 @@
             TypeId: T:System.String
           },
           {
-            FullId: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String), M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String).paramName,
-            FullName: System.ArgumentException.ThrowIfNullOrEmpty.paramName,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String).paramName,
             Id: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String).paramName,
             Kind: Parameter,
             Name: paramName,
@@ -479,8 +454,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.ArgumentException, M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String),
-        FullName: System.ArgumentException.ThrowIfNullOrWhiteSpace,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String),
         Id: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String),
         Kind: Method,
         Modifiers: [
@@ -489,8 +463,7 @@
         Name: ThrowIfNullOrWhiteSpace,
         Parameters: [
           {
-            FullId: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String), M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String).argument,
-            FullName: System.ArgumentException.ThrowIfNullOrWhiteSpace.argument,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String).argument,
             Id: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String).argument,
             Kind: Parameter,
             Name: argument,
@@ -498,8 +471,7 @@
             TypeId: T:System.String
           },
           {
-            FullId: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String), M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String).paramName,
-            FullName: System.ArgumentException.ThrowIfNullOrWhiteSpace.paramName,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String).paramName,
             Id: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String).paramName,
             Kind: Parameter,
             Name: paramName,
@@ -521,8 +493,7 @@
             Name: DoesNotReturnAttribute
           }
         ],
-        FullId: T:System.ArgumentException, M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String),
-        FullName: System.ArgumentException.ThrowNullOrEmptyException,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String),
         Id: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String),
         Kind: Method,
         Modifiers: [
@@ -531,8 +502,7 @@
         Name: ThrowNullOrEmptyException,
         Parameters: [
           {
-            FullId: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String), M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String).argument,
-            FullName: System.ArgumentException.ThrowNullOrEmptyException.argument,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String).argument,
             Id: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String).argument,
             Kind: Parameter,
             Name: argument,
@@ -540,8 +510,7 @@
             TypeId: T:System.String
           },
           {
-            FullId: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String), M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String).paramName,
-            FullName: System.ArgumentException.ThrowNullOrEmptyException.paramName,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String).paramName,
             Id: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String).paramName,
             Kind: Parameter,
             Name: paramName,
@@ -562,8 +531,7 @@
             Name: DoesNotReturnAttribute
           }
         ],
-        FullId: T:System.ArgumentException, M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String),
-        FullName: System.ArgumentException.ThrowNullOrWhiteSpaceException,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String),
         Id: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String),
         Kind: Method,
         Modifiers: [
@@ -572,8 +540,7 @@
         Name: ThrowNullOrWhiteSpaceException,
         Parameters: [
           {
-            FullId: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String), M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String).argument,
-            FullName: System.ArgumentException.ThrowNullOrWhiteSpaceException.argument,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String).argument,
             Id: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String).argument,
             Kind: Parameter,
             Name: argument,
@@ -581,8 +548,7 @@
             TypeId: T:System.String
           },
           {
-            FullId: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String), M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String).paramName,
-            FullName: System.ArgumentException.ThrowNullOrWhiteSpaceException.paramName,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String).paramName,
             Id: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String).paramName,
             Kind: Parameter,
             Name: paramName,
@@ -595,11 +561,9 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.ArgumentException, P:System.ArgumentException.Message,
-        FullName: System.ArgumentException.Message,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.ArgumentException.Message,
         Getter: {
-          FullId: T:System.ArgumentException, M:System.ArgumentException.get_Message,
-          FullName: System.ArgumentException.get_Message,
+          FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.get_Message,
           Id: M:System.ArgumentException.get_Message,
           Kind: Method,
           Name: get_Message,
@@ -617,11 +581,9 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.ArgumentException, P:System.ArgumentException.ParamName,
-        FullName: System.ArgumentException.ParamName,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.ArgumentException.ParamName,
         Getter: {
-          FullId: T:System.ArgumentException, M:System.ArgumentException.get_ParamName,
-          FullName: System.ArgumentException.get_ParamName,
+          FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.get_ParamName,
           Id: M:System.ArgumentException.get_ParamName,
           Kind: Method,
           Name: get_ParamName,

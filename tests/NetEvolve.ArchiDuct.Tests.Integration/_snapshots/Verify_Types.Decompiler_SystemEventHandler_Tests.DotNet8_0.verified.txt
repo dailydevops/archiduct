@@ -1,5 +1,5 @@
 ﻿{
-  N:System, T:System.EventHandler: {
+  System.Private.CoreLib, Version=8.0.0.0, T:System.EventHandler: {
     Accessibility: Public,
     Attributes: [
       {
@@ -56,8 +56,7 @@
       T:System.Delegate,
       T:System.Object
     ],
-    FullId: N:System, T:System.EventHandler,
-    FullName: System.EventHandler,
+    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.EventHandler,
     Id: T:System.EventHandler,
     IsNested: false,
     Kind: Delegate,
@@ -68,8 +67,7 @@
     NamespaceId: N:System,
     Parameters: [
       {
-        FullId: T:System.EventHandler, T:System.EventHandler.sender,
-        FullName: System.EventHandler.sender,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.EventHandler.sender,
         Id: T:System.EventHandler.sender,
         Kind: Parameter,
         Name: sender,
@@ -77,8 +75,7 @@
         TypeId: T:System.Object
       },
       {
-        FullId: T:System.EventHandler, T:System.EventHandler.e,
-        FullName: System.EventHandler.e,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.EventHandler.e,
         Id: T:System.EventHandler.e,
         Kind: Parameter,
         Name: e,
