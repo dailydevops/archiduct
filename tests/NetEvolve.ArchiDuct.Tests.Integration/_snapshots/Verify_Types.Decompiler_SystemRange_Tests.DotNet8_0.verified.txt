@@ -280,12 +280,13 @@
         Accessibility: Public,
         FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.Range.Start,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.get_Start,
           Id: M:System.Range.get_Start,
           Kind: Method,
           Name: get_Start,
           ParentId: T:System.Range,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Index
         },
         Id: P:System.Range.Start,
         Kind: Property,
@@ -297,12 +298,13 @@
         Accessibility: Public,
         FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.Range.End,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.get_End,
           Id: M:System.Range.get_End,
           Kind: Method,
           Name: get_End,
           ParentId: T:System.Range,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Index
         },
         Id: P:System.Range.End,
         Kind: Property,
@@ -314,12 +316,13 @@
         Accessibility: Public,
         FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.Range.All,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.get_All,
           Id: M:System.Range.get_All,
           Kind: Method,
           Name: get_All,
           ParentId: T:System.Range,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Range
         },
         Id: P:System.Range.All,
         Kind: Property,

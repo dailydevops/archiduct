@@ -705,12 +705,13 @@
         Accessibility: Public,
         FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Memory`1.Empty,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Memory`1.get_Empty,
           Id: M:System.Memory`1.get_Empty,
           Kind: Method,
           Name: get_Empty,
           ParentId: T:System.Memory`1,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Memory`1[[`0]]
         },
         Id: P:System.Memory`1.Empty,
         Kind: Property,
@@ -725,12 +726,13 @@
         Accessibility: Public,
         FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Memory`1.Length,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Memory`1.get_Length,
           Id: M:System.Memory`1.get_Length,
           Kind: Method,
           Name: get_Length,
           ParentId: T:System.Memory`1,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Int32
         },
         Id: P:System.Memory`1.Length,
         Kind: Property,
@@ -742,12 +744,13 @@
         Accessibility: Public,
         FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Memory`1.IsEmpty,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Memory`1.get_IsEmpty,
           Id: M:System.Memory`1.get_IsEmpty,
           Kind: Method,
           Name: get_IsEmpty,
           ParentId: T:System.Memory`1,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Memory`1.IsEmpty,
         Kind: Property,
@@ -759,12 +762,13 @@
         Accessibility: Public,
         FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Memory`1.Span,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Memory`1.get_Span,
           Id: M:System.Memory`1.get_Span,
           Kind: Method,
           Name: get_Span,
           ParentId: T:System.Memory`1,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Span`1[[`0]]
         },
         Id: P:System.Memory`1.Span,
         Kind: Property,

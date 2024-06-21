@@ -201,9 +201,8 @@ internal sealed partial class Decompiler : IDisposable
             _resolver
         );
         MapModelMemberParameters(member, describedMember);
-
-        // TODO: Describe Member Accessor - event add, invoke or remove
-        // TODO: Describe Member Accessor - property getter or setter
+        //TODO: Map TypeParameters for methods and indexers
+        //TODO: ReturnAttributes
 
         parentModel.AddMember(describedMember);
     }

@@ -239,12 +239,13 @@
         Accessibility: Public,
         FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.AttributeUsageAttribute.ValidOn,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.AttributeUsageAttribute.get_ValidOn,
           Id: M:System.AttributeUsageAttribute.get_ValidOn,
           Kind: Method,
           Name: get_ValidOn,
           ParentId: T:System.AttributeUsageAttribute,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.AttributeTargets
         },
         Id: P:System.AttributeUsageAttribute.ValidOn,
         Kind: Property,
@@ -256,12 +257,13 @@
         Accessibility: Public,
         FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.AttributeUsageAttribute.AllowMultiple,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.AttributeUsageAttribute.get_AllowMultiple,
           Id: M:System.AttributeUsageAttribute.get_AllowMultiple,
           Kind: Method,
           Name: get_AllowMultiple,
           ParentId: T:System.AttributeUsageAttribute,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.AttributeUsageAttribute.AllowMultiple,
         Kind: Property,
@@ -269,6 +271,7 @@
         ParentId: T:System.AttributeUsageAttribute,
         ReturnTypeId: T:System.Boolean,
         Setter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.AttributeUsageAttribute.set_AllowMultiple(System.Boolean),
           Id: M:System.AttributeUsageAttribute.set_AllowMultiple(System.Boolean),
           Kind: Method,
@@ -281,12 +284,13 @@
         Accessibility: Public,
         FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.AttributeUsageAttribute.Inherited,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.AttributeUsageAttribute.get_Inherited,
           Id: M:System.AttributeUsageAttribute.get_Inherited,
           Kind: Method,
           Name: get_Inherited,
           ParentId: T:System.AttributeUsageAttribute,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.AttributeUsageAttribute.Inherited,
         Kind: Property,
@@ -294,6 +298,7 @@
         ParentId: T:System.AttributeUsageAttribute,
         ReturnTypeId: T:System.Boolean,
         Setter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.AttributeUsageAttribute.set_Inherited(System.Boolean),
           Id: M:System.AttributeUsageAttribute.set_Inherited(System.Boolean),
           Kind: Method,

@@ -99,10 +99,6 @@ internal static class ModelFactory
             IEvent @event => new ModelEvent(@event, parentModel, documentation),
             _ => throw new InvalidOperationException()
         };
-
-        model.Accessibility = MapAccessibility(member);
-
-        model.ReturnTypeId = GetReturnTypeId(member);
         model.Modifiers = MapModifiers(member);
         model.Attributes = MapAttributes(member, resolver);
 
@@ -137,25 +133,6 @@ internal static class ModelFactory
         model.Attributes = MapAttributes(typeDefinition, resolver);
 
         return model;
-    }
-
-    private static ModelAccessibility MapAccessibility(IMember member)
-    {
-        if (member.IsExplicitInterfaceImplementation)
-        {
-            return ModelAccessibility.None;
-        }
-
-        return member.Accessibility switch
-        {
-            Public => ModelAccessibility.Public,
-            ProtectedAndInternal => ModelAccessibility.PrivateProtected,
-            ProtectedOrInternal => ModelAccessibility.ProtectedInternal,
-            Protected => ModelAccessibility.Protected,
-            Internal => ModelAccessibility.Internal,
-            Private => ModelAccessibility.Private,
-            _ => ModelAccessibility.Internal,
-        };
     }
 
     private static ModelAccessibility MapAccessibility(ITypeDefinition typeDefinition)

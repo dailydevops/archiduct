@@ -563,12 +563,13 @@
         Accessibility: Public,
         FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.ArgumentException.Message,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.get_Message,
           Id: M:System.ArgumentException.get_Message,
           Kind: Method,
           Name: get_Message,
           ParentId: T:System.ArgumentException,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.ArgumentException.Message,
         Kind: Property,
@@ -583,12 +584,13 @@
         Accessibility: Public,
         FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.ArgumentException.ParamName,
         Getter: {
+          Accessibility: Public,
           FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.ArgumentException.get_ParamName,
           Id: M:System.ArgumentException.get_ParamName,
           Kind: Method,
           Name: get_ParamName,
           ParentId: T:System.ArgumentException,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.ArgumentException.ParamName,
         Kind: Property,

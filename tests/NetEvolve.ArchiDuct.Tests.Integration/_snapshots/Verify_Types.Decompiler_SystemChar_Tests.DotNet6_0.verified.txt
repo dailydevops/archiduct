@@ -4097,12 +4097,13 @@
         Accessibility: Private,
         FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Char.Latin1CharInfo,
         Getter: {
+          Accessibility: Private,
           FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Char.get_Latin1CharInfo,
           Id: M:System.Char.get_Latin1CharInfo,
           Kind: Method,
           Name: get_Latin1CharInfo,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.ReadOnlySpan`1[[System.Byte]]
         },
         Id: P:System.Char.Latin1CharInfo,
         Kind: Property,
@@ -4129,7 +4130,7 @@
           Kind: Method,
           Name: System.IAdditiveIdentity<System.Char,System.Char>.get_AdditiveIdentity,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Char
         },
         Id: P:System.Char.System#IAdditiveIdentity{System#Char,System#Char}#AdditiveIdentity,
         Kind: ExplicitProperty,
@@ -4156,7 +4157,7 @@
           Kind: Method,
           Name: System.IMinMaxValue<System.Char>.get_MinValue,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Char
         },
         Id: P:System.Char.System#IMinMaxValue{System#Char}#MinValue,
         Kind: ExplicitProperty,
@@ -4183,7 +4184,7 @@
           Kind: Method,
           Name: System.IMinMaxValue<System.Char>.get_MaxValue,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Char
         },
         Id: P:System.Char.System#IMinMaxValue{System#Char}#MaxValue,
         Kind: ExplicitProperty,
@@ -4210,7 +4211,7 @@
           Kind: Method,
           Name: System.IMultiplicativeIdentity<System.Char,System.Char>.get_MultiplicativeIdentity,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Char
         },
         Id: P:System.Char.System#IMultiplicativeIdentity{System#Char,System#Char}#MultiplicativeIdentity,
         Kind: ExplicitProperty,
@@ -4237,7 +4238,7 @@
           Kind: Method,
           Name: System.INumber<System.Char>.get_One,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Char
         },
         Id: P:System.Char.System#INumber{System#Char}#One,
         Kind: ExplicitProperty,
@@ -4264,7 +4265,7 @@
           Kind: Method,
           Name: System.INumber<System.Char>.get_Zero,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Char
         },
         Id: P:System.Char.System#INumber{System#Char}#Zero,
         Kind: ExplicitProperty,
