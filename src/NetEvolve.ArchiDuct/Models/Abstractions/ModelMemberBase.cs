@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Xml.Linq;
 using ICSharpCode.Decompiler.Documentation;
 using ICSharpCode.Decompiler.TypeSystem;
+using NetEvolve.ArchiDuct.Extensions;
 
 /// <summary>
 /// Describes a member implementation. Could be a constructor, destructor, enum member, event, field, indexer, method, operator or property.
@@ -27,5 +28,6 @@ public abstract class ModelMemberBase : ModelEntityBase
 
     /// <inheritdoc />
     private protected ModelMemberBase(IMember member, ModelTypeBase parent, XElement? documentation)
-        : base(member.GetIdString(), member.Name, member.FullName, parent, documentation) { }
+        : base(member.GetIdString(), member.Name, member.GetQualifiedName(), parent, documentation)
+    { }
 }

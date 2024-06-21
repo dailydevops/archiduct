@@ -1,5 +1,5 @@
 ﻿{
-  N:System, T:System.IDisposable: {
+  System.Private.CoreLib, Version=6.0.0.0, T:System.IDisposable: {
     Accessibility: Public,
     Attributes: [
       {
@@ -27,16 +27,14 @@
         Name: TypeForwardedFromAttribute
       }
     ],
-    FullId: N:System, T:System.IDisposable,
-    FullName: System.IDisposable,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.IDisposable,
     Id: T:System.IDisposable,
     IsNested: false,
     Kind: Interface,
     Members: [
       {
         Accessibility: Public,
-        FullId: T:System.IDisposable, M:System.IDisposable.Dispose,
-        FullName: System.IDisposable.Dispose,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.IDisposable.Dispose,
         Id: M:System.IDisposable.Dispose,
         Kind: Method,
         Name: Dispose,

@@ -1,6 +1,7 @@
 ﻿namespace NetEvolve.ArchiDuct.Models.Members;
 
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using ICSharpCode.Decompiler.TypeSystem;
 using NetEvolve.ArchiDuct.Internals;
 using NetEvolve.ArchiDuct.Models.Abstractions;

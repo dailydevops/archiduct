@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Xml.Linq;
 using ICSharpCode.Decompiler.Documentation;
 using ICSharpCode.Decompiler.TypeSystem;
+using NetEvolve.ArchiDuct.Extensions;
 using NetEvolve.ArchiDuct.Models.Members;
 
 /// <summary>
@@ -80,7 +81,7 @@ public abstract class ModelTypeBase : ModelEntityBase
             typeDefinition?.GetIdString()
                 ?? throw new ArgumentNullException(nameof(typeDefinition)),
             typeDefinition.Name,
-            typeDefinition.FullName,
+            typeDefinition.GetQualifiedName(),
             parentEntity,
             documentation
         )

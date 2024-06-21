@@ -1,5 +1,5 @@
 ﻿{
-  N:System, T:System.Memory`1: {
+  System.Private.CoreLib, Version=8.0.0.0, T:System.Memory`1: {
     Accessibility: Public,
     Attributes: [
       {
@@ -55,8 +55,7 @@
       T:System.ValueType,
       T:System.Object
     ],
-    FullId: N:System, T:System.Memory`1,
-    FullName: System.Memory,
+    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Memory`1,
     Id: T:System.Memory`1,
     Implementations: [
       T:System.IEquatable`1
@@ -81,8 +80,7 @@
     Members: [
       {
         Accessibility: Private,
-        FullId: T:System.Memory`1, F:System.Memory`1._object,
-        FullName: System.Memory._object,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, F:System.Memory`1._object,
         Id: F:System.Memory`1._object,
         Kind: Field,
         Modifiers: [
@@ -94,8 +92,7 @@
       },
       {
         Accessibility: Private,
-        FullId: T:System.Memory`1, F:System.Memory`1._index,
-        FullName: System.Memory._index,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, F:System.Memory`1._index,
         Id: F:System.Memory`1._index,
         Kind: Field,
         Modifiers: [
@@ -107,8 +104,7 @@
       },
       {
         Accessibility: Private,
-        FullId: T:System.Memory`1, F:System.Memory`1._length,
-        FullName: System.Memory._length,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, F:System.Memory`1._length,
         Id: F:System.Memory`1._length,
         Kind: Field,
         Modifiers: [
@@ -128,8 +124,7 @@
             Name: MethodImplAttribute
           }
         ],
-        FullId: T:System.Memory`1, M:System.Memory`1.#ctor(`0[]),
-        FullName: System.Memory..ctor,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(`0[]),
         Id: M:System.Memory`1.#ctor(`0[]),
         Kind: Constructor,
         Name: .ctor,
@@ -143,8 +138,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.Memory`1.#ctor(`0[]), M:System.Memory`1.#ctor(`0[]).array,
-            FullName: System.Memory..ctor.array,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(`0[]).array,
             Id: M:System.Memory`1.#ctor(`0[]).array,
             Kind: Parameter,
             Name: array,
@@ -164,8 +158,7 @@
             Name: MethodImplAttribute
           }
         ],
-        FullId: T:System.Memory`1, M:System.Memory`1.#ctor(`0[],System.Int32),
-        FullName: System.Memory..ctor,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(`0[],System.Int32),
         Id: M:System.Memory`1.#ctor(`0[],System.Int32),
         Kind: Constructor,
         Name: .ctor,
@@ -179,8 +172,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.Memory`1.#ctor(`0[],System.Int32), M:System.Memory`1.#ctor(`0[],System.Int32).array,
-            FullName: System.Memory..ctor.array,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(`0[],System.Int32).array,
             Id: M:System.Memory`1.#ctor(`0[],System.Int32).array,
             Kind: Parameter,
             Name: array,
@@ -188,8 +180,7 @@
             TypeId: T:`0[]
           },
           {
-            FullId: M:System.Memory`1.#ctor(`0[],System.Int32), M:System.Memory`1.#ctor(`0[],System.Int32).start,
-            FullName: System.Memory..ctor.start,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(`0[],System.Int32).start,
             Id: M:System.Memory`1.#ctor(`0[],System.Int32).start,
             Kind: Parameter,
             Name: start,
@@ -209,8 +200,7 @@
             Name: MethodImplAttribute
           }
         ],
-        FullId: T:System.Memory`1, M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
-        FullName: System.Memory..ctor,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
         Id: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
         Kind: Constructor,
         Name: .ctor,
@@ -224,8 +214,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32), M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).array,
-            FullName: System.Memory..ctor.array,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).array,
             Id: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).array,
             Kind: Parameter,
             Name: array,
@@ -233,8 +222,7 @@
             TypeId: T:`0[]
           },
           {
-            FullId: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32), M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).start,
-            FullName: System.Memory..ctor.start,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).start,
             Id: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).start,
             Kind: Parameter,
             Name: start,
@@ -242,8 +230,7 @@
             TypeId: T:System.Int32
           },
           {
-            FullId: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32), M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).length,
-            FullName: System.Memory..ctor.length,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).length,
             Id: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).length,
             Kind: Parameter,
             Name: length,
@@ -263,8 +250,7 @@
             Name: MethodImplAttribute
           }
         ],
-        FullId: T:System.Memory`1, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
-        FullName: System.Memory..ctor,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
         Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
         Kind: Constructor,
         Name: .ctor,
@@ -278,8 +264,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32), M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32).manager,
-            FullName: System.Memory..ctor.manager,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32).manager,
             Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32).manager,
             Kind: Parameter,
             Name: manager,
@@ -287,8 +272,7 @@
             TypeId: T:System.Buffers.MemoryManager`1[[`0]]
           },
           {
-            FullId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32), M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32).length,
-            FullName: System.Memory..ctor.length,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32).length,
             Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32).length,
             Kind: Parameter,
             Name: length,
@@ -308,8 +292,7 @@
             Name: MethodImplAttribute
           }
         ],
-        FullId: T:System.Memory`1, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
-        FullName: System.Memory..ctor,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
         Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
         Kind: Constructor,
         Name: .ctor,
@@ -323,8 +306,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32), M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).manager,
-            FullName: System.Memory..ctor.manager,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).manager,
             Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).manager,
             Kind: Parameter,
             Name: manager,
@@ -332,8 +314,7 @@
             TypeId: T:System.Buffers.MemoryManager`1[[`0]]
           },
           {
-            FullId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32), M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).start,
-            FullName: System.Memory..ctor.start,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).start,
             Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).start,
             Kind: Parameter,
             Name: start,
@@ -341,8 +322,7 @@
             TypeId: T:System.Int32
           },
           {
-            FullId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32), M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).length,
-            FullName: System.Memory..ctor.length,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).length,
             Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).length,
             Kind: Parameter,
             Name: length,
@@ -362,8 +342,7 @@
             Name: MethodImplAttribute
           }
         ],
-        FullId: T:System.Memory`1, M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
-        FullName: System.Memory..ctor,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
         Id: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
         Kind: Constructor,
         Name: .ctor,
@@ -377,8 +356,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32), M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).obj,
-            FullName: System.Memory..ctor.obj,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).obj,
             Id: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).obj,
             Kind: Parameter,
             Name: obj,
@@ -386,8 +364,7 @@
             TypeId: T:System.Object
           },
           {
-            FullId: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32), M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).start,
-            FullName: System.Memory..ctor.start,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).start,
             Id: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).start,
             Kind: Parameter,
             Name: start,
@@ -395,8 +372,7 @@
             TypeId: T:System.Int32
           },
           {
-            FullId: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32), M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).length,
-            FullName: System.Memory..ctor.length,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).length,
             Id: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).length,
             Kind: Parameter,
             Name: length,
@@ -408,8 +384,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Memory`1, M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
-        FullName: System.Memory.op_Implicit,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
         Id: M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
         Kind: Operator,
         Modifiers: [
@@ -422,8 +397,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0}, M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0}.array,
-            FullName: System.Memory.op_Implicit.array,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0}.array,
             Id: M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0}.array,
             Kind: Parameter,
             Name: array,
@@ -436,8 +410,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Memory`1, M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0},
-        FullName: System.Memory.op_Implicit,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0},
         Id: M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0},
         Kind: Operator,
         Modifiers: [
@@ -450,8 +423,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0}, M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0}.segment,
-            FullName: System.Memory.op_Implicit.segment,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0}.segment,
             Id: M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0}.segment,
             Kind: Parameter,
             Name: segment,
@@ -464,8 +436,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Memory`1, M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0},
-        FullName: System.Memory.op_Implicit,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0},
         Id: M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0},
         Kind: Operator,
         Modifiers: [
@@ -478,8 +449,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0}, M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0}.memory,
-            FullName: System.Memory.op_Implicit.memory,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0}.memory,
             Id: M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0}.memory,
             Kind: Parameter,
             Name: memory,
@@ -492,8 +462,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Memory`1, M:System.Memory`1.ToString,
-        FullName: System.Memory.ToString,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.ToString,
         Id: M:System.Memory`1.ToString,
         Kind: Method,
         Modifiers: [
@@ -513,8 +482,7 @@
             Name: MethodImplAttribute
           }
         ],
-        FullId: T:System.Memory`1, M:System.Memory`1.Slice(System.Int32),
-        FullName: System.Memory.Slice,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.Slice(System.Int32),
         Id: M:System.Memory`1.Slice(System.Int32),
         Kind: Method,
         Name: Slice,
@@ -523,8 +491,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.Memory`1.Slice(System.Int32), M:System.Memory`1.Slice(System.Int32).start,
-            FullName: System.Memory.Slice.start,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.Slice(System.Int32).start,
             Id: M:System.Memory`1.Slice(System.Int32).start,
             Kind: Parameter,
             Name: start,
@@ -545,8 +512,7 @@
             Name: MethodImplAttribute
           }
         ],
-        FullId: T:System.Memory`1, M:System.Memory`1.Slice(System.Int32,System.Int32),
-        FullName: System.Memory.Slice,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.Slice(System.Int32,System.Int32),
         Id: M:System.Memory`1.Slice(System.Int32,System.Int32),
         Kind: Method,
         Name: Slice,
@@ -555,8 +521,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.Memory`1.Slice(System.Int32,System.Int32), M:System.Memory`1.Slice(System.Int32,System.Int32).start,
-            FullName: System.Memory.Slice.start,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.Slice(System.Int32,System.Int32).start,
             Id: M:System.Memory`1.Slice(System.Int32,System.Int32).start,
             Kind: Parameter,
             Name: start,
@@ -564,8 +529,7 @@
             TypeId: T:System.Int32
           },
           {
-            FullId: M:System.Memory`1.Slice(System.Int32,System.Int32), M:System.Memory`1.Slice(System.Int32,System.Int32).length,
-            FullName: System.Memory.Slice.length,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.Slice(System.Int32,System.Int32).length,
             Id: M:System.Memory`1.Slice(System.Int32,System.Int32).length,
             Kind: Parameter,
             Name: length,
@@ -578,15 +542,13 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Memory`1, M:System.Memory`1.CopyTo(System.Memory{`0}),
-        FullName: System.Memory.CopyTo,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.CopyTo(System.Memory{`0}),
         Id: M:System.Memory`1.CopyTo(System.Memory{`0}),
         Kind: Method,
         Name: CopyTo,
         Parameters: [
           {
-            FullId: M:System.Memory`1.CopyTo(System.Memory{`0}), M:System.Memory`1.CopyTo(System.Memory{`0}).destination,
-            FullName: System.Memory.CopyTo.destination,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.CopyTo(System.Memory{`0}).destination,
             Id: M:System.Memory`1.CopyTo(System.Memory{`0}).destination,
             Kind: Parameter,
             Name: destination,
@@ -599,15 +561,13 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Memory`1, M:System.Memory`1.TryCopyTo(System.Memory{`0}),
-        FullName: System.Memory.TryCopyTo,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.TryCopyTo(System.Memory{`0}),
         Id: M:System.Memory`1.TryCopyTo(System.Memory{`0}),
         Kind: Method,
         Name: TryCopyTo,
         Parameters: [
           {
-            FullId: M:System.Memory`1.TryCopyTo(System.Memory{`0}), M:System.Memory`1.TryCopyTo(System.Memory{`0}).destination,
-            FullName: System.Memory.TryCopyTo.destination,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.TryCopyTo(System.Memory{`0}).destination,
             Id: M:System.Memory`1.TryCopyTo(System.Memory{`0}).destination,
             Kind: Parameter,
             Name: destination,
@@ -620,8 +580,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Memory`1, M:System.Memory`1.Pin,
-        FullName: System.Memory.Pin,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.Pin,
         Id: M:System.Memory`1.Pin,
         Kind: Method,
         Name: Pin,
@@ -630,8 +589,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Memory`1, M:System.Memory`1.ToArray,
-        FullName: System.Memory.ToArray,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.ToArray,
         Id: M:System.Memory`1.ToArray,
         Kind: Method,
         Name: ToArray,
@@ -654,8 +612,7 @@
             Name: UnconditionalSuppressMessageAttribute
           }
         ],
-        FullId: T:System.Memory`1, M:System.Memory`1.Equals(System.Object),
-        FullName: System.Memory.Equals,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.Equals(System.Object),
         Id: M:System.Memory`1.Equals(System.Object),
         Kind: Method,
         Modifiers: [
@@ -667,8 +624,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.Memory`1.Equals(System.Object), M:System.Memory`1.Equals(System.Object).obj,
-            FullName: System.Memory.Equals.obj,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.Equals(System.Object).obj,
             Id: M:System.Memory`1.Equals(System.Object).obj,
             Kind: Parameter,
             Name: obj,
@@ -681,8 +637,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Memory`1, M:System.Memory`1.Equals(System.Memory{`0}),
-        FullName: System.Memory.Equals,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.Equals(System.Memory{`0}),
         Id: M:System.Memory`1.Equals(System.Memory{`0}),
         Kind: Method,
         Name: Equals,
@@ -691,8 +646,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.Memory`1.Equals(System.Memory{`0}), M:System.Memory`1.Equals(System.Memory{`0}).other,
-            FullName: System.Memory.Equals.other,
+            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.Equals(System.Memory{`0}).other,
             Id: M:System.Memory`1.Equals(System.Memory{`0}).other,
             Kind: Parameter,
             Name: other,
@@ -719,8 +673,7 @@
             Name: MethodImplAttribute
           }
         ],
-        FullId: T:System.Memory`1, M:System.Memory`1.GetHashCode,
-        FullName: System.Memory.GetHashCode,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.GetHashCode,
         Id: M:System.Memory`1.GetHashCode,
         Kind: Method,
         Modifiers: [
@@ -732,8 +685,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Memory`1, M:System.Memory`1.#ctor,
-        FullName: System.Memory..ctor,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.#ctor,
         Id: M:System.Memory`1.#ctor,
         Kind: Constructor,
         Name: .ctor,
@@ -749,11 +701,9 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Memory`1, P:System.Memory`1.Empty,
-        FullName: System.Memory.Empty,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.Memory`1.Empty,
         Getter: {
-          FullId: T:System.Memory`1, M:System.Memory`1.get_Empty,
-          FullName: System.Memory.get_Empty,
+          FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.get_Empty,
           Id: M:System.Memory`1.get_Empty,
           Kind: Method,
           Name: get_Empty,
@@ -771,11 +721,9 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Memory`1, P:System.Memory`1.Length,
-        FullName: System.Memory.Length,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.Memory`1.Length,
         Getter: {
-          FullId: T:System.Memory`1, M:System.Memory`1.get_Length,
-          FullName: System.Memory.get_Length,
+          FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.get_Length,
           Id: M:System.Memory`1.get_Length,
           Kind: Method,
           Name: get_Length,
@@ -790,11 +738,9 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Memory`1, P:System.Memory`1.IsEmpty,
-        FullName: System.Memory.IsEmpty,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.Memory`1.IsEmpty,
         Getter: {
-          FullId: T:System.Memory`1, M:System.Memory`1.get_IsEmpty,
-          FullName: System.Memory.get_IsEmpty,
+          FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.get_IsEmpty,
           Id: M:System.Memory`1.get_IsEmpty,
           Kind: Method,
           Name: get_IsEmpty,
@@ -809,11 +755,9 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Memory`1, P:System.Memory`1.Span,
-        FullName: System.Memory.Span,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.Memory`1.Span,
         Getter: {
-          FullId: T:System.Memory`1, M:System.Memory`1.get_Span,
-          FullName: System.Memory.get_Span,
+          FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Memory`1.get_Span,
           Id: M:System.Memory`1.get_Span,
           Kind: Method,
           Name: get_Span,
@@ -835,8 +779,7 @@
     ParentId: N:System,
     TypeParameters: [
       {
-        FullId: T:System.Memory`1, T:System.Memory`1.T,
-        FullName: System.Memory.T,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Memory`1.T,
         Id: T:System.Memory`1.T,
         Kind: TypeParameter,
         Name: T,

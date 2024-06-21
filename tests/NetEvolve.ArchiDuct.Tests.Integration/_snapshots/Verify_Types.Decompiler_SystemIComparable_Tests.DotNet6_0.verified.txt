@@ -1,5 +1,5 @@
 ﻿{
-  N:System, T:System.IComparable: {
+  System.Private.CoreLib, Version=6.0.0.0, T:System.IComparable: {
     Accessibility: Public,
     Attributes: [
       {
@@ -27,23 +27,20 @@
         Name: TypeForwardedFromAttribute
       }
     ],
-    FullId: N:System, T:System.IComparable,
-    FullName: System.IComparable,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.IComparable,
     Id: T:System.IComparable,
     IsNested: false,
     Kind: Interface,
     Members: [
       {
         Accessibility: Public,
-        FullId: T:System.IComparable, M:System.IComparable.CompareTo(System.Object),
-        FullName: System.IComparable.CompareTo,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.IComparable.CompareTo(System.Object),
         Id: M:System.IComparable.CompareTo(System.Object),
         Kind: Method,
         Name: CompareTo,
         Parameters: [
           {
-            FullId: M:System.IComparable.CompareTo(System.Object), M:System.IComparable.CompareTo(System.Object).obj,
-            FullName: System.IComparable.CompareTo.obj,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.IComparable.CompareTo(System.Object).obj,
             Id: M:System.IComparable.CompareTo(System.Object).obj,
             Kind: Parameter,
             Name: obj,

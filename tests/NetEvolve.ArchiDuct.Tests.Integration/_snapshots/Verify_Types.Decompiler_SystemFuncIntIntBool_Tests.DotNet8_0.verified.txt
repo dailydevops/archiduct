@@ -1,5 +1,5 @@
 ﻿{
-  N:System, T:System.Func`3: {
+  System.Private.CoreLib, Version=8.0.0.0, T:System.Func`3: {
     Accessibility: Public,
     Attributes: [
       {
@@ -56,8 +56,7 @@
       T:System.Delegate,
       T:System.Object
     ],
-    FullId: N:System, T:System.Func`3,
-    FullName: System.Func,
+    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Func`3,
     Id: T:System.Func`3,
     IsNested: false,
     Kind: Delegate,
@@ -68,8 +67,7 @@
     NamespaceId: N:System,
     Parameters: [
       {
-        FullId: T:System.Func`3, T:System.Func`3.arg1,
-        FullName: System.Func.arg1,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Func`3.arg1,
         Id: T:System.Func`3.arg1,
         Kind: Parameter,
         Name: arg1,
@@ -77,8 +75,7 @@
         TypeId: T:System.Func`3.T1
       },
       {
-        FullId: T:System.Func`3, T:System.Func`3.arg2,
-        FullName: System.Func.arg2,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Func`3.arg2,
         Id: T:System.Func`3.arg2,
         Kind: Parameter,
         Name: arg2,
@@ -90,24 +87,21 @@
     ReturnTypeId: T:System.Func`3.TResult,
     TypeParameters: [
       {
-        FullId: T:System.Func`3, T:System.Func`3.T1,
-        FullName: System.Func.T1,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Func`3.T1,
         Id: T:System.Func`3.T1,
         Kind: TypeParameter,
         Name: T1,
         ParentId: T:System.Func`3
       },
       {
-        FullId: T:System.Func`3, T:System.Func`3.T2,
-        FullName: System.Func.T2,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Func`3.T2,
         Id: T:System.Func`3.T2,
         Kind: TypeParameter,
         Name: T2,
         ParentId: T:System.Func`3
       },
       {
-        FullId: T:System.Func`3, T:System.Func`3.TResult,
-        FullName: System.Func.TResult,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Func`3.TResult,
         Id: T:System.Func`3.TResult,
         Kind: TypeParameter,
         Name: TResult,

@@ -333,7 +333,4 @@ internal sealed partial class Decompiler : IDisposable
         _modelAssembly.Namespaces = [.. _modelNamespaces];
         _modelAssembly.Types = [.. _modelTypes];
     }
-
-    private static bool ShouldNotBeDescribedAccessModifier(IMember entity) =>
-        entity is IMethod method && method.IsExplicitInterfaceImplementation;
 }

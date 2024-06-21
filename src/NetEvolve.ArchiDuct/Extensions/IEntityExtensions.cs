@@ -1,5 +1,6 @@
 ﻿namespace NetEvolve.ArchiDuct.Extensions;
 
+using ICSharpCode.Decompiler.Documentation;
 using ICSharpCode.Decompiler.TypeSystem;
 
 internal static class IEntityExtensions
@@ -15,4 +16,7 @@ internal static class IEntityExtensions
                 && declaringType.GetConstructors().Count() == 1
             )
         );
+
+    public static string GetQualifiedName(this IEntity entity) =>
+        $"{entity.ParentModule?.AssemblyName}, Version={entity.ParentModule?.AssemblyVersion}, {entity.GetIdString()}";
 }

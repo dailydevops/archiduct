@@ -1,5 +1,5 @@
 ﻿{
-  N:System, T:System.StringSplitOptions: {
+  System.Private.CoreLib, Version=8.0.0.0, T:System.StringSplitOptions: {
     Accessibility: Public,
     Attributes: [
       {
@@ -62,16 +62,14 @@
       T:System.ValueType,
       T:System.Object
     ],
-    FullId: N:System, T:System.StringSplitOptions,
-    FullName: System.StringSplitOptions,
+    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.StringSplitOptions,
     Id: T:System.StringSplitOptions,
     IsNested: false,
     Kind: Enum,
     Members: [
       {
         Accessibility: Public,
-        FullId: T:System.StringSplitOptions, F:System.StringSplitOptions.None,
-        FullName: System.StringSplitOptions.None,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, F:System.StringSplitOptions.None,
         Id: F:System.StringSplitOptions.None,
         Kind: EnumMember,
         Name: None,
@@ -81,8 +79,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.StringSplitOptions, F:System.StringSplitOptions.RemoveEmptyEntries,
-        FullName: System.StringSplitOptions.RemoveEmptyEntries,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, F:System.StringSplitOptions.RemoveEmptyEntries,
         Id: F:System.StringSplitOptions.RemoveEmptyEntries,
         Kind: EnumMember,
         Name: RemoveEmptyEntries,
@@ -92,8 +89,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.StringSplitOptions, F:System.StringSplitOptions.TrimEntries,
-        FullName: System.StringSplitOptions.TrimEntries,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, F:System.StringSplitOptions.TrimEntries,
         Id: F:System.StringSplitOptions.TrimEntries,
         Kind: EnumMember,
         Name: TrimEntries,
@@ -103,8 +99,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.StringSplitOptions, M:System.StringSplitOptions.#ctor,
-        FullName: System.StringSplitOptions..ctor,
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.StringSplitOptions.#ctor,
         Id: M:System.StringSplitOptions.#ctor,
         Kind: Constructor,
         Name: .ctor,

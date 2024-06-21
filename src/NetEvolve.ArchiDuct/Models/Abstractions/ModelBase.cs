@@ -17,11 +17,6 @@ public abstract class ModelBase
     /// <summary>
     /// Gets the fully qualified name of the class the return type is pointing to.
     /// </summary>
-    /// <returns>
-    /// "System.Int32[]" for int[]<br/>
-    /// "System.Collections.Generic.List" for List&lt;string&gt;<br/>
-    /// "System.Environment.SpecialFolder" for Environment.SpecialFolder
-    /// </returns>
     public string FullName { get; }
 
     /// <summary>

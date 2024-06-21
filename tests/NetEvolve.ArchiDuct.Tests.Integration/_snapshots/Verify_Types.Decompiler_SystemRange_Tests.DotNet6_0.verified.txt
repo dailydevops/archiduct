@@ -1,5 +1,5 @@
 ﻿{
-  N:System, T:System.Range: {
+  System.Private.CoreLib, Version=6.0.0.0, T:System.Range: {
     Accessibility: Public,
     Attributes: [
       {
@@ -43,8 +43,7 @@
       T:System.ValueType,
       T:System.Object
     ],
-    FullId: N:System, T:System.Range,
-    FullName: System.Range,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.Range,
     Id: T:System.Range,
     Implementations: [
       T:System.IEquatable`1
@@ -71,8 +70,7 @@
     Members: [
       {
         Accessibility: Public,
-        FullId: T:System.Range, M:System.Range.#ctor(System.Index,System.Index),
-        FullName: System.Range..ctor,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.#ctor(System.Index,System.Index),
         Id: M:System.Range.#ctor(System.Index,System.Index),
         Kind: Constructor,
         Name: .ctor,
@@ -81,8 +79,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.Range.#ctor(System.Index,System.Index), M:System.Range.#ctor(System.Index,System.Index).start,
-            FullName: System.Range..ctor.start,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.#ctor(System.Index,System.Index).start,
             Id: M:System.Range.#ctor(System.Index,System.Index).start,
             Kind: Parameter,
             Name: start,
@@ -90,8 +87,7 @@
             TypeId: T:System.Index
           },
           {
-            FullId: M:System.Range.#ctor(System.Index,System.Index), M:System.Range.#ctor(System.Index,System.Index).end,
-            FullName: System.Range..ctor.end,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.#ctor(System.Index,System.Index).end,
             Id: M:System.Range.#ctor(System.Index,System.Index).end,
             Kind: Parameter,
             Name: end,
@@ -111,8 +107,7 @@
             Name: UnconditionalSuppressMessageAttribute
           }
         ],
-        FullId: T:System.Range, M:System.Range.Equals(System.Object),
-        FullName: System.Range.Equals,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.Equals(System.Object),
         Id: M:System.Range.Equals(System.Object),
         Kind: Method,
         Modifiers: [
@@ -124,8 +119,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.Range.Equals(System.Object), M:System.Range.Equals(System.Object).value,
-            FullName: System.Range.Equals.value,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.Equals(System.Object).value,
             Id: M:System.Range.Equals(System.Object).value,
             Kind: Parameter,
             Name: value,
@@ -138,8 +132,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Range, M:System.Range.Equals(System.Range),
-        FullName: System.Range.Equals,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.Equals(System.Range),
         Id: M:System.Range.Equals(System.Range),
         Kind: Method,
         Name: Equals,
@@ -148,8 +141,7 @@
         ],
         Parameters: [
           {
-            FullId: M:System.Range.Equals(System.Range), M:System.Range.Equals(System.Range).other,
-            FullName: System.Range.Equals.other,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.Equals(System.Range).other,
             Id: M:System.Range.Equals(System.Range).other,
             Kind: Parameter,
             Name: other,
@@ -170,8 +162,7 @@
             Name: MethodImplAttribute
           }
         ],
-        FullId: T:System.Range, M:System.Range.GetHashCode,
-        FullName: System.Range.GetHashCode,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.GetHashCode,
         Id: M:System.Range.GetHashCode,
         Kind: Method,
         Modifiers: [
@@ -183,8 +174,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Range, M:System.Range.ToString,
-        FullName: System.Range.ToString,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.ToString,
         Id: M:System.Range.ToString,
         Kind: Method,
         Modifiers: [
@@ -196,8 +186,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Range, M:System.Range.StartAt(System.Index),
-        FullName: System.Range.StartAt,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.StartAt(System.Index),
         Id: M:System.Range.StartAt(System.Index),
         Kind: Method,
         Modifiers: [
@@ -206,8 +195,7 @@
         Name: StartAt,
         Parameters: [
           {
-            FullId: M:System.Range.StartAt(System.Index), M:System.Range.StartAt(System.Index).start,
-            FullName: System.Range.StartAt.start,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.StartAt(System.Index).start,
             Id: M:System.Range.StartAt(System.Index).start,
             Kind: Parameter,
             Name: start,
@@ -220,8 +208,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Range, M:System.Range.EndAt(System.Index),
-        FullName: System.Range.EndAt,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.EndAt(System.Index),
         Id: M:System.Range.EndAt(System.Index),
         Kind: Method,
         Modifiers: [
@@ -230,8 +217,7 @@
         Name: EndAt,
         Parameters: [
           {
-            FullId: M:System.Range.EndAt(System.Index), M:System.Range.EndAt(System.Index).end,
-            FullName: System.Range.EndAt.end,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.EndAt(System.Index).end,
             Id: M:System.Range.EndAt(System.Index).end,
             Kind: Parameter,
             Name: end,
@@ -252,15 +238,13 @@
             Name: MethodImplAttribute
           }
         ],
-        FullId: T:System.Range, M:System.Range.GetOffsetAndLength(System.Int32),
-        FullName: System.Range.GetOffsetAndLength,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.GetOffsetAndLength(System.Int32),
         Id: M:System.Range.GetOffsetAndLength(System.Int32),
         Kind: Method,
         Name: GetOffsetAndLength,
         Parameters: [
           {
-            FullId: M:System.Range.GetOffsetAndLength(System.Int32), M:System.Range.GetOffsetAndLength(System.Int32).length,
-            FullName: System.Range.GetOffsetAndLength.length,
+            FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.GetOffsetAndLength(System.Int32).length,
             Id: M:System.Range.GetOffsetAndLength(System.Int32).length,
             Kind: Parameter,
             Name: length,
@@ -273,8 +257,7 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Range, M:System.Range.#ctor,
-        FullName: System.Range..ctor,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.#ctor,
         Id: M:System.Range.#ctor,
         Kind: Constructor,
         Name: .ctor,
@@ -285,11 +268,9 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Range, P:System.Range.Start,
-        FullName: System.Range.Start,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Range.Start,
         Getter: {
-          FullId: T:System.Range, M:System.Range.get_Start,
-          FullName: System.Range.get_Start,
+          FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.get_Start,
           Id: M:System.Range.get_Start,
           Kind: Method,
           Name: get_Start,
@@ -304,11 +285,9 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Range, P:System.Range.End,
-        FullName: System.Range.End,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Range.End,
         Getter: {
-          FullId: T:System.Range, M:System.Range.get_End,
-          FullName: System.Range.get_End,
+          FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.get_End,
           Id: M:System.Range.get_End,
           Kind: Method,
           Name: get_End,
@@ -323,11 +302,9 @@
       },
       {
         Accessibility: Public,
-        FullId: T:System.Range, P:System.Range.All,
-        FullName: System.Range.All,
+        FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Range.All,
         Getter: {
-          FullId: T:System.Range, M:System.Range.get_All,
-          FullName: System.Range.get_All,
+          FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Range.get_All,
           Id: M:System.Range.get_All,
           Kind: Method,
           Name: get_All,
