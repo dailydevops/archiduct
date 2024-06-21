@@ -10,15 +10,20 @@ using NetEvolve.ArchiDuct.Models.Abstractions;
 public class ModelProperty : ModelMemberBase
 {
     /// <summary>
-    /// Gets the getter method.
+    /// Gets the getter method. Can be null.
     /// </summary>
     public ModelMethod? Getter { get; }
+
+    /// <summary>
+    /// Gets the init only stter method. Can be null if the setter is not init only.
+    /// </summary>
+    public ModelMethod? InitOnly { get; }
 
     /// <inheritdoc />
     public override ModelKind Kind => ModelKind.Property;
 
     /// <summary>
-    /// Gets the setter method.
+    /// Gets the setter method. Can be null.
     /// </summary>
     public ModelMethod? Setter { get; }
 
@@ -31,14 +36,21 @@ public class ModelProperty : ModelMemberBase
     internal ModelProperty(IProperty property, ModelTypeBase parentEntity, XElement? documentation)
         : base(property, parentEntity, documentation)
     {
-        if (property.Getter is not null)
+        if (property.Getter is IMethod getter)
         {
-            Getter = new ModelMethod(property.Getter, parentEntity, documentation);
+            Getter = new ModelMethod(getter, parentEntity, documentation);
         }
 
-        if (property.Setter is not null)
+        if (property.Setter is IMethod setter)
         {
-            Setter = new ModelMethod(property.Setter, parentEntity, documentation);
+            if (setter.IsInitOnly)
+            {
+                InitOnly = new ModelMethod(setter, parentEntity, documentation);
+            }
+            else
+            {
+                Setter = new ModelMethod(setter, parentEntity, documentation);
+            }
         }
     }
 }

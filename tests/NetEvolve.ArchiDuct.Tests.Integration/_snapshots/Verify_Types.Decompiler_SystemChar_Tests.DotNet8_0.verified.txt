@@ -5047,12 +5047,13 @@
         Accessibility: Private,
         FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.Char.Latin1CharInfo,
         Getter: {
+          Accessibility: Private,
           FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Char.get_Latin1CharInfo,
           Id: M:System.Char.get_Latin1CharInfo,
           Kind: Method,
           Name: get_Latin1CharInfo,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.ReadOnlySpan`1[[System.Byte]]
         },
         Id: P:System.Char.Latin1CharInfo,
         Kind: Property,
@@ -5071,7 +5072,7 @@
           Kind: Method,
           Name: System.Numerics.IAdditiveIdentity<System.Char,System.Char>.get_AdditiveIdentity,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Char
         },
         Id: P:System.Char.System#Numerics#IAdditiveIdentity{System#Char,System#Char}#AdditiveIdentity,
         Kind: ExplicitProperty,
@@ -5090,7 +5091,7 @@
           Kind: Method,
           Name: System.Numerics.IBinaryNumber<System.Char>.get_AllBitsSet,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Char
         },
         Id: P:System.Char.System#Numerics#IBinaryNumber{System#Char}#AllBitsSet,
         Kind: ExplicitProperty,
@@ -5109,7 +5110,7 @@
           Kind: Method,
           Name: System.Numerics.IMinMaxValue<System.Char>.get_MinValue,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Char
         },
         Id: P:System.Char.System#Numerics#IMinMaxValue{System#Char}#MinValue,
         Kind: ExplicitProperty,
@@ -5128,7 +5129,7 @@
           Kind: Method,
           Name: System.Numerics.IMinMaxValue<System.Char>.get_MaxValue,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Char
         },
         Id: P:System.Char.System#Numerics#IMinMaxValue{System#Char}#MaxValue,
         Kind: ExplicitProperty,
@@ -5147,7 +5148,7 @@
           Kind: Method,
           Name: System.Numerics.IMultiplicativeIdentity<System.Char,System.Char>.get_MultiplicativeIdentity,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Char
         },
         Id: P:System.Char.System#Numerics#IMultiplicativeIdentity{System#Char,System#Char}#MultiplicativeIdentity,
         Kind: ExplicitProperty,
@@ -5166,7 +5167,7 @@
           Kind: Method,
           Name: System.Numerics.INumberBase<System.Char>.get_One,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Char
         },
         Id: P:System.Char.System#Numerics#INumberBase{System#Char}#One,
         Kind: ExplicitProperty,
@@ -5185,7 +5186,7 @@
           Kind: Method,
           Name: System.Numerics.INumberBase<System.Char>.get_Radix,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Int32
         },
         Id: P:System.Char.System#Numerics#INumberBase{System#Char}#Radix,
         Kind: ExplicitProperty,
@@ -5204,7 +5205,7 @@
           Kind: Method,
           Name: System.Numerics.INumberBase<System.Char>.get_Zero,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Char
         },
         Id: P:System.Char.System#Numerics#INumberBase{System#Char}#Zero,
         Kind: ExplicitProperty,
@@ -5223,7 +5224,7 @@
           Kind: Method,
           Name: System.IBinaryIntegerParseAndFormatInfo<System.Char>.get_IsSigned,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Boolean
         },
         Id: P:System.Char.System#IBinaryIntegerParseAndFormatInfo{System#Char}#IsSigned,
         Kind: ExplicitProperty,
@@ -5242,7 +5243,7 @@
           Kind: Method,
           Name: System.IBinaryIntegerParseAndFormatInfo<System.Char>.get_MaxDigitCount,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Int32
         },
         Id: P:System.Char.System#IBinaryIntegerParseAndFormatInfo{System#Char}#MaxDigitCount,
         Kind: ExplicitProperty,
@@ -5261,7 +5262,7 @@
           Kind: Method,
           Name: System.IBinaryIntegerParseAndFormatInfo<System.Char>.get_MaxHexDigitCount,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Int32
         },
         Id: P:System.Char.System#IBinaryIntegerParseAndFormatInfo{System#Char}#MaxHexDigitCount,
         Kind: ExplicitProperty,
@@ -5280,7 +5281,7 @@
           Kind: Method,
           Name: System.IBinaryIntegerParseAndFormatInfo<System.Char>.get_MaxValueDiv10,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.Char
         },
         Id: P:System.Char.System#IBinaryIntegerParseAndFormatInfo{System#Char}#MaxValueDiv10,
         Kind: ExplicitProperty,
@@ -5299,7 +5300,7 @@
           Kind: Method,
           Name: System.IBinaryIntegerParseAndFormatInfo<System.Char>.get_OverflowMessage,
           ParentId: T:System.Char,
-          ReturnTypeId: T:System.Void
+          ReturnTypeId: T:System.String
         },
         Id: P:System.Char.System#IBinaryIntegerParseAndFormatInfo{System#Char}#OverflowMessage,
         Kind: ExplicitProperty,
