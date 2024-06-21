@@ -1,5 +1,6 @@
 ﻿{
   N:System, T:System.Range: {
+    Accessibility: Public,
     Attributes: [
       {
         FullName: System.SerializableAttribute,
@@ -67,13 +68,11 @@
     Kind: Struct,
     Members: [
       {
+        Accessibility: Public,
         FullId: T:System.Range, M:System.Range.#ctor(System.Index,System.Index),
         FullName: System.Range..ctor,
         Id: M:System.Range.#ctor(System.Index,System.Index),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         Parameters: [
           {
@@ -99,6 +98,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute,
@@ -112,7 +112,6 @@
         Id: M:System.Range.Equals(System.Object),
         Kind: Method,
         Modifiers: [
-          Public,
           Override
         ],
         Name: Equals,
@@ -134,13 +133,11 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Range, M:System.Range.Equals(System.Range),
         FullName: System.Range.Equals,
         Id: M:System.Range.Equals(System.Range),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Equals,
         OverloadedMembers: [
           M:System.Range.Equals(System.Object)
@@ -160,6 +157,7 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -173,7 +171,6 @@
         Id: M:System.Range.GetHashCode,
         Kind: Method,
         Modifiers: [
-          Public,
           Override
         ],
         Name: GetHashCode,
@@ -181,12 +178,12 @@
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Public,
         FullId: T:System.Range, M:System.Range.ToString,
         FullName: System.Range.ToString,
         Id: M:System.Range.ToString,
         Kind: Method,
         Modifiers: [
-          Public,
           Override
         ],
         Name: ToString,
@@ -194,12 +191,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Range, M:System.Range.StartAt(System.Index),
         FullName: System.Range.StartAt,
         Id: M:System.Range.StartAt(System.Index),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: StartAt,
@@ -218,12 +215,12 @@
         ReturnTypeId: T:System.Range
       },
       {
+        Accessibility: Public,
         FullId: T:System.Range, M:System.Range.EndAt(System.Index),
         FullName: System.Range.EndAt,
         Id: M:System.Range.EndAt(System.Index),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: EndAt,
@@ -242,6 +239,7 @@
         ReturnTypeId: T:System.Range
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -254,9 +252,6 @@
         FullName: System.Range.GetOffsetAndLength,
         Id: M:System.Range.GetOffsetAndLength(System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: GetOffsetAndLength,
         Parameters: [
           {
@@ -273,12 +268,12 @@
         ReturnTypeId: T:System.ValueTuple`2[[System.Int32],[System.Int32]]
       },
       {
+        Accessibility: Private,
         FullId: T:System.Range, M:System.Range.ThrowArgumentOutOfRangeException,
         FullName: System.Range.ThrowArgumentOutOfRangeException,
         Id: M:System.Range.ThrowArgumentOutOfRangeException,
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: ThrowArgumentOutOfRangeException,
@@ -286,36 +281,32 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Range, P:System.Range.Start,
         FullName: System.Range.Start,
         Id: P:System.Range.Start,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: Start,
         ParentId: T:System.Range,
         ReturnTypeId: T:System.Index
       },
       {
+        Accessibility: Public,
         FullId: T:System.Range, P:System.Range.End,
         FullName: System.Range.End,
         Id: P:System.Range.End,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: End,
         ParentId: T:System.Range,
         ReturnTypeId: T:System.Index
       },
       {
+        Accessibility: Public,
         FullId: T:System.Range, P:System.Range.All,
         FullName: System.Range.All,
         Id: P:System.Range.All,
         Kind: Property,
         Modifiers: [
-          Public,
           Static
         ],
         Name: All,
@@ -324,7 +315,6 @@
       }
     ],
     Modifiers: [
-      Public,
       ReadOnly
     ],
     Name: Range,

@@ -1,5 +1,6 @@
 ﻿{
   N:System.Text, T:System.Text.StringBuilder: {
+    Accessibility: Public,
     Attributes: [
       {
         FullName: System.SerializableAttribute,
@@ -68,73 +69,61 @@
     Kind: Class,
     Members: [
       {
+        Accessibility: Internal,
         FullId: T:System.Text.StringBuilder, F:System.Text.StringBuilder.m_ChunkChars,
         FullName: System.Text.StringBuilder.m_ChunkChars,
         Id: F:System.Text.StringBuilder.m_ChunkChars,
         Kind: Field,
-        Modifiers: [
-          Internal
-        ],
         Name: m_ChunkChars,
         ParentId: T:System.Text.StringBuilder,
         ReturnTypeId: T:System.Char[]
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Text.StringBuilder, F:System.Text.StringBuilder.m_ChunkPrevious,
         FullName: System.Text.StringBuilder.m_ChunkPrevious,
         Id: F:System.Text.StringBuilder.m_ChunkPrevious,
         Kind: Field,
-        Modifiers: [
-          Internal
-        ],
         Name: m_ChunkPrevious,
         ParentId: T:System.Text.StringBuilder,
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Text.StringBuilder, F:System.Text.StringBuilder.m_ChunkLength,
         FullName: System.Text.StringBuilder.m_ChunkLength,
         Id: F:System.Text.StringBuilder.m_ChunkLength,
         Kind: Field,
-        Modifiers: [
-          Internal
-        ],
         Name: m_ChunkLength,
         ParentId: T:System.Text.StringBuilder,
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Text.StringBuilder, F:System.Text.StringBuilder.m_ChunkOffset,
         FullName: System.Text.StringBuilder.m_ChunkOffset,
         Id: F:System.Text.StringBuilder.m_ChunkOffset,
         Kind: Field,
-        Modifiers: [
-          Internal
-        ],
         Name: m_ChunkOffset,
         ParentId: T:System.Text.StringBuilder,
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Text.StringBuilder, F:System.Text.StringBuilder.m_MaxCapacity,
         FullName: System.Text.StringBuilder.m_MaxCapacity,
         Id: F:System.Text.StringBuilder.m_MaxCapacity,
         Kind: Field,
-        Modifiers: [
-          Internal
-        ],
         Name: m_MaxCapacity,
         ParentId: T:System.Text.StringBuilder,
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.GetReplaceBufferCapacity(System.Int32),
         FullName: System.Text.StringBuilder.GetReplaceBufferCapacity,
         Id: M:System.Text.StringBuilder.GetReplaceBufferCapacity(System.Int32),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: GetReplaceBufferCapacity,
         Parameters: [
           {
@@ -151,13 +140,11 @@
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.ReplaceBufferInternal(System.Char*,System.Int32),
         FullName: System.Text.StringBuilder.ReplaceBufferInternal,
         Id: M:System.Text.StringBuilder.ReplaceBufferInternal(System.Char*,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Internal
-        ],
         Name: ReplaceBufferInternal,
         Parameters: [
           {
@@ -183,13 +170,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.ReplaceBufferUtf8Internal(System.ReadOnlySpan{System.Byte}),
         FullName: System.Text.StringBuilder.ReplaceBufferUtf8Internal,
         Id: M:System.Text.StringBuilder.ReplaceBufferUtf8Internal(System.ReadOnlySpan{System.Byte}),
         Kind: Method,
-        Modifiers: [
-          Internal
-        ],
         Name: ReplaceBufferUtf8Internal,
         Parameters: [
           {
@@ -206,13 +191,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.ReplaceBufferAnsiInternal(System.SByte*,System.Int32),
         FullName: System.Text.StringBuilder.ReplaceBufferAnsiInternal,
         Id: M:System.Text.StringBuilder.ReplaceBufferAnsiInternal(System.SByte*,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Internal
-        ],
         Name: ReplaceBufferAnsiInternal,
         Parameters: [
           {
@@ -238,13 +221,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.InternalCopy(nint,System.Int32),
         FullName: System.Text.StringBuilder.InternalCopy,
         Id: M:System.Text.StringBuilder.InternalCopy(nint,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Internal
-        ],
         Name: InternalCopy,
         Parameters: [
           {
@@ -270,13 +251,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.#ctor,
         FullName: System.Text.StringBuilder..ctor,
         Id: M:System.Text.StringBuilder.#ctor,
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Text.StringBuilder.#ctor(System.Int32),
@@ -292,13 +271,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.#ctor(System.Int32),
         FullName: System.Text.StringBuilder..ctor,
         Id: M:System.Text.StringBuilder.#ctor(System.Int32),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Text.StringBuilder.#ctor,
@@ -325,13 +302,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.#ctor(System.String),
         FullName: System.Text.StringBuilder..ctor,
         Id: M:System.Text.StringBuilder.#ctor(System.String),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Text.StringBuilder.#ctor,
@@ -358,13 +333,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.#ctor(System.String,System.Int32),
         FullName: System.Text.StringBuilder..ctor,
         Id: M:System.Text.StringBuilder.#ctor(System.String,System.Int32),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Text.StringBuilder.#ctor,
@@ -400,13 +373,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.#ctor(System.String,System.Int32,System.Int32,System.Int32),
         FullName: System.Text.StringBuilder..ctor,
         Id: M:System.Text.StringBuilder.#ctor(System.String,System.Int32,System.Int32,System.Int32),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Text.StringBuilder.#ctor,
@@ -460,13 +431,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.#ctor(System.Int32,System.Int32),
         FullName: System.Text.StringBuilder..ctor,
         Id: M:System.Text.StringBuilder.#ctor(System.Int32,System.Int32),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Text.StringBuilder.#ctor,
@@ -502,13 +471,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         FullName: System.Text.StringBuilder..ctor,
         Id: M:System.Text.StringBuilder.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         Kind: Constructor,
-        Modifiers: [
-          Private
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Text.StringBuilder.#ctor,
@@ -544,13 +511,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.EnsureCapacity(System.Int32),
         FullName: System.Text.StringBuilder.EnsureCapacity,
         Id: M:System.Text.StringBuilder.EnsureCapacity(System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: EnsureCapacity,
         Parameters: [
           {
@@ -567,12 +532,12 @@
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.ToString,
         FullName: System.Text.StringBuilder.ToString,
         Id: M:System.Text.StringBuilder.ToString,
         Kind: Method,
         Modifiers: [
-          Public,
           Override
         ],
         Name: ToString,
@@ -583,13 +548,11 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.ToString(System.Int32,System.Int32),
         FullName: System.Text.StringBuilder.ToString,
         Id: M:System.Text.StringBuilder.ToString(System.Int32,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: ToString,
         OverloadedMembers: [
           M:System.Text.StringBuilder.ToString
@@ -618,37 +581,31 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Clear,
         FullName: System.Text.StringBuilder.Clear,
         Id: M:System.Text.StringBuilder.Clear,
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Clear,
         ParentId: T:System.Text.StringBuilder,
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.GetChunks,
         FullName: System.Text.StringBuilder.GetChunks,
         Id: M:System.Text.StringBuilder.GetChunks,
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: GetChunks,
         ParentId: T:System.Text.StringBuilder,
         ReturnTypeId: T:System.Text.StringBuilder+ChunkEnumerator
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Char,System.Int32),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Char,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char[],System.Int32,System.Int32),
@@ -702,13 +659,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendWithExpansion(System.Char,System.Int32),
         FullName: System.Text.StringBuilder.AppendWithExpansion,
         Id: M:System.Text.StringBuilder.AppendWithExpansion(System.Char,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: AppendWithExpansion,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendWithExpansion(System.Char),
@@ -738,13 +693,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Char[],System.Int32,System.Int32),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Char[],System.Int32,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -807,13 +760,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.String),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.String),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -858,13 +809,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.String,System.Int32,System.Int32),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.String,System.Int32,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -927,13 +876,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Text.StringBuilder),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Text.StringBuilder),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -978,13 +925,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Text.StringBuilder,System.Int32,System.Int32),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Text.StringBuilder,System.Int32,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -1047,13 +992,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendCore(System.Text.StringBuilder,System.Int32,System.Int32),
         FullName: System.Text.StringBuilder.AppendCore,
         Id: M:System.Text.StringBuilder.AppendCore(System.Text.StringBuilder,System.Int32,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: AppendCore,
         Parameters: [
           {
@@ -1088,13 +1031,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendLine,
         FullName: System.Text.StringBuilder.AppendLine,
         Id: M:System.Text.StringBuilder.AppendLine,
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendLine,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendLine(System.String),
@@ -1105,13 +1046,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendLine(System.String),
         FullName: System.Text.StringBuilder.AppendLine,
         Id: M:System.Text.StringBuilder.AppendLine(System.String),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendLine,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendLine,
@@ -1133,13 +1072,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.CopyTo(System.Int32,System.Char[],System.Int32,System.Int32),
         FullName: System.Text.StringBuilder.CopyTo,
         Id: M:System.Text.StringBuilder.CopyTo(System.Int32,System.Char[],System.Int32,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: CopyTo,
         OverloadedMembers: [
           M:System.Text.StringBuilder.CopyTo(System.Int32,System.Span{System.Char},System.Int32)
@@ -1186,13 +1123,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.CopyTo(System.Int32,System.Span{System.Char},System.Int32),
         FullName: System.Text.StringBuilder.CopyTo,
         Id: M:System.Text.StringBuilder.CopyTo(System.Int32,System.Span{System.Char},System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: CopyTo,
         OverloadedMembers: [
           M:System.Text.StringBuilder.CopyTo(System.Int32,System.Char[],System.Int32,System.Int32)
@@ -1230,13 +1165,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.ReadOnlySpan{System.Char},System.Int32),
@@ -1293,13 +1226,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.ReadOnlySpan{System.Char},System.Int32),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.ReadOnlySpan{System.Char},System.Int32),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -1356,13 +1287,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Remove(System.Int32,System.Int32),
         FullName: System.Text.StringBuilder.Remove,
         Id: M:System.Text.StringBuilder.Remove(System.Int32,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Remove,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Remove(System.Int32,System.Int32,System.Text.StringBuilder@,System.Int32@)
@@ -1391,13 +1320,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Boolean),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Boolean),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -1442,13 +1369,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Char),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Char),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -1493,6 +1418,7 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Private,
         Attributes: [
           {
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -1505,9 +1431,6 @@
         FullName: System.Text.StringBuilder.AppendWithExpansion,
         Id: M:System.Text.StringBuilder.AppendWithExpansion(System.Char),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: AppendWithExpansion,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendWithExpansion(System.Char,System.Int32),
@@ -1528,6 +1451,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.CLSCompliantAttribute,
@@ -1540,9 +1464,6 @@
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.SByte),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -1587,13 +1508,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Byte),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Byte),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -1638,13 +1557,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Int16),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Int16),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -1689,13 +1606,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Int32),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -1740,13 +1655,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Int64),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Int64),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -1791,13 +1704,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Single),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Single),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -1842,13 +1753,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Double),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Double),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -1893,13 +1802,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Decimal),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Decimal),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -1944,6 +1851,7 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.CLSCompliantAttribute,
@@ -1956,9 +1864,6 @@
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.UInt16),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -2003,6 +1908,7 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.CLSCompliantAttribute,
@@ -2015,9 +1921,6 @@
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.UInt32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -2062,6 +1965,7 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.CLSCompliantAttribute,
@@ -2074,9 +1978,6 @@
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.UInt64),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -2121,13 +2022,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendSpanFormattable``1(``0),
         FullName: System.Text.StringBuilder.AppendSpanFormattable,
         Id: M:System.Text.StringBuilder.AppendSpanFormattable``1(``0),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: AppendSpanFormattable,
         Parameters: [
           {
@@ -2154,13 +2053,11 @@
         ]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Object),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Object),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -2205,13 +2102,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Char[]),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Char[]),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -2256,13 +2151,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.ReadOnlySpan{System.Char}),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.ReadOnlySpan{System.Char}),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -2307,13 +2200,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.ReadOnlyMemory{System.Char}),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.ReadOnlyMemory{System.Char}),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -2358,13 +2249,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Text.StringBuilder.AppendInterpolatedStringHandler@),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Text.StringBuilder.AppendInterpolatedStringHandler@),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -2412,13 +2301,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.IFormatProvider,System.Text.StringBuilder.AppendInterpolatedStringHandler@),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.IFormatProvider,System.Text.StringBuilder.AppendInterpolatedStringHandler@),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -2475,13 +2362,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendLine(System.Text.StringBuilder.AppendInterpolatedStringHandler@),
         FullName: System.Text.StringBuilder.AppendLine,
         Id: M:System.Text.StringBuilder.AppendLine(System.Text.StringBuilder.AppendInterpolatedStringHandler@),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendLine,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendLine,
@@ -2506,13 +2391,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendLine(System.IFormatProvider,System.Text.StringBuilder.AppendInterpolatedStringHandler@),
         FullName: System.Text.StringBuilder.AppendLine,
         Id: M:System.Text.StringBuilder.AppendLine(System.IFormatProvider,System.Text.StringBuilder.AppendInterpolatedStringHandler@),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendLine,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendLine,
@@ -2546,13 +2429,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendJoin(System.String,System.Object[]),
         FullName: System.Text.StringBuilder.AppendJoin,
         Id: M:System.Text.StringBuilder.AppendJoin(System.String,System.Object[]),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendJoin,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendJoin``1(System.String,System.Collections.Generic.IEnumerable{``0}),
@@ -2588,13 +2469,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendJoin``1(System.String,System.Collections.Generic.IEnumerable{``0}),
         FullName: System.Text.StringBuilder.AppendJoin,
         Id: M:System.Text.StringBuilder.AppendJoin``1(System.String,System.Collections.Generic.IEnumerable{``0}),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendJoin,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendJoin(System.String,System.Object[]),
@@ -2637,13 +2516,11 @@
         ]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendJoin(System.String,System.String[]),
         FullName: System.Text.StringBuilder.AppendJoin,
         Id: M:System.Text.StringBuilder.AppendJoin(System.String,System.String[]),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendJoin,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendJoin(System.String,System.Object[]),
@@ -2679,13 +2556,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendJoin(System.Char,System.Object[]),
         FullName: System.Text.StringBuilder.AppendJoin,
         Id: M:System.Text.StringBuilder.AppendJoin(System.Char,System.Object[]),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendJoin,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendJoin(System.String,System.Object[]),
@@ -2721,13 +2596,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendJoin``1(System.Char,System.Collections.Generic.IEnumerable{``0}),
         FullName: System.Text.StringBuilder.AppendJoin,
         Id: M:System.Text.StringBuilder.AppendJoin``1(System.Char,System.Collections.Generic.IEnumerable{``0}),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendJoin,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendJoin(System.String,System.Object[]),
@@ -2770,13 +2643,11 @@
         ]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendJoin(System.Char,System.String[]),
         FullName: System.Text.StringBuilder.AppendJoin,
         Id: M:System.Text.StringBuilder.AppendJoin(System.Char,System.String[]),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendJoin,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendJoin(System.String,System.Object[]),
@@ -2812,13 +2683,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendJoinCore``1(System.Char@,System.Int32,System.Collections.Generic.IEnumerable{``0}),
         FullName: System.Text.StringBuilder.AppendJoinCore,
         Id: M:System.Text.StringBuilder.AppendJoinCore``1(System.Char@,System.Int32,System.Collections.Generic.IEnumerable{``0}),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: AppendJoinCore,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendJoinCore``1(System.Char@,System.Int32,``0[])
@@ -2869,13 +2738,11 @@
         ]
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendJoinCore``1(System.Char@,System.Int32,``0[]),
         FullName: System.Text.StringBuilder.AppendJoinCore,
         Id: M:System.Text.StringBuilder.AppendJoinCore``1(System.Char@,System.Int32,``0[]),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: AppendJoinCore,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendJoinCore``1(System.Char@,System.Int32,System.Collections.Generic.IEnumerable{``0})
@@ -2926,13 +2793,11 @@
         ]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.String),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.String),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -2980,13 +2845,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Boolean),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.Boolean),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3034,6 +2897,7 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.CLSCompliantAttribute,
@@ -3046,9 +2910,6 @@
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.SByte),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3096,13 +2957,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Byte),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.Byte),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3150,13 +3009,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Int16),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.Int16),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3204,13 +3061,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Char),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.Char),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3258,13 +3113,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Char[]),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.Char[]),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3312,13 +3165,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Char[],System.Int32,System.Int32),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.Char[],System.Int32,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3384,13 +3235,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Int32),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3438,13 +3287,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Int64),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.Int64),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3492,13 +3339,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Single),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.Single),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3546,13 +3391,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Double),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.Double),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3600,13 +3443,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Decimal),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.Decimal),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3654,6 +3495,7 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.CLSCompliantAttribute,
@@ -3666,9 +3508,6 @@
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.UInt16),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3716,6 +3555,7 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.CLSCompliantAttribute,
@@ -3728,9 +3568,6 @@
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.UInt32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3778,6 +3615,7 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.CLSCompliantAttribute,
@@ -3790,9 +3628,6 @@
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.UInt64),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3840,13 +3675,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Object),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.Object),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3894,13 +3727,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.ReadOnlySpan{System.Char}),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.ReadOnlySpan{System.Char}),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -3948,13 +3779,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.InsertSpanFormattable``1(System.Int32,``0),
         FullName: System.Text.StringBuilder.InsertSpanFormattable,
         Id: M:System.Text.StringBuilder.InsertSpanFormattable``1(System.Int32,``0),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: InsertSpanFormattable,
         Parameters: [
           {
@@ -3990,13 +3819,11 @@
         ]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
         FullName: System.Text.StringBuilder.AppendFormat,
         Id: M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormat,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object),
@@ -4037,13 +3864,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object),
         FullName: System.Text.StringBuilder.AppendFormat,
         Id: M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormat,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
@@ -4093,13 +3918,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object,System.Object),
         FullName: System.Text.StringBuilder.AppendFormat,
         Id: M:System.Text.StringBuilder.AppendFormat(System.String,System.Object,System.Object,System.Object),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormat,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
@@ -4158,13 +3981,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.String,System.Object[]),
         FullName: System.Text.StringBuilder.AppendFormat,
         Id: M:System.Text.StringBuilder.AppendFormat(System.String,System.Object[]),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormat,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
@@ -4208,13 +4029,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object),
         FullName: System.Text.StringBuilder.AppendFormat,
         Id: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormat,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
@@ -4264,13 +4083,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object),
         FullName: System.Text.StringBuilder.AppendFormat,
         Id: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormat,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
@@ -4329,13 +4146,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object,System.Object),
         FullName: System.Text.StringBuilder.AppendFormat,
         Id: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object,System.Object,System.Object),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormat,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
@@ -4403,13 +4218,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object[]),
         FullName: System.Text.StringBuilder.AppendFormat,
         Id: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.String,System.Object[]),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormat,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
@@ -4462,13 +4275,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormatHelper(System.IFormatProvider,System.String,System.ReadOnlySpan{System.Object}),
         FullName: System.Text.StringBuilder.AppendFormatHelper,
         Id: M:System.Text.StringBuilder.AppendFormatHelper(System.IFormatProvider,System.String,System.ReadOnlySpan{System.Object}),
         Kind: Method,
-        Modifiers: [
-          Internal
-        ],
         Name: AppendFormatHelper,
         Parameters: [
           {
@@ -4503,13 +4314,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat``1(System.IFormatProvider,System.Text.CompositeFormat,``0),
         FullName: System.Text.StringBuilder.AppendFormat,
         Id: M:System.Text.StringBuilder.AppendFormat``1(System.IFormatProvider,System.Text.CompositeFormat,``0),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormat,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
@@ -4569,13 +4378,11 @@
         ]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat``2(System.IFormatProvider,System.Text.CompositeFormat,``0,``1),
         FullName: System.Text.StringBuilder.AppendFormat,
         Id: M:System.Text.StringBuilder.AppendFormat``2(System.IFormatProvider,System.Text.CompositeFormat,``0,``1),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormat,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
@@ -4652,13 +4459,11 @@
         ]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat``3(System.IFormatProvider,System.Text.CompositeFormat,``0,``1,``2),
         FullName: System.Text.StringBuilder.AppendFormat,
         Id: M:System.Text.StringBuilder.AppendFormat``3(System.IFormatProvider,System.Text.CompositeFormat,``0,``1,``2),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormat,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
@@ -4752,13 +4557,11 @@
         ]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.Text.CompositeFormat,System.Object[]),
         FullName: System.Text.StringBuilder.AppendFormat,
         Id: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.Text.CompositeFormat,System.Object[]),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormat,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
@@ -4811,13 +4614,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.Text.CompositeFormat,System.ReadOnlySpan{System.Object}),
         FullName: System.Text.StringBuilder.AppendFormat,
         Id: M:System.Text.StringBuilder.AppendFormat(System.IFormatProvider,System.Text.CompositeFormat,System.ReadOnlySpan{System.Object}),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormat,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
@@ -4867,13 +4668,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendFormat``3(System.IFormatProvider,System.Text.CompositeFormat,``0,``1,``2,System.ReadOnlySpan{System.Object}),
         FullName: System.Text.StringBuilder.AppendFormat,
         Id: M:System.Text.StringBuilder.AppendFormat``3(System.IFormatProvider,System.Text.CompositeFormat,``0,``1,``2,System.ReadOnlySpan{System.Object}),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: AppendFormat,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendFormat(System.String,System.Object),
@@ -4976,13 +4775,11 @@
         ]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Replace(System.String,System.String),
         FullName: System.Text.StringBuilder.Replace,
         Id: M:System.Text.StringBuilder.Replace(System.String,System.String),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Replace,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Replace(System.String,System.String,System.Int32,System.Int32),
@@ -5013,13 +4810,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Equals(System.Text.StringBuilder),
         FullName: System.Text.StringBuilder.Equals,
         Id: M:System.Text.StringBuilder.Equals(System.Text.StringBuilder),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Equals,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Equals(System.ReadOnlySpan{System.Char})
@@ -5039,13 +4834,11 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Equals(System.ReadOnlySpan{System.Char}),
         FullName: System.Text.StringBuilder.Equals,
         Id: M:System.Text.StringBuilder.Equals(System.ReadOnlySpan{System.Char}),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Equals,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Equals(System.Text.StringBuilder)
@@ -5065,13 +4858,11 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Replace(System.String,System.String,System.Int32,System.Int32),
         FullName: System.Text.StringBuilder.Replace,
         Id: M:System.Text.StringBuilder.Replace(System.String,System.String,System.Int32,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Replace,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Replace(System.String,System.String),
@@ -5120,13 +4911,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Replace(System.Char,System.Char),
         FullName: System.Text.StringBuilder.Replace,
         Id: M:System.Text.StringBuilder.Replace(System.Char,System.Char),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Replace,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Replace(System.String,System.String),
@@ -5157,13 +4946,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Replace(System.Char,System.Char,System.Int32,System.Int32),
         FullName: System.Text.StringBuilder.Replace,
         Id: M:System.Text.StringBuilder.Replace(System.Char,System.Char,System.Int32,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Replace,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Replace(System.String,System.String),
@@ -5212,6 +4999,7 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.CLSCompliantAttribute,
@@ -5224,9 +5012,6 @@
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Char*,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -5280,13 +5065,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Append(System.Char@,System.Int32),
         FullName: System.Text.StringBuilder.Append,
         Id: M:System.Text.StringBuilder.Append(System.Char@,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: Append,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -5343,13 +5126,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.AppendWithExpansion(System.Char@,System.Int32),
         FullName: System.Text.StringBuilder.AppendWithExpansion,
         Id: M:System.Text.StringBuilder.AppendWithExpansion(System.Char@,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: AppendWithExpansion,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendWithExpansion(System.Char,System.Int32),
@@ -5382,13 +5163,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Insert(System.Int32,System.Char@,System.Int32),
         FullName: System.Text.StringBuilder.Insert,
         Id: M:System.Text.StringBuilder.Insert(System.Int32,System.Char@,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: Insert,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -5448,13 +5227,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.ReplaceAllInChunk(System.ReadOnlySpan{System.Int32},System.Text.StringBuilder,System.Int32,System.String),
         FullName: System.Text.StringBuilder.ReplaceAllInChunk,
         Id: M:System.Text.StringBuilder.ReplaceAllInChunk(System.ReadOnlySpan{System.Int32},System.Text.StringBuilder,System.Int32,System.String),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: ReplaceAllInChunk,
         Parameters: [
           {
@@ -5498,13 +5275,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.StartsWith(System.Text.StringBuilder,System.Int32,System.Int32,System.String),
         FullName: System.Text.StringBuilder.StartsWith,
         Id: M:System.Text.StringBuilder.StartsWith(System.Text.StringBuilder,System.Int32,System.Int32,System.String),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: StartsWith,
         Parameters: [
           {
@@ -5548,13 +5323,11 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.ReplaceInPlaceAtChunk(System.Text.StringBuilder@,System.Int32@,System.Char@,System.Int32),
         FullName: System.Text.StringBuilder.ReplaceInPlaceAtChunk,
         Id: M:System.Text.StringBuilder.ReplaceInPlaceAtChunk(System.Text.StringBuilder@,System.Int32@,System.Char@,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: ReplaceInPlaceAtChunk,
         Parameters: [
           {
@@ -5607,13 +5380,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.FindChunkForIndex(System.Int32),
         FullName: System.Text.StringBuilder.FindChunkForIndex,
         Id: M:System.Text.StringBuilder.FindChunkForIndex(System.Int32),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: FindChunkForIndex,
         Parameters: [
           {
@@ -5630,13 +5401,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Next(System.Text.StringBuilder),
         FullName: System.Text.StringBuilder.Next,
         Id: M:System.Text.StringBuilder.Next(System.Text.StringBuilder),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: Next,
         Parameters: [
           {
@@ -5653,13 +5422,11 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.ExpandByABlock(System.Int32),
         FullName: System.Text.StringBuilder.ExpandByABlock,
         Id: M:System.Text.StringBuilder.ExpandByABlock(System.Int32),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: ExpandByABlock,
         Parameters: [
           {
@@ -5676,13 +5443,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.#ctor(System.Text.StringBuilder),
         FullName: System.Text.StringBuilder..ctor,
         Id: M:System.Text.StringBuilder.#ctor(System.Text.StringBuilder),
         Kind: Constructor,
-        Modifiers: [
-          Private
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Text.StringBuilder.#ctor,
@@ -5709,13 +5474,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.MakeRoom(System.Int32,System.Int32,System.Text.StringBuilder@,System.Int32@,System.Boolean),
         FullName: System.Text.StringBuilder.MakeRoom,
         Id: M:System.Text.StringBuilder.MakeRoom(System.Int32,System.Int32,System.Text.StringBuilder@,System.Int32@,System.Boolean),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: MakeRoom,
         Parameters: [
           {
@@ -5774,13 +5537,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.#ctor(System.Int32,System.Int32,System.Text.StringBuilder),
         FullName: System.Text.StringBuilder..ctor,
         Id: M:System.Text.StringBuilder.#ctor(System.Int32,System.Int32,System.Text.StringBuilder),
         Kind: Constructor,
-        Modifiers: [
-          Private
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Text.StringBuilder.#ctor,
@@ -5825,13 +5586,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.Remove(System.Int32,System.Int32,System.Text.StringBuilder@,System.Int32@),
         FullName: System.Text.StringBuilder.Remove,
         Id: M:System.Text.StringBuilder.Remove(System.Int32,System.Int32,System.Text.StringBuilder@,System.Int32@),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: Remove,
         OverloadedMembers: [
           M:System.Text.StringBuilder.Remove(System.Int32,System.Int32)
@@ -5884,42 +5643,37 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, P:System.Text.StringBuilder.Capacity,
         FullName: System.Text.StringBuilder.Capacity,
         Id: P:System.Text.StringBuilder.Capacity,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: Capacity,
         ParentId: T:System.Text.StringBuilder,
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, P:System.Text.StringBuilder.MaxCapacity,
         FullName: System.Text.StringBuilder.MaxCapacity,
         Id: P:System.Text.StringBuilder.MaxCapacity,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: MaxCapacity,
         ParentId: T:System.Text.StringBuilder,
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder, P:System.Text.StringBuilder.Length,
         FullName: System.Text.StringBuilder.Length,
         Id: P:System.Text.StringBuilder.Length,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: Length,
         ParentId: T:System.Text.StringBuilder,
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.Runtime.CompilerServices.IndexerNameAttribute,
@@ -5932,9 +5686,6 @@
         FullName: System.Text.StringBuilder.Chars,
         Id: P:System.Text.StringBuilder.Chars(System.Int32),
         Kind: Indexer,
-        Modifiers: [
-          Public
-        ],
         Name: Chars,
         Parameters: [
           {
@@ -5951,20 +5702,17 @@
         ReturnTypeId: T:System.Char
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder, P:System.Text.StringBuilder.RemainingCurrentChunk,
         FullName: System.Text.StringBuilder.RemainingCurrentChunk,
         Id: P:System.Text.StringBuilder.RemainingCurrentChunk,
         Kind: Property,
-        Modifiers: [
-          Private
-        ],
         Name: RemainingCurrentChunk,
         ParentId: T:System.Text.StringBuilder,
         ReturnTypeId: T:System.Span`1[[System.Char]]
       }
     ],
     Modifiers: [
-      Public,
       Sealed
     ],
     Name: StringBuilder,
@@ -5976,6 +5724,7 @@
     ParentId: N:System.Text
   },
   T:System.Text.StringBuilder, T:System.Text.StringBuilder.AppendInterpolatedStringHandler: {
+    Accessibility: Public,
     Attributes: [
       {
         FullName: System.ComponentModel.EditorBrowsableAttribute,
@@ -6052,12 +5801,12 @@
     Kind: Struct,
     Members: [
       {
+        Accessibility: Internal,
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, F:System.Text.StringBuilder.AppendInterpolatedStringHandler._stringBuilder,
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler._stringBuilder,
         Id: F:System.Text.StringBuilder.AppendInterpolatedStringHandler._stringBuilder,
         Kind: Field,
         Modifiers: [
-          Internal,
           ReadOnly
         ],
         Name: _stringBuilder,
@@ -6065,12 +5814,12 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, F:System.Text.StringBuilder.AppendInterpolatedStringHandler._provider,
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler._provider,
         Id: F:System.Text.StringBuilder.AppendInterpolatedStringHandler._provider,
         Kind: Field,
         Modifiers: [
-          Private,
           ReadOnly
         ],
         Name: _provider,
@@ -6078,12 +5827,12 @@
         ReturnTypeId: T:System.IFormatProvider
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, F:System.Text.StringBuilder.AppendInterpolatedStringHandler._hasCustomFormatter,
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler._hasCustomFormatter,
         Id: F:System.Text.StringBuilder.AppendInterpolatedStringHandler._hasCustomFormatter,
         Kind: Field,
         Modifiers: [
-          Private,
           ReadOnly
         ],
         Name: _hasCustomFormatter,
@@ -6091,13 +5840,11 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, M:System.Text.StringBuilder.AppendInterpolatedStringHandler.#ctor(System.Int32,System.Int32,System.Text.StringBuilder),
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler..ctor,
         Id: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.#ctor(System.Int32,System.Int32,System.Text.StringBuilder),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendInterpolatedStringHandler.#ctor(System.Int32,System.Int32,System.Text.StringBuilder,System.IFormatProvider)
@@ -6135,13 +5882,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, M:System.Text.StringBuilder.AppendInterpolatedStringHandler.#ctor(System.Int32,System.Int32,System.Text.StringBuilder,System.IFormatProvider),
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler..ctor,
         Id: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.#ctor(System.Int32,System.Int32,System.Text.StringBuilder,System.IFormatProvider),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendInterpolatedStringHandler.#ctor(System.Int32,System.Int32,System.Text.StringBuilder)
@@ -6188,13 +5933,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendLiteral(System.String),
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendLiteral,
         Id: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendLiteral(System.String),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendLiteral,
         Parameters: [
           {
@@ -6211,13 +5954,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0),
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted,
         Id: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormatted,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0,System.String),
@@ -6254,13 +5995,11 @@
         ]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0,System.String),
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted,
         Id: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0,System.String),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormatted,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0),
@@ -6306,13 +6045,11 @@
         ]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0,System.Int32),
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted,
         Id: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormatted,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0),
@@ -6358,13 +6095,11 @@
         ]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0,System.Int32,System.String),
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted,
         Id: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0,System.Int32,System.String),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormatted,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0),
@@ -6419,13 +6154,11 @@
         ]
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormattedWithTempSpace``1(``0,System.Int32,System.String),
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormattedWithTempSpace,
         Id: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormattedWithTempSpace``1(``0,System.Int32,System.String),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: AppendFormattedWithTempSpace,
         Parameters: [
           {
@@ -6470,13 +6203,11 @@
         ]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted(System.ReadOnlySpan{System.Char}),
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted,
         Id: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted(System.ReadOnlySpan{System.Char}),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormatted,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0),
@@ -6503,13 +6234,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted(System.ReadOnlySpan{System.Char},System.Int32,System.String),
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted,
         Id: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted(System.ReadOnlySpan{System.Char},System.Int32,System.String),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormatted,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0),
@@ -6556,13 +6285,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted(System.String),
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted,
         Id: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted(System.String),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormatted,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0),
@@ -6589,13 +6316,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted(System.String,System.Int32,System.String),
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted,
         Id: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted(System.String,System.Int32,System.String),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormatted,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0),
@@ -6642,13 +6367,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted(System.Object,System.Int32,System.String),
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted,
         Id: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted(System.Object,System.Int32,System.String),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: AppendFormatted,
         OverloadedMembers: [
           M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendFormatted``1(``0),
@@ -6695,6 +6418,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         Attributes: [
           {
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -6707,9 +6431,6 @@
         FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendCustomFormatter,
         Id: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendCustomFormatter``1(``0,System.String),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: AppendCustomFormatter,
         Parameters: [
           {
@@ -6745,14 +6466,12 @@
         ]
       }
     ],
-    Modifiers: [
-      Public
-    ],
     Name: AppendInterpolatedStringHandler,
     NamespaceId: T:System.Text.StringBuilder,
     ParentId: T:System.Text.StringBuilder
   },
   T:System.Text.StringBuilder, T:System.Text.StringBuilder.ChunkEnumerator: {
+    Accessibility: Public,
     Attributes: [
       {
         FullName: System.SerializableAttribute,
@@ -6817,12 +6536,12 @@
     Kind: Struct,
     Members: [
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder.ChunkEnumerator, F:System.Text.StringBuilder.ChunkEnumerator._firstChunk,
         FullName: System.Text.StringBuilder.ChunkEnumerator._firstChunk,
         Id: F:System.Text.StringBuilder.ChunkEnumerator._firstChunk,
         Kind: Field,
         Modifiers: [
-          Private,
           ReadOnly
         ],
         Name: _firstChunk,
@@ -6830,24 +6549,22 @@
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder.ChunkEnumerator, F:System.Text.StringBuilder.ChunkEnumerator._currentChunk,
         FullName: System.Text.StringBuilder.ChunkEnumerator._currentChunk,
         Id: F:System.Text.StringBuilder.ChunkEnumerator._currentChunk,
         Kind: Field,
-        Modifiers: [
-          Private
-        ],
         Name: _currentChunk,
         ParentId: T:System.Text.StringBuilder.ChunkEnumerator,
         ReturnTypeId: T:System.Text.StringBuilder
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder.ChunkEnumerator, F:System.Text.StringBuilder.ChunkEnumerator._manyChunks,
         FullName: System.Text.StringBuilder.ChunkEnumerator._manyChunks,
         Id: F:System.Text.StringBuilder.ChunkEnumerator._manyChunks,
         Kind: Field,
         Modifiers: [
-          Private,
           ReadOnly
         ],
         Name: _manyChunks,
@@ -6855,6 +6572,7 @@
         ReturnTypeId: T:System.Text.StringBuilder+ChunkEnumerator+ManyChunkInfo
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.ComponentModel.EditorBrowsableAttribute,
@@ -6867,33 +6585,26 @@
         FullName: System.Text.StringBuilder.ChunkEnumerator.GetEnumerator,
         Id: M:System.Text.StringBuilder.ChunkEnumerator.GetEnumerator,
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: GetEnumerator,
         ParentId: T:System.Text.StringBuilder.ChunkEnumerator,
         ReturnTypeId: T:System.Text.StringBuilder+ChunkEnumerator
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder.ChunkEnumerator, M:System.Text.StringBuilder.ChunkEnumerator.MoveNext,
         FullName: System.Text.StringBuilder.ChunkEnumerator.MoveNext,
         Id: M:System.Text.StringBuilder.ChunkEnumerator.MoveNext,
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: MoveNext,
         ParentId: T:System.Text.StringBuilder.ChunkEnumerator,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Text.StringBuilder.ChunkEnumerator, M:System.Text.StringBuilder.ChunkEnumerator.#ctor(System.Text.StringBuilder),
         FullName: System.Text.StringBuilder.ChunkEnumerator..ctor,
         Id: M:System.Text.StringBuilder.ChunkEnumerator.#ctor(System.Text.StringBuilder),
         Kind: Constructor,
-        Modifiers: [
-          Internal
-        ],
         Name: .ctor,
         Parameters: [
           {
@@ -6910,12 +6621,12 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder.ChunkEnumerator, M:System.Text.StringBuilder.ChunkEnumerator.ChunkCount(System.Text.StringBuilder),
         FullName: System.Text.StringBuilder.ChunkEnumerator.ChunkCount,
         Id: M:System.Text.StringBuilder.ChunkEnumerator.ChunkCount(System.Text.StringBuilder),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: ChunkCount,
@@ -6934,20 +6645,15 @@
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder.ChunkEnumerator, P:System.Text.StringBuilder.ChunkEnumerator.Current,
         FullName: System.Text.StringBuilder.ChunkEnumerator.Current,
         Id: P:System.Text.StringBuilder.ChunkEnumerator.Current,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: Current,
         ParentId: T:System.Text.StringBuilder.ChunkEnumerator,
         ReturnTypeId: T:System.ReadOnlyMemory`1[[System.Char]]
       }
-    ],
-    Modifiers: [
-      Public
     ],
     Name: ChunkEnumerator,
     NamespaceId: T:System.Text.StringBuilder,
@@ -6957,6 +6663,7 @@
     ParentId: T:System.Text.StringBuilder
   },
   T:System.Text.StringBuilder.ChunkEnumerator, T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo: {
+    Accessibility: Private,
     Attributes: [
       {
         FullName: System.SerializableAttribute,
@@ -7004,12 +6711,12 @@
     Kind: Class,
     Members: [
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo, F:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo._chunks,
         FullName: System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo._chunks,
         Id: F:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo._chunks,
         Kind: Field,
         Modifiers: [
-          Private,
           ReadOnly
         ],
         Name: _chunks,
@@ -7017,25 +6724,21 @@
         ReturnTypeId: T:System.Text.StringBuilder[]
       },
       {
+        Accessibility: Private,
         FullId: T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo, F:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo._chunkPos,
         FullName: System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo._chunkPos,
         Id: F:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo._chunkPos,
         Kind: Field,
-        Modifiers: [
-          Private
-        ],
         Name: _chunkPos,
         ParentId: T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo,
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo, M:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo.MoveNext(System.Text.StringBuilder@),
         FullName: System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo.MoveNext,
         Id: M:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo.MoveNext(System.Text.StringBuilder@),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: MoveNext,
         Parameters: [
           {
@@ -7055,13 +6758,11 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo, M:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo.#ctor(System.Text.StringBuilder,System.Int32),
         FullName: System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo..ctor,
         Id: M:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo.#ctor(System.Text.StringBuilder,System.Int32),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         Parameters: [
           {
@@ -7088,7 +6789,6 @@
       }
     ],
     Modifiers: [
-      Private,
       Sealed
     ],
     Name: ManyChunkInfo,

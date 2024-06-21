@@ -1,5 +1,6 @@
 ﻿{
   N:System, T:System.Predicate`1: {
+    Accessibility: Public,
     Attributes: [
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
@@ -61,7 +62,6 @@
     IsNested: false,
     Kind: Delegate,
     Modifiers: [
-      Public,
       Sealed
     ],
     Name: Predicate,

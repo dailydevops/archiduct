@@ -1,5 +1,6 @@
 ﻿{
   N:System, T:System.DayOfWeek: {
+    Accessibility: Public,
     Attributes: [
       {
         FullName: System.SerializableAttribute,
@@ -62,6 +63,7 @@
     Kind: Enum,
     Members: [
       {
+        Accessibility: Public,
         FullId: T:System.DayOfWeek, F:System.DayOfWeek.Sunday,
         FullName: System.DayOfWeek.Sunday,
         Id: F:System.DayOfWeek.Sunday,
@@ -72,6 +74,7 @@
         Value: 0
       },
       {
+        Accessibility: Public,
         FullId: T:System.DayOfWeek, F:System.DayOfWeek.Monday,
         FullName: System.DayOfWeek.Monday,
         Id: F:System.DayOfWeek.Monday,
@@ -82,6 +85,7 @@
         Value: 1
       },
       {
+        Accessibility: Public,
         FullId: T:System.DayOfWeek, F:System.DayOfWeek.Tuesday,
         FullName: System.DayOfWeek.Tuesday,
         Id: F:System.DayOfWeek.Tuesday,
@@ -92,6 +96,7 @@
         Value: 2
       },
       {
+        Accessibility: Public,
         FullId: T:System.DayOfWeek, F:System.DayOfWeek.Wednesday,
         FullName: System.DayOfWeek.Wednesday,
         Id: F:System.DayOfWeek.Wednesday,
@@ -102,6 +107,7 @@
         Value: 3
       },
       {
+        Accessibility: Public,
         FullId: T:System.DayOfWeek, F:System.DayOfWeek.Thursday,
         FullName: System.DayOfWeek.Thursday,
         Id: F:System.DayOfWeek.Thursday,
@@ -112,6 +118,7 @@
         Value: 4
       },
       {
+        Accessibility: Public,
         FullId: T:System.DayOfWeek, F:System.DayOfWeek.Friday,
         FullName: System.DayOfWeek.Friday,
         Id: F:System.DayOfWeek.Friday,
@@ -122,6 +129,7 @@
         Value: 5
       },
       {
+        Accessibility: Public,
         FullId: T:System.DayOfWeek, F:System.DayOfWeek.Saturday,
         FullName: System.DayOfWeek.Saturday,
         Id: F:System.DayOfWeek.Saturday,
@@ -131,9 +139,6 @@
         ReturnTypeId: T:System.DayOfWeek,
         Value: 6
       }
-    ],
-    Modifiers: [
-      Public
     ],
     Name: DayOfWeek,
     NamespaceId: N:System,

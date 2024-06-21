@@ -1,5 +1,6 @@
 ﻿{
   N:System, T:System.IDisposable: {
+    Accessibility: Public,
     Attributes: [
       {
         FullName: System.SerializableAttribute,
@@ -33,20 +34,15 @@
     Kind: Interface,
     Members: [
       {
+        Accessibility: Public,
         FullId: T:System.IDisposable, M:System.IDisposable.Dispose,
         FullName: System.IDisposable.Dispose,
         Id: M:System.IDisposable.Dispose,
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Dispose,
         ParentId: T:System.IDisposable,
         ReturnTypeId: T:System.Void
       }
-    ],
-    Modifiers: [
-      Public
     ],
     Name: IDisposable,
     NamespaceId: N:System,

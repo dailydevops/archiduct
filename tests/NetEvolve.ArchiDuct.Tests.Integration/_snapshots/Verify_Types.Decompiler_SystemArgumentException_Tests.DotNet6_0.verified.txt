@@ -1,5 +1,6 @@
 ﻿{
   N:System, T:System.ArgumentException: {
+    Accessibility: Public,
     Attributes: [
       {
         FullName: System.SerializableAttribute,
@@ -151,12 +152,12 @@
     Kind: Class,
     Members: [
       {
+        Accessibility: Private,
         FullId: T:System.ArgumentException, F:System.ArgumentException._paramName,
         FullName: System.ArgumentException._paramName,
         Id: F:System.ArgumentException._paramName,
         Kind: Field,
         Modifiers: [
-          Private,
           ReadOnly
         ],
         Name: _paramName,
@@ -164,13 +165,11 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor,
         FullName: System.ArgumentException..ctor,
         Id: M:System.ArgumentException.#ctor,
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.ArgumentException.#ctor(System.String),
@@ -183,13 +182,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.String),
         FullName: System.ArgumentException..ctor,
         Id: M:System.ArgumentException.#ctor(System.String),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.ArgumentException.#ctor,
@@ -213,13 +210,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.String,System.Exception),
         FullName: System.ArgumentException..ctor,
         Id: M:System.ArgumentException.#ctor(System.String,System.Exception),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.ArgumentException.#ctor,
@@ -252,13 +247,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
         FullName: System.ArgumentException..ctor,
         Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.ArgumentException.#ctor,
@@ -300,13 +293,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.String,System.String),
         FullName: System.ArgumentException..ctor,
         Id: M:System.ArgumentException.#ctor(System.String,System.String),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.ArgumentException.#ctor,
@@ -339,13 +330,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Protected,
         FullId: T:System.ArgumentException, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         FullName: System.ArgumentException..ctor,
         Id: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         Kind: Constructor,
-        Modifiers: [
-          Protected
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.ArgumentException.#ctor,
@@ -378,12 +367,12 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.ArgumentException, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         FullName: System.ArgumentException.GetObjectData,
         Id: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         Kind: Method,
         Modifiers: [
-          Public,
           Override
         ],
         Name: GetObjectData,
@@ -411,24 +400,22 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.ArgumentException, M:System.ArgumentException.SetMessageField,
         FullName: System.ArgumentException.SetMessageField,
         Id: M:System.ArgumentException.SetMessageField,
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: SetMessageField,
         ParentId: T:System.ArgumentException,
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.ArgumentException, P:System.ArgumentException.Message,
         FullName: System.ArgumentException.Message,
         Id: P:System.ArgumentException.Message,
         Kind: Property,
         Modifiers: [
-          Public,
           Override
         ],
         Name: Message,
@@ -436,21 +423,18 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.ArgumentException, P:System.ArgumentException.ParamName,
         FullName: System.ArgumentException.ParamName,
         Id: P:System.ArgumentException.ParamName,
         Kind: Property,
         Modifiers: [
-          Public,
           Virtual
         ],
         Name: ParamName,
         ParentId: T:System.ArgumentException,
         ReturnTypeId: T:System.String
       }
-    ],
-    Modifiers: [
-      Public
     ],
     Name: ArgumentException,
     NamespaceId: N:System,

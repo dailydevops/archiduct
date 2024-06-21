@@ -1,5 +1,6 @@
 ﻿{
   N:System, T:System.IComparable: {
+    Accessibility: Public,
     Attributes: [
       {
         FullName: System.SerializableAttribute,
@@ -33,13 +34,11 @@
     Kind: Interface,
     Members: [
       {
+        Accessibility: Public,
         FullId: T:System.IComparable, M:System.IComparable.CompareTo(System.Object),
         FullName: System.IComparable.CompareTo,
         Id: M:System.IComparable.CompareTo(System.Object),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: CompareTo,
         Parameters: [
           {
@@ -55,9 +54,6 @@
         ParentId: T:System.IComparable,
         ReturnTypeId: T:System.Int32
       }
-    ],
-    Modifiers: [
-      Public
     ],
     Name: IComparable,
     NamespaceId: N:System,
