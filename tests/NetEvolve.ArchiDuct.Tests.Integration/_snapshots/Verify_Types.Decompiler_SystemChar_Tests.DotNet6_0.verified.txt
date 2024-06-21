@@ -126,7 +126,7 @@
         FullId: T:System.Char, F:System.Char.MaxValue,
         FullName: System.Char.MaxValue,
         Id: F:System.Char.MaxValue,
-        Kind: Field,
+        Kind: Constant,
         Modifiers: [
           Static
         ],
@@ -139,7 +139,7 @@
         FullId: T:System.Char, F:System.Char.MinValue,
         FullName: System.Char.MinValue,
         Id: F:System.Char.MinValue,
-        Kind: Field,
+        Kind: Constant,
         Modifiers: [
           Static
         ],
