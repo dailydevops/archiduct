@@ -11,6 +11,11 @@ using ICSharpCode.Decompiler.TypeSystem;
 public abstract class ModelMemberBase : ModelEntityBase
 {
     /// <summary>
+    /// Accessibility of the member.
+    /// </summary>
+    public ModelAccessibility Accessibility { get; internal set; }
+
+    /// <summary>
     /// Collection of all modifiers for this type.
     /// </summary>
     public HashSet<ModelModifier> Modifiers { get; internal set; } = [];

@@ -1,5 +1,6 @@
 ﻿{
   N:System, T:System.StringSplitOptions: {
+    Accessibility: Public,
     Attributes: [
       {
         FullName: System.FlagsAttribute,
@@ -68,6 +69,7 @@
     Kind: Enum,
     Members: [
       {
+        Accessibility: Public,
         FullId: T:System.StringSplitOptions, F:System.StringSplitOptions.None,
         FullName: System.StringSplitOptions.None,
         Id: F:System.StringSplitOptions.None,
@@ -78,6 +80,7 @@
         Value: 0
       },
       {
+        Accessibility: Public,
         FullId: T:System.StringSplitOptions, F:System.StringSplitOptions.RemoveEmptyEntries,
         FullName: System.StringSplitOptions.RemoveEmptyEntries,
         Id: F:System.StringSplitOptions.RemoveEmptyEntries,
@@ -88,6 +91,7 @@
         Value: 1
       },
       {
+        Accessibility: Public,
         FullId: T:System.StringSplitOptions, F:System.StringSplitOptions.TrimEntries,
         FullName: System.StringSplitOptions.TrimEntries,
         Id: F:System.StringSplitOptions.TrimEntries,
@@ -97,9 +101,6 @@
         ReturnTypeId: T:System.StringSplitOptions,
         Value: 2
       }
-    ],
-    Modifiers: [
-      Public
     ],
     Name: StringSplitOptions,
     NamespaceId: N:System,

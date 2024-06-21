@@ -15,6 +15,11 @@ public abstract class ModelTypeBase : ModelEntityBase
     private readonly Dictionary<string, ModelMemberBase> _members;
 
     /// <summary>
+    /// Accessibility of the member.
+    /// </summary>
+    public ModelAccessibility Accessibility { get; internal set; }
+
+    /// <summary>
     /// Enumerable of all base type ids.
     /// </summary>
     public HashSet<string> BaseTypes { get; internal set; } = [];
