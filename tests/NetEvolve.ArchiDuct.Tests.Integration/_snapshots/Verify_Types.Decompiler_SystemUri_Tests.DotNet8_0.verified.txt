@@ -1,5 +1,6 @@
 ﻿{
   N:System, T:System.Uri: {
+    Accessibility: Public,
     Attributes: [
       {
         FullName: System.SerializableAttribute,
@@ -64,12 +65,12 @@
     Kind: Class,
     Members: [
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.UriSchemeFile,
         FullName: System.Uri.UriSchemeFile,
         Id: F:System.Uri.UriSchemeFile,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -78,12 +79,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.UriSchemeFtp,
         FullName: System.Uri.UriSchemeFtp,
         Id: F:System.Uri.UriSchemeFtp,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -92,12 +93,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.UriSchemeSftp,
         FullName: System.Uri.UriSchemeSftp,
         Id: F:System.Uri.UriSchemeSftp,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -106,12 +107,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.UriSchemeFtps,
         FullName: System.Uri.UriSchemeFtps,
         Id: F:System.Uri.UriSchemeFtps,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -120,12 +121,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.UriSchemeGopher,
         FullName: System.Uri.UriSchemeGopher,
         Id: F:System.Uri.UriSchemeGopher,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -134,12 +135,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.UriSchemeHttp,
         FullName: System.Uri.UriSchemeHttp,
         Id: F:System.Uri.UriSchemeHttp,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -148,12 +149,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.UriSchemeHttps,
         FullName: System.Uri.UriSchemeHttps,
         Id: F:System.Uri.UriSchemeHttps,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -162,12 +163,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.UriSchemeWs,
         FullName: System.Uri.UriSchemeWs,
         Id: F:System.Uri.UriSchemeWs,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -176,12 +177,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.UriSchemeWss,
         FullName: System.Uri.UriSchemeWss,
         Id: F:System.Uri.UriSchemeWss,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -190,12 +191,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.UriSchemeMailto,
         FullName: System.Uri.UriSchemeMailto,
         Id: F:System.Uri.UriSchemeMailto,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -204,12 +205,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.UriSchemeNews,
         FullName: System.Uri.UriSchemeNews,
         Id: F:System.Uri.UriSchemeNews,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -218,12 +219,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.UriSchemeNntp,
         FullName: System.Uri.UriSchemeNntp,
         Id: F:System.Uri.UriSchemeNntp,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -232,12 +233,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.UriSchemeSsh,
         FullName: System.Uri.UriSchemeSsh,
         Id: F:System.Uri.UriSchemeSsh,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -246,12 +247,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.UriSchemeTelnet,
         FullName: System.Uri.UriSchemeTelnet,
         Id: F:System.Uri.UriSchemeTelnet,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -260,12 +261,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.UriSchemeNetTcp,
         FullName: System.Uri.UriSchemeNetTcp,
         Id: F:System.Uri.UriSchemeNetTcp,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -274,12 +275,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.UriSchemeNetPipe,
         FullName: System.Uri.UriSchemeNetPipe,
         Id: F:System.Uri.UriSchemeNetPipe,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -288,12 +289,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, F:System.Uri.SchemeDelimiter,
         FullName: System.Uri.SchemeDelimiter,
         Id: F:System.Uri.SchemeDelimiter,
         Kind: Field,
         Modifiers: [
-          Public,
           Static,
           ReadOnly
         ],
@@ -302,72 +303,62 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, F:System.Uri._string,
         FullName: System.Uri._string,
         Id: F:System.Uri._string,
         Kind: Field,
-        Modifiers: [
-          Private
-        ],
         Name: _string,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, F:System.Uri._originalUnicodeString,
         FullName: System.Uri._originalUnicodeString,
         Id: F:System.Uri._originalUnicodeString,
         Kind: Field,
-        Modifiers: [
-          Private
-        ],
         Name: _originalUnicodeString,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Uri, F:System.Uri._syntax,
         FullName: System.Uri._syntax,
         Id: F:System.Uri._syntax,
         Kind: Field,
-        Modifiers: [
-          Internal
-        ],
         Name: _syntax,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.UriParser
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Uri, F:System.Uri._flags,
         FullName: System.Uri._flags,
         Id: F:System.Uri._flags,
         Kind: Field,
-        Modifiers: [
-          Internal
-        ],
         Name: _flags,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Uri+Flags
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, F:System.Uri._info,
         FullName: System.Uri._info,
         Id: F:System.Uri._info,
         Kind: Field,
-        Modifiers: [
-          Private
-        ],
         Name: _info,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Uri+UriInfo
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, F:System.Uri.s_schemeChars,
         FullName: System.Uri.s_schemeChars,
         Id: F:System.Uri.s_schemeChars,
         Kind: Field,
         Modifiers: [
-          Private,
           Static,
           ReadOnly
         ],
@@ -376,12 +367,12 @@
         ReturnTypeId: T:System.Buffers.SearchValues`1[[System.Char]]
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, F:System.Uri.s_segmentSeparatorChars,
         FullName: System.Uri.s_segmentSeparatorChars,
         Id: F:System.Uri.s_segmentSeparatorChars,
         Kind: Field,
         Modifiers: [
-          Private,
           Static,
           ReadOnly
         ],
@@ -390,13 +381,11 @@
         ReturnTypeId: T:System.Buffers.SearchValues`1[[System.Char]]
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.InterlockedSetFlags(System.Uri.Flags),
         FullName: System.Uri.InterlockedSetFlags,
         Id: M:System.Uri.InterlockedSetFlags(System.Uri.Flags),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: InterlockedSetFlags,
         Parameters: [
           {
@@ -413,12 +402,12 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Uri, M:System.Uri.IriParsingStatic(System.UriParser),
         FullName: System.Uri.IriParsingStatic,
         Id: M:System.Uri.IriParsingStatic(System.UriParser),
         Kind: Method,
         Modifiers: [
-          Internal,
           Static
         ],
         Name: IriParsingStatic,
@@ -437,13 +426,11 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.NotAny(System.Uri.Flags),
         FullName: System.Uri.NotAny,
         Id: M:System.Uri.NotAny(System.Uri.Flags),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: NotAny,
         Parameters: [
           {
@@ -460,13 +447,11 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.InFact(System.Uri.Flags),
         FullName: System.Uri.InFact,
         Id: M:System.Uri.InFact(System.Uri.Flags),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: InFact,
         Parameters: [
           {
@@ -483,12 +468,12 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.StaticNotAny(System.Uri.Flags,System.Uri.Flags),
         FullName: System.Uri.StaticNotAny,
         Id: M:System.Uri.StaticNotAny(System.Uri.Flags,System.Uri.Flags),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: StaticNotAny,
@@ -516,12 +501,12 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.StaticInFact(System.Uri.Flags,System.Uri.Flags),
         FullName: System.Uri.StaticInFact,
         Id: M:System.Uri.StaticInFact(System.Uri.Flags,System.Uri.Flags),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: StaticInFact,
@@ -549,6 +534,7 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         Attributes: [
           {
             FullName: System.Diagnostics.CodeAnalysis.MemberNotNullAttribute,
@@ -561,26 +547,22 @@
         FullName: System.Uri.EnsureUriInfo,
         Id: M:System.Uri.EnsureUriInfo,
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: EnsureUriInfo,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Uri+UriInfo
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.EnsureParseRemaining,
         FullName: System.Uri.EnsureParseRemaining,
         Id: M:System.Uri.EnsureParseRemaining,
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: EnsureParseRemaining,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         Attributes: [
           {
             FullName: System.Diagnostics.CodeAnalysis.MemberNotNullAttribute,
@@ -593,9 +575,6 @@
         FullName: System.Uri.EnsureHostString,
         Id: M:System.Uri.EnsureHostString(System.Boolean),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: EnsureHostString,
         Parameters: [
           {
@@ -612,13 +591,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.#ctor(System.String),
         FullName: System.Uri..ctor,
         Id: M:System.Uri.#ctor(System.String),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Uri.#ctor(System.String,System.Boolean),
@@ -645,6 +622,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.ObsoleteAttribute,
@@ -657,9 +635,6 @@
         FullName: System.Uri..ctor,
         Id: M:System.Uri.#ctor(System.String,System.Boolean),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Uri.#ctor(System.String),
@@ -695,6 +670,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.ObsoleteAttribute,
@@ -707,9 +683,6 @@
         FullName: System.Uri..ctor,
         Id: M:System.Uri.#ctor(System.Uri,System.String,System.Boolean),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Uri.#ctor(System.String),
@@ -754,13 +727,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.#ctor(System.String,System.UriKind),
         FullName: System.Uri..ctor,
         Id: M:System.Uri.#ctor(System.String,System.UriKind),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Uri.#ctor(System.String),
@@ -796,13 +767,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.#ctor(System.String,System.UriCreationOptions@),
         FullName: System.Uri..ctor,
         Id: M:System.Uri.#ctor(System.String,System.UriCreationOptions@),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Uri.#ctor(System.String),
@@ -841,13 +810,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.#ctor(System.Uri,System.String),
         FullName: System.Uri..ctor,
         Id: M:System.Uri.#ctor(System.Uri,System.String),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Uri.#ctor(System.String),
@@ -883,6 +850,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Protected,
         Attributes: [
           {
             FullName: System.ObsoleteAttribute,
@@ -901,9 +869,6 @@
         FullName: System.Uri..ctor,
         Id: M:System.Uri.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         Kind: Constructor,
-        Modifiers: [
-          Protected
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Uri.#ctor(System.String),
@@ -939,13 +904,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Protected,
         FullId: T:System.Uri, M:System.Uri.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         FullName: System.Uri.GetObjectData,
         Id: M:System.Uri.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         Kind: Method,
-        Modifiers: [
-          Protected
-        ],
         Name: GetObjectData,
         Parameters: [
           {
@@ -971,6 +934,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         Attributes: [
           {
             FullName: System.Diagnostics.CodeAnalysis.MemberNotNullAttribute,
@@ -983,9 +947,6 @@
         FullName: System.Uri.CreateUri,
         Id: M:System.Uri.CreateUri(System.Uri,System.String,System.Boolean),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: CreateUri,
         Parameters: [
           {
@@ -1020,13 +981,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.#ctor(System.Uri,System.Uri),
         FullName: System.Uri..ctor,
         Id: M:System.Uri.#ctor(System.Uri,System.Uri),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Uri.#ctor(System.String),
@@ -1062,12 +1021,12 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.GetCombinedString(System.Uri,System.String,System.Boolean,System.String@),
         FullName: System.Uri.GetCombinedString,
         Id: M:System.Uri.GetCombinedString(System.Uri,System.String,System.Boolean,System.String@),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: GetCombinedString,
@@ -1116,12 +1075,12 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.GetException(System.ParsingError),
         FullName: System.Uri.GetException,
         Id: M:System.Uri.GetException(System.ParsingError),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: GetException,
@@ -1140,12 +1099,12 @@
         ReturnTypeId: T:System.UriFormatException
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.StaticIsFile(System.UriParser),
         FullName: System.Uri.StaticIsFile,
         Id: M:System.Uri.StaticIsFile(System.UriParser),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: StaticIsFile,
@@ -1164,24 +1123,22 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.GetLocalPath,
         FullName: System.Uri.GetLocalPath,
         Id: M:System.Uri.GetLocalPath,
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: GetLocalPath,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.CheckHostName(System.String),
         FullName: System.Uri.CheckHostName,
         Id: M:System.Uri.CheckHostName(System.String),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: CheckHostName,
@@ -1200,13 +1157,11 @@
         ReturnTypeId: T:System.UriHostNameType
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.GetLeftPart(System.UriPartial),
         FullName: System.Uri.GetLeftPart,
         Id: M:System.Uri.GetLeftPart(System.UriPartial),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: GetLeftPart,
         Parameters: [
           {
@@ -1223,12 +1178,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.HexEscape(System.Char),
         FullName: System.Uri.HexEscape,
         Id: M:System.Uri.HexEscape(System.Char),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: HexEscape,
@@ -1247,12 +1202,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.HexUnescape(System.String,System.Int32@),
         FullName: System.Uri.HexUnescape,
         Id: M:System.Uri.HexUnescape(System.String,System.Int32@),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: HexUnescape,
@@ -1283,12 +1238,12 @@
         ReturnTypeId: T:System.Char
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.IsHexEncoding(System.String,System.Int32),
         FullName: System.Uri.IsHexEncoding,
         Id: M:System.Uri.IsHexEncoding(System.String,System.Int32),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: IsHexEncoding,
@@ -1316,12 +1271,12 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.CheckSchemeName(System.String),
         FullName: System.Uri.CheckSchemeName,
         Id: M:System.Uri.CheckSchemeName(System.String),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: CheckSchemeName,
@@ -1340,12 +1295,12 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.IsHexDigit(System.Char),
         FullName: System.Uri.IsHexDigit,
         Id: M:System.Uri.IsHexDigit(System.Char),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: IsHexDigit,
@@ -1364,12 +1319,12 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.FromHex(System.Char),
         FullName: System.Uri.FromHex,
         Id: M:System.Uri.FromHex(System.Char),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: FromHex,
@@ -1388,12 +1343,12 @@
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.GetHashCode,
         FullName: System.Uri.GetHashCode,
         Id: M:System.Uri.GetHashCode,
         Kind: Method,
         Modifiers: [
-          Public,
           Override
         ],
         Name: GetHashCode,
@@ -1401,12 +1356,12 @@
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.ToString,
         FullName: System.Uri.ToString,
         Id: M:System.Uri.ToString,
         Kind: Method,
         Modifiers: [
-          Public,
           Override
         ],
         Name: ToString,
@@ -1414,13 +1369,11 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.TryFormat(System.Span{System.Char},System.Int32@),
         FullName: System.Uri.TryFormat,
         Id: M:System.Uri.TryFormat(System.Span{System.Char},System.Int32@),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: TryFormat,
         Parameters: [
           {
@@ -1449,12 +1402,12 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.op_Equality(System.Uri,System.Uri),
         FullName: System.Uri.op_Equality,
         Id: M:System.Uri.op_Equality(System.Uri,System.Uri),
         Kind: Operator,
         Modifiers: [
-          Public,
           Static
         ],
         Name: op_Equality,
@@ -1482,12 +1435,12 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.op_Inequality(System.Uri,System.Uri),
         FullName: System.Uri.op_Inequality,
         Id: M:System.Uri.op_Inequality(System.Uri,System.Uri),
         Kind: Operator,
         Modifiers: [
-          Public,
           Static
         ],
         Name: op_Inequality,
@@ -1515,12 +1468,12 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.Equals(System.Object),
         FullName: System.Uri.Equals,
         Id: M:System.Uri.Equals(System.Object),
         Kind: Method,
         Modifiers: [
-          Public,
           Override
         ],
         Name: Equals,
@@ -1539,13 +1492,11 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.MakeRelativeUri(System.Uri),
         FullName: System.Uri.MakeRelativeUri,
         Id: M:System.Uri.MakeRelativeUri(System.Uri),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: MakeRelativeUri,
         Parameters: [
           {
@@ -1562,12 +1513,12 @@
         ReturnTypeId: T:System.Uri
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.CheckForColonInFirstPathSegment(System.String),
         FullName: System.Uri.CheckForColonInFirstPathSegment,
         Id: M:System.Uri.CheckForColonInFirstPathSegment(System.String),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: CheckForColonInFirstPathSegment,
@@ -1586,12 +1537,12 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Uri, M:System.Uri.InternalEscapeString(System.String),
         FullName: System.Uri.InternalEscapeString,
         Id: M:System.Uri.InternalEscapeString(System.String),
         Kind: Method,
         Modifiers: [
-          Internal,
           Static
         ],
         Name: InternalEscapeString,
@@ -1610,12 +1561,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.ParseScheme(System.String,System.Uri.Flags@,System.UriParser@),
         FullName: System.Uri.ParseScheme,
         Id: M:System.Uri.ParseScheme(System.String,System.Uri.Flags@,System.UriParser@),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: ParseScheme,
@@ -1658,37 +1609,31 @@
         ReturnTypeId: T:System.ParsingError
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Uri, M:System.Uri.ParseMinimal,
         FullName: System.Uri.ParseMinimal,
         Id: M:System.Uri.ParseMinimal,
         Kind: Method,
-        Modifiers: [
-          Internal
-        ],
         Name: ParseMinimal,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.UriFormatException
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.PrivateParseMinimal,
         FullName: System.Uri.PrivateParseMinimal,
         Id: M:System.Uri.PrivateParseMinimal,
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: PrivateParseMinimal,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.ParsingError
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.CreateUriInfo(System.Uri.Flags),
         FullName: System.Uri.CreateUriInfo,
         Id: M:System.Uri.CreateUriInfo(System.Uri.Flags),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: CreateUriInfo,
         Parameters: [
           {
@@ -1705,24 +1650,22 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.CreateHostString,
         FullName: System.Uri.CreateHostString,
         Id: M:System.Uri.CreateHostString,
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: CreateHostString,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.CreateHostStringHelper(System.String,System.Int32,System.Int32,System.Uri.Flags@,System.String@),
         FullName: System.Uri.CreateHostStringHelper,
         Id: M:System.Uri.CreateHostStringHelper(System.String,System.Int32,System.Int32,System.Uri.Flags@,System.String@),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: CreateHostStringHelper,
@@ -1783,25 +1726,21 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.GetHostViaCustomSyntax,
         FullName: System.Uri.GetHostViaCustomSyntax,
         Id: M:System.Uri.GetHostViaCustomSyntax,
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: GetHostViaCustomSyntax,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Uri, M:System.Uri.GetParts(System.UriComponents,System.UriFormat),
         FullName: System.Uri.GetParts,
         Id: M:System.Uri.GetParts(System.UriComponents,System.UriFormat),
         Kind: Method,
-        Modifiers: [
-          Internal
-        ],
         Name: GetParts,
         Parameters: [
           {
@@ -1827,13 +1766,11 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.GetEscapedParts(System.UriComponents),
         FullName: System.Uri.GetEscapedParts,
         Id: M:System.Uri.GetEscapedParts(System.UriComponents),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: GetEscapedParts,
         Parameters: [
           {
@@ -1850,13 +1787,11 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.GetUnescapedParts(System.UriComponents,System.UriFormat),
         FullName: System.Uri.GetUnescapedParts,
         Id: M:System.Uri.GetUnescapedParts(System.UriComponents,System.UriFormat),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: GetUnescapedParts,
         Parameters: [
           {
@@ -1882,13 +1817,11 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.RecreateParts(System.UriComponents,System.UInt16,System.UriFormat),
         FullName: System.Uri.RecreateParts,
         Id: M:System.Uri.RecreateParts(System.UriComponents,System.UInt16,System.UriFormat),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: RecreateParts,
         OverloadedMembers: [
           M:System.Uri.RecreateParts(System.Text.ValueStringBuilder@,System.String,System.UriComponents,System.UInt16,System.UriFormat)
@@ -1926,13 +1859,11 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.TryRecreateParts(System.Span{System.Char},System.Int32@,System.UriComponents,System.UInt16,System.UriFormat),
         FullName: System.Uri.TryRecreateParts,
         Id: M:System.Uri.TryRecreateParts(System.Span{System.Char},System.Int32@,System.UriComponents,System.UInt16,System.UriFormat),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: TryRecreateParts,
         Parameters: [
           {
@@ -1988,13 +1919,11 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.RecreateParts(System.Text.ValueStringBuilder@,System.String,System.UriComponents,System.UInt16,System.UriFormat),
         FullName: System.Uri.RecreateParts,
         Id: M:System.Uri.RecreateParts(System.Text.ValueStringBuilder@,System.String,System.UriComponents,System.UInt16,System.UriFormat),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: RecreateParts,
         OverloadedMembers: [
           M:System.Uri.RecreateParts(System.UriComponents,System.UInt16,System.UriFormat)
@@ -2053,13 +1982,11 @@
         ReturnTypeId: T:System.ReadOnlySpan`1[[System.Char]]
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.GetUriPartsFromUserString(System.UriComponents),
         FullName: System.Uri.GetUriPartsFromUserString,
         Id: M:System.Uri.GetUriPartsFromUserString(System.UriComponents),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: GetUriPartsFromUserString,
         Parameters: [
           {
@@ -2076,12 +2003,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.GetLengthWithoutTrailingSpaces(System.String,System.Int32@,System.Int32),
         FullName: System.Uri.GetLengthWithoutTrailingSpaces,
         Id: M:System.Uri.GetLengthWithoutTrailingSpaces(System.String,System.Int32@,System.Int32),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: GetLengthWithoutTrailingSpaces,
@@ -2121,24 +2048,22 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.ParseRemaining,
         FullName: System.Uri.ParseRemaining,
         Id: M:System.Uri.ParseRemaining,
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: ParseRemaining,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.ParseSchemeCheckImplicitFile(System.String,System.ParsingError@,System.Uri.Flags@,System.UriParser@),
         FullName: System.Uri.ParseSchemeCheckImplicitFile,
         Id: M:System.Uri.ParseSchemeCheckImplicitFile(System.String,System.ParsingError@,System.Uri.Flags@,System.UriParser@),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: ParseSchemeCheckImplicitFile,
@@ -2193,12 +2118,12 @@
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.CheckSchemeSyntax(System.ReadOnlySpan{System.Char},System.ParsingError@),
         FullName: System.Uri.CheckSchemeSyntax,
         Id: M:System.Uri.CheckSchemeSyntax(System.ReadOnlySpan{System.Char},System.ParsingError@),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: CheckSchemeSyntax,
@@ -2229,13 +2154,11 @@
         ReturnTypeId: T:System.UriParser
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.CheckAuthorityHelper(System.Char*,System.Int32,System.Int32,System.ParsingError@,System.Uri.Flags@,System.UriParser,System.String@),
         FullName: System.Uri.CheckAuthorityHelper,
         Id: M:System.Uri.CheckAuthorityHelper(System.Char*,System.Int32,System.Int32,System.ParsingError@,System.Uri.Flags@,System.UriParser,System.String@),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: CheckAuthorityHelper,
         Parameters: [
           {
@@ -2315,12 +2238,12 @@
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.CheckAuthorityHelperHandleDnsIri(System.Char*,System.Int32,System.Int32,System.Boolean,System.Uri.Flags@,System.Boolean@,System.String@,System.ParsingError@),
         FullName: System.Uri.CheckAuthorityHelperHandleDnsIri,
         Id: M:System.Uri.CheckAuthorityHelperHandleDnsIri(System.Char*,System.Int32,System.Int32,System.Boolean,System.Uri.Flags@,System.Boolean@,System.String@,System.ParsingError@),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: CheckAuthorityHelperHandleDnsIri,
@@ -2414,13 +2337,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.CheckCanonical(System.Char*,System.Int32@,System.Int32,System.Char),
         FullName: System.Uri.CheckCanonical,
         Id: M:System.Uri.CheckCanonical(System.Char*,System.Int32@,System.Int32,System.Char),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: CheckCanonical,
         Parameters: [
           {
@@ -2467,13 +2388,11 @@
         ReturnTypeId: T:System.Uri+Check
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.GetCanonicalPath(System.Text.ValueStringBuilder@,System.UriFormat),
         FullName: System.Uri.GetCanonicalPath,
         Id: M:System.Uri.GetCanonicalPath(System.Text.ValueStringBuilder@,System.UriFormat),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: GetCanonicalPath,
         Parameters: [
           {
@@ -2502,12 +2421,12 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.UnescapeOnly(System.Char*,System.Int32,System.Int32@,System.Char,System.Char,System.Char),
         FullName: System.Uri.UnescapeOnly,
         Id: M:System.Uri.UnescapeOnly(System.Char*,System.Int32,System.Int32@,System.Char,System.Char,System.Char),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: UnescapeOnly,
@@ -2574,12 +2493,12 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.Compress(System.Char[],System.Int32,System.Int32@,System.UriParser),
         FullName: System.Uri.Compress,
         Id: M:System.Uri.Compress(System.Char[],System.Int32,System.Int32@,System.UriParser),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: Compress,
@@ -2631,12 +2550,12 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.Compress(System.Span{System.Char},System.UriParser),
         FullName: System.Uri.Compress,
         Id: M:System.Uri.Compress(System.Span{System.Char},System.UriParser),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: Compress,
@@ -2667,12 +2586,12 @@
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.CombineUri(System.Uri,System.String,System.UriFormat),
         FullName: System.Uri.CombineUri,
         Id: M:System.Uri.CombineUri(System.Uri,System.String,System.UriFormat),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: CombineUri,
@@ -2709,12 +2628,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.PathDifference(System.String,System.String,System.Boolean),
         FullName: System.Uri.PathDifference,
         Id: M:System.Uri.PathDifference(System.String,System.String,System.Boolean),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: PathDifference,
@@ -2751,6 +2670,7 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.ObsoleteAttribute,
@@ -2763,9 +2683,6 @@
         FullName: System.Uri.MakeRelative,
         Id: M:System.Uri.MakeRelative(System.Uri),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: MakeRelative,
         Parameters: [
           {
@@ -2782,6 +2699,7 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Protected,
         Attributes: [
           {
             FullName: System.ObsoleteAttribute,
@@ -2795,7 +2713,6 @@
         Id: M:System.Uri.Canonicalize,
         Kind: Method,
         Modifiers: [
-          Protected,
           Virtual
         ],
         Name: Canonicalize,
@@ -2803,6 +2720,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Protected,
         Attributes: [
           {
             FullName: System.ObsoleteAttribute,
@@ -2816,7 +2734,6 @@
         Id: M:System.Uri.Parse,
         Kind: Method,
         Modifiers: [
-          Protected,
           Virtual
         ],
         Name: Parse,
@@ -2824,6 +2741,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Protected,
         Attributes: [
           {
             FullName: System.ObsoleteAttribute,
@@ -2837,7 +2755,6 @@
         Id: M:System.Uri.Escape,
         Kind: Method,
         Modifiers: [
-          Protected,
           Virtual
         ],
         Name: Escape,
@@ -2845,6 +2762,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Protected,
         Attributes: [
           {
             FullName: System.ObsoleteAttribute,
@@ -2858,7 +2776,6 @@
         Id: M:System.Uri.Unescape(System.String),
         Kind: Method,
         Modifiers: [
-          Protected,
           Virtual
         ],
         Name: Unescape,
@@ -2877,6 +2794,7 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Protected,
         Attributes: [
           {
             FullName: System.ObsoleteAttribute,
@@ -2890,7 +2808,6 @@
         Id: M:System.Uri.EscapeString(System.String),
         Kind: Method,
         Modifiers: [
-          Protected,
           Static
         ],
         Name: EscapeString,
@@ -2909,6 +2826,7 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Protected,
         Attributes: [
           {
             FullName: System.ObsoleteAttribute,
@@ -2922,7 +2840,6 @@
         Id: M:System.Uri.CheckSecurity,
         Kind: Method,
         Modifiers: [
-          Protected,
           Virtual
         ],
         Name: CheckSecurity,
@@ -2930,6 +2847,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Protected,
         Attributes: [
           {
             FullName: System.ObsoleteAttribute,
@@ -2943,7 +2861,6 @@
         Id: M:System.Uri.IsReservedCharacter(System.Char),
         Kind: Method,
         Modifiers: [
-          Protected,
           Virtual
         ],
         Name: IsReservedCharacter,
@@ -2962,6 +2879,7 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Protected,
         Attributes: [
           {
             FullName: System.ObsoleteAttribute,
@@ -2975,7 +2893,6 @@
         Id: M:System.Uri.IsExcludedCharacter(System.Char),
         Kind: Method,
         Modifiers: [
-          Protected,
           Static
         ],
         Name: IsExcludedCharacter,
@@ -2994,6 +2911,7 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Protected,
         Attributes: [
           {
             FullName: System.ObsoleteAttribute,
@@ -3007,7 +2925,6 @@
         Id: M:System.Uri.IsBadFileSystemCharacter(System.Char),
         Kind: Method,
         Modifiers: [
-          Protected,
           Virtual
         ],
         Name: IsBadFileSystemCharacter,
@@ -3026,6 +2943,7 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         Attributes: [
           {
             FullName: System.Diagnostics.CodeAnalysis.MemberNotNullAttribute,
@@ -3038,9 +2956,6 @@
         FullName: System.Uri.CreateThis,
         Id: M:System.Uri.CreateThis(System.String,System.Boolean,System.UriKind,System.UriCreationOptions@),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: CreateThis,
         Parameters: [
           {
@@ -3088,13 +3003,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.InitializeUri(System.ParsingError,System.UriKind,System.UriFormatException@),
         FullName: System.Uri.InitializeUri,
         Id: M:System.Uri.InitializeUri(System.ParsingError,System.UriKind,System.UriFormatException@),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: InitializeUri,
         Parameters: [
           {
@@ -3132,12 +3045,12 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.CheckForUnicodeOrEscapedUnreserved(System.String),
         FullName: System.Uri.CheckForUnicodeOrEscapedUnreserved,
         Id: M:System.Uri.CheckForUnicodeOrEscapedUnreserved(System.String),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: CheckForUnicodeOrEscapedUnreserved,
@@ -3156,12 +3069,12 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.TryCreate(System.String,System.UriKind,System.Uri@),
         FullName: System.Uri.TryCreate,
         Id: M:System.Uri.TryCreate(System.String,System.UriKind,System.Uri@),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: TryCreate,
@@ -3206,12 +3119,12 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.TryCreate(System.String,System.UriCreationOptions@,System.Uri@),
         FullName: System.Uri.TryCreate,
         Id: M:System.Uri.TryCreate(System.String,System.UriCreationOptions@,System.Uri@),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: TryCreate,
@@ -3259,12 +3172,12 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.TryCreate(System.Uri,System.String,System.Uri@),
         FullName: System.Uri.TryCreate,
         Id: M:System.Uri.TryCreate(System.Uri,System.String,System.Uri@),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: TryCreate,
@@ -3309,12 +3222,12 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.TryCreate(System.Uri,System.Uri,System.Uri@),
         FullName: System.Uri.TryCreate,
         Id: M:System.Uri.TryCreate(System.Uri,System.Uri,System.Uri@),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: TryCreate,
@@ -3359,13 +3272,11 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.GetComponents(System.UriComponents,System.UriFormat),
         FullName: System.Uri.GetComponents,
         Id: M:System.Uri.GetComponents(System.UriComponents,System.UriFormat),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: GetComponents,
         Parameters: [
           {
@@ -3391,13 +3302,11 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.InternalGetComponents(System.UriComponents,System.UriFormat),
         FullName: System.Uri.InternalGetComponents,
         Id: M:System.Uri.InternalGetComponents(System.UriComponents,System.UriFormat),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: InternalGetComponents,
         Parameters: [
           {
@@ -3423,12 +3332,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.Compare(System.Uri,System.Uri,System.UriComponents,System.UriFormat,System.StringComparison),
         FullName: System.Uri.Compare,
         Id: M:System.Uri.Compare(System.Uri,System.Uri,System.UriComponents,System.UriFormat,System.StringComparison),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: Compare,
@@ -3483,24 +3392,22 @@
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.IsWellFormedOriginalString,
         FullName: System.Uri.IsWellFormedOriginalString,
         Id: M:System.Uri.IsWellFormedOriginalString,
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: IsWellFormedOriginalString,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.IsWellFormedUriString(System.String,System.UriKind),
         FullName: System.Uri.IsWellFormedUriString,
         Id: M:System.Uri.IsWellFormedUriString(System.String,System.UriKind),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: IsWellFormedUriString,
@@ -3528,24 +3435,22 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Uri, M:System.Uri.InternalIsWellFormedOriginalString,
         FullName: System.Uri.InternalIsWellFormedOriginalString,
         Id: M:System.Uri.InternalIsWellFormedOriginalString,
         Kind: Method,
-        Modifiers: [
-          Internal
-        ],
         Name: InternalIsWellFormedOriginalString,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.UnescapeDataString(System.String),
         FullName: System.Uri.UnescapeDataString,
         Id: M:System.Uri.UnescapeDataString(System.String),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: UnescapeDataString,
@@ -3564,6 +3469,7 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.ObsoleteAttribute,
@@ -3577,7 +3483,6 @@
         Id: M:System.Uri.EscapeUriString(System.String),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: EscapeUriString,
@@ -3596,12 +3501,12 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.EscapeDataString(System.String),
         FullName: System.Uri.EscapeDataString,
         Id: M:System.Uri.EscapeDataString(System.String),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: EscapeDataString,
@@ -3620,13 +3525,11 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Uri, M:System.Uri.EscapeUnescapeIri(System.String,System.Int32,System.Int32,System.UriComponents),
         FullName: System.Uri.EscapeUnescapeIri,
         Id: M:System.Uri.EscapeUnescapeIri(System.String,System.Int32,System.Int32,System.UriComponents),
         Kind: Method,
-        Modifiers: [
-          Internal
-        ],
         Name: EscapeUnescapeIri,
         Parameters: [
           {
@@ -3670,13 +3573,11 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.#ctor(System.Uri.Flags,System.UriParser,System.String),
         FullName: System.Uri..ctor,
         Id: M:System.Uri.#ctor(System.Uri.Flags,System.UriParser,System.String),
         Kind: Constructor,
-        Modifiers: [
-          Private
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Uri.#ctor(System.String),
@@ -3721,12 +3622,12 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Uri, M:System.Uri.CreateHelper(System.String,System.Boolean,System.UriKind,System.UriFormatException@,System.UriCreationOptions@),
         FullName: System.Uri.CreateHelper,
         Id: M:System.Uri.CreateHelper(System.String,System.Boolean,System.UriKind,System.UriFormatException@,System.UriCreationOptions@),
         Kind: Method,
         Modifiers: [
-          Internal,
           Static
         ],
         Name: CreateHelper,
@@ -3788,12 +3689,12 @@
         ReturnTypeId: T:System.Uri
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Uri, M:System.Uri.ResolveHelper(System.Uri,System.Uri,System.String@,System.Boolean@),
         FullName: System.Uri.ResolveHelper,
         Id: M:System.Uri.ResolveHelper(System.Uri,System.Uri,System.String@,System.Boolean@),
         Kind: Method,
         Modifiers: [
-          Internal,
           Static
         ],
         Name: ResolveHelper,
@@ -3845,13 +3746,11 @@
         ReturnTypeId: T:System.Uri
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.GetRelativeSerializationString(System.UriFormat),
         FullName: System.Uri.GetRelativeSerializationString,
         Id: M:System.Uri.GetRelativeSerializationString(System.UriFormat),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: GetRelativeSerializationString,
         Parameters: [
           {
@@ -3868,13 +3767,11 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Uri, M:System.Uri.GetComponentsHelper(System.UriComponents,System.UriFormat),
         FullName: System.Uri.GetComponentsHelper,
         Id: M:System.Uri.GetComponentsHelper(System.UriComponents,System.UriFormat),
         Kind: Method,
-        Modifiers: [
-          Internal
-        ],
         Name: GetComponentsHelper,
         Parameters: [
           {
@@ -3900,13 +3797,11 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, M:System.Uri.IsBaseOf(System.Uri),
         FullName: System.Uri.IsBaseOf,
         Id: M:System.Uri.IsBaseOf(System.Uri),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: IsBaseOf,
         Parameters: [
           {
@@ -3923,13 +3818,11 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Uri, M:System.Uri.IsBaseOfHelper(System.Uri),
         FullName: System.Uri.IsBaseOfHelper,
         Id: M:System.Uri.IsBaseOfHelper(System.Uri),
         Kind: Method,
-        Modifiers: [
-          Internal
-        ],
         Name: IsBaseOfHelper,
         Parameters: [
           {
@@ -3946,6 +3839,7 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         Attributes: [
           {
             FullName: System.Diagnostics.CodeAnalysis.MemberNotNullAttribute,
@@ -3958,9 +3852,6 @@
         FullName: System.Uri.CreateThisFromUri,
         Id: M:System.Uri.CreateThisFromUri(System.Uri),
         Kind: Method,
-        Modifiers: [
-          Private
-        ],
         Name: CreateThisFromUri,
         Parameters: [
           {
@@ -3977,12 +3868,12 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, M:System.Uri.#cctor,
         FullName: System.Uri..cctor,
         Id: M:System.Uri.#cctor,
         Kind: StaticConstructor,
         Modifiers: [
-          Private,
           Static
         ],
         Name: .cctor,
@@ -3990,428 +3881,355 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, P:System.Uri.IsImplicitFile,
         FullName: System.Uri.IsImplicitFile,
         Id: P:System.Uri.IsImplicitFile,
         Kind: Property,
-        Modifiers: [
-          Private
-        ],
         Name: IsImplicitFile,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, P:System.Uri.IsUncOrDosPath,
         FullName: System.Uri.IsUncOrDosPath,
         Id: P:System.Uri.IsUncOrDosPath,
         Kind: Property,
-        Modifiers: [
-          Private
-        ],
         Name: IsUncOrDosPath,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, P:System.Uri.IsDosPath,
         FullName: System.Uri.IsDosPath,
         Id: P:System.Uri.IsDosPath,
         Kind: Property,
-        Modifiers: [
-          Private
-        ],
         Name: IsDosPath,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, P:System.Uri.IsUncPath,
         FullName: System.Uri.IsUncPath,
         Id: P:System.Uri.IsUncPath,
         Kind: Property,
-        Modifiers: [
-          Private
-        ],
         Name: IsUncPath,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, P:System.Uri.IsUnixPath,
         FullName: System.Uri.IsUnixPath,
         Id: P:System.Uri.IsUnixPath,
         Kind: Property,
-        Modifiers: [
-          Private
-        ],
         Name: IsUnixPath,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, P:System.Uri.HostType,
         FullName: System.Uri.HostType,
         Id: P:System.Uri.HostType,
         Kind: Property,
-        Modifiers: [
-          Private
-        ],
         Name: HostType,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Uri+Flags
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, P:System.Uri.Syntax,
         FullName: System.Uri.Syntax,
         Id: P:System.Uri.Syntax,
         Kind: Property,
-        Modifiers: [
-          Private
-        ],
         Name: Syntax,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.UriParser
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, P:System.Uri.IsNotAbsoluteUri,
         FullName: System.Uri.IsNotAbsoluteUri,
         Id: P:System.Uri.IsNotAbsoluteUri,
         Kind: Property,
-        Modifiers: [
-          Private
-        ],
         Name: IsNotAbsoluteUri,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, P:System.Uri.IriParsing,
         FullName: System.Uri.IriParsing,
         Id: P:System.Uri.IriParsing,
         Kind: Property,
-        Modifiers: [
-          Private
-        ],
         Name: IriParsing,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Uri, P:System.Uri.DisablePathAndQueryCanonicalization,
         FullName: System.Uri.DisablePathAndQueryCanonicalization,
         Id: P:System.Uri.DisablePathAndQueryCanonicalization,
         Kind: Property,
-        Modifiers: [
-          Internal
-        ],
         Name: DisablePathAndQueryCanonicalization,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Internal,
         FullId: T:System.Uri, P:System.Uri.UserDrivenParsing,
         FullName: System.Uri.UserDrivenParsing,
         Id: P:System.Uri.UserDrivenParsing,
         Kind: Property,
-        Modifiers: [
-          Internal
-        ],
         Name: UserDrivenParsing,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, P:System.Uri.SecuredPathIndex,
         FullName: System.Uri.SecuredPathIndex,
         Id: P:System.Uri.SecuredPathIndex,
         Kind: Property,
-        Modifiers: [
-          Private
-        ],
         Name: SecuredPathIndex,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.AbsolutePath,
         FullName: System.Uri.AbsolutePath,
         Id: P:System.Uri.AbsolutePath,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: AbsolutePath,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri, P:System.Uri.PrivateAbsolutePath,
         FullName: System.Uri.PrivateAbsolutePath,
         Id: P:System.Uri.PrivateAbsolutePath,
         Kind: Property,
-        Modifiers: [
-          Private
-        ],
         Name: PrivateAbsolutePath,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.AbsoluteUri,
         FullName: System.Uri.AbsoluteUri,
         Id: P:System.Uri.AbsoluteUri,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: AbsoluteUri,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.LocalPath,
         FullName: System.Uri.LocalPath,
         Id: P:System.Uri.LocalPath,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: LocalPath,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.Authority,
         FullName: System.Uri.Authority,
         Id: P:System.Uri.Authority,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: Authority,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.HostNameType,
         FullName: System.Uri.HostNameType,
         Id: P:System.Uri.HostNameType,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: HostNameType,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.UriHostNameType
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.IsDefaultPort,
         FullName: System.Uri.IsDefaultPort,
         Id: P:System.Uri.IsDefaultPort,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: IsDefaultPort,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.IsFile,
         FullName: System.Uri.IsFile,
         Id: P:System.Uri.IsFile,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: IsFile,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.IsLoopback,
         FullName: System.Uri.IsLoopback,
         Id: P:System.Uri.IsLoopback,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: IsLoopback,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.PathAndQuery,
         FullName: System.Uri.PathAndQuery,
         Id: P:System.Uri.PathAndQuery,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: PathAndQuery,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.Segments,
         FullName: System.Uri.Segments,
         Id: P:System.Uri.Segments,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: Segments,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String[]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.IsUnc,
         FullName: System.Uri.IsUnc,
         Id: P:System.Uri.IsUnc,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: IsUnc,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.Host,
         FullName: System.Uri.Host,
         Id: P:System.Uri.Host,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: Host,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.Port,
         FullName: System.Uri.Port,
         Id: P:System.Uri.Port,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: Port,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.Query,
         FullName: System.Uri.Query,
         Id: P:System.Uri.Query,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: Query,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.Fragment,
         FullName: System.Uri.Fragment,
         Id: P:System.Uri.Fragment,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: Fragment,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.Scheme,
         FullName: System.Uri.Scheme,
         Id: P:System.Uri.Scheme,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: Scheme,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.OriginalString,
         FullName: System.Uri.OriginalString,
         Id: P:System.Uri.OriginalString,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: OriginalString,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.DnsSafeHost,
         FullName: System.Uri.DnsSafeHost,
         Id: P:System.Uri.DnsSafeHost,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: DnsSafeHost,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.IdnHost,
         FullName: System.Uri.IdnHost,
         Id: P:System.Uri.IdnHost,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: IdnHost,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.IsAbsoluteUri,
         FullName: System.Uri.IsAbsoluteUri,
         Id: P:System.Uri.IsAbsoluteUri,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: IsAbsoluteUri,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.UserEscaped,
         FullName: System.Uri.UserEscaped,
         Id: P:System.Uri.UserEscaped,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: UserEscaped,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri, P:System.Uri.UserInfo,
         FullName: System.Uri.UserInfo,
         Id: P:System.Uri.UserInfo,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: UserInfo,
         ParentId: T:System.Uri,
         ReturnTypeId: T:System.String
       }
-    ],
-    Modifiers: [
-      Public
     ],
     Name: Uri,
     NamespaceId: N:System,
@@ -4425,6 +4243,7 @@
     ParentId: N:System
   },
   T:System.Uri, T:System.Uri.Check: {
+    Accessibility: Private,
     Attributes: [
       {
         FullName: System.FlagsAttribute,
@@ -4493,6 +4312,7 @@
     Kind: Enum,
     Members: [
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Check, F:System.Uri.Check.None,
         FullName: System.Uri.Check.None,
         Id: F:System.Uri.Check.None,
@@ -4503,6 +4323,7 @@
         Value: 0
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Check, F:System.Uri.Check.EscapedCanonical,
         FullName: System.Uri.Check.EscapedCanonical,
         Id: F:System.Uri.Check.EscapedCanonical,
@@ -4513,6 +4334,7 @@
         Value: 1
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Check, F:System.Uri.Check.DisplayCanonical,
         FullName: System.Uri.Check.DisplayCanonical,
         Id: F:System.Uri.Check.DisplayCanonical,
@@ -4523,6 +4345,7 @@
         Value: 2
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Check, F:System.Uri.Check.DotSlashAttn,
         FullName: System.Uri.Check.DotSlashAttn,
         Id: F:System.Uri.Check.DotSlashAttn,
@@ -4533,6 +4356,7 @@
         Value: 4
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Check, F:System.Uri.Check.DotSlashEscaped,
         FullName: System.Uri.Check.DotSlashEscaped,
         Id: F:System.Uri.Check.DotSlashEscaped,
@@ -4543,6 +4367,7 @@
         Value: 128
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Check, F:System.Uri.Check.BackslashInPath,
         FullName: System.Uri.Check.BackslashInPath,
         Id: F:System.Uri.Check.BackslashInPath,
@@ -4553,6 +4378,7 @@
         Value: 16
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Check, F:System.Uri.Check.ReservedFound,
         FullName: System.Uri.Check.ReservedFound,
         Id: F:System.Uri.Check.ReservedFound,
@@ -4563,6 +4389,7 @@
         Value: 32
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Check, F:System.Uri.Check.NotIriCanonical,
         FullName: System.Uri.Check.NotIriCanonical,
         Id: F:System.Uri.Check.NotIriCanonical,
@@ -4573,6 +4400,7 @@
         Value: 64
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Check, F:System.Uri.Check.FoundNonAscii,
         FullName: System.Uri.Check.FoundNonAscii,
         Id: F:System.Uri.Check.FoundNonAscii,
@@ -4583,15 +4411,13 @@
         Value: 8
       }
     ],
-    Modifiers: [
-      Private
-    ],
     Name: Check,
     NamespaceId: T:System.Uri,
     ParentId: T:System.Uri,
     UnderlyingType: T:System.Int32
   },
   T:System.Uri, T:System.Uri.Flags: {
+    Accessibility: Internal,
     Attributes: [
       {
         FullName: System.FlagsAttribute,
@@ -4660,6 +4486,7 @@
     Kind: Enum,
     Members: [
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.Zero,
         FullName: System.Uri.Flags.Zero,
         Id: F:System.Uri.Flags.Zero,
@@ -4670,6 +4497,7 @@
         Value: 0
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.SchemeNotCanonical,
         FullName: System.Uri.Flags.SchemeNotCanonical,
         Id: F:System.Uri.Flags.SchemeNotCanonical,
@@ -4680,6 +4508,7 @@
         Value: 1
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.UserNotCanonical,
         FullName: System.Uri.Flags.UserNotCanonical,
         Id: F:System.Uri.Flags.UserNotCanonical,
@@ -4690,6 +4519,7 @@
         Value: 2
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.HostNotCanonical,
         FullName: System.Uri.Flags.HostNotCanonical,
         Id: F:System.Uri.Flags.HostNotCanonical,
@@ -4700,6 +4530,7 @@
         Value: 4
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.PortNotCanonical,
         FullName: System.Uri.Flags.PortNotCanonical,
         Id: F:System.Uri.Flags.PortNotCanonical,
@@ -4710,6 +4541,7 @@
         Value: 8
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.PathNotCanonical,
         FullName: System.Uri.Flags.PathNotCanonical,
         Id: F:System.Uri.Flags.PathNotCanonical,
@@ -4720,6 +4552,7 @@
         Value: 16
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.QueryNotCanonical,
         FullName: System.Uri.Flags.QueryNotCanonical,
         Id: F:System.Uri.Flags.QueryNotCanonical,
@@ -4730,6 +4563,7 @@
         Value: 32
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.FragmentNotCanonical,
         FullName: System.Uri.Flags.FragmentNotCanonical,
         Id: F:System.Uri.Flags.FragmentNotCanonical,
@@ -4740,6 +4574,7 @@
         Value: 64
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.CannotDisplayCanonical,
         FullName: System.Uri.Flags.CannotDisplayCanonical,
         Id: F:System.Uri.Flags.CannotDisplayCanonical,
@@ -4750,6 +4585,7 @@
         Value: 127
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.E_UserNotCanonical,
         FullName: System.Uri.Flags.E_UserNotCanonical,
         Id: F:System.Uri.Flags.E_UserNotCanonical,
@@ -4760,6 +4596,7 @@
         Value: 128
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.E_HostNotCanonical,
         FullName: System.Uri.Flags.E_HostNotCanonical,
         Id: F:System.Uri.Flags.E_HostNotCanonical,
@@ -4770,6 +4607,7 @@
         Value: 256
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.E_PortNotCanonical,
         FullName: System.Uri.Flags.E_PortNotCanonical,
         Id: F:System.Uri.Flags.E_PortNotCanonical,
@@ -4780,6 +4618,7 @@
         Value: 512
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.E_PathNotCanonical,
         FullName: System.Uri.Flags.E_PathNotCanonical,
         Id: F:System.Uri.Flags.E_PathNotCanonical,
@@ -4790,6 +4629,7 @@
         Value: 1024
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.E_QueryNotCanonical,
         FullName: System.Uri.Flags.E_QueryNotCanonical,
         Id: F:System.Uri.Flags.E_QueryNotCanonical,
@@ -4800,6 +4640,7 @@
         Value: 2048
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.E_FragmentNotCanonical,
         FullName: System.Uri.Flags.E_FragmentNotCanonical,
         Id: F:System.Uri.Flags.E_FragmentNotCanonical,
@@ -4810,6 +4651,7 @@
         Value: 4096
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.E_CannotDisplayCanonical,
         FullName: System.Uri.Flags.E_CannotDisplayCanonical,
         Id: F:System.Uri.Flags.E_CannotDisplayCanonical,
@@ -4820,6 +4662,7 @@
         Value: 8064
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.ShouldBeCompressed,
         FullName: System.Uri.Flags.ShouldBeCompressed,
         Id: F:System.Uri.Flags.ShouldBeCompressed,
@@ -4830,6 +4673,7 @@
         Value: 8192
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.FirstSlashAbsent,
         FullName: System.Uri.Flags.FirstSlashAbsent,
         Id: F:System.Uri.Flags.FirstSlashAbsent,
@@ -4840,6 +4684,7 @@
         Value: 16384
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.BackslashInPath,
         FullName: System.Uri.Flags.BackslashInPath,
         Id: F:System.Uri.Flags.BackslashInPath,
@@ -4850,6 +4695,7 @@
         Value: 32768
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.IndexMask,
         FullName: System.Uri.Flags.IndexMask,
         Id: F:System.Uri.Flags.IndexMask,
@@ -4860,6 +4706,7 @@
         Value: 65535
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.HostTypeMask,
         FullName: System.Uri.Flags.HostTypeMask,
         Id: F:System.Uri.Flags.HostTypeMask,
@@ -4870,6 +4717,7 @@
         Value: 458752
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.HostNotParsed,
         FullName: System.Uri.Flags.HostNotParsed,
         Id: F:System.Uri.Flags.HostNotParsed,
@@ -4880,6 +4728,7 @@
         Value: 0
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.IPv6HostType,
         FullName: System.Uri.Flags.IPv6HostType,
         Id: F:System.Uri.Flags.IPv6HostType,
@@ -4890,6 +4739,7 @@
         Value: 65536
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.IPv4HostType,
         FullName: System.Uri.Flags.IPv4HostType,
         Id: F:System.Uri.Flags.IPv4HostType,
@@ -4900,6 +4750,7 @@
         Value: 131072
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.DnsHostType,
         FullName: System.Uri.Flags.DnsHostType,
         Id: F:System.Uri.Flags.DnsHostType,
@@ -4910,6 +4761,7 @@
         Value: 196608
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.UncHostType,
         FullName: System.Uri.Flags.UncHostType,
         Id: F:System.Uri.Flags.UncHostType,
@@ -4920,6 +4772,7 @@
         Value: 262144
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.BasicHostType,
         FullName: System.Uri.Flags.BasicHostType,
         Id: F:System.Uri.Flags.BasicHostType,
@@ -4930,6 +4783,7 @@
         Value: 327680
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.UnusedHostType,
         FullName: System.Uri.Flags.UnusedHostType,
         Id: F:System.Uri.Flags.UnusedHostType,
@@ -4940,6 +4794,7 @@
         Value: 393216
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.UnknownHostType,
         FullName: System.Uri.Flags.UnknownHostType,
         Id: F:System.Uri.Flags.UnknownHostType,
@@ -4950,6 +4805,7 @@
         Value: 458752
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.UserEscaped,
         FullName: System.Uri.Flags.UserEscaped,
         Id: F:System.Uri.Flags.UserEscaped,
@@ -4960,6 +4816,7 @@
         Value: 524288
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.AuthorityFound,
         FullName: System.Uri.Flags.AuthorityFound,
         Id: F:System.Uri.Flags.AuthorityFound,
@@ -4970,6 +4827,7 @@
         Value: 1048576
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.HasUserInfo,
         FullName: System.Uri.Flags.HasUserInfo,
         Id: F:System.Uri.Flags.HasUserInfo,
@@ -4980,6 +4838,7 @@
         Value: 2097152
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.LoopbackHost,
         FullName: System.Uri.Flags.LoopbackHost,
         Id: F:System.Uri.Flags.LoopbackHost,
@@ -4990,6 +4849,7 @@
         Value: 4194304
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.NotDefaultPort,
         FullName: System.Uri.Flags.NotDefaultPort,
         Id: F:System.Uri.Flags.NotDefaultPort,
@@ -5000,6 +4860,7 @@
         Value: 8388608
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.UserDrivenParsing,
         FullName: System.Uri.Flags.UserDrivenParsing,
         Id: F:System.Uri.Flags.UserDrivenParsing,
@@ -5010,6 +4871,7 @@
         Value: 16777216
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.CanonicalDnsHost,
         FullName: System.Uri.Flags.CanonicalDnsHost,
         Id: F:System.Uri.Flags.CanonicalDnsHost,
@@ -5020,6 +4882,7 @@
         Value: 33554432
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.ErrorOrParsingRecursion,
         FullName: System.Uri.Flags.ErrorOrParsingRecursion,
         Id: F:System.Uri.Flags.ErrorOrParsingRecursion,
@@ -5030,6 +4893,7 @@
         Value: 67108864
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.DosPath,
         FullName: System.Uri.Flags.DosPath,
         Id: F:System.Uri.Flags.DosPath,
@@ -5040,6 +4904,7 @@
         Value: 134217728
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.UncPath,
         FullName: System.Uri.Flags.UncPath,
         Id: F:System.Uri.Flags.UncPath,
@@ -5050,6 +4915,7 @@
         Value: 268435456
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.ImplicitFile,
         FullName: System.Uri.Flags.ImplicitFile,
         Id: F:System.Uri.Flags.ImplicitFile,
@@ -5060,6 +4926,7 @@
         Value: 536870912
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.MinimalUriInfoSet,
         FullName: System.Uri.Flags.MinimalUriInfoSet,
         Id: F:System.Uri.Flags.MinimalUriInfoSet,
@@ -5070,6 +4937,7 @@
         Value: 1073741824
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.AllUriInfoSet,
         FullName: System.Uri.Flags.AllUriInfoSet,
         Id: F:System.Uri.Flags.AllUriInfoSet,
@@ -5080,6 +4948,7 @@
         Value: 2147483648
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.IdnHost,
         FullName: System.Uri.Flags.IdnHost,
         Id: F:System.Uri.Flags.IdnHost,
@@ -5090,6 +4959,7 @@
         Value: 4294967296
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.HasUnicode,
         FullName: System.Uri.Flags.HasUnicode,
         Id: F:System.Uri.Flags.HasUnicode,
@@ -5100,6 +4970,7 @@
         Value: 8589934592
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.HostUnicodeNormalized,
         FullName: System.Uri.Flags.HostUnicodeNormalized,
         Id: F:System.Uri.Flags.HostUnicodeNormalized,
@@ -5110,6 +4981,7 @@
         Value: 17179869184
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.RestUnicodeNormalized,
         FullName: System.Uri.Flags.RestUnicodeNormalized,
         Id: F:System.Uri.Flags.RestUnicodeNormalized,
@@ -5120,6 +4992,7 @@
         Value: 34359738368
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.UnicodeHost,
         FullName: System.Uri.Flags.UnicodeHost,
         Id: F:System.Uri.Flags.UnicodeHost,
@@ -5130,6 +5003,7 @@
         Value: 68719476736
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.IntranetUri,
         FullName: System.Uri.Flags.IntranetUri,
         Id: F:System.Uri.Flags.IntranetUri,
@@ -5140,6 +5014,7 @@
         Value: 137438953472
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.UserIriCanonical,
         FullName: System.Uri.Flags.UserIriCanonical,
         Id: F:System.Uri.Flags.UserIriCanonical,
@@ -5150,6 +5025,7 @@
         Value: 549755813888
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.PathIriCanonical,
         FullName: System.Uri.Flags.PathIriCanonical,
         Id: F:System.Uri.Flags.PathIriCanonical,
@@ -5160,6 +5036,7 @@
         Value: 1099511627776
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.QueryIriCanonical,
         FullName: System.Uri.Flags.QueryIriCanonical,
         Id: F:System.Uri.Flags.QueryIriCanonical,
@@ -5170,6 +5047,7 @@
         Value: 2199023255552
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.FragmentIriCanonical,
         FullName: System.Uri.Flags.FragmentIriCanonical,
         Id: F:System.Uri.Flags.FragmentIriCanonical,
@@ -5180,6 +5058,7 @@
         Value: 4398046511104
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.IriCanonical,
         FullName: System.Uri.Flags.IriCanonical,
         Id: F:System.Uri.Flags.IriCanonical,
@@ -5190,6 +5069,7 @@
         Value: 8246337208320
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.UnixPath,
         FullName: System.Uri.Flags.UnixPath,
         Id: F:System.Uri.Flags.UnixPath,
@@ -5200,6 +5080,7 @@
         Value: 17592186044416
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.DisablePathAndQueryCanonicalization,
         FullName: System.Uri.Flags.DisablePathAndQueryCanonicalization,
         Id: F:System.Uri.Flags.DisablePathAndQueryCanonicalization,
@@ -5210,6 +5091,7 @@
         Value: 35184372088832
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.CustomParser_ParseMinimalAlreadyCalled,
         FullName: System.Uri.Flags.CustomParser_ParseMinimalAlreadyCalled,
         Id: F:System.Uri.Flags.CustomParser_ParseMinimalAlreadyCalled,
@@ -5220,6 +5102,7 @@
         Value: 4611686018427387904
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Flags, F:System.Uri.Flags.Debug_LeftConstructor,
         FullName: System.Uri.Flags.Debug_LeftConstructor,
         Id: F:System.Uri.Flags.Debug_LeftConstructor,
@@ -5230,15 +5113,13 @@
         Value: 9223372036854775808
       }
     ],
-    Modifiers: [
-      Internal
-    ],
     Name: Flags,
     NamespaceId: T:System.Uri,
     ParentId: T:System.Uri,
     UnderlyingType: T:System.UInt64
   },
   T:System.Uri, T:System.Uri.MoreInfo: {
+    Accessibility: Private,
     Attributes: [
       {
         FullName: System.SerializableAttribute,
@@ -5286,68 +5167,57 @@
     Kind: Class,
     Members: [
       {
+        Accessibility: Public,
         FullId: T:System.Uri.MoreInfo, F:System.Uri.MoreInfo.Path,
         FullName: System.Uri.MoreInfo.Path,
         Id: F:System.Uri.MoreInfo.Path,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: Path,
         ParentId: T:System.Uri.MoreInfo,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.MoreInfo, F:System.Uri.MoreInfo.Query,
         FullName: System.Uri.MoreInfo.Query,
         Id: F:System.Uri.MoreInfo.Query,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: Query,
         ParentId: T:System.Uri.MoreInfo,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.MoreInfo, F:System.Uri.MoreInfo.Fragment,
         FullName: System.Uri.MoreInfo.Fragment,
         Id: F:System.Uri.MoreInfo.Fragment,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: Fragment,
         ParentId: T:System.Uri.MoreInfo,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.MoreInfo, F:System.Uri.MoreInfo.AbsoluteUri,
         FullName: System.Uri.MoreInfo.AbsoluteUri,
         Id: F:System.Uri.MoreInfo.AbsoluteUri,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: AbsoluteUri,
         ParentId: T:System.Uri.MoreInfo,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.MoreInfo, F:System.Uri.MoreInfo.RemoteUrl,
         FullName: System.Uri.MoreInfo.RemoteUrl,
         Id: F:System.Uri.MoreInfo.RemoteUrl,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: RemoteUrl,
         ParentId: T:System.Uri.MoreInfo,
         ReturnTypeId: T:System.String
       }
     ],
     Modifiers: [
-      Private,
       Sealed
     ],
     Name: MoreInfo,
@@ -5355,6 +5225,7 @@
     ParentId: T:System.Uri
   },
   T:System.Uri, T:System.Uri.Offset: {
+    Accessibility: Private,
     Attributes: [
       {
         FullName: System.Runtime.InteropServices.StructLayoutAttribute,
@@ -5425,110 +5296,92 @@
     Kind: Struct,
     Members: [
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Offset, F:System.Uri.Offset.Scheme,
         FullName: System.Uri.Offset.Scheme,
         Id: F:System.Uri.Offset.Scheme,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: Scheme,
         ParentId: T:System.Uri.Offset,
         ReturnTypeId: T:System.UInt16
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Offset, F:System.Uri.Offset.User,
         FullName: System.Uri.Offset.User,
         Id: F:System.Uri.Offset.User,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: User,
         ParentId: T:System.Uri.Offset,
         ReturnTypeId: T:System.UInt16
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Offset, F:System.Uri.Offset.Host,
         FullName: System.Uri.Offset.Host,
         Id: F:System.Uri.Offset.Host,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: Host,
         ParentId: T:System.Uri.Offset,
         ReturnTypeId: T:System.UInt16
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Offset, F:System.Uri.Offset.PortValue,
         FullName: System.Uri.Offset.PortValue,
         Id: F:System.Uri.Offset.PortValue,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: PortValue,
         ParentId: T:System.Uri.Offset,
         ReturnTypeId: T:System.UInt16
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Offset, F:System.Uri.Offset.Path,
         FullName: System.Uri.Offset.Path,
         Id: F:System.Uri.Offset.Path,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: Path,
         ParentId: T:System.Uri.Offset,
         ReturnTypeId: T:System.UInt16
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Offset, F:System.Uri.Offset.Query,
         FullName: System.Uri.Offset.Query,
         Id: F:System.Uri.Offset.Query,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: Query,
         ParentId: T:System.Uri.Offset,
         ReturnTypeId: T:System.UInt16
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Offset, F:System.Uri.Offset.Fragment,
         FullName: System.Uri.Offset.Fragment,
         Id: F:System.Uri.Offset.Fragment,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: Fragment,
         ParentId: T:System.Uri.Offset,
         ReturnTypeId: T:System.UInt16
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.Offset, F:System.Uri.Offset.End,
         FullName: System.Uri.Offset.End,
         Id: F:System.Uri.Offset.End,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: End,
         ParentId: T:System.Uri.Offset,
         ReturnTypeId: T:System.UInt16
       }
-    ],
-    Modifiers: [
-      Private
     ],
     Name: Offset,
     NamespaceId: T:System.Uri,
     ParentId: T:System.Uri
   },
   T:System.Uri, T:System.Uri.UriInfo: {
+    Accessibility: Private,
     Attributes: [
       {
         FullName: System.SerializableAttribute,
@@ -5576,104 +5429,87 @@
     Kind: Class,
     Members: [
       {
+        Accessibility: Public,
         FullId: T:System.Uri.UriInfo, F:System.Uri.UriInfo.Offset,
         FullName: System.Uri.UriInfo.Offset,
         Id: F:System.Uri.UriInfo.Offset,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: Offset,
         ParentId: T:System.Uri.UriInfo,
         ReturnTypeId: T:System.Uri+Offset
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.UriInfo, F:System.Uri.UriInfo.String,
         FullName: System.Uri.UriInfo.String,
         Id: F:System.Uri.UriInfo.String,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: String,
         ParentId: T:System.Uri.UriInfo,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.UriInfo, F:System.Uri.UriInfo.Host,
         FullName: System.Uri.UriInfo.Host,
         Id: F:System.Uri.UriInfo.Host,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: Host,
         ParentId: T:System.Uri.UriInfo,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.UriInfo, F:System.Uri.UriInfo.IdnHost,
         FullName: System.Uri.UriInfo.IdnHost,
         Id: F:System.Uri.UriInfo.IdnHost,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: IdnHost,
         ParentId: T:System.Uri.UriInfo,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.UriInfo, F:System.Uri.UriInfo.PathAndQuery,
         FullName: System.Uri.UriInfo.PathAndQuery,
         Id: F:System.Uri.UriInfo.PathAndQuery,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: PathAndQuery,
         ParentId: T:System.Uri.UriInfo,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.UriInfo, F:System.Uri.UriInfo.ScopeId,
         FullName: System.Uri.UriInfo.ScopeId,
         Id: F:System.Uri.UriInfo.ScopeId,
         Kind: Field,
-        Modifiers: [
-          Public
-        ],
         Name: ScopeId,
         ParentId: T:System.Uri.UriInfo,
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Private,
         FullId: T:System.Uri.UriInfo, F:System.Uri.UriInfo._moreInfo,
         FullName: System.Uri.UriInfo._moreInfo,
         Id: F:System.Uri.UriInfo._moreInfo,
         Kind: Field,
-        Modifiers: [
-          Private
-        ],
         Name: _moreInfo,
         ParentId: T:System.Uri.UriInfo,
         ReturnTypeId: T:System.Uri+MoreInfo
       },
       {
+        Accessibility: Public,
         FullId: T:System.Uri.UriInfo, P:System.Uri.UriInfo.MoreInfo,
         FullName: System.Uri.UriInfo.MoreInfo,
         Id: P:System.Uri.UriInfo.MoreInfo,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: MoreInfo,
         ParentId: T:System.Uri.UriInfo,
         ReturnTypeId: T:System.Uri+MoreInfo
       }
     ],
     Modifiers: [
-      Private,
       Sealed
     ],
     Name: UriInfo,

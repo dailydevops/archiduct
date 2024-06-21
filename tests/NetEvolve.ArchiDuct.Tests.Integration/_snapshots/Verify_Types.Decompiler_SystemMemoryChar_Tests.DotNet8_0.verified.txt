@@ -1,5 +1,6 @@
 ﻿{
   N:System, T:System.Memory`1: {
+    Accessibility: Public,
     Attributes: [
       {
         FullName: System.Diagnostics.DebuggerTypeProxyAttribute,
@@ -79,12 +80,12 @@
     Kind: Struct,
     Members: [
       {
+        Accessibility: Private,
         FullId: T:System.Memory`1, F:System.Memory`1._object,
         FullName: System.Memory._object,
         Id: F:System.Memory`1._object,
         Kind: Field,
         Modifiers: [
-          Private,
           ReadOnly
         ],
         Name: _object,
@@ -92,12 +93,12 @@
         ReturnTypeId: T:System.Object
       },
       {
+        Accessibility: Private,
         FullId: T:System.Memory`1, F:System.Memory`1._index,
         FullName: System.Memory._index,
         Id: F:System.Memory`1._index,
         Kind: Field,
         Modifiers: [
-          Private,
           ReadOnly
         ],
         Name: _index,
@@ -105,12 +106,12 @@
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Private,
         FullId: T:System.Memory`1, F:System.Memory`1._length,
         FullName: System.Memory._length,
         Id: F:System.Memory`1._length,
         Kind: Field,
         Modifiers: [
-          Private,
           ReadOnly
         ],
         Name: _length,
@@ -118,6 +119,7 @@
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -130,9 +132,6 @@
         FullName: System.Memory..ctor,
         Id: M:System.Memory`1.#ctor(`0[]),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Memory`1.#ctor(`0[],System.Int32),
@@ -156,6 +155,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Internal,
         Attributes: [
           {
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -168,9 +168,6 @@
         FullName: System.Memory..ctor,
         Id: M:System.Memory`1.#ctor(`0[],System.Int32),
         Kind: Constructor,
-        Modifiers: [
-          Internal
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Memory`1.#ctor(`0[]),
@@ -203,6 +200,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -215,9 +213,6 @@
         FullName: System.Memory..ctor,
         Id: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Memory`1.#ctor(`0[]),
@@ -259,6 +254,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Internal,
         Attributes: [
           {
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -271,9 +267,6 @@
         FullName: System.Memory..ctor,
         Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
         Kind: Constructor,
-        Modifiers: [
-          Internal
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Memory`1.#ctor(`0[]),
@@ -306,6 +299,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Internal,
         Attributes: [
           {
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -318,9 +312,6 @@
         FullName: System.Memory..ctor,
         Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
         Kind: Constructor,
-        Modifiers: [
-          Internal
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Memory`1.#ctor(`0[]),
@@ -362,6 +353,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Internal,
         Attributes: [
           {
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -374,9 +366,6 @@
         FullName: System.Memory..ctor,
         Id: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
         Kind: Constructor,
-        Modifiers: [
-          Internal
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.Memory`1.#ctor(`0[]),
@@ -418,12 +407,12 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Memory`1, M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
         FullName: System.Memory.op_Implicit,
         Id: M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
         Kind: Operator,
         Modifiers: [
-          Public,
           Static
         ],
         Name: op_Implicit,
@@ -446,12 +435,12 @@
         ReturnTypeId: T:System.Memory`1[[`0]]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Memory`1, M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0},
         FullName: System.Memory.op_Implicit,
         Id: M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0},
         Kind: Operator,
         Modifiers: [
-          Public,
           Static
         ],
         Name: op_Implicit,
@@ -474,12 +463,12 @@
         ReturnTypeId: T:System.Memory`1[[`0]]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Memory`1, M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0},
         FullName: System.Memory.op_Implicit,
         Id: M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0},
         Kind: Operator,
         Modifiers: [
-          Public,
           Static
         ],
         Name: op_Implicit,
@@ -502,12 +491,12 @@
         ReturnTypeId: T:System.ReadOnlyMemory`1[[`0]]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Memory`1, M:System.Memory`1.ToString,
         FullName: System.Memory.ToString,
         Id: M:System.Memory`1.ToString,
         Kind: Method,
         Modifiers: [
-          Public,
           Override
         ],
         Name: ToString,
@@ -515,6 +504,7 @@
         ReturnTypeId: T:System.String
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -527,9 +517,6 @@
         FullName: System.Memory.Slice,
         Id: M:System.Memory`1.Slice(System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Slice,
         OverloadedMembers: [
           M:System.Memory`1.Slice(System.Int32,System.Int32)
@@ -549,6 +536,7 @@
         ReturnTypeId: T:System.Memory`1[[`0]]
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -561,9 +549,6 @@
         FullName: System.Memory.Slice,
         Id: M:System.Memory`1.Slice(System.Int32,System.Int32),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Slice,
         OverloadedMembers: [
           M:System.Memory`1.Slice(System.Int32)
@@ -592,13 +577,11 @@
         ReturnTypeId: T:System.Memory`1[[`0]]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Memory`1, M:System.Memory`1.CopyTo(System.Memory{`0}),
         FullName: System.Memory.CopyTo,
         Id: M:System.Memory`1.CopyTo(System.Memory{`0}),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: CopyTo,
         Parameters: [
           {
@@ -615,13 +598,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.Memory`1, M:System.Memory`1.TryCopyTo(System.Memory{`0}),
         FullName: System.Memory.TryCopyTo,
         Id: M:System.Memory`1.TryCopyTo(System.Memory{`0}),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: TryCopyTo,
         Parameters: [
           {
@@ -638,30 +619,27 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Memory`1, M:System.Memory`1.Pin,
         FullName: System.Memory.Pin,
         Id: M:System.Memory`1.Pin,
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Pin,
         ParentId: T:System.Memory`1,
         ReturnTypeId: T:System.Buffers.MemoryHandle
       },
       {
+        Accessibility: Public,
         FullId: T:System.Memory`1, M:System.Memory`1.ToArray,
         FullName: System.Memory.ToArray,
         Id: M:System.Memory`1.ToArray,
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: ToArray,
         ParentId: T:System.Memory`1,
         ReturnTypeId: T:`0[]
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.ComponentModel.EditorBrowsableAttribute,
@@ -681,7 +659,6 @@
         Id: M:System.Memory`1.Equals(System.Object),
         Kind: Method,
         Modifiers: [
-          Public,
           Override
         ],
         Name: Equals,
@@ -703,13 +680,11 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Memory`1, M:System.Memory`1.Equals(System.Memory{`0}),
         FullName: System.Memory.Equals,
         Id: M:System.Memory`1.Equals(System.Memory{`0}),
         Kind: Method,
-        Modifiers: [
-          Public
-        ],
         Name: Equals,
         OverloadedMembers: [
           M:System.Memory`1.Equals(System.Object)
@@ -729,6 +704,7 @@
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         Attributes: [
           {
             FullName: System.ComponentModel.EditorBrowsableAttribute,
@@ -748,7 +724,6 @@
         Id: M:System.Memory`1.GetHashCode,
         Kind: Method,
         Modifiers: [
-          Public,
           Override
         ],
         Name: GetHashCode,
@@ -756,12 +731,12 @@
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Public,
         FullId: T:System.Memory`1, P:System.Memory`1.Empty,
         FullName: System.Memory.Empty,
         Id: P:System.Memory`1.Empty,
         Kind: Property,
         Modifiers: [
-          Public,
           Static
         ],
         Name: Empty,
@@ -769,44 +744,37 @@
         ReturnTypeId: T:System.Memory`1[[`0]]
       },
       {
+        Accessibility: Public,
         FullId: T:System.Memory`1, P:System.Memory`1.Length,
         FullName: System.Memory.Length,
         Id: P:System.Memory`1.Length,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: Length,
         ParentId: T:System.Memory`1,
         ReturnTypeId: T:System.Int32
       },
       {
+        Accessibility: Public,
         FullId: T:System.Memory`1, P:System.Memory`1.IsEmpty,
         FullName: System.Memory.IsEmpty,
         Id: P:System.Memory`1.IsEmpty,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: IsEmpty,
         ParentId: T:System.Memory`1,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.Memory`1, P:System.Memory`1.Span,
         FullName: System.Memory.Span,
         Id: P:System.Memory`1.Span,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: Span,
         ParentId: T:System.Memory`1,
         ReturnTypeId: T:System.Span`1[[`0]]
       }
     ],
     Modifiers: [
-      Public,
       ReadOnly
     ],
     Name: Memory,

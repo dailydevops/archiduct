@@ -1,5 +1,6 @@
 ﻿{
   N:System, T:System.AttributeUsageAttribute: {
+    Accessibility: Public,
     Attributes: [
       {
         FullName: System.AttributeUsageAttribute,
@@ -124,12 +125,12 @@
     Kind: Class,
     Members: [
       {
+        Accessibility: Private,
         FullId: T:System.AttributeUsageAttribute, F:System.AttributeUsageAttribute._attributeTarget,
         FullName: System.AttributeUsageAttribute._attributeTarget,
         Id: F:System.AttributeUsageAttribute._attributeTarget,
         Kind: Field,
         Modifiers: [
-          Private,
           ReadOnly
         ],
         Name: _attributeTarget,
@@ -137,36 +138,32 @@
         ReturnTypeId: T:System.AttributeTargets
       },
       {
+        Accessibility: Private,
         FullId: T:System.AttributeUsageAttribute, F:System.AttributeUsageAttribute._allowMultiple,
         FullName: System.AttributeUsageAttribute._allowMultiple,
         Id: F:System.AttributeUsageAttribute._allowMultiple,
         Kind: Field,
-        Modifiers: [
-          Private
-        ],
         Name: _allowMultiple,
         ParentId: T:System.AttributeUsageAttribute,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Private,
         FullId: T:System.AttributeUsageAttribute, F:System.AttributeUsageAttribute._inherited,
         FullName: System.AttributeUsageAttribute._inherited,
         Id: F:System.AttributeUsageAttribute._inherited,
         Kind: Field,
-        Modifiers: [
-          Private
-        ],
         Name: _inherited,
         ParentId: T:System.AttributeUsageAttribute,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Internal,
         FullId: T:System.AttributeUsageAttribute, F:System.AttributeUsageAttribute.Default,
         FullName: System.AttributeUsageAttribute.Default,
         Id: F:System.AttributeUsageAttribute.Default,
         Kind: Field,
         Modifiers: [
-          Internal,
           Static,
           ReadOnly
         ],
@@ -175,13 +172,11 @@
         ReturnTypeId: T:System.AttributeUsageAttribute
       },
       {
+        Accessibility: Public,
         FullId: T:System.AttributeUsageAttribute, M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets),
         FullName: System.AttributeUsageAttribute..ctor,
         Id: M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets,System.Boolean,System.Boolean)
@@ -201,13 +196,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Internal,
         FullId: T:System.AttributeUsageAttribute, M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets,System.Boolean,System.Boolean),
         FullName: System.AttributeUsageAttribute..ctor,
         Id: M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets,System.Boolean,System.Boolean),
         Kind: Constructor,
-        Modifiers: [
-          Internal
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets)
@@ -245,12 +238,12 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         FullId: T:System.AttributeUsageAttribute, M:System.AttributeUsageAttribute.#cctor,
         FullName: System.AttributeUsageAttribute..cctor,
         Id: M:System.AttributeUsageAttribute.#cctor,
         Kind: StaticConstructor,
         Modifiers: [
-          Private,
           Static
         ],
         Name: .cctor,
@@ -258,44 +251,37 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.AttributeUsageAttribute, P:System.AttributeUsageAttribute.ValidOn,
         FullName: System.AttributeUsageAttribute.ValidOn,
         Id: P:System.AttributeUsageAttribute.ValidOn,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: ValidOn,
         ParentId: T:System.AttributeUsageAttribute,
         ReturnTypeId: T:System.AttributeTargets
       },
       {
+        Accessibility: Public,
         FullId: T:System.AttributeUsageAttribute, P:System.AttributeUsageAttribute.AllowMultiple,
         FullName: System.AttributeUsageAttribute.AllowMultiple,
         Id: P:System.AttributeUsageAttribute.AllowMultiple,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: AllowMultiple,
         ParentId: T:System.AttributeUsageAttribute,
         ReturnTypeId: T:System.Boolean
       },
       {
+        Accessibility: Public,
         FullId: T:System.AttributeUsageAttribute, P:System.AttributeUsageAttribute.Inherited,
         FullName: System.AttributeUsageAttribute.Inherited,
         Id: P:System.AttributeUsageAttribute.Inherited,
         Kind: Property,
-        Modifiers: [
-          Public
-        ],
         Name: Inherited,
         ParentId: T:System.AttributeUsageAttribute,
         ReturnTypeId: T:System.Boolean
       }
     ],
     Modifiers: [
-      Public,
       Sealed
     ],
     Name: AttributeUsageAttribute,

@@ -100,6 +100,8 @@ internal static class ModelFactory
             _ => throw new InvalidOperationException()
         };
 
+        model.Accessibility = MapAccessibility(member);
+
         model.ReturnTypeId = GetReturnTypeId(member);
         model.Modifiers = MapModifiers(member);
         model.Attributes = MapAttributes(member, resolver);
@@ -126,6 +128,8 @@ internal static class ModelFactory
         };
 #pragma warning restore IDE0072 // Add missing cases
 
+        model.Accessibility = MapAccessibility(typeDefinition);
+
         model.BaseTypes = typeDefinition.GetAllBaseTypeIds();
         model.Modifiers = MapModifiers(typeDefinition);
         model.Implementations = typeDefinition.GetAllImplementationIds();
@@ -134,6 +138,44 @@ internal static class ModelFactory
         model.Attributes = MapAttributes(typeDefinition, resolver);
 
         return model;
+    }
+
+    private static ModelAccessibility MapAccessibility(IMember member)
+    {
+        if (member.IsExplicitInterfaceImplementation)
+        {
+            return ModelAccessibility.None;
+        }
+
+        return member.Accessibility switch
+        {
+            Public => ModelAccessibility.Public,
+            ProtectedAndInternal => ModelAccessibility.PrivateProtected,
+            ProtectedOrInternal => ModelAccessibility.ProtectedInternal,
+            Protected => ModelAccessibility.Protected,
+            Internal => ModelAccessibility.Internal,
+            Private => ModelAccessibility.Private,
+            _ => ModelAccessibility.Internal,
+        };
+    }
+
+    private static ModelAccessibility MapAccessibility(ITypeDefinition typeDefinition)
+    {
+        if (HasFileAccessModifier(typeDefinition))
+        {
+            return ModelAccessibility.File;
+        }
+
+        return typeDefinition.Accessibility switch
+        {
+            Public => ModelAccessibility.Public,
+            ProtectedAndInternal => ModelAccessibility.PrivateProtected,
+            ProtectedOrInternal => ModelAccessibility.ProtectedInternal,
+            Protected => ModelAccessibility.Protected,
+            Internal => ModelAccessibility.Internal,
+            Private => ModelAccessibility.Private,
+            _ => ModelAccessibility.Internal,
+        };
     }
 
     internal static HashSet<ModelAttribute> MapAttributes(
@@ -254,31 +296,6 @@ internal static class ModelFactory
 
     private static IEnumerable<ModelModifier> GetModifiers(ITypeDefinition type)
     {
-        if (HasFileAccessModifier(type))
-        {
-            yield return ModelModifier.File;
-        }
-
-        if (type.Accessibility == Public)
-        {
-            yield return ModelModifier.Public;
-        }
-
-        if (type.Accessibility is Protected or ProtectedAndInternal or ProtectedOrInternal)
-        {
-            yield return ModelModifier.Protected;
-        }
-
-        if (type.Accessibility is Internal or ProtectedOrInternal)
-        {
-            yield return ModelModifier.Internal;
-        }
-
-        if (type.Accessibility is Private or ProtectedAndInternal)
-        {
-            yield return ModelModifier.Private;
-        }
-
         if (type.Kind != TypeKind.Enum)
         {
             if (type.IsAbstract && type.Kind != TypeKind.Interface)
@@ -318,29 +335,6 @@ internal static class ModelFactory
             m.DeclaringTypeDefinition
             ?? throw new ArgumentNullException(nameof(m.DeclaringTypeDefinition));
 #pragma warning restore CA2208, S3928 // Instantiate argument exceptions correctly
-
-        if (t.Kind != TypeKind.Enum && !m.IsExplicitInterfaceImplementation)
-        {
-            if (m.Accessibility == Public)
-            {
-                yield return ModelModifier.Public;
-            }
-
-            if (m.Accessibility is Protected or ProtectedAndInternal or ProtectedOrInternal)
-            {
-                yield return ModelModifier.Protected;
-            }
-
-            if (m.Accessibility is Internal or ProtectedOrInternal)
-            {
-                yield return ModelModifier.Internal;
-            }
-
-            if (m.Accessibility is Private or ProtectedAndInternal)
-            {
-                yield return ModelModifier.Private;
-            }
-        }
 
         if (t.Kind != TypeKind.Enum)
         {

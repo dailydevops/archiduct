@@ -1,5 +1,6 @@
 ﻿{
   N:System, T:System.ArgumentNullException: {
+    Accessibility: Public,
     Attributes: [
       {
         FullName: System.SerializableAttribute,
@@ -175,13 +176,11 @@
     Kind: Class,
     Members: [
       {
+        Accessibility: Public,
         FullId: T:System.ArgumentNullException, M:System.ArgumentNullException.#ctor,
         FullName: System.ArgumentNullException..ctor,
         Id: M:System.ArgumentNullException.#ctor,
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.ArgumentNullException.#ctor(System.String),
@@ -193,13 +192,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.ArgumentNullException, M:System.ArgumentNullException.#ctor(System.String),
         FullName: System.ArgumentNullException..ctor,
         Id: M:System.ArgumentNullException.#ctor(System.String),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.ArgumentNullException.#ctor,
@@ -222,13 +219,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.ArgumentNullException, M:System.ArgumentNullException.#ctor(System.String,System.Exception),
         FullName: System.ArgumentNullException..ctor,
         Id: M:System.ArgumentNullException.#ctor(System.String,System.Exception),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.ArgumentNullException.#ctor,
@@ -260,13 +255,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.ArgumentNullException, M:System.ArgumentNullException.#ctor(System.String,System.String),
         FullName: System.ArgumentNullException..ctor,
         Id: M:System.ArgumentNullException.#ctor(System.String,System.String),
         Kind: Constructor,
-        Modifiers: [
-          Public
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.ArgumentNullException.#ctor,
@@ -298,13 +291,11 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Protected,
         FullId: T:System.ArgumentNullException, M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         FullName: System.ArgumentNullException..ctor,
         Id: M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
         Kind: Constructor,
-        Modifiers: [
-          Protected
-        ],
         Name: .ctor,
         OverloadedMembers: [
           M:System.ArgumentNullException.#ctor,
@@ -336,12 +327,12 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Public,
         FullId: T:System.ArgumentNullException, M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String),
         FullName: System.ArgumentNullException.ThrowIfNull,
         Id: M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String),
         Kind: Method,
         Modifiers: [
-          Public,
           Static
         ],
         Name: ThrowIfNull,
@@ -370,6 +361,7 @@
         ReturnTypeId: T:System.Void
       },
       {
+        Accessibility: Private,
         Attributes: [
           {
             FullName: System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute,
@@ -383,7 +375,6 @@
         Id: M:System.ArgumentNullException.Throw(System.String),
         Kind: Method,
         Modifiers: [
-          Private,
           Static
         ],
         Name: Throw,
@@ -401,9 +392,6 @@
         ParentId: T:System.ArgumentNullException,
         ReturnTypeId: T:System.Void
       }
-    ],
-    Modifiers: [
-      Public
     ],
     Name: ArgumentNullException,
     NamespaceId: N:System,
