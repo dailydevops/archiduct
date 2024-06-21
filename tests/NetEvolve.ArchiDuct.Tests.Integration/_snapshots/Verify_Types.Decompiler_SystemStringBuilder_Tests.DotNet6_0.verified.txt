@@ -267,8 +267,7 @@
           M:System.Text.StringBuilder.#ctor(System.Text.StringBuilder),
           M:System.Text.StringBuilder.#ctor(System.Int32,System.Int32,System.Text.StringBuilder)
         ],
-        ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Text.StringBuilder
       },
       {
         Accessibility: Public,
@@ -298,8 +297,7 @@
             TypeId: T:System.Int32
           }
         ],
-        ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Text.StringBuilder
       },
       {
         Accessibility: Public,
@@ -329,8 +327,7 @@
             TypeId: T:System.String
           }
         ],
-        ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Text.StringBuilder
       },
       {
         Accessibility: Public,
@@ -369,8 +366,7 @@
             TypeId: T:System.Int32
           }
         ],
-        ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Text.StringBuilder
       },
       {
         Accessibility: Public,
@@ -427,8 +423,7 @@
             TypeId: T:System.Int32
           }
         ],
-        ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Text.StringBuilder
       },
       {
         Accessibility: Public,
@@ -467,8 +462,7 @@
             TypeId: T:System.Int32
           }
         ],
-        ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Text.StringBuilder
       },
       {
         Accessibility: Private,
@@ -504,6 +498,34 @@
             Kind: Parameter,
             Name: context,
             ParentId: M:System.Text.StringBuilder.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+            TypeId: T:System.Runtime.Serialization.StreamingContext
+          }
+        ],
+        ParentId: T:System.Text.StringBuilder
+      },
+      {
+        FullId: T:System.Text.StringBuilder, M:System.Text.StringBuilder.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+        FullName: System.Text.StringBuilder.System.Runtime.Serialization.ISerializable.GetObjectData,
+        Id: M:System.Text.StringBuilder.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+        Kind: ExplicitMethod,
+        Name: System.Runtime.Serialization.ISerializable.GetObjectData,
+        Parameters: [
+          {
+            FullId: M:System.Text.StringBuilder.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext), M:System.Text.StringBuilder.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
+            FullName: System.Text.StringBuilder.System.Runtime.Serialization.ISerializable.GetObjectData.info,
+            Id: M:System.Text.StringBuilder.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
+            Kind: Parameter,
+            Name: info,
+            ParentId: M:System.Text.StringBuilder.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+            TypeId: T:System.Runtime.Serialization.SerializationInfo
+          },
+          {
+            FullId: M:System.Text.StringBuilder.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext), M:System.Text.StringBuilder.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
+            FullName: System.Text.StringBuilder.System.Runtime.Serialization.ISerializable.GetObjectData.context,
+            Id: M:System.Text.StringBuilder.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
+            Kind: Parameter,
+            Name: context,
+            ParentId: M:System.Text.StringBuilder.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
             TypeId: T:System.Runtime.Serialization.StreamingContext
           }
         ],
@@ -4735,8 +4757,7 @@
             TypeId: T:System.Text.StringBuilder
           }
         ],
-        ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Text.StringBuilder
       },
       {
         Accessibility: Private,
@@ -4847,8 +4868,7 @@
             TypeId: T:System.Text.StringBuilder
           }
         ],
-        ParentId: T:System.Text.StringBuilder,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Text.StringBuilder
       },
       {
         Accessibility: Private,
@@ -5186,7 +5206,8 @@
         Kind: Constructor,
         Name: .ctor,
         OverloadedMembers: [
-          M:System.Text.StringBuilder.AppendInterpolatedStringHandler.#ctor(System.Int32,System.Int32,System.Text.StringBuilder,System.IFormatProvider)
+          M:System.Text.StringBuilder.AppendInterpolatedStringHandler.#ctor(System.Int32,System.Int32,System.Text.StringBuilder,System.IFormatProvider),
+          M:System.Text.StringBuilder.AppendInterpolatedStringHandler.#ctor
         ],
         Parameters: [
           {
@@ -5217,8 +5238,7 @@
             TypeId: T:System.Text.StringBuilder
           }
         ],
-        ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler
       },
       {
         Accessibility: Public,
@@ -5228,7 +5248,8 @@
         Kind: Constructor,
         Name: .ctor,
         OverloadedMembers: [
-          M:System.Text.StringBuilder.AppendInterpolatedStringHandler.#ctor(System.Int32,System.Int32,System.Text.StringBuilder)
+          M:System.Text.StringBuilder.AppendInterpolatedStringHandler.#ctor(System.Int32,System.Int32,System.Text.StringBuilder),
+          M:System.Text.StringBuilder.AppendInterpolatedStringHandler.#ctor
         ],
         Parameters: [
           {
@@ -5268,8 +5289,7 @@
             TypeId: T:System.IFormatProvider
           }
         ],
-        ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler
       },
       {
         Accessibility: Public,
@@ -5803,6 +5823,19 @@
             ParentId: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.AppendCustomFormatter``1(``0,System.String)
           }
         ]
+      },
+      {
+        Accessibility: Public,
+        FullId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler, M:System.Text.StringBuilder.AppendInterpolatedStringHandler.#ctor,
+        FullName: System.Text.StringBuilder.AppendInterpolatedStringHandler..ctor,
+        Id: M:System.Text.StringBuilder.AppendInterpolatedStringHandler.#ctor,
+        Kind: Constructor,
+        Name: .ctor,
+        OverloadedMembers: [
+          M:System.Text.StringBuilder.AppendInterpolatedStringHandler.#ctor(System.Int32,System.Int32,System.Text.StringBuilder),
+          M:System.Text.StringBuilder.AppendInterpolatedStringHandler.#ctor(System.Int32,System.Int32,System.Text.StringBuilder,System.IFormatProvider)
+        ],
+        ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler
       }
     ],
     Name: AppendInterpolatedStringHandler,
@@ -5947,6 +5980,9 @@
         Id: M:System.Text.StringBuilder.ChunkEnumerator.#ctor(System.Text.StringBuilder),
         Kind: Constructor,
         Name: .ctor,
+        OverloadedMembers: [
+          M:System.Text.StringBuilder.ChunkEnumerator.#ctor
+        ],
         Parameters: [
           {
             FullId: M:System.Text.StringBuilder.ChunkEnumerator.#ctor(System.Text.StringBuilder), M:System.Text.StringBuilder.ChunkEnumerator.#ctor(System.Text.StringBuilder).stringBuilder,
@@ -5958,8 +5994,7 @@
             TypeId: T:System.Text.StringBuilder
           }
         ],
-        ParentId: T:System.Text.StringBuilder.ChunkEnumerator,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Text.StringBuilder.ChunkEnumerator
       },
       {
         Accessibility: Private,
@@ -5984,6 +6019,18 @@
         ],
         ParentId: T:System.Text.StringBuilder.ChunkEnumerator,
         ReturnTypeId: T:System.Int32
+      },
+      {
+        Accessibility: Public,
+        FullId: T:System.Text.StringBuilder.ChunkEnumerator, M:System.Text.StringBuilder.ChunkEnumerator.#ctor,
+        FullName: System.Text.StringBuilder.ChunkEnumerator..ctor,
+        Id: M:System.Text.StringBuilder.ChunkEnumerator.#ctor,
+        Kind: Constructor,
+        Name: .ctor,
+        OverloadedMembers: [
+          M:System.Text.StringBuilder.ChunkEnumerator.#ctor(System.Text.StringBuilder)
+        ],
+        ParentId: T:System.Text.StringBuilder.ChunkEnumerator
       },
       {
         Accessibility: Public,
@@ -6134,8 +6181,7 @@
             TypeId: T:System.Int32
           }
         ],
-        ParentId: T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo,
-        ReturnTypeId: T:System.Void
+        ParentId: T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo
       }
     ],
     Modifiers: [

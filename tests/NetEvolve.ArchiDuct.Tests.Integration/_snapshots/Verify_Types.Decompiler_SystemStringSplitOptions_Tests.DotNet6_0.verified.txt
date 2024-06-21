@@ -100,6 +100,15 @@
         ParentId: T:System.StringSplitOptions,
         ReturnTypeId: T:System.StringSplitOptions,
         Value: 2
+      },
+      {
+        Accessibility: Public,
+        FullId: T:System.StringSplitOptions, M:System.StringSplitOptions.#ctor,
+        FullName: System.StringSplitOptions..ctor,
+        Id: M:System.StringSplitOptions.#ctor,
+        Kind: Constructor,
+        Name: .ctor,
+        ParentId: T:System.StringSplitOptions
       }
     ],
     Name: StringSplitOptions,
