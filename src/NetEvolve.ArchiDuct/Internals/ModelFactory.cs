@@ -43,9 +43,9 @@ internal static class ModelFactory
             m =>
             {
                 XmlDocumentationProvider? provider = null;
-                if (m.PEFile is not null && File.Exists(m.PEFile.FileName))
+                if (m.MetadataFile is not null && File.Exists(m.MetadataFile.FileName))
                 {
-                    provider = XmlDocLoader.LoadDocumentation(m.PEFile);
+                    provider = XmlDocLoader.LoadDocumentation(m.MetadataFile);
                 }
 
                 if (provider is null)
