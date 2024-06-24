@@ -67,44 +67,10 @@
     IsNested: false,
     Kind: Enum,
     Members: [
-      {
-        Accessibility: Public,
-        FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.StringSplitOptions.None,
-        Id: F:System.StringSplitOptions.None,
-        Kind: EnumMember,
-        Name: None,
-        ParentId: T:System.StringSplitOptions,
-        ReturnTypeId: T:System.StringSplitOptions,
-        Value: 0
-      },
-      {
-        Accessibility: Public,
-        FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.StringSplitOptions.RemoveEmptyEntries,
-        Id: F:System.StringSplitOptions.RemoveEmptyEntries,
-        Kind: EnumMember,
-        Name: RemoveEmptyEntries,
-        ParentId: T:System.StringSplitOptions,
-        ReturnTypeId: T:System.StringSplitOptions,
-        Value: 1
-      },
-      {
-        Accessibility: Public,
-        FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.StringSplitOptions.TrimEntries,
-        Id: F:System.StringSplitOptions.TrimEntries,
-        Kind: EnumMember,
-        Name: TrimEntries,
-        ParentId: T:System.StringSplitOptions,
-        ReturnTypeId: T:System.StringSplitOptions,
-        Value: 2
-      },
-      {
-        Accessibility: Public,
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.StringSplitOptions.#ctor,
-        Id: M:System.StringSplitOptions.#ctor,
-        Kind: Constructor,
-        Name: .ctor,
-        ParentId: T:System.StringSplitOptions
-      }
+      F:System.StringSplitOptions.None,
+      F:System.StringSplitOptions.RemoveEmptyEntries,
+      F:System.StringSplitOptions.TrimEntries,
+      M:System.StringSplitOptions.#ctor
     ],
     Name: StringSplitOptions,
     NamespaceId: N:System,

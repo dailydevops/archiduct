@@ -1,0 +1,49 @@
+﻿{
+  System.Private.CoreLib, Version=6.0.0.0, F:System.StringSplitOptions.None: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.StringSplitOptions.None,
+    Id: F:System.StringSplitOptions.None,
+    Kind: EnumMember,
+    Name: None,
+    ParentId: T:System.StringSplitOptions,
+    ReturnType: {
+      Id: T:System.StringSplitOptions,
+      IsNullable: false
+    },
+    Value: 0
+  },
+  System.Private.CoreLib, Version=6.0.0.0, F:System.StringSplitOptions.RemoveEmptyEntries: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.StringSplitOptions.RemoveEmptyEntries,
+    Id: F:System.StringSplitOptions.RemoveEmptyEntries,
+    Kind: EnumMember,
+    Name: RemoveEmptyEntries,
+    ParentId: T:System.StringSplitOptions,
+    ReturnType: {
+      Id: T:System.StringSplitOptions,
+      IsNullable: false
+    },
+    Value: 1
+  },
+  System.Private.CoreLib, Version=6.0.0.0, F:System.StringSplitOptions.TrimEntries: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.StringSplitOptions.TrimEntries,
+    Id: F:System.StringSplitOptions.TrimEntries,
+    Kind: EnumMember,
+    Name: TrimEntries,
+    ParentId: T:System.StringSplitOptions,
+    ReturnType: {
+      Id: T:System.StringSplitOptions,
+      IsNullable: false
+    },
+    Value: 2
+  },
+  System.Private.CoreLib, Version=6.0.0.0, M:System.StringSplitOptions.#ctor: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.StringSplitOptions.#ctor,
+    Id: M:System.StringSplitOptions.#ctor,
+    Kind: Constructor,
+    Name: .ctor,
+    ParentId: T:System.StringSplitOptions
+  }
+}

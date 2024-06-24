@@ -3,4 +3,4 @@
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
 public class Decompiler_SystemIDisposable_Tests(GenericTypeProvider<System.IDisposable> provider)
-    : TypesTestCaseBase<System.IDisposable>(provider) { }
+    : TypesTestCaseGenericBase<System.IDisposable>(provider) { }

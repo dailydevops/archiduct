@@ -22,9 +22,13 @@ public sealed class ModelAssembly : ModelBase
     public override ModelKind Kind => ModelKind.Assembly;
 
     /// <summary>
+    /// Enumerable of all members within this assembly.
+    /// </summary>
+    public HashSet<ModelMemberBase> Members { get; internal set; } = [];
+
+    /// <summary>
     /// Enumerable of all namespaces within this assembly.
     /// </summary>
-    /// <value>Enumerable of all described namespaces.</value>
     public HashSet<ModelNamespace> Namespaces { get; internal set; } = [];
 
     /// <summary>
@@ -35,7 +39,6 @@ public sealed class ModelAssembly : ModelBase
     /// <summary>
     /// Enumerable of all types within this assembly.
     /// </summary>
-    /// <value>Enumerable of all described types.</value>
     public HashSet<ModelTypeBase> Types { get; internal set; } = [];
 
     /// <summary>

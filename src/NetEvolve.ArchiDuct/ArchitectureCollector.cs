@@ -116,7 +116,7 @@ public sealed class ArchitectureCollector : IArchitectureCollector
         Argument.ThrowIfNull(type);
 
         var assembly = type.Assembly;
-        var typeFullName = $"{type.Namespace}.{type.Name}";
+        var typeFullName = GetTypeFullName(type);
 
         var sourceAssembly = new SourceAssembly(assembly);
 
@@ -145,6 +145,22 @@ public sealed class ArchitectureCollector : IArchitectureCollector
         }
 
         return this;
+    }
+
+    private static string GetTypeFullName(Type type)
+    {
+        if (!type.IsNested || type.DeclaringType is null)
+        {
+            return $"{type.Namespace}.{type.Name}";
+        }
+
+        Type? declaringType;
+        do
+        {
+            declaringType = type.DeclaringType;
+        } while (declaringType.IsNested && declaringType.DeclaringType is not null);
+
+        return $"{declaringType.Namespace}.{declaringType.Name}";
     }
 
     /// <inheritdoc cref="IArchitectureCollector.Collect" />

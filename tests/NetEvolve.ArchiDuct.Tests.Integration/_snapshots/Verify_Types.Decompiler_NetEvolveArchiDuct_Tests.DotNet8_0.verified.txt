@@ -1,0 +1,71 @@
+﻿{
+  NetEvolve.ArchiDuct, Version=0.2.0.0, T:NetEvolve.ArchiDuct.ArchitectureCollector: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      }
+    ],
+    BaseTypes: [
+      T:System.Object
+    ],
+    FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, T:NetEvolve.ArchiDuct.ArchitectureCollector,
+    Id: T:NetEvolve.ArchiDuct.ArchitectureCollector,
+    Implementations: [
+      T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector
+    ],
+    InheritedMembers: [
+      M:System.Object.GetType,
+      M:System.Object.MemberwiseClone,
+      M:System.Object.Finalize,
+      M:System.Object.ToString,
+      M:System.Object.Equals(System.Object),
+      M:System.Object.Equals(System.Object,System.Object),
+      M:System.Object.ReferenceEquals(System.Object,System.Object),
+      M:System.Object.GetHashCode
+    ],
+    IsNested: false,
+    IsRecord: false,
+    Kind: Class,
+    Members: [
+      F:NetEvolve.ArchiDuct.ArchitectureCollector._registeredSources,
+      M:NetEvolve.ArchiDuct.ArchitectureCollector.#ctor,
+      M:NetEvolve.ArchiDuct.ArchitectureCollector.Create,
+      M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean),
+      M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean),
+      M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint),
+      M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type),
+      M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type),
+      M:NetEvolve.ArchiDuct.ArchitectureCollector.Collect,
+      M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAsync(System.Threading.CancellationToken),
+      M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings)
+    ],
+    Modifiers: [
+      Sealed
+    ],
+    Name: ArchitectureCollector,
+    NamespaceId: N:NetEvolve.ArchiDuct,
+    ParentId: N:NetEvolve.ArchiDuct
+  }
+}

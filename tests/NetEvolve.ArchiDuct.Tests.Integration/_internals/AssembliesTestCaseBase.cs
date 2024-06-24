@@ -5,16 +5,29 @@ using VerifyXunit;
 using Xunit;
 
 public abstract class AssembliesTestCaseBase<TTestCase>(GenericTypeProvider<TTestCase> provider)
-    : TestCaseBase<TTestCase>(provider, true)
+    : TestCaseBase<GenericTypeProvider<TTestCase>>(provider, true)
     where TTestCase : notnull
 {
     [Fact]
+    public async Task Verify_Architecture()
+    {
+        var architecture = _provider.Architecture;
+        _ = await Verifier.Verify(architecture);
+    }
+
+    [Fact]
     public async Task Verify_Assemblies()
     {
+        var architecture = _provider.Architecture;
+
         _ = Parallel.ForEach(
-            _provider.Architecture.Assemblies,
-            assembly => assembly.Value.Types.Clear()
+            architecture.Assemblies,
+            assembly =>
+            {
+                assembly.Value.Types.Clear();
+                assembly.Value.Members.Clear();
+            }
         );
-        _ = await Verifier.Verify(_provider.Architecture.Assemblies);
+        _ = await Verifier.Verify(architecture.Assemblies);
     }
 }

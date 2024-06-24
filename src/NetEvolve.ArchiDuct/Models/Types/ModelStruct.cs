@@ -10,7 +10,7 @@ using NetEvolve.ArchiDuct.Models.Abstractions;
 public sealed class ModelStruct : ModelTypeBase
 {
     /// <summary>
-    /// Gets a value indicating whether the struct is a <see langword="record"/>.
+    /// Gets a value indicating whether the struct is a <see langword="record"/> definition.
     /// </summary>
     public bool IsRecord { get; }
 
