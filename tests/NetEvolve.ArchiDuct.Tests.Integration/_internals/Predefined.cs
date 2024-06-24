@@ -13,7 +13,7 @@ internal static class Predefined
     public static void Init()
     {
         Verifier.DerivePathInfo(
-            (sourceFile, projectDirectory, method, type) =>
+            (sourceFile, projectDirectory, type, method) =>
             {
                 var directory = Path.Combine(projectDirectory, "_snapshots");
                 _ = Directory.CreateDirectory(directory);
