@@ -32,16 +32,10 @@ internal sealed partial class Decompiler : IDisposable
     public ModelAssembly Decompile(HashSet<SourceFilter> filters)
     {
         var typeSystem = _decompiler.TypeSystem;
+
+        PreloadDocumentation(typeSystem);
+
         var mainModule = typeSystem.MainModule;
-
-        if (
-            _decompiler.DocumentationProvider is null
-            && ModelFactory.TryGetDocumentationProvider(mainModule, out var documentationProvider)
-        )
-        {
-            _decompiler.DocumentationProvider = documentationProvider;
-        }
-
         var model = DecompileModule(mainModule, filters);
 
         model.References = typeSystem
@@ -50,6 +44,25 @@ internal sealed partial class Decompiler : IDisposable
             .ToHashSet();
 
         return model;
+    }
+
+    private void PreloadDocumentation(IDecompilerTypeSystem typeSystem)
+    {
+        foreach (var module in typeSystem.Modules)
+        {
+            _ = ModelFactory.TryGetDocumentationProvider(module, out var _);
+        }
+
+        if (
+            _decompiler.DocumentationProvider is null
+            && ModelFactory.TryGetDocumentationProvider(
+                typeSystem.MainModule,
+                out var documentationProvider
+            )
+        )
+        {
+            _decompiler.DocumentationProvider = documentationProvider;
+        }
     }
 
     private ModelAssembly DecompileModule(IModule module, HashSet<SourceFilter> filters)
