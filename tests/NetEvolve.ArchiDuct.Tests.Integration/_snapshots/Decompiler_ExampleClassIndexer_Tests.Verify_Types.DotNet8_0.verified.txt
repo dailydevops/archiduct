@@ -1,0 +1,66 @@
+﻿{
+  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Reflection.DefaultMemberAttribute,
+        Id: T:System.Reflection.DefaultMemberAttribute,
+        Kind: Attribute,
+        Name: DefaultMemberAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      }
+    ],
+    BaseTypes: [
+      T:System.Object
+    ],
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass,
+    Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass,
+    Implementations: [
+      T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface
+    ],
+    InheritedMembers: [
+      M:System.Object.GetType,
+      M:System.Object.MemberwiseClone,
+      M:System.Object.Finalize,
+      M:System.Object.ToString,
+      M:System.Object.Equals(System.Object),
+      M:System.Object.Equals(System.Object,System.Object),
+      M:System.Object.ReferenceEquals(System.Object,System.Object),
+      M:System.Object.GetHashCode
+    ],
+    IsNested: false,
+    IsRecord: false,
+    Kind: Class,
+    Members: [
+      F:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.arr,
+      M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.#ctor,
+      P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.Item(System.Int32)
+    ],
+    Name: IndexerClass,
+    NamespaceId: N:NetEvolve.ArchiDuct.Tests.Integration.Internals,
+    ParentId: N:NetEvolve.ArchiDuct.Tests.Integration.Internals
+  }
+}

@@ -1,0 +1,73 @@
+﻿{
+  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.arr: {
+    Accessibility: Private,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.arr,
+    Id: F:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.arr,
+    Kind: Field,
+    Name: arr,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass,
+    ReturnType: {
+      Id: T:System.Int32[],
+      IsNullable: false
+    }
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.#ctor: {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.#ctor,
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.#ctor,
+    Kind: Constructor,
+    Name: .ctor,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.Item(System.Int32): {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.Item(System.Int32),
+    Getter: {
+      Accessibility: Public,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.get_Item(System.Int32),
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.get_Item(System.Int32),
+      IsLocal: false,
+      Kind: Method,
+      Name: get_Item,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass,
+      ReturnType: {
+        Id: T:System.Int32,
+        IsNullable: false
+      }
+    },
+    Id: P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.Item(System.Int32),
+    Kind: Indexer,
+    Name: Item,
+    Parameters: [
+      {
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.Item(System.Int32).index,
+        Id: P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.Item(System.Int32).index,
+        Kind: Parameter,
+        Name: index,
+        ParentId: P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.Item(System.Int32),
+        Type: {
+          Id: T:System.Int32,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass,
+    ReturnType: {
+      Id: T:System.Int32,
+      IsNullable: false
+    },
+    Setter: {
+      Accessibility: Public,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.set_Item(System.Int32,System.Int32),
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.set_Item(System.Int32,System.Int32),
+      IsLocal: false,
+      Kind: Method,
+      Name: set_Item,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass,
+      ReturnType: {
+        Id: T:System.Void,
+        IsNullable: false
+      }
+    }
+  }
+}
