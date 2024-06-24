@@ -1,0 +1,49 @@
+﻿{
+  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.#ctor: {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.#ctor,
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.#ctor,
+    Kind: Constructor,
+    Name: .ctor,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.Finalize: {
+    Accessibility: Protected,
+    Attributes: [
+      {
+        FullName: System.Runtime.Versioning.NonVersionableAttribute,
+        Id: T:System.Runtime.Versioning.NonVersionableAttribute,
+        Kind: Attribute,
+        Name: NonVersionableAttribute
+      }
+    ],
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.Finalize,
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.Finalize,
+    Kind: Destructor,
+    Modifiers: [
+      Override
+    ],
+    Name: Finalize,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass,
+    ReturnType: {
+      Id: T:System.Void,
+      IsNullable: false
+    }
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.ToString: {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.ToString,
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.ToString,
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Override
+    ],
+    Name: ToString,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass,
+    ReturnType: {
+      Id: T:System.String,
+      IsNullable: false
+    }
+  }
+}
