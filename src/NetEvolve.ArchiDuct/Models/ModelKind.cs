@@ -122,11 +122,6 @@ public enum ModelKind
     Field,
 
     /// <summary>
-    /// Object that describes a constant field.
-    /// </summary>
-    Constant,
-
-    /// <summary>
     /// Object that describes an operator.
     /// </summary>
     Operator,

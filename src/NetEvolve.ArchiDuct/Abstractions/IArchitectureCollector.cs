@@ -90,6 +90,7 @@ public interface IArchitectureCollector
 
     /// <summary>
     /// Adds a <see cref="Type"/> filter to the assembly. If the filter is applied, only the types that match the filter will be collected.
+    /// If the <see cref="Type"/> is nested, the filter will be applied to the parent type.
     /// </summary>
     /// <param name="type">
     /// The type to filter.

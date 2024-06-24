@@ -72,11 +72,18 @@
         Kind: Parameter,
         Name: obj,
         ParentId: T:System.Predicate`1,
-        TypeId: T:System.Predicate`1.T
+        Type: {
+          Id: T:System.Predicate`1.T,
+          IsNullable: false
+        }
       }
     ],
     ParentId: N:System,
-    ReturnTypeId: T:System.Boolean,
+    Type: {
+      Id: T:System.Boolean,
+      IsNullable: false,
+      IsRefReadonly: false
+    },
     TypeParameters: [
       {
         FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.Predicate`1.T,

@@ -1,0 +1,343 @@
+﻿{
+  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.#ctor: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.#ctor,
+    Id: M:System.Range.#ctor,
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.Range.#ctor(System.Index,System.Index)
+    ],
+    ParentId: T:System.Range
+  },
+  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.#ctor(System.Index,System.Index): {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.#ctor(System.Index,System.Index),
+    Id: M:System.Range.#ctor(System.Index,System.Index),
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.Range.#ctor
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.#ctor(System.Index,System.Index).start,
+        Id: M:System.Range.#ctor(System.Index,System.Index).start,
+        Kind: Parameter,
+        Name: start,
+        ParentId: M:System.Range.#ctor(System.Index,System.Index),
+        Type: {
+          Id: T:System.Index,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.#ctor(System.Index,System.Index).end,
+        Id: M:System.Range.#ctor(System.Index,System.Index).end,
+        Kind: Parameter,
+        Name: end,
+        ParentId: M:System.Range.#ctor(System.Index,System.Index),
+        Type: {
+          Id: T:System.Index,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Range
+  },
+  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.EndAt(System.Index): {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.EndAt(System.Index),
+    Id: M:System.Range.EndAt(System.Index),
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Static
+    ],
+    Name: EndAt,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.EndAt(System.Index).end,
+        Id: M:System.Range.EndAt(System.Index).end,
+        Kind: Parameter,
+        Name: end,
+        ParentId: M:System.Range.EndAt(System.Index),
+        Type: {
+          Id: T:System.Index,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Range,
+    ReturnType: {
+      Id: T:System.Range,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.Equals(System.Object): {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute,
+        Id: T:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute,
+        Kind: Attribute,
+        Name: UnconditionalSuppressMessageAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.Equals(System.Object),
+    Id: M:System.Range.Equals(System.Object),
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Override
+    ],
+    Name: Equals,
+    OverloadedMembers: [
+      M:System.Range.Equals(System.Range)
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.Equals(System.Object).value,
+        Id: M:System.Range.Equals(System.Object).value,
+        Kind: Parameter,
+        Name: value,
+        ParentId: M:System.Range.Equals(System.Object),
+        Type: {
+          Id: T:System.Object,
+          IsNullable: true
+        }
+      }
+    ],
+    ParentId: T:System.Range,
+    ReturnType: {
+      Id: T:System.Boolean,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.Equals(System.Range): {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.Equals(System.Range),
+    Id: M:System.Range.Equals(System.Range),
+    IsLocal: false,
+    Kind: Method,
+    Name: Equals,
+    OverloadedMembers: [
+      M:System.Range.Equals(System.Object)
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.Equals(System.Range).other,
+        Id: M:System.Range.Equals(System.Range).other,
+        Kind: Parameter,
+        Name: other,
+        ParentId: M:System.Range.Equals(System.Range),
+        Type: {
+          Id: T:System.Range,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Range,
+    ReturnType: {
+      Id: T:System.Boolean,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.GetHashCode: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+        Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+        Kind: Attribute,
+        Name: MethodImplAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.GetHashCode,
+    Id: M:System.Range.GetHashCode,
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Override
+    ],
+    Name: GetHashCode,
+    ParentId: T:System.Range,
+    ReturnType: {
+      Id: T:System.Int32,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.GetOffsetAndLength(System.Int32): {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+        Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+        Kind: Attribute,
+        Name: MethodImplAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.GetOffsetAndLength(System.Int32),
+    Id: M:System.Range.GetOffsetAndLength(System.Int32),
+    IsLocal: false,
+    Kind: Method,
+    Name: GetOffsetAndLength,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.GetOffsetAndLength(System.Int32).length,
+        Id: M:System.Range.GetOffsetAndLength(System.Int32).length,
+        Kind: Parameter,
+        Name: length,
+        ParentId: M:System.Range.GetOffsetAndLength(System.Int32),
+        Type: {
+          Id: T:System.Int32,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Range,
+    ReturnType: {
+      Id: T:System.ValueTuple`2[[System.Int32],[System.Int32]],
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.StartAt(System.Index): {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.StartAt(System.Index),
+    Id: M:System.Range.StartAt(System.Index),
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Static
+    ],
+    Name: StartAt,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.StartAt(System.Index).start,
+        Id: M:System.Range.StartAt(System.Index).start,
+        Kind: Parameter,
+        Name: start,
+        ParentId: M:System.Range.StartAt(System.Index),
+        Type: {
+          Id: T:System.Index,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Range,
+    ReturnType: {
+      Id: T:System.Range,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.ThrowArgumentOutOfRangeException: {
+    Accessibility: Private,
+    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.ThrowArgumentOutOfRangeException,
+    Id: M:System.Range.ThrowArgumentOutOfRangeException,
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Static
+    ],
+    Name: ThrowArgumentOutOfRangeException,
+    ParentId: T:System.Range,
+    ReturnType: {
+      Id: T:System.Void,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.ToString: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.ToString,
+    Id: M:System.Range.ToString,
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Override
+    ],
+    Name: ToString,
+    ParentId: T:System.Range,
+    ReturnType: {
+      Id: T:System.String,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=8.0.0.0, P:System.Range.All: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.Range.All,
+    Getter: {
+      Accessibility: Public,
+      FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.get_All,
+      Id: M:System.Range.get_All,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_All,
+      ParentId: T:System.Range,
+      ReturnType: {
+        Id: T:System.Range,
+        IsNullable: false
+      }
+    },
+    Id: P:System.Range.All,
+    Kind: Property,
+    Modifiers: [
+      Static
+    ],
+    Name: All,
+    ParentId: T:System.Range,
+    ReturnType: {
+      Id: T:System.Range,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=8.0.0.0, P:System.Range.End: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.Range.End,
+    Getter: {
+      Accessibility: Public,
+      FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.get_End,
+      Id: M:System.Range.get_End,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_End,
+      ParentId: T:System.Range,
+      ReturnType: {
+        Id: T:System.Index,
+        IsNullable: false
+      }
+    },
+    Id: P:System.Range.End,
+    Kind: Property,
+    Name: End,
+    ParentId: T:System.Range,
+    ReturnType: {
+      Id: T:System.Index,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=8.0.0.0, P:System.Range.Start: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.Range.Start,
+    Getter: {
+      Accessibility: Public,
+      FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.get_Start,
+      Id: M:System.Range.get_Start,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_Start,
+      ParentId: T:System.Range,
+      ReturnType: {
+        Id: T:System.Index,
+        IsNullable: false
+      }
+    },
+    Id: P:System.Range.Start,
+    Kind: Property,
+    Name: Start,
+    ParentId: T:System.Range,
+    ReturnType: {
+      Id: T:System.Index,
+      IsNullable: false
+    }
+  }
+}

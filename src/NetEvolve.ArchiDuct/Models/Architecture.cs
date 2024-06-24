@@ -28,7 +28,6 @@ internal sealed class Architecture : IArchitecture
         _assemblies = modelAssemblies.ToDictionaryInternal(x => x.FullName, Ordinal);
 
         _members = modelAssemblies
-            .SelectMany(x => x.Types)
             .SelectMany(x => x.Members)
             .ToDictionaryInternal(x => x.FullName, Ordinal);
 

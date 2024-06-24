@@ -72,7 +72,10 @@
         Kind: Parameter,
         Name: sender,
         ParentId: T:System.EventHandler,
-        TypeId: T:System.Object
+        Type: {
+          Id: T:System.Object,
+          IsNullable: true
+        }
       },
       {
         FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.EventHandler.e,
@@ -80,10 +83,16 @@
         Kind: Parameter,
         Name: e,
         ParentId: T:System.EventHandler,
-        TypeId: T:System.EventArgs
+        Type: {
+          Id: T:System.EventArgs,
+          IsNullable: false
+        }
       }
     ],
     ParentId: N:System,
-    ReturnTypeId: T:System.Void
+    Type: {
+      Id: T:System.Void,
+      IsNullable: false
+    }
   }
 }

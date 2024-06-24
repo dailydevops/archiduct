@@ -5,7 +5,6 @@ using ICSharpCode.Decompiler.CSharp;
 using ICSharpCode.Decompiler.CSharp.Resolver;
 using ICSharpCode.Decompiler.Documentation;
 using ICSharpCode.Decompiler.TypeSystem;
-using NetEvolve.ArchiDuct.Extensions;
 using NetEvolve.ArchiDuct.Models;
 using NetEvolve.ArchiDuct.Models.Abstractions;
 using NetEvolve.ArchiDuct.Models.Members;
@@ -15,24 +14,14 @@ using static NetEvolve.ArchiDuct.Constants;
 internal sealed partial class Decompiler : IDisposable
 {
     private readonly CSharpDecompiler _decompiler;
-
-    private readonly List<ModelNamespace> _modelNamespaces;
-
-    private readonly List<ModelTypeBase> _modelTypes;
-
     private readonly CSharpResolver _resolver;
 
     private readonly Version _zeroVersion = Version.Parse("0.0.0.0");
 
     private bool _disposedValue;
 
-    private ModelAssembly _modelAssembly = default!;
-
     public Decompiler(string assemblyFile, DecompilerSettings decompilerSettings)
     {
-        _modelNamespaces = [];
-        _modelTypes = [];
-
         _decompiler = new CSharpDecompiler(assemblyFile, decompilerSettings);
         _resolver = new CSharpResolver(_decompiler.TypeSystem);
     }
@@ -45,7 +34,10 @@ internal sealed partial class Decompiler : IDisposable
         var typeSystem = _decompiler.TypeSystem;
         var mainModule = typeSystem.MainModule;
 
-        if (ModelFactory.TryGetDocumentationProvider(mainModule, out var documentationProvider))
+        if (
+            _decompiler.DocumentationProvider is null
+            && ModelFactory.TryGetDocumentationProvider(mainModule, out var documentationProvider)
+        )
         {
             _decompiler.DocumentationProvider = documentationProvider;
         }
@@ -62,21 +54,21 @@ internal sealed partial class Decompiler : IDisposable
 
     private ModelAssembly DecompileModule(IModule module, HashSet<SourceFilter> filters)
     {
-        _modelAssembly = new ModelAssembly(
+        var modelAssembly = new ModelAssembly(
             module,
             ModelFactory.GetDocumentation($"T:{module.AssemblyName}.{AssemblyDoc}", _resolver)
         );
 
-        MapAttributes(module);
-        MapTypeModels(module, filters);
-        SetReferences();
+        MapAttributes(modelAssembly, module);
+        MapTypeModels(modelAssembly, module, filters);
+        SetReferences(modelAssembly);
 
         // TODO: Add GitVersion informations
 
-        return _modelAssembly;
+        return modelAssembly;
     }
 
-    private void MapAttributes(IModule module)
+    private void MapAttributes(ModelAssembly modelAssembly, IModule module)
     {
         var attributes = module.GetAssemblyAttributes();
 
@@ -89,7 +81,7 @@ internal sealed partial class Decompiler : IDisposable
 
             var typeDefinition = attribute.AttributeType.GetDefinition()!;
 
-            _ = _modelAssembly.Attributes.Add(
+            _ = modelAssembly.Attributes.Add(
                 new ModelAttribute(
                     attribute,
                     typeDefinition,
@@ -110,27 +102,7 @@ internal sealed partial class Decompiler : IDisposable
         || typeDefinition.IsCompilerGeneratedOrIsInCompilerGeneratedClass()
         || IsModuleClass(typeDefinition);
 
-    private static void MapModelMemberOverloads(ModelTypeBase describedModel)
-    {
-        foreach (var member in describedModel.Members)
-        {
-            if (member is not ModelMemberAdvancedBase overloadable)
-            {
-                continue;
-            }
-
-            overloadable.OverloadedMembers = describedModel
-                .Members.Where(x =>
-                    member.Kind == x.Kind
-                    && !member.Id.Equals(x.Id, Ordinal)
-                    && member.Name.Equals(x.Name, Ordinal)
-                )
-                .Select(x => x.Id)
-                .ToHashSet();
-        }
-    }
-
-    private static void MapModelMemberParameters(IMember member, ModelMemberBase result)
+    private static void MapModelMemberParameters(ModelMemberBase result, IMember member)
     {
         if (result is ModelMemberAdvancedBase modelWithParameters)
         {
@@ -173,7 +145,11 @@ internal sealed partial class Decompiler : IDisposable
         }
     }
 
-    private void MapMemberModel(IMember member, ModelTypeBase parentModel)
+    private void MapMemberModel(
+        ModelAssembly modelAssembly,
+        IMember member,
+        ModelTypeBase parentModel
+    )
     {
         if (member.IsCompilerGeneratedOrIsInCompilerGeneratedClass())
         {
@@ -194,20 +170,26 @@ internal sealed partial class Decompiler : IDisposable
             return;
         }
 
-        var describedMember = ModelFactory.CreateModelMemberType(
+        var modelMember = ModelFactory.CreateModelMemberType(
             member,
             parentModel,
             documentation,
             _resolver
         );
-        MapModelMemberParameters(member, describedMember);
+        MapModelMemberParameters(modelMember, member);
         //TODO: Map TypeParameters for methods and indexers
         //TODO: ReturnAttributes
 
-        parentModel.AddMember(describedMember);
+
+        _ = modelAssembly.Members.Add(modelMember);
+        _ = parentModel.Members.Add(modelMember.Id);
     }
 
-    private void MapMemberModels(ITypeDefinition typeDefinition, ModelTypeBase describedModel)
+    private void MapMemberModels(
+        ModelAssembly modelAssembly,
+        ITypeDefinition typeDefinition,
+        ModelTypeBase describedModel
+    )
     {
         if (typeDefinition.Kind == TypeKind.Delegate)
         {
@@ -216,13 +198,15 @@ internal sealed partial class Decompiler : IDisposable
 
         foreach (var member in typeDefinition.Members)
         {
-            MapMemberModel(member, describedModel);
+            MapMemberModel(modelAssembly, member, describedModel);
         }
-
-        MapModelMemberOverloads(describedModel);
     }
 
-    private void MapTypeModel(ITypeDefinition typeDefinition, ModelEntityBase? parentEntity = null)
+    private void MapTypeModel(
+        ModelAssembly modelAssembly,
+        ITypeDefinition typeDefinition,
+        ModelEntityBase? parentEntity = null
+    )
     {
         if (IsTypeDefinitionExcluded(typeDefinition))
         {
@@ -234,42 +218,44 @@ internal sealed partial class Decompiler : IDisposable
             //TODO: Include undocumented items?
         }
 
-        var describedModel = ModelFactory.CreateModelType(
+        if (parentEntity is null)
+        {
+            parentEntity = GetOrAddNamespace(modelAssembly, typeDefinition.Namespace);
+        }
+
+        var typeModel = ModelFactory.CreateModelType(
             typeDefinition,
-            parentEntity ?? GetOrAddNamespace(typeDefinition.Namespace),
+            parentEntity,
             documentation,
             _resolver
         );
 
-        MapModelTypeParameters(typeDefinition, describedModel);
-        MapMemberModels(typeDefinition, describedModel);
+        MapModelTypeParameters(typeDefinition, typeModel);
+        MapMemberModels(modelAssembly, typeDefinition, typeModel);
 
-        _modelTypes.Add(describedModel);
+        _ = modelAssembly.Types.Add(typeModel);
 
         foreach (var nestedTypeDefinition in typeDefinition.NestedTypes)
         {
-            MapTypeModel(nestedTypeDefinition, describedModel);
+            MapTypeModel(modelAssembly, nestedTypeDefinition, typeModel);
         }
     }
 
-    private void MapTypeModels(IModule module, HashSet<SourceFilter> filters)
+    private void MapTypeModels(
+        ModelAssembly modelAssembly,
+        IModule module,
+        HashSet<SourceFilter> filters
+    )
     {
         foreach (var typeDefinition in module.TopLevelTypeDefinitions)
         {
-            if (filters.Count != 0 && !filters.All(filter => ApplyFilter(filter, typeDefinition)))
+            if (filters.Count != 0 && !filters.All(filter => filter.IsSatisfiedBy(typeDefinition)))
             {
                 continue;
             }
 
-            MapTypeModel(typeDefinition);
+            MapTypeModel(modelAssembly, typeDefinition);
         }
-    }
-
-    private static bool ApplyFilter(SourceFilter filter, ITypeDefinition typeDefinition)
-    {
-        var value = filter.ValueSelector.Invoke(typeDefinition);
-
-        return filter.Constraint.IsSatisfiedBy(value);
     }
 
     private void Dispose(bool disposing)
@@ -287,49 +273,68 @@ internal sealed partial class Decompiler : IDisposable
         }
     }
 
-    private ModelNamespace GetOrAddNamespace(string fullNamespace)
+    private ModelNamespace GetOrAddNamespace(ModelAssembly modelAssembly, string fullNamespace)
     {
-        var @namespace = _modelNamespaces.Find(x => x.FullName.Equals(fullNamespace, Ordinal));
+        var @namespace = modelAssembly.Namespaces.FirstOrDefault(x =>
+            x.FullName.Equals(fullNamespace, Ordinal)
+        );
 
         if (@namespace is null)
         {
             @namespace = new ModelNamespace(
                 fullNamespace,
-                _modelAssembly,
+                modelAssembly,
                 ModelFactory.GetDocumentation($"T:{fullNamespace}.{NamespaceDoc}", _resolver)
             );
 
-            _modelNamespaces.Add(@namespace);
+            _ = modelAssembly.Namespaces.Add(@namespace);
         }
 
         return @namespace;
     }
 
-    private void SetReferences()
+    private static void SetReferences(ModelAssembly modelAssembly)
     {
-        _modelTypes.ForEach(m =>
+        foreach (var type in modelAssembly.Types)
         {
-            m.NestedTypes = _modelTypes
-                .Where(x => m.Id.Equals(x.ParentId, Ordinal))
+            type.NestedTypes = modelAssembly
+                .Types.Where(x => type.Id.Equals(x.ParentId, Ordinal))
                 .Select(x => x.Id)
-                .ToHashSet();
-            m.DerivedTypes = _modelTypes
-                .Where(x =>
+                .ToHashSet(StringComparer.Ordinal);
+
+            type.DerivedTypes = modelAssembly
+                .Types.Where(x =>
                     x.BaseTypes.Union(x.Implementations, StringComparer.Ordinal)
-                        .Any(t => t.Equals(m.Id, Ordinal))
+                        .Any(t => t.Equals(type.Id, Ordinal))
                 )
                 .Select(x => x.Id)
-                .ToHashSet();
-        });
-        _modelNamespaces.ForEach(ns =>
-        {
-            ns.Types = _modelTypes
-                .Where(t => ns.Id.Equals(t.NamespaceId, Ordinal))
-                .Select(x => x.Id)
-                .ToHashSet();
-        });
+                .ToHashSet(StringComparer.Ordinal);
+        }
 
-        _modelAssembly.Namespaces = [.. _modelNamespaces];
-        _modelAssembly.Types = [.. _modelTypes];
+        foreach (var member in modelAssembly.Members)
+        {
+            if (member is not ModelMemberAdvancedBase overloadable)
+            {
+                continue;
+            }
+
+            overloadable.OverloadedMembers = modelAssembly
+                .Members.Where(x =>
+                    member.Kind == x.Kind
+                    && !member.Id.Equals(x.Id, Ordinal)
+                    && member.ParentId.Equals(x.ParentId, Ordinal)
+                    && member.Name.Equals(x.Name, Ordinal)
+                )
+                .Select(x => x.Id)
+                .ToHashSet(StringComparer.Ordinal);
+        }
+
+        foreach (var ns in modelAssembly.Namespaces)
+        {
+            ns.Types = modelAssembly
+                .Types.Where(t => ns.Id.Equals(t.NamespaceId, Ordinal))
+                .Select(x => x.Id)
+                .ToHashSet(StringComparer.Ordinal);
+        }
     }
 }

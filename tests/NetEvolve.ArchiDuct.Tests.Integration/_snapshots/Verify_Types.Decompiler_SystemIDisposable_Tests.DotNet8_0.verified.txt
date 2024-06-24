@@ -32,15 +32,7 @@
     IsNested: false,
     Kind: Interface,
     Members: [
-      {
-        Accessibility: Public,
-        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.IDisposable.Dispose,
-        Id: M:System.IDisposable.Dispose,
-        Kind: Method,
-        Name: Dispose,
-        ParentId: T:System.IDisposable,
-        ReturnTypeId: T:System.Void
-      }
+      M:System.IDisposable.Dispose
     ],
     Name: IDisposable,
     NamespaceId: N:System,

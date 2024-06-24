@@ -69,30 +69,28 @@ internal static class ModelFactory
     {
         ModelMemberBase model = member switch
         {
-            IField enumMember when member.DeclaringType.Kind == TypeKind.Enum
-                => new ModelEnumMember(enumMember, parentModel, documentation),
-            IField constant when constant.IsConst
-                => new ModelConstant(constant, parentModel, documentation),
+            IField field when member.DeclaringType.Kind == TypeKind.Enum
+                => new ModelEnumMember(field, parentModel, documentation),
             IField field => new ModelField(field, parentModel, documentation),
-            IProperty explicitProperty when explicitProperty.IsExplicitInterfaceImplementation
-                => new ModelExplicitProperty(explicitProperty, parentModel, documentation),
-            IProperty indexer when indexer.IsIndexer
-                => new ModelIndexer(indexer, parentModel, documentation),
+            IProperty property when property.IsExplicitInterfaceImplementation
+                => new ModelExplicitProperty(property, parentModel, documentation),
+            IProperty property when property.IsIndexer
+                => new ModelIndexer(property, parentModel, documentation),
             IProperty property => new ModelProperty(property, parentModel, documentation),
-            IMethod explicitMethod when explicitMethod.IsExplicitInterfaceImplementation
-                => new ModelExplicitMethod(explicitMethod, parentModel, documentation),
-            IMethod constructor when constructor.IsConstructor && constructor.IsStatic
-                => new ModelStaticConstructor(constructor, parentModel, documentation),
-            IMethod constructor when constructor.IsConstructor
-                => new ModelConstructor(constructor, parentModel, documentation),
-            IMethod @operator when @operator.IsOperator
-                => new ModelOperator(@operator, parentModel, documentation),
-            IMethod destructor when destructor.IsDestructor
-                => new ModelDestructor(destructor, parentModel, documentation),
-            IMethod deconstruct when deconstruct.Name.Equals("Deconstruct", Ordinal)
-                => new ModelDeconstructor(deconstruct, parentModel, documentation),
-            IMethod extensionMethod when extensionMethod.IsExtensionMethod
-                => new ModelExtensionMethod(extensionMethod, parentModel, documentation),
+            IMethod method when method.IsExplicitInterfaceImplementation
+                => new ModelExplicitMethod(method, parentModel, documentation),
+            IMethod method when method.IsConstructor && method.IsStatic
+                => new ModelStaticConstructor(method, parentModel, documentation),
+            IMethod method when method.IsConstructor
+                => new ModelConstructor(method, parentModel, documentation),
+            IMethod method when method.IsOperator
+                => new ModelOperator(method, parentModel, documentation),
+            IMethod method when method.IsDestructor
+                => new ModelDestructor(method, parentModel, documentation),
+            IMethod method when method.Name.Equals("Deconstruct", Ordinal)
+                => new ModelDeconstructor(method, parentModel, documentation),
+            IMethod method when method.IsExtensionMethod
+                => new ModelExtensionMethod(method, parentModel, documentation),
             IMethod method => new ModelMethod(method, parentModel, documentation),
             IEvent @event when @event.IsExplicitInterfaceImplementation
                 => new ModelExplicitEvent(@event, parentModel, documentation),
@@ -200,7 +198,7 @@ internal static class ModelFactory
                 }
             );
 
-    internal static string? GetReturnTypeId(IMember member)
+    internal static ModelReturn? GetReturnType(IMember member, bool? isRefReadonly = null)
     {
         if (member is IMethod constructor && constructor.IsConstructor)
         {
@@ -208,6 +206,12 @@ internal static class ModelFactory
         }
 
         var returnType = member.ReturnType;
+        if (returnType.FullName == "System.Void")
+        {
+            return ModelReturn.Void;
+        }
+
+        var returnId = $"T:{returnType.ReflectionName}";
         if (returnType.Kind == TypeKind.TypeParameter)
         {
             if (
@@ -215,29 +219,43 @@ internal static class ModelFactory
                 && method.TypeParameters.Any(x => x.Name.Equals(returnType.Name, Ordinal))
             )
             {
-                return $"T:{method.ReflectionName}.{returnType.Name}";
+                returnId = $"T:{method.ReflectionName}.{returnType.Name}";
             }
-
-            return $"T:{member.DeclaringTypeDefinition!.ReflectionName}.{returnType.Name}";
+            else
+            {
+                returnId = $"T:{member.DeclaringTypeDefinition!.ReflectionName}.{returnType.Name}";
+            }
         }
 
-        return $"T:{returnType.ReflectionName}";
+        return new ModelReturn(
+            returnId,
+            returnType.Nullability == Nullability.Nullable,
+            isRefReadonly
+        );
     }
 
-    internal static string GetReturnTypeId(IParameter parameter)
+    internal static ModelReturn GetReturnType(IParameter parameter)
     {
         var returnType = parameter.Type;
+        if (returnType.FullName == "System.Void")
+        {
+            return ModelReturn.Void;
+        }
+
+        var returnId = $"T:{returnType.ReflectionName}";
         if (returnType.Kind == TypeKind.TypeParameter && parameter.Owner is IMethod method)
         {
             if (method.TypeParameters.Any(x => x.Name.Equals(returnType.Name, Ordinal)))
             {
-                return $"T:{method.ReflectionName}.{returnType.Name}";
+                returnId = $"T:{method.ReflectionName}.{returnType.Name}";
             }
-
-            return $"T:{method.DeclaringTypeDefinition!.ReflectionName}.{returnType.Name}";
+            else
+            {
+                returnId = $"T:{method.DeclaringTypeDefinition!.ReflectionName}.{returnType.Name}";
+            }
         }
 
-        return $"T:{returnType.ReflectionName}";
+        return new ModelReturn(returnId, returnType.Nullability == Nullability.Nullable);
     }
 
     internal static HashSet<ModelModifier> MapModifiers(IParameter parameter) =>
@@ -387,6 +405,11 @@ internal static class ModelFactory
 
     private static IEnumerable<ModelModifier> GetModifiers(IField f)
     {
+        if (f.IsConst)
+        {
+            yield return ModelModifier.Const;
+        }
+
         if (f.IsReadOnly)
         {
             yield return ModelModifier.ReadOnly;
@@ -413,12 +436,6 @@ internal static class ModelFactory
         {
             yield return ModelModifier.Required;
         }
-
-        if (p.ReturnTypeIsRefReadOnly)
-        {
-            yield return ModelModifier.Ref;
-            yield return ModelModifier.ReadOnly;
-        }
     }
 
     private static HashSet<ModelModifier> MapModifiers(ITypeDefinition typeDefinition) =>
@@ -434,8 +451,7 @@ internal static class ModelFactory
             StringSplitOptions.RemoveEmptyEntries
         );
 
-        return entityName.Length > 1
-            && typeDefinition.Name.StartsWith($"<{entityName[1]}>", Ordinal);
+        return entityName.Length > 1 && typeDefinition.Name.StartsWith('<');
     }
 
     private static bool TryGetDocFromBaseClass(
@@ -522,7 +538,7 @@ internal static class ModelFactory
     {
         baseDocumentation = null;
 
-        if (reference is not null)
+        if (!string.IsNullOrEmpty(reference))
         {
             baseDocumentation = GetDocumentation(reference, resolver);
         }

@@ -13,8 +13,6 @@ using NetEvolve.ArchiDuct.Models.Members;
 /// </summary>
 public abstract class ModelTypeBase : ModelEntityBase
 {
-    private readonly Dictionary<string, ModelMemberBase> _members;
-
     /// <summary>
     /// Accessibility of the member.
     /// </summary>
@@ -49,7 +47,7 @@ public abstract class ModelTypeBase : ModelEntityBase
     /// Collection of all members within this type.
     /// </summary>
     /// <value>Read-only collection of all described members.</value>
-    public IEnumerable<ModelMemberBase> Members => _members.Values;
+    public HashSet<string> Members { get; internal set; } = [];
 
     /// <summary>
     /// Collection of all modifiers for this type.
@@ -86,11 +84,7 @@ public abstract class ModelTypeBase : ModelEntityBase
             documentation
         )
     {
-        _members = new Dictionary<string, ModelMemberBase>(StringComparer.Ordinal);
-
         NamespaceId = parentEntity.Id;
         IsNested = typeDefinition.FullTypeName.IsNested;
     }
-
-    internal void AddMember(ModelMemberBase member) => _members[member.Id] = member;
 }
