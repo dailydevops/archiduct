@@ -2,6 +2,7 @@
 
 using System.Xml.Linq;
 using ICSharpCode.Decompiler.TypeSystem;
+using NetEvolve.ArchiDuct.Internals;
 using NetEvolve.ArchiDuct.Models.Abstractions;
 
 /// <summary>
@@ -18,14 +19,14 @@ public class ModelEvent : ModelMemberBase
     public override ModelKind Kind => ModelKind.Event;
 
     /// <summary>
-    /// Gets the method describtion of the invoke accessor.
-    /// </summary>
-    public ModelMethod? InvokeAccessor { get; }
-
-    /// <summary>
     /// Gets the method describtion of the remove accessor.
     /// </summary>
     public ModelMethod? RemoveAccessor { get; }
+
+    /// <summary>
+    /// Gets the return type.
+    /// </summary>
+    public ModelReturn Type { get; }
 
     /// <inheritdoc />
     internal ModelEvent(IEvent @event, ModelTypeBase parentEntity, XElement? documentation)
@@ -36,14 +37,11 @@ public class ModelEvent : ModelMemberBase
             AddAccessor = new ModelMethod(@event.AddAccessor, parentEntity, documentation);
         }
 
-        if (@event.InvokeAccessor is not null)
-        {
-            InvokeAccessor = new ModelMethod(@event.InvokeAccessor, parentEntity, documentation);
-        }
-
         if (@event.RemoveAccessor is not null)
         {
             RemoveAccessor = new ModelMethod(@event.RemoveAccessor, parentEntity, documentation);
         }
+
+        Type = ModelFactory.GetReturnType(@event)!;
     }
 }

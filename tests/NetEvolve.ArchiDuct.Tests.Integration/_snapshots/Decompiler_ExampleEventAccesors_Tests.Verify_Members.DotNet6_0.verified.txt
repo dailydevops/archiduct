@@ -1,0 +1,94 @@
+﻿{
+  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, E:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.OnChanged: {
+    Accessibility: Internal,
+    AddAccessor: {
+      Accessibility: Internal,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.add_OnChanged(System.ComponentModel.PropertyChangedEventHandler),
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.add_OnChanged(System.ComponentModel.PropertyChangedEventHandler),
+      IsLocal: false,
+      Kind: Method,
+      Name: add_OnChanged,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
+      ReturnType: {
+        Id: T:System.Void,
+        IsNullable: false
+      }
+    },
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, E:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.OnChanged,
+    Id: E:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.OnChanged,
+    Kind: Event,
+    Name: OnChanged,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
+    RemoveAccessor: {
+      Accessibility: Internal,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.remove_OnChanged(System.ComponentModel.PropertyChangedEventHandler),
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.remove_OnChanged(System.ComponentModel.PropertyChangedEventHandler),
+      IsLocal: false,
+      Kind: Method,
+      Name: remove_OnChanged,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
+      ReturnType: {
+        Id: T:System.Void,
+        IsNullable: false
+      }
+    },
+    ReturnType: {
+      Id: T:System.ComponentModel.PropertyChangedEventHandler,
+      IsNullable: false
+    },
+    Type: {
+      Id: T:System.ComponentModel.PropertyChangedEventHandler,
+      IsNullable: false
+    }
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, E:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.PropertyChanged: {
+    Accessibility: Public,
+    AddAccessor: {
+      Accessibility: Public,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.add_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler),
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.add_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler),
+      IsLocal: false,
+      Kind: Method,
+      Name: add_PropertyChanged,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
+      ReturnType: {
+        Id: T:System.Void,
+        IsNullable: false
+      }
+    },
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, E:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.PropertyChanged,
+    Id: E:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.PropertyChanged,
+    Kind: Event,
+    Name: PropertyChanged,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
+    RemoveAccessor: {
+      Accessibility: Public,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.remove_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler),
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.remove_PropertyChanged(System.ComponentModel.PropertyChangedEventHandler),
+      IsLocal: false,
+      Kind: Method,
+      Name: remove_PropertyChanged,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
+      ReturnType: {
+        Id: T:System.Void,
+        IsNullable: false
+      }
+    },
+    ReturnType: {
+      Id: T:System.ComponentModel.PropertyChangedEventHandler,
+      IsNullable: false
+    },
+    Type: {
+      Id: T:System.ComponentModel.PropertyChangedEventHandler,
+      IsNullable: false
+    }
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.#ctor: {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.#ctor,
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.#ctor,
+    Kind: Constructor,
+    Name: .ctor,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors
+  }
+}
