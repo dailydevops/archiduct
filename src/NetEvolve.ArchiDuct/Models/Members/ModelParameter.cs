@@ -1,7 +1,6 @@
 ﻿namespace NetEvolve.ArchiDuct.Models.Members;
 
 using System.Collections.Generic;
-using System.Diagnostics.Metrics;
 using ICSharpCode.Decompiler.TypeSystem;
 using NetEvolve.ArchiDuct.Internals;
 using NetEvolve.ArchiDuct.Models.Abstractions;
@@ -19,9 +18,9 @@ public sealed class ModelParameter : ModelEntityBase
     public HashSet<ModelModifier> Modifiers { get; }
 
     /// <summary>
-    /// Returns the type id of the parameter.
+    /// Describes the type of the parameter.
     /// </summary>
-    public string TypeId { get; }
+    public ModelReturn? Type { get; }
 
     /// <summary>
     /// Gets the optional value of this parameter. If IsOptional is false, this will be always null.
@@ -38,7 +37,7 @@ public sealed class ModelParameter : ModelEntityBase
         )
     {
         Modifiers = ModelFactory.MapModifiers(parameter);
-        TypeId = ModelFactory.GetReturnTypeId(parameter);
+        Type = ModelFactory.GetReturnType(parameter);
 
         if (parameter.IsOptional)
         {

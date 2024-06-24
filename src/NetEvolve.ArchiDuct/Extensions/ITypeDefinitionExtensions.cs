@@ -22,7 +22,7 @@ internal static class ITypeDefinitionExtensions
             baseTypeIds = baseTypeIds.Where(x => !x.Equals("T:System.Object", OrdinalIgnoreCase));
         }
 
-        return baseTypeIds.ToHashSet();
+        return baseTypeIds.ToHashSet(StringComparer.Ordinal);
     }
 
     public static HashSet<string> GetAllImplementationIds(this ITypeDefinition typeDefinition)
@@ -36,7 +36,7 @@ internal static class ITypeDefinitionExtensions
             .EnumerateBaseTypeDefinitions()
             .Where(x => x.Kind == TypeKind.Interface)
             .Select(x => x.GetIdString())
-            .ToHashSet();
+            .ToHashSet(StringComparer.Ordinal);
     }
 
     public static HashSet<string> GetAllInheritedMemberIds(this ITypeDefinition typeDefinition)
@@ -60,6 +60,6 @@ internal static class ITypeDefinitionExtensions
             );
         }
 
-        return inheritedMemberIds.ToHashSet();
+        return inheritedMemberIds.ToHashSet(StringComparer.Ordinal);
     }
 }

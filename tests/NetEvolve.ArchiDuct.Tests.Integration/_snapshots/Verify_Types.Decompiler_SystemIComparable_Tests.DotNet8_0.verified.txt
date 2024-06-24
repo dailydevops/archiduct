@@ -32,25 +32,7 @@
     IsNested: false,
     Kind: Interface,
     Members: [
-      {
-        Accessibility: Public,
-        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.IComparable.CompareTo(System.Object),
-        Id: M:System.IComparable.CompareTo(System.Object),
-        Kind: Method,
-        Name: CompareTo,
-        Parameters: [
-          {
-            FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.IComparable.CompareTo(System.Object).obj,
-            Id: M:System.IComparable.CompareTo(System.Object).obj,
-            Kind: Parameter,
-            Name: obj,
-            ParentId: M:System.IComparable.CompareTo(System.Object),
-            TypeId: T:System.Object
-          }
-        ],
-        ParentId: T:System.IComparable,
-        ReturnTypeId: T:System.Int32
-      }
+      M:System.IComparable.CompareTo(System.Object)
     ],
     Name: IComparable,
     NamespaceId: N:System,

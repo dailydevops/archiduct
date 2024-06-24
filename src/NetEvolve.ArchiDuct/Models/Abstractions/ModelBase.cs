@@ -10,7 +10,7 @@ public abstract class ModelBase
 // TODO: Add DisplayValue
 {
     /// <summary>
-    /// Gets the documentation for the described object.
+    /// Gets the xml for the described object.
     /// </summary>
     public ModelDocumentation? Documentation { get; }
 
@@ -40,8 +40,8 @@ public abstract class ModelBase
     /// </returns>
     public string Name { get; }
 
-    private protected ModelBase(string id, string name, string fullName, XElement? documentation)
-        : this(id, name, fullName, ModelDocumentation.Default(documentation)) { }
+    private protected ModelBase(string id, string name, string fullName, XElement? xml)
+        : this(id, name, fullName, ModelDocumentation.Default(xml)) { }
 
     private protected ModelBase(
         string id,

@@ -25,9 +25,9 @@ public sealed class ModelDelegate : ModelTypeBase
     public HashSet<ModelParameter> Parameters { get; } = default!;
 
     /// <summary>
-    /// Returns the type id of the parameter.
+    /// Gets the return type.
     /// </summary>
-    public string ReturnTypeId { get; } = Constants.SystemVoid;
+    public ModelReturn Type { get; } = default!;
 
     /// <inheritdoc />
     internal ModelDelegate(
@@ -43,7 +43,10 @@ public sealed class ModelDelegate : ModelTypeBase
                 .Parameters.Select(p => new ModelParameter(p, this))
                 .ToHashSet();
 
-            ReturnTypeId = ModelFactory.GetReturnTypeId(delegateMethod)!;
+            Type = ModelFactory.GetReturnType(
+                delegateMethod,
+                delegateMethod.ReturnTypeIsRefReadOnly
+            )!;
         }
     }
 }

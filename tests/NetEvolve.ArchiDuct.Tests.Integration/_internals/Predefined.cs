@@ -15,9 +15,9 @@ internal static class Predefined
         Verifier.DerivePathInfo(
             (sourceFile, projectDirectory, method, type) =>
             {
-                var snapshots = Path.Combine(projectDirectory, "_snapshots");
-                _ = Directory.CreateDirectory(snapshots);
-                return new(snapshots, type.Name, method.Name);
+                var directory = Path.Combine(projectDirectory, "_snapshots");
+                _ = Directory.CreateDirectory(directory);
+                return new(directory, type.Name, method.Name);
             }
         );
 
@@ -30,7 +30,7 @@ internal static class Predefined
 
         VerifierSettings.IgnoreMembersWithType<Version>();
 
-        // TODO: Workaround: Until the documentation XML files are also played out on Non-Windows system.
+        // Workaround: Until the documentation XML files are also played out on Non-Windows system.
         VerifierSettings.IgnoreMembersWithType<ModelDocumentation>();
     }
 }

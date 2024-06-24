@@ -1,0 +1,101 @@
+﻿{
+  System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Friday: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Friday,
+    Id: F:System.DayOfWeek.Friday,
+    Kind: EnumMember,
+    Name: Friday,
+    ParentId: T:System.DayOfWeek,
+    ReturnType: {
+      Id: T:System.DayOfWeek,
+      IsNullable: false
+    },
+    Value: 5
+  },
+  System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Monday: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Monday,
+    Id: F:System.DayOfWeek.Monday,
+    Kind: EnumMember,
+    Name: Monday,
+    ParentId: T:System.DayOfWeek,
+    ReturnType: {
+      Id: T:System.DayOfWeek,
+      IsNullable: false
+    },
+    Value: 1
+  },
+  System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Saturday: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Saturday,
+    Id: F:System.DayOfWeek.Saturday,
+    Kind: EnumMember,
+    Name: Saturday,
+    ParentId: T:System.DayOfWeek,
+    ReturnType: {
+      Id: T:System.DayOfWeek,
+      IsNullable: false
+    },
+    Value: 6
+  },
+  System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Sunday: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Sunday,
+    Id: F:System.DayOfWeek.Sunday,
+    Kind: EnumMember,
+    Name: Sunday,
+    ParentId: T:System.DayOfWeek,
+    ReturnType: {
+      Id: T:System.DayOfWeek,
+      IsNullable: false
+    },
+    Value: 0
+  },
+  System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Thursday: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Thursday,
+    Id: F:System.DayOfWeek.Thursday,
+    Kind: EnumMember,
+    Name: Thursday,
+    ParentId: T:System.DayOfWeek,
+    ReturnType: {
+      Id: T:System.DayOfWeek,
+      IsNullable: false
+    },
+    Value: 4
+  },
+  System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Tuesday: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Tuesday,
+    Id: F:System.DayOfWeek.Tuesday,
+    Kind: EnumMember,
+    Name: Tuesday,
+    ParentId: T:System.DayOfWeek,
+    ReturnType: {
+      Id: T:System.DayOfWeek,
+      IsNullable: false
+    },
+    Value: 2
+  },
+  System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Wednesday: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.DayOfWeek.Wednesday,
+    Id: F:System.DayOfWeek.Wednesday,
+    Kind: EnumMember,
+    Name: Wednesday,
+    ParentId: T:System.DayOfWeek,
+    ReturnType: {
+      Id: T:System.DayOfWeek,
+      IsNullable: false
+    },
+    Value: 3
+  },
+  System.Private.CoreLib, Version=6.0.0.0, M:System.DayOfWeek.#ctor: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.DayOfWeek.#ctor,
+    Id: M:System.DayOfWeek.#ctor,
+    Kind: Constructor,
+    Name: .ctor,
+    ParentId: T:System.DayOfWeek
+  }
+}

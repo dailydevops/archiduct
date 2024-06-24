@@ -72,7 +72,10 @@
         Kind: Parameter,
         Name: arg1,
         ParentId: T:System.Func`3,
-        TypeId: T:System.Func`3.T1
+        Type: {
+          Id: T:System.Func`3.T1,
+          IsNullable: false
+        }
       },
       {
         FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.Func`3.arg2,
@@ -80,11 +83,18 @@
         Kind: Parameter,
         Name: arg2,
         ParentId: T:System.Func`3,
-        TypeId: T:System.Func`3.T2
+        Type: {
+          Id: T:System.Func`3.T2,
+          IsNullable: false
+        }
       }
     ],
     ParentId: N:System,
-    ReturnTypeId: T:System.Func`3.TResult,
+    Type: {
+      Id: T:System.Func`3.TResult,
+      IsNullable: false,
+      IsRefReadonly: false
+    },
     TypeParameters: [
       {
         FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.Func`3.T1,

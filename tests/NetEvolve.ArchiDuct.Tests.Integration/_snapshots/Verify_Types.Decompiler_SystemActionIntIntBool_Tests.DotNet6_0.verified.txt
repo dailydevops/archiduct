@@ -72,7 +72,10 @@
         Kind: Parameter,
         Name: arg1,
         ParentId: T:System.Action`3,
-        TypeId: T:System.Action`3.T1
+        Type: {
+          Id: T:System.Action`3.T1,
+          IsNullable: false
+        }
       },
       {
         FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.Action`3.arg2,
@@ -80,7 +83,10 @@
         Kind: Parameter,
         Name: arg2,
         ParentId: T:System.Action`3,
-        TypeId: T:System.Action`3.T2
+        Type: {
+          Id: T:System.Action`3.T2,
+          IsNullable: false
+        }
       },
       {
         FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.Action`3.arg3,
@@ -88,11 +94,17 @@
         Kind: Parameter,
         Name: arg3,
         ParentId: T:System.Action`3,
-        TypeId: T:System.Action`3.T3
+        Type: {
+          Id: T:System.Action`3.T3,
+          IsNullable: false
+        }
       }
     ],
     ParentId: N:System,
-    ReturnTypeId: T:System.Void,
+    Type: {
+      Id: T:System.Void,
+      IsNullable: false
+    },
     TypeParameters: [
       {
         FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.Action`3.T1,

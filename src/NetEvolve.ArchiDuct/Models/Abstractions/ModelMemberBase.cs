@@ -24,16 +24,16 @@ public abstract class ModelMemberBase : ModelEntityBase
     public HashSet<ModelModifier> Modifiers { get; internal set; } = [];
 
     /// <summary>
-    /// Returns the type id of the return type.
+    /// Describes the return type of the member.
     /// </summary>
-    public string? ReturnTypeId { get; }
+    public ModelReturn? ReturnType { get; }
 
     /// <inheritdoc />
     private protected ModelMemberBase(IMember member, ModelTypeBase parent, XElement? documentation)
         : base(member.GetIdString(), member.Name, member.GetQualifiedName(), parent, documentation)
     {
         Accessibility = MapAccessibility(member);
-        ReturnTypeId = ModelFactory.GetReturnTypeId(member);
+        ReturnType = ModelFactory.GetReturnType(member);
     }
 
     private static ModelAccessibility MapAccessibility(IMember member)
