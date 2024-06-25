@@ -4,6 +4,9 @@
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.arr,
     Id: F:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass.arr,
     Kind: Field,
+    Modifiers: [
+      ReadOnly
+    ],
     Name: arr,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass,
     ReturnType: {
