@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFrameworks>$(NetEvolve_TestTargetFrameworks)</TargetFrameworks>
+
+    <DisableBannedApiForConsole>true</DisableBannedApiForConsole>
   </PropertyGroup>
 
   <ItemGroup>
