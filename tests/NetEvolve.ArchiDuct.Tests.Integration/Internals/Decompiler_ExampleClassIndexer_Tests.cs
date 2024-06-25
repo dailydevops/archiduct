@@ -9,7 +9,7 @@ public sealed class ClassIndexerTypeProvider() : TypeProviderBase(typeof(Indexer
 
 public class IndexerClass : IIndexInterface
 {
-    private int[] arr = new int[100];
+    private readonly int[] arr = new int[100];
     public int this[int index] // indexer declaration
     {
         // The arr object will throw IndexOutOfRange exception.

@@ -10,7 +10,7 @@ public sealed class EventAccesorsTypeProvider() : TypeProviderBase(typeof(EventA
 
 public class EventAccesors : INotifyPropertyChanged
 {
-    public event PropertyChangedEventHandler PropertyChanged;
+    public event PropertyChangedEventHandler? PropertyChanged;
 
     internal event PropertyChangedEventHandler OnChanged
     {
