@@ -76,11 +76,11 @@
     },
     ReturnType: {
       Id: T:System.ComponentModel.PropertyChangedEventHandler,
-      IsNullable: false
+      IsNullable: true
     },
     Type: {
       Id: T:System.ComponentModel.PropertyChangedEventHandler,
-      IsNullable: false
+      IsNullable: true
     }
   },
   NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.#ctor: {
