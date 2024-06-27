@@ -15,7 +15,11 @@ internal static class Predefined
         Verifier.DerivePathInfo(
             (sourceFile, projectDirectory, type, method) =>
             {
-                var directory = Path.Combine(projectDirectory, "_snapshots");
+                var directory = Path.Combine(
+                    projectDirectory,
+                    "_snapshots",
+                    Namer.TargetFrameworkNameAndVersion
+                );
                 _ = Directory.CreateDirectory(directory);
                 return new(directory, type.Name, method.Name);
             }
@@ -25,7 +29,6 @@ internal static class Predefined
         VerifierSettings.SortJsonObjects();
         VerifierSettings.SortPropertiesAlphabetically();
 
-        VerifierSettings.UniqueForTargetFrameworkAndVersion();
         VerifierSettings.HashParameters();
 
         VerifierSettings.IgnoreMembersWithType<Version>();
