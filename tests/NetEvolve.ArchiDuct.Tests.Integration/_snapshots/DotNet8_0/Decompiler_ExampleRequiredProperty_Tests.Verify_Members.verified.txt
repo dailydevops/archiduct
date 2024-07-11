@@ -1,0 +1,73 @@
+﻿{
+  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.#ctor: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.ObsoleteAttribute,
+        Id: T:System.ObsoleteAttribute,
+        Kind: Attribute,
+        Name: ObsoleteAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute,
+        Id: T:System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute,
+        Kind: Attribute,
+        Name: CompilerFeatureRequiredAttribute
+      }
+    ],
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.#ctor,
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.#ctor,
+    Kind: Constructor,
+    Name: .ctor,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.Name: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.RequiredMemberAttribute,
+        Id: T:System.Runtime.CompilerServices.RequiredMemberAttribute,
+        Kind: Attribute,
+        Name: RequiredMemberAttribute
+      }
+    ],
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.Name,
+    Getter: {
+      Accessibility: Public,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.get_Name,
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.get_Name,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_Name,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty,
+      ReturnType: {
+        Id: T:System.String,
+        IsNullable: false
+      }
+    },
+    Id: P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.Name,
+    Kind: Property,
+    Modifiers: [
+      Required
+    ],
+    Name: Name,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty,
+    ReturnType: {
+      Id: T:System.String,
+      IsNullable: false
+    },
+    Setter: {
+      Accessibility: Public,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.set_Name(System.String),
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.set_Name(System.String),
+      IsLocal: false,
+      Kind: Method,
+      Name: set_Name,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty,
+      ReturnType: {
+        Id: T:System.Void,
+        IsNullable: false
+      }
+    }
+  }
+}
