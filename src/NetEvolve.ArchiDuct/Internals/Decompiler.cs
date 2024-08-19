@@ -29,40 +29,37 @@ internal sealed partial class Decompiler : IDisposable
     /// <inheritdoc />
     public void Dispose() => Dispose(disposing: true);
 
-    public ModelAssembly Decompile(HashSet<SourceFilter> filters)
+    public List<ModelAssembly> Decompile(
+        HashSet<SourceFilter> filters,
+        bool includeReferences = false
+    )
     {
         var typeSystem = _decompiler.TypeSystem;
 
-        PreloadDocumentation(typeSystem);
+        var result = new List<ModelAssembly>();
 
-        var mainModule = typeSystem.MainModule;
-        var model = DecompileModule(mainModule, filters);
+        _ = Parallel.ForEach(
+            typeSystem.Modules,
+            module =>
+            {
+                _ = ModelFactory.TryGetDocumentationProvider(module, out var _);
+                if (!module.IsMainModule && !includeReferences)
+                {
+                    return;
+                }
 
-        model.References = typeSystem
-            .ReferencedModules.Where(module => module.AssemblyVersion != _zeroVersion)
-            .Select(module => new ModelReference(module))
-            .ToHashSet();
+                var model = DecompileModule(module, filters);
 
-        return model;
-    }
+                model.References = typeSystem
+                    .ReferencedModules.Where(module => module.AssemblyVersion != _zeroVersion)
+                    .Select(module => new ModelReference(module))
+                    .ToHashSet();
 
-    private void PreloadDocumentation(IDecompilerTypeSystem typeSystem)
-    {
-        foreach (var module in typeSystem.Modules)
-        {
-            _ = ModelFactory.TryGetDocumentationProvider(module, out var _);
-        }
+                result.Add(model);
+            }
+        );
 
-        if (
-            _decompiler.DocumentationProvider is null
-            && ModelFactory.TryGetDocumentationProvider(
-                typeSystem.MainModule,
-                out var documentationProvider
-            )
-        )
-        {
-            _decompiler.DocumentationProvider = documentationProvider;
-        }
+        return result;
     }
 
     private ModelAssembly DecompileModule(IModule module, HashSet<SourceFilter> filters)
@@ -94,11 +91,16 @@ internal sealed partial class Decompiler : IDisposable
 
             var typeDefinition = attribute.AttributeType.GetDefinition()!;
 
+            if (typeDefinition is null)
+            {
+                continue;
+            }
+
             _ = modelAssembly.Attributes.Add(
                 new ModelAttribute(
                     attribute,
                     typeDefinition,
-                    ModelFactory.GetDocumentation(typeDefinition?.GetIdString(), _resolver)
+                    ModelFactory.GetDocumentation(typeDefinition.GetIdString(), _resolver)
                 )
             );
         }
@@ -242,6 +244,11 @@ internal sealed partial class Decompiler : IDisposable
             documentation,
             _resolver
         );
+
+        if (typeModel is null)
+        {
+            return;
+        }
 
         MapModelTypeParameters(typeDefinition, typeModel);
         MapMemberModels(modelAssembly, typeDefinition, typeModel);

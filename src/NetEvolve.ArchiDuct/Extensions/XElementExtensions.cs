@@ -12,8 +12,8 @@ internal static class XElementExtensions
         node switch
         {
             null => string.Empty,
-            XElement element when element.Name.LocalName.Equals(Para, OrdinalIgnoreCase)
-                => element.Value,
+            XElement element when element.Name.LocalName.Equals(Para, OrdinalIgnoreCase) =>
+                element.Value,
             XCData cData => cData.Value,
             XText text => text.Value,
             _ => node.ToString(),
