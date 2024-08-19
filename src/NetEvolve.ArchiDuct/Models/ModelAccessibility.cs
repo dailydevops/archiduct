@@ -50,5 +50,5 @@ public enum ModelAccessibility
     /// The entity is accessible within the same assembly or by derived classes in another assembly.
     /// </summary>
     /// <seealso href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/protected-internal"/>
-    ProtectedInternal
+    ProtectedInternal,
 }

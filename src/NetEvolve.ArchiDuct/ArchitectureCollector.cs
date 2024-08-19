@@ -242,9 +242,9 @@ public sealed class ArchitectureCollector : IArchitectureCollector
 
         var result = decompiler.Decompile(source.Filters);
 
-        if (result is not null)
+        if (result.Count != 0)
         {
-            results.Add(result);
+            results.AddRange(result);
         }
 
         return results;

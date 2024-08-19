@@ -25,7 +25,7 @@ internal static class ModelFactory
         DocumentationXmlPropertyConstants.Remarks,
         DocumentationXmlPropertyConstants.Returns,
         DocumentationXmlPropertyConstants.SeeAlso,
-        DocumentationXmlPropertyConstants.Summary
+        DocumentationXmlPropertyConstants.Summary,
     ];
 
     private static readonly ConcurrentDictionary<
@@ -69,33 +69,57 @@ internal static class ModelFactory
     {
         ModelMemberBase model = member switch
         {
-            IField field when member.DeclaringType.Kind == TypeKind.Enum
-                => new ModelEnumMember(field, parentModel, documentation),
+            IField field when member.DeclaringType.Kind == TypeKind.Enum => new ModelEnumMember(
+                field,
+                parentModel,
+                documentation
+            ),
             IField field => new ModelField(field, parentModel, documentation),
-            IProperty property when property.IsExplicitInterfaceImplementation
-                => new ModelExplicitProperty(property, parentModel, documentation),
-            IProperty property when property.IsIndexer
-                => new ModelIndexer(property, parentModel, documentation),
+            IProperty property when property.IsExplicitInterfaceImplementation =>
+                new ModelExplicitProperty(property, parentModel, documentation),
+            IProperty property when property.IsIndexer => new ModelIndexer(
+                property,
+                parentModel,
+                documentation
+            ),
             IProperty property => new ModelProperty(property, parentModel, documentation),
-            IMethod method when method.IsExplicitInterfaceImplementation
-                => new ModelExplicitMethod(method, parentModel, documentation),
-            IMethod method when method.IsConstructor && method.IsStatic
-                => new ModelStaticConstructor(method, parentModel, documentation),
-            IMethod method when method.IsConstructor
-                => new ModelConstructor(method, parentModel, documentation),
-            IMethod method when method.IsOperator
-                => new ModelOperator(method, parentModel, documentation),
-            IMethod method when method.IsDestructor
-                => new ModelDestructor(method, parentModel, documentation),
-            IMethod method when method.Name.Equals("Deconstruct", Ordinal)
-                => new ModelDeconstructor(method, parentModel, documentation),
-            IMethod method when method.IsExtensionMethod
-                => new ModelExtensionMethod(method, parentModel, documentation),
+            IMethod method when method.IsExplicitInterfaceImplementation => new ModelExplicitMethod(
+                method,
+                parentModel,
+                documentation
+            ),
+            IMethod method when method.IsConstructor && method.IsStatic =>
+                new ModelStaticConstructor(method, parentModel, documentation),
+            IMethod method when method.IsConstructor => new ModelConstructor(
+                method,
+                parentModel,
+                documentation
+            ),
+            IMethod method when method.IsOperator => new ModelOperator(
+                method,
+                parentModel,
+                documentation
+            ),
+            IMethod method when method.IsDestructor => new ModelDestructor(
+                method,
+                parentModel,
+                documentation
+            ),
+            IMethod method when method.Name.Equals("Deconstruct", Ordinal) =>
+                new ModelDeconstructor(method, parentModel, documentation),
+            IMethod method when method.IsExtensionMethod => new ModelExtensionMethod(
+                method,
+                parentModel,
+                documentation
+            ),
             IMethod method => new ModelMethod(method, parentModel, documentation),
-            IEvent @event when @event.IsExplicitInterfaceImplementation
-                => new ModelExplicitEvent(@event, parentModel, documentation),
+            IEvent @event when @event.IsExplicitInterfaceImplementation => new ModelExplicitEvent(
+                @event,
+                parentModel,
+                documentation
+            ),
             IEvent @event => new ModelEvent(@event, parentModel, documentation),
-            _ => throw new InvalidOperationException()
+            _ => throw new InvalidOperationException(),
         };
         model.Modifiers = MapModifiers(member);
         model.Attributes = MapAttributes(member, resolver);
@@ -103,7 +127,7 @@ internal static class ModelFactory
         return model;
     }
 
-    public static ModelTypeBase CreateModelType(
+    public static ModelTypeBase? CreateModelType(
         ITypeDefinition typeDefinition,
         ModelEntityBase parentEntity,
         XElement? documentation,
@@ -111,16 +135,23 @@ internal static class ModelFactory
     )
     {
 #pragma warning disable IDE0072 // Add missing cases
-        ModelTypeBase model = typeDefinition.Kind switch
+        ModelTypeBase? model = typeDefinition.Kind switch
         {
             TypeKind.Class => new ModelClass(typeDefinition, parentEntity, documentation),
             TypeKind.Interface => new ModelInterface(typeDefinition, parentEntity, documentation),
             TypeKind.Struct => new ModelStruct(typeDefinition, parentEntity, documentation),
             TypeKind.Delegate => new ModelDelegate(typeDefinition, parentEntity, documentation),
             TypeKind.Enum => new ModelEnum(typeDefinition, parentEntity, documentation),
+
+            TypeKind.Void => null,
             _ => throw new InvalidOperationException(),
         };
 #pragma warning restore IDE0072 // Add missing cases
+
+        if (model is null)
+        {
+            return model;
+        }
 
         model.Accessibility = MapAccessibility(typeDefinition);
 
@@ -164,13 +195,16 @@ internal static class ModelFactory
                 {
                     var typeDefinition = attribute.AttributeType.GetDefinition()!;
 
-                    _ = set.Add(
-                        new ModelAttribute(
-                            attribute,
-                            typeDefinition,
-                            GetDocumentation(typeDefinition.GetIdString(), resolver)
-                        )
-                    );
+                    if (typeDefinition is not null)
+                    {
+                        _ = set.Add(
+                            new ModelAttribute(
+                                attribute,
+                                typeDefinition,
+                                GetDocumentation(typeDefinition.GetIdString(), resolver)
+                            )
+                        );
+                    }
                     return set;
                 }
             );
@@ -187,13 +221,16 @@ internal static class ModelFactory
                 {
                     var attributeTypeDefinition = attribute.AttributeType.GetDefinition()!;
 
-                    _ = set.Add(
-                        new ModelAttribute(
-                            attribute,
-                            attributeTypeDefinition,
-                            GetDocumentation(typeDefinition.GetIdString(), resolver)
-                        )
-                    );
+                    if (attributeTypeDefinition is not null)
+                    {
+                        _ = set.Add(
+                            new ModelAttribute(
+                                attribute,
+                                attributeTypeDefinition,
+                                GetDocumentation(typeDefinition.GetIdString(), resolver)
+                            )
+                        );
+                    }
                     return set;
                 }
             );
