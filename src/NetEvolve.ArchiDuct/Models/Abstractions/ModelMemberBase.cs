@@ -50,8 +50,7 @@ public abstract class ModelMemberBase : ModelEntityBase
             ProtectedOrInternal => ModelAccessibility.ProtectedInternal,
             Protected => ModelAccessibility.Protected,
             Internal => ModelAccessibility.Internal,
-            Private => ModelAccessibility.Private,
-            _ => ModelAccessibility.Internal,
+            _ => ModelAccessibility.Private,
         };
     }
 }

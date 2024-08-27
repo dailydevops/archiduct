@@ -177,7 +177,6 @@ internal static class ModelFactory
             ProtectedAndInternal => ModelAccessibility.PrivateProtected,
             ProtectedOrInternal => ModelAccessibility.ProtectedInternal,
             Protected => ModelAccessibility.Protected,
-            Internal => ModelAccessibility.Internal,
             Private => ModelAccessibility.Private,
             _ => ModelAccessibility.Internal,
         };
