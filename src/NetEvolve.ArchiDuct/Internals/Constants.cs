@@ -1,4 +1,4 @@
-﻿namespace NetEvolve.ArchiDuct;
+﻿namespace NetEvolve.ArchiDuct.Internals;
 
 internal static class Constants
 {
