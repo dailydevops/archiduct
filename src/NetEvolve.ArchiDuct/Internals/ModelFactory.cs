@@ -331,35 +331,37 @@ internal static class ModelFactory
 
     private static IEnumerable<ModelModifier> GetModifiers(ITypeDefinition type)
     {
-        if (type.Kind != TypeKind.Enum)
+        if (type.Kind == TypeKind.Enum)
         {
-            if (type.IsAbstract && type.Kind != TypeKind.Interface)
-            {
-                yield return ModelModifier.Abstract;
-            }
-
-            if (type.IsReadOnly)
-            {
-                yield return ModelModifier.ReadOnly;
-            }
-
-            if (type.IsSealed && type.Kind != TypeKind.Struct)
-            {
-                yield return ModelModifier.Sealed;
-            }
-
-            if (type.IsStatic)
-            {
-                yield return ModelModifier.Static;
-            }
-
-            if (type.IsByRefLike && type.Kind == TypeKind.Struct)
-            {
-                yield return ModelModifier.Ref;
-            }
-
-            // TODO: unsafe
+            yield break;
         }
+
+        if (type.IsAbstract && type.Kind != TypeKind.Interface)
+        {
+            yield return ModelModifier.Abstract;
+        }
+
+        if (type.IsReadOnly)
+        {
+            yield return ModelModifier.ReadOnly;
+        }
+
+        if (type.IsSealed && type.Kind != TypeKind.Struct)
+        {
+            yield return ModelModifier.Sealed;
+        }
+
+        if (type.IsStatic)
+        {
+            yield return ModelModifier.Static;
+        }
+
+        if (type.IsByRefLike && type.Kind == TypeKind.Struct)
+        {
+            yield return ModelModifier.Ref;
+        }
+
+        // TODO: unsafe
     }
 
     private static IEnumerable<ModelModifier> GetModifiers(IMember m)
