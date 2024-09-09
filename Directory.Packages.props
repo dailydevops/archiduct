@@ -21,6 +21,7 @@
     <PackageVersion Include="NetEvolve.Extensions.XUnit" Version="2.2.97" />
     <PackageVersion Include="NetEvolve.FluentValue" Version="0.2.28" />
     <PackageVersion Include="NetEvolve.Logging.XUnit" Version="1.1.14" />
+    <PackageVersion Include="TngTech.ArchUnitNET.xUnit" Version="0.11.0" />
     <PackageVersion Include="Verify.Xunit" Version="26.2.0" />
     <PackageVersion Include="xunit" Version="2.9.2" />
     <PackageVersion Include="xunit.runner.visualstudio" Version="2.8.2" />
