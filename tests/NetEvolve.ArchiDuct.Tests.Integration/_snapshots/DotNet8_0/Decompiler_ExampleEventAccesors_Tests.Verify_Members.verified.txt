@@ -83,6 +83,21 @@
       IsNullable: true
     }
   },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors._event: {
+    Accessibility: Private,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors._event,
+    Id: F:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors._event,
+    Kind: Field,
+    Modifiers: [
+      Volatile
+    ],
+    Name: _event,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
+    ReturnType: {
+      Id: T:System.String,
+      IsNullable: true
+    }
+  },
   NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.#ctor: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.#ctor,
@@ -90,5 +105,43 @@
     Kind: Constructor,
     Name: .ctor,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.Event: {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.Event,
+    Getter: {
+      Accessibility: Public,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.get_Event,
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.get_Event,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_Event,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
+      ReturnType: {
+        Id: T:System.String,
+        IsNullable: true
+      }
+    },
+    Id: P:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.Event,
+    Kind: Property,
+    Name: Event,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
+    ReturnType: {
+      Id: T:System.String,
+      IsNullable: true
+    },
+    Setter: {
+      Accessibility: Public,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.set_Event(System.String),
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.set_Event(System.String),
+      IsLocal: false,
+      Kind: Method,
+      Name: set_Event,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
+      ReturnType: {
+        Id: T:System.Void,
+        IsNullable: false
+      }
+    }
   }
 }

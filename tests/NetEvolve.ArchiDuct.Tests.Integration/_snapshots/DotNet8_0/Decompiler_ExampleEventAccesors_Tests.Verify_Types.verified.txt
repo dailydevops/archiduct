@@ -49,7 +49,9 @@
     IsRecord: false,
     Kind: Class,
     Members: [
+      F:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors._event,
       M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.#ctor,
+      P:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.Event,
       E:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.PropertyChanged,
       E:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.OnChanged
     ],
