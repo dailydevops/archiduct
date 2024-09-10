@@ -10,11 +10,23 @@ public sealed class EventAccesorsTypeProvider() : TypeProviderBase(typeof(EventA
 
 public class EventAccesors : INotifyPropertyChanged
 {
+    private volatile string? _event;
+
     public event PropertyChangedEventHandler? PropertyChanged;
 
     internal event PropertyChangedEventHandler OnChanged
     {
         add => PropertyChanged += value;
         remove => PropertyChanged -= value;
+    }
+
+    public string? Event
+    {
+        get => _event;
+        set
+        {
+            _event = value;
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Event)));
+        }
     }
 }
