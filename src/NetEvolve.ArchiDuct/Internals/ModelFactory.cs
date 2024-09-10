@@ -553,11 +553,8 @@ internal static class ModelFactory
 
                         var lookupId = entityId.Replace(
                             parentName,
-                            type.FullName
-#if !NETSTANDARD2_0
-                            ,
+                            type.FullName,
                             OrdinalIgnoreCase
-#endif
                         );
                         resultDocumentation = GetDocumentation(lookupId, resolver);
                         return resultDocumentation is not null;
