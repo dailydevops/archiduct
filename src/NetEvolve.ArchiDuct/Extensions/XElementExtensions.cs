@@ -28,10 +28,9 @@ internal static class XElementExtensions
         Func<XNode?, string>? convertElement = default
     )
     {
-        var nodes =
-            elementName is null || string.IsNullOrWhiteSpace(elementName)
-                ? element?.Nodes()
-                : element?.Element(elementName.Trim())?.Nodes();
+        var nodes = string.IsNullOrWhiteSpace(elementName)
+            ? element?.Nodes()
+            : element?.Element(elementName.Trim())?.Nodes();
 
         var sb = new StringBuilder();
 
