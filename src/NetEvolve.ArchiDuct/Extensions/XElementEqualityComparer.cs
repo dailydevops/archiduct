@@ -2,7 +2,6 @@
 
 using System.Xml.Linq;
 
-// TODO: separat package
 internal sealed class XElementEqualityComparer : IEqualityComparer<XElement?>
 {
     private static readonly Lazy<IEqualityComparer<XElement?>> _instance = new Lazy<
