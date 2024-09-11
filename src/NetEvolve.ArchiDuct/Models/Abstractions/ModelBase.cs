@@ -7,8 +7,9 @@ using NetEvolve.ArchiDuct.Models.Documentation;
 /// Represents a type or member description.
 /// </summary>
 public abstract class ModelBase
-// TODO: Add DisplayValue
 {
+    // TODO: Add DisplayValue
+
     /// <summary>
     /// Gets the xml for the described object.
     /// </summary>
