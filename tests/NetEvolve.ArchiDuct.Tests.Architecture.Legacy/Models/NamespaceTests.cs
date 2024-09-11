@@ -1,6 +1,5 @@
 ﻿namespace NetEvolve.ArchiDuct.Tests.Architecture.Legacy.Models;
 
-using System.Reflection;
 using ArchUnitNET.Domain;
 using ArchUnitNET.xUnit;
 using Xunit;
