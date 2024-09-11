@@ -1,12 +1,12 @@
 ﻿{
-  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample: {
     Accessibility: Public,
     Attributes: [
       {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
@@ -21,16 +21,16 @@
         Name: ComVisibleAttribute
       },
       {
-        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
-        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute
+        Name: SerializableAttribute
       }
     ],
     BaseTypes: [
       T:System.Object
     ],
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample,
     Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample,
     InheritedMembers: [
       M:System.Object.GetType,

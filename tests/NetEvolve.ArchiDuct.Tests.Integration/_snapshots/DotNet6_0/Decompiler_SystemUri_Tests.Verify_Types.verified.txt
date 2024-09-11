@@ -3,22 +3,16 @@
     Accessibility: Public,
     Attributes: [
       {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
-        Kind: Attribute,
-        Name: SerializableAttribute
-      },
-      {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
         Name: TypeForwardedFromAttribute
       },
       {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
@@ -33,10 +27,16 @@
         Name: ComVisibleAttribute
       },
       {
-        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
-        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
       }
     ],
     BaseTypes: [
@@ -241,10 +241,10 @@
         Name: FlagsAttribute
       },
       {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
@@ -253,22 +253,10 @@
         Name: TypeForwardedFromAttribute
       },
       {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
-        Kind: Attribute,
-        Name: SerializableAttribute
-      },
-      {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
         Name: TypeForwardedFromAttribute
-      },
-      {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
-        Kind: Attribute,
-        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
@@ -283,10 +271,22 @@
         Name: ComVisibleAttribute
       },
       {
-        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
-        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
       }
     ],
     BaseTypes: [
@@ -325,10 +325,10 @@
         Name: FlagsAttribute
       },
       {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
@@ -337,22 +337,10 @@
         Name: TypeForwardedFromAttribute
       },
       {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
-        Kind: Attribute,
-        Name: SerializableAttribute
-      },
-      {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
         Name: TypeForwardedFromAttribute
-      },
-      {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
-        Kind: Attribute,
-        Name: SerializableAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
@@ -367,10 +355,22 @@
         Name: ComVisibleAttribute
       },
       {
-        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
-        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
       }
     ],
     BaseTypes: [
@@ -451,10 +451,10 @@
     Accessibility: Private,
     Attributes: [
       {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
@@ -469,10 +469,10 @@
         Name: ComVisibleAttribute
       },
       {
-        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
-        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute
+        Name: SerializableAttribute
       }
     ],
     BaseTypes: [
@@ -512,28 +512,16 @@
     Accessibility: Private,
     Attributes: [
       {
-        FullName: System.Runtime.InteropServices.StructLayoutAttribute,
-        Id: T:System.Runtime.InteropServices.StructLayoutAttribute,
-        Kind: Attribute,
-        Name: StructLayoutAttribute
-      },
-      {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
-        Kind: Attribute,
-        Name: SerializableAttribute
-      },
-      {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
         Name: TypeForwardedFromAttribute
       },
       {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
@@ -548,10 +536,22 @@
         Name: ComVisibleAttribute
       },
       {
-        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
-        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        FullName: System.Runtime.InteropServices.StructLayoutAttribute,
+        Id: T:System.Runtime.InteropServices.StructLayoutAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute
+        Name: StructLayoutAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
       }
     ],
     BaseTypes: [
@@ -598,10 +598,10 @@
     Accessibility: Private,
     Attributes: [
       {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
@@ -616,10 +616,10 @@
         Name: ComVisibleAttribute
       },
       {
-        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
-        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute
+        Name: SerializableAttribute
       }
     ],
     BaseTypes: [

@@ -1,10 +1,10 @@
 ﻿{
-  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32): {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32): {
     Accessibility: Public,
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32),
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32),
     Getter: {
       Accessibility: Public,
-      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.get_Item(System.Int32),
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.get_Item(System.Int32),
       Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.get_Item(System.Int32),
       IsLocal: false,
       Kind: Method,
@@ -20,7 +20,7 @@
     Name: Item,
     Parameters: [
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32).index,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32).index,
         Id: P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32).index,
         Kind: Parameter,
         Name: index,
@@ -38,7 +38,7 @@
     },
     Setter: {
       Accessibility: Public,
-      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.set_Item(System.Int32,System.Int32),
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.set_Item(System.Int32,System.Int32),
       Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.set_Item(System.Int32,System.Int32),
       IsLocal: false,
       Kind: Method,

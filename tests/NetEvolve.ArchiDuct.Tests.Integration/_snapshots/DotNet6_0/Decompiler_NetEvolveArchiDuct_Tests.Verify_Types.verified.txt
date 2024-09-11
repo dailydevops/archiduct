@@ -1,12 +1,12 @@
 ﻿{
-  NetEvolve.ArchiDuct, Version=0.2.0.0, T:NetEvolve.ArchiDuct.ArchitectureCollector: {
+  NetEvolve.ArchiDuct, Version=1.0.0.0, T:NetEvolve.ArchiDuct.ArchitectureCollector: {
     Accessibility: Public,
     Attributes: [
       {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
@@ -21,16 +21,16 @@
         Name: ComVisibleAttribute
       },
       {
-        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
-        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute
+        Name: SerializableAttribute
       }
     ],
     BaseTypes: [
       T:System.Object
     ],
-    FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, T:NetEvolve.ArchiDuct.ArchitectureCollector,
+    FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, T:NetEvolve.ArchiDuct.ArchitectureCollector,
     Id: T:NetEvolve.ArchiDuct.ArchitectureCollector,
     Implementations: [
       T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector

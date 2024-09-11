@@ -3,76 +3,16 @@
     System.Private.CoreLib: {
       Attributes: [
         {
-          FullName: System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
-          Id: T:System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
-          Kind: Attribute,
-          Name: CompilationRelaxationsAttribute
-        },
-        {
-          FullName: System.Runtime.CompilerServices.RuntimeCompatibilityAttribute,
-          Id: T:System.Runtime.CompilerServices.RuntimeCompatibilityAttribute,
-          Kind: Attribute,
-          Name: RuntimeCompatibilityAttribute
-        },
-        {
-          FullName: System.Diagnostics.DebuggableAttribute,
-          Id: T:System.Diagnostics.DebuggableAttribute,
-          Kind: Attribute,
-          Name: DebuggableAttribute
-        },
-        {
-          FullName: System.Reflection.Metadata.MetadataUpdateHandlerAttribute,
-          Id: T:System.Reflection.Metadata.MetadataUpdateHandlerAttribute,
-          Kind: Attribute,
-          Name: MetadataUpdateHandlerAttribute
-        },
-        {
           FullName: System.CLSCompliantAttribute,
           Id: T:System.CLSCompliantAttribute,
           Kind: Attribute,
           Name: CLSCompliantAttribute
         },
         {
-          FullName: System.Runtime.InteropServices.ComVisibleAttribute,
-          Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+          FullName: System.Diagnostics.DebuggableAttribute,
+          Id: T:System.Diagnostics.DebuggableAttribute,
           Kind: Attribute,
-          Name: ComVisibleAttribute
-        },
-        {
-          FullName: System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute,
-          Id: T:System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute,
-          Kind: Attribute,
-          Name: DefaultDllImportSearchPathsAttribute
-        },
-        {
-          FullName: System.Reflection.AssemblyMetadataAttribute,
-          Id: T:System.Reflection.AssemblyMetadataAttribute,
-          Kind: Attribute,
-          Name: AssemblyMetadataAttribute
-        },
-        {
-          FullName: System.Reflection.AssemblyMetadataAttribute,
-          Id: T:System.Reflection.AssemblyMetadataAttribute,
-          Kind: Attribute,
-          Name: AssemblyMetadataAttribute
-        },
-        {
-          FullName: System.Reflection.AssemblyMetadataAttribute,
-          Id: T:System.Reflection.AssemblyMetadataAttribute,
-          Kind: Attribute,
-          Name: AssemblyMetadataAttribute
-        },
-        {
-          FullName: System.Resources.NeutralResourcesLanguageAttribute,
-          Id: T:System.Resources.NeutralResourcesLanguageAttribute,
-          Kind: Attribute,
-          Name: NeutralResourcesLanguageAttribute
-        },
-        {
-          FullName: System.Runtime.Versioning.TargetFrameworkAttribute,
-          Id: T:System.Runtime.Versioning.TargetFrameworkAttribute,
-          Kind: Attribute,
-          Name: TargetFrameworkAttribute
+          Name: DebuggableAttribute
         },
         {
           FullName: System.Reflection.AssemblyCompanyAttribute,
@@ -111,6 +51,30 @@
           Name: AssemblyInformationalVersionAttribute
         },
         {
+          FullName: System.Reflection.AssemblyMetadataAttribute,
+          Id: T:System.Reflection.AssemblyMetadataAttribute,
+          Kind: Attribute,
+          Name: AssemblyMetadataAttribute
+        },
+        {
+          FullName: System.Reflection.AssemblyMetadataAttribute,
+          Id: T:System.Reflection.AssemblyMetadataAttribute,
+          Kind: Attribute,
+          Name: AssemblyMetadataAttribute
+        },
+        {
+          FullName: System.Reflection.AssemblyMetadataAttribute,
+          Id: T:System.Reflection.AssemblyMetadataAttribute,
+          Kind: Attribute,
+          Name: AssemblyMetadataAttribute
+        },
+        {
+          FullName: System.Reflection.AssemblyMetadataAttribute,
+          Id: T:System.Reflection.AssemblyMetadataAttribute,
+          Kind: Attribute,
+          Name: AssemblyMetadataAttribute
+        },
+        {
           FullName: System.Reflection.AssemblyProductAttribute,
           Id: T:System.Reflection.AssemblyProductAttribute,
           Kind: Attribute,
@@ -123,16 +87,52 @@
           Name: AssemblyTitleAttribute
         },
         {
-          FullName: System.Reflection.AssemblyMetadataAttribute,
-          Id: T:System.Reflection.AssemblyMetadataAttribute,
-          Kind: Attribute,
-          Name: AssemblyMetadataAttribute
-        },
-        {
           FullName: System.Reflection.AssemblyVersionAttribute,
           Id: T:System.Reflection.AssemblyVersionAttribute,
           Kind: Attribute,
           Name: AssemblyVersionAttribute
+        },
+        {
+          FullName: System.Reflection.Metadata.MetadataUpdateHandlerAttribute,
+          Id: T:System.Reflection.Metadata.MetadataUpdateHandlerAttribute,
+          Kind: Attribute,
+          Name: MetadataUpdateHandlerAttribute
+        },
+        {
+          FullName: System.Resources.NeutralResourcesLanguageAttribute,
+          Id: T:System.Resources.NeutralResourcesLanguageAttribute,
+          Kind: Attribute,
+          Name: NeutralResourcesLanguageAttribute
+        },
+        {
+          FullName: System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
+          Id: T:System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
+          Kind: Attribute,
+          Name: CompilationRelaxationsAttribute
+        },
+        {
+          FullName: System.Runtime.CompilerServices.RuntimeCompatibilityAttribute,
+          Id: T:System.Runtime.CompilerServices.RuntimeCompatibilityAttribute,
+          Kind: Attribute,
+          Name: RuntimeCompatibilityAttribute
+        },
+        {
+          FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+          Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+          Kind: Attribute,
+          Name: ComVisibleAttribute
+        },
+        {
+          FullName: System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute,
+          Id: T:System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute,
+          Kind: Attribute,
+          Name: DefaultDllImportSearchPathsAttribute
+        },
+        {
+          FullName: System.Runtime.Versioning.TargetFrameworkAttribute,
+          Id: T:System.Runtime.Versioning.TargetFrameworkAttribute,
+          Kind: Attribute,
+          Name: TargetFrameworkAttribute
         }
       ],
       FullName: System.Private.CoreLib,
@@ -224,16 +224,16 @@
       Accessibility: Public,
       Attributes: [
         {
-          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
-          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
-          Kind: Attribute,
-          Name: MethodImplAttribute
-        },
-        {
           FullName: System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute,
           Id: T:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute,
           Kind: Attribute,
           Name: DynamicDependencyAttribute
+        },
+        {
+          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+          Kind: Attribute,
+          Name: MethodImplAttribute
         }
       ],
       FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.String.#ctor(System.Char,System.Int32),
@@ -280,16 +280,16 @@
       Accessibility: Public,
       Attributes: [
         {
-          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
-          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
-          Kind: Attribute,
-          Name: MethodImplAttribute
-        },
-        {
           FullName: System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute,
           Id: T:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute,
           Kind: Attribute,
           Name: DynamicDependencyAttribute
+        },
+        {
+          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+          Kind: Attribute,
+          Name: MethodImplAttribute
         }
       ],
       FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.String.#ctor(System.Char[],System.Int32,System.Int32),
@@ -347,16 +347,16 @@
       Accessibility: Public,
       Attributes: [
         {
-          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
-          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
-          Kind: Attribute,
-          Name: MethodImplAttribute
-        },
-        {
           FullName: System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute,
           Id: T:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute,
           Kind: Attribute,
           Name: DynamicDependencyAttribute
+        },
+        {
+          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+          Kind: Attribute,
+          Name: MethodImplAttribute
         }
       ],
       FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.String.#ctor(System.Char[]),
@@ -392,12 +392,6 @@
       Accessibility: Public,
       Attributes: [
         {
-          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
-          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
-          Kind: Attribute,
-          Name: MethodImplAttribute
-        },
-        {
           FullName: System.CLSCompliantAttribute,
           Id: T:System.CLSCompliantAttribute,
           Kind: Attribute,
@@ -408,6 +402,12 @@
           Id: T:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute,
           Kind: Attribute,
           Name: DynamicDependencyAttribute
+        },
+        {
+          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+          Kind: Attribute,
+          Name: MethodImplAttribute
         }
       ],
       FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.String.#ctor(System.Char*,System.Int32,System.Int32),
@@ -465,12 +465,6 @@
       Accessibility: Public,
       Attributes: [
         {
-          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
-          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
-          Kind: Attribute,
-          Name: MethodImplAttribute
-        },
-        {
           FullName: System.CLSCompliantAttribute,
           Id: T:System.CLSCompliantAttribute,
           Kind: Attribute,
@@ -481,6 +475,12 @@
           Id: T:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute,
           Kind: Attribute,
           Name: DynamicDependencyAttribute
+        },
+        {
+          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+          Kind: Attribute,
+          Name: MethodImplAttribute
         }
       ],
       FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.String.#ctor(System.Char*),
@@ -516,16 +516,16 @@
       Accessibility: Public,
       Attributes: [
         {
-          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
-          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
-          Kind: Attribute,
-          Name: MethodImplAttribute
-        },
-        {
           FullName: System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute,
           Id: T:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute,
           Kind: Attribute,
           Name: DynamicDependencyAttribute
+        },
+        {
+          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+          Kind: Attribute,
+          Name: MethodImplAttribute
         }
       ],
       FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.String.#ctor(System.ReadOnlySpan{System.Char}),
@@ -561,12 +561,6 @@
       Accessibility: Public,
       Attributes: [
         {
-          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
-          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
-          Kind: Attribute,
-          Name: MethodImplAttribute
-        },
-        {
           FullName: System.CLSCompliantAttribute,
           Id: T:System.CLSCompliantAttribute,
           Kind: Attribute,
@@ -577,6 +571,12 @@
           Id: T:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute,
           Kind: Attribute,
           Name: DynamicDependencyAttribute
+        },
+        {
+          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+          Kind: Attribute,
+          Name: MethodImplAttribute
         }
       ],
       FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.String.#ctor(System.SByte*,System.Int32,System.Int32,System.Text.Encoding),
@@ -645,12 +645,6 @@
       Accessibility: Public,
       Attributes: [
         {
-          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
-          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
-          Kind: Attribute,
-          Name: MethodImplAttribute
-        },
-        {
           FullName: System.CLSCompliantAttribute,
           Id: T:System.CLSCompliantAttribute,
           Kind: Attribute,
@@ -661,6 +655,12 @@
           Id: T:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute,
           Kind: Attribute,
           Name: DynamicDependencyAttribute
+        },
+        {
+          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+          Kind: Attribute,
+          Name: MethodImplAttribute
         }
       ],
       FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.String.#ctor(System.SByte*,System.Int32,System.Int32),
@@ -718,12 +718,6 @@
       Accessibility: Public,
       Attributes: [
         {
-          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
-          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
-          Kind: Attribute,
-          Name: MethodImplAttribute
-        },
-        {
           FullName: System.CLSCompliantAttribute,
           Id: T:System.CLSCompliantAttribute,
           Kind: Attribute,
@@ -734,6 +728,12 @@
           Id: T:System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute,
           Kind: Attribute,
           Name: DynamicDependencyAttribute
+        },
+        {
+          FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+          Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+          Kind: Attribute,
+          Name: MethodImplAttribute
         }
       ],
       FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.String.#ctor(System.SByte*),
@@ -11363,12 +11363,6 @@
       Accessibility: Public,
       Attributes: [
         {
-          FullName: System.SerializableAttribute,
-          Id: T:System.SerializableAttribute,
-          Kind: Attribute,
-          Name: SerializableAttribute
-        },
-        {
           FullName: System.Reflection.DefaultMemberAttribute,
           Id: T:System.Reflection.DefaultMemberAttribute,
           Kind: Attribute,
@@ -11381,10 +11375,10 @@
           Name: TypeForwardedFromAttribute
         },
         {
-          FullName: System.SerializableAttribute,
-          Id: T:System.SerializableAttribute,
+          FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+          Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
           Kind: Attribute,
-          Name: SerializableAttribute
+          Name: TypeForwardedFromAttribute
         },
         {
           FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
@@ -11399,10 +11393,16 @@
           Name: ComVisibleAttribute
         },
         {
-          FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
-          Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+          FullName: System.SerializableAttribute,
+          Id: T:System.SerializableAttribute,
           Kind: Attribute,
-          Name: TypeForwardedFromAttribute
+          Name: SerializableAttribute
+        },
+        {
+          FullName: System.SerializableAttribute,
+          Id: T:System.SerializableAttribute,
+          Kind: Attribute,
+          Name: SerializableAttribute
         }
       ],
       BaseTypes: [
@@ -11705,28 +11705,16 @@
       Accessibility: Private,
       Attributes: [
         {
-          FullName: System.Runtime.InteropServices.StructLayoutAttribute,
-          Id: T:System.Runtime.InteropServices.StructLayoutAttribute,
-          Kind: Attribute,
-          Name: StructLayoutAttribute
-        },
-        {
-          FullName: System.SerializableAttribute,
-          Id: T:System.SerializableAttribute,
-          Kind: Attribute,
-          Name: SerializableAttribute
-        },
-        {
           FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
           Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
           Kind: Attribute,
           Name: TypeForwardedFromAttribute
         },
         {
-          FullName: System.SerializableAttribute,
-          Id: T:System.SerializableAttribute,
+          FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+          Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
           Kind: Attribute,
-          Name: SerializableAttribute
+          Name: TypeForwardedFromAttribute
         },
         {
           FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
@@ -11741,10 +11729,22 @@
           Name: ComVisibleAttribute
         },
         {
-          FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
-          Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+          FullName: System.Runtime.InteropServices.StructLayoutAttribute,
+          Id: T:System.Runtime.InteropServices.StructLayoutAttribute,
           Kind: Attribute,
-          Name: TypeForwardedFromAttribute
+          Name: StructLayoutAttribute
+        },
+        {
+          FullName: System.SerializableAttribute,
+          Id: T:System.SerializableAttribute,
+          Kind: Attribute,
+          Name: SerializableAttribute
+        },
+        {
+          FullName: System.SerializableAttribute,
+          Id: T:System.SerializableAttribute,
+          Kind: Attribute,
+          Name: SerializableAttribute
         }
       ],
       BaseTypes: [

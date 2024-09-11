@@ -2,46 +2,16 @@
   NetEvolve.ArchiDuct: {
     Attributes: [
       {
-        FullName: System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
-        Id: T:System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
+        FullName: System.CLSCompliantAttribute,
+        Id: T:System.CLSCompliantAttribute,
         Kind: Attribute,
-        Name: CompilationRelaxationsAttribute
-      },
-      {
-        FullName: System.Runtime.CompilerServices.RuntimeCompatibilityAttribute,
-        Id: T:System.Runtime.CompilerServices.RuntimeCompatibilityAttribute,
-        Kind: Attribute,
-        Name: RuntimeCompatibilityAttribute
+        Name: CLSCompliantAttribute
       },
       {
         FullName: System.Diagnostics.DebuggableAttribute,
         Id: T:System.Diagnostics.DebuggableAttribute,
         Kind: Attribute,
         Name: DebuggableAttribute
-      },
-      {
-        FullName: System.Runtime.Versioning.TargetFrameworkAttribute,
-        Id: T:System.Runtime.Versioning.TargetFrameworkAttribute,
-        Kind: Attribute,
-        Name: TargetFrameworkAttribute
-      },
-      {
-        FullName: System.Reflection.AssemblyFileVersionAttribute,
-        Id: T:System.Reflection.AssemblyFileVersionAttribute,
-        Kind: Attribute,
-        Name: AssemblyFileVersionAttribute
-      },
-      {
-        FullName: System.Reflection.AssemblyInformationalVersionAttribute,
-        Id: T:System.Reflection.AssemblyInformationalVersionAttribute,
-        Kind: Attribute,
-        Name: AssemblyInformationalVersionAttribute
-      },
-      {
-        FullName: System.CLSCompliantAttribute,
-        Id: T:System.CLSCompliantAttribute,
-        Kind: Attribute,
-        Name: CLSCompliantAttribute
       },
       {
         FullName: System.Reflection.AssemblyCompanyAttribute,
@@ -68,6 +38,24 @@
         Name: AssemblyDescriptionAttribute
       },
       {
+        FullName: System.Reflection.AssemblyFileVersionAttribute,
+        Id: T:System.Reflection.AssemblyFileVersionAttribute,
+        Kind: Attribute,
+        Name: AssemblyFileVersionAttribute
+      },
+      {
+        FullName: System.Reflection.AssemblyInformationalVersionAttribute,
+        Id: T:System.Reflection.AssemblyInformationalVersionAttribute,
+        Kind: Attribute,
+        Name: AssemblyInformationalVersionAttribute
+      },
+      {
+        FullName: System.Reflection.AssemblyMetadataAttribute,
+        Id: T:System.Reflection.AssemblyMetadataAttribute,
+        Kind: Attribute,
+        Name: AssemblyMetadataAttribute
+      },
+      {
         FullName: System.Reflection.AssemblyProductAttribute,
         Id: T:System.Reflection.AssemblyProductAttribute,
         Kind: Attribute,
@@ -80,10 +68,10 @@
         Name: AssemblyTitleAttribute
       },
       {
-        FullName: System.Reflection.AssemblyMetadataAttribute,
-        Id: T:System.Reflection.AssemblyMetadataAttribute,
+        FullName: System.Reflection.AssemblyVersionAttribute,
+        Id: T:System.Reflection.AssemblyVersionAttribute,
         Kind: Attribute,
-        Name: AssemblyMetadataAttribute
+        Name: AssemblyVersionAttribute
       },
       {
         FullName: System.Resources.NeutralResourcesLanguageAttribute,
@@ -92,10 +80,10 @@
         Name: NeutralResourcesLanguageAttribute
       },
       {
-        FullName: System.Runtime.CompilerServices.InternalsVisibleToAttribute,
-        Id: T:System.Runtime.CompilerServices.InternalsVisibleToAttribute,
+        FullName: System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
+        Id: T:System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
         Kind: Attribute,
-        Name: InternalsVisibleToAttribute
+        Name: CompilationRelaxationsAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.InternalsVisibleToAttribute,
@@ -110,10 +98,22 @@
         Name: InternalsVisibleToAttribute
       },
       {
-        FullName: System.Reflection.AssemblyVersionAttribute,
-        Id: T:System.Reflection.AssemblyVersionAttribute,
+        FullName: System.Runtime.CompilerServices.InternalsVisibleToAttribute,
+        Id: T:System.Runtime.CompilerServices.InternalsVisibleToAttribute,
         Kind: Attribute,
-        Name: AssemblyVersionAttribute
+        Name: InternalsVisibleToAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.RuntimeCompatibilityAttribute,
+        Id: T:System.Runtime.CompilerServices.RuntimeCompatibilityAttribute,
+        Kind: Attribute,
+        Name: RuntimeCompatibilityAttribute
+      },
+      {
+        FullName: System.Runtime.Versioning.TargetFrameworkAttribute,
+        Id: T:System.Runtime.Versioning.TargetFrameworkAttribute,
+        Kind: Attribute,
+        Name: TargetFrameworkAttribute
       }
     ],
     FullName: NetEvolve.ArchiDuct,
@@ -133,40 +133,10 @@
     ],
     References: [
       {
-        FullName: System.Runtime,
-        Id: A:System.Runtime,
-        Kind: Reference,
-        Name: System.Runtime
-      },
-      {
-        FullName: System.Collections,
-        Id: A:System.Collections,
-        Kind: Reference,
-        Name: System.Collections
-      },
-      {
-        FullName: NetEvolve.FluentValue,
-        Id: A:NetEvolve.FluentValue,
-        Kind: Reference,
-        Name: NetEvolve.FluentValue
-      },
-      {
         FullName: ICSharpCode.Decompiler,
         Id: A:ICSharpCode.Decompiler,
         Kind: Reference,
         Name: ICSharpCode.Decompiler
-      },
-      {
-        FullName: System.Xml.XDocument,
-        Id: A:System.Xml.XDocument,
-        Kind: Reference,
-        Name: System.Xml.XDocument
-      },
-      {
-        FullName: System.Collections.Concurrent,
-        Id: A:System.Collections.Concurrent,
-        Kind: Reference,
-        Name: System.Collections.Concurrent
       },
       {
         FullName: NetEvolve.Arguments,
@@ -175,10 +145,22 @@
         Name: NetEvolve.Arguments
       },
       {
-        FullName: System.Threading.Tasks.Parallel,
-        Id: A:System.Threading.Tasks.Parallel,
+        FullName: NetEvolve.FluentValue,
+        Id: A:NetEvolve.FluentValue,
         Kind: Reference,
-        Name: System.Threading.Tasks.Parallel
+        Name: NetEvolve.FluentValue
+      },
+      {
+        FullName: System.Collections,
+        Id: A:System.Collections,
+        Kind: Reference,
+        Name: System.Collections
+      },
+      {
+        FullName: System.Collections.Concurrent,
+        Id: A:System.Collections.Concurrent,
+        Kind: Reference,
+        Name: System.Collections.Concurrent
       },
       {
         FullName: System.Linq,
@@ -205,16 +187,34 @@
         Name: System.Private.Xml.Linq
       },
       {
-        FullName: System.Runtime.InteropServices,
-        Id: A:System.Runtime.InteropServices,
+        FullName: System.Runtime,
+        Id: A:System.Runtime,
         Kind: Reference,
-        Name: System.Runtime.InteropServices
+        Name: System.Runtime
       },
       {
         FullName: System.Runtime.CompilerServices.Unsafe,
         Id: A:System.Runtime.CompilerServices.Unsafe,
         Kind: Reference,
         Name: System.Runtime.CompilerServices.Unsafe
+      },
+      {
+        FullName: System.Runtime.InteropServices,
+        Id: A:System.Runtime.InteropServices,
+        Kind: Reference,
+        Name: System.Runtime.InteropServices
+      },
+      {
+        FullName: System.Threading.Tasks.Parallel,
+        Id: A:System.Threading.Tasks.Parallel,
+        Kind: Reference,
+        Name: System.Threading.Tasks.Parallel
+      },
+      {
+        FullName: System.Xml.XDocument,
+        Id: A:System.Xml.XDocument,
+        Kind: Reference,
+        Name: System.Xml.XDocument
       }
     ]
   }

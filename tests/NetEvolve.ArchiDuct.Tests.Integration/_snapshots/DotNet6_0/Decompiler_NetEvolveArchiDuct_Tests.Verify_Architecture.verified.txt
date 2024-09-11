@@ -3,46 +3,16 @@
     NetEvolve.ArchiDuct: {
       Attributes: [
         {
-          FullName: System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
-          Id: T:System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
+          FullName: System.CLSCompliantAttribute,
+          Id: T:System.CLSCompliantAttribute,
           Kind: Attribute,
-          Name: CompilationRelaxationsAttribute
-        },
-        {
-          FullName: System.Runtime.CompilerServices.RuntimeCompatibilityAttribute,
-          Id: T:System.Runtime.CompilerServices.RuntimeCompatibilityAttribute,
-          Kind: Attribute,
-          Name: RuntimeCompatibilityAttribute
+          Name: CLSCompliantAttribute
         },
         {
           FullName: System.Diagnostics.DebuggableAttribute,
           Id: T:System.Diagnostics.DebuggableAttribute,
           Kind: Attribute,
           Name: DebuggableAttribute
-        },
-        {
-          FullName: System.Runtime.Versioning.TargetFrameworkAttribute,
-          Id: T:System.Runtime.Versioning.TargetFrameworkAttribute,
-          Kind: Attribute,
-          Name: TargetFrameworkAttribute
-        },
-        {
-          FullName: System.Reflection.AssemblyFileVersionAttribute,
-          Id: T:System.Reflection.AssemblyFileVersionAttribute,
-          Kind: Attribute,
-          Name: AssemblyFileVersionAttribute
-        },
-        {
-          FullName: System.Reflection.AssemblyInformationalVersionAttribute,
-          Id: T:System.Reflection.AssemblyInformationalVersionAttribute,
-          Kind: Attribute,
-          Name: AssemblyInformationalVersionAttribute
-        },
-        {
-          FullName: System.CLSCompliantAttribute,
-          Id: T:System.CLSCompliantAttribute,
-          Kind: Attribute,
-          Name: CLSCompliantAttribute
         },
         {
           FullName: System.Reflection.AssemblyCompanyAttribute,
@@ -69,6 +39,24 @@
           Name: AssemblyDescriptionAttribute
         },
         {
+          FullName: System.Reflection.AssemblyFileVersionAttribute,
+          Id: T:System.Reflection.AssemblyFileVersionAttribute,
+          Kind: Attribute,
+          Name: AssemblyFileVersionAttribute
+        },
+        {
+          FullName: System.Reflection.AssemblyInformationalVersionAttribute,
+          Id: T:System.Reflection.AssemblyInformationalVersionAttribute,
+          Kind: Attribute,
+          Name: AssemblyInformationalVersionAttribute
+        },
+        {
+          FullName: System.Reflection.AssemblyMetadataAttribute,
+          Id: T:System.Reflection.AssemblyMetadataAttribute,
+          Kind: Attribute,
+          Name: AssemblyMetadataAttribute
+        },
+        {
           FullName: System.Reflection.AssemblyProductAttribute,
           Id: T:System.Reflection.AssemblyProductAttribute,
           Kind: Attribute,
@@ -81,10 +69,10 @@
           Name: AssemblyTitleAttribute
         },
         {
-          FullName: System.Reflection.AssemblyMetadataAttribute,
-          Id: T:System.Reflection.AssemblyMetadataAttribute,
+          FullName: System.Reflection.AssemblyVersionAttribute,
+          Id: T:System.Reflection.AssemblyVersionAttribute,
           Kind: Attribute,
-          Name: AssemblyMetadataAttribute
+          Name: AssemblyVersionAttribute
         },
         {
           FullName: System.Resources.NeutralResourcesLanguageAttribute,
@@ -93,10 +81,10 @@
           Name: NeutralResourcesLanguageAttribute
         },
         {
-          FullName: System.Runtime.CompilerServices.InternalsVisibleToAttribute,
-          Id: T:System.Runtime.CompilerServices.InternalsVisibleToAttribute,
+          FullName: System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
+          Id: T:System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
           Kind: Attribute,
-          Name: InternalsVisibleToAttribute
+          Name: CompilationRelaxationsAttribute
         },
         {
           FullName: System.Runtime.CompilerServices.InternalsVisibleToAttribute,
@@ -111,10 +99,22 @@
           Name: InternalsVisibleToAttribute
         },
         {
-          FullName: System.Reflection.AssemblyVersionAttribute,
-          Id: T:System.Reflection.AssemblyVersionAttribute,
+          FullName: System.Runtime.CompilerServices.InternalsVisibleToAttribute,
+          Id: T:System.Runtime.CompilerServices.InternalsVisibleToAttribute,
           Kind: Attribute,
-          Name: AssemblyVersionAttribute
+          Name: InternalsVisibleToAttribute
+        },
+        {
+          FullName: System.Runtime.CompilerServices.RuntimeCompatibilityAttribute,
+          Id: T:System.Runtime.CompilerServices.RuntimeCompatibilityAttribute,
+          Kind: Attribute,
+          Name: RuntimeCompatibilityAttribute
+        },
+        {
+          FullName: System.Runtime.Versioning.TargetFrameworkAttribute,
+          Id: T:System.Runtime.Versioning.TargetFrameworkAttribute,
+          Kind: Attribute,
+          Name: TargetFrameworkAttribute
         }
       ],
       FullName: NetEvolve.ArchiDuct,
@@ -122,7 +122,7 @@
       Members: [
         {
           Accessibility: Private,
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, F:NetEvolve.ArchiDuct.ArchitectureCollector._registeredSources,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, F:NetEvolve.ArchiDuct.ArchitectureCollector._registeredSources,
           Id: F:NetEvolve.ArchiDuct.ArchitectureCollector._registeredSources,
           Kind: Field,
           Modifiers: [
@@ -137,7 +137,7 @@
         },
         {
           Accessibility: Private,
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.#ctor,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.#ctor,
           Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.#ctor,
           Kind: Constructor,
           Name: .ctor,
@@ -145,30 +145,14 @@
         },
         {
           Accessibility: Public,
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.Create,
-          Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.Create,
-          IsLocal: false,
-          Kind: Method,
-          Modifiers: [
-            Static
-          ],
-          Name: Create,
-          ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-          ReturnType: {
-            Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector,
-            IsNullable: false
-          }
-        },
-        {
-          Accessibility: Public,
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean),
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean),
           Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean),
           IsLocal: false,
           Kind: Method,
           Name: AddAssembly,
           Parameters: [
             {
-              FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean).assembly,
+              FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean).assembly,
               Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean).assembly,
               Kind: Parameter,
               Name: assembly,
@@ -179,7 +163,7 @@
               }
             },
             {
-              FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean).includeReferences,
+              FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean).includeReferences,
               Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean).includeReferences,
               Kind: Parameter,
               Name: includeReferences,
@@ -199,14 +183,14 @@
         },
         {
           Accessibility: Public,
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean),
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean),
           Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean),
           IsLocal: false,
           Kind: Method,
           Name: AddDirectory,
           Parameters: [
             {
-              FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).directoryPath,
+              FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).directoryPath,
               Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).directoryPath,
               Kind: Parameter,
               Name: directoryPath,
@@ -217,7 +201,7 @@
               }
             },
             {
-              FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).includeSubDirectories,
+              FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).includeSubDirectories,
               Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).includeSubDirectories,
               Kind: Parameter,
               Name: includeSubDirectories,
@@ -229,7 +213,7 @@
               }
             },
             {
-              FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).includeReferences,
+              FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).includeReferences,
               Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).includeReferences,
               Kind: Parameter,
               Name: includeReferences,
@@ -249,88 +233,7 @@
         },
         {
           Accessibility: Public,
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint),
-          Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint),
-          IsLocal: false,
-          Kind: Method,
-          Name: FilterNamespace,
-          Parameters: [
-            {
-              FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint).constraint,
-              Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint).constraint,
-              Kind: Parameter,
-              Name: constraint,
-              ParentId: M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint),
-              Type: {
-                Id: T:NetEvolve.FluentValue.IConstraint,
-                IsNullable: false
-              }
-            }
-          ],
-          ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-          ReturnType: {
-            Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector,
-            IsNullable: false
-          }
-        },
-        {
-          Accessibility: Public,
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type),
-          Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type),
-          IsLocal: false,
-          Kind: Method,
-          Name: FilterType,
-          Parameters: [
-            {
-              FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type).type,
-              Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type).type,
-              Kind: Parameter,
-              Name: type,
-              ParentId: M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type),
-              Type: {
-                Id: T:System.Type,
-                IsNullable: false
-              }
-            }
-          ],
-          ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-          ReturnType: {
-            Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector,
-            IsNullable: false
-          }
-        },
-        {
-          Accessibility: Private,
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type),
-          Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type),
-          IsLocal: false,
-          Kind: Method,
-          Modifiers: [
-            Static
-          ],
-          Name: GetTypeFullName,
-          Parameters: [
-            {
-              FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type).type,
-              Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type).type,
-              Kind: Parameter,
-              Name: type,
-              ParentId: M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type),
-              Type: {
-                Id: T:System.Type,
-                IsNullable: false
-              }
-            }
-          ],
-          ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-          ReturnType: {
-            Id: T:System.String,
-            IsNullable: false
-          }
-        },
-        {
-          Accessibility: Public,
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.Collect,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.Collect,
           Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.Collect,
           IsLocal: false,
           Kind: Method,
@@ -342,22 +245,62 @@
           }
         },
         {
+          Accessibility: Private,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings),
+          Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings),
+          IsLocal: false,
+          Kind: Method,
+          Modifiers: [
+            Static
+          ],
+          Name: CollectAssembly,
+          Parameters: [
+            {
+              FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings).source,
+              Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings).source,
+              Kind: Parameter,
+              Name: source,
+              ParentId: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings),
+              Type: {
+                Id: T:NetEvolve.ArchiDuct.Models.SourceAssembly,
+                IsNullable: false
+              }
+            },
+            {
+              FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings).decompilerSettings,
+              Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings).decompilerSettings,
+              Kind: Parameter,
+              Name: decompilerSettings,
+              ParentId: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings),
+              Type: {
+                Id: T:ICSharpCode.Decompiler.DecompilerSettings,
+                IsNullable: false
+              }
+            }
+          ],
+          ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
+          ReturnType: {
+            Id: T:System.Collections.Generic.List`1[[NetEvolve.ArchiDuct.Models.ModelAssembly]],
+            IsNullable: false
+          }
+        },
+        {
           Accessibility: Public,
           Attributes: [
-            {
-              FullName: System.Runtime.CompilerServices.AsyncStateMachineAttribute,
-              Id: T:System.Runtime.CompilerServices.AsyncStateMachineAttribute,
-              Kind: Attribute,
-              Name: AsyncStateMachineAttribute
-            },
             {
               FullName: System.Diagnostics.DebuggerStepThroughAttribute,
               Id: T:System.Diagnostics.DebuggerStepThroughAttribute,
               Kind: Attribute,
               Name: DebuggerStepThroughAttribute
+            },
+            {
+              FullName: System.Runtime.CompilerServices.AsyncStateMachineAttribute,
+              Id: T:System.Runtime.CompilerServices.AsyncStateMachineAttribute,
+              Kind: Attribute,
+              Name: AsyncStateMachineAttribute
             }
           ],
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAsync(System.Threading.CancellationToken),
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAsync(System.Threading.CancellationToken),
           Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAsync(System.Threading.CancellationToken),
           IsLocal: false,
           Kind: Method,
@@ -367,7 +310,7 @@
           Name: CollectAsync,
           Parameters: [
             {
-              FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAsync(System.Threading.CancellationToken).cancellationToken,
+              FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAsync(System.Threading.CancellationToken).cancellationToken,
               Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAsync(System.Threading.CancellationToken).cancellationToken,
               Kind: Parameter,
               Name: cancellationToken,
@@ -386,42 +329,99 @@
           }
         },
         {
-          Accessibility: Private,
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings),
-          Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings),
+          Accessibility: Public,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.Create,
+          Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.Create,
           IsLocal: false,
           Kind: Method,
           Modifiers: [
             Static
           ],
-          Name: CollectAssembly,
+          Name: Create,
+          ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
+          ReturnType: {
+            Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector,
+            IsNullable: false
+          }
+        },
+        {
+          Accessibility: Public,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint),
+          Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint),
+          IsLocal: false,
+          Kind: Method,
+          Name: FilterNamespace,
           Parameters: [
             {
-              FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings).source,
-              Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings).source,
+              FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint).constraint,
+              Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint).constraint,
               Kind: Parameter,
-              Name: source,
-              ParentId: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings),
+              Name: constraint,
+              ParentId: M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint),
               Type: {
-                Id: T:NetEvolve.ArchiDuct.Models.SourceAssembly,
-                IsNullable: false
-              }
-            },
-            {
-              FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings).decompilerSettings,
-              Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings).decompilerSettings,
-              Kind: Parameter,
-              Name: decompilerSettings,
-              ParentId: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings),
-              Type: {
-                Id: T:ICSharpCode.Decompiler.DecompilerSettings,
+                Id: T:NetEvolve.FluentValue.IConstraint,
                 IsNullable: false
               }
             }
           ],
           ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
           ReturnType: {
-            Id: T:System.Collections.Generic.List`1[[NetEvolve.ArchiDuct.Models.ModelAssembly]],
+            Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector,
+            IsNullable: false
+          }
+        },
+        {
+          Accessibility: Public,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type),
+          Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type),
+          IsLocal: false,
+          Kind: Method,
+          Name: FilterType,
+          Parameters: [
+            {
+              FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type).type,
+              Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type).type,
+              Kind: Parameter,
+              Name: type,
+              ParentId: M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type),
+              Type: {
+                Id: T:System.Type,
+                IsNullable: false
+              }
+            }
+          ],
+          ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
+          ReturnType: {
+            Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector,
+            IsNullable: false
+          }
+        },
+        {
+          Accessibility: Private,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type),
+          Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type),
+          IsLocal: false,
+          Kind: Method,
+          Modifiers: [
+            Static
+          ],
+          Name: GetTypeFullName,
+          Parameters: [
+            {
+              FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type).type,
+              Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type).type,
+              Kind: Parameter,
+              Name: type,
+              ParentId: M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type),
+              Type: {
+                Id: T:System.Type,
+                IsNullable: false
+              }
+            }
+          ],
+          ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
+          ReturnType: {
+            Id: T:System.String,
             IsNullable: false
           }
         }
@@ -441,40 +441,10 @@
       ],
       References: [
         {
-          FullName: System.Runtime,
-          Id: A:System.Runtime,
-          Kind: Reference,
-          Name: System.Runtime
-        },
-        {
-          FullName: System.Collections,
-          Id: A:System.Collections,
-          Kind: Reference,
-          Name: System.Collections
-        },
-        {
-          FullName: NetEvolve.FluentValue,
-          Id: A:NetEvolve.FluentValue,
-          Kind: Reference,
-          Name: NetEvolve.FluentValue
-        },
-        {
           FullName: ICSharpCode.Decompiler,
           Id: A:ICSharpCode.Decompiler,
           Kind: Reference,
           Name: ICSharpCode.Decompiler
-        },
-        {
-          FullName: System.Xml.XDocument,
-          Id: A:System.Xml.XDocument,
-          Kind: Reference,
-          Name: System.Xml.XDocument
-        },
-        {
-          FullName: System.Collections.Concurrent,
-          Id: A:System.Collections.Concurrent,
-          Kind: Reference,
-          Name: System.Collections.Concurrent
         },
         {
           FullName: NetEvolve.Arguments,
@@ -483,10 +453,22 @@
           Name: NetEvolve.Arguments
         },
         {
-          FullName: System.Threading.Tasks.Parallel,
-          Id: A:System.Threading.Tasks.Parallel,
+          FullName: NetEvolve.FluentValue,
+          Id: A:NetEvolve.FluentValue,
           Kind: Reference,
-          Name: System.Threading.Tasks.Parallel
+          Name: NetEvolve.FluentValue
+        },
+        {
+          FullName: System.Collections,
+          Id: A:System.Collections,
+          Kind: Reference,
+          Name: System.Collections
+        },
+        {
+          FullName: System.Collections.Concurrent,
+          Id: A:System.Collections.Concurrent,
+          Kind: Reference,
+          Name: System.Collections.Concurrent
         },
         {
           FullName: System.Linq,
@@ -513,16 +495,34 @@
           Name: System.Private.Xml.Linq
         },
         {
-          FullName: System.Runtime.InteropServices,
-          Id: A:System.Runtime.InteropServices,
+          FullName: System.Runtime,
+          Id: A:System.Runtime,
           Kind: Reference,
-          Name: System.Runtime.InteropServices
+          Name: System.Runtime
         },
         {
           FullName: System.Runtime.CompilerServices.Unsafe,
           Id: A:System.Runtime.CompilerServices.Unsafe,
           Kind: Reference,
           Name: System.Runtime.CompilerServices.Unsafe
+        },
+        {
+          FullName: System.Runtime.InteropServices,
+          Id: A:System.Runtime.InteropServices,
+          Kind: Reference,
+          Name: System.Runtime.InteropServices
+        },
+        {
+          FullName: System.Threading.Tasks.Parallel,
+          Id: A:System.Threading.Tasks.Parallel,
+          Kind: Reference,
+          Name: System.Threading.Tasks.Parallel
+        },
+        {
+          FullName: System.Xml.XDocument,
+          Id: A:System.Xml.XDocument,
+          Kind: Reference,
+          Name: System.Xml.XDocument
         }
       ],
       Types: [
@@ -530,10 +530,10 @@
           Accessibility: Public,
           Attributes: [
             {
-              FullName: System.SerializableAttribute,
-              Id: T:System.SerializableAttribute,
+              FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+              Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
               Kind: Attribute,
-              Name: SerializableAttribute
+              Name: TypeForwardedFromAttribute
             },
             {
               FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
@@ -548,16 +548,16 @@
               Name: ComVisibleAttribute
             },
             {
-              FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
-              Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+              FullName: System.SerializableAttribute,
+              Id: T:System.SerializableAttribute,
               Kind: Attribute,
-              Name: TypeForwardedFromAttribute
+              Name: SerializableAttribute
             }
           ],
           BaseTypes: [
             T:System.Object
           ],
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, T:NetEvolve.ArchiDuct.ArchitectureCollector,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, T:NetEvolve.ArchiDuct.ArchitectureCollector,
           Id: T:NetEvolve.ArchiDuct.ArchitectureCollector,
           Implementations: [
             T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector
@@ -599,9 +599,9 @@
     }
   },
   Members: {
-    NetEvolve.ArchiDuct, Version=0.2.0.0, F:NetEvolve.ArchiDuct.ArchitectureCollector._registeredSources: {
+    NetEvolve.ArchiDuct, Version=1.0.0.0, F:NetEvolve.ArchiDuct.ArchitectureCollector._registeredSources: {
       Accessibility: Private,
-      FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, F:NetEvolve.ArchiDuct.ArchitectureCollector._registeredSources,
+      FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, F:NetEvolve.ArchiDuct.ArchitectureCollector._registeredSources,
       Id: F:NetEvolve.ArchiDuct.ArchitectureCollector._registeredSources,
       Kind: Field,
       Modifiers: [
@@ -614,24 +614,24 @@
         IsNullable: false
       }
     },
-    NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.#ctor: {
+    NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.#ctor: {
       Accessibility: Private,
-      FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.#ctor,
+      FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.#ctor,
       Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.#ctor,
       Kind: Constructor,
       Name: .ctor,
       ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector
     },
-    NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean): {
+    NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean): {
       Accessibility: Public,
-      FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean),
+      FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean),
       Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean),
       IsLocal: false,
       Kind: Method,
       Name: AddAssembly,
       Parameters: [
         {
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean).assembly,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean).assembly,
           Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean).assembly,
           Kind: Parameter,
           Name: assembly,
@@ -642,7 +642,7 @@
           }
         },
         {
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean).includeReferences,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean).includeReferences,
           Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.AddAssembly(System.Reflection.Assembly,System.Boolean).includeReferences,
           Kind: Parameter,
           Name: includeReferences,
@@ -660,16 +660,16 @@
         IsNullable: false
       }
     },
-    NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean): {
+    NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean): {
       Accessibility: Public,
-      FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean),
+      FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean),
       Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean),
       IsLocal: false,
       Kind: Method,
       Name: AddDirectory,
       Parameters: [
         {
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).directoryPath,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).directoryPath,
           Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).directoryPath,
           Kind: Parameter,
           Name: directoryPath,
@@ -680,7 +680,7 @@
           }
         },
         {
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).includeSubDirectories,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).includeSubDirectories,
           Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).includeSubDirectories,
           Kind: Parameter,
           Name: includeSubDirectories,
@@ -692,7 +692,7 @@
           }
         },
         {
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).includeReferences,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).includeReferences,
           Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.AddDirectory(System.String,System.Boolean,System.Boolean).includeReferences,
           Kind: Parameter,
           Name: includeReferences,
@@ -710,9 +710,9 @@
         IsNullable: false
       }
     },
-    NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.Collect: {
+    NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.Collect: {
       Accessibility: Public,
-      FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.Collect,
+      FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.Collect,
       Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.Collect,
       IsLocal: false,
       Kind: Method,
@@ -723,9 +723,9 @@
         IsNullable: false
       }
     },
-    NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings): {
+    NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings): {
       Accessibility: Private,
-      FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings),
+      FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings),
       Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings),
       IsLocal: false,
       Kind: Method,
@@ -735,7 +735,7 @@
       Name: CollectAssembly,
       Parameters: [
         {
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings).source,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings).source,
           Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings).source,
           Kind: Parameter,
           Name: source,
@@ -746,7 +746,7 @@
           }
         },
         {
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings).decompilerSettings,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings).decompilerSettings,
           Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAssembly(NetEvolve.ArchiDuct.Models.SourceAssembly,ICSharpCode.Decompiler.DecompilerSettings).decompilerSettings,
           Kind: Parameter,
           Name: decompilerSettings,
@@ -763,23 +763,23 @@
         IsNullable: false
       }
     },
-    NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAsync(System.Threading.CancellationToken): {
+    NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAsync(System.Threading.CancellationToken): {
       Accessibility: Public,
       Attributes: [
-        {
-          FullName: System.Runtime.CompilerServices.AsyncStateMachineAttribute,
-          Id: T:System.Runtime.CompilerServices.AsyncStateMachineAttribute,
-          Kind: Attribute,
-          Name: AsyncStateMachineAttribute
-        },
         {
           FullName: System.Diagnostics.DebuggerStepThroughAttribute,
           Id: T:System.Diagnostics.DebuggerStepThroughAttribute,
           Kind: Attribute,
           Name: DebuggerStepThroughAttribute
+        },
+        {
+          FullName: System.Runtime.CompilerServices.AsyncStateMachineAttribute,
+          Id: T:System.Runtime.CompilerServices.AsyncStateMachineAttribute,
+          Kind: Attribute,
+          Name: AsyncStateMachineAttribute
         }
       ],
-      FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAsync(System.Threading.CancellationToken),
+      FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAsync(System.Threading.CancellationToken),
       Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAsync(System.Threading.CancellationToken),
       IsLocal: false,
       Kind: Method,
@@ -789,7 +789,7 @@
       Name: CollectAsync,
       Parameters: [
         {
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAsync(System.Threading.CancellationToken).cancellationToken,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAsync(System.Threading.CancellationToken).cancellationToken,
           Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.CollectAsync(System.Threading.CancellationToken).cancellationToken,
           Kind: Parameter,
           Name: cancellationToken,
@@ -807,9 +807,9 @@
         IsNullable: false
       }
     },
-    NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.Create: {
+    NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.Create: {
       Accessibility: Public,
-      FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.Create,
+      FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.Create,
       Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.Create,
       IsLocal: false,
       Kind: Method,
@@ -823,16 +823,16 @@
         IsNullable: false
       }
     },
-    NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint): {
+    NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint): {
       Accessibility: Public,
-      FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint),
+      FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint),
       Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint),
       IsLocal: false,
       Kind: Method,
       Name: FilterNamespace,
       Parameters: [
         {
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint).constraint,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint).constraint,
           Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterNamespace(NetEvolve.FluentValue.IConstraint).constraint,
           Kind: Parameter,
           Name: constraint,
@@ -849,16 +849,16 @@
         IsNullable: false
       }
     },
-    NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type): {
+    NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type): {
       Accessibility: Public,
-      FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type),
+      FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type),
       Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type),
       IsLocal: false,
       Kind: Method,
       Name: FilterType,
       Parameters: [
         {
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type).type,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type).type,
           Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.FilterType(System.Type).type,
           Kind: Parameter,
           Name: type,
@@ -875,9 +875,9 @@
         IsNullable: false
       }
     },
-    NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type): {
+    NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type): {
       Accessibility: Private,
-      FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type),
+      FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type),
       Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type),
       IsLocal: false,
       Kind: Method,
@@ -887,7 +887,7 @@
       Name: GetTypeFullName,
       Parameters: [
         {
-          FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type).type,
+          FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type).type,
           Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type).type,
           Kind: Parameter,
           Name: type,
@@ -918,14 +918,14 @@
     }
   },
   Types: {
-    NetEvolve.ArchiDuct, Version=0.2.0.0, T:NetEvolve.ArchiDuct.ArchitectureCollector: {
+    NetEvolve.ArchiDuct, Version=1.0.0.0, T:NetEvolve.ArchiDuct.ArchitectureCollector: {
       Accessibility: Public,
       Attributes: [
         {
-          FullName: System.SerializableAttribute,
-          Id: T:System.SerializableAttribute,
+          FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+          Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
           Kind: Attribute,
-          Name: SerializableAttribute
+          Name: TypeForwardedFromAttribute
         },
         {
           FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
@@ -940,16 +940,16 @@
           Name: ComVisibleAttribute
         },
         {
-          FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
-          Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+          FullName: System.SerializableAttribute,
+          Id: T:System.SerializableAttribute,
           Kind: Attribute,
-          Name: TypeForwardedFromAttribute
+          Name: SerializableAttribute
         }
       ],
       BaseTypes: [
         T:System.Object
       ],
-      FullName: NetEvolve.ArchiDuct, Version=0.2.0.0, T:NetEvolve.ArchiDuct.ArchitectureCollector,
+      FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, T:NetEvolve.ArchiDuct.ArchitectureCollector,
       Id: T:NetEvolve.ArchiDuct.ArchitectureCollector,
       Implementations: [
         T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector

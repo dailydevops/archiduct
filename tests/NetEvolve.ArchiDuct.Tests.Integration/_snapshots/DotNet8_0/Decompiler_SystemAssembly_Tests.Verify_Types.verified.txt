@@ -3,22 +3,10 @@
     Accessibility: Public,
     Attributes: [
       {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
-        Kind: Attribute,
-        Name: SerializableAttribute
-      },
-      {
         FullName: System.Reflection.DefaultMemberAttribute,
         Id: T:System.Reflection.DefaultMemberAttribute,
         Kind: Attribute,
         Name: DefaultMemberAttribute
-      },
-      {
-        FullName: System.Runtime.Versioning.NonVersionableAttribute,
-        Id: T:System.Runtime.Versioning.NonVersionableAttribute,
-        Kind: Attribute,
-        Name: NonVersionableAttribute
       },
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
@@ -27,10 +15,10 @@
         Name: TypeForwardedFromAttribute
       },
       {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
@@ -45,10 +33,22 @@
         Name: ComVisibleAttribute
       },
       {
-        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
-        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        FullName: System.Runtime.Versioning.NonVersionableAttribute,
+        Id: T:System.Runtime.Versioning.NonVersionableAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute
+        Name: NonVersionableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
       }
     ],
     BaseTypes: [
@@ -362,10 +362,10 @@
     Accessibility: Internal,
     Attributes: [
       {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
@@ -380,10 +380,10 @@
         Name: ComVisibleAttribute
       },
       {
-        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
-        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute
+        Name: SerializableAttribute
       }
     ],
     BaseTypes: [
