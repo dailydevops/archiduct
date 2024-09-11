@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetEvolve.ArchiDuct.Tests.U
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetEvolve.ArchiDuct.Tests.Integration", "tests\NetEvolve.ArchiDuct.Tests.Integration\NetEvolve.ArchiDuct.Tests.Integration.csproj", "{59B69788-809A-41A4-8ECA-3867E3420DA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetEvolve.ArchiDuct.Tests.Architecture.Legacy", "tests\NetEvolve.ArchiDuct.Tests.Architecture.Legacy\NetEvolve.ArchiDuct.Tests.Architecture.Legacy.csproj", "{2879742B-7037-4707-9D16-997FA6494BB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetEvolve.ArchiDuct.Tests.Architecture.Legacy", "tests\NetEvolve.ArchiDuct.Tests.Architecture.Legacy\NetEvolve.ArchiDuct.Tests.Architecture.Legacy.csproj", "{2879742B-7037-4707-9D16-997FA6494BB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetEvolve.ArchiDuct.Tests.PublicApi", "tests\NetEvolve.ArchiDuct.Tests.PublicApi\NetEvolve.ArchiDuct.Tests.PublicApi.csproj", "{6D870BFA-D642-4639-9892-02DE717971E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{2879742B-7037-4707-9D16-997FA6494BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2879742B-7037-4707-9D16-997FA6494BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2879742B-7037-4707-9D16-997FA6494BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D870BFA-D642-4639-9892-02DE717971E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D870BFA-D642-4639-9892-02DE717971E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D870BFA-D642-4639-9892-02DE717971E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D870BFA-D642-4639-9892-02DE717971E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{03E2529C-6FD6-4501-AEA2-32A8B258F653} = {B6D0628F-AF7C-4084-B0E9-DAF38BAC412E}
 		{59B69788-809A-41A4-8ECA-3867E3420DA9} = {B6D0628F-AF7C-4084-B0E9-DAF38BAC412E}
 		{2879742B-7037-4707-9D16-997FA6494BB2} = {B6D0628F-AF7C-4084-B0E9-DAF38BAC412E}
+		{6D870BFA-D642-4639-9892-02DE717971E9} = {B6D0628F-AF7C-4084-B0E9-DAF38BAC412E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89C5B33E-14D6-408D-B3CD-2E0A7C11D4B5}
