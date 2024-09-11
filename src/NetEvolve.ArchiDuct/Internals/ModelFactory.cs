@@ -5,6 +5,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
+using ICSharpCode.Decompiler.CSharp.Syntax;
 using ICSharpCode.Decompiler.Documentation;
 using ICSharpCode.Decompiler.TypeSystem;
 using NetEvolve.ArchiDuct.Extensions;
@@ -12,6 +13,7 @@ using NetEvolve.ArchiDuct.Models;
 using NetEvolve.ArchiDuct.Models.Abstractions;
 using NetEvolve.ArchiDuct.Models.Members;
 using NetEvolve.ArchiDuct.Models.Types;
+using NetEvolve.Arguments;
 using static System.StringComparison;
 using static ICSharpCode.Decompiler.TypeSystem.Accessibility;
 
@@ -294,14 +296,12 @@ internal static class ModelFactory
         return new ModelReturn(returnId, returnType.Nullability == Nullability.Nullable);
     }
 
-    internal static HashSet<ModelModifier> MapModifiers(IParameter parameter) =>
-        GetModifiers(parameter).ToHashSet();
-
-    private static IEnumerable<ModelModifier> GetModifiers(IParameter parameter)
+    internal static HashSet<ModelModifier> MapModifiers(IParameter parameter)
     {
+        var modifiers = new HashSet<ModelModifier>();
         if (parameter.IsIn)
         {
-            yield return ModelModifier.In;
+            _ = modifiers.Add(ModelModifier.In);
         }
 
         if (parameter.IsRef)
@@ -311,19 +311,19 @@ internal static class ModelFactory
                 .Any(x => x.AttributeType.Name == "RequiresLocationAttribute");
             if (requiresLocation)
             {
-                yield return ModelModifier.ReadOnly;
+                _ = modifiers.Add(ModelModifier.ReadOnly);
             }
-            yield return ModelModifier.Ref;
+            _ = modifiers.Add(ModelModifier.Ref);
         }
 
         if (parameter.IsOut)
         {
-            yield return ModelModifier.Out;
+            _ = modifiers.Add(ModelModifier.Out);
         }
 
         if (parameter.IsParams)
         {
-            yield return ModelModifier.Params;
+            _ = modifiers.Add(ModelModifier.Params);
         }
 
         if (
@@ -332,162 +332,137 @@ internal static class ModelFactory
             && method.Parameters[0] == parameter
         )
         {
-            yield return ModelModifier.This;
+            _ = modifiers.Add(ModelModifier.This);
         }
+
+        return modifiers;
     }
 
-    private static IEnumerable<ModelModifier> GetModifiers(ITypeDefinition type)
+    private static HashSet<ModelModifier> MapModifiers(ITypeDefinition typeDefinition)
     {
-        if (type.Kind == TypeKind.Enum)
+        if (typeDefinition.Kind == TypeKind.Enum)
         {
-            yield break;
+            return [];
         }
 
-        if (type.IsAbstract && type.Kind != TypeKind.Interface)
+        var modifiers = new HashSet<ModelModifier>();
+        if (typeDefinition.IsAbstract && typeDefinition.Kind != TypeKind.Interface)
         {
-            yield return ModelModifier.Abstract;
+            _ = modifiers.Add(ModelModifier.Abstract);
         }
 
-        if (type.IsReadOnly)
+        if (typeDefinition.IsReadOnly)
         {
-            yield return ModelModifier.ReadOnly;
+            _ = modifiers.Add(ModelModifier.ReadOnly);
         }
 
-        if (type.IsSealed && type.Kind != TypeKind.Struct)
+        if (typeDefinition.IsSealed && typeDefinition.Kind != TypeKind.Struct)
         {
-            yield return ModelModifier.Sealed;
+            _ = modifiers.Add(ModelModifier.Sealed);
         }
 
-        if (type.IsStatic)
+        if (typeDefinition.IsStatic)
         {
-            yield return ModelModifier.Static;
+            _ = modifiers.Add(ModelModifier.Static);
         }
 
-        if (type.IsByRefLike && type.Kind == TypeKind.Struct)
+        if (typeDefinition.IsByRefLike && typeDefinition.Kind == TypeKind.Struct)
         {
-            yield return ModelModifier.Ref;
+            _ = modifiers.Add(ModelModifier.Ref);
         }
 
         // TODO: unsafe
+
+        return modifiers;
     }
 
-    private static IEnumerable<ModelModifier> GetModifiers(IMember m)
+    private static HashSet<ModelModifier> MapModifiers(IMember member)
     {
-        // TODO: Extensions.Exceptions
-#pragma warning disable CA2208, S3928 // Instantiate argument exceptions correctly
-        var t =
-            m.DeclaringTypeDefinition
-            ?? throw new ArgumentNullException(nameof(m.DeclaringTypeDefinition));
-#pragma warning restore CA2208, S3928 // Instantiate argument exceptions correctly
+        Argument.ThrowIfNull(member.DeclaringTypeDefinition);
+        var t = member.DeclaringTypeDefinition;
 
-        if (t.Kind != TypeKind.Enum)
+        if (t.Kind == TypeKind.Enum)
         {
-            if (m.IsAbstract && t.Kind != TypeKind.Interface)
-            {
-                yield return ModelModifier.Abstract;
-            }
-
-            if (
-                m.HasAttribute(KnownAttribute.AsyncStateMachine)
-                || m.HasAttribute(KnownAttribute.AsyncIteratorStateMachine)
-            )
-            {
-                yield return ModelModifier.Async;
-            }
-
-            if (m.HasAttribute(KnownAttribute.DllImport))
-            {
-                yield return ModelModifier.Extern;
-            }
-
-            if (m.IsOverride)
-            {
-                yield return ModelModifier.Override;
-            }
-
-            if (m.IsSealed)
-            {
-                yield return ModelModifier.Sealed;
-            }
-
-            if (m.IsStatic)
-            {
-                yield return ModelModifier.Static;
-            }
-
-            if (m.IsVirtual)
-            {
-                yield return ModelModifier.Virtual;
-            }
-
-            if (m is IMethod me)
-            {
-                foreach (var modifier in GetModifiers(me))
-                {
-                    yield return modifier;
-                }
-            }
-
-            if (m is IField f)
-            {
-                foreach (var modifier in GetModifiers(f))
-                {
-                    yield return modifier;
-                }
-            }
-
-            if (m is IProperty p)
-            {
-                foreach (var modifier in GetModifiers(p))
-                {
-                    yield return modifier;
-                }
-            }
-
-            // TODO: unsafe
+            return [];
         }
+
+        var modifiers = new HashSet<ModelModifier>();
+        if (member.IsAbstract && t.Kind != TypeKind.Interface)
+        {
+            _ = modifiers.Add(ModelModifier.Abstract);
+        }
+
+        if (
+            member.HasAttribute(KnownAttribute.AsyncStateMachine)
+            || member.HasAttribute(KnownAttribute.AsyncIteratorStateMachine)
+        )
+        {
+            _ = modifiers.Add(ModelModifier.Async);
+        }
+
+        if (member.HasAttribute(KnownAttribute.DllImport))
+        {
+            _ = modifiers.Add(ModelModifier.Extern);
+        }
+
+        if (member.IsOverride)
+        {
+            _ = modifiers.Add(ModelModifier.Override);
+        }
+
+        if (member.IsSealed)
+        {
+            _ = modifiers.Add(ModelModifier.Sealed);
+        }
+
+        if (member.IsStatic)
+        {
+            _ = modifiers.Add(ModelModifier.Static);
+        }
+
+        if (member.IsVirtual)
+        {
+            _ = modifiers.Add(ModelModifier.Virtual);
+        }
+
+        if (member is IMethod me)
+        {
+            if (me.ReturnTypeIsRefReadOnly)
+            {
+                _ = modifiers.Add(ModelModifier.Ref);
+                _ = modifiers.Add(ModelModifier.ReadOnly);
+            }
+        }
+
+        if (member is IField f)
+        {
+            if (f.IsConst)
+            {
+                _ = modifiers.Add(ModelModifier.Const);
+            }
+
+            if (f.IsReadOnly)
+            {
+                _ = modifiers.Add(ModelModifier.ReadOnly);
+            }
+
+            if (f.IsVolatile)
+            {
+                _ = modifiers.Add(ModelModifier.Volatile);
+            }
+        }
+
+        if (member is IProperty p)
+        {
+            if (p.HasAttribute(KnownAttribute.RequiredAttribute))
+            {
+                _ = modifiers.Add(ModelModifier.Required);
+            }
+        }
+        // TODO: unsafe
+
+        return modifiers;
     }
-
-    private static IEnumerable<ModelModifier> GetModifiers(IField f)
-    {
-        if (f.IsConst)
-        {
-            yield return ModelModifier.Const;
-        }
-
-        if (f.IsReadOnly)
-        {
-            yield return ModelModifier.ReadOnly;
-        }
-
-        if (f.IsVolatile)
-        {
-            yield return ModelModifier.Volatile;
-        }
-    }
-
-    private static IEnumerable<ModelModifier> GetModifiers(IMethod m)
-    {
-        if (m.ReturnTypeIsRefReadOnly)
-        {
-            yield return ModelModifier.Ref;
-            yield return ModelModifier.ReadOnly;
-        }
-    }
-
-    private static IEnumerable<ModelModifier> GetModifiers(IProperty p)
-    {
-        if (p.HasAttribute(KnownAttribute.RequiredAttribute))
-        {
-            yield return ModelModifier.Required;
-        }
-    }
-
-    private static HashSet<ModelModifier> MapModifiers(ITypeDefinition typeDefinition) =>
-        GetModifiers(typeDefinition).ToHashSet();
-
-    private static HashSet<ModelModifier> MapModifiers(IMember member) =>
-        GetModifiers(member).ToHashSet();
 
     private static bool HasFileAccessModifier(ITypeDefinition typeDefinition)
     {
@@ -544,11 +519,12 @@ internal static class ModelFactory
         {
             var parentName = member.DeclaringTypeDefinition!.FullName;
             var entityId = member.GetIdString();
+            var typeDefinition = member.DeclaringTypeDefinition;
 
             result =
-                member.DeclaringTypeDefinition is not null
-                && member
-                    .DeclaringTypeDefinition.EnumerateBaseTypeDefinitions()
+                typeDefinition is not null
+                && typeDefinition
+                    .EnumerateBaseTypeDefinitions()
                     .Any(type =>
                     {
                         if (type.Kind != TypeKind.Interface)
