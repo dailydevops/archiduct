@@ -238,7 +238,7 @@ public sealed class ArchitectureCollector : IArchitectureCollector
         var assembly = source.Assembly;
 
         var results = new List<ModelAssembly>();
-        using var decompiler = new Decompiler(assembly.Location, decompilerSettings);
+        var decompiler = new Decompiler(assembly.Location, decompilerSettings);
 
         var result = decompiler.Decompile(source.Filters);
 
