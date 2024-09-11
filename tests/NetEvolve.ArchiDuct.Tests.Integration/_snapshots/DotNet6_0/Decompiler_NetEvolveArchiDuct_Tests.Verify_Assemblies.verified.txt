@@ -1,5 +1,5 @@
 ﻿{
-  NetEvolve.ArchiDuct: {
+  A:NetEvolve.ArchiDuct: {
     Attributes: [
       {
         FullName: System.CLSCompliantAttribute,

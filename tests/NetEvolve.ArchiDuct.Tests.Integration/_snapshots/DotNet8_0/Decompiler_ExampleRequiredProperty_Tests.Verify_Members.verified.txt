@@ -1,5 +1,5 @@
 ﻿{
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.#ctor: {
+  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.#ctor: {
     Accessibility: Public,
     Attributes: [
       {
@@ -15,13 +15,13 @@
         Name: CompilerFeatureRequiredAttribute
       }
     ],
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.#ctor,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.#ctor,
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.#ctor,
     Kind: Constructor,
     Name: .ctor,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty
   },
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.Name: {
+  P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.Name: {
     Accessibility: Public,
     Attributes: [
       {
@@ -31,10 +31,10 @@
         Name: RequiredMemberAttribute
       }
     ],
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.Name,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.Name,
     Getter: {
       Accessibility: Public,
-      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.get_Name,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.get_Name,
       Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.get_Name,
       IsLocal: false,
       Kind: Method,
@@ -58,7 +58,7 @@
     },
     Setter: {
       Accessibility: Public,
-      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.set_Name(System.String),
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.set_Name(System.String),
       Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.set_Name(System.String),
       IsLocal: false,
       Kind: Method,

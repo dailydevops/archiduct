@@ -1,5 +1,5 @@
 ﻿{
-  System.Private.CoreLib, Version=8.0.0.0, T:System.IDisposable: {
+  T:System.IDisposable: {
     Accessibility: Public,
     Attributes: [
       {
@@ -27,7 +27,7 @@
         Name: SerializableAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.IDisposable,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.IDisposable,
     Id: T:System.IDisposable,
     IsNested: false,
     Kind: Interface,

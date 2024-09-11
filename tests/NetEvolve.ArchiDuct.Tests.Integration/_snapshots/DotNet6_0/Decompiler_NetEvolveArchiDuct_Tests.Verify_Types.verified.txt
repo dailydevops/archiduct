@@ -1,5 +1,5 @@
 ﻿{
-  NetEvolve.ArchiDuct, Version=1.0.0.0, T:NetEvolve.ArchiDuct.ArchitectureCollector: {
+  T:NetEvolve.ArchiDuct.ArchitectureCollector: {
     Accessibility: Public,
     Attributes: [
       {
@@ -30,7 +30,7 @@
     BaseTypes: [
       T:System.Object
     ],
-    FullName: NetEvolve.ArchiDuct, Version=1.0.0.0, T:NetEvolve.ArchiDuct.ArchitectureCollector,
+    FullName: NetEvolve.ArchiDuct, Version=x.x.x.x, T:NetEvolve.ArchiDuct.ArchitectureCollector,
     Id: T:NetEvolve.ArchiDuct.ArchitectureCollector,
     Implementations: [
       T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector

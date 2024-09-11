@@ -1,7 +1,7 @@
 ﻿{
-  System.Private.CoreLib, Version=6.0.0.0, F:System.Int32.m_value: {
+  F:System.Int32.m_value: {
     Accessibility: Private,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.Int32.m_value,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Int32.m_value,
     Id: F:System.Int32.m_value,
     Kind: Field,
     Modifiers: [
@@ -14,9 +14,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, F:System.Int32.MaxValue: {
+  F:System.Int32.MaxValue: {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.Int32.MaxValue,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Int32.MaxValue,
     Id: F:System.Int32.MaxValue,
     Kind: Field,
     Modifiers: [
@@ -30,9 +30,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, F:System.Int32.MinValue: {
+  F:System.Int32.MinValue: {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.Int32.MinValue,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Int32.MinValue,
     Id: F:System.Int32.MinValue,
     Kind: Field,
     Modifiers: [
@@ -46,17 +46,17 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.#ctor: {
+  M:System.Int32.#ctor: {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.#ctor,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.#ctor,
     Id: M:System.Int32.#ctor,
     Kind: Constructor,
     Name: .ctor,
     ParentId: T:System.Int32
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.CompareTo(System.Int32): {
+  M:System.Int32.CompareTo(System.Int32): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.CompareTo(System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.CompareTo(System.Int32),
     Id: M:System.Int32.CompareTo(System.Int32),
     IsLocal: false,
     Kind: Method,
@@ -66,7 +66,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.CompareTo(System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.CompareTo(System.Int32).value,
         Id: M:System.Int32.CompareTo(System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -83,9 +83,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.CompareTo(System.Object): {
+  M:System.Int32.CompareTo(System.Object): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.CompareTo(System.Object),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.CompareTo(System.Object),
     Id: M:System.Int32.CompareTo(System.Object),
     IsLocal: false,
     Kind: Method,
@@ -95,7 +95,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.CompareTo(System.Object).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.CompareTo(System.Object).value,
         Id: M:System.Int32.CompareTo(System.Object).value,
         Kind: Parameter,
         Name: value,
@@ -112,7 +112,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Create``1(``0): {
+  M:System.Int32.Create``1(``0): {
     Accessibility: Internal,
     Attributes: [
       {
@@ -122,7 +122,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Create``1(``0),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Create``1(``0),
     Id: M:System.Int32.Create``1(``0),
     IsLocal: false,
     Kind: Method,
@@ -132,7 +132,7 @@
     Name: Create,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Create``1(``0).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Create``1(``0).value,
         Id: M:System.Int32.Create``1(``0).value,
         Kind: Parameter,
         Name: value,
@@ -150,7 +150,7 @@
     },
     TypeParameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Create``1(``0).TOther,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Create``1(``0).TOther,
         Id: G:System.Int32.Create``1(``0).TOther,
         Kind: TypeParameter,
         Name: TOther,
@@ -158,7 +158,7 @@
       }
     ]
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Equals(System.Int32): {
+  M:System.Int32.Equals(System.Int32): {
     Accessibility: Public,
     Attributes: [
       {
@@ -168,7 +168,7 @@
         Name: NonVersionableAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Equals(System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Equals(System.Int32),
     Id: M:System.Int32.Equals(System.Int32),
     IsLocal: false,
     Kind: Method,
@@ -178,7 +178,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Equals(System.Int32).obj,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Equals(System.Int32).obj,
         Id: M:System.Int32.Equals(System.Int32).obj,
         Kind: Parameter,
         Name: obj,
@@ -195,7 +195,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Equals(System.Object): {
+  M:System.Int32.Equals(System.Object): {
     Accessibility: Public,
     Attributes: [
       {
@@ -205,7 +205,7 @@
         Name: UnconditionalSuppressMessageAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Equals(System.Object),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Equals(System.Object),
     Id: M:System.Int32.Equals(System.Object),
     IsLocal: false,
     Kind: Method,
@@ -218,7 +218,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Equals(System.Object).obj,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Equals(System.Object).obj,
         Id: M:System.Int32.Equals(System.Object).obj,
         Kind: Parameter,
         Name: obj,
@@ -235,7 +235,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.GetHashCode: {
+  M:System.Int32.GetHashCode: {
     Accessibility: Public,
     Attributes: [
       {
@@ -245,7 +245,7 @@
         Name: MethodImplAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.GetHashCode,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.GetHashCode,
     Id: M:System.Int32.GetHashCode,
     IsLocal: false,
     Kind: Method,
@@ -259,9 +259,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.GetTypeCode: {
+  M:System.Int32.GetTypeCode: {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.GetTypeCode,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.GetTypeCode,
     Id: M:System.Int32.GetTypeCode,
     IsLocal: false,
     Kind: Method,
@@ -272,9 +272,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider): {
+  M:System.Int32.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider),
     Id: M:System.Int32.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider),
     IsLocal: false,
     Kind: Method,
@@ -290,7 +290,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).s,
         Id: M:System.Int32.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).s,
         Kind: Parameter,
         Name: s,
@@ -301,7 +301,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).style,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).style,
         Id: M:System.Int32.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).style,
         Kind: Parameter,
         Name: style,
@@ -313,7 +313,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).provider,
         Id: M:System.Int32.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -331,9 +331,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider): {
+  M:System.Int32.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider),
     Id: M:System.Int32.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider),
     IsLocal: false,
     Kind: Method,
@@ -349,7 +349,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).s,
         Id: M:System.Int32.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).s,
         Kind: Parameter,
         Name: s,
@@ -360,7 +360,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).style,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).style,
         Id: M:System.Int32.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).style,
         Kind: Parameter,
         Name: style,
@@ -371,7 +371,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).provider,
         Id: M:System.Int32.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -388,9 +388,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.String,System.Globalization.NumberStyles): {
+  M:System.Int32.Parse(System.String,System.Globalization.NumberStyles): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.String,System.Globalization.NumberStyles),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Parse(System.String,System.Globalization.NumberStyles),
     Id: M:System.Int32.Parse(System.String,System.Globalization.NumberStyles),
     IsLocal: false,
     Kind: Method,
@@ -406,7 +406,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.String,System.Globalization.NumberStyles).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Parse(System.String,System.Globalization.NumberStyles).s,
         Id: M:System.Int32.Parse(System.String,System.Globalization.NumberStyles).s,
         Kind: Parameter,
         Name: s,
@@ -417,7 +417,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.String,System.Globalization.NumberStyles).style,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Parse(System.String,System.Globalization.NumberStyles).style,
         Id: M:System.Int32.Parse(System.String,System.Globalization.NumberStyles).style,
         Kind: Parameter,
         Name: style,
@@ -434,9 +434,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.String,System.IFormatProvider): {
+  M:System.Int32.Parse(System.String,System.IFormatProvider): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.String,System.IFormatProvider),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Parse(System.String,System.IFormatProvider),
     Id: M:System.Int32.Parse(System.String,System.IFormatProvider),
     IsLocal: false,
     Kind: Method,
@@ -452,7 +452,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.String,System.IFormatProvider).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Parse(System.String,System.IFormatProvider).s,
         Id: M:System.Int32.Parse(System.String,System.IFormatProvider).s,
         Kind: Parameter,
         Name: s,
@@ -463,7 +463,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.String,System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Parse(System.String,System.IFormatProvider).provider,
         Id: M:System.Int32.Parse(System.String,System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -480,9 +480,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.String): {
+  M:System.Int32.Parse(System.String): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.String),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Parse(System.String),
     Id: M:System.Int32.Parse(System.String),
     IsLocal: false,
     Kind: Method,
@@ -498,7 +498,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.Parse(System.String).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.Parse(System.String).s,
         Id: M:System.Int32.Parse(System.String).s,
         Kind: Parameter,
         Name: s,
@@ -515,7 +515,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IAdditionOperators{System#Int32,System#Int32,System#Int32}#op_Addition(System.Int32,System.Int32): {
+  M:System.Int32.System#IAdditionOperators{System#Int32,System#Int32,System#Int32}#op_Addition(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -524,7 +524,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IAdditionOperators{System#Int32,System#Int32,System#Int32}#op_Addition(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IAdditionOperators{System#Int32,System#Int32,System#Int32}#op_Addition(System.Int32,System.Int32),
     Id: M:System.Int32.System#IAdditionOperators{System#Int32,System#Int32,System#Int32}#op_Addition(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -534,7 +534,7 @@
     Name: System.IAdditionOperators<System.Int32,System.Int32,System.Int32>.op_Addition,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IAdditionOperators{System#Int32,System#Int32,System#Int32}#op_Addition(System.Int32,System.Int32).left,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IAdditionOperators{System#Int32,System#Int32,System#Int32}#op_Addition(System.Int32,System.Int32).left,
         Id: M:System.Int32.System#IAdditionOperators{System#Int32,System#Int32,System#Int32}#op_Addition(System.Int32,System.Int32).left,
         Kind: Parameter,
         Name: left,
@@ -545,7 +545,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IAdditionOperators{System#Int32,System#Int32,System#Int32}#op_Addition(System.Int32,System.Int32).right,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IAdditionOperators{System#Int32,System#Int32,System#Int32}#op_Addition(System.Int32,System.Int32).right,
         Id: M:System.Int32.System#IAdditionOperators{System#Int32,System#Int32,System#Int32}#op_Addition(System.Int32,System.Int32).right,
         Kind: Parameter,
         Name: right,
@@ -562,7 +562,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#LeadingZeroCount(System.Int32): {
+  M:System.Int32.System#IBinaryInteger{System#Int32}#LeadingZeroCount(System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -571,7 +571,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#LeadingZeroCount(System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBinaryInteger{System#Int32}#LeadingZeroCount(System.Int32),
     Id: M:System.Int32.System#IBinaryInteger{System#Int32}#LeadingZeroCount(System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -581,7 +581,7 @@
     Name: System.IBinaryInteger<System.Int32>.LeadingZeroCount,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#LeadingZeroCount(System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBinaryInteger{System#Int32}#LeadingZeroCount(System.Int32).value,
         Id: M:System.Int32.System#IBinaryInteger{System#Int32}#LeadingZeroCount(System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -598,7 +598,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#PopCount(System.Int32): {
+  M:System.Int32.System#IBinaryInteger{System#Int32}#PopCount(System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -607,7 +607,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#PopCount(System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBinaryInteger{System#Int32}#PopCount(System.Int32),
     Id: M:System.Int32.System#IBinaryInteger{System#Int32}#PopCount(System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -617,7 +617,7 @@
     Name: System.IBinaryInteger<System.Int32>.PopCount,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#PopCount(System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBinaryInteger{System#Int32}#PopCount(System.Int32).value,
         Id: M:System.Int32.System#IBinaryInteger{System#Int32}#PopCount(System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -634,7 +634,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#RotateLeft(System.Int32,System.Int32): {
+  M:System.Int32.System#IBinaryInteger{System#Int32}#RotateLeft(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -643,7 +643,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#RotateLeft(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBinaryInteger{System#Int32}#RotateLeft(System.Int32,System.Int32),
     Id: M:System.Int32.System#IBinaryInteger{System#Int32}#RotateLeft(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -653,7 +653,7 @@
     Name: System.IBinaryInteger<System.Int32>.RotateLeft,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#RotateLeft(System.Int32,System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBinaryInteger{System#Int32}#RotateLeft(System.Int32,System.Int32).value,
         Id: M:System.Int32.System#IBinaryInteger{System#Int32}#RotateLeft(System.Int32,System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -664,7 +664,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#RotateLeft(System.Int32,System.Int32).rotateAmount,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBinaryInteger{System#Int32}#RotateLeft(System.Int32,System.Int32).rotateAmount,
         Id: M:System.Int32.System#IBinaryInteger{System#Int32}#RotateLeft(System.Int32,System.Int32).rotateAmount,
         Kind: Parameter,
         Name: rotateAmount,
@@ -681,7 +681,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#RotateRight(System.Int32,System.Int32): {
+  M:System.Int32.System#IBinaryInteger{System#Int32}#RotateRight(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -690,7 +690,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#RotateRight(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBinaryInteger{System#Int32}#RotateRight(System.Int32,System.Int32),
     Id: M:System.Int32.System#IBinaryInteger{System#Int32}#RotateRight(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -700,7 +700,7 @@
     Name: System.IBinaryInteger<System.Int32>.RotateRight,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#RotateRight(System.Int32,System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBinaryInteger{System#Int32}#RotateRight(System.Int32,System.Int32).value,
         Id: M:System.Int32.System#IBinaryInteger{System#Int32}#RotateRight(System.Int32,System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -711,7 +711,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#RotateRight(System.Int32,System.Int32).rotateAmount,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBinaryInteger{System#Int32}#RotateRight(System.Int32,System.Int32).rotateAmount,
         Id: M:System.Int32.System#IBinaryInteger{System#Int32}#RotateRight(System.Int32,System.Int32).rotateAmount,
         Kind: Parameter,
         Name: rotateAmount,
@@ -728,7 +728,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#TrailingZeroCount(System.Int32): {
+  M:System.Int32.System#IBinaryInteger{System#Int32}#TrailingZeroCount(System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -737,7 +737,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#TrailingZeroCount(System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBinaryInteger{System#Int32}#TrailingZeroCount(System.Int32),
     Id: M:System.Int32.System#IBinaryInteger{System#Int32}#TrailingZeroCount(System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -747,7 +747,7 @@
     Name: System.IBinaryInteger<System.Int32>.TrailingZeroCount,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryInteger{System#Int32}#TrailingZeroCount(System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBinaryInteger{System#Int32}#TrailingZeroCount(System.Int32).value,
         Id: M:System.Int32.System#IBinaryInteger{System#Int32}#TrailingZeroCount(System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -764,7 +764,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryNumber{System#Int32}#IsPow2(System.Int32): {
+  M:System.Int32.System#IBinaryNumber{System#Int32}#IsPow2(System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -773,7 +773,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryNumber{System#Int32}#IsPow2(System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBinaryNumber{System#Int32}#IsPow2(System.Int32),
     Id: M:System.Int32.System#IBinaryNumber{System#Int32}#IsPow2(System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -783,7 +783,7 @@
     Name: System.IBinaryNumber<System.Int32>.IsPow2,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryNumber{System#Int32}#IsPow2(System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBinaryNumber{System#Int32}#IsPow2(System.Int32).value,
         Id: M:System.Int32.System#IBinaryNumber{System#Int32}#IsPow2(System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -800,7 +800,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryNumber{System#Int32}#Log2(System.Int32): {
+  M:System.Int32.System#IBinaryNumber{System#Int32}#Log2(System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -809,7 +809,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryNumber{System#Int32}#Log2(System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBinaryNumber{System#Int32}#Log2(System.Int32),
     Id: M:System.Int32.System#IBinaryNumber{System#Int32}#Log2(System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -819,7 +819,7 @@
     Name: System.IBinaryNumber<System.Int32>.Log2,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBinaryNumber{System#Int32}#Log2(System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBinaryNumber{System#Int32}#Log2(System.Int32).value,
         Id: M:System.Int32.System#IBinaryNumber{System#Int32}#Log2(System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -836,7 +836,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseAnd(System.Int32,System.Int32): {
+  M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseAnd(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -845,7 +845,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseAnd(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseAnd(System.Int32,System.Int32),
     Id: M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseAnd(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -855,7 +855,7 @@
     Name: System.IBitwiseOperators<System.Int32,System.Int32,System.Int32>.op_BitwiseAnd,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseAnd(System.Int32,System.Int32).left,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseAnd(System.Int32,System.Int32).left,
         Id: M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseAnd(System.Int32,System.Int32).left,
         Kind: Parameter,
         Name: left,
@@ -866,7 +866,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseAnd(System.Int32,System.Int32).right,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseAnd(System.Int32,System.Int32).right,
         Id: M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseAnd(System.Int32,System.Int32).right,
         Kind: Parameter,
         Name: right,
@@ -883,7 +883,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseOr(System.Int32,System.Int32): {
+  M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseOr(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -892,7 +892,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseOr(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseOr(System.Int32,System.Int32),
     Id: M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseOr(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -902,7 +902,7 @@
     Name: System.IBitwiseOperators<System.Int32,System.Int32,System.Int32>.op_BitwiseOr,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseOr(System.Int32,System.Int32).left,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseOr(System.Int32,System.Int32).left,
         Id: M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseOr(System.Int32,System.Int32).left,
         Kind: Parameter,
         Name: left,
@@ -913,7 +913,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseOr(System.Int32,System.Int32).right,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseOr(System.Int32,System.Int32).right,
         Id: M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_BitwiseOr(System.Int32,System.Int32).right,
         Kind: Parameter,
         Name: right,
@@ -930,7 +930,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_ExclusiveOr(System.Int32,System.Int32): {
+  M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_ExclusiveOr(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -939,7 +939,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_ExclusiveOr(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_ExclusiveOr(System.Int32,System.Int32),
     Id: M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_ExclusiveOr(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -949,7 +949,7 @@
     Name: System.IBitwiseOperators<System.Int32,System.Int32,System.Int32>.op_ExclusiveOr,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_ExclusiveOr(System.Int32,System.Int32).left,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_ExclusiveOr(System.Int32,System.Int32).left,
         Id: M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_ExclusiveOr(System.Int32,System.Int32).left,
         Kind: Parameter,
         Name: left,
@@ -960,7 +960,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_ExclusiveOr(System.Int32,System.Int32).right,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_ExclusiveOr(System.Int32,System.Int32).right,
         Id: M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_ExclusiveOr(System.Int32,System.Int32).right,
         Kind: Parameter,
         Name: right,
@@ -977,7 +977,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_OnesComplement(System.Int32): {
+  M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_OnesComplement(System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -986,7 +986,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_OnesComplement(System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_OnesComplement(System.Int32),
     Id: M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_OnesComplement(System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -996,7 +996,7 @@
     Name: System.IBitwiseOperators<System.Int32,System.Int32,System.Int32>.op_OnesComplement,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_OnesComplement(System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_OnesComplement(System.Int32).value,
         Id: M:System.Int32.System#IBitwiseOperators{System#Int32,System#Int32,System#Int32}#op_OnesComplement(System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -1013,7 +1013,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThan(System.Int32,System.Int32): {
+  M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThan(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -1022,7 +1022,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThan(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThan(System.Int32,System.Int32),
     Id: M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThan(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -1032,7 +1032,7 @@
     Name: System.IComparisonOperators<System.Int32,System.Int32>.op_GreaterThan,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThan(System.Int32,System.Int32).left,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThan(System.Int32,System.Int32).left,
         Id: M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThan(System.Int32,System.Int32).left,
         Kind: Parameter,
         Name: left,
@@ -1043,7 +1043,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThan(System.Int32,System.Int32).right,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThan(System.Int32,System.Int32).right,
         Id: M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThan(System.Int32,System.Int32).right,
         Kind: Parameter,
         Name: right,
@@ -1060,7 +1060,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThanOrEqual(System.Int32,System.Int32): {
+  M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThanOrEqual(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -1069,7 +1069,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThanOrEqual(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThanOrEqual(System.Int32,System.Int32),
     Id: M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThanOrEqual(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -1079,7 +1079,7 @@
     Name: System.IComparisonOperators<System.Int32,System.Int32>.op_GreaterThanOrEqual,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThanOrEqual(System.Int32,System.Int32).left,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThanOrEqual(System.Int32,System.Int32).left,
         Id: M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThanOrEqual(System.Int32,System.Int32).left,
         Kind: Parameter,
         Name: left,
@@ -1090,7 +1090,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThanOrEqual(System.Int32,System.Int32).right,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThanOrEqual(System.Int32,System.Int32).right,
         Id: M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_GreaterThanOrEqual(System.Int32,System.Int32).right,
         Kind: Parameter,
         Name: right,
@@ -1107,7 +1107,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThan(System.Int32,System.Int32): {
+  M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThan(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -1116,7 +1116,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThan(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThan(System.Int32,System.Int32),
     Id: M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThan(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -1126,7 +1126,7 @@
     Name: System.IComparisonOperators<System.Int32,System.Int32>.op_LessThan,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThan(System.Int32,System.Int32).left,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThan(System.Int32,System.Int32).left,
         Id: M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThan(System.Int32,System.Int32).left,
         Kind: Parameter,
         Name: left,
@@ -1137,7 +1137,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThan(System.Int32,System.Int32).right,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThan(System.Int32,System.Int32).right,
         Id: M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThan(System.Int32,System.Int32).right,
         Kind: Parameter,
         Name: right,
@@ -1154,7 +1154,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThanOrEqual(System.Int32,System.Int32): {
+  M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThanOrEqual(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -1163,7 +1163,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThanOrEqual(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThanOrEqual(System.Int32,System.Int32),
     Id: M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThanOrEqual(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -1173,7 +1173,7 @@
     Name: System.IComparisonOperators<System.Int32,System.Int32>.op_LessThanOrEqual,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThanOrEqual(System.Int32,System.Int32).left,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThanOrEqual(System.Int32,System.Int32).left,
         Id: M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThanOrEqual(System.Int32,System.Int32).left,
         Kind: Parameter,
         Name: left,
@@ -1184,7 +1184,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThanOrEqual(System.Int32,System.Int32).right,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThanOrEqual(System.Int32,System.Int32).right,
         Id: M:System.Int32.System#IComparisonOperators{System#Int32,System#Int32}#op_LessThanOrEqual(System.Int32,System.Int32).right,
         Kind: Parameter,
         Name: right,
@@ -1201,15 +1201,15 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToBoolean(System.IFormatProvider): {
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToBoolean(System.IFormatProvider),
+  M:System.Int32.System#IConvertible#ToBoolean(System.IFormatProvider): {
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToBoolean(System.IFormatProvider),
     Id: M:System.Int32.System#IConvertible#ToBoolean(System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
     Name: System.IConvertible.ToBoolean,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToBoolean(System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToBoolean(System.IFormatProvider).provider,
         Id: M:System.Int32.System#IConvertible#ToBoolean(System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -1226,15 +1226,15 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToByte(System.IFormatProvider): {
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToByte(System.IFormatProvider),
+  M:System.Int32.System#IConvertible#ToByte(System.IFormatProvider): {
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToByte(System.IFormatProvider),
     Id: M:System.Int32.System#IConvertible#ToByte(System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
     Name: System.IConvertible.ToByte,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToByte(System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToByte(System.IFormatProvider).provider,
         Id: M:System.Int32.System#IConvertible#ToByte(System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -1251,15 +1251,15 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToChar(System.IFormatProvider): {
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToChar(System.IFormatProvider),
+  M:System.Int32.System#IConvertible#ToChar(System.IFormatProvider): {
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToChar(System.IFormatProvider),
     Id: M:System.Int32.System#IConvertible#ToChar(System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
     Name: System.IConvertible.ToChar,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToChar(System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToChar(System.IFormatProvider).provider,
         Id: M:System.Int32.System#IConvertible#ToChar(System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -1276,15 +1276,15 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToDateTime(System.IFormatProvider): {
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToDateTime(System.IFormatProvider),
+  M:System.Int32.System#IConvertible#ToDateTime(System.IFormatProvider): {
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToDateTime(System.IFormatProvider),
     Id: M:System.Int32.System#IConvertible#ToDateTime(System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
     Name: System.IConvertible.ToDateTime,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToDateTime(System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToDateTime(System.IFormatProvider).provider,
         Id: M:System.Int32.System#IConvertible#ToDateTime(System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -1301,15 +1301,15 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToDecimal(System.IFormatProvider): {
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToDecimal(System.IFormatProvider),
+  M:System.Int32.System#IConvertible#ToDecimal(System.IFormatProvider): {
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToDecimal(System.IFormatProvider),
     Id: M:System.Int32.System#IConvertible#ToDecimal(System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
     Name: System.IConvertible.ToDecimal,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToDecimal(System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToDecimal(System.IFormatProvider).provider,
         Id: M:System.Int32.System#IConvertible#ToDecimal(System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -1326,15 +1326,15 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToDouble(System.IFormatProvider): {
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToDouble(System.IFormatProvider),
+  M:System.Int32.System#IConvertible#ToDouble(System.IFormatProvider): {
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToDouble(System.IFormatProvider),
     Id: M:System.Int32.System#IConvertible#ToDouble(System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
     Name: System.IConvertible.ToDouble,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToDouble(System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToDouble(System.IFormatProvider).provider,
         Id: M:System.Int32.System#IConvertible#ToDouble(System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -1351,15 +1351,15 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToInt16(System.IFormatProvider): {
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToInt16(System.IFormatProvider),
+  M:System.Int32.System#IConvertible#ToInt16(System.IFormatProvider): {
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToInt16(System.IFormatProvider),
     Id: M:System.Int32.System#IConvertible#ToInt16(System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
     Name: System.IConvertible.ToInt16,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToInt16(System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToInt16(System.IFormatProvider).provider,
         Id: M:System.Int32.System#IConvertible#ToInt16(System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -1376,15 +1376,15 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToInt32(System.IFormatProvider): {
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToInt32(System.IFormatProvider),
+  M:System.Int32.System#IConvertible#ToInt32(System.IFormatProvider): {
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToInt32(System.IFormatProvider),
     Id: M:System.Int32.System#IConvertible#ToInt32(System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
     Name: System.IConvertible.ToInt32,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToInt32(System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToInt32(System.IFormatProvider).provider,
         Id: M:System.Int32.System#IConvertible#ToInt32(System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -1401,15 +1401,15 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToInt64(System.IFormatProvider): {
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToInt64(System.IFormatProvider),
+  M:System.Int32.System#IConvertible#ToInt64(System.IFormatProvider): {
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToInt64(System.IFormatProvider),
     Id: M:System.Int32.System#IConvertible#ToInt64(System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
     Name: System.IConvertible.ToInt64,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToInt64(System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToInt64(System.IFormatProvider).provider,
         Id: M:System.Int32.System#IConvertible#ToInt64(System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -1426,15 +1426,15 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToSByte(System.IFormatProvider): {
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToSByte(System.IFormatProvider),
+  M:System.Int32.System#IConvertible#ToSByte(System.IFormatProvider): {
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToSByte(System.IFormatProvider),
     Id: M:System.Int32.System#IConvertible#ToSByte(System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
     Name: System.IConvertible.ToSByte,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToSByte(System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToSByte(System.IFormatProvider).provider,
         Id: M:System.Int32.System#IConvertible#ToSByte(System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -1451,15 +1451,15 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToSingle(System.IFormatProvider): {
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToSingle(System.IFormatProvider),
+  M:System.Int32.System#IConvertible#ToSingle(System.IFormatProvider): {
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToSingle(System.IFormatProvider),
     Id: M:System.Int32.System#IConvertible#ToSingle(System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
     Name: System.IConvertible.ToSingle,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToSingle(System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToSingle(System.IFormatProvider).provider,
         Id: M:System.Int32.System#IConvertible#ToSingle(System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -1476,15 +1476,15 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToType(System.Type,System.IFormatProvider): {
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToType(System.Type,System.IFormatProvider),
+  M:System.Int32.System#IConvertible#ToType(System.Type,System.IFormatProvider): {
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToType(System.Type,System.IFormatProvider),
     Id: M:System.Int32.System#IConvertible#ToType(System.Type,System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
     Name: System.IConvertible.ToType,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToType(System.Type,System.IFormatProvider).type,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToType(System.Type,System.IFormatProvider).type,
         Id: M:System.Int32.System#IConvertible#ToType(System.Type,System.IFormatProvider).type,
         Kind: Parameter,
         Name: type,
@@ -1495,7 +1495,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToType(System.Type,System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToType(System.Type,System.IFormatProvider).provider,
         Id: M:System.Int32.System#IConvertible#ToType(System.Type,System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -1512,15 +1512,15 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToUInt16(System.IFormatProvider): {
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToUInt16(System.IFormatProvider),
+  M:System.Int32.System#IConvertible#ToUInt16(System.IFormatProvider): {
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToUInt16(System.IFormatProvider),
     Id: M:System.Int32.System#IConvertible#ToUInt16(System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
     Name: System.IConvertible.ToUInt16,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToUInt16(System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToUInt16(System.IFormatProvider).provider,
         Id: M:System.Int32.System#IConvertible#ToUInt16(System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -1537,15 +1537,15 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToUInt32(System.IFormatProvider): {
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToUInt32(System.IFormatProvider),
+  M:System.Int32.System#IConvertible#ToUInt32(System.IFormatProvider): {
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToUInt32(System.IFormatProvider),
     Id: M:System.Int32.System#IConvertible#ToUInt32(System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
     Name: System.IConvertible.ToUInt32,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToUInt32(System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToUInt32(System.IFormatProvider).provider,
         Id: M:System.Int32.System#IConvertible#ToUInt32(System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -1562,15 +1562,15 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToUInt64(System.IFormatProvider): {
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToUInt64(System.IFormatProvider),
+  M:System.Int32.System#IConvertible#ToUInt64(System.IFormatProvider): {
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToUInt64(System.IFormatProvider),
     Id: M:System.Int32.System#IConvertible#ToUInt64(System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
     Name: System.IConvertible.ToUInt64,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IConvertible#ToUInt64(System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IConvertible#ToUInt64(System.IFormatProvider).provider,
         Id: M:System.Int32.System#IConvertible#ToUInt64(System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -1587,7 +1587,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IDecrementOperators{System#Int32}#op_Decrement(System.Int32): {
+  M:System.Int32.System#IDecrementOperators{System#Int32}#op_Decrement(System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -1596,7 +1596,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IDecrementOperators{System#Int32}#op_Decrement(System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IDecrementOperators{System#Int32}#op_Decrement(System.Int32),
     Id: M:System.Int32.System#IDecrementOperators{System#Int32}#op_Decrement(System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -1606,7 +1606,7 @@
     Name: System.IDecrementOperators<System.Int32>.op_Decrement,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IDecrementOperators{System#Int32}#op_Decrement(System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IDecrementOperators{System#Int32}#op_Decrement(System.Int32).value,
         Id: M:System.Int32.System#IDecrementOperators{System#Int32}#op_Decrement(System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -1623,7 +1623,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IDivisionOperators{System#Int32,System#Int32,System#Int32}#op_Division(System.Int32,System.Int32): {
+  M:System.Int32.System#IDivisionOperators{System#Int32,System#Int32,System#Int32}#op_Division(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -1632,7 +1632,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IDivisionOperators{System#Int32,System#Int32,System#Int32}#op_Division(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IDivisionOperators{System#Int32,System#Int32,System#Int32}#op_Division(System.Int32,System.Int32),
     Id: M:System.Int32.System#IDivisionOperators{System#Int32,System#Int32,System#Int32}#op_Division(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -1642,7 +1642,7 @@
     Name: System.IDivisionOperators<System.Int32,System.Int32,System.Int32>.op_Division,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IDivisionOperators{System#Int32,System#Int32,System#Int32}#op_Division(System.Int32,System.Int32).left,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IDivisionOperators{System#Int32,System#Int32,System#Int32}#op_Division(System.Int32,System.Int32).left,
         Id: M:System.Int32.System#IDivisionOperators{System#Int32,System#Int32,System#Int32}#op_Division(System.Int32,System.Int32).left,
         Kind: Parameter,
         Name: left,
@@ -1653,7 +1653,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IDivisionOperators{System#Int32,System#Int32,System#Int32}#op_Division(System.Int32,System.Int32).right,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IDivisionOperators{System#Int32,System#Int32,System#Int32}#op_Division(System.Int32,System.Int32).right,
         Id: M:System.Int32.System#IDivisionOperators{System#Int32,System#Int32,System#Int32}#op_Division(System.Int32,System.Int32).right,
         Kind: Parameter,
         Name: right,
@@ -1670,7 +1670,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Equality(System.Int32,System.Int32): {
+  M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Equality(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -1679,7 +1679,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Equality(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Equality(System.Int32,System.Int32),
     Id: M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Equality(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -1689,7 +1689,7 @@
     Name: System.IEqualityOperators<System.Int32,System.Int32>.op_Equality,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Equality(System.Int32,System.Int32).left,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Equality(System.Int32,System.Int32).left,
         Id: M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Equality(System.Int32,System.Int32).left,
         Kind: Parameter,
         Name: left,
@@ -1700,7 +1700,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Equality(System.Int32,System.Int32).right,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Equality(System.Int32,System.Int32).right,
         Id: M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Equality(System.Int32,System.Int32).right,
         Kind: Parameter,
         Name: right,
@@ -1717,7 +1717,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Inequality(System.Int32,System.Int32): {
+  M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Inequality(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -1726,7 +1726,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Inequality(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Inequality(System.Int32,System.Int32),
     Id: M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Inequality(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -1736,7 +1736,7 @@
     Name: System.IEqualityOperators<System.Int32,System.Int32>.op_Inequality,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Inequality(System.Int32,System.Int32).left,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Inequality(System.Int32,System.Int32).left,
         Id: M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Inequality(System.Int32,System.Int32).left,
         Kind: Parameter,
         Name: left,
@@ -1747,7 +1747,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Inequality(System.Int32,System.Int32).right,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Inequality(System.Int32,System.Int32).right,
         Id: M:System.Int32.System#IEqualityOperators{System#Int32,System#Int32}#op_Inequality(System.Int32,System.Int32).right,
         Kind: Parameter,
         Name: right,
@@ -1764,7 +1764,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IIncrementOperators{System#Int32}#op_Increment(System.Int32): {
+  M:System.Int32.System#IIncrementOperators{System#Int32}#op_Increment(System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -1773,7 +1773,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IIncrementOperators{System#Int32}#op_Increment(System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IIncrementOperators{System#Int32}#op_Increment(System.Int32),
     Id: M:System.Int32.System#IIncrementOperators{System#Int32}#op_Increment(System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -1783,7 +1783,7 @@
     Name: System.IIncrementOperators<System.Int32>.op_Increment,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IIncrementOperators{System#Int32}#op_Increment(System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IIncrementOperators{System#Int32}#op_Increment(System.Int32).value,
         Id: M:System.Int32.System#IIncrementOperators{System#Int32}#op_Increment(System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -1800,7 +1800,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IModulusOperators{System#Int32,System#Int32,System#Int32}#op_Modulus(System.Int32,System.Int32): {
+  M:System.Int32.System#IModulusOperators{System#Int32,System#Int32,System#Int32}#op_Modulus(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -1809,7 +1809,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IModulusOperators{System#Int32,System#Int32,System#Int32}#op_Modulus(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IModulusOperators{System#Int32,System#Int32,System#Int32}#op_Modulus(System.Int32,System.Int32),
     Id: M:System.Int32.System#IModulusOperators{System#Int32,System#Int32,System#Int32}#op_Modulus(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -1819,7 +1819,7 @@
     Name: System.IModulusOperators<System.Int32,System.Int32,System.Int32>.op_Modulus,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IModulusOperators{System#Int32,System#Int32,System#Int32}#op_Modulus(System.Int32,System.Int32).left,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IModulusOperators{System#Int32,System#Int32,System#Int32}#op_Modulus(System.Int32,System.Int32).left,
         Id: M:System.Int32.System#IModulusOperators{System#Int32,System#Int32,System#Int32}#op_Modulus(System.Int32,System.Int32).left,
         Kind: Parameter,
         Name: left,
@@ -1830,7 +1830,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IModulusOperators{System#Int32,System#Int32,System#Int32}#op_Modulus(System.Int32,System.Int32).right,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IModulusOperators{System#Int32,System#Int32,System#Int32}#op_Modulus(System.Int32,System.Int32).right,
         Id: M:System.Int32.System#IModulusOperators{System#Int32,System#Int32,System#Int32}#op_Modulus(System.Int32,System.Int32).right,
         Kind: Parameter,
         Name: right,
@@ -1847,7 +1847,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IMultiplyOperators{System#Int32,System#Int32,System#Int32}#op_Multiply(System.Int32,System.Int32): {
+  M:System.Int32.System#IMultiplyOperators{System#Int32,System#Int32,System#Int32}#op_Multiply(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -1856,7 +1856,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IMultiplyOperators{System#Int32,System#Int32,System#Int32}#op_Multiply(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IMultiplyOperators{System#Int32,System#Int32,System#Int32}#op_Multiply(System.Int32,System.Int32),
     Id: M:System.Int32.System#IMultiplyOperators{System#Int32,System#Int32,System#Int32}#op_Multiply(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -1866,7 +1866,7 @@
     Name: System.IMultiplyOperators<System.Int32,System.Int32,System.Int32>.op_Multiply,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IMultiplyOperators{System#Int32,System#Int32,System#Int32}#op_Multiply(System.Int32,System.Int32).left,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IMultiplyOperators{System#Int32,System#Int32,System#Int32}#op_Multiply(System.Int32,System.Int32).left,
         Id: M:System.Int32.System#IMultiplyOperators{System#Int32,System#Int32,System#Int32}#op_Multiply(System.Int32,System.Int32).left,
         Kind: Parameter,
         Name: left,
@@ -1877,7 +1877,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IMultiplyOperators{System#Int32,System#Int32,System#Int32}#op_Multiply(System.Int32,System.Int32).right,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IMultiplyOperators{System#Int32,System#Int32,System#Int32}#op_Multiply(System.Int32,System.Int32).right,
         Id: M:System.Int32.System#IMultiplyOperators{System#Int32,System#Int32,System#Int32}#op_Multiply(System.Int32,System.Int32).right,
         Kind: Parameter,
         Name: right,
@@ -1894,7 +1894,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Abs(System.Int32): {
+  M:System.Int32.System#INumber{System#Int32}#Abs(System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -1903,7 +1903,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Abs(System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Abs(System.Int32),
     Id: M:System.Int32.System#INumber{System#Int32}#Abs(System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -1913,7 +1913,7 @@
     Name: System.INumber<System.Int32>.Abs,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Abs(System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Abs(System.Int32).value,
         Id: M:System.Int32.System#INumber{System#Int32}#Abs(System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -1930,7 +1930,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Clamp(System.Int32,System.Int32,System.Int32): {
+  M:System.Int32.System#INumber{System#Int32}#Clamp(System.Int32,System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -1939,7 +1939,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Clamp(System.Int32,System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Clamp(System.Int32,System.Int32,System.Int32),
     Id: M:System.Int32.System#INumber{System#Int32}#Clamp(System.Int32,System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -1949,7 +1949,7 @@
     Name: System.INumber<System.Int32>.Clamp,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Clamp(System.Int32,System.Int32,System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Clamp(System.Int32,System.Int32,System.Int32).value,
         Id: M:System.Int32.System#INumber{System#Int32}#Clamp(System.Int32,System.Int32,System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -1960,7 +1960,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Clamp(System.Int32,System.Int32,System.Int32).min,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Clamp(System.Int32,System.Int32,System.Int32).min,
         Id: M:System.Int32.System#INumber{System#Int32}#Clamp(System.Int32,System.Int32,System.Int32).min,
         Kind: Parameter,
         Name: min,
@@ -1971,7 +1971,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Clamp(System.Int32,System.Int32,System.Int32).max,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Clamp(System.Int32,System.Int32,System.Int32).max,
         Id: M:System.Int32.System#INumber{System#Int32}#Clamp(System.Int32,System.Int32,System.Int32).max,
         Kind: Parameter,
         Name: max,
@@ -1988,7 +1988,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Create``1(``0): {
+  M:System.Int32.System#INumber{System#Int32}#Create``1(``0): {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -2003,7 +2003,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Create``1(``0),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Create``1(``0),
     Id: M:System.Int32.System#INumber{System#Int32}#Create``1(``0),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2013,7 +2013,7 @@
     Name: System.INumber<System.Int32>.Create,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Create``1(``0).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Create``1(``0).value,
         Id: M:System.Int32.System#INumber{System#Int32}#Create``1(``0).value,
         Kind: Parameter,
         Name: value,
@@ -2031,7 +2031,7 @@
     },
     TypeParameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Create``1(``0).TOther,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Create``1(``0).TOther,
         Id: G:System.Int32.System#INumber{System#Int32}#Create``1(``0).TOther,
         Kind: TypeParameter,
         Name: TOther,
@@ -2039,7 +2039,7 @@
       }
     ]
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#CreateSaturating``1(``0): {
+  M:System.Int32.System#INumber{System#Int32}#CreateSaturating``1(``0): {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -2054,7 +2054,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#CreateSaturating``1(``0),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#CreateSaturating``1(``0),
     Id: M:System.Int32.System#INumber{System#Int32}#CreateSaturating``1(``0),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2064,7 +2064,7 @@
     Name: System.INumber<System.Int32>.CreateSaturating,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#CreateSaturating``1(``0).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#CreateSaturating``1(``0).value,
         Id: M:System.Int32.System#INumber{System#Int32}#CreateSaturating``1(``0).value,
         Kind: Parameter,
         Name: value,
@@ -2082,7 +2082,7 @@
     },
     TypeParameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#CreateSaturating``1(``0).TOther,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#CreateSaturating``1(``0).TOther,
         Id: G:System.Int32.System#INumber{System#Int32}#CreateSaturating``1(``0).TOther,
         Kind: TypeParameter,
         Name: TOther,
@@ -2090,7 +2090,7 @@
       }
     ]
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#CreateTruncating``1(``0): {
+  M:System.Int32.System#INumber{System#Int32}#CreateTruncating``1(``0): {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -2105,7 +2105,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#CreateTruncating``1(``0),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#CreateTruncating``1(``0),
     Id: M:System.Int32.System#INumber{System#Int32}#CreateTruncating``1(``0),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2115,7 +2115,7 @@
     Name: System.INumber<System.Int32>.CreateTruncating,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#CreateTruncating``1(``0).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#CreateTruncating``1(``0).value,
         Id: M:System.Int32.System#INumber{System#Int32}#CreateTruncating``1(``0).value,
         Kind: Parameter,
         Name: value,
@@ -2133,7 +2133,7 @@
     },
     TypeParameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#CreateTruncating``1(``0).TOther,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#CreateTruncating``1(``0).TOther,
         Id: G:System.Int32.System#INumber{System#Int32}#CreateTruncating``1(``0).TOther,
         Kind: TypeParameter,
         Name: TOther,
@@ -2141,7 +2141,7 @@
       }
     ]
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#DivRem(System.Int32,System.Int32): {
+  M:System.Int32.System#INumber{System#Int32}#DivRem(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -2150,7 +2150,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#DivRem(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#DivRem(System.Int32,System.Int32),
     Id: M:System.Int32.System#INumber{System#Int32}#DivRem(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2160,7 +2160,7 @@
     Name: System.INumber<System.Int32>.DivRem,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#DivRem(System.Int32,System.Int32).left,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#DivRem(System.Int32,System.Int32).left,
         Id: M:System.Int32.System#INumber{System#Int32}#DivRem(System.Int32,System.Int32).left,
         Kind: Parameter,
         Name: left,
@@ -2171,7 +2171,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#DivRem(System.Int32,System.Int32).right,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#DivRem(System.Int32,System.Int32).right,
         Id: M:System.Int32.System#INumber{System#Int32}#DivRem(System.Int32,System.Int32).right,
         Kind: Parameter,
         Name: right,
@@ -2188,7 +2188,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Max(System.Int32,System.Int32): {
+  M:System.Int32.System#INumber{System#Int32}#Max(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -2197,7 +2197,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Max(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Max(System.Int32,System.Int32),
     Id: M:System.Int32.System#INumber{System#Int32}#Max(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2207,7 +2207,7 @@
     Name: System.INumber<System.Int32>.Max,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Max(System.Int32,System.Int32).x,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Max(System.Int32,System.Int32).x,
         Id: M:System.Int32.System#INumber{System#Int32}#Max(System.Int32,System.Int32).x,
         Kind: Parameter,
         Name: x,
@@ -2218,7 +2218,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Max(System.Int32,System.Int32).y,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Max(System.Int32,System.Int32).y,
         Id: M:System.Int32.System#INumber{System#Int32}#Max(System.Int32,System.Int32).y,
         Kind: Parameter,
         Name: y,
@@ -2235,7 +2235,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Min(System.Int32,System.Int32): {
+  M:System.Int32.System#INumber{System#Int32}#Min(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -2244,7 +2244,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Min(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Min(System.Int32,System.Int32),
     Id: M:System.Int32.System#INumber{System#Int32}#Min(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2254,7 +2254,7 @@
     Name: System.INumber<System.Int32>.Min,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Min(System.Int32,System.Int32).x,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Min(System.Int32,System.Int32).x,
         Id: M:System.Int32.System#INumber{System#Int32}#Min(System.Int32,System.Int32).x,
         Kind: Parameter,
         Name: x,
@@ -2265,7 +2265,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Min(System.Int32,System.Int32).y,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Min(System.Int32,System.Int32).y,
         Id: M:System.Int32.System#INumber{System#Int32}#Min(System.Int32,System.Int32).y,
         Kind: Parameter,
         Name: y,
@@ -2282,7 +2282,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider): {
+  M:System.Int32.System#INumber{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -2291,7 +2291,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider),
     Id: M:System.Int32.System#INumber{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2304,7 +2304,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).s,
         Id: M:System.Int32.System#INumber{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).s,
         Kind: Parameter,
         Name: s,
@@ -2315,7 +2315,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).style,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).style,
         Id: M:System.Int32.System#INumber{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).style,
         Kind: Parameter,
         Name: style,
@@ -2326,7 +2326,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).provider,
         Id: M:System.Int32.System#INumber{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -2343,7 +2343,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider): {
+  M:System.Int32.System#INumber{System#Int32}#Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -2352,7 +2352,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider),
     Id: M:System.Int32.System#INumber{System#Int32}#Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2365,7 +2365,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).s,
         Id: M:System.Int32.System#INumber{System#Int32}#Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).s,
         Kind: Parameter,
         Name: s,
@@ -2376,7 +2376,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).style,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).style,
         Id: M:System.Int32.System#INumber{System#Int32}#Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).style,
         Kind: Parameter,
         Name: style,
@@ -2387,7 +2387,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).provider,
         Id: M:System.Int32.System#INumber{System#Int32}#Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -2404,7 +2404,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Sign(System.Int32): {
+  M:System.Int32.System#INumber{System#Int32}#Sign(System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -2413,7 +2413,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Sign(System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Sign(System.Int32),
     Id: M:System.Int32.System#INumber{System#Int32}#Sign(System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2423,7 +2423,7 @@
     Name: System.INumber<System.Int32>.Sign,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#Sign(System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#Sign(System.Int32).value,
         Id: M:System.Int32.System#INumber{System#Int32}#Sign(System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -2440,7 +2440,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryCreate``1(``0,System.Int32@): {
+  M:System.Int32.System#INumber{System#Int32}#TryCreate``1(``0,System.Int32@): {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -2455,7 +2455,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryCreate``1(``0,System.Int32@),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#TryCreate``1(``0,System.Int32@),
     Id: M:System.Int32.System#INumber{System#Int32}#TryCreate``1(``0,System.Int32@),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2465,7 +2465,7 @@
     Name: System.INumber<System.Int32>.TryCreate,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryCreate``1(``0,System.Int32@).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#TryCreate``1(``0,System.Int32@).value,
         Id: M:System.Int32.System#INumber{System#Int32}#TryCreate``1(``0,System.Int32@).value,
         Kind: Parameter,
         Name: value,
@@ -2476,7 +2476,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryCreate``1(``0,System.Int32@).result,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#TryCreate``1(``0,System.Int32@).result,
         Id: M:System.Int32.System#INumber{System#Int32}#TryCreate``1(``0,System.Int32@).result,
         Kind: Parameter,
         Modifiers: [
@@ -2497,7 +2497,7 @@
     },
     TypeParameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryCreate``1(``0,System.Int32@).TOther,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#TryCreate``1(``0,System.Int32@).TOther,
         Id: G:System.Int32.System#INumber{System#Int32}#TryCreate``1(``0,System.Int32@).TOther,
         Kind: TypeParameter,
         Name: TOther,
@@ -2505,7 +2505,7 @@
       }
     ]
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@): {
+  M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -2514,7 +2514,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@),
     Id: M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2527,7 +2527,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).s,
         Id: M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).s,
         Kind: Parameter,
         Name: s,
@@ -2538,7 +2538,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).style,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).style,
         Id: M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).style,
         Kind: Parameter,
         Name: style,
@@ -2549,7 +2549,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).provider,
         Id: M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).provider,
         Kind: Parameter,
         Name: provider,
@@ -2560,7 +2560,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).result,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).result,
         Id: M:System.Int32.System#INumber{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).result,
         Kind: Parameter,
         Modifiers: [
@@ -2580,7 +2580,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@): {
+  M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -2589,7 +2589,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@),
     Id: M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2602,7 +2602,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).s,
         Id: M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).s,
         Kind: Parameter,
         Name: s,
@@ -2613,7 +2613,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).style,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).style,
         Id: M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).style,
         Kind: Parameter,
         Name: style,
@@ -2624,7 +2624,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).provider,
         Id: M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).provider,
         Kind: Parameter,
         Name: provider,
@@ -2635,7 +2635,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).result,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).result,
         Id: M:System.Int32.System#INumber{System#Int32}#TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).result,
         Kind: Parameter,
         Modifiers: [
@@ -2655,7 +2655,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IParseable{System#Int32}#Parse(System.String,System.IFormatProvider): {
+  M:System.Int32.System#IParseable{System#Int32}#Parse(System.String,System.IFormatProvider): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -2664,7 +2664,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IParseable{System#Int32}#Parse(System.String,System.IFormatProvider),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IParseable{System#Int32}#Parse(System.String,System.IFormatProvider),
     Id: M:System.Int32.System#IParseable{System#Int32}#Parse(System.String,System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2674,7 +2674,7 @@
     Name: System.IParseable<System.Int32>.Parse,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IParseable{System#Int32}#Parse(System.String,System.IFormatProvider).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IParseable{System#Int32}#Parse(System.String,System.IFormatProvider).s,
         Id: M:System.Int32.System#IParseable{System#Int32}#Parse(System.String,System.IFormatProvider).s,
         Kind: Parameter,
         Name: s,
@@ -2685,7 +2685,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IParseable{System#Int32}#Parse(System.String,System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IParseable{System#Int32}#Parse(System.String,System.IFormatProvider).provider,
         Id: M:System.Int32.System#IParseable{System#Int32}#Parse(System.String,System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -2702,7 +2702,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IParseable{System#Int32}#TryParse(System.String,System.IFormatProvider,System.Int32@): {
+  M:System.Int32.System#IParseable{System#Int32}#TryParse(System.String,System.IFormatProvider,System.Int32@): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -2711,7 +2711,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IParseable{System#Int32}#TryParse(System.String,System.IFormatProvider,System.Int32@),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IParseable{System#Int32}#TryParse(System.String,System.IFormatProvider,System.Int32@),
     Id: M:System.Int32.System#IParseable{System#Int32}#TryParse(System.String,System.IFormatProvider,System.Int32@),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2721,7 +2721,7 @@
     Name: System.IParseable<System.Int32>.TryParse,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IParseable{System#Int32}#TryParse(System.String,System.IFormatProvider,System.Int32@).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IParseable{System#Int32}#TryParse(System.String,System.IFormatProvider,System.Int32@).s,
         Id: M:System.Int32.System#IParseable{System#Int32}#TryParse(System.String,System.IFormatProvider,System.Int32@).s,
         Kind: Parameter,
         Name: s,
@@ -2732,7 +2732,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IParseable{System#Int32}#TryParse(System.String,System.IFormatProvider,System.Int32@).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IParseable{System#Int32}#TryParse(System.String,System.IFormatProvider,System.Int32@).provider,
         Id: M:System.Int32.System#IParseable{System#Int32}#TryParse(System.String,System.IFormatProvider,System.Int32@).provider,
         Kind: Parameter,
         Name: provider,
@@ -2743,7 +2743,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IParseable{System#Int32}#TryParse(System.String,System.IFormatProvider,System.Int32@).result,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IParseable{System#Int32}#TryParse(System.String,System.IFormatProvider,System.Int32@).result,
         Id: M:System.Int32.System#IParseable{System#Int32}#TryParse(System.String,System.IFormatProvider,System.Int32@).result,
         Kind: Parameter,
         Modifiers: [
@@ -2763,7 +2763,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_LeftShift(System.Int32,System.Int32): {
+  M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_LeftShift(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -2772,7 +2772,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_LeftShift(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_LeftShift(System.Int32,System.Int32),
     Id: M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_LeftShift(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2782,7 +2782,7 @@
     Name: System.IShiftOperators<System.Int32,System.Int32>.op_LeftShift,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_LeftShift(System.Int32,System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_LeftShift(System.Int32,System.Int32).value,
         Id: M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_LeftShift(System.Int32,System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -2793,7 +2793,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_LeftShift(System.Int32,System.Int32).shiftAmount,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_LeftShift(System.Int32,System.Int32).shiftAmount,
         Id: M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_LeftShift(System.Int32,System.Int32).shiftAmount,
         Kind: Parameter,
         Name: shiftAmount,
@@ -2810,7 +2810,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_RightShift(System.Int32,System.Int32): {
+  M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_RightShift(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -2819,7 +2819,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_RightShift(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_RightShift(System.Int32,System.Int32),
     Id: M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_RightShift(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2829,7 +2829,7 @@
     Name: System.IShiftOperators<System.Int32,System.Int32>.op_RightShift,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_RightShift(System.Int32,System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_RightShift(System.Int32,System.Int32).value,
         Id: M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_RightShift(System.Int32,System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -2840,7 +2840,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_RightShift(System.Int32,System.Int32).shiftAmount,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_RightShift(System.Int32,System.Int32).shiftAmount,
         Id: M:System.Int32.System#IShiftOperators{System#Int32,System#Int32}#op_RightShift(System.Int32,System.Int32).shiftAmount,
         Kind: Parameter,
         Name: shiftAmount,
@@ -2857,7 +2857,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#ISpanParseable{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider): {
+  M:System.Int32.System#ISpanParseable{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -2866,7 +2866,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#ISpanParseable{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#ISpanParseable{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider),
     Id: M:System.Int32.System#ISpanParseable{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2876,7 +2876,7 @@
     Name: System.ISpanParseable<System.Int32>.Parse,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#ISpanParseable{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#ISpanParseable{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider).s,
         Id: M:System.Int32.System#ISpanParseable{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider).s,
         Kind: Parameter,
         Name: s,
@@ -2887,7 +2887,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#ISpanParseable{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#ISpanParseable{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider).provider,
         Id: M:System.Int32.System#ISpanParseable{System#Int32}#Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -2904,7 +2904,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#ISpanParseable{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int32@): {
+  M:System.Int32.System#ISpanParseable{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int32@): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -2913,7 +2913,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#ISpanParseable{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int32@),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#ISpanParseable{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int32@),
     Id: M:System.Int32.System#ISpanParseable{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int32@),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2923,7 +2923,7 @@
     Name: System.ISpanParseable<System.Int32>.TryParse,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#ISpanParseable{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int32@).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#ISpanParseable{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int32@).s,
         Id: M:System.Int32.System#ISpanParseable{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int32@).s,
         Kind: Parameter,
         Name: s,
@@ -2934,7 +2934,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#ISpanParseable{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int32@).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#ISpanParseable{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int32@).provider,
         Id: M:System.Int32.System#ISpanParseable{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int32@).provider,
         Kind: Parameter,
         Name: provider,
@@ -2945,7 +2945,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#ISpanParseable{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int32@).result,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#ISpanParseable{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int32@).result,
         Id: M:System.Int32.System#ISpanParseable{System#Int32}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Int32@).result,
         Kind: Parameter,
         Modifiers: [
@@ -2965,7 +2965,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#ISubtractionOperators{System#Int32,System#Int32,System#Int32}#op_Subtraction(System.Int32,System.Int32): {
+  M:System.Int32.System#ISubtractionOperators{System#Int32,System#Int32,System#Int32}#op_Subtraction(System.Int32,System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -2974,7 +2974,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#ISubtractionOperators{System#Int32,System#Int32,System#Int32}#op_Subtraction(System.Int32,System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#ISubtractionOperators{System#Int32,System#Int32,System#Int32}#op_Subtraction(System.Int32,System.Int32),
     Id: M:System.Int32.System#ISubtractionOperators{System#Int32,System#Int32,System#Int32}#op_Subtraction(System.Int32,System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -2984,7 +2984,7 @@
     Name: System.ISubtractionOperators<System.Int32,System.Int32,System.Int32>.op_Subtraction,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#ISubtractionOperators{System#Int32,System#Int32,System#Int32}#op_Subtraction(System.Int32,System.Int32).left,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#ISubtractionOperators{System#Int32,System#Int32,System#Int32}#op_Subtraction(System.Int32,System.Int32).left,
         Id: M:System.Int32.System#ISubtractionOperators{System#Int32,System#Int32,System#Int32}#op_Subtraction(System.Int32,System.Int32).left,
         Kind: Parameter,
         Name: left,
@@ -2995,7 +2995,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#ISubtractionOperators{System#Int32,System#Int32,System#Int32}#op_Subtraction(System.Int32,System.Int32).right,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#ISubtractionOperators{System#Int32,System#Int32,System#Int32}#op_Subtraction(System.Int32,System.Int32).right,
         Id: M:System.Int32.System#ISubtractionOperators{System#Int32,System#Int32,System#Int32}#op_Subtraction(System.Int32,System.Int32).right,
         Kind: Parameter,
         Name: right,
@@ -3012,7 +3012,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IUnaryNegationOperators{System#Int32,System#Int32}#op_UnaryNegation(System.Int32): {
+  M:System.Int32.System#IUnaryNegationOperators{System#Int32,System#Int32}#op_UnaryNegation(System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -3021,7 +3021,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IUnaryNegationOperators{System#Int32,System#Int32}#op_UnaryNegation(System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IUnaryNegationOperators{System#Int32,System#Int32}#op_UnaryNegation(System.Int32),
     Id: M:System.Int32.System#IUnaryNegationOperators{System#Int32,System#Int32}#op_UnaryNegation(System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -3031,7 +3031,7 @@
     Name: System.IUnaryNegationOperators<System.Int32,System.Int32>.op_UnaryNegation,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IUnaryNegationOperators{System#Int32,System#Int32}#op_UnaryNegation(System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IUnaryNegationOperators{System#Int32,System#Int32}#op_UnaryNegation(System.Int32).value,
         Id: M:System.Int32.System#IUnaryNegationOperators{System#Int32,System#Int32}#op_UnaryNegation(System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -3048,7 +3048,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IUnaryPlusOperators{System#Int32,System#Int32}#op_UnaryPlus(System.Int32): {
+  M:System.Int32.System#IUnaryPlusOperators{System#Int32,System#Int32}#op_UnaryPlus(System.Int32): {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -3057,7 +3057,7 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IUnaryPlusOperators{System#Int32,System#Int32}#op_UnaryPlus(System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IUnaryPlusOperators{System#Int32,System#Int32}#op_UnaryPlus(System.Int32),
     Id: M:System.Int32.System#IUnaryPlusOperators{System#Int32,System#Int32}#op_UnaryPlus(System.Int32),
     IsLocal: false,
     Kind: ExplicitMethod,
@@ -3067,7 +3067,7 @@
     Name: System.IUnaryPlusOperators<System.Int32,System.Int32>.op_UnaryPlus,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IUnaryPlusOperators{System#Int32,System#Int32}#op_UnaryPlus(System.Int32).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IUnaryPlusOperators{System#Int32,System#Int32}#op_UnaryPlus(System.Int32).value,
         Id: M:System.Int32.System#IUnaryPlusOperators{System#Int32,System#Int32}#op_UnaryPlus(System.Int32).value,
         Kind: Parameter,
         Name: value,
@@ -3084,9 +3084,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.ToString: {
+  M:System.Int32.ToString: {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.ToString,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.ToString,
     Id: M:System.Int32.ToString,
     IsLocal: false,
     Kind: Method,
@@ -3105,9 +3105,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.ToString(System.IFormatProvider): {
+  M:System.Int32.ToString(System.IFormatProvider): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.ToString(System.IFormatProvider),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.ToString(System.IFormatProvider),
     Id: M:System.Int32.ToString(System.IFormatProvider),
     IsLocal: false,
     Kind: Method,
@@ -3119,7 +3119,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.ToString(System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.ToString(System.IFormatProvider).provider,
         Id: M:System.Int32.ToString(System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -3136,9 +3136,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.ToString(System.String,System.IFormatProvider): {
+  M:System.Int32.ToString(System.String,System.IFormatProvider): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.ToString(System.String,System.IFormatProvider),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.ToString(System.String,System.IFormatProvider),
     Id: M:System.Int32.ToString(System.String,System.IFormatProvider),
     IsLocal: false,
     Kind: Method,
@@ -3150,7 +3150,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.ToString(System.String,System.IFormatProvider).format,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.ToString(System.String,System.IFormatProvider).format,
         Id: M:System.Int32.ToString(System.String,System.IFormatProvider).format,
         Kind: Parameter,
         Name: format,
@@ -3161,7 +3161,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.ToString(System.String,System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.ToString(System.String,System.IFormatProvider).provider,
         Id: M:System.Int32.ToString(System.String,System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -3178,9 +3178,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.ToString(System.String): {
+  M:System.Int32.ToString(System.String): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.ToString(System.String),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.ToString(System.String),
     Id: M:System.Int32.ToString(System.String),
     IsLocal: false,
     Kind: Method,
@@ -3192,7 +3192,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.ToString(System.String).format,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.ToString(System.String).format,
         Id: M:System.Int32.ToString(System.String).format,
         Kind: Parameter,
         Name: format,
@@ -3209,16 +3209,16 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider): {
+  M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
     Id: M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
     IsLocal: false,
     Kind: Method,
     Name: TryFormat,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).destination,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).destination,
         Id: M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).destination,
         Kind: Parameter,
         Name: destination,
@@ -3229,7 +3229,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).charsWritten,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).charsWritten,
         Id: M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).charsWritten,
         Kind: Parameter,
         Modifiers: [
@@ -3243,7 +3243,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).format,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).format,
         Id: M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).format,
         Kind: Parameter,
         Name: format,
@@ -3255,7 +3255,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).provider,
         Id: M:System.Int32.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider).provider,
         Kind: Parameter,
         Name: provider,
@@ -3273,9 +3273,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@): {
+  M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@),
     Id: M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@),
     IsLocal: false,
     Kind: Method,
@@ -3290,7 +3290,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).s,
         Id: M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).s,
         Kind: Parameter,
         Name: s,
@@ -3301,7 +3301,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).style,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).style,
         Id: M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).style,
         Kind: Parameter,
         Name: style,
@@ -3312,7 +3312,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).provider,
         Id: M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).provider,
         Kind: Parameter,
         Name: provider,
@@ -3323,7 +3323,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).result,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).result,
         Id: M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).result,
         Kind: Parameter,
         Modifiers: [
@@ -3343,9 +3343,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Int32@): {
+  M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Int32@): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Int32@),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Int32@),
     Id: M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Int32@),
     IsLocal: false,
     Kind: Method,
@@ -3360,7 +3360,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Int32@).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Int32@).s,
         Id: M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Int32@).s,
         Kind: Parameter,
         Name: s,
@@ -3371,7 +3371,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Int32@).result,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Int32@).result,
         Id: M:System.Int32.TryParse(System.ReadOnlySpan{System.Char},System.Int32@).result,
         Kind: Parameter,
         Modifiers: [
@@ -3391,9 +3391,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@): {
+  M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@),
     Id: M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@),
     IsLocal: false,
     Kind: Method,
@@ -3408,7 +3408,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).s,
         Id: M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).s,
         Kind: Parameter,
         Name: s,
@@ -3419,7 +3419,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).style,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).style,
         Id: M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).style,
         Kind: Parameter,
         Name: style,
@@ -3430,7 +3430,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).provider,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).provider,
         Id: M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).provider,
         Kind: Parameter,
         Name: provider,
@@ -3441,7 +3441,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).result,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).result,
         Id: M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@).result,
         Kind: Parameter,
         Modifiers: [
@@ -3461,9 +3461,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.String,System.Int32@): {
+  M:System.Int32.TryParse(System.String,System.Int32@): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.String,System.Int32@),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryParse(System.String,System.Int32@),
     Id: M:System.Int32.TryParse(System.String,System.Int32@),
     IsLocal: false,
     Kind: Method,
@@ -3478,7 +3478,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.String,System.Int32@).s,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryParse(System.String,System.Int32@).s,
         Id: M:System.Int32.TryParse(System.String,System.Int32@).s,
         Kind: Parameter,
         Name: s,
@@ -3489,7 +3489,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.TryParse(System.String,System.Int32@).result,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.TryParse(System.String,System.Int32@).result,
         Id: M:System.Int32.TryParse(System.String,System.Int32@).result,
         Kind: Parameter,
         Modifiers: [
@@ -3509,7 +3509,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, P:System.Int32.System#IAdditiveIdentity{System#Int32,System#Int32}#AdditiveIdentity: {
+  P:System.Int32.System#IAdditiveIdentity{System#Int32,System#Int32}#AdditiveIdentity: {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -3518,9 +3518,9 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Int32.System#IAdditiveIdentity{System#Int32,System#Int32}#AdditiveIdentity,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Int32.System#IAdditiveIdentity{System#Int32,System#Int32}#AdditiveIdentity,
     Getter: {
-      FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IAdditiveIdentity{System#Int32,System#Int32}#get_AdditiveIdentity,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IAdditiveIdentity{System#Int32,System#Int32}#get_AdditiveIdentity,
       Id: M:System.Int32.System#IAdditiveIdentity{System#Int32,System#Int32}#get_AdditiveIdentity,
       IsLocal: false,
       Kind: Method,
@@ -3543,7 +3543,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, P:System.Int32.System#IMinMaxValue{System#Int32}#MaxValue: {
+  P:System.Int32.System#IMinMaxValue{System#Int32}#MaxValue: {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -3552,9 +3552,9 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Int32.System#IMinMaxValue{System#Int32}#MaxValue,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Int32.System#IMinMaxValue{System#Int32}#MaxValue,
     Getter: {
-      FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IMinMaxValue{System#Int32}#get_MaxValue,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IMinMaxValue{System#Int32}#get_MaxValue,
       Id: M:System.Int32.System#IMinMaxValue{System#Int32}#get_MaxValue,
       IsLocal: false,
       Kind: Method,
@@ -3577,7 +3577,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, P:System.Int32.System#IMinMaxValue{System#Int32}#MinValue: {
+  P:System.Int32.System#IMinMaxValue{System#Int32}#MinValue: {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -3586,9 +3586,9 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Int32.System#IMinMaxValue{System#Int32}#MinValue,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Int32.System#IMinMaxValue{System#Int32}#MinValue,
     Getter: {
-      FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IMinMaxValue{System#Int32}#get_MinValue,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IMinMaxValue{System#Int32}#get_MinValue,
       Id: M:System.Int32.System#IMinMaxValue{System#Int32}#get_MinValue,
       IsLocal: false,
       Kind: Method,
@@ -3611,7 +3611,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, P:System.Int32.System#IMultiplicativeIdentity{System#Int32,System#Int32}#MultiplicativeIdentity: {
+  P:System.Int32.System#IMultiplicativeIdentity{System#Int32,System#Int32}#MultiplicativeIdentity: {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -3620,9 +3620,9 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Int32.System#IMultiplicativeIdentity{System#Int32,System#Int32}#MultiplicativeIdentity,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Int32.System#IMultiplicativeIdentity{System#Int32,System#Int32}#MultiplicativeIdentity,
     Getter: {
-      FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#IMultiplicativeIdentity{System#Int32,System#Int32}#get_MultiplicativeIdentity,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#IMultiplicativeIdentity{System#Int32,System#Int32}#get_MultiplicativeIdentity,
       Id: M:System.Int32.System#IMultiplicativeIdentity{System#Int32,System#Int32}#get_MultiplicativeIdentity,
       IsLocal: false,
       Kind: Method,
@@ -3645,7 +3645,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, P:System.Int32.System#INumber{System#Int32}#One: {
+  P:System.Int32.System#INumber{System#Int32}#One: {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -3654,9 +3654,9 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Int32.System#INumber{System#Int32}#One,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Int32.System#INumber{System#Int32}#One,
     Getter: {
-      FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#get_One,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#get_One,
       Id: M:System.Int32.System#INumber{System#Int32}#get_One,
       IsLocal: false,
       Kind: Method,
@@ -3679,7 +3679,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, P:System.Int32.System#INumber{System#Int32}#Zero: {
+  P:System.Int32.System#INumber{System#Int32}#Zero: {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -3688,9 +3688,9 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Int32.System#INumber{System#Int32}#Zero,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Int32.System#INumber{System#Int32}#Zero,
     Getter: {
-      FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#INumber{System#Int32}#get_Zero,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#INumber{System#Int32}#get_Zero,
       Id: M:System.Int32.System#INumber{System#Int32}#get_Zero,
       IsLocal: false,
       Kind: Method,
@@ -3713,7 +3713,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, P:System.Int32.System#ISignedNumber{System#Int32}#NegativeOne: {
+  P:System.Int32.System#ISignedNumber{System#Int32}#NegativeOne: {
     Attributes: [
       {
         FullName: System.Runtime.Versioning.RequiresPreviewFeaturesAttribute,
@@ -3722,9 +3722,9 @@
         Name: RequiresPreviewFeaturesAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.Int32.System#ISignedNumber{System#Int32}#NegativeOne,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Int32.System#ISignedNumber{System#Int32}#NegativeOne,
     Getter: {
-      FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.Int32.System#ISignedNumber{System#Int32}#get_NegativeOne,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Int32.System#ISignedNumber{System#Int32}#get_NegativeOne,
       Id: M:System.Int32.System#ISignedNumber{System#Int32}#get_NegativeOne,
       IsLocal: false,
       Kind: Method,

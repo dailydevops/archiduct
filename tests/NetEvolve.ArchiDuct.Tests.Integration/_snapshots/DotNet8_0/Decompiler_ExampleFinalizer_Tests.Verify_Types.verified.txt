@@ -1,5 +1,5 @@
 ﻿{
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass: {
+  T:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass: {
     Accessibility: Public,
     Attributes: [
       {
@@ -30,7 +30,7 @@
     BaseTypes: [
       T:System.Object
     ],
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass,
     Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass,
     InheritedMembers: [
       M:System.Object.GetType,

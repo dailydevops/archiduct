@@ -1,5 +1,5 @@
 ﻿{
-  System.Private.CoreLib, Version=6.0.0.0, T:System.EventHandler: {
+  T:System.EventHandler: {
     Accessibility: Public,
     Attributes: [
       {
@@ -56,7 +56,7 @@
       T:System.Delegate,
       T:System.Object
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.EventHandler,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.EventHandler,
     Id: T:System.EventHandler,
     IsNested: false,
     Kind: Delegate,
@@ -67,7 +67,7 @@
     NamespaceId: N:System,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.EventHandler.sender,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.EventHandler.sender,
         Id: T:System.EventHandler.sender,
         Kind: Parameter,
         Name: sender,
@@ -78,7 +78,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.EventHandler.e,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.EventHandler.e,
         Id: T:System.EventHandler.e,
         Kind: Parameter,
         Name: e,

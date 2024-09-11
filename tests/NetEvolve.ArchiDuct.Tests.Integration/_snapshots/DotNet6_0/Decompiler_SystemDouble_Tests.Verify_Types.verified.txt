@@ -1,5 +1,5 @@
 ﻿{
-  System.Private.CoreLib, Version=6.0.0.0, T:System.Double: {
+  T:System.Double: {
     Accessibility: Public,
     Attributes: [
       {
@@ -55,7 +55,7 @@
       T:System.ValueType,
       T:System.Object
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.Double,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.Double,
     Id: T:System.Double,
     Implementations: [
       T:System.IMinMaxValue`1,

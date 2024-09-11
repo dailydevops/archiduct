@@ -1,5 +1,5 @@
 ﻿{
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface: {
+  T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface: {
     Accessibility: Public,
     Attributes: [
       {
@@ -33,7 +33,7 @@
         Name: SerializableAttribute
       }
     ],
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface,
     Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface,
     IsNested: false,
     Kind: Interface,

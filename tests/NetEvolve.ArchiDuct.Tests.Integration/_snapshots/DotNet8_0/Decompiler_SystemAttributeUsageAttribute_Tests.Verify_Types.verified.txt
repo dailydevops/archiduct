@@ -1,5 +1,5 @@
 ﻿{
-  System.Private.CoreLib, Version=8.0.0.0, T:System.AttributeUsageAttribute: {
+  T:System.AttributeUsageAttribute: {
     Accessibility: Public,
     Attributes: [
       {
@@ -55,7 +55,7 @@
       T:System.Attribute,
       T:System.Object
     ],
-    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.AttributeUsageAttribute,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.AttributeUsageAttribute,
     Id: T:System.AttributeUsageAttribute,
     InheritedMembers: [
       M:System.Attribute.InternalGetCustomAttributes(System.Reflection.PropertyInfo,System.Type,System.Boolean),

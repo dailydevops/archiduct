@@ -1,5 +1,5 @@
 ﻿{
-  System.Text.Json, Version=6.0.0.0, T:System.Text.Json.Serialization.JsonConverter: {
+  T:System.Text.Json.Serialization.JsonConverter: {
     Accessibility: Public,
     Attributes: [
       {
@@ -30,7 +30,7 @@
     BaseTypes: [
       T:System.Object
     ],
-    FullName: System.Text.Json, Version=6.0.0.0, T:System.Text.Json.Serialization.JsonConverter,
+    FullName: System.Text.Json, Version=x.x.x.x, T:System.Text.Json.Serialization.JsonConverter,
     Id: T:System.Text.Json.Serialization.JsonConverter,
     InheritedMembers: [
       M:System.Object.GetType,

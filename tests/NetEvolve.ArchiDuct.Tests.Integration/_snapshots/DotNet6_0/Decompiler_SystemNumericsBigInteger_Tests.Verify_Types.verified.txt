@@ -1,5 +1,5 @@
 ﻿{
-  System.Runtime.Numerics, Version=6.0.0.0, T:System.Numerics.BigInteger: {
+  T:System.Numerics.BigInteger: {
     Accessibility: Public,
     Attributes: [
       {
@@ -55,7 +55,7 @@
       T:System.ValueType,
       T:System.Object
     ],
-    FullName: System.Runtime.Numerics, Version=6.0.0.0, T:System.Numerics.BigInteger,
+    FullName: System.Runtime.Numerics, Version=x.x.x.x, T:System.Numerics.BigInteger,
     Id: T:System.Numerics.BigInteger,
     Implementations: [
       T:System.IEquatable`1,
@@ -244,7 +244,7 @@
     ],
     ParentId: N:System.Numerics
   },
-  System.Runtime.Numerics, Version=6.0.0.0, T:System.Numerics.BigInteger.GetBytesMode: {
+  T:System.Numerics.BigInteger.GetBytesMode: {
     Accessibility: Private,
     Attributes: [
       {
@@ -301,7 +301,7 @@
       T:System.ValueType,
       T:System.Object
     ],
-    FullName: System.Runtime.Numerics, Version=6.0.0.0, T:System.Numerics.BigInteger.GetBytesMode,
+    FullName: System.Runtime.Numerics, Version=x.x.x.x, T:System.Numerics.BigInteger.GetBytesMode,
     Id: T:System.Numerics.BigInteger.GetBytesMode,
     IsNested: true,
     Kind: Enum,

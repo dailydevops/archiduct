@@ -1,7 +1,7 @@
 ﻿{
-  System.Private.CoreLib, Version=6.0.0.0, M:System.IDisposable.Dispose: {
+  M:System.IDisposable.Dispose: {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.IDisposable.Dispose,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.IDisposable.Dispose,
     Id: M:System.IDisposable.Dispose,
     IsLocal: false,
     Kind: Method,

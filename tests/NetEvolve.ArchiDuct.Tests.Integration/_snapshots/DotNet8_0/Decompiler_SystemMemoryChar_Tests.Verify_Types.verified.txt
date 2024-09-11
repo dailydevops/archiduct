@@ -1,5 +1,5 @@
 ﻿{
-  System.Private.CoreLib, Version=8.0.0.0, T:System.Memory`1: {
+  T:System.Memory`1: {
     Accessibility: Public,
     Attributes: [
       {
@@ -55,7 +55,7 @@
       T:System.ValueType,
       T:System.Object
     ],
-    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Memory`1,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.Memory`1,
     Id: T:System.Memory`1,
     Implementations: [
       T:System.IEquatable`1
@@ -114,7 +114,7 @@
     ParentId: N:System,
     TypeParameters: [
       {
-        FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Memory`1.T,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.Memory`1.T,
         Id: T:System.Memory`1.T,
         Kind: TypeParameter,
         Name: T,
