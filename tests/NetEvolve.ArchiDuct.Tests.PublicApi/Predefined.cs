@@ -1,9 +1,7 @@
 ﻿namespace NetEvolve.ArchiDuct.Tests.PublicApi;
 
-using System;
 using System.IO;
 using System.Runtime.CompilerServices;
-using NetEvolve.ArchiDuct.Models.Documentation;
 using VerifyTests;
 using VerifyXunit;
 
