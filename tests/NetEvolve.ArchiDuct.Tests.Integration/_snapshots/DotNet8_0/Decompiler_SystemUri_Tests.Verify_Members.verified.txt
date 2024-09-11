@@ -1476,16 +1476,16 @@
     Accessibility: Protected,
     Attributes: [
       {
-        FullName: System.ObsoleteAttribute,
-        Id: T:System.ObsoleteAttribute,
-        Kind: Attribute,
-        Name: ObsoleteAttribute
-      },
-      {
         FullName: System.ComponentModel.EditorBrowsableAttribute,
         Id: T:System.ComponentModel.EditorBrowsableAttribute,
         Kind: Attribute,
         Name: EditorBrowsableAttribute
+      },
+      {
+        FullName: System.ObsoleteAttribute,
+        Id: T:System.ObsoleteAttribute,
+        Kind: Attribute,
+        Name: ObsoleteAttribute
       }
     ],
     FullName: System.Private.Uri, Version=8.0.0.0, M:System.Uri.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),

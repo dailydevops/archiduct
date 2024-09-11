@@ -3,10 +3,10 @@
     Accessibility: Public,
     Attributes: [
       {
-        FullName: System.SerializableAttribute,
-        Id: T:System.SerializableAttribute,
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
         Kind: Attribute,
-        Name: SerializableAttribute
+        Name: TypeForwardedFromAttribute
       },
       {
         FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
@@ -21,10 +21,10 @@
         Name: ComVisibleAttribute
       },
       {
-        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
-        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
         Kind: Attribute,
-        Name: TypeForwardedFromAttribute
+        Name: SerializableAttribute
       }
     ],
     FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.IDisposable,

@@ -2,76 +2,16 @@
   System.Private.CoreLib: {
     Attributes: [
       {
-        FullName: System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
-        Id: T:System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
-        Kind: Attribute,
-        Name: CompilationRelaxationsAttribute
-      },
-      {
-        FullName: System.Runtime.CompilerServices.RuntimeCompatibilityAttribute,
-        Id: T:System.Runtime.CompilerServices.RuntimeCompatibilityAttribute,
-        Kind: Attribute,
-        Name: RuntimeCompatibilityAttribute
-      },
-      {
-        FullName: System.Diagnostics.DebuggableAttribute,
-        Id: T:System.Diagnostics.DebuggableAttribute,
-        Kind: Attribute,
-        Name: DebuggableAttribute
-      },
-      {
-        FullName: System.Reflection.Metadata.MetadataUpdateHandlerAttribute,
-        Id: T:System.Reflection.Metadata.MetadataUpdateHandlerAttribute,
-        Kind: Attribute,
-        Name: MetadataUpdateHandlerAttribute
-      },
-      {
         FullName: System.CLSCompliantAttribute,
         Id: T:System.CLSCompliantAttribute,
         Kind: Attribute,
         Name: CLSCompliantAttribute
       },
       {
-        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
-        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        FullName: System.Diagnostics.DebuggableAttribute,
+        Id: T:System.Diagnostics.DebuggableAttribute,
         Kind: Attribute,
-        Name: ComVisibleAttribute
-      },
-      {
-        FullName: System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute,
-        Id: T:System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute,
-        Kind: Attribute,
-        Name: DefaultDllImportSearchPathsAttribute
-      },
-      {
-        FullName: System.Reflection.AssemblyMetadataAttribute,
-        Id: T:System.Reflection.AssemblyMetadataAttribute,
-        Kind: Attribute,
-        Name: AssemblyMetadataAttribute
-      },
-      {
-        FullName: System.Reflection.AssemblyMetadataAttribute,
-        Id: T:System.Reflection.AssemblyMetadataAttribute,
-        Kind: Attribute,
-        Name: AssemblyMetadataAttribute
-      },
-      {
-        FullName: System.Resources.NeutralResourcesLanguageAttribute,
-        Id: T:System.Resources.NeutralResourcesLanguageAttribute,
-        Kind: Attribute,
-        Name: NeutralResourcesLanguageAttribute
-      },
-      {
-        FullName: System.Runtime.CompilerServices.DisableRuntimeMarshallingAttribute,
-        Id: T:System.Runtime.CompilerServices.DisableRuntimeMarshallingAttribute,
-        Kind: Attribute,
-        Name: DisableRuntimeMarshallingAttribute
-      },
-      {
-        FullName: System.Runtime.Versioning.TargetFrameworkAttribute,
-        Id: T:System.Runtime.Versioning.TargetFrameworkAttribute,
-        Kind: Attribute,
-        Name: TargetFrameworkAttribute
+        Name: DebuggableAttribute
       },
       {
         FullName: System.Reflection.AssemblyCompanyAttribute,
@@ -110,6 +50,24 @@
         Name: AssemblyInformationalVersionAttribute
       },
       {
+        FullName: System.Reflection.AssemblyMetadataAttribute,
+        Id: T:System.Reflection.AssemblyMetadataAttribute,
+        Kind: Attribute,
+        Name: AssemblyMetadataAttribute
+      },
+      {
+        FullName: System.Reflection.AssemblyMetadataAttribute,
+        Id: T:System.Reflection.AssemblyMetadataAttribute,
+        Kind: Attribute,
+        Name: AssemblyMetadataAttribute
+      },
+      {
+        FullName: System.Reflection.AssemblyMetadataAttribute,
+        Id: T:System.Reflection.AssemblyMetadataAttribute,
+        Kind: Attribute,
+        Name: AssemblyMetadataAttribute
+      },
+      {
         FullName: System.Reflection.AssemblyProductAttribute,
         Id: T:System.Reflection.AssemblyProductAttribute,
         Kind: Attribute,
@@ -122,16 +80,58 @@
         Name: AssemblyTitleAttribute
       },
       {
-        FullName: System.Reflection.AssemblyMetadataAttribute,
-        Id: T:System.Reflection.AssemblyMetadataAttribute,
-        Kind: Attribute,
-        Name: AssemblyMetadataAttribute
-      },
-      {
         FullName: System.Reflection.AssemblyVersionAttribute,
         Id: T:System.Reflection.AssemblyVersionAttribute,
         Kind: Attribute,
         Name: AssemblyVersionAttribute
+      },
+      {
+        FullName: System.Reflection.Metadata.MetadataUpdateHandlerAttribute,
+        Id: T:System.Reflection.Metadata.MetadataUpdateHandlerAttribute,
+        Kind: Attribute,
+        Name: MetadataUpdateHandlerAttribute
+      },
+      {
+        FullName: System.Resources.NeutralResourcesLanguageAttribute,
+        Id: T:System.Resources.NeutralResourcesLanguageAttribute,
+        Kind: Attribute,
+        Name: NeutralResourcesLanguageAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
+        Id: T:System.Runtime.CompilerServices.CompilationRelaxationsAttribute,
+        Kind: Attribute,
+        Name: CompilationRelaxationsAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.DisableRuntimeMarshallingAttribute,
+        Id: T:System.Runtime.CompilerServices.DisableRuntimeMarshallingAttribute,
+        Kind: Attribute,
+        Name: DisableRuntimeMarshallingAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.RuntimeCompatibilityAttribute,
+        Id: T:System.Runtime.CompilerServices.RuntimeCompatibilityAttribute,
+        Kind: Attribute,
+        Name: RuntimeCompatibilityAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute,
+        Id: T:System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute,
+        Kind: Attribute,
+        Name: DefaultDllImportSearchPathsAttribute
+      },
+      {
+        FullName: System.Runtime.Versioning.TargetFrameworkAttribute,
+        Id: T:System.Runtime.Versioning.TargetFrameworkAttribute,
+        Kind: Attribute,
+        Name: TargetFrameworkAttribute
       }
     ],
     FullName: System.Private.CoreLib,

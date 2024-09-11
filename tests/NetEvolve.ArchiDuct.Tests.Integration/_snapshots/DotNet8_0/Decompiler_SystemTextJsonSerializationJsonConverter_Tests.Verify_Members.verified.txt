@@ -92,16 +92,16 @@
     Accessibility: Internal,
     Attributes: [
       {
-        FullName: System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute,
-        Id: T:System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute,
-        Kind: Attribute,
-        Name: RequiresUnreferencedCodeAttribute
-      },
-      {
         FullName: System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute,
         Id: T:System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute,
         Kind: Attribute,
         Name: RequiresDynamicCodeAttribute
+      },
+      {
+        FullName: System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute,
+        Id: T:System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute,
+        Kind: Attribute,
+        Name: RequiresUnreferencedCodeAttribute
       }
     ],
     FullName: System.Text.Json, Version=8.0.0.0, M:System.Text.Json.Serialization.JsonConverter.ConfigureJsonTypeInfoUsingReflection(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.JsonSerializerOptions),

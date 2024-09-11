@@ -1,7 +1,7 @@
 ﻿{
-  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@): {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@): {
     Accessibility: Public,
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@),
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@),
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@),
     Kind: Deconstructor,
     Modifiers: [
@@ -13,7 +13,7 @@
     ],
     Parameters: [
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@).p,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@).p,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@).p,
         Kind: Parameter,
         Modifiers: [
@@ -27,7 +27,7 @@
         }
       },
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@).isStatic,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@).isStatic,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@).isStatic,
         Kind: Parameter,
         Modifiers: [
@@ -41,7 +41,7 @@
         }
       },
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@).isReadOnly,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@).isReadOnly,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@).isReadOnly,
         Kind: Parameter,
         Modifiers: [
@@ -55,7 +55,7 @@
         }
       },
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@).isIndexed,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@).isIndexed,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@).isIndexed,
         Kind: Parameter,
         Modifiers: [
@@ -69,7 +69,7 @@
         }
       },
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@).propertyType,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@).propertyType,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@).propertyType,
         Kind: Parameter,
         Modifiers: [
@@ -89,9 +89,9 @@
       IsNullable: false
     }
   },
-  NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@): {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@): {
     Accessibility: Public,
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@),
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@),
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@),
     Kind: Deconstructor,
     Modifiers: [
@@ -103,7 +103,7 @@
     ],
     Parameters: [
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@).nullable,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@).nullable,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@).nullable,
         Kind: Parameter,
         Modifiers: [
@@ -117,7 +117,7 @@
         }
       },
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@).hasValue,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@).hasValue,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@).hasValue,
         Kind: Parameter,
         Modifiers: [
@@ -131,7 +131,7 @@
         }
       },
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@).value,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@).value,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@).value,
         Kind: Parameter,
         Modifiers: [
@@ -152,7 +152,7 @@
     },
     TypeParameters: [
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=0.2.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@).T,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@).T,
         Id: G:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@).T,
         Kind: TypeParameter,
         Name: T,

@@ -3,6 +3,8 @@
 using System;
 using System.IO;
 using System.Runtime.CompilerServices;
+using NetEvolve.ArchiDuct.Models;
+using NetEvolve.ArchiDuct.Models.Abstractions;
 using NetEvolve.ArchiDuct.Models.Documentation;
 using VerifyTests;
 using VerifyXunit;
@@ -30,6 +32,12 @@ internal static class Predefined
         VerifierSettings.SortPropertiesAlphabetically();
 
         VerifierSettings.HashParameters();
+
+        VerifierSettings.OrderEnumerableBy<ModelAttribute>(model => model.Id);
+        VerifierSettings.OrderEnumerableBy<ModelMemberBase>(model => model.Id);
+        VerifierSettings.OrderEnumerableBy<ModelNamespace>(model => model.Id);
+        VerifierSettings.OrderEnumerableBy<ModelReference>(model => model.Id);
+        VerifierSettings.OrderEnumerableBy<ModelTypeBase>(model => model.Id);
 
         VerifierSettings.IgnoreMembersWithType<Version>();
 

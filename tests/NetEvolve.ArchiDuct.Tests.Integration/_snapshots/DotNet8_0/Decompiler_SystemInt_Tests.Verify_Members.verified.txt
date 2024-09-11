@@ -710,16 +710,16 @@
     Accessibility: Public,
     Attributes: [
       {
-        FullName: System.Runtime.CompilerServices.MethodImplAttribute,
-        Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
-        Kind: Attribute,
-        Name: MethodImplAttribute
-      },
-      {
         FullName: System.Runtime.CompilerServices.IntrinsicAttribute,
         Id: T:System.Runtime.CompilerServices.IntrinsicAttribute,
         Kind: Attribute,
         Name: IntrinsicAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+        Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+        Kind: Attribute,
+        Name: MethodImplAttribute
       }
     ],
     FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Int32.Log2(System.Int32),
