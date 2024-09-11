@@ -306,6 +306,13 @@ internal static class ModelFactory
 
         if (parameter.IsRef)
         {
+            var requiresLocation = parameter
+                .GetAttributes()
+                .Any(x => x.AttributeType.Name == "RequiresLocationAttribute");
+            if (requiresLocation)
+            {
+                yield return ModelModifier.ReadOnly;
+            }
             yield return ModelModifier.Ref;
         }
 
