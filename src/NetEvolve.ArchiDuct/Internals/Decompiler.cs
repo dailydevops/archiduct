@@ -11,23 +11,18 @@ using NetEvolve.ArchiDuct.Models.Members;
 using NetEvolve.ArchiDuct.Models.Types;
 using static NetEvolve.ArchiDuct.Internals.Constants;
 
-internal sealed partial class Decompiler : IDisposable
+internal sealed partial class Decompiler
 {
     private readonly CSharpDecompiler _decompiler;
     private readonly CSharpResolver _resolver;
 
     private readonly Version _zeroVersion = Version.Parse("0.0.0.0");
 
-    private bool _disposedValue;
-
     public Decompiler(string assemblyFile, DecompilerSettings decompilerSettings)
     {
         _decompiler = new CSharpDecompiler(assemblyFile, decompilerSettings);
         _resolver = new CSharpResolver(_decompiler.TypeSystem);
     }
-
-    /// <inheritdoc />
-    public void Dispose() => Dispose(disposing: true);
 
     public List<ModelAssembly> Decompile(
         HashSet<SourceFilter> filters,
@@ -275,21 +270,6 @@ internal sealed partial class Decompiler : IDisposable
             }
 
             MapTypeModel(modelAssembly, typeDefinition);
-        }
-    }
-
-    private void Dispose(bool disposing)
-    {
-        if (!_disposedValue)
-        {
-            if (disposing)
-            {
-                // TODO: dispose managed state (managed objects)
-            }
-
-            // TODO: free unmanaged resources (unmanaged objects) and override finalizer
-            // TODO: set large fields to null
-            _disposedValue = true;
         }
     }
 
