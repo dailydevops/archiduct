@@ -1,7 +1,7 @@
 ﻿{
-  System.Private.CoreLib, Version=6.0.0.0, F:System.ArgumentException._paramName: {
+  F:System.ArgumentException._paramName: {
     Accessibility: Private,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, F:System.ArgumentException._paramName,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.ArgumentException._paramName,
     Id: F:System.ArgumentException._paramName,
     Kind: Field,
     Modifiers: [
@@ -14,9 +14,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor: {
+  M:System.ArgumentException.#ctor: {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor,
     Id: M:System.ArgumentException.#ctor,
     Kind: Constructor,
     Name: .ctor,
@@ -29,9 +29,9 @@
     ],
     ParentId: T:System.ArgumentException
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
+  M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
     Accessibility: Protected,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
     Id: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
     Kind: Constructor,
     Name: .ctor,
@@ -44,7 +44,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
         Id: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
         Kind: Parameter,
         Name: info,
@@ -55,7 +55,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
         Id: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
         Kind: Parameter,
         Name: context,
@@ -68,9 +68,9 @@
     ],
     ParentId: T:System.ArgumentException
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.String,System.Exception): {
+  M:System.ArgumentException.#ctor(System.String,System.Exception): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.String,System.Exception),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.Exception),
     Id: M:System.ArgumentException.#ctor(System.String,System.Exception),
     Kind: Constructor,
     Name: .ctor,
@@ -83,7 +83,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.String,System.Exception).message,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.Exception).message,
         Id: M:System.ArgumentException.#ctor(System.String,System.Exception).message,
         Kind: Parameter,
         Name: message,
@@ -94,7 +94,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.String,System.Exception).innerException,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.Exception).innerException,
         Id: M:System.ArgumentException.#ctor(System.String,System.Exception).innerException,
         Kind: Parameter,
         Name: innerException,
@@ -107,9 +107,9 @@
     ],
     ParentId: T:System.ArgumentException
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception): {
+  M:System.ArgumentException.#ctor(System.String,System.String,System.Exception): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
     Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
     Kind: Constructor,
     Name: .ctor,
@@ -122,7 +122,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).message,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).message,
         Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).message,
         Kind: Parameter,
         Name: message,
@@ -133,7 +133,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).paramName,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).paramName,
         Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).paramName,
         Kind: Parameter,
         Name: paramName,
@@ -144,7 +144,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).innerException,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).innerException,
         Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).innerException,
         Kind: Parameter,
         Name: innerException,
@@ -157,9 +157,9 @@
     ],
     ParentId: T:System.ArgumentException
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.String,System.String): {
+  M:System.ArgumentException.#ctor(System.String,System.String): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.String,System.String),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String),
     Id: M:System.ArgumentException.#ctor(System.String,System.String),
     Kind: Constructor,
     Name: .ctor,
@@ -172,7 +172,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.String,System.String).message,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String).message,
         Id: M:System.ArgumentException.#ctor(System.String,System.String).message,
         Kind: Parameter,
         Name: message,
@@ -183,7 +183,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.String,System.String).paramName,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String).paramName,
         Id: M:System.ArgumentException.#ctor(System.String,System.String).paramName,
         Kind: Parameter,
         Name: paramName,
@@ -196,9 +196,9 @@
     ],
     ParentId: T:System.ArgumentException
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.String): {
+  M:System.ArgumentException.#ctor(System.String): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.String),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String),
     Id: M:System.ArgumentException.#ctor(System.String),
     Kind: Constructor,
     Name: .ctor,
@@ -211,7 +211,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.#ctor(System.String).message,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String).message,
         Id: M:System.ArgumentException.#ctor(System.String).message,
         Kind: Parameter,
         Name: message,
@@ -224,9 +224,9 @@
     ],
     ParentId: T:System.ArgumentException
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
+  M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
     Id: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
     IsLocal: false,
     Kind: Method,
@@ -236,7 +236,7 @@
     Name: GetObjectData,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
         Id: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
         Kind: Parameter,
         Name: info,
@@ -247,7 +247,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
         Id: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
         Kind: Parameter,
         Name: context,
@@ -264,9 +264,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.SetMessageField: {
+  M:System.ArgumentException.SetMessageField: {
     Accessibility: Private,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.SetMessageField,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.SetMessageField,
     Id: M:System.ArgumentException.SetMessageField,
     IsLocal: false,
     Kind: Method,
@@ -277,12 +277,12 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, P:System.ArgumentException.Message: {
+  P:System.ArgumentException.Message: {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.ArgumentException.Message,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.ArgumentException.Message,
     Getter: {
       Accessibility: Public,
-      FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.get_Message,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.get_Message,
       Id: M:System.ArgumentException.get_Message,
       IsLocal: false,
       Kind: Method,
@@ -305,12 +305,12 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=6.0.0.0, P:System.ArgumentException.ParamName: {
+  P:System.ArgumentException.ParamName: {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=6.0.0.0, P:System.ArgumentException.ParamName,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.ArgumentException.ParamName,
     Getter: {
       Accessibility: Public,
-      FullName: System.Private.CoreLib, Version=6.0.0.0, M:System.ArgumentException.get_ParamName,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.get_ParamName,
       Id: M:System.ArgumentException.get_ParamName,
       IsLocal: false,
       Kind: Method,

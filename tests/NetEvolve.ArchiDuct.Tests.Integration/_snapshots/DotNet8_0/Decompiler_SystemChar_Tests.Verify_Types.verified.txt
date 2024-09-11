@@ -1,5 +1,5 @@
 ﻿{
-  System.Private.CoreLib, Version=8.0.0.0, T:System.Char: {
+  T:System.Char: {
     Accessibility: Public,
     Attributes: [
       {
@@ -55,7 +55,7 @@
       T:System.ValueType,
       T:System.Object
     ],
-    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Char,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.Char,
     Id: T:System.Char,
     Implementations: [
       T:System.IBinaryIntegerParseAndFormatInfo`1,

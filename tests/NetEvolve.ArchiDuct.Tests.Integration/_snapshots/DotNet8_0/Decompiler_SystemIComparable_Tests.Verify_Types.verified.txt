@@ -1,5 +1,5 @@
 ﻿{
-  System.Private.CoreLib, Version=8.0.0.0, T:System.IComparable: {
+  T:System.IComparable: {
     Accessibility: Public,
     Attributes: [
       {
@@ -27,7 +27,7 @@
         Name: SerializableAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.IComparable,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.IComparable,
     Id: T:System.IComparable,
     IsNested: false,
     Kind: Interface,

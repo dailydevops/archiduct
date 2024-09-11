@@ -1,5 +1,5 @@
 ﻿{
-  System.Private.CoreLib, Version=6.0.0.0, T:System.ArgumentNullException: {
+  T:System.ArgumentNullException: {
     Accessibility: Public,
     Attributes: [
       {
@@ -81,7 +81,7 @@
       T:System.Exception,
       T:System.Object
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.ArgumentNullException,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.ArgumentNullException,
     Id: T:System.ArgumentNullException,
     Implementations: [
       T:System.Runtime.Serialization.ISerializable

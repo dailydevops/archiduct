@@ -1,7 +1,7 @@
 ﻿{
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor: {
+  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor: {
     Accessibility: Public,
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor,
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor,
     Kind: Constructor,
     Name: .ctor,
@@ -10,9 +10,9 @@
     ],
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest
   },
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor(System.Double,System.ReadOnlySpan{System.Double}): {
+  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor(System.Double,System.ReadOnlySpan{System.Double}): {
     Accessibility: Public,
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor(System.Double,System.ReadOnlySpan{System.Double}),
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor(System.Double,System.ReadOnlySpan{System.Double}),
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor(System.Double,System.ReadOnlySpan{System.Double}),
     Kind: Constructor,
     Name: .ctor,
@@ -21,7 +21,7 @@
     ],
     Parameters: [
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor(System.Double,System.ReadOnlySpan{System.Double}).rate,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor(System.Double,System.ReadOnlySpan{System.Double}).rate,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor(System.Double,System.ReadOnlySpan{System.Double}).rate,
         Kind: Parameter,
         Name: rate,
@@ -32,7 +32,7 @@
         }
       },
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor(System.Double,System.ReadOnlySpan{System.Double}).values,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor(System.Double,System.ReadOnlySpan{System.Double}).values,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor(System.Double,System.ReadOnlySpan{System.Double}).values,
         Kind: Parameter,
         Name: values,
@@ -45,12 +45,12 @@
     ],
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest
   },
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.Rate: {
+  P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.Rate: {
     Accessibility: Public,
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.Rate,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.Rate,
     Getter: {
       Accessibility: Public,
-      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.get_Rate,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.get_Rate,
       Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.get_Rate,
       IsLocal: false,
       Kind: Method,
@@ -70,12 +70,12 @@
       IsNullable: false
     }
   },
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.Values: {
+  P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.Values: {
     Accessibility: Public,
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.Values,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.Values,
     Getter: {
       Accessibility: Public,
-      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.get_Values,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.get_Values,
       Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.get_Values,
       IsLocal: false,
       Kind: Method,

@@ -1,7 +1,7 @@
 ﻿{
-  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.#ctor: {
+  M:System.Range.#ctor: {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.#ctor,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.#ctor,
     Id: M:System.Range.#ctor,
     Kind: Constructor,
     Name: .ctor,
@@ -10,9 +10,9 @@
     ],
     ParentId: T:System.Range
   },
-  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.#ctor(System.Index,System.Index): {
+  M:System.Range.#ctor(System.Index,System.Index): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.#ctor(System.Index,System.Index),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.#ctor(System.Index,System.Index),
     Id: M:System.Range.#ctor(System.Index,System.Index),
     Kind: Constructor,
     Name: .ctor,
@@ -21,7 +21,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.#ctor(System.Index,System.Index).start,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.#ctor(System.Index,System.Index).start,
         Id: M:System.Range.#ctor(System.Index,System.Index).start,
         Kind: Parameter,
         Name: start,
@@ -32,7 +32,7 @@
         }
       },
       {
-        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.#ctor(System.Index,System.Index).end,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.#ctor(System.Index,System.Index).end,
         Id: M:System.Range.#ctor(System.Index,System.Index).end,
         Kind: Parameter,
         Name: end,
@@ -45,9 +45,9 @@
     ],
     ParentId: T:System.Range
   },
-  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.EndAt(System.Index): {
+  M:System.Range.EndAt(System.Index): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.EndAt(System.Index),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.EndAt(System.Index),
     Id: M:System.Range.EndAt(System.Index),
     IsLocal: false,
     Kind: Method,
@@ -57,7 +57,7 @@
     Name: EndAt,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.EndAt(System.Index).end,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.EndAt(System.Index).end,
         Id: M:System.Range.EndAt(System.Index).end,
         Kind: Parameter,
         Name: end,
@@ -74,7 +74,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.Equals(System.Object): {
+  M:System.Range.Equals(System.Object): {
     Accessibility: Public,
     Attributes: [
       {
@@ -84,7 +84,7 @@
         Name: UnconditionalSuppressMessageAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.Equals(System.Object),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.Equals(System.Object),
     Id: M:System.Range.Equals(System.Object),
     IsLocal: false,
     Kind: Method,
@@ -97,7 +97,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.Equals(System.Object).value,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.Equals(System.Object).value,
         Id: M:System.Range.Equals(System.Object).value,
         Kind: Parameter,
         Name: value,
@@ -114,9 +114,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.Equals(System.Range): {
+  M:System.Range.Equals(System.Range): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.Equals(System.Range),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.Equals(System.Range),
     Id: M:System.Range.Equals(System.Range),
     IsLocal: false,
     Kind: Method,
@@ -126,7 +126,7 @@
     ],
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.Equals(System.Range).other,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.Equals(System.Range).other,
         Id: M:System.Range.Equals(System.Range).other,
         Kind: Parameter,
         Name: other,
@@ -143,7 +143,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.GetHashCode: {
+  M:System.Range.GetHashCode: {
     Accessibility: Public,
     Attributes: [
       {
@@ -153,7 +153,7 @@
         Name: MethodImplAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.GetHashCode,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.GetHashCode,
     Id: M:System.Range.GetHashCode,
     IsLocal: false,
     Kind: Method,
@@ -167,7 +167,7 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.GetOffsetAndLength(System.Int32): {
+  M:System.Range.GetOffsetAndLength(System.Int32): {
     Accessibility: Public,
     Attributes: [
       {
@@ -177,14 +177,14 @@
         Name: MethodImplAttribute
       }
     ],
-    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.GetOffsetAndLength(System.Int32),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.GetOffsetAndLength(System.Int32),
     Id: M:System.Range.GetOffsetAndLength(System.Int32),
     IsLocal: false,
     Kind: Method,
     Name: GetOffsetAndLength,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.GetOffsetAndLength(System.Int32).length,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.GetOffsetAndLength(System.Int32).length,
         Id: M:System.Range.GetOffsetAndLength(System.Int32).length,
         Kind: Parameter,
         Name: length,
@@ -201,9 +201,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.StartAt(System.Index): {
+  M:System.Range.StartAt(System.Index): {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.StartAt(System.Index),
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.StartAt(System.Index),
     Id: M:System.Range.StartAt(System.Index),
     IsLocal: false,
     Kind: Method,
@@ -213,7 +213,7 @@
     Name: StartAt,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.StartAt(System.Index).start,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.StartAt(System.Index).start,
         Id: M:System.Range.StartAt(System.Index).start,
         Kind: Parameter,
         Name: start,
@@ -230,9 +230,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.ThrowArgumentOutOfRangeException: {
+  M:System.Range.ThrowArgumentOutOfRangeException: {
     Accessibility: Private,
-    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.ThrowArgumentOutOfRangeException,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.ThrowArgumentOutOfRangeException,
     Id: M:System.Range.ThrowArgumentOutOfRangeException,
     IsLocal: false,
     Kind: Method,
@@ -246,9 +246,9 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=8.0.0.0, M:System.Range.ToString: {
+  M:System.Range.ToString: {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.ToString,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.ToString,
     Id: M:System.Range.ToString,
     IsLocal: false,
     Kind: Method,
@@ -262,12 +262,12 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=8.0.0.0, P:System.Range.All: {
+  P:System.Range.All: {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.Range.All,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Range.All,
     Getter: {
       Accessibility: Public,
-      FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.get_All,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.get_All,
       Id: M:System.Range.get_All,
       IsLocal: false,
       Kind: Method,
@@ -290,12 +290,12 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=8.0.0.0, P:System.Range.End: {
+  P:System.Range.End: {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.Range.End,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Range.End,
     Getter: {
       Accessibility: Public,
-      FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.get_End,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.get_End,
       Id: M:System.Range.get_End,
       IsLocal: false,
       Kind: Method,
@@ -315,12 +315,12 @@
       IsNullable: false
     }
   },
-  System.Private.CoreLib, Version=8.0.0.0, P:System.Range.Start: {
+  P:System.Range.Start: {
     Accessibility: Public,
-    FullName: System.Private.CoreLib, Version=8.0.0.0, P:System.Range.Start,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Range.Start,
     Getter: {
       Accessibility: Public,
-      FullName: System.Private.CoreLib, Version=8.0.0.0, M:System.Range.get_Start,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.get_Start,
       Id: M:System.Range.get_Start,
       IsLocal: false,
       Kind: Method,

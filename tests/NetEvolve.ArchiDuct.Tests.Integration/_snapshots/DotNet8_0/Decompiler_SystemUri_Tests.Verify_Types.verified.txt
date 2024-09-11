@@ -1,5 +1,5 @@
 ﻿{
-  System.Private.Uri, Version=8.0.0.0, T:System.Uri: {
+  T:System.Uri: {
     Accessibility: Public,
     Attributes: [
       {
@@ -42,7 +42,7 @@
     BaseTypes: [
       T:System.Object
     ],
-    FullName: System.Private.Uri, Version=8.0.0.0, T:System.Uri,
+    FullName: System.Private.Uri, Version=x.x.x.x, T:System.Uri,
     Id: T:System.Uri,
     Implementations: [
       T:System.Runtime.Serialization.ISerializable,
@@ -240,7 +240,7 @@
     ],
     ParentId: N:System
   },
-  System.Private.Uri, Version=8.0.0.0, T:System.Uri.Check: {
+  T:System.Uri.Check: {
     Accessibility: Private,
     Attributes: [
       {
@@ -303,7 +303,7 @@
       T:System.ValueType,
       T:System.Object
     ],
-    FullName: System.Private.Uri, Version=8.0.0.0, T:System.Uri.Check,
+    FullName: System.Private.Uri, Version=x.x.x.x, T:System.Uri.Check,
     Id: T:System.Uri.Check,
     IsNested: true,
     Kind: Enum,
@@ -324,7 +324,7 @@
     ParentId: T:System.Uri,
     UnderlyingType: T:System.Int32
   },
-  System.Private.Uri, Version=8.0.0.0, T:System.Uri.Flags: {
+  T:System.Uri.Flags: {
     Accessibility: Internal,
     Attributes: [
       {
@@ -387,7 +387,7 @@
       T:System.ValueType,
       T:System.Object
     ],
-    FullName: System.Private.Uri, Version=8.0.0.0, T:System.Uri.Flags,
+    FullName: System.Private.Uri, Version=x.x.x.x, T:System.Uri.Flags,
     Id: T:System.Uri.Flags,
     IsNested: true,
     Kind: Enum,
@@ -456,7 +456,7 @@
     ParentId: T:System.Uri,
     UnderlyingType: T:System.UInt64
   },
-  System.Private.Uri, Version=8.0.0.0, T:System.Uri.MoreInfo: {
+  T:System.Uri.MoreInfo: {
     Accessibility: Private,
     Attributes: [
       {
@@ -487,7 +487,7 @@
     BaseTypes: [
       T:System.Object
     ],
-    FullName: System.Private.Uri, Version=8.0.0.0, T:System.Uri.MoreInfo,
+    FullName: System.Private.Uri, Version=x.x.x.x, T:System.Uri.MoreInfo,
     Id: T:System.Uri.MoreInfo,
     InheritedMembers: [
       M:System.Object.GetType,
@@ -517,7 +517,7 @@
     NamespaceId: T:System.Uri,
     ParentId: T:System.Uri
   },
-  System.Private.Uri, Version=8.0.0.0, T:System.Uri.Offset: {
+  T:System.Uri.Offset: {
     Accessibility: Private,
     Attributes: [
       {
@@ -567,7 +567,7 @@
       T:System.ValueType,
       T:System.Object
     ],
-    FullName: System.Private.Uri, Version=8.0.0.0, T:System.Uri.Offset,
+    FullName: System.Private.Uri, Version=x.x.x.x, T:System.Uri.Offset,
     Id: T:System.Uri.Offset,
     InheritedMembers: [
       M:System.ValueType.Equals(System.Object),
@@ -601,7 +601,7 @@
     NamespaceId: T:System.Uri,
     ParentId: T:System.Uri
   },
-  System.Private.Uri, Version=8.0.0.0, T:System.Uri.UriInfo: {
+  T:System.Uri.UriInfo: {
     Accessibility: Private,
     Attributes: [
       {
@@ -632,7 +632,7 @@
     BaseTypes: [
       T:System.Object
     ],
-    FullName: System.Private.Uri, Version=8.0.0.0, T:System.Uri.UriInfo,
+    FullName: System.Private.Uri, Version=x.x.x.x, T:System.Uri.UriInfo,
     Id: T:System.Uri.UriInfo,
     InheritedMembers: [
       M:System.Object.GetType,

@@ -1,5 +1,5 @@
 ﻿{
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>F546069DB3BB27819A79AE6FE5260007F14C4EDFD61E51D5306B5692DF70DAC3C__FileModifier: {
+  T:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>F546069DB3BB27819A79AE6FE5260007F14C4EDFD61E51D5306B5692DF70DAC3C__FileModifier: {
     Accessibility: File,
     Attributes: [
       {
@@ -30,7 +30,7 @@
     BaseTypes: [
       T:System.Object
     ],
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>F546069DB3BB27819A79AE6FE5260007F14C4EDFD61E51D5306B5692DF70DAC3C__FileModifier,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>F546069DB3BB27819A79AE6FE5260007F14C4EDFD61E51D5306B5692DF70DAC3C__FileModifier,
     Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>F546069DB3BB27819A79AE6FE5260007F14C4EDFD61E51D5306B5692DF70DAC3C__FileModifier,
     InheritedMembers: [
       M:System.Object.GetType,

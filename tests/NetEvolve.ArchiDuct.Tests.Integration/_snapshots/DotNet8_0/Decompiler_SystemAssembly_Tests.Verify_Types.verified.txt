@@ -1,5 +1,5 @@
 ﻿{
-  System.Private.CoreLib, Version=8.0.0.0, T:System.String: {
+  T:System.String: {
     Accessibility: Public,
     Attributes: [
       {
@@ -54,7 +54,7 @@
     BaseTypes: [
       T:System.Object
     ],
-    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.String,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.String,
     Id: T:System.String,
     Implementations: [
       T:System.ISpanParsable`1,
@@ -358,7 +358,7 @@
     ],
     ParentId: N:System
   },
-  System.Private.CoreLib, Version=8.0.0.0, T:System.String.SearchValuesStorage: {
+  T:System.String.SearchValuesStorage: {
     Accessibility: Internal,
     Attributes: [
       {
@@ -389,7 +389,7 @@
     BaseTypes: [
       T:System.Object
     ],
-    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.String.SearchValuesStorage,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.String.SearchValuesStorage,
     Id: T:System.String.SearchValuesStorage,
     InheritedMembers: [
       M:System.Object.GetType,

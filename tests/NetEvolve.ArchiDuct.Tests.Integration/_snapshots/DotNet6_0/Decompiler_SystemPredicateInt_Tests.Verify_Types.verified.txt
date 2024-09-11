@@ -1,5 +1,5 @@
 ﻿{
-  System.Private.CoreLib, Version=6.0.0.0, T:System.Predicate`1: {
+  T:System.Predicate`1: {
     Accessibility: Public,
     Attributes: [
       {
@@ -56,7 +56,7 @@
       T:System.Delegate,
       T:System.Object
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.Predicate`1,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.Predicate`1,
     Id: T:System.Predicate`1,
     IsNested: false,
     Kind: Delegate,
@@ -67,7 +67,7 @@
     NamespaceId: N:System,
     Parameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.Predicate`1.obj,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.Predicate`1.obj,
         Id: T:System.Predicate`1.obj,
         Kind: Parameter,
         Name: obj,
@@ -86,7 +86,7 @@
     },
     TypeParameters: [
       {
-        FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.Predicate`1.T,
+        FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.Predicate`1.T,
         Id: T:System.Predicate`1.T,
         Kind: TypeParameter,
         Name: T,

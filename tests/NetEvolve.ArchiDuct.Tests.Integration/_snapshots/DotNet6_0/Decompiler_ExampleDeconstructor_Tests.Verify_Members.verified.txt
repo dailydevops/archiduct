@@ -1,13 +1,13 @@
 ﻿{
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String): {
+  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String): {
     Accessibility: Public,
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String),
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String),
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String),
     Kind: Constructor,
     Name: .ctor,
     Parameters: [
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).fname,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).fname,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).fname,
         Kind: Parameter,
         Name: fname,
@@ -18,7 +18,7 @@
         }
       },
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).lname,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).lname,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).lname,
         Kind: Parameter,
         Name: lname,
@@ -29,7 +29,7 @@
         }
       },
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).cityName,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).cityName,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).cityName,
         Kind: Parameter,
         Name: cityName,
@@ -40,7 +40,7 @@
         }
       },
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).stateName,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).stateName,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).stateName,
         Kind: Parameter,
         Name: stateName,
@@ -53,9 +53,9 @@
     ],
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample
   },
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@): {
+  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@): {
     Accessibility: Public,
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@),
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@),
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@),
     Kind: Deconstructor,
     Name: Deconstruct,
@@ -64,7 +64,7 @@
     ],
     Parameters: [
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@).fname,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@).fname,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@).fname,
         Kind: Parameter,
         Modifiers: [
@@ -78,7 +78,7 @@
         }
       },
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@).lname,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@).lname,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@).lname,
         Kind: Parameter,
         Modifiers: [
@@ -98,9 +98,9 @@
       IsNullable: false
     }
   },
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@): {
+  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@): {
     Accessibility: Public,
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@),
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@),
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@),
     Kind: Deconstructor,
     Name: Deconstruct,
@@ -109,7 +109,7 @@
     ],
     Parameters: [
       {
-        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@).fullName,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@).fullName,
         Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@).fullName,
         Kind: Parameter,
         Modifiers: [
@@ -129,12 +129,12 @@
       IsNullable: false
     }
   },
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.FirstName: {
+  P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.FirstName: {
     Accessibility: Public,
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.FirstName,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.FirstName,
     Getter: {
       Accessibility: Public,
-      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.get_FirstName,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.get_FirstName,
       Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.get_FirstName,
       IsLocal: false,
       Kind: Method,
@@ -155,7 +155,7 @@
     },
     Setter: {
       Accessibility: Public,
-      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.set_FirstName(System.String),
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.set_FirstName(System.String),
       Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.set_FirstName(System.String),
       IsLocal: false,
       Kind: Method,
@@ -167,12 +167,12 @@
       }
     }
   },
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.LastName: {
+  P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.LastName: {
     Accessibility: Public,
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.LastName,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.LastName,
     Getter: {
       Accessibility: Public,
-      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.get_LastName,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.get_LastName,
       Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.get_LastName,
       IsLocal: false,
       Kind: Method,
@@ -193,7 +193,7 @@
     },
     Setter: {
       Accessibility: Public,
-      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.set_LastName(System.String),
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.set_LastName(System.String),
       Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.set_LastName(System.String),
       IsLocal: false,
       Kind: Method,

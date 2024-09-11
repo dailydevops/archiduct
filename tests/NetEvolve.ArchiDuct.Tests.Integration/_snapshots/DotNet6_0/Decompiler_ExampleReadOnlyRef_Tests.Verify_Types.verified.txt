@@ -1,5 +1,5 @@
 ﻿{
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest: {
+  T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest: {
     Accessibility: Public,
     Attributes: [
       {
@@ -49,7 +49,7 @@
       T:System.ValueType,
       T:System.Object
     ],
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest,
     Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest,
     InheritedMembers: [
       M:System.ValueType.Equals(System.Object),

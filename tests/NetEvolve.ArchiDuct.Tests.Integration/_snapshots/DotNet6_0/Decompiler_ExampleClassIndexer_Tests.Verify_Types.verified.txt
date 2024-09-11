@@ -1,5 +1,5 @@
 ﻿{
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass: {
+  T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass: {
     Accessibility: Public,
     Attributes: [
       {
@@ -36,7 +36,7 @@
     BaseTypes: [
       T:System.Object
     ],
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass,
     Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IndexerClass,
     Implementations: [
       T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface

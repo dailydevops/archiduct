@@ -1,5 +1,5 @@
 ﻿{
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample: {
+  T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample: {
     Accessibility: Public,
     Attributes: [
       {
@@ -30,7 +30,7 @@
     BaseTypes: [
       T:System.Object
     ],
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample,
     Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample,
     InheritedMembers: [
       M:System.Object.GetType,

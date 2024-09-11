@@ -1,5 +1,5 @@
 ﻿{
-  System.Private.CoreLib, Version=8.0.0.0, T:System.Text.StringBuilder: {
+  T:System.Text.StringBuilder: {
     Accessibility: Public,
     Attributes: [
       {
@@ -48,7 +48,7 @@
     BaseTypes: [
       T:System.Object
     ],
-    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Text.StringBuilder,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.Text.StringBuilder,
     Id: T:System.Text.StringBuilder,
     Implementations: [
       T:System.Runtime.Serialization.ISerializable
@@ -207,7 +207,7 @@
     ],
     ParentId: N:System.Text
   },
-  System.Private.CoreLib, Version=8.0.0.0, T:System.Text.StringBuilder.AppendInterpolatedStringHandler: {
+  T:System.Text.StringBuilder.AppendInterpolatedStringHandler: {
     Accessibility: Public,
     Attributes: [
       {
@@ -263,7 +263,7 @@
       T:System.ValueType,
       T:System.Object
     ],
-    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
     Id: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
     InheritedMembers: [
       M:System.ValueType.Equals(System.Object),
@@ -306,7 +306,7 @@
     NamespaceId: T:System.Text.StringBuilder,
     ParentId: T:System.Text.StringBuilder
   },
-  System.Private.CoreLib, Version=8.0.0.0, T:System.Text.StringBuilder.ChunkEnumerator: {
+  T:System.Text.StringBuilder.ChunkEnumerator: {
     Accessibility: Public,
     Attributes: [
       {
@@ -350,7 +350,7 @@
       T:System.ValueType,
       T:System.Object
     ],
-    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Text.StringBuilder.ChunkEnumerator,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.Text.StringBuilder.ChunkEnumerator,
     Id: T:System.Text.StringBuilder.ChunkEnumerator,
     InheritedMembers: [
       M:System.ValueType.Equals(System.Object),
@@ -387,7 +387,7 @@
     ],
     ParentId: T:System.Text.StringBuilder
   },
-  System.Private.CoreLib, Version=8.0.0.0, T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo: {
+  T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo: {
     Accessibility: Private,
     Attributes: [
       {
@@ -418,7 +418,7 @@
     BaseTypes: [
       T:System.Object
     ],
-    FullName: System.Private.CoreLib, Version=8.0.0.0, T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo,
     Id: T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo,
     InheritedMembers: [
       M:System.Object.GetType,

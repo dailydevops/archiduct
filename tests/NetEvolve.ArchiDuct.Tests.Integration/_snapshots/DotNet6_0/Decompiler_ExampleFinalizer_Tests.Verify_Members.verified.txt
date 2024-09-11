@@ -1,13 +1,13 @@
 ﻿{
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.#ctor: {
+  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.#ctor: {
     Accessibility: Public,
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.#ctor,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.#ctor,
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.#ctor,
     Kind: Constructor,
     Name: .ctor,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass
   },
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.Finalize: {
+  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.Finalize: {
     Accessibility: Protected,
     Attributes: [
       {
@@ -17,7 +17,7 @@
         Name: NonVersionableAttribute
       }
     ],
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.Finalize,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.Finalize,
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.Finalize,
     Kind: Destructor,
     Modifiers: [
@@ -30,9 +30,9 @@
       IsNullable: false
     }
   },
-  NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.ToString: {
+  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.ToString: {
     Accessibility: Public,
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=1.0.0.0, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.ToString,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.ToString,
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.ToString,
     IsLocal: false,
     Kind: Method,

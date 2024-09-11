@@ -1,5 +1,5 @@
 ﻿{
-  System.Private.CoreLib, Version=6.0.0.0, T:System.String: {
+  T:System.String: {
     Accessibility: Public,
     Attributes: [
       {
@@ -48,7 +48,7 @@
     BaseTypes: [
       T:System.Object
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.String,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.String,
     Id: T:System.String,
     Implementations: [
       T:System.ICloneable,
@@ -341,7 +341,7 @@
     ],
     ParentId: N:System
   },
-  System.Private.CoreLib, Version=6.0.0.0, T:System.String.ProbabilisticMap: {
+  T:System.String.ProbabilisticMap: {
     Accessibility: Private,
     Attributes: [
       {
@@ -391,7 +391,7 @@
       T:System.ValueType,
       T:System.Object
     ],
-    FullName: System.Private.CoreLib, Version=6.0.0.0, T:System.String.ProbabilisticMap,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.String.ProbabilisticMap,
     Id: T:System.String.ProbabilisticMap,
     InheritedMembers: [
       M:System.ValueType.Equals(System.Object),
