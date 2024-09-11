@@ -2,7 +2,6 @@
 
 using System.Xml.Linq;
 
-// TODO: separat package
 internal sealed class XAttributeEqualityComparer : IEqualityComparer<XAttribute?>
 {
     private static readonly Lazy<IEqualityComparer<XAttribute?>> _instance = new Lazy<
