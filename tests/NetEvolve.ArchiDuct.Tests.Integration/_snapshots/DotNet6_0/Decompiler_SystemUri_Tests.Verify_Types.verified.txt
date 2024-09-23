@@ -1,0 +1,661 @@
+﻿{
+  T:System.Uri: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      }
+    ],
+    BaseTypes: [
+      T:System.Object
+    ],
+    FullName: System.Private.Uri, Version=x.x.x.x, T:System.Uri,
+    Id: T:System.Uri,
+    Implementations: [
+      T:System.Runtime.Serialization.ISerializable
+    ],
+    InheritedMembers: [
+      M:System.Object.GetType,
+      M:System.Object.MemberwiseClone,
+      M:System.Object.Finalize,
+      M:System.Object.ToString,
+      M:System.Object.Equals(System.Object),
+      M:System.Object.Equals(System.Object,System.Object),
+      M:System.Object.ReferenceEquals(System.Object,System.Object),
+      M:System.Object.GetHashCode
+    ],
+    IsNested: false,
+    IsRecord: false,
+    Kind: Class,
+    Members: [
+      F:System.Uri.UriSchemeFile,
+      F:System.Uri.UriSchemeFtp,
+      F:System.Uri.UriSchemeSftp,
+      F:System.Uri.UriSchemeFtps,
+      F:System.Uri.UriSchemeGopher,
+      F:System.Uri.UriSchemeHttp,
+      F:System.Uri.UriSchemeHttps,
+      F:System.Uri.UriSchemeWs,
+      F:System.Uri.UriSchemeWss,
+      F:System.Uri.UriSchemeMailto,
+      F:System.Uri.UriSchemeNews,
+      F:System.Uri.UriSchemeNntp,
+      F:System.Uri.UriSchemeSsh,
+      F:System.Uri.UriSchemeTelnet,
+      F:System.Uri.UriSchemeNetTcp,
+      F:System.Uri.UriSchemeNetPipe,
+      F:System.Uri.SchemeDelimiter,
+      F:System.Uri._string,
+      F:System.Uri._originalUnicodeString,
+      F:System.Uri._syntax,
+      F:System.Uri._flags,
+      F:System.Uri._info,
+      F:System.Uri.s_pathDelims,
+      M:System.Uri.InterlockedSetFlags(System.Uri.Flags),
+      M:System.Uri.IriParsingStatic(System.UriParser),
+      M:System.Uri.NotAny(System.Uri.Flags),
+      M:System.Uri.InFact(System.Uri.Flags),
+      M:System.Uri.StaticNotAny(System.Uri.Flags,System.Uri.Flags),
+      M:System.Uri.StaticInFact(System.Uri.Flags,System.Uri.Flags),
+      M:System.Uri.EnsureUriInfo,
+      M:System.Uri.EnsureParseRemaining,
+      M:System.Uri.EnsureHostString(System.Boolean),
+      M:System.Uri.#ctor(System.String),
+      M:System.Uri.#ctor(System.String,System.Boolean),
+      M:System.Uri.#ctor(System.Uri,System.String,System.Boolean),
+      M:System.Uri.#ctor(System.String,System.UriKind),
+      M:System.Uri.#ctor(System.String,System.UriCreationOptions@),
+      M:System.Uri.#ctor(System.Uri,System.String),
+      M:System.Uri.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+      M:System.Uri.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+      M:System.Uri.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+      M:System.Uri.CreateUri(System.Uri,System.String,System.Boolean),
+      M:System.Uri.#ctor(System.Uri,System.Uri),
+      M:System.Uri.GetCombinedString(System.Uri,System.String,System.Boolean,System.String@),
+      M:System.Uri.GetException(System.ParsingError),
+      M:System.Uri.StaticIsFile(System.UriParser),
+      M:System.Uri.GetLocalPath,
+      M:System.Uri.CheckHostName(System.String),
+      M:System.Uri.GetLeftPart(System.UriPartial),
+      M:System.Uri.HexEscape(System.Char),
+      M:System.Uri.HexUnescape(System.String,System.Int32@),
+      M:System.Uri.IsHexEncoding(System.String,System.Int32),
+      M:System.Uri.CheckSchemeName(System.String),
+      M:System.Uri.IsHexDigit(System.Char),
+      M:System.Uri.FromHex(System.Char),
+      M:System.Uri.GetHashCode,
+      M:System.Uri.ToString,
+      M:System.Uri.op_Equality(System.Uri,System.Uri),
+      M:System.Uri.op_Inequality(System.Uri,System.Uri),
+      M:System.Uri.Equals(System.Object),
+      M:System.Uri.MakeRelativeUri(System.Uri),
+      M:System.Uri.CheckForColonInFirstPathSegment(System.String),
+      M:System.Uri.InternalEscapeString(System.String),
+      M:System.Uri.ParseScheme(System.String,System.Uri.Flags@,System.UriParser@),
+      M:System.Uri.ParseMinimal,
+      M:System.Uri.PrivateParseMinimal,
+      M:System.Uri.CreateUriInfo(System.Uri.Flags),
+      M:System.Uri.CreateHostString,
+      M:System.Uri.CreateHostStringHelper(System.String,System.Int32,System.Int32,System.Uri.Flags@,System.String@),
+      M:System.Uri.GetHostViaCustomSyntax,
+      M:System.Uri.GetParts(System.UriComponents,System.UriFormat),
+      M:System.Uri.GetEscapedParts(System.UriComponents),
+      M:System.Uri.GetUnescapedParts(System.UriComponents,System.UriFormat),
+      M:System.Uri.ReCreateParts(System.UriComponents,System.UInt16,System.UriFormat),
+      M:System.Uri.GetUriPartsFromUserString(System.UriComponents),
+      M:System.Uri.GetLengthWithoutTrailingSpaces(System.String,System.Int32@,System.Int32),
+      M:System.Uri.ParseRemaining,
+      M:System.Uri.ParseSchemeCheckImplicitFile(System.Char*,System.Int32,System.ParsingError@,System.Uri.Flags@,System.UriParser@),
+      M:System.Uri.CheckSchemeSyntax(System.ReadOnlySpan{System.Char},System.UriParser@),
+      M:System.Uri.CheckAuthorityHelper(System.Char*,System.Int32,System.Int32,System.ParsingError@,System.Uri.Flags@,System.UriParser,System.String@),
+      M:System.Uri.CheckAuthorityHelperHandleDnsIri(System.Char*,System.Int32,System.Int32,System.Boolean,System.Uri.Flags@,System.Boolean@,System.String@,System.ParsingError@),
+      M:System.Uri.CheckCanonical(System.Char*,System.Int32@,System.Int32,System.Char),
+      M:System.Uri.GetCanonicalPath(System.Text.ValueStringBuilder@,System.UriFormat),
+      M:System.Uri.UnescapeOnly(System.Char*,System.Int32,System.Int32@,System.Char,System.Char,System.Char),
+      M:System.Uri.Compress(System.Char[],System.Int32,System.Int32@,System.UriParser),
+      M:System.Uri.Compress(System.Span{System.Char},System.UriParser),
+      M:System.Uri.CombineUri(System.Uri,System.String,System.UriFormat),
+      M:System.Uri.PathDifference(System.String,System.String,System.Boolean),
+      M:System.Uri.MakeRelative(System.Uri),
+      M:System.Uri.Canonicalize,
+      M:System.Uri.Parse,
+      M:System.Uri.Escape,
+      M:System.Uri.Unescape(System.String),
+      M:System.Uri.EscapeString(System.String),
+      M:System.Uri.CheckSecurity,
+      M:System.Uri.IsReservedCharacter(System.Char),
+      M:System.Uri.IsExcludedCharacter(System.Char),
+      M:System.Uri.IsBadFileSystemCharacter(System.Char),
+      M:System.Uri.CreateThis(System.String,System.Boolean,System.UriKind,System.UriCreationOptions@),
+      M:System.Uri.InitializeUri(System.ParsingError,System.UriKind,System.UriFormatException@),
+      M:System.Uri.CheckForUnicodeOrEscapedUnreserved(System.String),
+      M:System.Uri.TryCreate(System.String,System.UriKind,System.Uri@),
+      M:System.Uri.TryCreate(System.String,System.UriCreationOptions@,System.Uri@),
+      M:System.Uri.TryCreate(System.Uri,System.String,System.Uri@),
+      M:System.Uri.TryCreate(System.Uri,System.Uri,System.Uri@),
+      M:System.Uri.GetComponents(System.UriComponents,System.UriFormat),
+      M:System.Uri.InternalGetComponents(System.UriComponents,System.UriFormat),
+      M:System.Uri.Compare(System.Uri,System.Uri,System.UriComponents,System.UriFormat,System.StringComparison),
+      M:System.Uri.IsWellFormedOriginalString,
+      M:System.Uri.IsWellFormedUriString(System.String,System.UriKind),
+      M:System.Uri.InternalIsWellFormedOriginalString,
+      M:System.Uri.UnescapeDataString(System.String),
+      M:System.Uri.EscapeUriString(System.String),
+      M:System.Uri.EscapeDataString(System.String),
+      M:System.Uri.EscapeUnescapeIri(System.String,System.Int32,System.Int32,System.UriComponents),
+      M:System.Uri.#ctor(System.Uri.Flags,System.UriParser,System.String),
+      M:System.Uri.CreateHelper(System.String,System.Boolean,System.UriKind,System.UriFormatException@,System.UriCreationOptions@),
+      M:System.Uri.ResolveHelper(System.Uri,System.Uri,System.String@,System.Boolean@),
+      M:System.Uri.GetRelativeSerializationString(System.UriFormat),
+      M:System.Uri.GetComponentsHelper(System.UriComponents,System.UriFormat),
+      M:System.Uri.IsBaseOf(System.Uri),
+      M:System.Uri.IsBaseOfHelper(System.Uri),
+      M:System.Uri.CreateThisFromUri(System.Uri),
+      M:System.Uri.#cctor,
+      P:System.Uri.IsImplicitFile,
+      P:System.Uri.IsUncOrDosPath,
+      P:System.Uri.IsDosPath,
+      P:System.Uri.IsUncPath,
+      P:System.Uri.HostType,
+      P:System.Uri.Syntax,
+      P:System.Uri.IsNotAbsoluteUri,
+      P:System.Uri.IriParsing,
+      P:System.Uri.DisablePathAndQueryCanonicalization,
+      P:System.Uri.UserDrivenParsing,
+      P:System.Uri.SecuredPathIndex,
+      P:System.Uri.AbsolutePath,
+      P:System.Uri.PrivateAbsolutePath,
+      P:System.Uri.AbsoluteUri,
+      P:System.Uri.LocalPath,
+      P:System.Uri.Authority,
+      P:System.Uri.HostNameType,
+      P:System.Uri.IsDefaultPort,
+      P:System.Uri.IsFile,
+      P:System.Uri.IsLoopback,
+      P:System.Uri.PathAndQuery,
+      P:System.Uri.Segments,
+      P:System.Uri.IsUnc,
+      P:System.Uri.Host,
+      P:System.Uri.Port,
+      P:System.Uri.Query,
+      P:System.Uri.Fragment,
+      P:System.Uri.Scheme,
+      P:System.Uri.OriginalString,
+      P:System.Uri.DnsSafeHost,
+      P:System.Uri.IdnHost,
+      P:System.Uri.IsAbsoluteUri,
+      P:System.Uri.UserEscaped,
+      P:System.Uri.UserInfo
+    ],
+    Name: Uri,
+    NamespaceId: N:System,
+    NestedTypes: [
+      T:System.Uri.Flags,
+      T:System.Uri.UriInfo,
+      T:System.Uri.Offset,
+      T:System.Uri.MoreInfo,
+      T:System.Uri.Check
+    ],
+    ParentId: N:System
+  },
+  T:System.Uri.Check: {
+    Accessibility: Private,
+    Attributes: [
+      {
+        FullName: System.FlagsAttribute,
+        Id: T:System.FlagsAttribute,
+        Kind: Attribute,
+        Name: FlagsAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      }
+    ],
+    BaseTypes: [
+      T:System.Enum,
+      T:System.ValueType,
+      T:System.Object
+    ],
+    FullName: System.Private.Uri, Version=x.x.x.x, T:System.Uri.Check,
+    Id: T:System.Uri.Check,
+    IsNested: true,
+    Kind: Enum,
+    Members: [
+      F:System.Uri.Check.None,
+      F:System.Uri.Check.EscapedCanonical,
+      F:System.Uri.Check.DisplayCanonical,
+      F:System.Uri.Check.DotSlashAttn,
+      F:System.Uri.Check.DotSlashEscaped,
+      F:System.Uri.Check.BackslashInPath,
+      F:System.Uri.Check.ReservedFound,
+      F:System.Uri.Check.NotIriCanonical,
+      F:System.Uri.Check.FoundNonAscii,
+      M:System.Uri.Check.#ctor
+    ],
+    Name: Check,
+    NamespaceId: T:System.Uri,
+    ParentId: T:System.Uri,
+    UnderlyingType: T:System.Int32
+  },
+  T:System.Uri.Flags: {
+    Accessibility: Internal,
+    Attributes: [
+      {
+        FullName: System.FlagsAttribute,
+        Id: T:System.FlagsAttribute,
+        Kind: Attribute,
+        Name: FlagsAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      }
+    ],
+    BaseTypes: [
+      T:System.Enum,
+      T:System.ValueType,
+      T:System.Object
+    ],
+    FullName: System.Private.Uri, Version=x.x.x.x, T:System.Uri.Flags,
+    Id: T:System.Uri.Flags,
+    IsNested: true,
+    Kind: Enum,
+    Members: [
+      F:System.Uri.Flags.Zero,
+      F:System.Uri.Flags.SchemeNotCanonical,
+      F:System.Uri.Flags.UserNotCanonical,
+      F:System.Uri.Flags.HostNotCanonical,
+      F:System.Uri.Flags.PortNotCanonical,
+      F:System.Uri.Flags.PathNotCanonical,
+      F:System.Uri.Flags.QueryNotCanonical,
+      F:System.Uri.Flags.FragmentNotCanonical,
+      F:System.Uri.Flags.CannotDisplayCanonical,
+      F:System.Uri.Flags.E_UserNotCanonical,
+      F:System.Uri.Flags.E_HostNotCanonical,
+      F:System.Uri.Flags.E_PortNotCanonical,
+      F:System.Uri.Flags.E_PathNotCanonical,
+      F:System.Uri.Flags.E_QueryNotCanonical,
+      F:System.Uri.Flags.E_FragmentNotCanonical,
+      F:System.Uri.Flags.E_CannotDisplayCanonical,
+      F:System.Uri.Flags.ShouldBeCompressed,
+      F:System.Uri.Flags.FirstSlashAbsent,
+      F:System.Uri.Flags.BackslashInPath,
+      F:System.Uri.Flags.IndexMask,
+      F:System.Uri.Flags.HostTypeMask,
+      F:System.Uri.Flags.HostNotParsed,
+      F:System.Uri.Flags.IPv6HostType,
+      F:System.Uri.Flags.IPv4HostType,
+      F:System.Uri.Flags.DnsHostType,
+      F:System.Uri.Flags.UncHostType,
+      F:System.Uri.Flags.BasicHostType,
+      F:System.Uri.Flags.UnusedHostType,
+      F:System.Uri.Flags.UnknownHostType,
+      F:System.Uri.Flags.UserEscaped,
+      F:System.Uri.Flags.AuthorityFound,
+      F:System.Uri.Flags.HasUserInfo,
+      F:System.Uri.Flags.LoopbackHost,
+      F:System.Uri.Flags.NotDefaultPort,
+      F:System.Uri.Flags.UserDrivenParsing,
+      F:System.Uri.Flags.CanonicalDnsHost,
+      F:System.Uri.Flags.ErrorOrParsingRecursion,
+      F:System.Uri.Flags.DosPath,
+      F:System.Uri.Flags.UncPath,
+      F:System.Uri.Flags.ImplicitFile,
+      F:System.Uri.Flags.MinimalUriInfoSet,
+      F:System.Uri.Flags.AllUriInfoSet,
+      F:System.Uri.Flags.IdnHost,
+      F:System.Uri.Flags.HasUnicode,
+      F:System.Uri.Flags.HostUnicodeNormalized,
+      F:System.Uri.Flags.RestUnicodeNormalized,
+      F:System.Uri.Flags.UnicodeHost,
+      F:System.Uri.Flags.IntranetUri,
+      F:System.Uri.Flags.UserIriCanonical,
+      F:System.Uri.Flags.PathIriCanonical,
+      F:System.Uri.Flags.QueryIriCanonical,
+      F:System.Uri.Flags.FragmentIriCanonical,
+      F:System.Uri.Flags.IriCanonical,
+      F:System.Uri.Flags.UnixPath,
+      F:System.Uri.Flags.DisablePathAndQueryCanonicalization,
+      F:System.Uri.Flags.CustomParser_ParseMinimalAlreadyCalled,
+      F:System.Uri.Flags.Debug_LeftConstructor,
+      M:System.Uri.Flags.#ctor
+    ],
+    Name: Flags,
+    NamespaceId: T:System.Uri,
+    ParentId: T:System.Uri,
+    UnderlyingType: T:System.UInt64
+  },
+  T:System.Uri.MoreInfo: {
+    Accessibility: Private,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      }
+    ],
+    BaseTypes: [
+      T:System.Object
+    ],
+    FullName: System.Private.Uri, Version=x.x.x.x, T:System.Uri.MoreInfo,
+    Id: T:System.Uri.MoreInfo,
+    InheritedMembers: [
+      M:System.Object.GetType,
+      M:System.Object.MemberwiseClone,
+      M:System.Object.Finalize,
+      M:System.Object.ToString,
+      M:System.Object.Equals(System.Object),
+      M:System.Object.Equals(System.Object,System.Object),
+      M:System.Object.ReferenceEquals(System.Object,System.Object),
+      M:System.Object.GetHashCode
+    ],
+    IsNested: true,
+    IsRecord: false,
+    Kind: Class,
+    Members: [
+      F:System.Uri.MoreInfo.Path,
+      F:System.Uri.MoreInfo.Query,
+      F:System.Uri.MoreInfo.Fragment,
+      F:System.Uri.MoreInfo.AbsoluteUri,
+      F:System.Uri.MoreInfo.RemoteUrl,
+      M:System.Uri.MoreInfo.#ctor
+    ],
+    Modifiers: [
+      Sealed
+    ],
+    Name: MoreInfo,
+    NamespaceId: T:System.Uri,
+    ParentId: T:System.Uri
+  },
+  T:System.Uri.Offset: {
+    Accessibility: Private,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.StructLayoutAttribute,
+        Id: T:System.Runtime.InteropServices.StructLayoutAttribute,
+        Kind: Attribute,
+        Name: StructLayoutAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      }
+    ],
+    BaseTypes: [
+      T:System.ValueType,
+      T:System.Object
+    ],
+    FullName: System.Private.Uri, Version=x.x.x.x, T:System.Uri.Offset,
+    Id: T:System.Uri.Offset,
+    InheritedMembers: [
+      M:System.ValueType.Equals(System.Object),
+      M:System.ValueType.CanCompareBits(System.Object),
+      M:System.ValueType.FastEqualsCheck(System.Object,System.Object),
+      M:System.ValueType.GetHashCode,
+      M:System.ValueType.GetHashCodeOfPtr(System.IntPtr),
+      M:System.ValueType.ToString,
+      M:System.Object.GetType,
+      M:System.Object.MemberwiseClone,
+      M:System.Object.Finalize,
+      M:System.Object.ToString,
+      M:System.Object.Equals(System.Object),
+      M:System.Object.Equals(System.Object,System.Object),
+      M:System.Object.ReferenceEquals(System.Object,System.Object),
+      M:System.Object.GetHashCode
+    ],
+    IsNested: true,
+    IsRecord: false,
+    Kind: Struct,
+    Members: [
+      F:System.Uri.Offset.Scheme,
+      F:System.Uri.Offset.User,
+      F:System.Uri.Offset.Host,
+      F:System.Uri.Offset.PortValue,
+      F:System.Uri.Offset.Path,
+      F:System.Uri.Offset.Query,
+      F:System.Uri.Offset.Fragment,
+      F:System.Uri.Offset.End,
+      M:System.Uri.Offset.#ctor
+    ],
+    Name: Offset,
+    NamespaceId: T:System.Uri,
+    ParentId: T:System.Uri
+  },
+  T:System.Uri.UriInfo: {
+    Accessibility: Private,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      }
+    ],
+    BaseTypes: [
+      T:System.Object
+    ],
+    FullName: System.Private.Uri, Version=x.x.x.x, T:System.Uri.UriInfo,
+    Id: T:System.Uri.UriInfo,
+    InheritedMembers: [
+      M:System.Object.GetType,
+      M:System.Object.MemberwiseClone,
+      M:System.Object.Finalize,
+      M:System.Object.ToString,
+      M:System.Object.Equals(System.Object),
+      M:System.Object.Equals(System.Object,System.Object),
+      M:System.Object.ReferenceEquals(System.Object,System.Object),
+      M:System.Object.GetHashCode
+    ],
+    IsNested: true,
+    IsRecord: false,
+    Kind: Class,
+    Members: [
+      F:System.Uri.UriInfo.Offset,
+      F:System.Uri.UriInfo.String,
+      F:System.Uri.UriInfo.Host,
+      F:System.Uri.UriInfo.IdnHost,
+      F:System.Uri.UriInfo.PathAndQuery,
+      F:System.Uri.UriInfo.ScopeId,
+      F:System.Uri.UriInfo._moreInfo,
+      M:System.Uri.UriInfo.#ctor,
+      P:System.Uri.UriInfo.MoreInfo
+    ],
+    Modifiers: [
+      Sealed
+    ],
+    Name: UriInfo,
+    NamespaceId: T:System.Uri,
+    ParentId: T:System.Uri
+  }
+}

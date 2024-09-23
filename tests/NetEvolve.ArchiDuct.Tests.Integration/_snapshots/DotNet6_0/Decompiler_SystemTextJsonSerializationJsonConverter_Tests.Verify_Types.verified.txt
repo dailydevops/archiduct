@@ -1,0 +1,87 @@
+﻿{
+  T:System.Text.Json.Serialization.JsonConverter: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      }
+    ],
+    BaseTypes: [
+      T:System.Object
+    ],
+    FullName: System.Text.Json, Version=x.x.x.x, T:System.Text.Json.Serialization.JsonConverter,
+    Id: T:System.Text.Json.Serialization.JsonConverter,
+    InheritedMembers: [
+      M:System.Object.GetType,
+      M:System.Object.MemberwiseClone,
+      M:System.Object.Finalize,
+      M:System.Object.ToString,
+      M:System.Object.Equals(System.Object),
+      M:System.Object.Equals(System.Object,System.Object),
+      M:System.Object.ReferenceEquals(System.Object,System.Object),
+      M:System.Object.GetHashCode
+    ],
+    IsNested: false,
+    IsRecord: false,
+    Kind: Class,
+    Members: [
+      F:System.Text.Json.Serialization.JsonConverter.IsInternalConverterForNumberType,
+      M:System.Text.Json.Serialization.JsonConverter.#ctor,
+      M:System.Text.Json.Serialization.JsonConverter.CanConvert(System.Type),
+      M:System.Text.Json.Serialization.JsonConverter.CreateObject(System.Text.Json.JsonSerializerOptions),
+      M:System.Text.Json.Serialization.JsonConverter.ReadElementAndSetProperty(System.Object,System.String,System.Text.Json.Utf8JsonReader@,System.Text.Json.JsonSerializerOptions,System.Text.Json.ReadStack@),
+      M:System.Text.Json.Serialization.JsonConverter.CreateJsonPropertyInfo,
+      M:System.Text.Json.Serialization.JsonConverter.CreateJsonParameterInfo,
+      M:System.Text.Json.Serialization.JsonConverter.ReadCoreAsObject(System.Text.Json.Utf8JsonReader@,System.Text.Json.JsonSerializerOptions,System.Text.Json.ReadStack@),
+      M:System.Text.Json.Serialization.JsonConverter.ShouldFlush(System.Text.Json.Utf8JsonWriter,System.Text.Json.WriteStack@),
+      M:System.Text.Json.Serialization.JsonConverter.TryReadAsObject(System.Text.Json.Utf8JsonReader@,System.Text.Json.JsonSerializerOptions,System.Text.Json.ReadStack@,System.Object@),
+      M:System.Text.Json.Serialization.JsonConverter.TryWriteAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Text.Json.WriteStack@),
+      M:System.Text.Json.Serialization.JsonConverter.WriteCoreAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Text.Json.WriteStack@),
+      M:System.Text.Json.Serialization.JsonConverter.WriteAsPropertyNameCoreAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Boolean),
+      M:System.Text.Json.Serialization.JsonConverter.Initialize(System.Text.Json.JsonSerializerOptions,System.Text.Json.Serialization.Metadata.JsonTypeInfo),
+      M:System.Text.Json.Serialization.JsonConverter.CreateInstanceForReferenceResolver(System.Text.Json.Utf8JsonReader@,System.Text.Json.ReadStack@,System.Text.Json.JsonSerializerOptions),
+      M:System.Text.Json.Serialization.JsonConverter.SingleValueReadWithReadAhead(System.Text.Json.ConverterStrategy,System.Text.Json.Utf8JsonReader@,System.Text.Json.ReadStack@),
+      M:System.Text.Json.Serialization.JsonConverter.DoSingleValueReadWithReadAhead(System.Text.Json.Utf8JsonReader@,System.Text.Json.ReadStack@),
+      P:System.Text.Json.Serialization.JsonConverter.ConverterStrategy,
+      P:System.Text.Json.Serialization.JsonConverter.CanUseDirectReadOrWrite,
+      P:System.Text.Json.Serialization.JsonConverter.CanHaveIdMetadata,
+      P:System.Text.Json.Serialization.JsonConverter.CanBePolymorphic,
+      P:System.Text.Json.Serialization.JsonConverter.ElementType,
+      P:System.Text.Json.Serialization.JsonConverter.KeyType,
+      P:System.Text.Json.Serialization.JsonConverter.IsValueType,
+      P:System.Text.Json.Serialization.JsonConverter.IsInternalConverter,
+      P:System.Text.Json.Serialization.JsonConverter.RuntimeType,
+      P:System.Text.Json.Serialization.JsonConverter.TypeToConvert,
+      P:System.Text.Json.Serialization.JsonConverter.ConstructorIsParameterized,
+      P:System.Text.Json.Serialization.JsonConverter.ConstructorInfo,
+      P:System.Text.Json.Serialization.JsonConverter.RequiresDynamicMemberAccessors
+    ],
+    Modifiers: [
+      Abstract
+    ],
+    Name: JsonConverter,
+    NamespaceId: N:System.Text.Json.Serialization,
+    ParentId: N:System.Text.Json.Serialization
+  }
+}

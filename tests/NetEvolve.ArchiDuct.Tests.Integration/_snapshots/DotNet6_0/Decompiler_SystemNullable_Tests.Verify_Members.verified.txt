@@ -1,0 +1,129 @@
+﻿{
+  M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}): {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}),
+    Id: M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}),
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Static
+    ],
+    Name: Compare,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}).n1,
+        Id: M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}).n1,
+        Kind: Parameter,
+        Name: n1,
+        ParentId: M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}),
+        Type: {
+          Id: T:System.Nullable`1[[``0]],
+          IsNullable: false
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}).n2,
+        Id: M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}).n2,
+        Kind: Parameter,
+        Name: n2,
+        ParentId: M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}),
+        Type: {
+          Id: T:System.Nullable`1[[``0]],
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Nullable,
+    ReturnType: {
+      Id: T:System.Int32,
+      IsNullable: false
+    },
+    TypeParameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}).T,
+        Id: G:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}).T,
+        Kind: TypeParameter,
+        Name: T,
+        ParentId: M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0})
+      }
+    ]
+  },
+  M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}): {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}),
+    Id: M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}),
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Static
+    ],
+    Name: Equals,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}).n1,
+        Id: M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}).n1,
+        Kind: Parameter,
+        Name: n1,
+        ParentId: M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}),
+        Type: {
+          Id: T:System.Nullable`1[[``0]],
+          IsNullable: false
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}).n2,
+        Id: M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}).n2,
+        Kind: Parameter,
+        Name: n2,
+        ParentId: M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}),
+        Type: {
+          Id: T:System.Nullable`1[[``0]],
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Nullable,
+    ReturnType: {
+      Id: T:System.Boolean,
+      IsNullable: false
+    },
+    TypeParameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}).T,
+        Id: G:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}).T,
+        Kind: TypeParameter,
+        Name: T,
+        ParentId: M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0})
+      }
+    ]
+  },
+  M:System.Nullable.GetUnderlyingType(System.Type): {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.GetUnderlyingType(System.Type),
+    Id: M:System.Nullable.GetUnderlyingType(System.Type),
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Static
+    ],
+    Name: GetUnderlyingType,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.GetUnderlyingType(System.Type).nullableType,
+        Id: M:System.Nullable.GetUnderlyingType(System.Type).nullableType,
+        Kind: Parameter,
+        Name: nullableType,
+        ParentId: M:System.Nullable.GetUnderlyingType(System.Type),
+        Type: {
+          Id: T:System.Type,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Nullable,
+    ReturnType: {
+      Id: T:System.Type,
+      IsNullable: true
+    }
+  }
+}

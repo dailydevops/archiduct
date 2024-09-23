@@ -1,0 +1,47 @@
+﻿{
+  T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Reflection.DefaultMemberAttribute,
+        Id: T:System.Reflection.DefaultMemberAttribute,
+        Kind: Attribute,
+        Name: DefaultMemberAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      }
+    ],
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface,
+    Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface,
+    IsNested: false,
+    Kind: Interface,
+    Members: [
+      P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32)
+    ],
+    Name: IIndexInterface,
+    NamespaceId: N:NetEvolve.ArchiDuct.Tests.Integration.Internals,
+    ParentId: N:NetEvolve.ArchiDuct.Tests.Integration.Internals
+  }
+}

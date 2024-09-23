@@ -1,0 +1,53 @@
+﻿{
+  P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32): {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32),
+    Getter: {
+      Accessibility: Public,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.get_Item(System.Int32),
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.get_Item(System.Int32),
+      IsLocal: false,
+      Kind: Method,
+      Name: get_Item,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface,
+      ReturnType: {
+        Id: T:System.Int32,
+        IsNullable: false
+      }
+    },
+    Id: P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32),
+    Kind: Indexer,
+    Name: Item,
+    Parameters: [
+      {
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32).index,
+        Id: P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32).index,
+        Kind: Parameter,
+        Name: index,
+        ParentId: P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32),
+        Type: {
+          Id: T:System.Int32,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface,
+    ReturnType: {
+      Id: T:System.Int32,
+      IsNullable: false
+    },
+    Setter: {
+      Accessibility: Public,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.set_Item(System.Int32,System.Int32),
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.set_Item(System.Int32,System.Int32),
+      IsLocal: false,
+      Kind: Method,
+      Name: set_Item,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface,
+      ReturnType: {
+        Id: T:System.Void,
+        IsNullable: false
+      }
+    }
+  }
+}

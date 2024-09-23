@@ -1,0 +1,144 @@
+﻿{
+  T:System.AttributeUsageAttribute: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.AttributeUsageAttribute,
+        Id: T:System.AttributeUsageAttribute,
+        Kind: Attribute,
+        Name: AttributeUsageAttribute
+      },
+      {
+        FullName: System.AttributeUsageAttribute,
+        Id: T:System.AttributeUsageAttribute,
+        Kind: Attribute,
+        Name: AttributeUsageAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      }
+    ],
+    BaseTypes: [
+      T:System.Attribute,
+      T:System.Object
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.AttributeUsageAttribute,
+    Id: T:System.AttributeUsageAttribute,
+    InheritedMembers: [
+      M:System.Attribute.InternalGetCustomAttributes(System.Reflection.PropertyInfo,System.Type,System.Boolean),
+      M:System.Attribute.InternalIsDefined(System.Reflection.PropertyInfo,System.Type,System.Boolean),
+      M:System.Attribute.GetParentDefinition(System.Reflection.PropertyInfo,System.Type[]),
+      M:System.Attribute.InternalGetCustomAttributes(System.Reflection.EventInfo,System.Type,System.Boolean),
+      M:System.Attribute.GetParentDefinition(System.Reflection.EventInfo),
+      M:System.Attribute.InternalIsDefined(System.Reflection.EventInfo,System.Type,System.Boolean),
+      M:System.Attribute.GetParentDefinition(System.Reflection.ParameterInfo),
+      M:System.Attribute.InternalParamGetCustomAttributes(System.Reflection.ParameterInfo,System.Type,System.Boolean),
+      M:System.Attribute.InternalParamIsDefined(System.Reflection.ParameterInfo,System.Type,System.Boolean),
+      M:System.Attribute.CopyToAttributeList(System.Collections.Generic.List{System.Attribute},System.Attribute[],System.Collections.Generic.Dictionary{System.Type,System.AttributeUsageAttribute}),
+      M:System.Attribute.GetIndexParameterTypes(System.Reflection.PropertyInfo),
+      M:System.Attribute.AddAttributesToList(System.Collections.Generic.List{System.Attribute},System.Attribute[],System.Collections.Generic.Dictionary{System.Type,System.AttributeUsageAttribute}),
+      M:System.Attribute.InternalGetAttributeUsage(System.Type),
+      M:System.Attribute.CreateAttributeArrayHelper(System.Type,System.Int32),
+      M:System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type),
+      M:System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type,System.Boolean),
+      M:System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo),
+      M:System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Boolean),
+      M:System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type),
+      M:System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type,System.Boolean),
+      M:System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type),
+      M:System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type,System.Boolean),
+      M:System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo),
+      M:System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type),
+      M:System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type,System.Boolean),
+      M:System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Boolean),
+      M:System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type),
+      M:System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type,System.Boolean),
+      M:System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type),
+      M:System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type,System.Boolean),
+      M:System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type),
+      M:System.Attribute.GetCustomAttributes(System.Reflection.Module),
+      M:System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Boolean),
+      M:System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type,System.Boolean),
+      M:System.Attribute.IsDefined(System.Reflection.Module,System.Type),
+      M:System.Attribute.IsDefined(System.Reflection.Module,System.Type,System.Boolean),
+      M:System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type),
+      M:System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type,System.Boolean),
+      M:System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type),
+      M:System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type,System.Boolean),
+      M:System.Attribute.GetCustomAttributes(System.Reflection.Assembly),
+      M:System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Boolean),
+      M:System.Attribute.IsDefined(System.Reflection.Assembly,System.Type),
+      M:System.Attribute.IsDefined(System.Reflection.Assembly,System.Type,System.Boolean),
+      M:System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type),
+      M:System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type,System.Boolean),
+      M:System.Attribute.Equals(System.Object),
+      M:System.Attribute.GetHashCode,
+      M:System.Attribute.AreFieldValuesEqual(System.Object,System.Object),
+      M:System.Attribute.Match(System.Object),
+      M:System.Attribute.IsDefaultAttribute,
+      P:System.Attribute.TypeId,
+      M:System.Object.GetType,
+      M:System.Object.MemberwiseClone,
+      M:System.Object.Finalize,
+      M:System.Object.ToString,
+      M:System.Object.Equals(System.Object),
+      M:System.Object.Equals(System.Object,System.Object),
+      M:System.Object.ReferenceEquals(System.Object,System.Object),
+      M:System.Object.GetHashCode
+    ],
+    IsNested: false,
+    IsRecord: false,
+    Kind: Class,
+    Members: [
+      F:System.AttributeUsageAttribute._attributeTarget,
+      F:System.AttributeUsageAttribute._allowMultiple,
+      F:System.AttributeUsageAttribute._inherited,
+      F:System.AttributeUsageAttribute.Default,
+      M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets),
+      M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets,System.Boolean,System.Boolean),
+      M:System.AttributeUsageAttribute.#cctor,
+      P:System.AttributeUsageAttribute.ValidOn,
+      P:System.AttributeUsageAttribute.AllowMultiple,
+      P:System.AttributeUsageAttribute.Inherited
+    ],
+    Modifiers: [
+      Sealed
+    ],
+    Name: AttributeUsageAttribute,
+    NamespaceId: N:System,
+    ParentId: N:System
+  }
+}

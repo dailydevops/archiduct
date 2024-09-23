@@ -1,0 +1,554 @@
+﻿{
+  F:System.ArgumentException._paramName: {
+    Accessibility: Private,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.ArgumentException._paramName,
+    Id: F:System.ArgumentException._paramName,
+    Kind: Field,
+    Modifiers: [
+      ReadOnly
+    ],
+    Name: _paramName,
+    ParentId: T:System.ArgumentException,
+    ReturnType: {
+      Id: T:System.String,
+      IsNullable: false
+    }
+  },
+  M:System.ArgumentException.#ctor: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor,
+    Id: M:System.ArgumentException.#ctor,
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.ArgumentException.#ctor(System.String),
+      M:System.ArgumentException.#ctor(System.String,System.Exception),
+      M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+      M:System.ArgumentException.#ctor(System.String,System.String),
+      M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    ],
+    ParentId: T:System.ArgumentException
+  },
+  M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
+    Accessibility: Protected,
+    Attributes: [
+      {
+        FullName: System.ComponentModel.EditorBrowsableAttribute,
+        Id: T:System.ComponentModel.EditorBrowsableAttribute,
+        Kind: Attribute,
+        Name: EditorBrowsableAttribute
+      },
+      {
+        FullName: System.ObsoleteAttribute,
+        Id: T:System.ObsoleteAttribute,
+        Kind: Attribute,
+        Name: ObsoleteAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+    Id: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.ArgumentException.#ctor,
+      M:System.ArgumentException.#ctor(System.String),
+      M:System.ArgumentException.#ctor(System.String,System.Exception),
+      M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+      M:System.ArgumentException.#ctor(System.String,System.String)
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
+        Id: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
+        Kind: Parameter,
+        Name: info,
+        ParentId: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+        Type: {
+          Id: T:System.Runtime.Serialization.SerializationInfo,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
+        Id: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
+        Kind: Parameter,
+        Name: context,
+        ParentId: M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+        Type: {
+          Id: T:System.Runtime.Serialization.StreamingContext,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.ArgumentException
+  },
+  M:System.ArgumentException.#ctor(System.String,System.Exception): {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.Exception),
+    Id: M:System.ArgumentException.#ctor(System.String,System.Exception),
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.ArgumentException.#ctor,
+      M:System.ArgumentException.#ctor(System.String),
+      M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+      M:System.ArgumentException.#ctor(System.String,System.String),
+      M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.Exception).message,
+        Id: M:System.ArgumentException.#ctor(System.String,System.Exception).message,
+        Kind: Parameter,
+        Name: message,
+        ParentId: M:System.ArgumentException.#ctor(System.String,System.Exception),
+        Type: {
+          Id: T:System.String,
+          IsNullable: true
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.Exception).innerException,
+        Id: M:System.ArgumentException.#ctor(System.String,System.Exception).innerException,
+        Kind: Parameter,
+        Name: innerException,
+        ParentId: M:System.ArgumentException.#ctor(System.String,System.Exception),
+        Type: {
+          Id: T:System.Exception,
+          IsNullable: true
+        }
+      }
+    ],
+    ParentId: T:System.ArgumentException
+  },
+  M:System.ArgumentException.#ctor(System.String,System.String,System.Exception): {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+    Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.ArgumentException.#ctor,
+      M:System.ArgumentException.#ctor(System.String),
+      M:System.ArgumentException.#ctor(System.String,System.Exception),
+      M:System.ArgumentException.#ctor(System.String,System.String),
+      M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).message,
+        Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).message,
+        Kind: Parameter,
+        Name: message,
+        ParentId: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+        Type: {
+          Id: T:System.String,
+          IsNullable: true
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).paramName,
+        Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).paramName,
+        Kind: Parameter,
+        Name: paramName,
+        ParentId: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+        Type: {
+          Id: T:System.String,
+          IsNullable: true
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).innerException,
+        Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception).innerException,
+        Kind: Parameter,
+        Name: innerException,
+        ParentId: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+        Type: {
+          Id: T:System.Exception,
+          IsNullable: true
+        }
+      }
+    ],
+    ParentId: T:System.ArgumentException
+  },
+  M:System.ArgumentException.#ctor(System.String,System.String): {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String),
+    Id: M:System.ArgumentException.#ctor(System.String,System.String),
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.ArgumentException.#ctor,
+      M:System.ArgumentException.#ctor(System.String),
+      M:System.ArgumentException.#ctor(System.String,System.Exception),
+      M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+      M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String).message,
+        Id: M:System.ArgumentException.#ctor(System.String,System.String).message,
+        Kind: Parameter,
+        Name: message,
+        ParentId: M:System.ArgumentException.#ctor(System.String,System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: true
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String).paramName,
+        Id: M:System.ArgumentException.#ctor(System.String,System.String).paramName,
+        Kind: Parameter,
+        Name: paramName,
+        ParentId: M:System.ArgumentException.#ctor(System.String,System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: true
+        }
+      }
+    ],
+    ParentId: T:System.ArgumentException
+  },
+  M:System.ArgumentException.#ctor(System.String): {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String),
+    Id: M:System.ArgumentException.#ctor(System.String),
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.ArgumentException.#ctor,
+      M:System.ArgumentException.#ctor(System.String,System.Exception),
+      M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+      M:System.ArgumentException.#ctor(System.String,System.String),
+      M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String).message,
+        Id: M:System.ArgumentException.#ctor(System.String).message,
+        Kind: Parameter,
+        Name: message,
+        ParentId: M:System.ArgumentException.#ctor(System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: true
+        }
+      }
+    ],
+    ParentId: T:System.ArgumentException
+  },
+  M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.ComponentModel.EditorBrowsableAttribute,
+        Id: T:System.ComponentModel.EditorBrowsableAttribute,
+        Kind: Attribute,
+        Name: EditorBrowsableAttribute
+      },
+      {
+        FullName: System.ComponentModel.EditorBrowsableAttribute,
+        Id: T:System.ComponentModel.EditorBrowsableAttribute,
+        Kind: Attribute,
+        Name: EditorBrowsableAttribute
+      },
+      {
+        FullName: System.ObsoleteAttribute,
+        Id: T:System.ObsoleteAttribute,
+        Kind: Attribute,
+        Name: ObsoleteAttribute
+      },
+      {
+        FullName: System.ObsoleteAttribute,
+        Id: T:System.ObsoleteAttribute,
+        Kind: Attribute,
+        Name: ObsoleteAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+    Id: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Override
+    ],
+    Name: GetObjectData,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
+        Id: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).info,
+        Kind: Parameter,
+        Name: info,
+        ParentId: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+        Type: {
+          Id: T:System.Runtime.Serialization.SerializationInfo,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
+        Id: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).context,
+        Kind: Parameter,
+        Name: context,
+        ParentId: M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+        Type: {
+          Id: T:System.Runtime.Serialization.StreamingContext,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.ArgumentException,
+    ReturnType: {
+      Id: T:System.Void,
+      IsNullable: false
+    }
+  },
+  M:System.ArgumentException.SetMessageField: {
+    Accessibility: Private,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.SetMessageField,
+    Id: M:System.ArgumentException.SetMessageField,
+    IsLocal: false,
+    Kind: Method,
+    Name: SetMessageField,
+    ParentId: T:System.ArgumentException,
+    ReturnType: {
+      Id: T:System.Void,
+      IsNullable: false
+    }
+  },
+  M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String): {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String),
+    Id: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String),
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Static
+    ],
+    Name: ThrowIfNullOrEmpty,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String).argument,
+        Id: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String).argument,
+        Kind: Parameter,
+        Name: argument,
+        ParentId: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: true
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String).paramName,
+        Id: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String).paramName,
+        Kind: Parameter,
+        Name: paramName,
+        OptionalValue: <null>,
+        ParentId: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: true
+        }
+      }
+    ],
+    ParentId: T:System.ArgumentException,
+    ReturnType: {
+      Id: T:System.Void,
+      IsNullable: false
+    }
+  },
+  M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String): {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String),
+    Id: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String),
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Static
+    ],
+    Name: ThrowIfNullOrWhiteSpace,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String).argument,
+        Id: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String).argument,
+        Kind: Parameter,
+        Name: argument,
+        ParentId: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: true
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String).paramName,
+        Id: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String).paramName,
+        Kind: Parameter,
+        Name: paramName,
+        OptionalValue: <null>,
+        ParentId: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: true
+        }
+      }
+    ],
+    ParentId: T:System.ArgumentException,
+    ReturnType: {
+      Id: T:System.Void,
+      IsNullable: false
+    }
+  },
+  M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String): {
+    Accessibility: Private,
+    Attributes: [
+      {
+        FullName: System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute,
+        Id: T:System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute,
+        Kind: Attribute,
+        Name: DoesNotReturnAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String),
+    Id: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String),
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Static
+    ],
+    Name: ThrowNullOrEmptyException,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String).argument,
+        Id: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String).argument,
+        Kind: Parameter,
+        Name: argument,
+        ParentId: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String).paramName,
+        Id: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String).paramName,
+        Kind: Parameter,
+        Name: paramName,
+        ParentId: M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.ArgumentException,
+    ReturnType: {
+      Id: T:System.Void,
+      IsNullable: false
+    }
+  },
+  M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String): {
+    Accessibility: Private,
+    Attributes: [
+      {
+        FullName: System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute,
+        Id: T:System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute,
+        Kind: Attribute,
+        Name: DoesNotReturnAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String),
+    Id: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String),
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Static
+    ],
+    Name: ThrowNullOrWhiteSpaceException,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String).argument,
+        Id: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String).argument,
+        Kind: Parameter,
+        Name: argument,
+        ParentId: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String).paramName,
+        Id: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String).paramName,
+        Kind: Parameter,
+        Name: paramName,
+        ParentId: M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.ArgumentException,
+    ReturnType: {
+      Id: T:System.Void,
+      IsNullable: false
+    }
+  },
+  P:System.ArgumentException.Message: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.ArgumentException.Message,
+    Getter: {
+      Accessibility: Public,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.get_Message,
+      Id: M:System.ArgumentException.get_Message,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_Message,
+      ParentId: T:System.ArgumentException,
+      ReturnType: {
+        Id: T:System.String,
+        IsNullable: false
+      }
+    },
+    Id: P:System.ArgumentException.Message,
+    Kind: Property,
+    Modifiers: [
+      Override
+    ],
+    Name: Message,
+    ParentId: T:System.ArgumentException,
+    ReturnType: {
+      Id: T:System.String,
+      IsNullable: false
+    }
+  },
+  P:System.ArgumentException.ParamName: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.ArgumentException.ParamName,
+    Getter: {
+      Accessibility: Public,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.get_ParamName,
+      Id: M:System.ArgumentException.get_ParamName,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_ParamName,
+      ParentId: T:System.ArgumentException,
+      ReturnType: {
+        Id: T:System.String,
+        IsNullable: true
+      }
+    },
+    Id: P:System.ArgumentException.ParamName,
+    Kind: Property,
+    Modifiers: [
+      Virtual
+    ],
+    Name: ParamName,
+    ParentId: T:System.ArgumentException,
+    ReturnType: {
+      Id: T:System.String,
+      IsNullable: true
+    }
+  }
+}

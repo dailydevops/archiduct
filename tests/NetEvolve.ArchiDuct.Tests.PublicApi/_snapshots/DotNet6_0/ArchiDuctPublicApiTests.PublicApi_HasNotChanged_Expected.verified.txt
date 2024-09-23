@@ -1,0 +1,298 @@
+﻿namespace NetEvolve.ArchiDuct.Abstractions
+{
+    public interface IArchitecture
+    {
+        System.Collections.Generic.Dictionary<string, NetEvolve.ArchiDuct.Models.ModelAssembly> Assemblies { get; }
+        System.Collections.Generic.Dictionary<string, NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberBase> Members { get; }
+        System.Collections.Generic.Dictionary<string, NetEvolve.ArchiDuct.Models.ModelNamespace> Namespaces { get; }
+        System.Collections.Generic.Dictionary<string, NetEvolve.ArchiDuct.Models.Abstractions.ModelTypeBase> Types { get; }
+    }
+    public interface IArchitectureCollector
+    {
+        NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector AddAssembly([System.Diagnostics.CodeAnalysis.NotNull] System.Reflection.Assembly assembly, bool includeReferences = false);
+        NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector AddAssembly([System.Diagnostics.CodeAnalysis.NotNull] System.Type type, bool includeReferences = false);
+        NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector AddAssembly<T>(bool includeReferences = false)
+            where T :  notnull;
+        NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector AddDirectory([System.Diagnostics.CodeAnalysis.NotNull] string directoryPath, bool includeSubDirectories = false, bool includeReferences = false);
+        NetEvolve.ArchiDuct.Abstractions.IArchitecture Collect();
+        System.Threading.Tasks.ValueTask<NetEvolve.ArchiDuct.Abstractions.IArchitecture> CollectAsync(System.Threading.CancellationToken cancellationToken = default);
+        NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector FilterNamespace(NetEvolve.FluentValue.IConstraint constraint);
+        NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector FilterType(System.Type type);
+        NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector FilterType<T>()
+            where T :  notnull;
+    }
+}
+namespace NetEvolve.ArchiDuct
+{
+    public sealed class ArchitectureCollector : NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector
+    {
+        public NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector AddAssembly([System.Diagnostics.CodeAnalysis.NotNull] System.Reflection.Assembly assembly, bool includeReferences = false) { }
+        public NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector AddDirectory([System.Diagnostics.CodeAnalysis.NotNull] string directoryPath, bool includeSubDirectories = false, bool includeReferences = false) { }
+        public NetEvolve.ArchiDuct.Abstractions.IArchitecture Collect() { }
+        public System.Threading.Tasks.ValueTask<NetEvolve.ArchiDuct.Abstractions.IArchitecture> CollectAsync(System.Threading.CancellationToken cancellationToken = default) { }
+        public NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector FilterNamespace(NetEvolve.FluentValue.IConstraint constraint) { }
+        public NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector FilterType(System.Type type) { }
+        public static NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector Create() { }
+    }
+}
+namespace NetEvolve.ArchiDuct.Models.Abstractions
+{
+    public abstract class ModelBase
+    {
+        public NetEvolve.ArchiDuct.Models.Documentation.ModelDocumentation? Documentation { get; }
+        public string FullName { get; }
+        public string Id { get; }
+        public abstract NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+        public string Name { get; }
+    }
+    public abstract class ModelEntityBase : NetEvolve.ArchiDuct.Models.Abstractions.ModelBase
+    {
+        public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.ModelAttribute> Attributes { get; }
+        public string ParentId { get; }
+    }
+    public abstract class ModelMemberAdvancedBase : NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberBase
+    {
+        public System.Collections.Generic.HashSet<string>? OverloadedMembers { get; }
+        public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.Members.ModelParameter>? Parameters { get; }
+        public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.Members.ModelTypeParameter>? TypeParameters { get; }
+    }
+    public abstract class ModelMemberBase : NetEvolve.ArchiDuct.Models.Abstractions.ModelEntityBase
+    {
+        public NetEvolve.ArchiDuct.Models.ModelAccessibility Accessibility { get; }
+        public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.ModelModifier> Modifiers { get; }
+        public NetEvolve.ArchiDuct.Models.ModelReturn? ReturnType { get; }
+    }
+    public abstract class ModelTypeBase : NetEvolve.ArchiDuct.Models.Abstractions.ModelEntityBase
+    {
+        public NetEvolve.ArchiDuct.Models.ModelAccessibility Accessibility { get; }
+        public System.Collections.Generic.HashSet<string> BaseTypes { get; }
+        public System.Collections.Generic.HashSet<string> DerivedTypes { get; }
+        public System.Collections.Generic.HashSet<string> Implementations { get; }
+        public System.Collections.Generic.HashSet<string> InheritedMembers { get; }
+        public bool IsNested { get; }
+        public System.Collections.Generic.HashSet<string> Members { get; }
+        public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.ModelModifier> Modifiers { get; }
+        public string NamespaceId { get; set; }
+        public System.Collections.Generic.HashSet<string> NestedTypes { get; }
+        public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.Members.ModelTypeParameter> TypeParameters { get; }
+    }
+}
+namespace NetEvolve.ArchiDuct.Models.Documentation
+{
+    public sealed class ModelDocumentation
+    {
+        public string? Remarks { get; }
+        public string? Returns { get; }
+        public string? Summary { get; }
+    }
+}
+namespace NetEvolve.ArchiDuct.Models.Members
+{
+    public sealed class ModelConstructor : NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberAdvancedBase
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+    public sealed class ModelDeconstructor : NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberAdvancedBase
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+    public sealed class ModelDestructor : NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberBase
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+    public sealed class ModelEnumMember : NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberBase
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+        public string? Value { get; }
+    }
+    public class ModelEvent : NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberBase
+    {
+        public NetEvolve.ArchiDuct.Models.Members.ModelMethod? AddAccessor { get; }
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+        public NetEvolve.ArchiDuct.Models.Members.ModelMethod? RemoveAccessor { get; }
+        public NetEvolve.ArchiDuct.Models.ModelReturn Type { get; }
+    }
+    public sealed class ModelExplicitEvent : NetEvolve.ArchiDuct.Models.Members.ModelEvent
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+    public sealed class ModelExplicitMethod : NetEvolve.ArchiDuct.Models.Members.ModelMethod
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+    public sealed class ModelExplicitProperty : NetEvolve.ArchiDuct.Models.Members.ModelProperty
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+    public sealed class ModelExtensionMethod : NetEvolve.ArchiDuct.Models.Members.ModelMethod
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+    public sealed class ModelField : NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberBase
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+    public sealed class ModelIndexer : NetEvolve.ArchiDuct.Models.Members.ModelProperty
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+        public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.Members.ModelParameter> Parameters { get; }
+    }
+    public class ModelMethod : NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberAdvancedBase
+    {
+        public bool IsLocal { get; }
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+    public sealed class ModelOperator : NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberAdvancedBase
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+    public sealed class ModelParameter : NetEvolve.ArchiDuct.Models.Abstractions.ModelEntityBase
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+        public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.ModelModifier> Modifiers { get; }
+        public string? OptionalValue { get; }
+        public NetEvolve.ArchiDuct.Models.ModelReturn? Type { get; }
+    }
+    public class ModelProperty : NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberBase
+    {
+        public NetEvolve.ArchiDuct.Models.Members.ModelMethod? Getter { get; }
+        public NetEvolve.ArchiDuct.Models.Members.ModelMethod? InitOnly { get; }
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+        public NetEvolve.ArchiDuct.Models.Members.ModelMethod? Setter { get; }
+        public string? Value { get; set; }
+    }
+    public sealed class ModelStaticConstructor : NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberBase
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+    public sealed class ModelTypeParameter : NetEvolve.ArchiDuct.Models.Abstractions.ModelEntityBase
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+}
+namespace NetEvolve.ArchiDuct.Models
+{
+    public enum ModelAccessibility
+    {
+        None = 0,
+        File = 1,
+        Public = 2,
+        Protected = 3,
+        Internal = 4,
+        Private = 5,
+        PrivateProtected = 6,
+        ProtectedInternal = 7,
+    }
+    public sealed class ModelAssembly : NetEvolve.ArchiDuct.Models.Abstractions.ModelBase
+    {
+        public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.ModelAttribute> Attributes { get; }
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+        public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberBase> Members { get; }
+        public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.ModelNamespace> Namespaces { get; }
+        public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.ModelReference> References { get; }
+        public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.Abstractions.ModelTypeBase> Types { get; }
+        public System.Version Version { get; }
+    }
+    public sealed class ModelAttribute : NetEvolve.ArchiDuct.Models.Abstractions.ModelBase
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+    public enum ModelKind
+    {
+        Assembly = 0,
+        Reference = 1,
+        Namespace = 2,
+        Attribute = 3,
+        Class = 4,
+        Struct = 5,
+        Interface = 6,
+        Delegate = 7,
+        Enum = 8,
+        Event = 9,
+        Constructor = 10,
+        Destructor = 11,
+        Deconstructor = 12,
+        StaticConstructor = 13,
+        Method = 14,
+        ExplicitMethod = 15,
+        ExplicitEvent = 16,
+        ExplicitProperty = 17,
+        ExtensionMethod = 18,
+        EnumMember = 19,
+        Indexer = 20,
+        Field = 21,
+        Operator = 22,
+        Property = 23,
+        Parameter = 24,
+        TypeParameter = 25,
+    }
+    public enum ModelModifier
+    {
+        None = 0,
+        Abstract = 1,
+        Async = 2,
+        Extern = 3,
+        Override = 4,
+        Const = 5,
+        ReadOnly = 6,
+        Sealed = 7,
+        Static = 8,
+        Partial = 9,
+        New = 10,
+        Unsafe = 11,
+        Ref = 12,
+        Virtual = 13,
+        Volatile = 14,
+        Required = 15,
+        In = 16,
+        Out = 17,
+        Params = 18,
+        This = 19,
+        Optional = 20,
+    }
+    public sealed class ModelNamespace : NetEvolve.ArchiDuct.Models.Abstractions.ModelEntityBase
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+        public System.Collections.Generic.HashSet<string> Types { get; }
+    }
+    public sealed class ModelReference : NetEvolve.ArchiDuct.Models.Abstractions.ModelBase
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+        public System.Version Version { get; }
+    }
+    public sealed class ModelReturn
+    {
+        public string Id { get; }
+        public bool IsNullable { get; }
+        public bool? IsRefReadonly { get; }
+        public static NetEvolve.ArchiDuct.Models.ModelReturn Void { get; }
+    }
+}
+namespace NetEvolve.ArchiDuct.Models.Types
+{
+    public sealed class ModelClass : NetEvolve.ArchiDuct.Models.Abstractions.ModelTypeBase
+    {
+        public bool IsRecord { get; }
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+    public sealed class ModelDelegate : NetEvolve.ArchiDuct.Models.Abstractions.ModelTypeBase
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+        public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.Members.ModelParameter> Parameters { get; }
+        public NetEvolve.ArchiDuct.Models.ModelReturn Type { get; }
+    }
+    public sealed class ModelEnum : NetEvolve.ArchiDuct.Models.Abstractions.ModelTypeBase
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+        public string? UnderlyingType { get; }
+    }
+    public sealed class ModelInterface : NetEvolve.ArchiDuct.Models.Abstractions.ModelTypeBase
+    {
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+    public sealed class ModelStruct : NetEvolve.ArchiDuct.Models.Abstractions.ModelTypeBase
+    {
+        public bool IsRecord { get; }
+        public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+}

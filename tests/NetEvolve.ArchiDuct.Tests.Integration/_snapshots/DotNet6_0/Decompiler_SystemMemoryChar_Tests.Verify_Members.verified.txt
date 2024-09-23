@@ -1,0 +1,856 @@
+﻿{
+  F:System.Memory`1._index: {
+    Accessibility: Private,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Memory`1._index,
+    Id: F:System.Memory`1._index,
+    Kind: Field,
+    Modifiers: [
+      ReadOnly
+    ],
+    Name: _index,
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Int32,
+      IsNullable: false
+    }
+  },
+  F:System.Memory`1._length: {
+    Accessibility: Private,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Memory`1._length,
+    Id: F:System.Memory`1._length,
+    Kind: Field,
+    Modifiers: [
+      ReadOnly
+    ],
+    Name: _length,
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Int32,
+      IsNullable: false
+    }
+  },
+  F:System.Memory`1._object: {
+    Accessibility: Private,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Memory`1._object,
+    Id: F:System.Memory`1._object,
+    Kind: Field,
+    Modifiers: [
+      ReadOnly
+    ],
+    Name: _object,
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Object,
+      IsNullable: false
+    }
+  },
+  M:System.Memory`1.#ctor: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor,
+    Id: M:System.Memory`1.#ctor,
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.Memory`1.#ctor(`0[]),
+      M:System.Memory`1.#ctor(`0[],System.Int32),
+      M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+      M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+      M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+      M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32)
+    ],
+    ParentId: T:System.Memory`1
+  },
+  M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32): {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+        Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+        Kind: Attribute,
+        Name: MethodImplAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+    Id: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.Memory`1.#ctor(`0[]),
+      M:System.Memory`1.#ctor(`0[],System.Int32),
+      M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+      M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+      M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+      M:System.Memory`1.#ctor
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).array,
+        Id: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).array,
+        Kind: Parameter,
+        Name: array,
+        ParentId: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+        Type: {
+          Id: T:`0[],
+          IsNullable: true
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).start,
+        Id: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).start,
+        Kind: Parameter,
+        Name: start,
+        ParentId: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+        Type: {
+          Id: T:System.Int32,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).length,
+        Id: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32).length,
+        Kind: Parameter,
+        Name: length,
+        ParentId: M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+        Type: {
+          Id: T:System.Int32,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Memory`1
+  },
+  M:System.Memory`1.#ctor(`0[],System.Int32): {
+    Accessibility: Internal,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+        Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+        Kind: Attribute,
+        Name: MethodImplAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(`0[],System.Int32),
+    Id: M:System.Memory`1.#ctor(`0[],System.Int32),
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.Memory`1.#ctor(`0[]),
+      M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+      M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+      M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+      M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+      M:System.Memory`1.#ctor
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(`0[],System.Int32).array,
+        Id: M:System.Memory`1.#ctor(`0[],System.Int32).array,
+        Kind: Parameter,
+        Name: array,
+        ParentId: M:System.Memory`1.#ctor(`0[],System.Int32),
+        Type: {
+          Id: T:`0[],
+          IsNullable: false
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(`0[],System.Int32).start,
+        Id: M:System.Memory`1.#ctor(`0[],System.Int32).start,
+        Kind: Parameter,
+        Name: start,
+        ParentId: M:System.Memory`1.#ctor(`0[],System.Int32),
+        Type: {
+          Id: T:System.Int32,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Memory`1
+  },
+  M:System.Memory`1.#ctor(`0[]): {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+        Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+        Kind: Attribute,
+        Name: MethodImplAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(`0[]),
+    Id: M:System.Memory`1.#ctor(`0[]),
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.Memory`1.#ctor(`0[],System.Int32),
+      M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+      M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+      M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+      M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+      M:System.Memory`1.#ctor
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(`0[]).array,
+        Id: M:System.Memory`1.#ctor(`0[]).array,
+        Kind: Parameter,
+        Name: array,
+        ParentId: M:System.Memory`1.#ctor(`0[]),
+        Type: {
+          Id: T:`0[],
+          IsNullable: true
+        }
+      }
+    ],
+    ParentId: T:System.Memory`1
+  },
+  M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32): {
+    Accessibility: Internal,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+        Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+        Kind: Attribute,
+        Name: MethodImplAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+    Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.Memory`1.#ctor(`0[]),
+      M:System.Memory`1.#ctor(`0[],System.Int32),
+      M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+      M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+      M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+      M:System.Memory`1.#ctor
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).manager,
+        Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).manager,
+        Kind: Parameter,
+        Name: manager,
+        ParentId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+        Type: {
+          Id: T:System.Buffers.MemoryManager`1[[`0]],
+          IsNullable: false
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).start,
+        Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).start,
+        Kind: Parameter,
+        Name: start,
+        ParentId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+        Type: {
+          Id: T:System.Int32,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).length,
+        Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32).length,
+        Kind: Parameter,
+        Name: length,
+        ParentId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+        Type: {
+          Id: T:System.Int32,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Memory`1
+  },
+  M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32): {
+    Accessibility: Internal,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+        Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+        Kind: Attribute,
+        Name: MethodImplAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+    Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.Memory`1.#ctor(`0[]),
+      M:System.Memory`1.#ctor(`0[],System.Int32),
+      M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+      M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+      M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+      M:System.Memory`1.#ctor
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32).manager,
+        Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32).manager,
+        Kind: Parameter,
+        Name: manager,
+        ParentId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+        Type: {
+          Id: T:System.Buffers.MemoryManager`1[[`0]],
+          IsNullable: false
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32).length,
+        Id: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32).length,
+        Kind: Parameter,
+        Name: length,
+        ParentId: M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+        Type: {
+          Id: T:System.Int32,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Memory`1
+  },
+  M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32): {
+    Accessibility: Internal,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+        Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+        Kind: Attribute,
+        Name: MethodImplAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+    Id: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.Memory`1.#ctor(`0[]),
+      M:System.Memory`1.#ctor(`0[],System.Int32),
+      M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32),
+      M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32),
+      M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32),
+      M:System.Memory`1.#ctor
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).obj,
+        Id: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).obj,
+        Kind: Parameter,
+        Name: obj,
+        ParentId: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+        Type: {
+          Id: T:System.Object,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).start,
+        Id: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).start,
+        Kind: Parameter,
+        Name: start,
+        ParentId: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+        Type: {
+          Id: T:System.Int32,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).length,
+        Id: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32).length,
+        Kind: Parameter,
+        Name: length,
+        ParentId: M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32),
+        Type: {
+          Id: T:System.Int32,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Memory`1
+  },
+  M:System.Memory`1.CopyTo(System.Memory{`0}): {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.CopyTo(System.Memory{`0}),
+    Id: M:System.Memory`1.CopyTo(System.Memory{`0}),
+    IsLocal: false,
+    Kind: Method,
+    Name: CopyTo,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.CopyTo(System.Memory{`0}).destination,
+        Id: M:System.Memory`1.CopyTo(System.Memory{`0}).destination,
+        Kind: Parameter,
+        Name: destination,
+        ParentId: M:System.Memory`1.CopyTo(System.Memory{`0}),
+        Type: {
+          Id: T:System.Memory`1[[`0]],
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Void,
+      IsNullable: false
+    }
+  },
+  M:System.Memory`1.Equals(System.Memory{`0}): {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Equals(System.Memory{`0}),
+    Id: M:System.Memory`1.Equals(System.Memory{`0}),
+    IsLocal: false,
+    Kind: Method,
+    Name: Equals,
+    OverloadedMembers: [
+      M:System.Memory`1.Equals(System.Object)
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Equals(System.Memory{`0}).other,
+        Id: M:System.Memory`1.Equals(System.Memory{`0}).other,
+        Kind: Parameter,
+        Name: other,
+        ParentId: M:System.Memory`1.Equals(System.Memory{`0}),
+        Type: {
+          Id: T:System.Memory`1[[`0]],
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Boolean,
+      IsNullable: false
+    }
+  },
+  M:System.Memory`1.Equals(System.Object): {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.ComponentModel.EditorBrowsableAttribute,
+        Id: T:System.ComponentModel.EditorBrowsableAttribute,
+        Kind: Attribute,
+        Name: EditorBrowsableAttribute
+      },
+      {
+        FullName: System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute,
+        Id: T:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute,
+        Kind: Attribute,
+        Name: UnconditionalSuppressMessageAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Equals(System.Object),
+    Id: M:System.Memory`1.Equals(System.Object),
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Override
+    ],
+    Name: Equals,
+    OverloadedMembers: [
+      M:System.Memory`1.Equals(System.Memory{`0})
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Equals(System.Object).obj,
+        Id: M:System.Memory`1.Equals(System.Object).obj,
+        Kind: Parameter,
+        Name: obj,
+        ParentId: M:System.Memory`1.Equals(System.Object),
+        Type: {
+          Id: T:System.Object,
+          IsNullable: true
+        }
+      }
+    ],
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Boolean,
+      IsNullable: false
+    }
+  },
+  M:System.Memory`1.GetHashCode: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.ComponentModel.EditorBrowsableAttribute,
+        Id: T:System.ComponentModel.EditorBrowsableAttribute,
+        Kind: Attribute,
+        Name: EditorBrowsableAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+        Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+        Kind: Attribute,
+        Name: MethodImplAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.GetHashCode,
+    Id: M:System.Memory`1.GetHashCode,
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Override
+    ],
+    Name: GetHashCode,
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Int32,
+      IsNullable: false
+    }
+  },
+  M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0}: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
+    Id: M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
+    Kind: Operator,
+    Modifiers: [
+      Static
+    ],
+    Name: op_Implicit,
+    OverloadedMembers: [
+      M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0},
+      M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0}
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0}.array,
+        Id: M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0}.array,
+        Kind: Parameter,
+        Name: array,
+        ParentId: M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
+        Type: {
+          Id: T:`0[],
+          IsNullable: true
+        }
+      }
+    ],
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Memory`1[[`0]],
+      IsNullable: false
+    }
+  },
+  M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0}: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0},
+    Id: M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0},
+    Kind: Operator,
+    Modifiers: [
+      Static
+    ],
+    Name: op_Implicit,
+    OverloadedMembers: [
+      M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
+      M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0}
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0}.segment,
+        Id: M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0}.segment,
+        Kind: Parameter,
+        Name: segment,
+        ParentId: M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0},
+        Type: {
+          Id: T:System.ArraySegment`1[[`0]],
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Memory`1[[`0]],
+      IsNullable: false
+    }
+  },
+  M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0}: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0},
+    Id: M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0},
+    Kind: Operator,
+    Modifiers: [
+      Static
+    ],
+    Name: op_Implicit,
+    OverloadedMembers: [
+      M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
+      M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0}
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0}.memory,
+        Id: M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0}.memory,
+        Kind: Parameter,
+        Name: memory,
+        ParentId: M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0},
+        Type: {
+          Id: T:System.Memory`1[[`0]],
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.ReadOnlyMemory`1[[`0]],
+      IsNullable: false
+    }
+  },
+  M:System.Memory`1.Pin: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Pin,
+    Id: M:System.Memory`1.Pin,
+    IsLocal: false,
+    Kind: Method,
+    Name: Pin,
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Buffers.MemoryHandle,
+      IsNullable: false
+    }
+  },
+  M:System.Memory`1.Slice(System.Int32,System.Int32): {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+        Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+        Kind: Attribute,
+        Name: MethodImplAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Slice(System.Int32,System.Int32),
+    Id: M:System.Memory`1.Slice(System.Int32,System.Int32),
+    IsLocal: false,
+    Kind: Method,
+    Name: Slice,
+    OverloadedMembers: [
+      M:System.Memory`1.Slice(System.Int32)
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Slice(System.Int32,System.Int32).start,
+        Id: M:System.Memory`1.Slice(System.Int32,System.Int32).start,
+        Kind: Parameter,
+        Name: start,
+        ParentId: M:System.Memory`1.Slice(System.Int32,System.Int32),
+        Type: {
+          Id: T:System.Int32,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Slice(System.Int32,System.Int32).length,
+        Id: M:System.Memory`1.Slice(System.Int32,System.Int32).length,
+        Kind: Parameter,
+        Name: length,
+        ParentId: M:System.Memory`1.Slice(System.Int32,System.Int32),
+        Type: {
+          Id: T:System.Int32,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Memory`1[[`0]],
+      IsNullable: false
+    }
+  },
+  M:System.Memory`1.Slice(System.Int32): {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.MethodImplAttribute,
+        Id: T:System.Runtime.CompilerServices.MethodImplAttribute,
+        Kind: Attribute,
+        Name: MethodImplAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Slice(System.Int32),
+    Id: M:System.Memory`1.Slice(System.Int32),
+    IsLocal: false,
+    Kind: Method,
+    Name: Slice,
+    OverloadedMembers: [
+      M:System.Memory`1.Slice(System.Int32,System.Int32)
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Slice(System.Int32).start,
+        Id: M:System.Memory`1.Slice(System.Int32).start,
+        Kind: Parameter,
+        Name: start,
+        ParentId: M:System.Memory`1.Slice(System.Int32),
+        Type: {
+          Id: T:System.Int32,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Memory`1[[`0]],
+      IsNullable: false
+    }
+  },
+  M:System.Memory`1.ToArray: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.ToArray,
+    Id: M:System.Memory`1.ToArray,
+    IsLocal: false,
+    Kind: Method,
+    Name: ToArray,
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:`0[],
+      IsNullable: false
+    }
+  },
+  M:System.Memory`1.ToString: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.ToString,
+    Id: M:System.Memory`1.ToString,
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Override
+    ],
+    Name: ToString,
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.String,
+      IsNullable: false
+    }
+  },
+  M:System.Memory`1.TryCopyTo(System.Memory{`0}): {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.TryCopyTo(System.Memory{`0}),
+    Id: M:System.Memory`1.TryCopyTo(System.Memory{`0}),
+    IsLocal: false,
+    Kind: Method,
+    Name: TryCopyTo,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.TryCopyTo(System.Memory{`0}).destination,
+        Id: M:System.Memory`1.TryCopyTo(System.Memory{`0}).destination,
+        Kind: Parameter,
+        Name: destination,
+        ParentId: M:System.Memory`1.TryCopyTo(System.Memory{`0}),
+        Type: {
+          Id: T:System.Memory`1[[`0]],
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Boolean,
+      IsNullable: false
+    }
+  },
+  P:System.Memory`1.Empty: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Memory`1.Empty,
+    Getter: {
+      Accessibility: Public,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.get_Empty,
+      Id: M:System.Memory`1.get_Empty,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_Empty,
+      ParentId: T:System.Memory`1,
+      ReturnType: {
+        Id: T:System.Memory`1[[`0]],
+        IsNullable: false
+      }
+    },
+    Id: P:System.Memory`1.Empty,
+    Kind: Property,
+    Modifiers: [
+      Static
+    ],
+    Name: Empty,
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Memory`1[[`0]],
+      IsNullable: false
+    }
+  },
+  P:System.Memory`1.IsEmpty: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Memory`1.IsEmpty,
+    Getter: {
+      Accessibility: Public,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.get_IsEmpty,
+      Id: M:System.Memory`1.get_IsEmpty,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_IsEmpty,
+      ParentId: T:System.Memory`1,
+      ReturnType: {
+        Id: T:System.Boolean,
+        IsNullable: false
+      }
+    },
+    Id: P:System.Memory`1.IsEmpty,
+    Kind: Property,
+    Name: IsEmpty,
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Boolean,
+      IsNullable: false
+    }
+  },
+  P:System.Memory`1.Length: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Memory`1.Length,
+    Getter: {
+      Accessibility: Public,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.get_Length,
+      Id: M:System.Memory`1.get_Length,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_Length,
+      ParentId: T:System.Memory`1,
+      ReturnType: {
+        Id: T:System.Int32,
+        IsNullable: false
+      }
+    },
+    Id: P:System.Memory`1.Length,
+    Kind: Property,
+    Name: Length,
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Int32,
+      IsNullable: false
+    }
+  },
+  P:System.Memory`1.Span: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Memory`1.Span,
+    Getter: {
+      Accessibility: Public,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.get_Span,
+      Id: M:System.Memory`1.get_Span,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_Span,
+      ParentId: T:System.Memory`1,
+      ReturnType: {
+        Id: T:System.Span`1[[`0]],
+        IsNullable: false
+      }
+    },
+    Id: P:System.Memory`1.Span,
+    Kind: Property,
+    Name: Span,
+    ParentId: T:System.Memory`1,
+    ReturnType: {
+      Id: T:System.Span`1[[`0]],
+      IsNullable: false
+    }
+  }
+}
