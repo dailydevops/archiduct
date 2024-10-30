@@ -14,7 +14,7 @@ public abstract class ModelEntityBase : ModelBase
     /// <summary>
     /// Unique ID string that identifies the parent, could be namespace or type.
     /// </summary>
-    public string ParentId { get; private set; }
+    public string ParentId { get; }
 
     private protected ModelEntityBase(
         string id,

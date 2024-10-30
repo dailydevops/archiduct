@@ -10,15 +10,13 @@ using NetEvolve.ArchiDuct.Models.Documentation;
 /// </summary>
 public sealed class ModelReference : ModelBase
 {
-    private readonly Version _version;
-
     /// <inheritdoc />
     public override ModelKind Kind => ModelKind.Reference;
 
     /// <summary>
     /// Version of the assembly.
     /// </summary>
-    public Version Version => _version;
+    public Version Version { get; }
 
     internal ModelReference(IModule module)
         : base(
@@ -26,5 +24,5 @@ public sealed class ModelReference : ModelBase
             module.AssemblyName,
             module.AssemblyName,
             (ModelDocumentation?)null
-        ) => _version = module.AssemblyVersion;
+        ) => Version = module.AssemblyVersion;
 }

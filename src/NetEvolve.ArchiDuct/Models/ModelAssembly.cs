@@ -11,8 +11,6 @@ using NetEvolve.ArchiDuct.Models.Abstractions;
 /// </summary>
 public sealed class ModelAssembly : ModelBase
 {
-    private readonly Version _version;
-
     /// <summary>
     /// Enumerable of all attributes within this assembly.
     /// </summary>
@@ -44,7 +42,7 @@ public sealed class ModelAssembly : ModelBase
     /// <summary>
     /// Version of the assembly.
     /// </summary>
-    public Version Version => _version;
+    public Version Version { get; }
 
     /// <inheritdoc />
     internal ModelAssembly(IModule module, XElement? documentation)
@@ -53,5 +51,5 @@ public sealed class ModelAssembly : ModelBase
             module.AssemblyName,
             module.AssemblyName,
             documentation
-        ) => _version = module.AssemblyVersion;
+        ) => Version = module.AssemblyVersion;
 }

@@ -30,6 +30,7 @@ public class ArchiDuctPublicApiTests
                 typeof(CLSCompliantAttribute).FullName!,
                 typeof(AssemblyMetadataAttribute).FullName!,
                 typeof(NeutralResourcesLanguageAttribute).FullName!,
+                typeof(AttributeUsageAttribute).FullName!,
             ],
             IncludeTypes = types,
         };
@@ -48,11 +49,6 @@ public class ArchiDuctPublicApiTests
         }
 
         var editorBrowsable = type.GetCustomAttribute<EditorBrowsableAttribute>();
-        if (editorBrowsable is null || editorBrowsable.State != EditorBrowsableState.Never)
-        {
-            return true;
-        }
-
-        return false;
+        return editorBrowsable is null || editorBrowsable.State != EditorBrowsableState.Never;
     }
 }

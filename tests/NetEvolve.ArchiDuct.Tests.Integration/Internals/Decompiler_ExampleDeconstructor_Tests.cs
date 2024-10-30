@@ -18,8 +18,7 @@ public class DeconstructorExample
         LastName = lname;
     }
 
-    public void Deconstruct(out string fullName) =>
-        fullName = string.Concat(FirstName, " ", LastName);
+    public void Deconstruct(out string fullName) => fullName = $"{FirstName} {LastName}";
 
     public void Deconstruct(out string fname, out string lname)
     {

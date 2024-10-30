@@ -6,37 +6,32 @@ using static System.StringComparer;
 
 internal sealed class Architecture : IArchitecture
 {
-    private readonly AssemblyDictionary _assemblies;
-    private readonly MembersDictionary _members;
-    private readonly NamespaceDictionary _namespaces;
-    private readonly TypesDictionary _types;
-
     /// <inheritdoc cref="IArchitecture.Assemblies" />
-    public AssemblyDictionary Assemblies => _assemblies;
+    public AssemblyDictionary Assemblies { get; }
 
     /// <inheritdoc cref="IArchitecture.Members" />
-    public MembersDictionary Members => _members;
+    public MembersDictionary Members { get; }
 
     /// <inheritdoc cref="IArchitecture.Namespaces" />
-    public NamespaceDictionary Namespaces => _namespaces;
+    public NamespaceDictionary Namespaces { get; }
 
     /// <inheritdoc cref="IArchitecture.Types" />
-    public TypesDictionary Types => _types;
+    public TypesDictionary Types { get; }
 
     internal Architecture(List<ModelAssembly> modelAssemblies)
     {
         // TODO: Switch back to `x => x.FullName`, when https://github.com/orgs/VerifyTests/discussions/1289 is solved
 
-        _assemblies = modelAssemblies.ToDictionaryInternal(x => x.Id, Ordinal);
+        Assemblies = modelAssemblies.ToDictionaryInternal(x => x.Id, Ordinal);
 
-        _members = modelAssemblies
+        Members = modelAssemblies
             .SelectMany(x => x.Members)
             .ToDictionaryInternal(x => x.Id, Ordinal);
 
-        _namespaces = modelAssemblies
+        Namespaces = modelAssemblies
             .SelectMany(x => x.Namespaces)
             .ToDictionaryInternal(x => x.Id, Ordinal);
 
-        _types = modelAssemblies.SelectMany(x => x.Types).ToDictionaryInternal(x => x.Id, Ordinal);
+        Types = modelAssemblies.SelectMany(x => x.Types).ToDictionaryInternal(x => x.Id, Ordinal);
     }
 }

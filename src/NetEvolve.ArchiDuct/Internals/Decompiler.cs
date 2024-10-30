@@ -190,7 +190,6 @@ internal sealed partial class Decompiler
         //TODO: Map TypeParameters for methods and indexers
         //TODO: ReturnAttributes
 
-
         _ = modelAssembly.Members.Add(modelMember);
         _ = parentModel.Members.Add(modelMember.Id);
     }

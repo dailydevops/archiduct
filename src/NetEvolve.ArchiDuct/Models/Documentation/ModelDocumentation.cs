@@ -11,24 +11,20 @@ public sealed class ModelDocumentation
 {
     private readonly XElement _documentation;
 
-    private readonly string? _remarks;
-    private readonly string? _returns;
-    private readonly string? _summary;
-
     /// <summary>
     /// Gets the content from the xml &lt;remarks/&gt; tag.
     /// </summary>
-    public string? Remarks => _remarks;
+    public string? Remarks { get; }
 
     /// <summary>
     /// Gets the content from the xml &lt;returns/&gt; tag.
     /// </summary>
-    public string? Returns => _returns;
+    public string? Returns { get; }
 
     /// <summary>
     /// Gets the content from the xml &lt;summary/&gt; tag.
     /// </summary>
-    public string? Summary => _summary;
+    public string? Summary { get; }
 
     private ModelDocumentation(XElement documentation)
         : this(
@@ -49,9 +45,9 @@ public sealed class ModelDocumentation
     )
     {
         _documentation = documentation;
-        _summary = summary;
-        _remarks = remarks;
-        _returns = returns;
+        Summary = summary;
+        Remarks = remarks;
+        Returns = returns;
     }
 
     internal static ModelDocumentation? Default(XElement? documentation) =>
