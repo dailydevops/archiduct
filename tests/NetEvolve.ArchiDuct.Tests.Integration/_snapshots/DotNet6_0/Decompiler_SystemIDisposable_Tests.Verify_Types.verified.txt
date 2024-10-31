@@ -1,0 +1,41 @@
+﻿{
+  T:System.IDisposable: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.IDisposable,
+    Id: T:System.IDisposable,
+    IsNested: false,
+    Kind: Interface,
+    Members: [
+      M:System.IDisposable.Dispose
+    ],
+    Name: IDisposable,
+    NamespaceId: N:System,
+    ParentId: N:System
+  }
+}

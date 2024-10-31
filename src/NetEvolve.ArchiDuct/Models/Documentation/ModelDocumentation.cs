@@ -1,0 +1,140 @@
+﻿namespace NetEvolve.ArchiDuct.Models.Documentation;
+
+using System.Xml.Linq;
+using NetEvolve.ArchiDuct.Extensions;
+using NetEvolve.ArchiDuct.Models;
+
+/// <summary>
+/// Represents the xml documentation for a model.
+/// </summary>
+public sealed class ModelDocumentation
+{
+    private readonly XElement _documentation;
+
+    /// <summary>
+    /// Gets the content from the xml &lt;remarks/&gt; tag.
+    /// </summary>
+    public string? Remarks { get; }
+
+    /// <summary>
+    /// Gets the content from the xml &lt;returns/&gt; tag.
+    /// </summary>
+    public string? Returns { get; }
+
+    /// <summary>
+    /// Gets the content from the xml &lt;summary/&gt; tag.
+    /// </summary>
+    public string? Summary { get; }
+
+    private ModelDocumentation(XElement documentation)
+        : this(
+            documentation,
+            GetElementValue(documentation, DocumentationXmlPropertyConstants.Summary),
+            GetElementValue(documentation, DocumentationXmlPropertyConstants.Remarks),
+            GetElementValue(documentation, DocumentationXmlPropertyConstants.Returns)
+        ) { }
+
+    private ModelDocumentation(XElement documentation, string? summary)
+        : this(documentation, summary, null, null) { }
+
+    private ModelDocumentation(
+        XElement documentation,
+        string? summary,
+        string? remarks,
+        string? returns
+    )
+    {
+        _documentation = documentation;
+        Summary = summary;
+        Remarks = remarks;
+        Returns = returns;
+    }
+
+    internal static ModelDocumentation? Default(XElement? documentation) =>
+        documentation is not null ? new ModelDocumentation(documentation) : null;
+
+    internal static ModelDocumentation? LoadParameter(
+        ModelDocumentation? parentDocumentation,
+        string name
+    )
+    {
+        if (parentDocumentation is null)
+        {
+            return null;
+        }
+
+        var documentation = new ModelDocumentation(
+            parentDocumentation._documentation,
+            GetElements(parentDocumentation._documentation, DocumentationXmlPropertyConstants.Param)
+                ?.FirstOrDefault(p =>
+                    string.Equals(
+                        p.Attribute(DocumentationXmlAttributeConstants.Name)?.Value,
+                        name,
+                        Ordinal
+                    )
+                )
+                .GetElementValue()
+        );
+
+        return documentation;
+    }
+
+    internal static ModelDocumentation? LoadTypeParameter(
+        ModelDocumentation? parentDocumentation,
+        string name
+    )
+    {
+        if (parentDocumentation is null)
+        {
+            return null;
+        }
+
+        var documentation = new ModelDocumentation(
+            parentDocumentation._documentation,
+            GetElements(
+                parentDocumentation._documentation,
+                DocumentationXmlPropertyConstants.TypeParam
+            )
+                ?.FirstOrDefault(p =>
+                    string.Equals(
+                        p.Attribute(DocumentationXmlAttributeConstants.Name)?.Value,
+                        name,
+                        Ordinal
+                    )
+                )
+                .GetElementValue()
+        );
+
+        return documentation;
+    }
+
+    /// <summary>
+    /// Determines the parentDocumentation elements for the parameter <paramref name="elementName"/>.
+    /// </summary>
+    /// <param name="documentation">The parentDocumentation xml to search for the <paramref name="elementName"/>. Can be null.</param>
+    /// <param name="elementName">Property name within the parentDocumentation xml.</param>
+    /// <returns>Returns the full parentDocumentation for <paramref name="elementName"/> as xml.</returns>
+    private static IEnumerable<XElement>? GetElements(
+        XElement? documentation,
+        string? elementName
+    ) =>
+        string.IsNullOrWhiteSpace(elementName)
+            ? documentation?.Elements()
+            : documentation?.Elements(elementName.Trim());
+
+    /// <summary>
+    /// Determines the parentDocumentation content for the parameter <paramref name="elementName"/>.
+    /// </summary>
+    /// <param name="documentation">The parentDocumentation xml to search for the <paramref name="elementName"/>. Can be null.</param>
+    /// <param name="elementName">Property name within the parentDocumentation xml.</param>
+    /// <param name="convertElement">Possibility to format child elements.</param>
+    /// <returns>Returns the parentDocumentation for <paramref name="elementName"/>.</returns>
+    private static string? GetElementValue(
+        XElement? documentation,
+        string? elementName = null,
+        Func<XNode?, string>? convertElement = null
+    ) =>
+        string.IsNullOrWhiteSpace(elementName)
+            ? null
+            : documentation?.GetElementValue(elementName.Trim(), convertElement);
+}

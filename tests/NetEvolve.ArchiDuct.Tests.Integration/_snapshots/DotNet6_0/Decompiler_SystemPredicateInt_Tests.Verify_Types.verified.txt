@@ -1,0 +1,97 @@
+﻿{
+  T:System.Predicate`1: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      }
+    ],
+    BaseTypes: [
+      T:System.MulticastDelegate,
+      T:System.Delegate,
+      T:System.Object
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.Predicate`1,
+    Id: T:System.Predicate`1,
+    IsNested: false,
+    Kind: Delegate,
+    Modifiers: [
+      Sealed
+    ],
+    Name: Predicate,
+    NamespaceId: N:System,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.Predicate`1.obj,
+        Id: T:System.Predicate`1.obj,
+        Kind: Parameter,
+        Name: obj,
+        ParentId: T:System.Predicate`1,
+        Type: {
+          Id: T:System.Predicate`1.T,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: N:System,
+    Type: {
+      Id: T:System.Boolean,
+      IsNullable: false,
+      IsRefReadonly: false
+    },
+    TypeParameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.Predicate`1.T,
+        Id: T:System.Predicate`1.T,
+        Kind: TypeParameter,
+        Name: T,
+        ParentId: T:System.Predicate`1
+      }
+    ]
+  }
+}

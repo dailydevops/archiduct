@@ -12,8 +12,9 @@
   <PropertyGroup Label="Package settings">
     <Title>$(MSBuildProjectName)</Title>
     <Description>.NET Architecture Test Framework</Description>
-    <RepositoryUrl>https://github.com/dailydevops/archiduct.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/dailydevops/archiduct</RepositoryUrl>
     <PackageProjectUrl>https://github.com/dailydevops/archiduct.git</PackageProjectUrl>
+    <PackageReleaseNotes>$(RepositoryUrl)/releases</PackageReleaseNotes>
     <PackageTags>test;architecture;archiduct</PackageTags>
     <CopyrightYearStart>2024</CopyrightYearStart>
   </PropertyGroup>
@@ -21,6 +22,8 @@
   <PropertyGroup>
     <NetEvolve_ProjectTargetFrameworks>net6.0;net8.0</NetEvolve_ProjectTargetFrameworks>
     <NetEvolve_TestTargetFrameworks>net6.0;net8.0</NetEvolve_TestTargetFrameworks>
+
+    <NoWarn>$(NoWarn);NU5104</NoWarn>
   </PropertyGroup>
 
 </Project>

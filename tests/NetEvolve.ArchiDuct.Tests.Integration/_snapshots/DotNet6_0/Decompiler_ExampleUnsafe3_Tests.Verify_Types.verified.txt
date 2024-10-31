@@ -1,0 +1,77 @@
+﻿{
+  T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      }
+    ],
+    BaseTypes: [
+      T:System.ValueType,
+      T:System.Object
+    ],
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3,
+    Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3,
+    InheritedMembers: [
+      M:System.ValueType.Equals(System.Object),
+      M:System.ValueType.CanCompareBits(System.Object),
+      M:System.ValueType.FastEqualsCheck(System.Object,System.Object),
+      M:System.ValueType.GetHashCode,
+      M:System.ValueType.GetHashCodeOfPtr(System.IntPtr),
+      M:System.ValueType.ToString,
+      M:System.Object.GetType,
+      M:System.Object.MemberwiseClone,
+      M:System.Object.Finalize,
+      M:System.Object.ToString,
+      M:System.Object.Equals(System.Object),
+      M:System.Object.Equals(System.Object,System.Object),
+      M:System.Object.ReferenceEquals(System.Object,System.Object),
+      M:System.Object.GetHashCode
+    ],
+    IsNested: false,
+    IsRecord: false,
+    Kind: Struct,
+    Members: [
+      F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Value,
+      F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Left,
+      F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Right,
+      M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.#ctor
+    ],
+    Name: UnsafeTest3,
+    NamespaceId: N:NetEvolve.ArchiDuct.Tests.Integration.Internals,
+    ParentId: N:NetEvolve.ArchiDuct.Tests.Integration.Internals
+  }
+}
