@@ -417,22 +417,16 @@ internal static class ModelFactory
             _ = modifiers.Add(ModelModifier.Virtual);
         }
 
+        if (member.IsUnsafe())
+        {
+            _ = modifiers.Add(ModelModifier.Unsafe);
+        }
+
         if (member is IMethod method)
         {
-            if (!method.HasBody && !method.IsAbstract)
+            if (method.IsExtern())
             {
-                if (
-                    method.HasAttribute(KnownAttribute.DllImport)
-                    || (
-                        method.GetAttribute(KnownAttribute.MethodImpl) is IAttribute attr
-                        && attr.FixedArguments.Length == 1
-                        && attr.FixedArguments[0].Value is object value
-                        && value.Equals((int)MethodImplOptions.InternalCall)
-                    )
-                )
-                {
-                    _ = modifiers.Add(ModelModifier.Extern);
-                }
+                _ = modifiers.Add(ModelModifier.Extern);
             }
 
             if (
@@ -444,11 +438,6 @@ internal static class ModelFactory
             )
             {
                 _ = modifiers.Add(ModelModifier.Partial);
-            }
-
-            if (method.IsUnsafe())
-            {
-                _ = modifiers.Add(ModelModifier.Unsafe);
             }
 
             if (method.ReturnTypeIsRefReadOnly)

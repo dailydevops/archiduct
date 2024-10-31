@@ -415,8 +415,8 @@
       Id: M:System.String.#ctor(System.Char*,System.Int32,System.Int32),
       Kind: Constructor,
       Modifiers: [
-        Extern,
-        Unsafe
+        Unsafe,
+        Extern
       ],
       Name: .ctor,
       OverloadedMembers: [
@@ -486,8 +486,8 @@
       Id: M:System.String.#ctor(System.Char*),
       Kind: Constructor,
       Modifiers: [
-        Extern,
-        Unsafe
+        Unsafe,
+        Extern
       ],
       Name: .ctor,
       OverloadedMembers: [
@@ -577,8 +577,8 @@
       Id: M:System.String.#ctor(System.SByte*,System.Int32,System.Int32,System.Text.Encoding),
       Kind: Constructor,
       Modifiers: [
-        Extern,
-        Unsafe
+        Unsafe,
+        Extern
       ],
       Name: .ctor,
       OverloadedMembers: [
@@ -659,8 +659,8 @@
       Id: M:System.String.#ctor(System.SByte*,System.Int32,System.Int32),
       Kind: Constructor,
       Modifiers: [
-        Extern,
-        Unsafe
+        Unsafe,
+        Extern
       ],
       Name: .ctor,
       OverloadedMembers: [
@@ -730,8 +730,8 @@
       Id: M:System.String.#ctor(System.SByte*),
       Kind: Constructor,
       Modifiers: [
-        Extern,
-        Unsafe
+        Unsafe,
+        Extern
       ],
       Name: .ctor,
       OverloadedMembers: [
