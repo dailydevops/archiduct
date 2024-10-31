@@ -249,6 +249,9 @@
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.Char,System.Int32),
       Id: M:System.String.#ctor(System.Char,System.Int32),
       Kind: Constructor,
+      Modifiers: [
+        Extern
+      ],
       Name: .ctor,
       OverloadedMembers: [
         M:System.String.#ctor(System.Char[]),
@@ -299,6 +302,9 @@
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.Char[],System.Int32,System.Int32),
       Id: M:System.String.#ctor(System.Char[],System.Int32,System.Int32),
       Kind: Constructor,
+      Modifiers: [
+        Extern
+      ],
       Name: .ctor,
       OverloadedMembers: [
         M:System.String.#ctor(System.Char[]),
@@ -360,6 +366,9 @@
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.Char[]),
       Id: M:System.String.#ctor(System.Char[]),
       Kind: Constructor,
+      Modifiers: [
+        Extern
+      ],
       Name: .ctor,
       OverloadedMembers: [
         M:System.String.#ctor(System.Char[],System.Int32,System.Int32),
@@ -405,6 +414,10 @@
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.Char*,System.Int32,System.Int32),
       Id: M:System.String.#ctor(System.Char*,System.Int32,System.Int32),
       Kind: Constructor,
+      Modifiers: [
+        Extern,
+        Unsafe
+      ],
       Name: .ctor,
       OverloadedMembers: [
         M:System.String.#ctor(System.Char[]),
@@ -472,6 +485,10 @@
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.Char*),
       Id: M:System.String.#ctor(System.Char*),
       Kind: Constructor,
+      Modifiers: [
+        Extern,
+        Unsafe
+      ],
       Name: .ctor,
       OverloadedMembers: [
         M:System.String.#ctor(System.Char[]),
@@ -511,6 +528,9 @@
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.ReadOnlySpan{System.Char}),
       Id: M:System.String.#ctor(System.ReadOnlySpan{System.Char}),
       Kind: Constructor,
+      Modifiers: [
+        Extern
+      ],
       Name: .ctor,
       OverloadedMembers: [
         M:System.String.#ctor(System.Char[]),
@@ -556,6 +576,10 @@
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.SByte*,System.Int32,System.Int32,System.Text.Encoding),
       Id: M:System.String.#ctor(System.SByte*,System.Int32,System.Int32,System.Text.Encoding),
       Kind: Constructor,
+      Modifiers: [
+        Extern,
+        Unsafe
+      ],
       Name: .ctor,
       OverloadedMembers: [
         M:System.String.#ctor(System.Char[]),
@@ -634,6 +658,10 @@
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.SByte*,System.Int32,System.Int32),
       Id: M:System.String.#ctor(System.SByte*,System.Int32,System.Int32),
       Kind: Constructor,
+      Modifiers: [
+        Extern,
+        Unsafe
+      ],
       Name: .ctor,
       OverloadedMembers: [
         M:System.String.#ctor(System.Char[]),
@@ -701,6 +729,10 @@
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.SByte*),
       Id: M:System.String.#ctor(System.SByte*),
       Kind: Constructor,
+      Modifiers: [
+        Extern,
+        Unsafe
+      ],
       Name: .ctor,
       OverloadedMembers: [
         M:System.String.#ctor(System.Char[]),
@@ -3441,7 +3473,8 @@
       IsLocal: false,
       Kind: Method,
       Modifiers: [
-        Static
+        Static,
+        Unsafe
       ],
       Name: CreateStringForSByteConstructor,
       Parameters: [
@@ -3481,7 +3514,8 @@
       IsLocal: false,
       Kind: Method,
       Modifiers: [
-        Static
+        Static,
+        Unsafe
       ],
       Name: CreateStringFromEncoding,
       Parameters: [
@@ -3719,7 +3753,8 @@
       IsLocal: false,
       Kind: Method,
       Modifiers: [
-        Static
+        Static,
+        Unsafe
       ],
       Name: Ctor,
       OverloadedMembers: [
@@ -3780,7 +3815,8 @@
       IsLocal: false,
       Kind: Method,
       Modifiers: [
-        Static
+        Static,
+        Unsafe
       ],
       Name: Ctor,
       OverloadedMembers: [
@@ -3858,7 +3894,8 @@
       IsLocal: false,
       Kind: Method,
       Modifiers: [
-        Static
+        Static,
+        Unsafe
       ],
       Name: Ctor,
       OverloadedMembers: [
@@ -3930,7 +3967,8 @@
       IsLocal: false,
       Kind: Method,
       Modifiers: [
-        Static
+        Static,
+        Unsafe
       ],
       Name: Ctor,
       OverloadedMembers: [
@@ -3991,7 +4029,8 @@
       IsLocal: false,
       Kind: Method,
       Modifiers: [
-        Static
+        Static,
+        Unsafe
       ],
       Name: Ctor,
       OverloadedMembers: [
@@ -4581,7 +4620,8 @@
       IsLocal: false,
       Kind: Method,
       Modifiers: [
-        Static
+        Static,
+        Extern
       ],
       Name: FastAllocateString,
       Parameters: [
@@ -5752,6 +5792,9 @@
       Id: M:System.String.GetBytesFromEncoding(System.Byte*,System.Int32,System.Text.Encoding),
       IsLocal: false,
       Kind: Method,
+      Modifiers: [
+        Unsafe
+      ],
       Name: GetBytesFromEncoding,
       Parameters: [
         {
@@ -6939,6 +6982,9 @@
       Id: M:System.String.Intern,
       IsLocal: false,
       Kind: Method,
+      Modifiers: [
+        Extern
+      ],
       Name: Intern,
       OverloadedMembers: [
         M:System.String.Intern(System.String)
@@ -7083,6 +7129,9 @@
       Id: M:System.String.IsInterned,
       IsLocal: false,
       Kind: Method,
+      Modifiers: [
+        Extern
+      ],
       Name: IsInterned,
       OverloadedMembers: [
         M:System.String.IsInterned(System.String)
@@ -9676,6 +9725,9 @@
       Id: M:System.String.SetTrailByte(System.Byte),
       IsLocal: false,
       Kind: Method,
+      Modifiers: [
+        Extern
+      ],
       Name: SetTrailByte,
       Parameters: [
         {
@@ -10684,7 +10736,8 @@
       IsLocal: false,
       Kind: Method,
       Modifiers: [
-        Static
+        Static,
+        Unsafe
       ],
       Name: strlen,
       Parameters: [
@@ -11800,6 +11853,9 @@
       Id: M:System.String.TrimHelper(System.Char*,System.Int32,System.Text.TrimType),
       IsLocal: false,
       Kind: Method,
+      Modifiers: [
+        Unsafe
+      ],
       Name: TrimHelper,
       Parameters: [
         {
@@ -12055,6 +12111,9 @@
       Id: M:System.String.TryGetTrailByte(System.Byte@),
       IsLocal: false,
       Kind: Method,
+      Modifiers: [
+        Extern
+      ],
       Name: TryGetTrailByte,
       Parameters: [
         {
@@ -12085,7 +12144,8 @@
       IsLocal: false,
       Kind: Method,
       Modifiers: [
-        Static
+        Static,
+        Unsafe
       ],
       Name: wcslen,
       Parameters: [

@@ -4,6 +4,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
 using System.Xml.Linq;
 using ICSharpCode.Decompiler.Documentation;
 using ICSharpCode.Decompiler.TypeSystem;
@@ -143,7 +144,6 @@ internal static class ModelFactory
             TypeKind.Struct => new ModelStruct(typeDefinition, parentEntity, documentation),
             TypeKind.Delegate => new ModelDelegate(typeDefinition, parentEntity, documentation),
             TypeKind.Enum => new ModelEnum(typeDefinition, parentEntity, documentation),
-
             TypeKind.Void => null,
             _ => throw new InvalidOperationException(),
         };
@@ -370,8 +370,6 @@ internal static class ModelFactory
             _ = modifiers.Add(ModelModifier.Ref);
         }
 
-        // TODO: unsafe
-
         return modifiers;
     }
 
@@ -399,11 +397,6 @@ internal static class ModelFactory
             _ = modifiers.Add(ModelModifier.Async);
         }
 
-        if (member.HasAttribute(KnownAttribute.DllImport))
-        {
-            _ = modifiers.Add(ModelModifier.Extern);
-        }
-
         if (member.IsOverride)
         {
             _ = modifiers.Add(ModelModifier.Override);
@@ -424,41 +417,72 @@ internal static class ModelFactory
             _ = modifiers.Add(ModelModifier.Virtual);
         }
 
-        if (member is IMethod me)
+        if (member is IMethod method)
         {
-            if (me.ReturnTypeIsRefReadOnly)
+            if (!method.HasBody && !method.IsAbstract)
+            {
+                if (
+                    method.HasAttribute(KnownAttribute.DllImport)
+                    || (
+                        method.GetAttribute(KnownAttribute.MethodImpl) is IAttribute attr
+                        && attr.FixedArguments.Length == 1
+                        && attr.FixedArguments[0].Value is object value
+                        && value.Equals((int)MethodImplOptions.InternalCall)
+                    )
+                )
+                {
+                    _ = modifiers.Add(ModelModifier.Extern);
+                }
+            }
+
+            if (
+                method
+                    .GetAttributes()
+                    .Any(x =>
+                        x.AttributeType.Name.Equals("LibraryImportAttribute", OrdinalIgnoreCase)
+                    )
+            )
+            {
+                _ = modifiers.Add(ModelModifier.Partial);
+            }
+
+            if (method.IsUnsafe())
+            {
+                _ = modifiers.Add(ModelModifier.Unsafe);
+            }
+
+            if (method.ReturnTypeIsRefReadOnly)
             {
                 _ = modifiers.Add(ModelModifier.Ref);
                 _ = modifiers.Add(ModelModifier.ReadOnly);
             }
         }
 
-        if (member is IField f)
+        if (member is IField field)
         {
-            if (f.IsConst)
+            if (field.IsConst)
             {
                 _ = modifiers.Add(ModelModifier.Const);
             }
 
-            if (f.IsReadOnly)
+            if (field.IsReadOnly)
             {
                 _ = modifiers.Add(ModelModifier.ReadOnly);
             }
 
-            if (f.IsVolatile)
+            if (field.IsVolatile)
             {
                 _ = modifiers.Add(ModelModifier.Volatile);
             }
         }
 
-        if (member is IProperty p)
+        if (member is IProperty property)
         {
-            if (p.HasAttribute(KnownAttribute.RequiredAttribute))
+            if (property.HasAttribute(KnownAttribute.RequiredAttribute))
             {
                 _ = modifiers.Add(ModelModifier.Required);
             }
         }
-        // TODO: unsafe
 
         return modifiers;
     }

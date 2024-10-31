@@ -4,6 +4,8 @@
     <TargetFrameworks>$(NetEvolve_TestTargetFrameworks)</TargetFrameworks>
 
     <DisableBannedApiForConsole>true</DisableBannedApiForConsole>
+
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <ItemGroup>

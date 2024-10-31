@@ -1932,6 +1932,9 @@
     Id: M:System.Uri.CheckAuthorityHelper(System.Char*,System.Int32,System.Int32,System.ParsingError@,System.Uri.Flags@,System.UriParser,System.String@),
     IsLocal: false,
     Kind: Method,
+    Modifiers: [
+      Unsafe
+    ],
     Name: CheckAuthorityHelper,
     Parameters: [
       {
@@ -2034,7 +2037,8 @@
     IsLocal: false,
     Kind: Method,
     Modifiers: [
-      Static
+      Static,
+      Unsafe
     ],
     Name: CheckAuthorityHelperHandleDnsIri,
     Parameters: [
@@ -2151,6 +2155,9 @@
     Id: M:System.Uri.CheckCanonical(System.Char*,System.Int32@,System.Int32,System.Char),
     IsLocal: false,
     Kind: Method,
+    Modifiers: [
+      Unsafe
+    ],
     Name: CheckCanonical,
     Parameters: [
       {
@@ -5691,7 +5698,8 @@
     IsLocal: false,
     Kind: Method,
     Modifiers: [
-      Static
+      Static,
+      Unsafe
     ],
     Name: UnescapeOnly,
     Parameters: [

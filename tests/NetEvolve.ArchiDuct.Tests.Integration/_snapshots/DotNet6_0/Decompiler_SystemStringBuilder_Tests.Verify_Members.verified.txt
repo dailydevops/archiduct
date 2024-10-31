@@ -892,6 +892,9 @@
     Id: M:System.Text.StringBuilder.Append(System.Char*,System.Int32),
     IsLocal: false,
     Kind: Method,
+    Modifiers: [
+      Unsafe
+    ],
     Name: Append,
     OverloadedMembers: [
       M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -3686,6 +3689,9 @@
     Id: M:System.Text.StringBuilder.AppendJoinCore``1(System.Char*,System.Int32,``0[]),
     IsLocal: false,
     Kind: Method,
+    Modifiers: [
+      Unsafe
+    ],
     Name: AppendJoinCore,
     OverloadedMembers: [
       M:System.Text.StringBuilder.AppendJoinCore``1(System.Char*,System.Int32,System.Collections.Generic.IEnumerable{``0})
@@ -3746,6 +3752,9 @@
     Id: M:System.Text.StringBuilder.AppendJoinCore``1(System.Char*,System.Int32,System.Collections.Generic.IEnumerable{``0}),
     IsLocal: false,
     Kind: Method,
+    Modifiers: [
+      Unsafe
+    ],
     Name: AppendJoinCore,
     OverloadedMembers: [
       M:System.Text.StringBuilder.AppendJoinCore``1(System.Char*,System.Int32,``0[])
@@ -4820,6 +4829,9 @@
     Id: M:System.Text.StringBuilder.Insert(System.Int32,System.Char*,System.Int32),
     IsLocal: false,
     Kind: Method,
+    Modifiers: [
+      Unsafe
+    ],
     Name: Insert,
     OverloadedMembers: [
       M:System.Text.StringBuilder.Insert(System.Int32,System.String,System.Int32),
@@ -6273,6 +6285,9 @@
     Id: M:System.Text.StringBuilder.ReplaceBufferAnsiInternal(System.SByte*,System.Int32),
     IsLocal: false,
     Kind: Method,
+    Modifiers: [
+      Unsafe
+    ],
     Name: ReplaceBufferAnsiInternal,
     Parameters: [
       {
@@ -6310,6 +6325,9 @@
     Id: M:System.Text.StringBuilder.ReplaceBufferInternal(System.Char*,System.Int32),
     IsLocal: false,
     Kind: Method,
+    Modifiers: [
+      Unsafe
+    ],
     Name: ReplaceBufferInternal,
     Parameters: [
       {
@@ -6373,6 +6391,9 @@
     Id: M:System.Text.StringBuilder.ReplaceInPlaceAtChunk(System.Text.StringBuilder@,System.Int32@,System.Char*,System.Int32),
     IsLocal: false,
     Kind: Method,
+    Modifiers: [
+      Unsafe
+    ],
     Name: ReplaceInPlaceAtChunk,
     Parameters: [
       {

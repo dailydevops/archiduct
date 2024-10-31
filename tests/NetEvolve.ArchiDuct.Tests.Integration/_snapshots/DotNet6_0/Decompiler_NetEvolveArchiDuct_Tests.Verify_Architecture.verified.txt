@@ -471,6 +471,12 @@
           Name: System.Collections.Concurrent
         },
         {
+          FullName: System.Collections.Immutable,
+          Id: A:System.Collections.Immutable,
+          Kind: Reference,
+          Name: System.Collections.Immutable
+        },
+        {
           FullName: System.Linq,
           Id: A:System.Linq,
           Kind: Reference,
@@ -493,6 +499,12 @@
           Id: A:System.Private.Xml.Linq,
           Kind: Reference,
           Name: System.Private.Xml.Linq
+        },
+        {
+          FullName: System.Reflection.Metadata,
+          Id: A:System.Reflection.Metadata,
+          Kind: Reference,
+          Name: System.Reflection.Metadata
         },
         {
           FullName: System.Runtime,

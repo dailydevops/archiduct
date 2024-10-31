@@ -193,6 +193,12 @@
         Name: System.Private.Xml.Linq
       },
       {
+        FullName: System.Reflection.Metadata,
+        Id: A:System.Reflection.Metadata,
+        Kind: Reference,
+        Name: System.Reflection.Metadata
+      },
+      {
         FullName: System.Runtime,
         Id: A:System.Runtime,
         Kind: Reference,

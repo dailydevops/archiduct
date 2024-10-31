@@ -310,7 +310,8 @@
     IsLocal: false,
     Kind: Method,
     Modifiers: [
-      Static
+      Static,
+      Unsafe
     ],
     Name: ThrowIfNull,
     OverloadedMembers: [

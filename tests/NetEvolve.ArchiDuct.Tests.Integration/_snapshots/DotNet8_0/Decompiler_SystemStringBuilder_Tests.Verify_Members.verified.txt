@@ -966,6 +966,9 @@
     Id: M:System.Text.StringBuilder.Append(System.Char*,System.Int32),
     IsLocal: false,
     Kind: Method,
+    Modifiers: [
+      Unsafe
+    ],
     Name: Append,
     OverloadedMembers: [
       M:System.Text.StringBuilder.Append(System.Char,System.Int32),
@@ -7085,6 +7088,9 @@
     Id: M:System.Text.StringBuilder.ReplaceBufferAnsiInternal(System.SByte*,System.Int32),
     IsLocal: false,
     Kind: Method,
+    Modifiers: [
+      Unsafe
+    ],
     Name: ReplaceBufferAnsiInternal,
     Parameters: [
       {
@@ -7122,6 +7128,9 @@
     Id: M:System.Text.StringBuilder.ReplaceBufferInternal(System.Char*,System.Int32),
     IsLocal: false,
     Kind: Method,
+    Modifiers: [
+      Unsafe
+    ],
     Name: ReplaceBufferInternal,
     Parameters: [
       {
