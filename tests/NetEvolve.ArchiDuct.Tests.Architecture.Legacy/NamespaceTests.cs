@@ -22,7 +22,7 @@ public class NamespaceTests
     [Fact]
     public void Types_should_be_sealed()
     {
-        var rule = Classes().That().Are(_types).Should().BeSealed();
+        var rule = Classes().That().Are(_types).And().AreNotAbstract().Should().BeSealed();
 
         rule.Check(ArchiDuctArchitecture.Instance);
     }

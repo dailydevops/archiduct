@@ -2,19 +2,15 @@
 
   <PropertyGroup>
     <TargetFrameworks>$(NetEvolve_ProjectTargetFrameworks)</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
 
     <PackageReference Include="ICSharpCode.Decompiler" />
-
     <PackageReference Include="NetEvolve.Arguments" />
     <PackageReference Include="NetEvolve.FluentValue" />
   </ItemGroup>
-
-  <PropertyGroup>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
 
 </Project>
