@@ -239,11 +239,6 @@ internal sealed partial class Decompiler
             _resolver
         );
 
-        if (typeModel is null)
-        {
-            return;
-        }
-
         MapModelTypeParameters(typeDefinition, typeModel);
         MapMemberModels(modelAssembly, typeDefinition, typeModel);
 

@@ -209,6 +209,7 @@ public class XElementExtensionsTests
         var mergedElement = left.Merge(right);
 
         // Assert
+        Assert.NotNull(mergedElement);
         var mergedChildElement = mergedElement.Element("ChildElement");
         Assert.NotNull(mergedChildElement);
         Assert.Equal("RightValue", mergedChildElement.Value);
@@ -227,6 +228,7 @@ public class XElementExtensionsTests
         var mergedElement = left.Merge(right, "ChildElement");
 
         // Assert
+        Assert.NotNull(mergedElement);
         var mergedChildElement = mergedElement.Element("ChildElement");
         Assert.NotNull(mergedChildElement);
         Assert.Equal("LeftValue", mergedChildElement.Value);
@@ -258,6 +260,7 @@ public class XElementExtensionsTests
         var sortedElement = element.Sort();
 
         // Assert
+        Assert.NotNull(sortedElement);
         var sortedChildElements = sortedElement.Elements();
         Assert.Collection(
             sortedChildElements,
@@ -280,6 +283,7 @@ public class XElementExtensionsTests
         var sortedElement = element.Sort();
 
         // Assert
+        Assert.NotNull(sortedElement);
         var sortedAttributes = sortedElement.Attributes();
         Assert.Collection(
             sortedAttributes,

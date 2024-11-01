@@ -20,7 +20,7 @@ public abstract class TestCaseBase<TTypeProvider>(
     private readonly bool _disableTypesCheck = disableTypesCheck;
     private readonly OSPlatform[]? _operationSystems = operationSystems;
 
-    protected bool IsCIExecution =>
+    protected static bool IsCIExecution =>
         Environment.GetEnvironmentVariable("CI") is string ci
         && ci.Equals("true", StringComparison.OrdinalIgnoreCase);
 
@@ -49,7 +49,7 @@ public abstract class TestCaseBase<TTypeProvider>(
     {
         Skip.If(IsOperationSystemUnsupported, "Operation system is not supported.");
 
-        Assert.Single(_provider.Architecture.Namespaces);
+        _ = Assert.Single(_provider.Architecture.Namespaces);
     }
 
     [SkippableFact]
