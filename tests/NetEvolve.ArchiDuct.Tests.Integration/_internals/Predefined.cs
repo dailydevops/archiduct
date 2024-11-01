@@ -32,8 +32,6 @@ internal static class Predefined
         VerifierSettings.SortJsonObjects();
         VerifierSettings.SortPropertiesAlphabetically();
 
-        VerifierSettings.HashParameters();
-
         VerifierSettings.OrderEnumerableBy<ModelAttribute>(model => model.Id);
         VerifierSettings.OrderEnumerableBy<ModelMemberBase>(model => model.Id);
         VerifierSettings.OrderEnumerableBy<ModelNamespace>(model => model.Id);
