@@ -1,4 +1,4 @@
-﻿namespace NetEvolve.ArchiDuct.Models.Members;
+﻿namespace NetEvolve.ArchiDuct.Models;
 
 using System.Xml.Linq;
 using ICSharpCode.Decompiler.TypeSystem;

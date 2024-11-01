@@ -1,4 +1,4 @@
-﻿namespace NetEvolve.ArchiDuct.Models.Members;
+﻿namespace NetEvolve.ArchiDuct.Models;
 
 using System.Collections.Generic;
 using System.Xml.Linq;

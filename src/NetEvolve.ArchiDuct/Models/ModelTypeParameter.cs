@@ -1,8 +1,7 @@
-﻿namespace NetEvolve.ArchiDuct.Models.Members;
+﻿namespace NetEvolve.ArchiDuct.Models;
 
 using ICSharpCode.Decompiler.TypeSystem;
 using NetEvolve.ArchiDuct.Models.Abstractions;
-using NetEvolve.ArchiDuct.Models.Documentation;
 
 /// <summary>
 /// Represents a type parameter description.

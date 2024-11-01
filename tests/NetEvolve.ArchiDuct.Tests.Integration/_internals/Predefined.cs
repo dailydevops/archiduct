@@ -6,7 +6,6 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using NetEvolve.ArchiDuct.Models;
 using NetEvolve.ArchiDuct.Models.Abstractions;
-using NetEvolve.ArchiDuct.Models.Documentation;
 using VerifyTests;
 using VerifyXunit;
 

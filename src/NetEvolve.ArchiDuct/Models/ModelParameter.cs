@@ -1,10 +1,9 @@
-﻿namespace NetEvolve.ArchiDuct.Models.Members;
+﻿namespace NetEvolve.ArchiDuct.Models;
 
 using System.Collections.Generic;
 using ICSharpCode.Decompiler.TypeSystem;
 using NetEvolve.ArchiDuct.Internals;
 using NetEvolve.ArchiDuct.Models.Abstractions;
-using NetEvolve.ArchiDuct.Models.Documentation;
 
 /// <inheritdoc />
 public sealed class ModelParameter : ModelEntityBase

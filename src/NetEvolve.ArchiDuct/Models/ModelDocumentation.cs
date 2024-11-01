@@ -1,8 +1,7 @@
-﻿namespace NetEvolve.ArchiDuct.Models.Documentation;
+﻿namespace NetEvolve.ArchiDuct.Models;
 
 using System.Xml.Linq;
 using NetEvolve.ArchiDuct.Extensions;
-using NetEvolve.ArchiDuct.Models;
 
 /// <summary>
 /// Represents the xml doc for a model.

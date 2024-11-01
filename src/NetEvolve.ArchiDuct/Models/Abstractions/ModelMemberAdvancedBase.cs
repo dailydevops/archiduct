@@ -3,7 +3,7 @@
 using System.Collections.Generic;
 using System.Xml.Linq;
 using ICSharpCode.Decompiler.TypeSystem;
-using NetEvolve.ArchiDuct.Models.Members;
+using NetEvolve.ArchiDuct.Models;
 
 /// <inheritdoc />
 public abstract class ModelMemberAdvancedBase : ModelMemberBase

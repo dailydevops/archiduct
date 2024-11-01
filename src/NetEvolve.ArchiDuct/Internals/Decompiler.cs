@@ -7,8 +7,6 @@ using ICSharpCode.Decompiler.Documentation;
 using ICSharpCode.Decompiler.TypeSystem;
 using NetEvolve.ArchiDuct.Models;
 using NetEvolve.ArchiDuct.Models.Abstractions;
-using NetEvolve.ArchiDuct.Models.Members;
-using NetEvolve.ArchiDuct.Models.Types;
 using static NetEvolve.ArchiDuct.Internals.Constants;
 
 internal sealed partial class Decompiler

@@ -2,8 +2,6 @@
 
 using ICSharpCode.Decompiler.Documentation;
 using ICSharpCode.Decompiler.TypeSystem;
-using ICSharpCode.Decompiler.TypeSystem.Implementation;
-using NetEvolve.ArchiDuct.Internals;
 
 internal static class IEntityExtensions
 {

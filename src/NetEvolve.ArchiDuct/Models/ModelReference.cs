@@ -3,7 +3,6 @@
 using System;
 using ICSharpCode.Decompiler.TypeSystem;
 using NetEvolve.ArchiDuct.Models.Abstractions;
-using NetEvolve.ArchiDuct.Models.Documentation;
 
 /// <summary>
 /// Describes a reference, or dependency, to another assembly.

@@ -1,4 +1,4 @@
-﻿namespace NetEvolve.ArchiDuct.Models.Types;
+﻿namespace NetEvolve.ArchiDuct.Models;
 
 using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;

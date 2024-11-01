@@ -1,7 +1,7 @@
 ﻿namespace NetEvolve.ArchiDuct.Models.Abstractions;
 
 using System.Xml.Linq;
-using NetEvolve.ArchiDuct.Models.Documentation;
+using NetEvolve.ArchiDuct.Models;
 
 /// <inheritdoc />
 public abstract class ModelEntityBase : ModelBase

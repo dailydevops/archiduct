@@ -1,4 +1,4 @@
-﻿namespace NetEvolve.ArchiDuct.Models.Types;
+﻿namespace NetEvolve.ArchiDuct.Models;
 
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
@@ -6,7 +6,6 @@ using System.Xml.Linq;
 using ICSharpCode.Decompiler.TypeSystem;
 using NetEvolve.ArchiDuct.Internals;
 using NetEvolve.ArchiDuct.Models.Abstractions;
-using NetEvolve.ArchiDuct.Models.Members;
 
 /// <summary>
 /// Describes a delegate implementation.

@@ -2,7 +2,6 @@
 
 using System.Runtime.CompilerServices;
 using ICSharpCode.Decompiler.TypeSystem;
-using ICSharpCode.Decompiler.TypeSystem.Implementation;
 
 internal static class IMethodExtensions
 {

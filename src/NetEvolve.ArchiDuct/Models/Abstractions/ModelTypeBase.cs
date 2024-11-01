@@ -6,7 +6,7 @@ using System.Xml.Linq;
 using ICSharpCode.Decompiler.Documentation;
 using ICSharpCode.Decompiler.TypeSystem;
 using NetEvolve.ArchiDuct.Extensions;
-using NetEvolve.ArchiDuct.Models.Members;
+using NetEvolve.ArchiDuct.Models;
 
 /// <summary>
 /// Represents an type description.
