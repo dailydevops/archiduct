@@ -18,7 +18,6 @@ public sealed class ModelEnumMember : ModelMemberBase
     public string? Value { get; }
 
     /// <inheritdoc />
-    internal ModelEnumMember(IField enumMember, ModelTypeBase parentEntity, XElement? documentation)
-        : base(enumMember, parentEntity, documentation) =>
-        Value = enumMember.GetConstantValue()!.ToString();
+    internal ModelEnumMember(IField member, ModelTypeBase parent, XElement? doc)
+        : base(member, parent, doc) => Value = member.GetConstantValue()!.ToString();
 }

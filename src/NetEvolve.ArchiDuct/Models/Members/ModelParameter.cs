@@ -27,13 +27,13 @@ public sealed class ModelParameter : ModelEntityBase
     /// </summary>
     public string? OptionalValue { get; }
 
-    internal ModelParameter(IParameter parameter, ModelEntityBase parentEntity)
+    internal ModelParameter(IParameter parameter, ModelEntityBase parent)
         : base(
-            $"{parentEntity.Id}.{parameter.Name}",
+            $"{parent.Id}.{parameter.Name}",
             parameter.Name,
-            $"{parentEntity.FullName}.{parameter.Name}",
-            parentEntity,
-            ModelDocumentation.LoadParameter(parentEntity.Documentation, parameter.Name)
+            $"{parent.FullName}.{parameter.Name}",
+            parent,
+            ModelDocumentation.LoadParameter(parent.Documentation, parameter.Name)
         )
     {
         Modifiers = ModelFactory.MapModifiers(parameter);

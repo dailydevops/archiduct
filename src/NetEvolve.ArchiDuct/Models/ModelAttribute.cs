@@ -19,17 +19,8 @@ public sealed class ModelAttribute : ModelBase
     /// <inheritdoc/>
     public override ModelKind Kind => ModelKind.Attribute;
 
-    internal ModelAttribute(
-        IAttribute attribute,
-        ITypeDefinition typeDefinition,
-        XElement? documentation
-    )
-        : base(
-            typeDefinition.GetIdString(),
-            typeDefinition.Name,
-            typeDefinition.FullName,
-            documentation
-        )
+    internal ModelAttribute(IAttribute attribute, ITypeDefinition typeDefinition, XElement? doc)
+        : base(typeDefinition.GetIdString(), typeDefinition.Name, typeDefinition.FullName, doc)
     {
         // TODO: Map constructor with values
     }

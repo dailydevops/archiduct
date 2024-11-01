@@ -13,10 +13,6 @@ public sealed class ModelExtensionMethod : ModelMethod
     public override ModelKind Kind => ModelKind.ExtensionMethod;
 
     /// <inheritdoc />
-    internal ModelExtensionMethod(
-        IMethod extensionMethod,
-        ModelTypeBase parentEntity,
-        XElement? documentation
-    )
-        : base(extensionMethod, parentEntity, documentation) { }
+    internal ModelExtensionMethod(IMethod method, ModelTypeBase parent, XElement? doc)
+        : base(method, parent, doc) { }
 }

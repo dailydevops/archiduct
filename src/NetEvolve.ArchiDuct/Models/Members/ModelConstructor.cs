@@ -13,6 +13,6 @@ public sealed class ModelConstructor : ModelMemberAdvancedBase
     public override ModelKind Kind => ModelKind.Constructor;
 
     /// <inheritdoc />
-    internal ModelConstructor(IMethod method, ModelTypeBase parentEntity, XElement? documentation)
-        : base(method, parentEntity, documentation) { }
+    internal ModelConstructor(IMethod method, ModelTypeBase parent, XElement? doc)
+        : base(method, parent, doc) { }
 }

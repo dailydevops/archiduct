@@ -13,10 +13,6 @@ public sealed class ModelExplicitProperty : ModelProperty
     public override ModelKind Kind => ModelKind.ExplicitProperty;
 
     /// <inheritdoc />
-    internal ModelExplicitProperty(
-        IProperty explicitProperty,
-        ModelTypeBase parentEntity,
-        XElement? documentation
-    )
-        : base(explicitProperty, parentEntity, documentation) { }
+    internal ModelExplicitProperty(IProperty property, ModelTypeBase parent, XElement? doc)
+        : base(property, parent, doc) { }
 }

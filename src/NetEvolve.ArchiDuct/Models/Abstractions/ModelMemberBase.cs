@@ -29,8 +29,8 @@ public abstract class ModelMemberBase : ModelEntityBase
     public ModelReturn? ReturnType { get; }
 
     /// <inheritdoc />
-    private protected ModelMemberBase(IMember member, ModelTypeBase parent, XElement? documentation)
-        : base(member.GetIdString(), member.Name, member.GetQualifiedName(), parent, documentation)
+    private protected ModelMemberBase(IMember member, ModelTypeBase parent, XElement? doc)
+        : base(member.GetIdString(), member.Name, member.GetQualifiedName(), parent, doc)
     {
         Accessibility = MapAccessibility(member);
         ReturnType = ModelFactory.GetReturnType(member);

@@ -13,6 +13,6 @@ public sealed class ModelOperator : ModelMemberAdvancedBase
     public override ModelKind Kind => ModelKind.Operator;
 
     /// <inheritdoc />
-    internal ModelOperator(IMethod @operator, ModelTypeBase parentEntity, XElement? documentation)
-        : base(@operator, parentEntity, documentation) { }
+    internal ModelOperator(IMethod method, ModelTypeBase parent, XElement? doc)
+        : base(method, parent, doc) { }
 }

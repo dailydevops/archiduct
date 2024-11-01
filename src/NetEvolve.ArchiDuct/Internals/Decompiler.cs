@@ -155,24 +155,20 @@ internal sealed partial class Decompiler
         }
     }
 
-    private void MapMemberModel(
-        ModelAssembly modelAssembly,
-        IMember member,
-        ModelTypeBase parentModel
-    )
+    private void MapMemberModel(ModelAssembly modelAssembly, IMember member, ModelTypeBase parent)
     {
         if (member.IsCompilerGeneratedOrIsInCompilerGeneratedClass())
         {
             return;
         }
 
-        if (!ModelFactory.TryGetDocumentation(member, _resolver, out var documentation))
+        if (!ModelFactory.TryGetDocumentation(member, _resolver, out var doc))
         {
             //TODO: Include undocumented items?
         }
 
         if (
-            parentModel is ModelEnum
+            parent is ModelEnum
             && member is IField enumField
             && enumField.Name.Equals("value__", Ordinal)
         )
@@ -180,18 +176,13 @@ internal sealed partial class Decompiler
             return;
         }
 
-        var modelMember = ModelFactory.CreateModelMemberType(
-            member,
-            parentModel,
-            documentation,
-            _resolver
-        );
+        var modelMember = ModelFactory.CreateModelMemberType(member, parent, doc, _resolver);
         MapModelMemberParameters(modelMember, member);
         //TODO: Map TypeParameters for methods and indexers
         //TODO: ReturnAttributes
 
         _ = modelAssembly.Members.Add(modelMember);
-        _ = parentModel.Members.Add(modelMember.Id);
+        _ = parent.Members.Add(modelMember.Id);
     }
 
     private void MapMemberModels(
@@ -214,7 +205,7 @@ internal sealed partial class Decompiler
     private void MapTypeModel(
         ModelAssembly modelAssembly,
         ITypeDefinition typeDefinition,
-        ModelEntityBase? parentEntity = null
+        ModelEntityBase? parent = null
     )
     {
         if (IsTypeDefinitionExcluded(typeDefinition))
@@ -222,22 +213,17 @@ internal sealed partial class Decompiler
             return;
         }
 
-        if (ModelFactory.TryGetDocumentation(typeDefinition, _resolver, out var documentation))
+        if (ModelFactory.TryGetDocumentation(typeDefinition, _resolver, out var doc))
         {
             //TODO: Include undocumented items?
         }
 
-        if (parentEntity is null)
+        if (parent is null)
         {
-            parentEntity = GetOrAddNamespace(modelAssembly, typeDefinition.Namespace);
+            parent = GetOrAddNamespace(modelAssembly, typeDefinition.Namespace);
         }
 
-        var typeModel = ModelFactory.CreateModelType(
-            typeDefinition,
-            parentEntity,
-            documentation,
-            _resolver
-        );
+        var typeModel = ModelFactory.CreateModelType(typeDefinition, parent, doc, _resolver);
 
         MapModelTypeParameters(typeDefinition, typeModel);
         MapMemberModels(modelAssembly, typeDefinition, typeModel);

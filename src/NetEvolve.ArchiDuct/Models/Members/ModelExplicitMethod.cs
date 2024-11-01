@@ -13,10 +13,6 @@ public sealed class ModelExplicitMethod : ModelMethod
     public override ModelKind Kind => ModelKind.ExplicitMethod;
 
     /// <inheritdoc />
-    internal ModelExplicitMethod(
-        IMethod explicitMethod,
-        ModelTypeBase parentEntity,
-        XElement? documentation
-    )
-        : base(explicitMethod, parentEntity, documentation) { }
+    internal ModelExplicitMethod(IMethod method, ModelTypeBase parent, XElement? doc)
+        : base(method, parent, doc) { }
 }

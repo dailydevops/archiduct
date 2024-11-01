@@ -25,11 +25,7 @@ public sealed class ModelEnum : ModelTypeBase
     public string? UnderlyingType { get; }
 
     /// <inheritdoc />
-    internal ModelEnum(
-        ITypeDefinition typeDefinition,
-        ModelBase parentEntity,
-        XElement? documentation
-    )
-        : base(typeDefinition, parentEntity, documentation) =>
+    internal ModelEnum(ITypeDefinition typeDefinition, ModelBase parent, XElement? doc)
+        : base(typeDefinition, parent, doc) =>
         UnderlyingType = typeDefinition.EnumUnderlyingType!.GetDefinition().GetIdString();
 }

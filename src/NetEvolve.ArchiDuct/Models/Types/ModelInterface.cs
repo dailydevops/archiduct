@@ -13,10 +13,6 @@ public sealed class ModelInterface : ModelTypeBase
     public override ModelKind Kind => ModelKind.Interface;
 
     /// <inheritdoc />
-    internal ModelInterface(
-        ITypeDefinition typeDefinition,
-        ModelBase parentEntity,
-        XElement? documentation
-    )
-        : base(typeDefinition, parentEntity, documentation) { }
+    internal ModelInterface(ITypeDefinition typeDefinition, ModelBase parent, XElement? doc)
+        : base(typeDefinition, parent, doc) { }
 }

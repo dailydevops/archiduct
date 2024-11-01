@@ -5,7 +5,7 @@ using NetEvolve.ArchiDuct.Extensions;
 using NetEvolve.ArchiDuct.Models;
 
 /// <summary>
-/// Represents the xml documentation for a model.
+/// Represents the xml doc for a model.
 /// </summary>
 public sealed class ModelDocumentation
 {
@@ -26,46 +26,38 @@ public sealed class ModelDocumentation
     /// </summary>
     public string? Summary { get; }
 
-    private ModelDocumentation(XElement documentation)
+    private ModelDocumentation(XElement doc)
         : this(
-            documentation,
-            GetElementValue(documentation, DocumentationXmlPropertyConstants.Summary),
-            GetElementValue(documentation, DocumentationXmlPropertyConstants.Remarks),
-            GetElementValue(documentation, DocumentationXmlPropertyConstants.Returns)
+            doc,
+            GetElementValue(doc, DocumentationXmlPropertyConstants.Summary),
+            GetElementValue(doc, DocumentationXmlPropertyConstants.Remarks),
+            GetElementValue(doc, DocumentationXmlPropertyConstants.Returns)
         ) { }
 
-    private ModelDocumentation(XElement documentation, string? summary)
-        : this(documentation, summary, null, null) { }
+    private ModelDocumentation(XElement doc, string? summary)
+        : this(doc, summary, null, null) { }
 
-    private ModelDocumentation(
-        XElement documentation,
-        string? summary,
-        string? remarks,
-        string? returns
-    )
+    private ModelDocumentation(XElement doc, string? summary, string? remarks, string? returns)
     {
-        _documentation = documentation;
+        _documentation = doc;
         Summary = summary;
         Remarks = remarks;
         Returns = returns;
     }
 
-    internal static ModelDocumentation? Default(XElement? documentation) =>
-        documentation is not null ? new ModelDocumentation(documentation) : null;
+    internal static ModelDocumentation? Default(XElement? doc) =>
+        doc is not null ? new ModelDocumentation(doc) : null;
 
-    internal static ModelDocumentation? LoadParameter(
-        ModelDocumentation? parentDocumentation,
-        string name
-    )
+    internal static ModelDocumentation? LoadParameter(ModelDocumentation? parent, string name)
     {
-        if (parentDocumentation is null)
+        if (parent is null)
         {
             return null;
         }
 
-        var documentation = new ModelDocumentation(
-            parentDocumentation._documentation,
-            GetElements(parentDocumentation._documentation, DocumentationXmlPropertyConstants.Param)
+        var doc = new ModelDocumentation(
+            parent._documentation,
+            GetElements(parent._documentation, DocumentationXmlPropertyConstants.Param)
                 ?.FirstOrDefault(p =>
                     string.Equals(
                         p.Attribute(DocumentationXmlAttributeConstants.Name)?.Value,
@@ -76,25 +68,19 @@ public sealed class ModelDocumentation
                 .GetElementValue()
         );
 
-        return documentation;
+        return doc;
     }
 
-    internal static ModelDocumentation? LoadTypeParameter(
-        ModelDocumentation? parentDocumentation,
-        string name
-    )
+    internal static ModelDocumentation? LoadTypeParameter(ModelDocumentation? parent, string name)
     {
-        if (parentDocumentation is null)
+        if (parent is null)
         {
             return null;
         }
 
-        var documentation = new ModelDocumentation(
-            parentDocumentation._documentation,
-            GetElements(
-                parentDocumentation._documentation,
-                DocumentationXmlPropertyConstants.TypeParam
-            )
+        var doc = new ModelDocumentation(
+            parent._documentation,
+            GetElements(parent._documentation, DocumentationXmlPropertyConstants.TypeParam)
                 ?.FirstOrDefault(p =>
                     string.Equals(
                         p.Attribute(DocumentationXmlAttributeConstants.Name)?.Value,
@@ -105,36 +91,33 @@ public sealed class ModelDocumentation
                 .GetElementValue()
         );
 
-        return documentation;
+        return doc;
     }
 
     /// <summary>
-    /// Determines the parentDocumentation elements for the parameter <paramref name="elementName"/>.
+    /// Determines the parent elements for the parameter <paramref name="elementName"/>.
     /// </summary>
-    /// <param name="documentation">The parentDocumentation xml to search for the <paramref name="elementName"/>. Can be null.</param>
-    /// <param name="elementName">Property name within the parentDocumentation xml.</param>
-    /// <returns>Returns the full parentDocumentation for <paramref name="elementName"/> as xml.</returns>
-    private static IEnumerable<XElement>? GetElements(
-        XElement? documentation,
-        string? elementName
-    ) =>
+    /// <param name="doc">The parent xml to search for the <paramref name="elementName"/>. Can be null.</param>
+    /// <param name="elementName">Property name within the parent xml.</param>
+    /// <returns>Returns the full parent for <paramref name="elementName"/> as xml.</returns>
+    private static IEnumerable<XElement>? GetElements(XElement? doc, string? elementName) =>
         string.IsNullOrWhiteSpace(elementName)
-            ? documentation?.Elements()
-            : documentation?.Elements(elementName.Trim());
+            ? doc?.Elements()
+            : doc?.Elements(elementName.Trim());
 
     /// <summary>
-    /// Determines the parentDocumentation content for the parameter <paramref name="elementName"/>.
+    /// Determines the parent content for the parameter <paramref name="elementName"/>.
     /// </summary>
-    /// <param name="documentation">The parentDocumentation xml to search for the <paramref name="elementName"/>. Can be null.</param>
-    /// <param name="elementName">Property name within the parentDocumentation xml.</param>
+    /// <param name="doc">The parent xml to search for the <paramref name="elementName"/>. Can be null.</param>
+    /// <param name="elementName">Property name within the parent xml.</param>
     /// <param name="convertElement">Possibility to format child elements.</param>
-    /// <returns>Returns the parentDocumentation for <paramref name="elementName"/>.</returns>
+    /// <returns>Returns the parent for <paramref name="elementName"/>.</returns>
     private static string? GetElementValue(
-        XElement? documentation,
+        XElement? doc,
         string? elementName = null,
         Func<XNode?, string>? convertElement = null
     ) =>
         string.IsNullOrWhiteSpace(elementName)
             ? null
-            : documentation?.GetElementValue(elementName.Trim(), convertElement);
+            : doc?.GetElementValue(elementName.Trim(), convertElement);
 }

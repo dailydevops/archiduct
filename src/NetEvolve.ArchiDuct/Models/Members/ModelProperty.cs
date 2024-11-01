@@ -33,23 +33,23 @@ public class ModelProperty : ModelMemberBase
     public string? Value { get; set; }
 
     /// <inheritdoc />
-    internal ModelProperty(IProperty property, ModelTypeBase parentEntity, XElement? documentation)
-        : base(property, parentEntity, documentation)
+    internal ModelProperty(IProperty property, ModelTypeBase parent, XElement? doc)
+        : base(property, parent, doc)
     {
         if (property.Getter is IMethod getter)
         {
-            Getter = new ModelMethod(getter, parentEntity, documentation);
+            Getter = new ModelMethod(getter, parent, doc);
         }
 
         if (property.Setter is IMethod setter)
         {
             if (setter.IsInitOnly)
             {
-                InitOnly = new ModelMethod(setter, parentEntity, documentation);
+                InitOnly = new ModelMethod(setter, parent, doc);
             }
             else
             {
-                Setter = new ModelMethod(setter, parentEntity, documentation);
+                Setter = new ModelMethod(setter, parent, doc);
             }
         }
     }

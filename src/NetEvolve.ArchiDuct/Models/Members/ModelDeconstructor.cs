@@ -14,6 +14,6 @@ public sealed class ModelDeconstructor : ModelMemberAdvancedBase
     public override ModelKind Kind => ModelKind.Deconstructor;
 
     /// <inheritdoc />
-    internal ModelDeconstructor(IMethod method, ModelTypeBase parentEntity, XElement? documentation)
-        : base(method, parentEntity, documentation) { }
+    internal ModelDeconstructor(IMethod method, ModelTypeBase parent, XElement? doc)
+        : base(method, parent, doc) { }
 }

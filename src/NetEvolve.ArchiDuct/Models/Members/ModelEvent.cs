@@ -29,17 +29,17 @@ public class ModelEvent : ModelMemberBase
     public ModelReturn Type { get; }
 
     /// <inheritdoc />
-    internal ModelEvent(IEvent @event, ModelTypeBase parentEntity, XElement? documentation)
-        : base(@event, parentEntity, documentation)
+    internal ModelEvent(IEvent @event, ModelTypeBase parent, XElement? doc)
+        : base(@event, parent, doc)
     {
         if (@event.AddAccessor is not null)
         {
-            AddAccessor = new ModelMethod(@event.AddAccessor, parentEntity, documentation);
+            AddAccessor = new ModelMethod(@event.AddAccessor, parent, doc);
         }
 
         if (@event.RemoveAccessor is not null)
         {
-            RemoveAccessor = new ModelMethod(@event.RemoveAccessor, parentEntity, documentation);
+            RemoveAccessor = new ModelMethod(@event.RemoveAccessor, parent, doc);
         }
 
         Type = ModelFactory.GetReturnType(@event)!;
