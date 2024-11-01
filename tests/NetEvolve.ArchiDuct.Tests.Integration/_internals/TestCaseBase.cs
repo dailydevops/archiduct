@@ -20,10 +20,12 @@ public abstract class TestCaseBase<TTypeProvider>(
     private readonly bool _disableTypesCheck = disableTypesCheck;
     private readonly OSPlatform[]? _operationSystems = operationSystems;
 
-    protected bool IsCIExecution => Environment.GetEnvironmentVariable("CI") is string ci && ci.Equals("true", StringComparison.OrdinalIgnoreCase);
+    protected bool IsCIExecution =>
+        Environment.GetEnvironmentVariable("CI") is string ci
+        && ci.Equals("true", StringComparison.OrdinalIgnoreCase);
 
     protected bool IsOperationSystemUnsupported =>
-    _operationSystems is not null && !_operationSystems.All(RuntimeInformation.IsOSPlatform);
+        _operationSystems is not null && !_operationSystems.All(RuntimeInformation.IsOSPlatform);
 
     [SkippableFact]
     public void Instance_AssemblyOne_Expected()
