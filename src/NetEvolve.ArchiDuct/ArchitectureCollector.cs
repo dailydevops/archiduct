@@ -215,6 +215,11 @@ public sealed class ArchitectureCollector : IArchitectureCollector
                 cancellationToken,
                 (source, token) =>
                 {
+                    if (token.IsCancellationRequested)
+                    {
+                        return ValueTask.FromCanceled(token);
+                    }
+
                     var result = CollectAssembly(source, decompilerSettings);
 
                     if (result is { Count: > 0 })

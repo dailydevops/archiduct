@@ -129,7 +129,7 @@ internal static class ModelFactory
         return model;
     }
 
-    public static ModelTypeBase? CreateModelType(
+    public static ModelTypeBase CreateModelType(
         ITypeDefinition typeDefinition,
         ModelEntityBase parentEntity,
         XElement? documentation,
@@ -137,22 +137,16 @@ internal static class ModelFactory
     )
     {
 #pragma warning disable IDE0072 // Add missing cases
-        ModelTypeBase? model = typeDefinition.Kind switch
+        ModelTypeBase model = typeDefinition.Kind switch
         {
             TypeKind.Class => new ModelClass(typeDefinition, parentEntity, documentation),
             TypeKind.Interface => new ModelInterface(typeDefinition, parentEntity, documentation),
             TypeKind.Struct => new ModelStruct(typeDefinition, parentEntity, documentation),
             TypeKind.Delegate => new ModelDelegate(typeDefinition, parentEntity, documentation),
             TypeKind.Enum => new ModelEnum(typeDefinition, parentEntity, documentation),
-            TypeKind.Void => null,
             _ => throw new InvalidOperationException(),
         };
 #pragma warning restore IDE0072 // Add missing cases
-
-        if (model is null)
-        {
-            return model;
-        }
 
         model.Accessibility = MapAccessibility(typeDefinition);
 
