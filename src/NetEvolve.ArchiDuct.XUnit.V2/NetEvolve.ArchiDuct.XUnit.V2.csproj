@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>$(NetEvolve_ProjectTargetFrameworks)</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <Description>Compatibility package for executing the ArchiDuct logic in the context of xUnit.</Description>
+    <PackageTags>$(PackageTags);xunit</PackageTags>
+  </PropertyGroup>
+
+</Project>
