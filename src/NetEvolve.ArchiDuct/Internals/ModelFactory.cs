@@ -5,6 +5,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
+using ICSharpCode.Decompiler;
 using ICSharpCode.Decompiler.Documentation;
 using ICSharpCode.Decompiler.TypeSystem;
 using NetEvolve.ArchiDuct.Extensions;
@@ -386,58 +387,75 @@ internal static class ModelFactory
             _ = modifiers.Add(ModelModifier.Unsafe);
         }
 
-        if (member is IMethod method)
-        {
-            if (method.IsExtern())
-            {
-                _ = modifiers.Add(ModelModifier.Extern);
-            }
-
-            if (
-                method
-                    .GetAttributes()
-                    .Any(x =>
-                        x.AttributeType.Name.Equals("LibraryImportAttribute", OrdinalIgnoreCase)
-                    )
-            )
-            {
-                _ = modifiers.Add(ModelModifier.Partial);
-            }
-
-            if (method.ReturnTypeIsRefReadOnly)
-            {
-                _ = modifiers.Add(ModelModifier.Ref);
-                _ = modifiers.Add(ModelModifier.ReadOnly);
-            }
-        }
-
-        if (member is IField field)
-        {
-            if (field.IsConst)
-            {
-                _ = modifiers.Add(ModelModifier.Const);
-            }
-
-            if (field.IsReadOnly)
-            {
-                _ = modifiers.Add(ModelModifier.ReadOnly);
-            }
-
-            if (field.IsVolatile)
-            {
-                _ = modifiers.Add(ModelModifier.Volatile);
-            }
-        }
-
-        if (member is IProperty property)
-        {
-            if (property.HasAttribute(KnownAttribute.RequiredAttribute))
-            {
-                _ = modifiers.Add(ModelModifier.Required);
-            }
-        }
+        MapModifiersForMethods(member, modifiers);
+        MapModifiersForFields(member, modifiers);
+        MapModifiersForProperties(member, modifiers);
 
         return modifiers;
+    }
+
+    private static void MapModifiersForProperties(IMember member, HashSet<ModelModifier> modifiers)
+    {
+        if (member is not IProperty property)
+        {
+            return;
+        }
+
+        if (property.HasAttribute(KnownAttribute.RequiredAttribute))
+        {
+            _ = modifiers.Add(ModelModifier.Required);
+        }
+    }
+
+    private static void MapModifiersForFields(IMember member, HashSet<ModelModifier> modifiers)
+    {
+        if (member is not IField field)
+        {
+            return;
+        }
+
+        if (field.IsConst)
+        {
+            _ = modifiers.Add(ModelModifier.Const);
+        }
+
+        if (field.IsReadOnly)
+        {
+            _ = modifiers.Add(ModelModifier.ReadOnly);
+        }
+
+        if (field.IsVolatile)
+        {
+            _ = modifiers.Add(ModelModifier.Volatile);
+        }
+    }
+
+    private static void MapModifiersForMethods(IMember member, HashSet<ModelModifier> modifiers)
+    {
+        if (member is not IMethod method)
+        {
+            return;
+        }
+
+        if (method.IsExtern())
+        {
+            _ = modifiers.Add(ModelModifier.Extern);
+        }
+
+        if (
+            method
+                .GetAttributes()
+                .Any(x => x.AttributeType.Name.Equals("LibraryImportAttribute", OrdinalIgnoreCase))
+        )
+        {
+            _ = modifiers.Add(ModelModifier.Partial);
+        }
+
+        if (method.ReturnTypeIsRefReadOnly)
+        {
+            _ = modifiers.Add(ModelModifier.Ref);
+            _ = modifiers.Add(ModelModifier.ReadOnly);
+        }
     }
 
     private static bool HasFileAccessModifier(ITypeDefinition typeDefinition)
