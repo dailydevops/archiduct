@@ -5,7 +5,7 @@ using VerifyXunit;
 using Xunit;
 
 public abstract class AssembliesTestCaseBase<TTestCase>(GenericTypeProvider<TTestCase> provider)
-    : TestCaseBase<GenericTypeProvider<TTestCase>>(provider, true)
+    : TestCaseBase<GenericTypeProvider<TTestCase>>(provider, disableMembersCheck: true)
     where TTestCase : notnull
 {
     [Fact]

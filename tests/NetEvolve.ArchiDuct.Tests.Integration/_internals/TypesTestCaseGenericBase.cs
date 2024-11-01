@@ -2,6 +2,7 @@
 
 public abstract class TypesTestCaseGenericBase<TTestCase>(
     GenericTypeProvider<TTestCase> provider,
-    bool disableMembersCheck = false
-) : TestCaseGenericBase<TTestCase>(provider, disableMembersCheck)
+    bool disableMembersCheck = false,
+    bool disableTypesCheck = false
+) : TestCaseGenericBase<TTestCase>(provider, disableMembersCheck, disableTypesCheck)
     where TTestCase : notnull { }
