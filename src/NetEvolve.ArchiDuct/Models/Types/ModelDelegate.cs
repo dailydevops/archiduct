@@ -30,23 +30,14 @@ public sealed class ModelDelegate : ModelTypeBase
     public ModelReturn Type { get; } = default!;
 
     /// <inheritdoc />
-    internal ModelDelegate(
-        ITypeDefinition typeDefinition,
-        ModelBase parentEntity,
-        XElement? documentation
-    )
-        : base(typeDefinition, parentEntity, documentation)
+    internal ModelDelegate(ITypeDefinition typeDefinition, ModelBase parent, XElement? doc)
+        : base(typeDefinition, parent, doc)
     {
-        if (typeDefinition.GetDelegateInvokeMethod() is IMethod delegateMethod)
+        if (typeDefinition.GetDelegateInvokeMethod() is IMethod method)
         {
-            Parameters = delegateMethod
-                .Parameters.Select(p => new ModelParameter(p, this))
-                .ToHashSet();
+            Parameters = method.Parameters.Select(p => new ModelParameter(p, this)).ToHashSet();
 
-            Type = ModelFactory.GetReturnType(
-                delegateMethod,
-                delegateMethod.ReturnTypeIsRefReadOnly
-            )!;
+            Type = ModelFactory.GetReturnType(method, method.ReturnTypeIsRefReadOnly)!;
         }
     }
 }

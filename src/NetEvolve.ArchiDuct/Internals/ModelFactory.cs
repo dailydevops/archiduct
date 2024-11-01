@@ -64,8 +64,8 @@ internal static class ModelFactory
 
     public static ModelMemberBase CreateModelMemberType(
         IMember member,
-        ModelTypeBase parentModel,
-        XElement? documentation,
+        ModelTypeBase parent,
+        XElement? doc,
         ITypeResolveContext resolver
     )
     {
@@ -73,54 +73,38 @@ internal static class ModelFactory
         {
             IField field when member.DeclaringType.Kind == TypeKind.Enum => new ModelEnumMember(
                 field,
-                parentModel,
-                documentation
+                parent,
+                doc
             ),
-            IField field => new ModelField(field, parentModel, documentation),
+            IField field => new ModelField(field, parent, doc),
             IProperty property when property.IsExplicitInterfaceImplementation =>
-                new ModelExplicitProperty(property, parentModel, documentation),
-            IProperty property when property.IsIndexer => new ModelIndexer(
-                property,
-                parentModel,
-                documentation
-            ),
-            IProperty property => new ModelProperty(property, parentModel, documentation),
+                new ModelExplicitProperty(property, parent, doc),
+            IProperty property when property.IsIndexer => new ModelIndexer(property, parent, doc),
+            IProperty property => new ModelProperty(property, parent, doc),
             IMethod method when method.IsExplicitInterfaceImplementation => new ModelExplicitMethod(
                 method,
-                parentModel,
-                documentation
+                parent,
+                doc
             ),
             IMethod method when method.IsConstructor && method.IsStatic =>
-                new ModelStaticConstructor(method, parentModel, documentation),
-            IMethod method when method.IsConstructor => new ModelConstructor(
-                method,
-                parentModel,
-                documentation
-            ),
-            IMethod method when method.IsOperator => new ModelOperator(
-                method,
-                parentModel,
-                documentation
-            ),
-            IMethod method when method.IsDestructor => new ModelDestructor(
-                method,
-                parentModel,
-                documentation
-            ),
+                new ModelStaticConstructor(method, parent, doc),
+            IMethod method when method.IsConstructor => new ModelConstructor(method, parent, doc),
+            IMethod method when method.IsOperator => new ModelOperator(method, parent, doc),
+            IMethod method when method.IsDestructor => new ModelDestructor(method, parent, doc),
             IMethod method when method.Name.Equals("Deconstruct", Ordinal) =>
-                new ModelDeconstructor(method, parentModel, documentation),
+                new ModelDeconstructor(method, parent, doc),
             IMethod method when method.IsExtensionMethod => new ModelExtensionMethod(
                 method,
-                parentModel,
-                documentation
+                parent,
+                doc
             ),
-            IMethod method => new ModelMethod(method, parentModel, documentation),
+            IMethod method => new ModelMethod(method, parent, doc),
             IEvent @event when @event.IsExplicitInterfaceImplementation => new ModelExplicitEvent(
                 @event,
-                parentModel,
-                documentation
+                parent,
+                doc
             ),
-            IEvent @event => new ModelEvent(@event, parentModel, documentation),
+            IEvent @event => new ModelEvent(@event, parent, doc),
             _ => throw new InvalidOperationException(),
         };
         model.Modifiers = MapModifiers(member);
@@ -131,19 +115,19 @@ internal static class ModelFactory
 
     public static ModelTypeBase CreateModelType(
         ITypeDefinition typeDefinition,
-        ModelEntityBase parentEntity,
-        XElement? documentation,
+        ModelEntityBase parent,
+        XElement? doc,
         ITypeResolveContext resolver
     )
     {
 #pragma warning disable IDE0072 // Add missing cases
         ModelTypeBase model = typeDefinition.Kind switch
         {
-            TypeKind.Class => new ModelClass(typeDefinition, parentEntity, documentation),
-            TypeKind.Interface => new ModelInterface(typeDefinition, parentEntity, documentation),
-            TypeKind.Struct => new ModelStruct(typeDefinition, parentEntity, documentation),
-            TypeKind.Delegate => new ModelDelegate(typeDefinition, parentEntity, documentation),
-            TypeKind.Enum => new ModelEnum(typeDefinition, parentEntity, documentation),
+            TypeKind.Class => new ModelClass(typeDefinition, parent, doc),
+            TypeKind.Interface => new ModelInterface(typeDefinition, parent, doc),
+            TypeKind.Struct => new ModelStruct(typeDefinition, parent, doc),
+            TypeKind.Delegate => new ModelDelegate(typeDefinition, parent, doc),
+            TypeKind.Enum => new ModelEnum(typeDefinition, parent, doc),
             _ => throw new InvalidOperationException(),
         };
 #pragma warning restore IDE0072 // Add missing cases
@@ -245,17 +229,11 @@ internal static class ModelFactory
         var returnId = $"T:{returnType.ReflectionName}";
         if (returnType.Kind == TypeKind.TypeParameter)
         {
-            if (
+            returnId =
                 member.MemberDefinition is IMethod method
                 && method.TypeParameters.Any(x => x.Name.Equals(returnType.Name, Ordinal))
-            )
-            {
-                returnId = $"T:{method.ReflectionName}.{returnType.Name}";
-            }
-            else
-            {
-                returnId = $"T:{member.DeclaringTypeDefinition!.ReflectionName}.{returnType.Name}";
-            }
+                    ? $"T:{method.ReflectionName}.{returnType.Name}"
+                    : $"T:{member.DeclaringTypeDefinition!.ReflectionName}.{returnType.Name}";
         }
 
         return new ModelReturn(
@@ -276,14 +254,9 @@ internal static class ModelFactory
         var returnId = $"T:{returnType.ReflectionName}";
         if (returnType.Kind == TypeKind.TypeParameter && parameter.Owner is IMethod method)
         {
-            if (method.TypeParameters.Any(x => x.Name.Equals(returnType.Name, Ordinal)))
-            {
-                returnId = $"T:{method.ReflectionName}.{returnType.Name}";
-            }
-            else
-            {
-                returnId = $"T:{method.DeclaringTypeDefinition!.ReflectionName}.{returnType.Name}";
-            }
+            returnId = method.TypeParameters.Any(x => x.Name.Equals(returnType.Name, Ordinal))
+                ? $"T:{method.ReflectionName}.{returnType.Name}"
+                : $"T:{method.DeclaringTypeDefinition!.ReflectionName}.{returnType.Name}";
         }
 
         return new ModelReturn(returnId, returnType.Nullability == Nullability.Nullable);
@@ -523,7 +496,7 @@ internal static class ModelFactory
         var result = false;
         if (entity is IMember member)
         {
-            var parentName = member.DeclaringTypeDefinition!.FullName;
+            var parent = member.DeclaringTypeDefinition!.FullName;
             var entityId = member.GetIdString();
             var typeDefinition = member.DeclaringTypeDefinition;
 
@@ -540,11 +513,7 @@ internal static class ModelFactory
 
                         _ = TryGetDocumentationProvider(type.ParentModule!, out _);
 
-                        var lookupId = entityId.Replace(
-                            parentName,
-                            type.FullName,
-                            OrdinalIgnoreCase
-                        );
+                        var lookupId = entityId.Replace(parent, type.FullName, OrdinalIgnoreCase);
                         resultDocumentation = GetDocumentation(lookupId, resolver);
                         return resultDocumentation is not null;
                     });
@@ -579,16 +548,16 @@ internal static class ModelFactory
 
         var entity = IdStringProvider.FindEntity(id, resolver);
 
-        return TryGetDocumentation(entity, resolver, out var documentation) ? documentation : null;
+        return TryGetDocumentation(entity, resolver, out var doc) ? doc : null;
     }
 
     internal static bool TryGetDocumentation(
         IEntity? entity,
         ITypeResolveContext resolver,
-        [NotNullWhen(true)] out XElement? documentation
+        [NotNullWhen(true)] out XElement? doc
     )
     {
-        documentation = null;
+        doc = null;
 
         if (entity is null || entity.ParentModule is null)
         {
@@ -623,9 +592,9 @@ internal static class ModelFactory
             }
         }
 
-        documentation = result;
+        doc = result;
 
-        return documentation is not null;
+        return doc is not null;
     }
 
     private static XElement? ConvertToDocumentation(string? documentationString) =>

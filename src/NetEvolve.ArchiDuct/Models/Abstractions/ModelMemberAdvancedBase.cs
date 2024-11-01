@@ -26,10 +26,6 @@ public abstract class ModelMemberAdvancedBase : ModelMemberBase
     /// <value>Read-only collection of all described members.</value>
     public HashSet<ModelTypeParameter>? TypeParameters { get; internal set; }
 
-    private protected ModelMemberAdvancedBase(
-        IMember member,
-        ModelTypeBase parent,
-        XElement? documentation
-    )
-        : base(member, parent, documentation) { }
+    private protected ModelMemberAdvancedBase(IMember member, ModelTypeBase parent, XElement? doc)
+        : base(member, parent, doc) { }
 }

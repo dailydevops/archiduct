@@ -13,10 +13,6 @@ public sealed class ModelStaticConstructor : ModelMemberBase
     public override ModelKind Kind => ModelKind.StaticConstructor;
 
     /// <inheritdoc />
-    internal ModelStaticConstructor(
-        IMethod staticConstructor,
-        ModelTypeBase parentEntity,
-        XElement? documentation
-    )
-        : base(staticConstructor, parentEntity, documentation) { }
+    internal ModelStaticConstructor(IMethod method, ModelTypeBase parent, XElement? doc)
+        : base(method, parent, doc) { }
 }

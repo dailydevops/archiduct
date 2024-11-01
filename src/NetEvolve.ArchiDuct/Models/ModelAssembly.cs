@@ -45,11 +45,7 @@ public sealed class ModelAssembly : ModelBase
     public Version Version { get; }
 
     /// <inheritdoc />
-    internal ModelAssembly(IModule module, XElement? documentation)
-        : base(
-            $"A:{module.AssemblyName}",
-            module.AssemblyName,
-            module.AssemblyName,
-            documentation
-        ) => Version = module.AssemblyVersion;
+    internal ModelAssembly(IModule module, XElement? doc)
+        : base($"A:{module.AssemblyName}", module.AssemblyName, module.AssemblyName, doc) =>
+        Version = module.AssemblyVersion;
 }

@@ -18,6 +18,6 @@ public class ModelMethod : ModelMemberAdvancedBase
     public bool IsLocal { get; }
 
     /// <inheritdoc />
-    internal ModelMethod(IMethod method, ModelTypeBase parentEntity, XElement? documentation)
-        : base(method, parentEntity, documentation) => IsLocal = method.IsLocalFunction;
+    internal ModelMethod(IMethod method, ModelTypeBase parent, XElement? doc)
+        : base(method, parent, doc) => IsLocal = method.IsLocalFunction;
 }

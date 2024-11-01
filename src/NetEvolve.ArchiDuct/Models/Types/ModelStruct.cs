@@ -18,10 +18,6 @@ public sealed class ModelStruct : ModelTypeBase
     public override ModelKind Kind => ModelKind.Struct;
 
     /// <inheritdoc />
-    internal ModelStruct(
-        ITypeDefinition typeDefinition,
-        ModelBase parentEntity,
-        XElement? documentation
-    )
-        : base(typeDefinition, parentEntity, documentation) => IsRecord = typeDefinition.IsRecord;
+    internal ModelStruct(ITypeDefinition typeDefinition, ModelBase parent, XElement? doc)
+        : base(typeDefinition, parent, doc) => IsRecord = typeDefinition.IsRecord;
 }

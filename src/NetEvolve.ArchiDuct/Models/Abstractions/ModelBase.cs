@@ -44,17 +44,12 @@ public abstract class ModelBase
     private protected ModelBase(string id, string name, string fullName, XElement? xml)
         : this(id, name, fullName, ModelDocumentation.Default(xml)) { }
 
-    private protected ModelBase(
-        string id,
-        string name,
-        string fullName,
-        ModelDocumentation? documentation
-    )
+    private protected ModelBase(string id, string name, string fullName, ModelDocumentation? doc)
     {
         Id = id;
         Name = name;
         FullName = fullName;
 
-        Documentation = documentation;
+        Documentation = doc;
     }
 }

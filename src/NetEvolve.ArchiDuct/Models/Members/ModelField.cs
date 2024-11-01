@@ -13,6 +13,6 @@ public sealed class ModelField : ModelMemberBase
     public override ModelKind Kind => ModelKind.Field;
 
     /// <inheritdoc />
-    internal ModelField(IField field, ModelTypeBase parentEntity, XElement? documentation)
-        : base(field, parentEntity, documentation) { }
+    internal ModelField(IField field, ModelTypeBase parent, XElement? doc)
+        : base(field, parent, doc) { }
 }

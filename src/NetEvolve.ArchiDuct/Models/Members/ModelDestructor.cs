@@ -5,7 +5,7 @@ using ICSharpCode.Decompiler.TypeSystem;
 using NetEvolve.ArchiDuct.Models.Abstractions;
 
 /// <summary>
-/// Describes a destructor implementation.
+/// Describes a method implementation.
 /// </summary>
 public sealed class ModelDestructor : ModelMemberBase
 {
@@ -13,10 +13,6 @@ public sealed class ModelDestructor : ModelMemberBase
     public override ModelKind Kind => ModelKind.Destructor;
 
     /// <inheritdoc />
-    internal ModelDestructor(
-        IMethod destructor,
-        ModelTypeBase parentEntity,
-        XElement? documentation
-    )
-        : base(destructor, parentEntity, documentation) { }
+    internal ModelDestructor(IMethod method, ModelTypeBase parent, XElement? doc)
+        : base(method, parent, doc) { }
 }

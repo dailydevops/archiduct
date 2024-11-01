@@ -70,21 +70,17 @@ public abstract class ModelTypeBase : ModelEntityBase
     /// <value>Read-only collection of all described members.</value>
     public HashSet<ModelTypeParameter> TypeParameters { get; internal set; } = default!;
 
-    private protected ModelTypeBase(
-        ITypeDefinition typeDefinition,
-        ModelBase parentEntity,
-        XElement? documentation
-    )
+    private protected ModelTypeBase(ITypeDefinition typeDefinition, ModelBase parent, XElement? doc)
         : base(
             typeDefinition?.GetIdString()
                 ?? throw new ArgumentNullException(nameof(typeDefinition)),
             typeDefinition.Name,
             typeDefinition.GetQualifiedName(),
-            parentEntity,
-            documentation
+            parent,
+            doc
         )
     {
-        NamespaceId = parentEntity.Id;
+        NamespaceId = parent.Id;
         IsNested = typeDefinition.FullTypeName.IsNested;
     }
 }

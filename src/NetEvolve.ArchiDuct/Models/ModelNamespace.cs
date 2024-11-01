@@ -21,13 +21,13 @@ public sealed class ModelNamespace : ModelEntityBase
 
     internal static readonly char[] _segmentSeparator = ['.'];
 
-    internal ModelNamespace(string fullName, ModelAssembly parentEntity, XElement? documentation)
+    internal ModelNamespace(string fullName, ModelAssembly parent, XElement? doc)
         : base(
             $"N:{fullName}",
             GetLastSegment(fullName),
-            $"{parentEntity.FullName}, {fullName}",
-            parentEntity,
-            documentation
+            $"{parent.FullName}, {fullName}",
+            parent,
+            doc
         ) { }
 
     private static string GetLastSegment(string fullName) =>

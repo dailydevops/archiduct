@@ -20,17 +20,17 @@ public abstract class ModelEntityBase : ModelBase
         string id,
         string name,
         string fullName,
-        ModelBase parentEntity,
-        ModelDocumentation? documentation
+        ModelBase parent,
+        ModelDocumentation? doc
     )
-        : base(id, name, fullName, documentation) => ParentId = parentEntity.Id;
+        : base(id, name, fullName, doc) => ParentId = parent.Id;
 
     private protected ModelEntityBase(
         string id,
         string name,
         string fullName,
-        ModelBase parentEntity,
-        XElement? documentation
+        ModelBase parent,
+        XElement? doc
     )
-        : base(id, name, fullName, documentation) => ParentId = parentEntity.Id;
+        : base(id, name, fullName, doc) => ParentId = parent.Id;
 }

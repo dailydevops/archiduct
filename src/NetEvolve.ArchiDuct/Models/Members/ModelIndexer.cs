@@ -17,6 +17,6 @@ public sealed class ModelIndexer : ModelProperty
     public HashSet<ModelParameter> Parameters { get; internal set; } = default!;
 
     /// <inheritdoc />
-    internal ModelIndexer(IProperty indexer, ModelTypeBase parentEntity, XElement? documentation)
-        : base(indexer, parentEntity, documentation) { }
+    internal ModelIndexer(IProperty indexer, ModelTypeBase parent, XElement? doc)
+        : base(indexer, parent, doc) { }
 }

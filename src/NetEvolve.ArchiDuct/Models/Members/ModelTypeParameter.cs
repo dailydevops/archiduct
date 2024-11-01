@@ -13,12 +13,12 @@ public sealed class ModelTypeParameter : ModelEntityBase
     public override ModelKind Kind => ModelKind.TypeParameter;
 
     /// <inheritdoc />
-    internal ModelTypeParameter(ITypeParameter parameter, ModelEntityBase parentEntity)
+    internal ModelTypeParameter(ITypeParameter parameter, ModelEntityBase parent)
         : base(
-            $"{parentEntity.Id.Replace("M:", "G:", OrdinalIgnoreCase)}.{parameter.Name}",
+            $"{parent.Id.Replace("M:", "G:", OrdinalIgnoreCase)}.{parameter.Name}",
             parameter.Name,
-            $"{parentEntity.FullName}.{parameter.Name}",
-            parentEntity,
-            ModelDocumentation.LoadTypeParameter(parentEntity.Documentation, parameter.Name)
+            $"{parent.FullName}.{parameter.Name}",
+            parent,
+            ModelDocumentation.LoadTypeParameter(parent.Documentation, parameter.Name)
         ) { }
 }

@@ -13,6 +13,6 @@ public sealed class ModelExplicitEvent : ModelEvent
     public override ModelKind Kind => ModelKind.ExplicitEvent;
 
     /// <inheritdoc />
-    internal ModelExplicitEvent(IEvent @event, ModelTypeBase parentEntity, XElement? documentation)
-        : base(@event, parentEntity, documentation) { }
+    internal ModelExplicitEvent(IEvent @event, ModelTypeBase parent, XElement? doc)
+        : base(@event, parent, doc) { }
 }
