@@ -1,5 +1,4 @@
-﻿#if NET8_0_OR_GREATER
-namespace NetEvolve.ArchiDuct.Tests.Integration.Internals;
+﻿namespace NetEvolve.ArchiDuct.Tests.Integration.Internals;
 
 using System;
 using System.Runtime.InteropServices;
@@ -16,4 +15,3 @@ internal static partial class ExternTest2
     [DefaultDllImportSearchPaths(DllImportSearchPath.System32)]
     public static partial int MessageBox(IntPtr h, string m, string c, int type);
 }
-#endif
