@@ -50,6 +50,8 @@ public abstract class ModelMemberBase : ModelEntityBase
             ProtectedOrInternal => ModelAccessibility.ProtectedInternal,
             Protected => ModelAccessibility.Protected,
             Internal => ModelAccessibility.Internal,
+            None => throw new NotImplementedException(),
+            Private => throw new NotImplementedException(),
             _ => ModelAccessibility.Private,
         };
     }
