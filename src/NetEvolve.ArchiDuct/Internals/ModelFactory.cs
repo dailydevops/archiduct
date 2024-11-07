@@ -5,7 +5,6 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
-using ICSharpCode.Decompiler;
 using ICSharpCode.Decompiler.Documentation;
 using ICSharpCode.Decompiler.TypeSystem;
 using NetEvolve.ArchiDuct.Extensions;
@@ -148,6 +147,7 @@ internal static class ModelFactory
             return ModelAccessibility.File;
         }
 
+#pragma warning disable IDE0072 // Add missing cases
         return typeDefinition.Accessibility switch
         {
             Public => ModelAccessibility.Public,
@@ -157,6 +157,7 @@ internal static class ModelFactory
             Private => ModelAccessibility.Private,
             _ => ModelAccessibility.Internal,
         };
+#pragma warning restore IDE0072 // Add missing cases
     }
 
     internal static HashSet<ModelAttribute> MapAttributes(

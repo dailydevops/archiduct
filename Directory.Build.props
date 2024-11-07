@@ -20,8 +20,8 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <NetEvolve_ProjectTargetFrameworks>net6.0;net8.0</NetEvolve_ProjectTargetFrameworks>
-    <NetEvolve_TestTargetFrameworks>net6.0;net8.0</NetEvolve_TestTargetFrameworks>
+    <NetEvolve_ProjectTargetFrameworks>net8.0</NetEvolve_ProjectTargetFrameworks>
+    <NetEvolve_TestTargetFrameworks>net8.0</NetEvolve_TestTargetFrameworks>
 
     <NoWarn>$(NoWarn);NU5104</NoWarn>
   </PropertyGroup>

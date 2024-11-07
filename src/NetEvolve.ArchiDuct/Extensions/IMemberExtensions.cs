@@ -9,6 +9,7 @@ internal static class IMemberExtensions
         IsUnsafe(member.ReturnType)
         || (member is IParameterizedMember method && method.Parameters.Any(p => IsUnsafe(p.Type)));
 
+#pragma warning disable IDE0072 // Add missing cases
     private static bool IsUnsafe(IType type) =>
         type.Kind switch
         {
@@ -17,4 +18,5 @@ internal static class IMemberExtensions
                 IsUnsafe(elementType.ElementType),
             _ => false,
         };
+#pragma warning restore IDE0072 // Add missing cases
 }

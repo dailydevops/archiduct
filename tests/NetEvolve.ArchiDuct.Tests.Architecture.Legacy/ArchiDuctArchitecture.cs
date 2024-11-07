@@ -5,16 +5,12 @@ using System;
 internal static class ArchiDuctArchitecture
 {
     private static readonly Lazy<ArchUnitNET.Domain.Architecture> _instance =
-        new(() => LoadArchitecture(), System.Threading.LazyThreadSafetyMode.PublicationOnly);
+        new(LoadArchitecture, System.Threading.LazyThreadSafetyMode.PublicationOnly);
 
     public static ArchUnitNET.Domain.Architecture Instance => _instance.Value;
 
-    private static ArchUnitNET.Domain.Architecture LoadArchitecture()
-    {
-        var architecture = new ArchUnitNET.Loader.ArchLoader()
+    private static ArchUnitNET.Domain.Architecture LoadArchitecture() =>
+        new ArchUnitNET.Loader.ArchLoader()
             .LoadAssemblies(typeof(ArchitectureCollector).Assembly)
             .Build();
-
-        return architecture;
-    }
 }

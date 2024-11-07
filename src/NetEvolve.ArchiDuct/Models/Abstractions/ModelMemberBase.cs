@@ -43,6 +43,7 @@ public abstract class ModelMemberBase : ModelEntityBase
             return ModelAccessibility.None;
         }
 
+#pragma warning disable IDE0072 // Add missing cases
         return member.Accessibility switch
         {
             Public => ModelAccessibility.Public,
@@ -52,5 +53,6 @@ public abstract class ModelMemberBase : ModelEntityBase
             Internal => ModelAccessibility.Internal,
             _ => ModelAccessibility.Private,
         };
+#pragma warning restore IDE0072 // Add missing cases
     }
 }

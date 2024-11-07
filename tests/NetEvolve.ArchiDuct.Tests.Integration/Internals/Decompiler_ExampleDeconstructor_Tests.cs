@@ -12,11 +12,13 @@ public class DeconstructorExample
     public string FirstName { get; set; }
     public string LastName { get; set; }
 
+#pragma warning disable IDE0060, RCS1163 // Unused parameter
     public DeconstructorExample(string fname, string lname, string cityName, string stateName)
     {
         FirstName = fname;
         LastName = lname;
     }
+#pragma warning restore IDE0060, RCS1163 // Remove unused parameter
 
     public void Deconstruct(out string fullName) => fullName = $"{FirstName} {LastName}";
 
