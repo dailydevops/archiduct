@@ -1,5 +1,5 @@
 ﻿{
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor,
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor,
@@ -10,7 +10,7 @@
     ],
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest
   },
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor(System.Double,System.ReadOnlySpan{System.Double}): {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor(System.Double,System.ReadOnlySpan{System.Double}): {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor(System.Double,System.ReadOnlySpan{System.Double}),
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.#ctor(System.Double,System.ReadOnlySpan{System.Double}),
@@ -45,7 +45,7 @@
     ],
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest
   },
-  P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.Rate: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.Rate: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.Rate,
     Getter: {
@@ -70,7 +70,7 @@
       IsNullable: false
     }
   },
-  P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.Values: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.Values: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest.Values,
     Getter: {

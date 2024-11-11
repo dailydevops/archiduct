@@ -1,6 +1,6 @@
 ﻿{
   Assemblies: {
-    A:System.Private.CoreLib: {
+    System.Private.CoreLib: {
       Attributes: [
         {
           FullName: System.CLSCompliantAttribute,
@@ -153,7 +153,7 @@
     }
   },
   Members: {
-    F:System.String._firstChar: {
+    System.Private.CoreLib, Version=x.x.x.x, F:System.String._firstChar: {
       Accessibility: Private,
       Attributes: [
         {
@@ -173,7 +173,7 @@
         IsNullable: false
       }
     },
-    F:System.String._stringLength: {
+    System.Private.CoreLib, Version=x.x.x.x, F:System.String._stringLength: {
       Accessibility: Private,
       Attributes: [
         {
@@ -196,7 +196,7 @@
         IsNullable: false
       }
     },
-    F:System.String.Empty: {
+    System.Private.CoreLib, Version=x.x.x.x, F:System.String.Empty: {
       Accessibility: Public,
       Attributes: [
         {
@@ -220,7 +220,7 @@
         IsNullable: false
       }
     },
-    F:System.String.SearchValuesStorage.NewLineChars: {
+    System.Private.CoreLib, Version=x.x.x.x, F:System.String.SearchValuesStorage.NewLineChars: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.String.SearchValuesStorage.NewLineChars,
       Id: F:System.String.SearchValuesStorage.NewLineChars,
@@ -236,7 +236,7 @@
         IsNullable: false
       }
     },
-    M:System.String.#ctor(System.Char,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.Char,System.Int32): {
       Accessibility: Public,
       Attributes: [
         {
@@ -289,7 +289,7 @@
       ],
       ParentId: T:System.String
     },
-    M:System.String.#ctor(System.Char[],System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.Char[],System.Int32,System.Int32): {
       Accessibility: Public,
       Attributes: [
         {
@@ -353,7 +353,7 @@
       ],
       ParentId: T:System.String
     },
-    M:System.String.#ctor(System.Char[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.Char[]): {
       Accessibility: Public,
       Attributes: [
         {
@@ -395,7 +395,7 @@
       ],
       ParentId: T:System.String
     },
-    M:System.String.#ctor(System.Char*,System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.Char*,System.Int32,System.Int32): {
       Accessibility: Public,
       Attributes: [
         {
@@ -466,7 +466,7 @@
       ],
       ParentId: T:System.String
     },
-    M:System.String.#ctor(System.Char*): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.Char*): {
       Accessibility: Public,
       Attributes: [
         {
@@ -515,7 +515,7 @@
       ],
       ParentId: T:System.String
     },
-    M:System.String.#ctor(System.ReadOnlySpan{System.Char}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.ReadOnlySpan{System.Char}): {
       Accessibility: Public,
       Attributes: [
         {
@@ -557,7 +557,7 @@
       ],
       ParentId: T:System.String
     },
-    M:System.String.#ctor(System.SByte*,System.Int32,System.Int32,System.Text.Encoding): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.SByte*,System.Int32,System.Int32,System.Text.Encoding): {
       Accessibility: Public,
       Attributes: [
         {
@@ -639,7 +639,7 @@
       ],
       ParentId: T:System.String
     },
-    M:System.String.#ctor(System.SByte*,System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.SByte*,System.Int32,System.Int32): {
       Accessibility: Public,
       Attributes: [
         {
@@ -710,7 +710,7 @@
       ],
       ParentId: T:System.String
     },
-    M:System.String.#ctor(System.SByte*): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.#ctor(System.SByte*): {
       Accessibility: Public,
       Attributes: [
         {
@@ -759,7 +759,7 @@
       ],
       ParentId: T:System.String
     },
-    M:System.String.CheckStringComparison(System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CheckStringComparison(System.StringComparison): {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.CheckStringComparison(System.StringComparison),
       Id: M:System.String.CheckStringComparison(System.StringComparison),
@@ -788,7 +788,7 @@
         IsNullable: false
       }
     },
-    M:System.String.CheckStringSplitOptions(System.StringSplitOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CheckStringSplitOptions(System.StringSplitOptions): {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.CheckStringSplitOptions(System.StringSplitOptions),
       Id: M:System.String.CheckStringSplitOptions(System.StringSplitOptions),
@@ -817,7 +817,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Clone: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Clone: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Clone,
       Id: M:System.String.Clone,
@@ -830,7 +830,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Boolean,System.Globalization.CultureInfo): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Boolean,System.Globalization.CultureInfo): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Boolean,System.Globalization.CultureInfo),
       Id: M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Boolean,System.Globalization.CultureInfo),
@@ -936,7 +936,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Boolean): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Boolean): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Boolean),
       Id: M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Boolean),
@@ -1031,7 +1031,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CultureInfo,System.Globalization.CompareOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CultureInfo,System.Globalization.CompareOptions): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CultureInfo,System.Globalization.CompareOptions),
       Id: M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CultureInfo,System.Globalization.CompareOptions),
@@ -1137,7 +1137,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.StringComparison): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.StringComparison),
       Id: M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32,System.StringComparison),
@@ -1232,7 +1232,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32),
       Id: M:System.String.Compare(System.String,System.Int32,System.String,System.Int32,System.Int32),
@@ -1316,7 +1316,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Compare(System.String,System.String,System.Boolean,System.Globalization.CultureInfo): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.String,System.Boolean,System.Globalization.CultureInfo): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.String,System.Boolean,System.Globalization.CultureInfo),
       Id: M:System.String.Compare(System.String,System.String,System.Boolean,System.Globalization.CultureInfo),
@@ -1389,7 +1389,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Compare(System.String,System.String,System.Boolean): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.String,System.Boolean): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.String,System.Boolean),
       Id: M:System.String.Compare(System.String,System.String,System.Boolean),
@@ -1451,7 +1451,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Compare(System.String,System.String,System.Globalization.CultureInfo,System.Globalization.CompareOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.String,System.Globalization.CultureInfo,System.Globalization.CompareOptions): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.String,System.Globalization.CultureInfo,System.Globalization.CompareOptions),
       Id: M:System.String.Compare(System.String,System.String,System.Globalization.CultureInfo,System.Globalization.CompareOptions),
@@ -1524,7 +1524,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Compare(System.String,System.String,System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.String,System.StringComparison): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.String,System.StringComparison),
       Id: M:System.String.Compare(System.String,System.String,System.StringComparison),
@@ -1586,7 +1586,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Compare(System.String,System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Compare(System.String,System.String),
       Id: M:System.String.Compare(System.String,System.String),
@@ -1637,7 +1637,7 @@
         IsNullable: false
       }
     },
-    M:System.String.CompareOrdinal(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CompareOrdinal(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}): {
       Accessibility: Internal,
       Attributes: [
         {
@@ -1689,7 +1689,7 @@
         IsNullable: false
       }
     },
-    M:System.String.CompareOrdinal(System.String,System.Int32,System.String,System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CompareOrdinal(System.String,System.Int32,System.String,System.Int32,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.CompareOrdinal(System.String,System.Int32,System.String,System.Int32,System.Int32),
       Id: M:System.String.CompareOrdinal(System.String,System.Int32,System.String,System.Int32,System.Int32),
@@ -1766,7 +1766,7 @@
         IsNullable: false
       }
     },
-    M:System.String.CompareOrdinal(System.String,System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CompareOrdinal(System.String,System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.CompareOrdinal(System.String,System.String),
       Id: M:System.String.CompareOrdinal(System.String,System.String),
@@ -1810,7 +1810,7 @@
         IsNullable: false
       }
     },
-    M:System.String.CompareOrdinalHelper(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CompareOrdinalHelper(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32): {
       Accessibility: Private,
       Attributes: [
         {
@@ -1905,7 +1905,7 @@
         IsNullable: false
       }
     },
-    M:System.String.CompareOrdinalHelper(System.String,System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CompareOrdinalHelper(System.String,System.String): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.CompareOrdinalHelper(System.String,System.String),
       Id: M:System.String.CompareOrdinalHelper(System.String,System.String),
@@ -1948,7 +1948,7 @@
         IsNullable: false
       }
     },
-    M:System.String.CompareTo(System.Object): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CompareTo(System.Object): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.CompareTo(System.Object),
       Id: M:System.String.CompareTo(System.Object),
@@ -1977,7 +1977,7 @@
         IsNullable: false
       }
     },
-    M:System.String.CompareTo(System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CompareTo(System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.CompareTo(System.String),
       Id: M:System.String.CompareTo(System.String),
@@ -2006,7 +2006,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Concat(System.Collections.Generic.IEnumerable{System.String}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.Collections.Generic.IEnumerable{System.String}): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.Collections.Generic.IEnumerable{System.String}),
       Id: M:System.String.Concat(System.Collections.Generic.IEnumerable{System.String}),
@@ -2050,7 +2050,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Concat(System.Object,System.Object,System.Object): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.Object,System.Object,System.Object): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.Object,System.Object,System.Object),
       Id: M:System.String.Concat(System.Object,System.Object,System.Object),
@@ -2116,7 +2116,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Concat(System.Object,System.Object): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.Object,System.Object): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.Object,System.Object),
       Id: M:System.String.Concat(System.Object,System.Object),
@@ -2171,7 +2171,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Concat(System.Object): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.Object): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.Object),
       Id: M:System.String.Concat(System.Object),
@@ -2215,7 +2215,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Concat(System.Object[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.Object[]): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.Object[]),
       Id: M:System.String.Concat(System.Object[]),
@@ -2262,7 +2262,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}): {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}),
       Id: M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}),
@@ -2350,7 +2350,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}),
       Id: M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}),
@@ -2427,7 +2427,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}),
       Id: M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}),
@@ -2493,7 +2493,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}),
       Id: M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char}),
@@ -2548,7 +2548,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Concat(System.String,System.String,System.String,System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.String,System.String,System.String,System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.String,System.String,System.String,System.String),
       Id: M:System.String.Concat(System.String,System.String,System.String,System.String),
@@ -2625,7 +2625,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Concat(System.String,System.String,System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.String,System.String,System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.String,System.String,System.String),
       Id: M:System.String.Concat(System.String,System.String,System.String),
@@ -2691,7 +2691,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Concat(System.String,System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.String,System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.String,System.String),
       Id: M:System.String.Concat(System.String,System.String),
@@ -2746,7 +2746,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Concat(System.String[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.String[]): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat(System.String[]),
       Id: M:System.String.Concat(System.String[]),
@@ -2793,7 +2793,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Concat``1(System.Collections.Generic.IEnumerable{``0}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat``1(System.Collections.Generic.IEnumerable{``0}): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Concat``1(System.Collections.Generic.IEnumerable{``0}),
       Id: M:System.String.Concat``1(System.Collections.Generic.IEnumerable{``0}),
@@ -2846,7 +2846,7 @@
         }
       ]
     },
-    M:System.String.Contains(System.Char,System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Contains(System.Char,System.StringComparison): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Contains(System.Char,System.StringComparison),
       Id: M:System.String.Contains(System.Char,System.StringComparison),
@@ -2888,7 +2888,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Contains(System.Char): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Contains(System.Char): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Contains(System.Char),
       Id: M:System.String.Contains(System.Char),
@@ -2919,7 +2919,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Contains(System.String,System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Contains(System.String,System.StringComparison): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Contains(System.String,System.StringComparison),
       Id: M:System.String.Contains(System.String,System.StringComparison),
@@ -2961,7 +2961,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Contains(System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Contains(System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Contains(System.String),
       Id: M:System.String.Contains(System.String),
@@ -2992,7 +2992,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Copy(System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Copy(System.String): {
       Accessibility: Public,
       Attributes: [
         {
@@ -3035,7 +3035,7 @@
         IsNullable: false
       }
     },
-    M:System.String.CopyStringContent(System.String,System.Int32,System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CopyStringContent(System.String,System.Int32,System.String): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.CopyStringContent(System.String,System.Int32,System.String),
       Id: M:System.String.CopyStringContent(System.String,System.Int32,System.String),
@@ -3086,7 +3086,7 @@
         IsNullable: false
       }
     },
-    M:System.String.CopyTo(System.Int32,System.Char[],System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CopyTo(System.Int32,System.Char[],System.Int32,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.CopyTo(System.Int32,System.Char[],System.Int32,System.Int32),
       Id: M:System.String.CopyTo(System.Int32,System.Char[],System.Int32,System.Int32),
@@ -3148,7 +3148,7 @@
         IsNullable: false
       }
     },
-    M:System.String.CopyTo(System.Span{System.Char}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CopyTo(System.Span{System.Char}): {
       Accessibility: Public,
       Attributes: [
         {
@@ -3185,7 +3185,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Create(System.IFormatProvider,System.Runtime.CompilerServices.DefaultInterpolatedStringHandler@): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Create(System.IFormatProvider,System.Runtime.CompilerServices.DefaultInterpolatedStringHandler@): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Create(System.IFormatProvider,System.Runtime.CompilerServices.DefaultInterpolatedStringHandler@),
       Id: M:System.String.Create(System.IFormatProvider,System.Runtime.CompilerServices.DefaultInterpolatedStringHandler@),
@@ -3232,7 +3232,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Create(System.IFormatProvider,System.Span{System.Char},System.Runtime.CompilerServices.DefaultInterpolatedStringHandler@): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Create(System.IFormatProvider,System.Span{System.Char},System.Runtime.CompilerServices.DefaultInterpolatedStringHandler@): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Create(System.IFormatProvider,System.Span{System.Char},System.Runtime.CompilerServices.DefaultInterpolatedStringHandler@),
       Id: M:System.String.Create(System.IFormatProvider,System.Span{System.Char},System.Runtime.CompilerServices.DefaultInterpolatedStringHandler@),
@@ -3290,7 +3290,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Create``1(System.Int32,``0,System.Buffers.SpanAction{System.Char,``0}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Create``1(System.Int32,``0,System.Buffers.SpanAction{System.Char,``0}): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Create``1(System.Int32,``0,System.Buffers.SpanAction{System.Char,``0}),
       Id: M:System.String.Create``1(System.Int32,``0,System.Buffers.SpanAction{System.Char,``0}),
@@ -3354,7 +3354,7 @@
         }
       ]
     },
-    M:System.String.CreateFromChar(System.Char,System.Char): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CreateFromChar(System.Char,System.Char): {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.CreateFromChar(System.Char,System.Char),
       Id: M:System.String.CreateFromChar(System.Char,System.Char),
@@ -3397,7 +3397,7 @@
         IsNullable: false
       }
     },
-    M:System.String.CreateFromChar(System.Char): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CreateFromChar(System.Char): {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.CreateFromChar(System.Char),
       Id: M:System.String.CreateFromChar(System.Char),
@@ -3429,7 +3429,7 @@
         IsNullable: false
       }
     },
-    M:System.String.CreateSplitArrayOfThisAsSoleValue(System.StringSplitOptions,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CreateSplitArrayOfThisAsSoleValue(System.StringSplitOptions,System.Int32): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.CreateSplitArrayOfThisAsSoleValue(System.StringSplitOptions,System.Int32),
       Id: M:System.String.CreateSplitArrayOfThisAsSoleValue(System.StringSplitOptions,System.Int32),
@@ -3466,7 +3466,7 @@
         IsNullable: false
       }
     },
-    M:System.String.CreateStringForSByteConstructor(System.Byte*,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CreateStringForSByteConstructor(System.Byte*,System.Int32): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.CreateStringForSByteConstructor(System.Byte*,System.Int32),
       Id: M:System.String.CreateStringForSByteConstructor(System.Byte*,System.Int32),
@@ -3507,7 +3507,7 @@
         IsNullable: false
       }
     },
-    M:System.String.CreateStringFromEncoding(System.Byte*,System.Int32,System.Text.Encoding): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CreateStringFromEncoding(System.Byte*,System.Int32,System.Text.Encoding): {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.CreateStringFromEncoding(System.Byte*,System.Int32,System.Text.Encoding),
       Id: M:System.String.CreateStringFromEncoding(System.Byte*,System.Int32,System.Text.Encoding),
@@ -3559,7 +3559,7 @@
         IsNullable: false
       }
     },
-    M:System.String.CreateTrimmedString(System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.CreateTrimmedString(System.Int32,System.Int32): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.CreateTrimmedString(System.Int32,System.Int32),
       Id: M:System.String.CreateTrimmedString(System.Int32,System.Int32),
@@ -3596,7 +3596,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Ctor(System.Char,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.Char,System.Int32): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.Char,System.Int32),
       Id: M:System.String.Ctor(System.Char,System.Int32),
@@ -3646,7 +3646,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Ctor(System.Char[],System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.Char[],System.Int32,System.Int32): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.Char[],System.Int32,System.Int32),
       Id: M:System.String.Ctor(System.Char[],System.Int32,System.Int32),
@@ -3707,7 +3707,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Ctor(System.Char[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.Char[]): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.Char[]),
       Id: M:System.String.Ctor(System.Char[]),
@@ -3746,7 +3746,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Ctor(System.Char*,System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.Char*,System.Int32,System.Int32): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.Char*,System.Int32,System.Int32),
       Id: M:System.String.Ctor(System.Char*,System.Int32,System.Int32),
@@ -3808,7 +3808,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Ctor(System.Char*): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.Char*): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.Char*),
       Id: M:System.String.Ctor(System.Char*),
@@ -3848,7 +3848,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Ctor(System.ReadOnlySpan{System.Char}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.ReadOnlySpan{System.Char}): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.ReadOnlySpan{System.Char}),
       Id: M:System.String.Ctor(System.ReadOnlySpan{System.Char}),
@@ -3887,7 +3887,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Ctor(System.SByte*,System.Int32,System.Int32,System.Text.Encoding): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.SByte*,System.Int32,System.Int32,System.Text.Encoding): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.SByte*,System.Int32,System.Int32,System.Text.Encoding),
       Id: M:System.String.Ctor(System.SByte*,System.Int32,System.Int32,System.Text.Encoding),
@@ -3960,7 +3960,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Ctor(System.SByte*,System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.SByte*,System.Int32,System.Int32): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.SByte*,System.Int32,System.Int32),
       Id: M:System.String.Ctor(System.SByte*,System.Int32,System.Int32),
@@ -4022,7 +4022,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Ctor(System.SByte*): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.SByte*): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Ctor(System.SByte*),
       Id: M:System.String.Ctor(System.SByte*),
@@ -4062,7 +4062,7 @@
         IsNullable: false
       }
     },
-    M:System.String.EndsWith(System.Char): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.EndsWith(System.Char): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.EndsWith(System.Char),
       Id: M:System.String.EndsWith(System.Char),
@@ -4093,7 +4093,7 @@
         IsNullable: false
       }
     },
-    M:System.String.EndsWith(System.String,System.Boolean,System.Globalization.CultureInfo): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.EndsWith(System.String,System.Boolean,System.Globalization.CultureInfo): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.EndsWith(System.String,System.Boolean,System.Globalization.CultureInfo),
       Id: M:System.String.EndsWith(System.String,System.Boolean,System.Globalization.CultureInfo),
@@ -4146,7 +4146,7 @@
         IsNullable: false
       }
     },
-    M:System.String.EndsWith(System.String,System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.EndsWith(System.String,System.StringComparison): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.EndsWith(System.String,System.StringComparison),
       Id: M:System.String.EndsWith(System.String,System.StringComparison),
@@ -4188,7 +4188,7 @@
         IsNullable: false
       }
     },
-    M:System.String.EndsWith(System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.EndsWith(System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.EndsWith(System.String),
       Id: M:System.String.EndsWith(System.String),
@@ -4219,7 +4219,7 @@
         IsNullable: false
       }
     },
-    M:System.String.EnumerateRunes: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.EnumerateRunes: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.EnumerateRunes,
       Id: M:System.String.EnumerateRunes,
@@ -4232,7 +4232,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Equals(System.Object): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Equals(System.Object): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Equals(System.Object),
       Id: M:System.String.Equals(System.Object),
@@ -4267,7 +4267,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Equals(System.String,System.String,System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Equals(System.String,System.String,System.StringComparison): {
       Accessibility: Public,
       Attributes: [
         {
@@ -4332,7 +4332,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Equals(System.String,System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Equals(System.String,System.String): {
       Accessibility: Public,
       Attributes: [
         {
@@ -4386,7 +4386,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Equals(System.String,System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Equals(System.String,System.StringComparison): {
       Accessibility: Public,
       Attributes: [
         {
@@ -4437,7 +4437,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Equals(System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Equals(System.String): {
       Accessibility: Public,
       Attributes: [
         {
@@ -4477,7 +4477,7 @@
         IsNullable: false
       }
     },
-    M:System.String.EqualsHelper(System.String,System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.EqualsHelper(System.String,System.String): {
       Accessibility: Private,
       Attributes: [
         {
@@ -4525,7 +4525,7 @@
         IsNullable: false
       }
     },
-    M:System.String.EqualsOrdinalIgnoreCase(System.String,System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.EqualsOrdinalIgnoreCase(System.String,System.String): {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.EqualsOrdinalIgnoreCase(System.String,System.String),
       Id: M:System.String.EqualsOrdinalIgnoreCase(System.String,System.String),
@@ -4565,7 +4565,7 @@
         IsNullable: false
       }
     },
-    M:System.String.EqualsOrdinalIgnoreCaseNoLengthCheck(System.String,System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.EqualsOrdinalIgnoreCaseNoLengthCheck(System.String,System.String): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.EqualsOrdinalIgnoreCaseNoLengthCheck(System.String,System.String),
       Id: M:System.String.EqualsOrdinalIgnoreCaseNoLengthCheck(System.String,System.String),
@@ -4605,7 +4605,7 @@
         IsNullable: false
       }
     },
-    M:System.String.FastAllocateString(System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.FastAllocateString(System.Int32): {
       Accessibility: Internal,
       Attributes: [
         {
@@ -4643,7 +4643,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Format(System.IFormatProvider,System.String,System.Object,System.Object,System.Object): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.IFormatProvider,System.String,System.Object,System.Object,System.Object): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.IFormatProvider,System.String,System.Object,System.Object,System.Object),
       Id: M:System.String.Format(System.IFormatProvider,System.String,System.Object,System.Object,System.Object),
@@ -4731,7 +4731,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Format(System.IFormatProvider,System.String,System.Object,System.Object): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.IFormatProvider,System.String,System.Object,System.Object): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.IFormatProvider,System.String,System.Object,System.Object),
       Id: M:System.String.Format(System.IFormatProvider,System.String,System.Object,System.Object),
@@ -4808,7 +4808,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Format(System.IFormatProvider,System.String,System.Object): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.IFormatProvider,System.String,System.Object): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.IFormatProvider,System.String,System.Object),
       Id: M:System.String.Format(System.IFormatProvider,System.String,System.Object),
@@ -4874,7 +4874,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Format(System.IFormatProvider,System.String,System.Object[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.IFormatProvider,System.String,System.Object[]): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.IFormatProvider,System.String,System.Object[]),
       Id: M:System.String.Format(System.IFormatProvider,System.String,System.Object[]),
@@ -4943,7 +4943,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Format(System.IFormatProvider,System.Text.CompositeFormat,System.Object[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.IFormatProvider,System.Text.CompositeFormat,System.Object[]): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.IFormatProvider,System.Text.CompositeFormat,System.Object[]),
       Id: M:System.String.Format(System.IFormatProvider,System.Text.CompositeFormat,System.Object[]),
@@ -5012,7 +5012,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Format(System.IFormatProvider,System.Text.CompositeFormat,System.ReadOnlySpan{System.Object}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.IFormatProvider,System.Text.CompositeFormat,System.ReadOnlySpan{System.Object}): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.IFormatProvider,System.Text.CompositeFormat,System.ReadOnlySpan{System.Object}),
       Id: M:System.String.Format(System.IFormatProvider,System.Text.CompositeFormat,System.ReadOnlySpan{System.Object}),
@@ -5078,7 +5078,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Format(System.String,System.Object,System.Object,System.Object): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.String,System.Object,System.Object,System.Object): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.String,System.Object,System.Object,System.Object),
       Id: M:System.String.Format(System.String,System.Object,System.Object,System.Object),
@@ -5155,7 +5155,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Format(System.String,System.Object,System.Object): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.String,System.Object,System.Object): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.String,System.Object,System.Object),
       Id: M:System.String.Format(System.String,System.Object,System.Object),
@@ -5221,7 +5221,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Format(System.String,System.Object): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.String,System.Object): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.String,System.Object),
       Id: M:System.String.Format(System.String,System.Object),
@@ -5276,7 +5276,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Format(System.String,System.Object[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.String,System.Object[]): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format(System.String,System.Object[]),
       Id: M:System.String.Format(System.String,System.Object[]),
@@ -5334,7 +5334,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Format``1(System.IFormatProvider,System.Text.CompositeFormat,``0): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format``1(System.IFormatProvider,System.Text.CompositeFormat,``0): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format``1(System.IFormatProvider,System.Text.CompositeFormat,``0),
       Id: M:System.String.Format``1(System.IFormatProvider,System.Text.CompositeFormat,``0),
@@ -5409,7 +5409,7 @@
         }
       ]
     },
-    M:System.String.Format``2(System.IFormatProvider,System.Text.CompositeFormat,``0,``1): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format``2(System.IFormatProvider,System.Text.CompositeFormat,``0,``1): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format``2(System.IFormatProvider,System.Text.CompositeFormat,``0,``1),
       Id: M:System.String.Format``2(System.IFormatProvider,System.Text.CompositeFormat,``0,``1),
@@ -5502,7 +5502,7 @@
         }
       ]
     },
-    M:System.String.Format``3(System.IFormatProvider,System.Text.CompositeFormat,``0,``1,``2,System.ReadOnlySpan{System.Object}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format``3(System.IFormatProvider,System.Text.CompositeFormat,``0,``1,``2,System.ReadOnlySpan{System.Object}): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format``3(System.IFormatProvider,System.Text.CompositeFormat,``0,``1,``2,System.ReadOnlySpan{System.Object}),
       Id: M:System.String.Format``3(System.IFormatProvider,System.Text.CompositeFormat,``0,``1,``2,System.ReadOnlySpan{System.Object}),
@@ -5624,7 +5624,7 @@
         }
       ]
     },
-    M:System.String.Format``3(System.IFormatProvider,System.Text.CompositeFormat,``0,``1,``2): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format``3(System.IFormatProvider,System.Text.CompositeFormat,``0,``1,``2): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Format``3(System.IFormatProvider,System.Text.CompositeFormat,``0,``1,``2),
       Id: M:System.String.Format``3(System.IFormatProvider,System.Text.CompositeFormat,``0,``1,``2),
@@ -5735,7 +5735,7 @@
         }
       ]
     },
-    M:System.String.FormatHelper(System.IFormatProvider,System.String,System.ReadOnlySpan{System.Object}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.FormatHelper(System.IFormatProvider,System.String,System.ReadOnlySpan{System.Object}): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.FormatHelper(System.IFormatProvider,System.String,System.ReadOnlySpan{System.Object}),
       Id: M:System.String.FormatHelper(System.IFormatProvider,System.String,System.ReadOnlySpan{System.Object}),
@@ -5786,7 +5786,7 @@
         IsNullable: false
       }
     },
-    M:System.String.GetBytesFromEncoding(System.Byte*,System.Int32,System.Text.Encoding): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetBytesFromEncoding(System.Byte*,System.Int32,System.Text.Encoding): {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetBytesFromEncoding(System.Byte*,System.Int32,System.Text.Encoding),
       Id: M:System.String.GetBytesFromEncoding(System.Byte*,System.Int32,System.Text.Encoding),
@@ -5837,7 +5837,7 @@
         IsNullable: false
       }
     },
-    M:System.String.GetCaseCompareOfComparisonCulture(System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetCaseCompareOfComparisonCulture(System.StringComparison): {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetCaseCompareOfComparisonCulture(System.StringComparison),
       Id: M:System.String.GetCaseCompareOfComparisonCulture(System.StringComparison),
@@ -5866,7 +5866,7 @@
         IsNullable: false
       }
     },
-    M:System.String.GetCompareOptionsFromOrdinalStringComparison(System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetCompareOptionsFromOrdinalStringComparison(System.StringComparison): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetCompareOptionsFromOrdinalStringComparison(System.StringComparison),
       Id: M:System.String.GetCompareOptionsFromOrdinalStringComparison(System.StringComparison),
@@ -5895,7 +5895,7 @@
         IsNullable: false
       }
     },
-    M:System.String.GetEnumerator: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetEnumerator: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetEnumerator,
       Id: M:System.String.GetEnumerator,
@@ -5908,7 +5908,7 @@
         IsNullable: false
       }
     },
-    M:System.String.GetHashCode: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetHashCode: {
       Accessibility: Public,
       Attributes: [
         {
@@ -5937,7 +5937,7 @@
         IsNullable: false
       }
     },
-    M:System.String.GetHashCode(System.ReadOnlySpan{System.Char},System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetHashCode(System.ReadOnlySpan{System.Char},System.StringComparison): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetHashCode(System.ReadOnlySpan{System.Char},System.StringComparison),
       Id: M:System.String.GetHashCode(System.ReadOnlySpan{System.Char},System.StringComparison),
@@ -5982,7 +5982,7 @@
         IsNullable: false
       }
     },
-    M:System.String.GetHashCode(System.ReadOnlySpan{System.Char}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetHashCode(System.ReadOnlySpan{System.Char}): {
       Accessibility: Public,
       Attributes: [
         {
@@ -6024,7 +6024,7 @@
         IsNullable: false
       }
     },
-    M:System.String.GetHashCode(System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetHashCode(System.StringComparison): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetHashCode(System.StringComparison),
       Id: M:System.String.GetHashCode(System.StringComparison),
@@ -6055,7 +6055,7 @@
         IsNullable: false
       }
     },
-    M:System.String.GetHashCodeOrdinalIgnoreCase: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetHashCodeOrdinalIgnoreCase: {
       Accessibility: Internal,
       Attributes: [
         {
@@ -6079,7 +6079,7 @@
         IsNullable: false
       }
     },
-    M:System.String.GetHashCodeOrdinalIgnoreCase(System.ReadOnlySpan{System.Char}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetHashCodeOrdinalIgnoreCase(System.ReadOnlySpan{System.Char}): {
       Accessibility: Internal,
       Attributes: [
         {
@@ -6119,7 +6119,7 @@
         IsNullable: false
       }
     },
-    M:System.String.GetNonRandomizedHashCode: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetNonRandomizedHashCode: {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetNonRandomizedHashCode,
       Id: M:System.String.GetNonRandomizedHashCode,
@@ -6132,7 +6132,7 @@
         IsNullable: false
       }
     },
-    M:System.String.GetNonRandomizedHashCodeOrdinalIgnoreCase: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetNonRandomizedHashCodeOrdinalIgnoreCase: {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetNonRandomizedHashCodeOrdinalIgnoreCase,
       Id: M:System.String.GetNonRandomizedHashCodeOrdinalIgnoreCase,
@@ -6145,7 +6145,7 @@
         IsNullable: false
       }
     },
-    M:System.String.GetPinnableReference: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetPinnableReference: {
       Accessibility: Public,
       Attributes: [
         {
@@ -6176,7 +6176,7 @@
         IsNullable: false
       }
     },
-    M:System.String.GetRawStringData: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetRawStringData: {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetRawStringData,
       Id: M:System.String.GetRawStringData,
@@ -6189,7 +6189,7 @@
         IsNullable: false
       }
     },
-    M:System.String.GetRawStringDataAsUInt16: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetRawStringDataAsUInt16: {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetRawStringDataAsUInt16,
       Id: M:System.String.GetRawStringDataAsUInt16,
@@ -6202,7 +6202,7 @@
         IsNullable: false
       }
     },
-    M:System.String.GetTypeCode: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetTypeCode: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetTypeCode,
       Id: M:System.String.GetTypeCode,
@@ -6215,7 +6215,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IndexOf(System.Char,System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.Char,System.Int32,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.Char,System.Int32,System.Int32),
       Id: M:System.String.IndexOf(System.Char,System.Int32,System.Int32),
@@ -6274,7 +6274,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IndexOf(System.Char,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.Char,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.Char,System.Int32),
       Id: M:System.String.IndexOf(System.Char,System.Int32),
@@ -6322,7 +6322,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IndexOf(System.Char,System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.Char,System.StringComparison): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.Char,System.StringComparison),
       Id: M:System.String.IndexOf(System.Char,System.StringComparison),
@@ -6370,7 +6370,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IndexOf(System.Char): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.Char): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.Char),
       Id: M:System.String.IndexOf(System.Char),
@@ -6407,7 +6407,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IndexOf(System.String,System.Int32,System.Int32,System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.String,System.Int32,System.Int32,System.StringComparison): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.String,System.Int32,System.Int32,System.StringComparison),
       Id: M:System.String.IndexOf(System.String,System.Int32,System.Int32,System.StringComparison),
@@ -6477,7 +6477,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IndexOf(System.String,System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.String,System.Int32,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.String,System.Int32,System.Int32),
       Id: M:System.String.IndexOf(System.String,System.Int32,System.Int32),
@@ -6536,7 +6536,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IndexOf(System.String,System.Int32,System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.String,System.Int32,System.StringComparison): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.String,System.Int32,System.StringComparison),
       Id: M:System.String.IndexOf(System.String,System.Int32,System.StringComparison),
@@ -6595,7 +6595,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IndexOf(System.String,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.String,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.String,System.Int32),
       Id: M:System.String.IndexOf(System.String,System.Int32),
@@ -6643,7 +6643,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IndexOf(System.String,System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.String,System.StringComparison): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.String,System.StringComparison),
       Id: M:System.String.IndexOf(System.String,System.StringComparison),
@@ -6691,7 +6691,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IndexOf(System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOf(System.String),
       Id: M:System.String.IndexOf(System.String),
@@ -6728,7 +6728,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IndexOfAny(System.Char[],System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOfAny(System.Char[],System.Int32,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOfAny(System.Char[],System.Int32,System.Int32),
       Id: M:System.String.IndexOfAny(System.Char[],System.Int32,System.Int32),
@@ -6780,7 +6780,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IndexOfAny(System.Char[],System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOfAny(System.Char[],System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOfAny(System.Char[],System.Int32),
       Id: M:System.String.IndexOfAny(System.Char[],System.Int32),
@@ -6821,7 +6821,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IndexOfAny(System.Char[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOfAny(System.Char[]): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOfAny(System.Char[]),
       Id: M:System.String.IndexOfAny(System.Char[]),
@@ -6851,7 +6851,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IndexOfCharOrdinalIgnoreCase(System.Char): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOfCharOrdinalIgnoreCase(System.Char): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOfCharOrdinalIgnoreCase(System.Char),
       Id: M:System.String.IndexOfCharOrdinalIgnoreCase(System.Char),
@@ -6877,7 +6877,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IndexOfNewlineChar(System.ReadOnlySpan{System.Char},System.String,System.Int32@): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOfNewlineChar(System.ReadOnlySpan{System.Char},System.String,System.Int32@): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IndexOfNewlineChar(System.ReadOnlySpan{System.Char},System.String,System.Int32@),
       Id: M:System.String.IndexOfNewlineChar(System.ReadOnlySpan{System.Char},System.String,System.Int32@),
@@ -6931,7 +6931,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Insert(System.Int32,System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Insert(System.Int32,System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Insert(System.Int32,System.String),
       Id: M:System.String.Insert(System.Int32,System.String),
@@ -6968,7 +6968,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Intern: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Intern: {
       Accessibility: Private,
       Attributes: [
         {
@@ -6995,7 +6995,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Intern(System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Intern(System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Intern(System.String),
       Id: M:System.String.Intern(System.String),
@@ -7027,7 +7027,7 @@
         IsNullable: false
       }
     },
-    M:System.String.InternalCopy(System.String,nint,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.InternalCopy(System.String,nint,System.Int32): {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.InternalCopy(System.String,nint,System.Int32),
       Id: M:System.String.InternalCopy(System.String,nint,System.Int32),
@@ -7078,7 +7078,7 @@
         IsNullable: false
       }
     },
-    M:System.String.InternalSubString(System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.InternalSubString(System.Int32,System.Int32): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.InternalSubString(System.Int32,System.Int32),
       Id: M:System.String.InternalSubString(System.Int32,System.Int32),
@@ -7115,7 +7115,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IsInterned: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IsInterned: {
       Accessibility: Private,
       Attributes: [
         {
@@ -7142,7 +7142,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IsInterned(System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IsInterned(System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IsInterned(System.String),
       Id: M:System.String.IsInterned(System.String),
@@ -7174,7 +7174,7 @@
         IsNullable: true
       }
     },
-    M:System.String.IsNormalized: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IsNormalized: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IsNormalized,
       Id: M:System.String.IsNormalized,
@@ -7190,7 +7190,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IsNormalized(System.Text.NormalizationForm): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IsNormalized(System.Text.NormalizationForm): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IsNormalized(System.Text.NormalizationForm),
       Id: M:System.String.IsNormalized(System.Text.NormalizationForm),
@@ -7219,7 +7219,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IsNullOrEmpty(System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IsNullOrEmpty(System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IsNullOrEmpty(System.String),
       Id: M:System.String.IsNullOrEmpty(System.String),
@@ -7248,7 +7248,7 @@
         IsNullable: false
       }
     },
-    M:System.String.IsNullOrWhiteSpace(System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.IsNullOrWhiteSpace(System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.IsNullOrWhiteSpace(System.String),
       Id: M:System.String.IsNullOrWhiteSpace(System.String),
@@ -7277,7 +7277,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Join(System.Char,System.Object[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join(System.Char,System.Object[]): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join(System.Char,System.Object[]),
       Id: M:System.String.Join(System.Char,System.Object[]),
@@ -7330,7 +7330,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Join(System.Char,System.String[],System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join(System.Char,System.String[],System.Int32,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join(System.Char,System.String[],System.Int32,System.Int32),
       Id: M:System.String.Join(System.Char,System.String[],System.Int32,System.Int32),
@@ -7402,7 +7402,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Join(System.Char,System.String[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join(System.Char,System.String[]): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join(System.Char,System.String[]),
       Id: M:System.String.Join(System.Char,System.String[]),
@@ -7455,7 +7455,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Join(System.String,System.Collections.Generic.IEnumerable{System.String}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join(System.String,System.Collections.Generic.IEnumerable{System.String}): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join(System.String,System.Collections.Generic.IEnumerable{System.String}),
       Id: M:System.String.Join(System.String,System.Collections.Generic.IEnumerable{System.String}),
@@ -7505,7 +7505,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Join(System.String,System.Object[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join(System.String,System.Object[]): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join(System.String,System.Object[]),
       Id: M:System.String.Join(System.String,System.Object[]),
@@ -7558,7 +7558,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Join(System.String,System.String[],System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join(System.String,System.String[],System.Int32,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join(System.String,System.String[],System.Int32,System.Int32),
       Id: M:System.String.Join(System.String,System.String[],System.Int32,System.Int32),
@@ -7630,7 +7630,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Join(System.String,System.String[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join(System.String,System.String[]): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join(System.String,System.String[]),
       Id: M:System.String.Join(System.String,System.String[]),
@@ -7683,7 +7683,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Join``1(System.Char,System.Collections.Generic.IEnumerable{``0}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join``1(System.Char,System.Collections.Generic.IEnumerable{``0}): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join``1(System.Char,System.Collections.Generic.IEnumerable{``0}),
       Id: M:System.String.Join``1(System.Char,System.Collections.Generic.IEnumerable{``0}),
@@ -7742,7 +7742,7 @@
         }
       ]
     },
-    M:System.String.Join``1(System.String,System.Collections.Generic.IEnumerable{``0}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join``1(System.String,System.Collections.Generic.IEnumerable{``0}): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Join``1(System.String,System.Collections.Generic.IEnumerable{``0}),
       Id: M:System.String.Join``1(System.String,System.Collections.Generic.IEnumerable{``0}),
@@ -7801,7 +7801,7 @@
         }
       ]
     },
-    M:System.String.JoinCore(System.ReadOnlySpan{System.Char},System.Object[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.JoinCore(System.ReadOnlySpan{System.Char},System.Object[]): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.JoinCore(System.ReadOnlySpan{System.Char},System.Object[]),
       Id: M:System.String.JoinCore(System.ReadOnlySpan{System.Char},System.Object[]),
@@ -7846,7 +7846,7 @@
         IsNullable: false
       }
     },
-    M:System.String.JoinCore(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.String}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.JoinCore(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.String}): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.JoinCore(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.String}),
       Id: M:System.String.JoinCore(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.String}),
@@ -7891,7 +7891,7 @@
         IsNullable: false
       }
     },
-    M:System.String.JoinCore(System.ReadOnlySpan{System.Char},System.String[],System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.JoinCore(System.ReadOnlySpan{System.Char},System.String[],System.Int32,System.Int32): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.JoinCore(System.ReadOnlySpan{System.Char},System.String[],System.Int32,System.Int32),
       Id: M:System.String.JoinCore(System.ReadOnlySpan{System.Char},System.String[],System.Int32,System.Int32),
@@ -7958,7 +7958,7 @@
         IsNullable: false
       }
     },
-    M:System.String.JoinCore``1(System.ReadOnlySpan{System.Char},System.Collections.Generic.IEnumerable{``0}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.JoinCore``1(System.ReadOnlySpan{System.Char},System.Collections.Generic.IEnumerable{``0}): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.JoinCore``1(System.ReadOnlySpan{System.Char},System.Collections.Generic.IEnumerable{``0}),
       Id: M:System.String.JoinCore``1(System.ReadOnlySpan{System.Char},System.Collections.Generic.IEnumerable{``0}),
@@ -8012,7 +8012,7 @@
         }
       ]
     },
-    M:System.String.LastIndexOf(System.Char,System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.Char,System.Int32,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.Char,System.Int32,System.Int32),
       Id: M:System.String.LastIndexOf(System.Char,System.Int32,System.Int32),
@@ -8070,7 +8070,7 @@
         IsNullable: false
       }
     },
-    M:System.String.LastIndexOf(System.Char,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.Char,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.Char,System.Int32),
       Id: M:System.String.LastIndexOf(System.Char,System.Int32),
@@ -8117,7 +8117,7 @@
         IsNullable: false
       }
     },
-    M:System.String.LastIndexOf(System.Char): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.Char): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.Char),
       Id: M:System.String.LastIndexOf(System.Char),
@@ -8153,7 +8153,7 @@
         IsNullable: false
       }
     },
-    M:System.String.LastIndexOf(System.String,System.Int32,System.Int32,System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.String,System.Int32,System.Int32,System.StringComparison): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.String,System.Int32,System.Int32,System.StringComparison),
       Id: M:System.String.LastIndexOf(System.String,System.Int32,System.Int32,System.StringComparison),
@@ -8222,7 +8222,7 @@
         IsNullable: false
       }
     },
-    M:System.String.LastIndexOf(System.String,System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.String,System.Int32,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.String,System.Int32,System.Int32),
       Id: M:System.String.LastIndexOf(System.String,System.Int32,System.Int32),
@@ -8280,7 +8280,7 @@
         IsNullable: false
       }
     },
-    M:System.String.LastIndexOf(System.String,System.Int32,System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.String,System.Int32,System.StringComparison): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.String,System.Int32,System.StringComparison),
       Id: M:System.String.LastIndexOf(System.String,System.Int32,System.StringComparison),
@@ -8338,7 +8338,7 @@
         IsNullable: false
       }
     },
-    M:System.String.LastIndexOf(System.String,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.String,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.String,System.Int32),
       Id: M:System.String.LastIndexOf(System.String,System.Int32),
@@ -8385,7 +8385,7 @@
         IsNullable: false
       }
     },
-    M:System.String.LastIndexOf(System.String,System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.String,System.StringComparison): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.String,System.StringComparison),
       Id: M:System.String.LastIndexOf(System.String,System.StringComparison),
@@ -8432,7 +8432,7 @@
         IsNullable: false
       }
     },
-    M:System.String.LastIndexOf(System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOf(System.String),
       Id: M:System.String.LastIndexOf(System.String),
@@ -8468,7 +8468,7 @@
         IsNullable: false
       }
     },
-    M:System.String.LastIndexOfAny(System.Char[],System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOfAny(System.Char[],System.Int32,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOfAny(System.Char[],System.Int32,System.Int32),
       Id: M:System.String.LastIndexOfAny(System.Char[],System.Int32,System.Int32),
@@ -8520,7 +8520,7 @@
         IsNullable: false
       }
     },
-    M:System.String.LastIndexOfAny(System.Char[],System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOfAny(System.Char[],System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOfAny(System.Char[],System.Int32),
       Id: M:System.String.LastIndexOfAny(System.Char[],System.Int32),
@@ -8561,7 +8561,7 @@
         IsNullable: false
       }
     },
-    M:System.String.LastIndexOfAny(System.Char[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOfAny(System.Char[]): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.LastIndexOfAny(System.Char[]),
       Id: M:System.String.LastIndexOfAny(System.Char[]),
@@ -8591,7 +8591,7 @@
         IsNullable: false
       }
     },
-    M:System.String.MakeSeparatorList(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Collections.Generic.ValueListBuilder{System.Int32}@): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.MakeSeparatorList(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Collections.Generic.ValueListBuilder{System.Int32}@): {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.MakeSeparatorList(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Collections.Generic.ValueListBuilder{System.Int32}@),
       Id: M:System.String.MakeSeparatorList(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Collections.Generic.ValueListBuilder{System.Int32}@),
@@ -8645,7 +8645,7 @@
         IsNullable: false
       }
     },
-    M:System.String.MakeSeparatorListAny(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Collections.Generic.ValueListBuilder{System.Int32}@): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.MakeSeparatorListAny(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Collections.Generic.ValueListBuilder{System.Int32}@): {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.MakeSeparatorListAny(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Collections.Generic.ValueListBuilder{System.Int32}@),
       Id: M:System.String.MakeSeparatorListAny(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Collections.Generic.ValueListBuilder{System.Int32}@),
@@ -8702,7 +8702,7 @@
         IsNullable: false
       }
     },
-    M:System.String.MakeSeparatorListAny(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.String},System.Collections.Generic.ValueListBuilder{System.Int32}@,System.Collections.Generic.ValueListBuilder{System.Int32}@): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.MakeSeparatorListAny(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.String},System.Collections.Generic.ValueListBuilder{System.Int32}@,System.Collections.Generic.ValueListBuilder{System.Int32}@): {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.MakeSeparatorListAny(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.String},System.Collections.Generic.ValueListBuilder{System.Int32}@,System.Collections.Generic.ValueListBuilder{System.Int32}@),
       Id: M:System.String.MakeSeparatorListAny(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.String},System.Collections.Generic.ValueListBuilder{System.Int32}@,System.Collections.Generic.ValueListBuilder{System.Int32}@),
@@ -8773,7 +8773,7 @@
         IsNullable: false
       }
     },
-    M:System.String.MakeSeparatorListVectorized(System.ReadOnlySpan{System.Char},System.Collections.Generic.ValueListBuilder{System.Int32}@,System.Char,System.Char,System.Char): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.MakeSeparatorListVectorized(System.ReadOnlySpan{System.Char},System.Collections.Generic.ValueListBuilder{System.Int32}@,System.Char,System.Char,System.Char): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.MakeSeparatorListVectorized(System.ReadOnlySpan{System.Char},System.Collections.Generic.ValueListBuilder{System.Int32}@,System.Char,System.Char,System.Char),
       Id: M:System.String.MakeSeparatorListVectorized(System.ReadOnlySpan{System.Char},System.Collections.Generic.ValueListBuilder{System.Int32}@,System.Char,System.Char,System.Char),
@@ -8849,7 +8849,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Normalize: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Normalize: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Normalize,
       Id: M:System.String.Normalize,
@@ -8865,7 +8865,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Normalize(System.Text.NormalizationForm): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Normalize(System.Text.NormalizationForm): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Normalize(System.Text.NormalizationForm),
       Id: M:System.String.Normalize(System.Text.NormalizationForm),
@@ -8894,7 +8894,7 @@
         IsNullable: false
       }
     },
-    M:System.String.op_Equality(System.String,System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.op_Equality(System.String,System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.op_Equality(System.String,System.String),
       Id: M:System.String.op_Equality(System.String,System.String),
@@ -8933,7 +8933,7 @@
         IsNullable: false
       }
     },
-    M:System.String.op_Implicit(System.String)~System.ReadOnlySpan{System.Char}: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.op_Implicit(System.String)~System.ReadOnlySpan{System.Char}: {
       Accessibility: Public,
       Attributes: [
         {
@@ -8975,7 +8975,7 @@
         IsNullable: false
       }
     },
-    M:System.String.op_Inequality(System.String,System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.op_Inequality(System.String,System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.op_Inequality(System.String,System.String),
       Id: M:System.String.op_Inequality(System.String,System.String),
@@ -9014,7 +9014,7 @@
         IsNullable: false
       }
     },
-    M:System.String.PadLeft(System.Int32,System.Char): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.PadLeft(System.Int32,System.Char): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.PadLeft(System.Int32,System.Char),
       Id: M:System.String.PadLeft(System.Int32,System.Char),
@@ -9054,7 +9054,7 @@
         IsNullable: false
       }
     },
-    M:System.String.PadLeft(System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.PadLeft(System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.PadLeft(System.Int32),
       Id: M:System.String.PadLeft(System.Int32),
@@ -9083,7 +9083,7 @@
         IsNullable: false
       }
     },
-    M:System.String.PadRight(System.Int32,System.Char): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.PadRight(System.Int32,System.Char): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.PadRight(System.Int32,System.Char),
       Id: M:System.String.PadRight(System.Int32,System.Char),
@@ -9123,7 +9123,7 @@
         IsNullable: false
       }
     },
-    M:System.String.PadRight(System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.PadRight(System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.PadRight(System.Int32),
       Id: M:System.String.PadRight(System.Int32),
@@ -9152,7 +9152,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Remove(System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Remove(System.Int32,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Remove(System.Int32,System.Int32),
       Id: M:System.String.Remove(System.Int32,System.Int32),
@@ -9192,7 +9192,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Remove(System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Remove(System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Remove(System.Int32),
       Id: M:System.String.Remove(System.Int32),
@@ -9221,7 +9221,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Replace(System.Char,System.Char): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Replace(System.Char,System.Char): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Replace(System.Char,System.Char),
       Id: M:System.String.Replace(System.Char,System.Char),
@@ -9263,7 +9263,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Replace(System.String,System.String,System.Boolean,System.Globalization.CultureInfo): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Replace(System.String,System.String,System.Boolean,System.Globalization.CultureInfo): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Replace(System.String,System.String,System.Boolean,System.Globalization.CultureInfo),
       Id: M:System.String.Replace(System.String,System.String,System.Boolean,System.Globalization.CultureInfo),
@@ -9327,7 +9327,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Replace(System.String,System.String,System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Replace(System.String,System.String,System.StringComparison): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Replace(System.String,System.String,System.StringComparison),
       Id: M:System.String.Replace(System.String,System.String,System.StringComparison),
@@ -9380,7 +9380,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Replace(System.String,System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Replace(System.String,System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Replace(System.String,System.String),
       Id: M:System.String.Replace(System.String,System.String),
@@ -9422,7 +9422,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ReplaceCore(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Globalization.CompareInfo,System.Globalization.CompareOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ReplaceCore(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Globalization.CompareInfo,System.Globalization.CompareOptions): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.ReplaceCore(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Globalization.CompareInfo,System.Globalization.CompareOptions),
       Id: M:System.String.ReplaceCore(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Globalization.CompareInfo,System.Globalization.CompareOptions),
@@ -9498,7 +9498,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ReplaceCore(System.String,System.String,System.Globalization.CompareInfo,System.Globalization.CompareOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ReplaceCore(System.String,System.String,System.Globalization.CompareInfo,System.Globalization.CompareOptions): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.ReplaceCore(System.String,System.String,System.Globalization.CompareInfo,System.Globalization.CompareOptions),
       Id: M:System.String.ReplaceCore(System.String,System.String,System.Globalization.CompareInfo,System.Globalization.CompareOptions),
@@ -9560,7 +9560,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ReplaceHelper(System.Int32,System.String,System.ReadOnlySpan{System.Int32}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ReplaceHelper(System.Int32,System.String,System.ReadOnlySpan{System.Int32}): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.ReplaceHelper(System.Int32,System.String,System.ReadOnlySpan{System.Int32}),
       Id: M:System.String.ReplaceHelper(System.Int32,System.String,System.ReadOnlySpan{System.Int32}),
@@ -9608,7 +9608,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ReplaceLineEndings: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ReplaceLineEndings: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.ReplaceLineEndings,
       Id: M:System.String.ReplaceLineEndings,
@@ -9624,7 +9624,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ReplaceLineEndings(System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ReplaceLineEndings(System.String): {
       Accessibility: Public,
       Attributes: [
         {
@@ -9661,7 +9661,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ReplaceLineEndingsCore(System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ReplaceLineEndingsCore(System.String): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.ReplaceLineEndingsCore(System.String),
       Id: M:System.String.ReplaceLineEndingsCore(System.String),
@@ -9687,7 +9687,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ReplaceLineEndingsWithLineFeed: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ReplaceLineEndingsWithLineFeed: {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.ReplaceLineEndingsWithLineFeed,
       Id: M:System.String.ReplaceLineEndingsWithLineFeed,
@@ -9700,7 +9700,7 @@
         IsNullable: false
       }
     },
-    M:System.String.SearchValuesStorage.#cctor: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.SearchValuesStorage.#cctor: {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.SearchValuesStorage.#cctor,
       Id: M:System.String.SearchValuesStorage.#cctor,
@@ -9711,7 +9711,7 @@
       Name: .cctor,
       ParentId: T:System.String.SearchValuesStorage
     },
-    M:System.String.SetTrailByte(System.Byte): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.SetTrailByte(System.Byte): {
       Accessibility: Internal,
       Attributes: [
         {
@@ -9748,7 +9748,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Split(System.Char,System.Int32,System.StringSplitOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.Char,System.Int32,System.StringSplitOptions): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.Char,System.Int32,System.StringSplitOptions),
       Id: M:System.String.Split(System.Char,System.Int32,System.StringSplitOptions),
@@ -9808,7 +9808,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Split(System.Char,System.StringSplitOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.Char,System.StringSplitOptions): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.Char,System.StringSplitOptions),
       Id: M:System.String.Split(System.Char,System.StringSplitOptions),
@@ -9857,7 +9857,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Split(System.Char[],System.Int32,System.StringSplitOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.Char[],System.Int32,System.StringSplitOptions): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.Char[],System.Int32,System.StringSplitOptions),
       Id: M:System.String.Split(System.Char[],System.Int32,System.StringSplitOptions),
@@ -9916,7 +9916,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Split(System.Char[],System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.Char[],System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.Char[],System.Int32),
       Id: M:System.String.Split(System.Char[],System.Int32),
@@ -9964,7 +9964,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Split(System.Char[],System.StringSplitOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.Char[],System.StringSplitOptions): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.Char[],System.StringSplitOptions),
       Id: M:System.String.Split(System.Char[],System.StringSplitOptions),
@@ -10012,7 +10012,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Split(System.Char[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.Char[]): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.Char[]),
       Id: M:System.String.Split(System.Char[]),
@@ -10052,7 +10052,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Split(System.String,System.Int32,System.StringSplitOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.String,System.Int32,System.StringSplitOptions): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.String,System.Int32,System.StringSplitOptions),
       Id: M:System.String.Split(System.String,System.Int32,System.StringSplitOptions),
@@ -10112,7 +10112,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Split(System.String,System.StringSplitOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.String,System.StringSplitOptions): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.String,System.StringSplitOptions),
       Id: M:System.String.Split(System.String,System.StringSplitOptions),
@@ -10161,7 +10161,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Split(System.String[],System.Int32,System.StringSplitOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.String[],System.Int32,System.StringSplitOptions): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.String[],System.Int32,System.StringSplitOptions),
       Id: M:System.String.Split(System.String[],System.Int32,System.StringSplitOptions),
@@ -10220,7 +10220,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Split(System.String[],System.StringSplitOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.String[],System.StringSplitOptions): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Split(System.String[],System.StringSplitOptions),
       Id: M:System.String.Split(System.String[],System.StringSplitOptions),
@@ -10268,7 +10268,7 @@
         IsNullable: false
       }
     },
-    M:System.String.SplitInternal(System.ReadOnlySpan{System.Char},System.Int32,System.StringSplitOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.SplitInternal(System.ReadOnlySpan{System.Char},System.Int32,System.StringSplitOptions): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.SplitInternal(System.ReadOnlySpan{System.Char},System.Int32,System.StringSplitOptions),
       Id: M:System.String.SplitInternal(System.ReadOnlySpan{System.Char},System.Int32,System.StringSplitOptions),
@@ -10320,7 +10320,7 @@
         IsNullable: false
       }
     },
-    M:System.String.SplitInternal(System.String,System.Int32,System.StringSplitOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.SplitInternal(System.String,System.Int32,System.StringSplitOptions): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.SplitInternal(System.String,System.Int32,System.StringSplitOptions),
       Id: M:System.String.SplitInternal(System.String,System.Int32,System.StringSplitOptions),
@@ -10372,7 +10372,7 @@
         IsNullable: false
       }
     },
-    M:System.String.SplitInternal(System.String,System.String[],System.Int32,System.StringSplitOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.SplitInternal(System.String,System.String[],System.Int32,System.StringSplitOptions): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.SplitInternal(System.String,System.String[],System.Int32,System.StringSplitOptions),
       Id: M:System.String.SplitInternal(System.String,System.String[],System.Int32,System.StringSplitOptions),
@@ -10435,7 +10435,7 @@
         IsNullable: false
       }
     },
-    M:System.String.SplitWithoutPostProcessing(System.ReadOnlySpan{System.Int32},System.ReadOnlySpan{System.Int32},System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.SplitWithoutPostProcessing(System.ReadOnlySpan{System.Int32},System.ReadOnlySpan{System.Int32},System.Int32,System.Int32): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.SplitWithoutPostProcessing(System.ReadOnlySpan{System.Int32},System.ReadOnlySpan{System.Int32},System.Int32,System.Int32),
       Id: M:System.String.SplitWithoutPostProcessing(System.ReadOnlySpan{System.Int32},System.ReadOnlySpan{System.Int32},System.Int32,System.Int32),
@@ -10494,7 +10494,7 @@
         IsNullable: false
       }
     },
-    M:System.String.SplitWithPostProcessing(System.ReadOnlySpan{System.Int32},System.ReadOnlySpan{System.Int32},System.Int32,System.Int32,System.StringSplitOptions): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.SplitWithPostProcessing(System.ReadOnlySpan{System.Int32},System.ReadOnlySpan{System.Int32},System.Int32,System.Int32,System.StringSplitOptions): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.SplitWithPostProcessing(System.ReadOnlySpan{System.Int32},System.ReadOnlySpan{System.Int32},System.Int32,System.Int32,System.StringSplitOptions),
       Id: M:System.String.SplitWithPostProcessing(System.ReadOnlySpan{System.Int32},System.ReadOnlySpan{System.Int32},System.Int32,System.Int32,System.StringSplitOptions),
@@ -10564,7 +10564,7 @@
         IsNullable: false
       }
     },
-    M:System.String.StartsWith(System.Char): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.StartsWith(System.Char): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.StartsWith(System.Char),
       Id: M:System.String.StartsWith(System.Char),
@@ -10595,7 +10595,7 @@
         IsNullable: false
       }
     },
-    M:System.String.StartsWith(System.String,System.Boolean,System.Globalization.CultureInfo): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.StartsWith(System.String,System.Boolean,System.Globalization.CultureInfo): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.StartsWith(System.String,System.Boolean,System.Globalization.CultureInfo),
       Id: M:System.String.StartsWith(System.String,System.Boolean,System.Globalization.CultureInfo),
@@ -10648,7 +10648,7 @@
         IsNullable: false
       }
     },
-    M:System.String.StartsWith(System.String,System.StringComparison): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.StartsWith(System.String,System.StringComparison): {
       Accessibility: Public,
       Attributes: [
         {
@@ -10698,7 +10698,7 @@
         IsNullable: false
       }
     },
-    M:System.String.StartsWith(System.String): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.StartsWith(System.String): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.StartsWith(System.String),
       Id: M:System.String.StartsWith(System.String),
@@ -10729,7 +10729,7 @@
         IsNullable: false
       }
     },
-    M:System.String.strlen(System.Byte*): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.strlen(System.Byte*): {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.strlen(System.Byte*),
       Id: M:System.String.strlen(System.Byte*),
@@ -10759,7 +10759,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Substring(System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Substring(System.Int32,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Substring(System.Int32,System.Int32),
       Id: M:System.String.Substring(System.Int32,System.Int32),
@@ -10799,7 +10799,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Substring(System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Substring(System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Substring(System.Int32),
       Id: M:System.String.Substring(System.Int32),
@@ -10828,7 +10828,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#Collections#Generic#IEnumerable{System#Char}#GetEnumerator: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#Collections#Generic#IEnumerable{System#Char}#GetEnumerator: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#Collections#Generic#IEnumerable{System#Char}#GetEnumerator,
       Id: M:System.String.System#Collections#Generic#IEnumerable{System#Char}#GetEnumerator,
       IsLocal: false,
@@ -10840,7 +10840,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#Collections#IEnumerable#GetEnumerator: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#Collections#IEnumerable#GetEnumerator: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#Collections#IEnumerable#GetEnumerator,
       Id: M:System.String.System#Collections#IEnumerable#GetEnumerator,
       IsLocal: false,
@@ -10852,7 +10852,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IConvertible#ToBoolean(System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToBoolean(System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToBoolean(System.IFormatProvider),
       Id: M:System.String.System#IConvertible#ToBoolean(System.IFormatProvider),
       IsLocal: false,
@@ -10877,7 +10877,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IConvertible#ToByte(System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToByte(System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToByte(System.IFormatProvider),
       Id: M:System.String.System#IConvertible#ToByte(System.IFormatProvider),
       IsLocal: false,
@@ -10902,7 +10902,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IConvertible#ToChar(System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToChar(System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToChar(System.IFormatProvider),
       Id: M:System.String.System#IConvertible#ToChar(System.IFormatProvider),
       IsLocal: false,
@@ -10927,7 +10927,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IConvertible#ToDateTime(System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToDateTime(System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToDateTime(System.IFormatProvider),
       Id: M:System.String.System#IConvertible#ToDateTime(System.IFormatProvider),
       IsLocal: false,
@@ -10952,7 +10952,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IConvertible#ToDecimal(System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToDecimal(System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToDecimal(System.IFormatProvider),
       Id: M:System.String.System#IConvertible#ToDecimal(System.IFormatProvider),
       IsLocal: false,
@@ -10977,7 +10977,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IConvertible#ToDouble(System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToDouble(System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToDouble(System.IFormatProvider),
       Id: M:System.String.System#IConvertible#ToDouble(System.IFormatProvider),
       IsLocal: false,
@@ -11002,7 +11002,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IConvertible#ToInt16(System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToInt16(System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToInt16(System.IFormatProvider),
       Id: M:System.String.System#IConvertible#ToInt16(System.IFormatProvider),
       IsLocal: false,
@@ -11027,7 +11027,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IConvertible#ToInt32(System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToInt32(System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToInt32(System.IFormatProvider),
       Id: M:System.String.System#IConvertible#ToInt32(System.IFormatProvider),
       IsLocal: false,
@@ -11052,7 +11052,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IConvertible#ToInt64(System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToInt64(System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToInt64(System.IFormatProvider),
       Id: M:System.String.System#IConvertible#ToInt64(System.IFormatProvider),
       IsLocal: false,
@@ -11077,7 +11077,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IConvertible#ToSByte(System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToSByte(System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToSByte(System.IFormatProvider),
       Id: M:System.String.System#IConvertible#ToSByte(System.IFormatProvider),
       IsLocal: false,
@@ -11102,7 +11102,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IConvertible#ToSingle(System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToSingle(System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToSingle(System.IFormatProvider),
       Id: M:System.String.System#IConvertible#ToSingle(System.IFormatProvider),
       IsLocal: false,
@@ -11127,7 +11127,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IConvertible#ToType(System.Type,System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToType(System.Type,System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToType(System.Type,System.IFormatProvider),
       Id: M:System.String.System#IConvertible#ToType(System.Type,System.IFormatProvider),
       IsLocal: false,
@@ -11163,7 +11163,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IConvertible#ToUInt16(System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToUInt16(System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToUInt16(System.IFormatProvider),
       Id: M:System.String.System#IConvertible#ToUInt16(System.IFormatProvider),
       IsLocal: false,
@@ -11188,7 +11188,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IConvertible#ToUInt32(System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToUInt32(System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToUInt32(System.IFormatProvider),
       Id: M:System.String.System#IConvertible#ToUInt32(System.IFormatProvider),
       IsLocal: false,
@@ -11213,7 +11213,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IConvertible#ToUInt64(System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToUInt64(System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IConvertible#ToUInt64(System.IFormatProvider),
       Id: M:System.String.System#IConvertible#ToUInt64(System.IFormatProvider),
       IsLocal: false,
@@ -11238,7 +11238,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IParsable{System#String}#Parse(System.String,System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IParsable{System#String}#Parse(System.String,System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IParsable{System#String}#Parse(System.String,System.IFormatProvider),
       Id: M:System.String.System#IParsable{System#String}#Parse(System.String,System.IFormatProvider),
       IsLocal: false,
@@ -11277,7 +11277,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#IParsable{System#String}#TryParse(System.String,System.IFormatProvider,System.String@): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IParsable{System#String}#TryParse(System.String,System.IFormatProvider,System.String@): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#IParsable{System#String}#TryParse(System.String,System.IFormatProvider,System.String@),
       Id: M:System.String.System#IParsable{System#String}#TryParse(System.String,System.IFormatProvider,System.String@),
       IsLocal: false,
@@ -11330,7 +11330,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#ISpanParsable{System#String}#Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#ISpanParsable{System#String}#Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#ISpanParsable{System#String}#Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider),
       Id: M:System.String.System#ISpanParsable{System#String}#Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider),
       IsLocal: false,
@@ -11369,7 +11369,7 @@
         IsNullable: false
       }
     },
-    M:System.String.System#ISpanParsable{System#String}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.String@): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#ISpanParsable{System#String}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.String@): {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.System#ISpanParsable{System#String}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.String@),
       Id: M:System.String.System#ISpanParsable{System#String}#TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.String@),
       IsLocal: false,
@@ -11422,7 +11422,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ThrowSubstringArgumentOutOfRange(System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ThrowSubstringArgumentOutOfRange(System.Int32,System.Int32): {
       Accessibility: Private,
       Attributes: [
         {
@@ -11467,7 +11467,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ToCharArray: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToCharArray: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToCharArray,
       Id: M:System.String.ToCharArray,
@@ -11483,7 +11483,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ToCharArray(System.Int32,System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToCharArray(System.Int32,System.Int32): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToCharArray(System.Int32,System.Int32),
       Id: M:System.String.ToCharArray(System.Int32,System.Int32),
@@ -11523,7 +11523,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ToLower: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToLower: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToLower,
       Id: M:System.String.ToLower,
@@ -11539,7 +11539,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ToLower(System.Globalization.CultureInfo): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToLower(System.Globalization.CultureInfo): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToLower(System.Globalization.CultureInfo),
       Id: M:System.String.ToLower(System.Globalization.CultureInfo),
@@ -11568,7 +11568,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ToLowerInvariant: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToLowerInvariant: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToLowerInvariant,
       Id: M:System.String.ToLowerInvariant,
@@ -11581,7 +11581,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ToString: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToString: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToString,
       Id: M:System.String.ToString,
@@ -11600,7 +11600,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ToString(System.IFormatProvider): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToString(System.IFormatProvider): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToString(System.IFormatProvider),
       Id: M:System.String.ToString(System.IFormatProvider),
@@ -11629,7 +11629,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ToUpper: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToUpper: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToUpper,
       Id: M:System.String.ToUpper,
@@ -11645,7 +11645,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ToUpper(System.Globalization.CultureInfo): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToUpper(System.Globalization.CultureInfo): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToUpper(System.Globalization.CultureInfo),
       Id: M:System.String.ToUpper(System.Globalization.CultureInfo),
@@ -11674,7 +11674,7 @@
         IsNullable: false
       }
     },
-    M:System.String.ToUpperInvariant: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToUpperInvariant: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.ToUpperInvariant,
       Id: M:System.String.ToUpperInvariant,
@@ -11687,7 +11687,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Trim: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Trim: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Trim,
       Id: M:System.String.Trim,
@@ -11704,7 +11704,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Trim(System.Char): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Trim(System.Char): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Trim(System.Char),
       Id: M:System.String.Trim(System.Char),
@@ -11734,7 +11734,7 @@
         IsNullable: false
       }
     },
-    M:System.String.Trim(System.Char[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.Trim(System.Char[]): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.Trim(System.Char[]),
       Id: M:System.String.Trim(System.Char[]),
@@ -11767,7 +11767,7 @@
         IsNullable: false
       }
     },
-    M:System.String.TrimEnd: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.TrimEnd: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.TrimEnd,
       Id: M:System.String.TrimEnd,
@@ -11784,7 +11784,7 @@
         IsNullable: false
       }
     },
-    M:System.String.TrimEnd(System.Char): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.TrimEnd(System.Char): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.TrimEnd(System.Char),
       Id: M:System.String.TrimEnd(System.Char),
@@ -11814,7 +11814,7 @@
         IsNullable: false
       }
     },
-    M:System.String.TrimEnd(System.Char[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.TrimEnd(System.Char[]): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.TrimEnd(System.Char[]),
       Id: M:System.String.TrimEnd(System.Char[]),
@@ -11847,7 +11847,7 @@
         IsNullable: false
       }
     },
-    M:System.String.TrimHelper(System.Char*,System.Int32,System.Text.TrimType): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.TrimHelper(System.Char*,System.Int32,System.Text.TrimType): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.TrimHelper(System.Char*,System.Int32,System.Text.TrimType),
       Id: M:System.String.TrimHelper(System.Char*,System.Int32,System.Text.TrimType),
@@ -11898,7 +11898,7 @@
         IsNullable: false
       }
     },
-    M:System.String.TrimStart: {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.TrimStart: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.TrimStart,
       Id: M:System.String.TrimStart,
@@ -11915,7 +11915,7 @@
         IsNullable: false
       }
     },
-    M:System.String.TrimStart(System.Char): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.TrimStart(System.Char): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.TrimStart(System.Char),
       Id: M:System.String.TrimStart(System.Char),
@@ -11945,7 +11945,7 @@
         IsNullable: false
       }
     },
-    M:System.String.TrimStart(System.Char[]): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.TrimStart(System.Char[]): {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.TrimStart(System.Char[]),
       Id: M:System.String.TrimStart(System.Char[]),
@@ -11978,7 +11978,7 @@
         IsNullable: false
       }
     },
-    M:System.String.TrimWhiteSpaceHelper(System.Text.TrimType): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.TrimWhiteSpaceHelper(System.Text.TrimType): {
       Accessibility: Private,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.TrimWhiteSpaceHelper(System.Text.TrimType),
       Id: M:System.String.TrimWhiteSpaceHelper(System.Text.TrimType),
@@ -12004,7 +12004,7 @@
         IsNullable: false
       }
     },
-    M:System.String.TryCopyTo(System.Span{System.Char}): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.TryCopyTo(System.Span{System.Char}): {
       Accessibility: Public,
       Attributes: [
         {
@@ -12038,7 +12038,7 @@
         IsNullable: false
       }
     },
-    M:System.String.TryGetSpan(System.Int32,System.Int32,System.ReadOnlySpan{System.Char}@): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.TryGetSpan(System.Int32,System.Int32,System.ReadOnlySpan{System.Char}@): {
       Accessibility: Internal,
       Attributes: [
         {
@@ -12097,7 +12097,7 @@
         IsNullable: false
       }
     },
-    M:System.String.TryGetTrailByte(System.Byte@): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.TryGetTrailByte(System.Byte@): {
       Accessibility: Internal,
       Attributes: [
         {
@@ -12137,7 +12137,7 @@
         IsNullable: false
       }
     },
-    M:System.String.wcslen(System.Char*): {
+    System.Private.CoreLib, Version=x.x.x.x, M:System.String.wcslen(System.Char*): {
       Accessibility: Internal,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.String.wcslen(System.Char*),
       Id: M:System.String.wcslen(System.Char*),
@@ -12167,7 +12167,7 @@
         IsNullable: false
       }
     },
-    P:System.String.Chars(System.Int32): {
+    System.Private.CoreLib, Version=x.x.x.x, P:System.String.Chars(System.Int32): {
       Accessibility: Public,
       Attributes: [
         {
@@ -12213,7 +12213,7 @@
         IsNullable: false
       }
     },
-    P:System.String.Length: {
+    System.Private.CoreLib, Version=x.x.x.x, P:System.String.Length: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.String.Length,
       Getter: {
@@ -12240,7 +12240,7 @@
     }
   },
   Namespaces: {
-    N:System: {
+    System.Private.CoreLib, System: {
       FullName: System.Private.CoreLib, System,
       Id: N:System,
       Kind: Namespace,
@@ -12252,7 +12252,7 @@
     }
   },
   Types: {
-    T:System.String: {
+    System.Private.CoreLib, Version=x.x.x.x, T:System.String: {
       Accessibility: Public,
       Attributes: [
         {
@@ -12611,7 +12611,7 @@
       ],
       ParentId: N:System
     },
-    T:System.String.SearchValuesStorage: {
+    System.Private.CoreLib, Version=x.x.x.x, T:System.String.SearchValuesStorage: {
       Accessibility: Internal,
       Attributes: [
         {

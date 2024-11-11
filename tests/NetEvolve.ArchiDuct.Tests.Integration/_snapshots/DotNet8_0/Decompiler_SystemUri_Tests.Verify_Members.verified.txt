@@ -1,5 +1,5 @@
 ﻿{
-  F:System.Uri._flags: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri._flags: {
     Accessibility: Internal,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri._flags,
     Id: F:System.Uri._flags,
@@ -11,7 +11,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri._info: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri._info: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri._info,
     Id: F:System.Uri._info,
@@ -23,7 +23,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri._originalUnicodeString: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri._originalUnicodeString: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri._originalUnicodeString,
     Id: F:System.Uri._originalUnicodeString,
@@ -35,7 +35,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri._string: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri._string: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri._string,
     Id: F:System.Uri._string,
@@ -47,7 +47,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri._syntax: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri._syntax: {
     Accessibility: Internal,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri._syntax,
     Id: F:System.Uri._syntax,
@@ -59,7 +59,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.Check.BackslashInPath: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.BackslashInPath: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.BackslashInPath,
     Id: F:System.Uri.Check.BackslashInPath,
@@ -72,7 +72,7 @@
     },
     Value: 16
   },
-  F:System.Uri.Check.DisplayCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.DisplayCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.DisplayCanonical,
     Id: F:System.Uri.Check.DisplayCanonical,
@@ -85,7 +85,7 @@
     },
     Value: 2
   },
-  F:System.Uri.Check.DotSlashAttn: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.DotSlashAttn: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.DotSlashAttn,
     Id: F:System.Uri.Check.DotSlashAttn,
@@ -98,7 +98,7 @@
     },
     Value: 4
   },
-  F:System.Uri.Check.DotSlashEscaped: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.DotSlashEscaped: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.DotSlashEscaped,
     Id: F:System.Uri.Check.DotSlashEscaped,
@@ -111,7 +111,7 @@
     },
     Value: 128
   },
-  F:System.Uri.Check.EscapedCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.EscapedCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.EscapedCanonical,
     Id: F:System.Uri.Check.EscapedCanonical,
@@ -124,7 +124,7 @@
     },
     Value: 1
   },
-  F:System.Uri.Check.FoundNonAscii: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.FoundNonAscii: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.FoundNonAscii,
     Id: F:System.Uri.Check.FoundNonAscii,
@@ -137,7 +137,7 @@
     },
     Value: 8
   },
-  F:System.Uri.Check.None: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.None: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.None,
     Id: F:System.Uri.Check.None,
@@ -150,7 +150,7 @@
     },
     Value: 0
   },
-  F:System.Uri.Check.NotIriCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.NotIriCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.NotIriCanonical,
     Id: F:System.Uri.Check.NotIriCanonical,
@@ -163,7 +163,7 @@
     },
     Value: 64
   },
-  F:System.Uri.Check.ReservedFound: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.ReservedFound: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Check.ReservedFound,
     Id: F:System.Uri.Check.ReservedFound,
@@ -176,7 +176,7 @@
     },
     Value: 32
   },
-  F:System.Uri.Flags.AllUriInfoSet: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.AllUriInfoSet: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.AllUriInfoSet,
     Id: F:System.Uri.Flags.AllUriInfoSet,
@@ -189,7 +189,7 @@
     },
     Value: 2147483648
   },
-  F:System.Uri.Flags.AuthorityFound: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.AuthorityFound: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.AuthorityFound,
     Id: F:System.Uri.Flags.AuthorityFound,
@@ -202,7 +202,7 @@
     },
     Value: 1048576
   },
-  F:System.Uri.Flags.BackslashInPath: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.BackslashInPath: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.BackslashInPath,
     Id: F:System.Uri.Flags.BackslashInPath,
@@ -215,7 +215,7 @@
     },
     Value: 32768
   },
-  F:System.Uri.Flags.BasicHostType: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.BasicHostType: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.BasicHostType,
     Id: F:System.Uri.Flags.BasicHostType,
@@ -228,7 +228,7 @@
     },
     Value: 327680
   },
-  F:System.Uri.Flags.CannotDisplayCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.CannotDisplayCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.CannotDisplayCanonical,
     Id: F:System.Uri.Flags.CannotDisplayCanonical,
@@ -241,7 +241,7 @@
     },
     Value: 127
   },
-  F:System.Uri.Flags.CanonicalDnsHost: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.CanonicalDnsHost: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.CanonicalDnsHost,
     Id: F:System.Uri.Flags.CanonicalDnsHost,
@@ -254,7 +254,7 @@
     },
     Value: 33554432
   },
-  F:System.Uri.Flags.CustomParser_ParseMinimalAlreadyCalled: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.CustomParser_ParseMinimalAlreadyCalled: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.CustomParser_ParseMinimalAlreadyCalled,
     Id: F:System.Uri.Flags.CustomParser_ParseMinimalAlreadyCalled,
@@ -267,7 +267,7 @@
     },
     Value: 4611686018427387904
   },
-  F:System.Uri.Flags.Debug_LeftConstructor: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.Debug_LeftConstructor: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.Debug_LeftConstructor,
     Id: F:System.Uri.Flags.Debug_LeftConstructor,
@@ -280,7 +280,7 @@
     },
     Value: 9223372036854775808
   },
-  F:System.Uri.Flags.DisablePathAndQueryCanonicalization: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.DisablePathAndQueryCanonicalization: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.DisablePathAndQueryCanonicalization,
     Id: F:System.Uri.Flags.DisablePathAndQueryCanonicalization,
@@ -293,7 +293,7 @@
     },
     Value: 35184372088832
   },
-  F:System.Uri.Flags.DnsHostType: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.DnsHostType: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.DnsHostType,
     Id: F:System.Uri.Flags.DnsHostType,
@@ -306,7 +306,7 @@
     },
     Value: 196608
   },
-  F:System.Uri.Flags.DosPath: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.DosPath: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.DosPath,
     Id: F:System.Uri.Flags.DosPath,
@@ -319,7 +319,7 @@
     },
     Value: 134217728
   },
-  F:System.Uri.Flags.E_CannotDisplayCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.E_CannotDisplayCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.E_CannotDisplayCanonical,
     Id: F:System.Uri.Flags.E_CannotDisplayCanonical,
@@ -332,7 +332,7 @@
     },
     Value: 8064
   },
-  F:System.Uri.Flags.E_FragmentNotCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.E_FragmentNotCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.E_FragmentNotCanonical,
     Id: F:System.Uri.Flags.E_FragmentNotCanonical,
@@ -345,7 +345,7 @@
     },
     Value: 4096
   },
-  F:System.Uri.Flags.E_HostNotCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.E_HostNotCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.E_HostNotCanonical,
     Id: F:System.Uri.Flags.E_HostNotCanonical,
@@ -358,7 +358,7 @@
     },
     Value: 256
   },
-  F:System.Uri.Flags.E_PathNotCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.E_PathNotCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.E_PathNotCanonical,
     Id: F:System.Uri.Flags.E_PathNotCanonical,
@@ -371,7 +371,7 @@
     },
     Value: 1024
   },
-  F:System.Uri.Flags.E_PortNotCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.E_PortNotCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.E_PortNotCanonical,
     Id: F:System.Uri.Flags.E_PortNotCanonical,
@@ -384,7 +384,7 @@
     },
     Value: 512
   },
-  F:System.Uri.Flags.E_QueryNotCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.E_QueryNotCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.E_QueryNotCanonical,
     Id: F:System.Uri.Flags.E_QueryNotCanonical,
@@ -397,7 +397,7 @@
     },
     Value: 2048
   },
-  F:System.Uri.Flags.E_UserNotCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.E_UserNotCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.E_UserNotCanonical,
     Id: F:System.Uri.Flags.E_UserNotCanonical,
@@ -410,7 +410,7 @@
     },
     Value: 128
   },
-  F:System.Uri.Flags.ErrorOrParsingRecursion: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.ErrorOrParsingRecursion: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.ErrorOrParsingRecursion,
     Id: F:System.Uri.Flags.ErrorOrParsingRecursion,
@@ -423,7 +423,7 @@
     },
     Value: 67108864
   },
-  F:System.Uri.Flags.FirstSlashAbsent: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.FirstSlashAbsent: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.FirstSlashAbsent,
     Id: F:System.Uri.Flags.FirstSlashAbsent,
@@ -436,7 +436,7 @@
     },
     Value: 16384
   },
-  F:System.Uri.Flags.FragmentIriCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.FragmentIriCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.FragmentIriCanonical,
     Id: F:System.Uri.Flags.FragmentIriCanonical,
@@ -449,7 +449,7 @@
     },
     Value: 4398046511104
   },
-  F:System.Uri.Flags.FragmentNotCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.FragmentNotCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.FragmentNotCanonical,
     Id: F:System.Uri.Flags.FragmentNotCanonical,
@@ -462,7 +462,7 @@
     },
     Value: 64
   },
-  F:System.Uri.Flags.HasUnicode: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.HasUnicode: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.HasUnicode,
     Id: F:System.Uri.Flags.HasUnicode,
@@ -475,7 +475,7 @@
     },
     Value: 8589934592
   },
-  F:System.Uri.Flags.HasUserInfo: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.HasUserInfo: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.HasUserInfo,
     Id: F:System.Uri.Flags.HasUserInfo,
@@ -488,7 +488,7 @@
     },
     Value: 2097152
   },
-  F:System.Uri.Flags.HostNotCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.HostNotCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.HostNotCanonical,
     Id: F:System.Uri.Flags.HostNotCanonical,
@@ -501,7 +501,7 @@
     },
     Value: 4
   },
-  F:System.Uri.Flags.HostNotParsed: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.HostNotParsed: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.HostNotParsed,
     Id: F:System.Uri.Flags.HostNotParsed,
@@ -514,7 +514,7 @@
     },
     Value: 0
   },
-  F:System.Uri.Flags.HostTypeMask: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.HostTypeMask: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.HostTypeMask,
     Id: F:System.Uri.Flags.HostTypeMask,
@@ -527,7 +527,7 @@
     },
     Value: 458752
   },
-  F:System.Uri.Flags.HostUnicodeNormalized: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.HostUnicodeNormalized: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.HostUnicodeNormalized,
     Id: F:System.Uri.Flags.HostUnicodeNormalized,
@@ -540,7 +540,7 @@
     },
     Value: 17179869184
   },
-  F:System.Uri.Flags.IdnHost: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.IdnHost: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.IdnHost,
     Id: F:System.Uri.Flags.IdnHost,
@@ -553,7 +553,7 @@
     },
     Value: 4294967296
   },
-  F:System.Uri.Flags.ImplicitFile: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.ImplicitFile: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.ImplicitFile,
     Id: F:System.Uri.Flags.ImplicitFile,
@@ -566,7 +566,7 @@
     },
     Value: 536870912
   },
-  F:System.Uri.Flags.IndexMask: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.IndexMask: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.IndexMask,
     Id: F:System.Uri.Flags.IndexMask,
@@ -579,7 +579,7 @@
     },
     Value: 65535
   },
-  F:System.Uri.Flags.IntranetUri: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.IntranetUri: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.IntranetUri,
     Id: F:System.Uri.Flags.IntranetUri,
@@ -592,7 +592,7 @@
     },
     Value: 137438953472
   },
-  F:System.Uri.Flags.IPv4HostType: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.IPv4HostType: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.IPv4HostType,
     Id: F:System.Uri.Flags.IPv4HostType,
@@ -605,7 +605,7 @@
     },
     Value: 131072
   },
-  F:System.Uri.Flags.IPv6HostType: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.IPv6HostType: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.IPv6HostType,
     Id: F:System.Uri.Flags.IPv6HostType,
@@ -618,7 +618,7 @@
     },
     Value: 65536
   },
-  F:System.Uri.Flags.IriCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.IriCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.IriCanonical,
     Id: F:System.Uri.Flags.IriCanonical,
@@ -631,7 +631,7 @@
     },
     Value: 8246337208320
   },
-  F:System.Uri.Flags.LoopbackHost: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.LoopbackHost: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.LoopbackHost,
     Id: F:System.Uri.Flags.LoopbackHost,
@@ -644,7 +644,7 @@
     },
     Value: 4194304
   },
-  F:System.Uri.Flags.MinimalUriInfoSet: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.MinimalUriInfoSet: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.MinimalUriInfoSet,
     Id: F:System.Uri.Flags.MinimalUriInfoSet,
@@ -657,7 +657,7 @@
     },
     Value: 1073741824
   },
-  F:System.Uri.Flags.NotDefaultPort: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.NotDefaultPort: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.NotDefaultPort,
     Id: F:System.Uri.Flags.NotDefaultPort,
@@ -670,7 +670,7 @@
     },
     Value: 8388608
   },
-  F:System.Uri.Flags.PathIriCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.PathIriCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.PathIriCanonical,
     Id: F:System.Uri.Flags.PathIriCanonical,
@@ -683,7 +683,7 @@
     },
     Value: 1099511627776
   },
-  F:System.Uri.Flags.PathNotCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.PathNotCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.PathNotCanonical,
     Id: F:System.Uri.Flags.PathNotCanonical,
@@ -696,7 +696,7 @@
     },
     Value: 16
   },
-  F:System.Uri.Flags.PortNotCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.PortNotCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.PortNotCanonical,
     Id: F:System.Uri.Flags.PortNotCanonical,
@@ -709,7 +709,7 @@
     },
     Value: 8
   },
-  F:System.Uri.Flags.QueryIriCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.QueryIriCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.QueryIriCanonical,
     Id: F:System.Uri.Flags.QueryIriCanonical,
@@ -722,7 +722,7 @@
     },
     Value: 2199023255552
   },
-  F:System.Uri.Flags.QueryNotCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.QueryNotCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.QueryNotCanonical,
     Id: F:System.Uri.Flags.QueryNotCanonical,
@@ -735,7 +735,7 @@
     },
     Value: 32
   },
-  F:System.Uri.Flags.RestUnicodeNormalized: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.RestUnicodeNormalized: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.RestUnicodeNormalized,
     Id: F:System.Uri.Flags.RestUnicodeNormalized,
@@ -748,7 +748,7 @@
     },
     Value: 34359738368
   },
-  F:System.Uri.Flags.SchemeNotCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.SchemeNotCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.SchemeNotCanonical,
     Id: F:System.Uri.Flags.SchemeNotCanonical,
@@ -761,7 +761,7 @@
     },
     Value: 1
   },
-  F:System.Uri.Flags.ShouldBeCompressed: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.ShouldBeCompressed: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.ShouldBeCompressed,
     Id: F:System.Uri.Flags.ShouldBeCompressed,
@@ -774,7 +774,7 @@
     },
     Value: 8192
   },
-  F:System.Uri.Flags.UncHostType: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UncHostType: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UncHostType,
     Id: F:System.Uri.Flags.UncHostType,
@@ -787,7 +787,7 @@
     },
     Value: 262144
   },
-  F:System.Uri.Flags.UncPath: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UncPath: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UncPath,
     Id: F:System.Uri.Flags.UncPath,
@@ -800,7 +800,7 @@
     },
     Value: 268435456
   },
-  F:System.Uri.Flags.UnicodeHost: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UnicodeHost: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UnicodeHost,
     Id: F:System.Uri.Flags.UnicodeHost,
@@ -813,7 +813,7 @@
     },
     Value: 68719476736
   },
-  F:System.Uri.Flags.UnixPath: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UnixPath: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UnixPath,
     Id: F:System.Uri.Flags.UnixPath,
@@ -826,7 +826,7 @@
     },
     Value: 17592186044416
   },
-  F:System.Uri.Flags.UnknownHostType: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UnknownHostType: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UnknownHostType,
     Id: F:System.Uri.Flags.UnknownHostType,
@@ -839,7 +839,7 @@
     },
     Value: 458752
   },
-  F:System.Uri.Flags.UnusedHostType: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UnusedHostType: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UnusedHostType,
     Id: F:System.Uri.Flags.UnusedHostType,
@@ -852,7 +852,7 @@
     },
     Value: 393216
   },
-  F:System.Uri.Flags.UserDrivenParsing: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UserDrivenParsing: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UserDrivenParsing,
     Id: F:System.Uri.Flags.UserDrivenParsing,
@@ -865,7 +865,7 @@
     },
     Value: 16777216
   },
-  F:System.Uri.Flags.UserEscaped: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UserEscaped: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UserEscaped,
     Id: F:System.Uri.Flags.UserEscaped,
@@ -878,7 +878,7 @@
     },
     Value: 524288
   },
-  F:System.Uri.Flags.UserIriCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UserIriCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UserIriCanonical,
     Id: F:System.Uri.Flags.UserIriCanonical,
@@ -891,7 +891,7 @@
     },
     Value: 549755813888
   },
-  F:System.Uri.Flags.UserNotCanonical: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UserNotCanonical: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.UserNotCanonical,
     Id: F:System.Uri.Flags.UserNotCanonical,
@@ -904,7 +904,7 @@
     },
     Value: 2
   },
-  F:System.Uri.Flags.Zero: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.Zero: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Flags.Zero,
     Id: F:System.Uri.Flags.Zero,
@@ -917,7 +917,7 @@
     },
     Value: 0
   },
-  F:System.Uri.MoreInfo.AbsoluteUri: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.MoreInfo.AbsoluteUri: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.MoreInfo.AbsoluteUri,
     Id: F:System.Uri.MoreInfo.AbsoluteUri,
@@ -929,7 +929,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.MoreInfo.Fragment: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.MoreInfo.Fragment: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.MoreInfo.Fragment,
     Id: F:System.Uri.MoreInfo.Fragment,
@@ -941,7 +941,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.MoreInfo.Path: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.MoreInfo.Path: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.MoreInfo.Path,
     Id: F:System.Uri.MoreInfo.Path,
@@ -953,7 +953,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.MoreInfo.Query: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.MoreInfo.Query: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.MoreInfo.Query,
     Id: F:System.Uri.MoreInfo.Query,
@@ -965,7 +965,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.MoreInfo.RemoteUrl: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.MoreInfo.RemoteUrl: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.MoreInfo.RemoteUrl,
     Id: F:System.Uri.MoreInfo.RemoteUrl,
@@ -977,7 +977,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.Offset.End: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Offset.End: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Offset.End,
     Id: F:System.Uri.Offset.End,
@@ -989,7 +989,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.Offset.Fragment: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Offset.Fragment: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Offset.Fragment,
     Id: F:System.Uri.Offset.Fragment,
@@ -1001,7 +1001,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.Offset.Host: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Offset.Host: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Offset.Host,
     Id: F:System.Uri.Offset.Host,
@@ -1013,7 +1013,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.Offset.Path: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Offset.Path: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Offset.Path,
     Id: F:System.Uri.Offset.Path,
@@ -1025,7 +1025,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.Offset.PortValue: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Offset.PortValue: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Offset.PortValue,
     Id: F:System.Uri.Offset.PortValue,
@@ -1037,7 +1037,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.Offset.Query: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Offset.Query: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Offset.Query,
     Id: F:System.Uri.Offset.Query,
@@ -1049,7 +1049,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.Offset.Scheme: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Offset.Scheme: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Offset.Scheme,
     Id: F:System.Uri.Offset.Scheme,
@@ -1061,7 +1061,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.Offset.User: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.Offset.User: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.Offset.User,
     Id: F:System.Uri.Offset.User,
@@ -1073,7 +1073,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.s_schemeChars: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.s_schemeChars: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.s_schemeChars,
     Id: F:System.Uri.s_schemeChars,
@@ -1089,7 +1089,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.s_segmentSeparatorChars: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.s_segmentSeparatorChars: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.s_segmentSeparatorChars,
     Id: F:System.Uri.s_segmentSeparatorChars,
@@ -1105,7 +1105,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.SchemeDelimiter: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.SchemeDelimiter: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.SchemeDelimiter,
     Id: F:System.Uri.SchemeDelimiter,
@@ -1121,7 +1121,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriInfo._moreInfo: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriInfo._moreInfo: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriInfo._moreInfo,
     Id: F:System.Uri.UriInfo._moreInfo,
@@ -1133,7 +1133,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriInfo.Host: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriInfo.Host: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriInfo.Host,
     Id: F:System.Uri.UriInfo.Host,
@@ -1145,7 +1145,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriInfo.IdnHost: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriInfo.IdnHost: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriInfo.IdnHost,
     Id: F:System.Uri.UriInfo.IdnHost,
@@ -1157,7 +1157,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriInfo.Offset: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriInfo.Offset: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriInfo.Offset,
     Id: F:System.Uri.UriInfo.Offset,
@@ -1169,7 +1169,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriInfo.PathAndQuery: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriInfo.PathAndQuery: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriInfo.PathAndQuery,
     Id: F:System.Uri.UriInfo.PathAndQuery,
@@ -1181,7 +1181,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriInfo.ScopeId: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriInfo.ScopeId: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriInfo.ScopeId,
     Id: F:System.Uri.UriInfo.ScopeId,
@@ -1193,7 +1193,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriInfo.String: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriInfo.String: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriInfo.String,
     Id: F:System.Uri.UriInfo.String,
@@ -1205,7 +1205,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriSchemeFile: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeFile: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeFile,
     Id: F:System.Uri.UriSchemeFile,
@@ -1221,7 +1221,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriSchemeFtp: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeFtp: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeFtp,
     Id: F:System.Uri.UriSchemeFtp,
@@ -1237,7 +1237,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriSchemeFtps: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeFtps: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeFtps,
     Id: F:System.Uri.UriSchemeFtps,
@@ -1253,7 +1253,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriSchemeGopher: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeGopher: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeGopher,
     Id: F:System.Uri.UriSchemeGopher,
@@ -1269,7 +1269,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriSchemeHttp: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeHttp: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeHttp,
     Id: F:System.Uri.UriSchemeHttp,
@@ -1285,7 +1285,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriSchemeHttps: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeHttps: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeHttps,
     Id: F:System.Uri.UriSchemeHttps,
@@ -1301,7 +1301,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriSchemeMailto: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeMailto: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeMailto,
     Id: F:System.Uri.UriSchemeMailto,
@@ -1317,7 +1317,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriSchemeNetPipe: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeNetPipe: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeNetPipe,
     Id: F:System.Uri.UriSchemeNetPipe,
@@ -1333,7 +1333,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriSchemeNetTcp: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeNetTcp: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeNetTcp,
     Id: F:System.Uri.UriSchemeNetTcp,
@@ -1349,7 +1349,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriSchemeNews: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeNews: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeNews,
     Id: F:System.Uri.UriSchemeNews,
@@ -1365,7 +1365,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriSchemeNntp: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeNntp: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeNntp,
     Id: F:System.Uri.UriSchemeNntp,
@@ -1381,7 +1381,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriSchemeSftp: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeSftp: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeSftp,
     Id: F:System.Uri.UriSchemeSftp,
@@ -1397,7 +1397,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriSchemeSsh: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeSsh: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeSsh,
     Id: F:System.Uri.UriSchemeSsh,
@@ -1413,7 +1413,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriSchemeTelnet: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeTelnet: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeTelnet,
     Id: F:System.Uri.UriSchemeTelnet,
@@ -1429,7 +1429,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriSchemeWs: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeWs: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeWs,
     Id: F:System.Uri.UriSchemeWs,
@@ -1445,7 +1445,7 @@
       IsNullable: false
     }
   },
-  F:System.Uri.UriSchemeWss: {
+  System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeWss: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, F:System.Uri.UriSchemeWss,
     Id: F:System.Uri.UriSchemeWss,
@@ -1461,7 +1461,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.#cctor: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.#cctor: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.#cctor,
     Id: M:System.Uri.#cctor,
@@ -1472,7 +1472,7 @@
     Name: .cctor,
     ParentId: T:System.Uri
   },
-  M:System.Uri.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
     Accessibility: Protected,
     Attributes: [
       {
@@ -1528,7 +1528,7 @@
     ],
     ParentId: T:System.Uri
   },
-  M:System.Uri.#ctor(System.String,System.Boolean): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.#ctor(System.String,System.Boolean): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1578,7 +1578,7 @@
     ],
     ParentId: T:System.Uri
   },
-  M:System.Uri.#ctor(System.String,System.UriCreationOptions@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.#ctor(System.String,System.UriCreationOptions@): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.#ctor(System.String,System.UriCreationOptions@),
     Id: M:System.Uri.#ctor(System.String,System.UriCreationOptions@),
@@ -1623,7 +1623,7 @@
     ],
     ParentId: T:System.Uri
   },
-  M:System.Uri.#ctor(System.String,System.UriKind): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.#ctor(System.String,System.UriKind): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.#ctor(System.String,System.UriKind),
     Id: M:System.Uri.#ctor(System.String,System.UriKind),
@@ -1665,7 +1665,7 @@
     ],
     ParentId: T:System.Uri
   },
-  M:System.Uri.#ctor(System.String): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.#ctor(System.String): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.#ctor(System.String),
     Id: M:System.Uri.#ctor(System.String),
@@ -1696,7 +1696,7 @@
     ],
     ParentId: T:System.Uri
   },
-  M:System.Uri.#ctor(System.Uri,System.String,System.Boolean): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.#ctor(System.Uri,System.String,System.Boolean): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1757,7 +1757,7 @@
     ],
     ParentId: T:System.Uri
   },
-  M:System.Uri.#ctor(System.Uri,System.String): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.#ctor(System.Uri,System.String): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.#ctor(System.Uri,System.String),
     Id: M:System.Uri.#ctor(System.Uri,System.String),
@@ -1799,7 +1799,7 @@
     ],
     ParentId: T:System.Uri
   },
-  M:System.Uri.#ctor(System.Uri,System.Uri): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.#ctor(System.Uri,System.Uri): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.#ctor(System.Uri,System.Uri),
     Id: M:System.Uri.#ctor(System.Uri,System.Uri),
@@ -1841,7 +1841,7 @@
     ],
     ParentId: T:System.Uri
   },
-  M:System.Uri.#ctor(System.Uri.Flags,System.UriParser,System.String): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.#ctor(System.Uri.Flags,System.UriParser,System.String): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.#ctor(System.Uri.Flags,System.UriParser,System.String),
     Id: M:System.Uri.#ctor(System.Uri.Flags,System.UriParser,System.String),
@@ -1894,7 +1894,7 @@
     ],
     ParentId: T:System.Uri
   },
-  M:System.Uri.Canonicalize: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.Canonicalize: {
     Accessibility: Protected,
     Attributes: [
       {
@@ -1918,7 +1918,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.Check.#ctor: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.Check.#ctor: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.Check.#ctor,
     Id: M:System.Uri.Check.#ctor,
@@ -1926,7 +1926,7 @@
     Name: .ctor,
     ParentId: T:System.Uri.Check
   },
-  M:System.Uri.CheckAuthorityHelper(System.Char*,System.Int32,System.Int32,System.ParsingError@,System.Uri.Flags@,System.UriParser,System.String@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckAuthorityHelper(System.Char*,System.Int32,System.Int32,System.ParsingError@,System.Uri.Flags@,System.UriParser,System.String@): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckAuthorityHelper(System.Char*,System.Int32,System.Int32,System.ParsingError@,System.Uri.Flags@,System.UriParser,System.String@),
     Id: M:System.Uri.CheckAuthorityHelper(System.Char*,System.Int32,System.Int32,System.ParsingError@,System.Uri.Flags@,System.UriParser,System.String@),
@@ -2030,7 +2030,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.CheckAuthorityHelperHandleDnsIri(System.Char*,System.Int32,System.Int32,System.Boolean,System.Uri.Flags@,System.Boolean@,System.String@,System.ParsingError@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckAuthorityHelperHandleDnsIri(System.Char*,System.Int32,System.Int32,System.Boolean,System.Uri.Flags@,System.Boolean@,System.String@,System.ParsingError@): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckAuthorityHelperHandleDnsIri(System.Char*,System.Int32,System.Int32,System.Boolean,System.Uri.Flags@,System.Boolean@,System.String@,System.ParsingError@),
     Id: M:System.Uri.CheckAuthorityHelperHandleDnsIri(System.Char*,System.Int32,System.Int32,System.Boolean,System.Uri.Flags@,System.Boolean@,System.String@,System.ParsingError@),
@@ -2149,7 +2149,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.CheckCanonical(System.Char*,System.Int32@,System.Int32,System.Char): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckCanonical(System.Char*,System.Int32@,System.Int32,System.Char): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckCanonical(System.Char*,System.Int32@,System.Int32,System.Char),
     Id: M:System.Uri.CheckCanonical(System.Char*,System.Int32@,System.Int32,System.Char),
@@ -2214,7 +2214,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.CheckForColonInFirstPathSegment(System.String): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckForColonInFirstPathSegment(System.String): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckForColonInFirstPathSegment(System.String),
     Id: M:System.Uri.CheckForColonInFirstPathSegment(System.String),
@@ -2243,7 +2243,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.CheckForUnicodeOrEscapedUnreserved(System.String): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckForUnicodeOrEscapedUnreserved(System.String): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckForUnicodeOrEscapedUnreserved(System.String),
     Id: M:System.Uri.CheckForUnicodeOrEscapedUnreserved(System.String),
@@ -2272,7 +2272,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.CheckHostName(System.String): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckHostName(System.String): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckHostName(System.String),
     Id: M:System.Uri.CheckHostName(System.String),
@@ -2301,7 +2301,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.CheckSchemeName(System.String): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckSchemeName(System.String): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckSchemeName(System.String),
     Id: M:System.Uri.CheckSchemeName(System.String),
@@ -2330,7 +2330,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.CheckSchemeSyntax(System.ReadOnlySpan{System.Char},System.ParsingError@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckSchemeSyntax(System.ReadOnlySpan{System.Char},System.ParsingError@): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckSchemeSyntax(System.ReadOnlySpan{System.Char},System.ParsingError@),
     Id: M:System.Uri.CheckSchemeSyntax(System.ReadOnlySpan{System.Char},System.ParsingError@),
@@ -2373,7 +2373,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.CheckSecurity: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CheckSecurity: {
     Accessibility: Protected,
     Attributes: [
       {
@@ -2397,7 +2397,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.CombineUri(System.Uri,System.String,System.UriFormat): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CombineUri(System.Uri,System.String,System.UriFormat): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.CombineUri(System.Uri,System.String,System.UriFormat),
     Id: M:System.Uri.CombineUri(System.Uri,System.String,System.UriFormat),
@@ -2448,7 +2448,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.Compare(System.Uri,System.Uri,System.UriComponents,System.UriFormat,System.StringComparison): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.Compare(System.Uri,System.Uri,System.UriComponents,System.UriFormat,System.StringComparison): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.Compare(System.Uri,System.Uri,System.UriComponents,System.UriFormat,System.StringComparison),
     Id: M:System.Uri.Compare(System.Uri,System.Uri,System.UriComponents,System.UriFormat,System.StringComparison),
@@ -2521,7 +2521,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.Compress(System.Char[],System.Int32,System.Int32@,System.UriParser): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.Compress(System.Char[],System.Int32,System.Int32@,System.UriParser): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.Compress(System.Char[],System.Int32,System.Int32@,System.UriParser),
     Id: M:System.Uri.Compress(System.Char[],System.Int32,System.Int32@,System.UriParser),
@@ -2589,7 +2589,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.Compress(System.Span{System.Char},System.UriParser): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.Compress(System.Span{System.Char},System.UriParser): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.Compress(System.Span{System.Char},System.UriParser),
     Id: M:System.Uri.Compress(System.Span{System.Char},System.UriParser),
@@ -2632,7 +2632,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.CreateHelper(System.String,System.Boolean,System.UriKind,System.UriFormatException@,System.UriCreationOptions@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CreateHelper(System.String,System.Boolean,System.UriKind,System.UriFormatException@,System.UriCreationOptions@): {
     Accessibility: Internal,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.CreateHelper(System.String,System.Boolean,System.UriKind,System.UriFormatException@,System.UriCreationOptions@),
     Id: M:System.Uri.CreateHelper(System.String,System.Boolean,System.UriKind,System.UriFormatException@,System.UriCreationOptions@),
@@ -2712,7 +2712,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.CreateHostString: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CreateHostString: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.CreateHostString,
     Id: M:System.Uri.CreateHostString,
@@ -2725,7 +2725,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.CreateHostStringHelper(System.String,System.Int32,System.Int32,System.Uri.Flags@,System.String@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CreateHostStringHelper(System.String,System.Int32,System.Int32,System.Uri.Flags@,System.String@): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.CreateHostStringHelper(System.String,System.Int32,System.Int32,System.Uri.Flags@,System.String@),
     Id: M:System.Uri.CreateHostStringHelper(System.String,System.Int32,System.Int32,System.Uri.Flags@,System.String@),
@@ -2804,7 +2804,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.CreateThis(System.String,System.Boolean,System.UriKind,System.UriCreationOptions@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CreateThis(System.String,System.Boolean,System.UriKind,System.UriCreationOptions@): {
     Accessibility: Private,
     Attributes: [
       {
@@ -2875,7 +2875,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.CreateThisFromUri(System.Uri): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CreateThisFromUri(System.Uri): {
     Accessibility: Private,
     Attributes: [
       {
@@ -2909,7 +2909,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.CreateUri(System.Uri,System.String,System.Boolean): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CreateUri(System.Uri,System.String,System.Boolean): {
     Accessibility: Private,
     Attributes: [
       {
@@ -2965,7 +2965,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.CreateUriInfo(System.Uri.Flags): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.CreateUriInfo(System.Uri.Flags): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.CreateUriInfo(System.Uri.Flags),
     Id: M:System.Uri.CreateUriInfo(System.Uri.Flags),
@@ -2991,7 +2991,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.EnsureHostString(System.Boolean): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.EnsureHostString(System.Boolean): {
     Accessibility: Private,
     Attributes: [
       {
@@ -3025,7 +3025,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.EnsureParseRemaining: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.EnsureParseRemaining: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.EnsureParseRemaining,
     Id: M:System.Uri.EnsureParseRemaining,
@@ -3038,7 +3038,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.EnsureUriInfo: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.EnsureUriInfo: {
     Accessibility: Private,
     Attributes: [
       {
@@ -3059,7 +3059,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.Equals(System.Object): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.Equals(System.Object): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.Equals(System.Object),
     Id: M:System.Uri.Equals(System.Object),
@@ -3088,7 +3088,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.Escape: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.Escape: {
     Accessibility: Protected,
     Attributes: [
       {
@@ -3112,7 +3112,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.EscapeDataString(System.String): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.EscapeDataString(System.String): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.EscapeDataString(System.String),
     Id: M:System.Uri.EscapeDataString(System.String),
@@ -3141,7 +3141,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.EscapeString(System.String): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.EscapeString(System.String): {
     Accessibility: Protected,
     Attributes: [
       {
@@ -3178,7 +3178,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.EscapeUnescapeIri(System.String,System.Int32,System.Int32,System.UriComponents): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.EscapeUnescapeIri(System.String,System.Int32,System.Int32,System.UriComponents): {
     Accessibility: Internal,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.EscapeUnescapeIri(System.String,System.Int32,System.Int32,System.UriComponents),
     Id: M:System.Uri.EscapeUnescapeIri(System.String,System.Int32,System.Int32,System.UriComponents),
@@ -3237,7 +3237,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.EscapeUriString(System.String): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.EscapeUriString(System.String): {
     Accessibility: Public,
     Attributes: [
       {
@@ -3274,7 +3274,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.Flags.#ctor: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.Flags.#ctor: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.Flags.#ctor,
     Id: M:System.Uri.Flags.#ctor,
@@ -3282,7 +3282,7 @@
     Name: .ctor,
     ParentId: T:System.Uri.Flags
   },
-  M:System.Uri.FromHex(System.Char): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.FromHex(System.Char): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.FromHex(System.Char),
     Id: M:System.Uri.FromHex(System.Char),
@@ -3311,7 +3311,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.GetCanonicalPath(System.Text.ValueStringBuilder@,System.UriFormat): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetCanonicalPath(System.Text.ValueStringBuilder@,System.UriFormat): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetCanonicalPath(System.Text.ValueStringBuilder@,System.UriFormat),
     Id: M:System.Uri.GetCanonicalPath(System.Text.ValueStringBuilder@,System.UriFormat),
@@ -3351,7 +3351,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.GetCombinedString(System.Uri,System.String,System.Boolean,System.String@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetCombinedString(System.Uri,System.String,System.Boolean,System.String@): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetCombinedString(System.Uri,System.String,System.Boolean,System.String@),
     Id: M:System.Uri.GetCombinedString(System.Uri,System.String,System.Boolean,System.String@),
@@ -3416,7 +3416,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.GetComponents(System.UriComponents,System.UriFormat): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetComponents(System.UriComponents,System.UriFormat): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetComponents(System.UriComponents,System.UriFormat),
     Id: M:System.Uri.GetComponents(System.UriComponents,System.UriFormat),
@@ -3453,7 +3453,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.GetComponentsHelper(System.UriComponents,System.UriFormat): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetComponentsHelper(System.UriComponents,System.UriFormat): {
     Accessibility: Internal,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetComponentsHelper(System.UriComponents,System.UriFormat),
     Id: M:System.Uri.GetComponentsHelper(System.UriComponents,System.UriFormat),
@@ -3490,7 +3490,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.GetEscapedParts(System.UriComponents): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetEscapedParts(System.UriComponents): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetEscapedParts(System.UriComponents),
     Id: M:System.Uri.GetEscapedParts(System.UriComponents),
@@ -3516,7 +3516,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.GetException(System.ParsingError): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetException(System.ParsingError): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetException(System.ParsingError),
     Id: M:System.Uri.GetException(System.ParsingError),
@@ -3545,7 +3545,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.GetHashCode: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetHashCode: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetHashCode,
     Id: M:System.Uri.GetHashCode,
@@ -3561,7 +3561,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.GetHostViaCustomSyntax: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetHostViaCustomSyntax: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetHostViaCustomSyntax,
     Id: M:System.Uri.GetHostViaCustomSyntax,
@@ -3574,7 +3574,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.GetLeftPart(System.UriPartial): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetLeftPart(System.UriPartial): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetLeftPart(System.UriPartial),
     Id: M:System.Uri.GetLeftPart(System.UriPartial),
@@ -3600,7 +3600,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.GetLengthWithoutTrailingSpaces(System.String,System.Int32@,System.Int32): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetLengthWithoutTrailingSpaces(System.String,System.Int32@,System.Int32): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetLengthWithoutTrailingSpaces(System.String,System.Int32@,System.Int32),
     Id: M:System.Uri.GetLengthWithoutTrailingSpaces(System.String,System.Int32@,System.Int32),
@@ -3654,7 +3654,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.GetLocalPath: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetLocalPath: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetLocalPath,
     Id: M:System.Uri.GetLocalPath,
@@ -3667,7 +3667,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
     Accessibility: Protected,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
     Id: M:System.Uri.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
@@ -3704,7 +3704,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.GetParts(System.UriComponents,System.UriFormat): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetParts(System.UriComponents,System.UriFormat): {
     Accessibility: Internal,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetParts(System.UriComponents,System.UriFormat),
     Id: M:System.Uri.GetParts(System.UriComponents,System.UriFormat),
@@ -3741,7 +3741,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.GetRelativeSerializationString(System.UriFormat): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetRelativeSerializationString(System.UriFormat): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetRelativeSerializationString(System.UriFormat),
     Id: M:System.Uri.GetRelativeSerializationString(System.UriFormat),
@@ -3767,7 +3767,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.GetUnescapedParts(System.UriComponents,System.UriFormat): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetUnescapedParts(System.UriComponents,System.UriFormat): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetUnescapedParts(System.UriComponents,System.UriFormat),
     Id: M:System.Uri.GetUnescapedParts(System.UriComponents,System.UriFormat),
@@ -3804,7 +3804,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.GetUriPartsFromUserString(System.UriComponents): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetUriPartsFromUserString(System.UriComponents): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.GetUriPartsFromUserString(System.UriComponents),
     Id: M:System.Uri.GetUriPartsFromUserString(System.UriComponents),
@@ -3830,7 +3830,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.HexEscape(System.Char): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.HexEscape(System.Char): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.HexEscape(System.Char),
     Id: M:System.Uri.HexEscape(System.Char),
@@ -3859,7 +3859,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.HexUnescape(System.String,System.Int32@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.HexUnescape(System.String,System.Int32@): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.HexUnescape(System.String,System.Int32@),
     Id: M:System.Uri.HexUnescape(System.String,System.Int32@),
@@ -3902,7 +3902,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.InFact(System.Uri.Flags): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.InFact(System.Uri.Flags): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.InFact(System.Uri.Flags),
     Id: M:System.Uri.InFact(System.Uri.Flags),
@@ -3928,7 +3928,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.InitializeUri(System.ParsingError,System.UriKind,System.UriFormatException@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.InitializeUri(System.ParsingError,System.UriKind,System.UriFormatException@): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.InitializeUri(System.ParsingError,System.UriKind,System.UriFormatException@),
     Id: M:System.Uri.InitializeUri(System.ParsingError,System.UriKind,System.UriFormatException@),
@@ -3979,7 +3979,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.InterlockedSetFlags(System.Uri.Flags): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.InterlockedSetFlags(System.Uri.Flags): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.InterlockedSetFlags(System.Uri.Flags),
     Id: M:System.Uri.InterlockedSetFlags(System.Uri.Flags),
@@ -4005,7 +4005,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.InternalEscapeString(System.String): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.InternalEscapeString(System.String): {
     Accessibility: Internal,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.InternalEscapeString(System.String),
     Id: M:System.Uri.InternalEscapeString(System.String),
@@ -4034,7 +4034,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.InternalGetComponents(System.UriComponents,System.UriFormat): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.InternalGetComponents(System.UriComponents,System.UriFormat): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.InternalGetComponents(System.UriComponents,System.UriFormat),
     Id: M:System.Uri.InternalGetComponents(System.UriComponents,System.UriFormat),
@@ -4071,7 +4071,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.InternalIsWellFormedOriginalString: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.InternalIsWellFormedOriginalString: {
     Accessibility: Internal,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.InternalIsWellFormedOriginalString,
     Id: M:System.Uri.InternalIsWellFormedOriginalString,
@@ -4084,7 +4084,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.IriParsingStatic(System.UriParser): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.IriParsingStatic(System.UriParser): {
     Accessibility: Internal,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.IriParsingStatic(System.UriParser),
     Id: M:System.Uri.IriParsingStatic(System.UriParser),
@@ -4113,7 +4113,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.IsBadFileSystemCharacter(System.Char): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.IsBadFileSystemCharacter(System.Char): {
     Accessibility: Protected,
     Attributes: [
       {
@@ -4150,7 +4150,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.IsBaseOf(System.Uri): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.IsBaseOf(System.Uri): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.IsBaseOf(System.Uri),
     Id: M:System.Uri.IsBaseOf(System.Uri),
@@ -4176,7 +4176,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.IsBaseOfHelper(System.Uri): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.IsBaseOfHelper(System.Uri): {
     Accessibility: Internal,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.IsBaseOfHelper(System.Uri),
     Id: M:System.Uri.IsBaseOfHelper(System.Uri),
@@ -4202,7 +4202,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.IsExcludedCharacter(System.Char): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.IsExcludedCharacter(System.Char): {
     Accessibility: Protected,
     Attributes: [
       {
@@ -4239,7 +4239,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.IsHexDigit(System.Char): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.IsHexDigit(System.Char): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.IsHexDigit(System.Char),
     Id: M:System.Uri.IsHexDigit(System.Char),
@@ -4268,7 +4268,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.IsHexEncoding(System.String,System.Int32): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.IsHexEncoding(System.String,System.Int32): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.IsHexEncoding(System.String,System.Int32),
     Id: M:System.Uri.IsHexEncoding(System.String,System.Int32),
@@ -4308,7 +4308,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.IsReservedCharacter(System.Char): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.IsReservedCharacter(System.Char): {
     Accessibility: Protected,
     Attributes: [
       {
@@ -4345,7 +4345,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.IsWellFormedOriginalString: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.IsWellFormedOriginalString: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.IsWellFormedOriginalString,
     Id: M:System.Uri.IsWellFormedOriginalString,
@@ -4358,7 +4358,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.IsWellFormedUriString(System.String,System.UriKind): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.IsWellFormedUriString(System.String,System.UriKind): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.IsWellFormedUriString(System.String,System.UriKind),
     Id: M:System.Uri.IsWellFormedUriString(System.String,System.UriKind),
@@ -4398,7 +4398,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.MakeRelative(System.Uri): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.MakeRelative(System.Uri): {
     Accessibility: Public,
     Attributes: [
       {
@@ -4432,7 +4432,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.MakeRelativeUri(System.Uri): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.MakeRelativeUri(System.Uri): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.MakeRelativeUri(System.Uri),
     Id: M:System.Uri.MakeRelativeUri(System.Uri),
@@ -4458,7 +4458,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.MoreInfo.#ctor: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.MoreInfo.#ctor: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.MoreInfo.#ctor,
     Id: M:System.Uri.MoreInfo.#ctor,
@@ -4466,7 +4466,7 @@
     Name: .ctor,
     ParentId: T:System.Uri.MoreInfo
   },
-  M:System.Uri.NotAny(System.Uri.Flags): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.NotAny(System.Uri.Flags): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.NotAny(System.Uri.Flags),
     Id: M:System.Uri.NotAny(System.Uri.Flags),
@@ -4492,7 +4492,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.Offset.#ctor: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.Offset.#ctor: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.Offset.#ctor,
     Id: M:System.Uri.Offset.#ctor,
@@ -4500,7 +4500,7 @@
     Name: .ctor,
     ParentId: T:System.Uri.Offset
   },
-  M:System.Uri.op_Equality(System.Uri,System.Uri): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.op_Equality(System.Uri,System.Uri): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.op_Equality(System.Uri,System.Uri),
     Id: M:System.Uri.op_Equality(System.Uri,System.Uri),
@@ -4539,7 +4539,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.op_Inequality(System.Uri,System.Uri): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.op_Inequality(System.Uri,System.Uri): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.op_Inequality(System.Uri,System.Uri),
     Id: M:System.Uri.op_Inequality(System.Uri,System.Uri),
@@ -4578,7 +4578,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.Parse: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.Parse: {
     Accessibility: Protected,
     Attributes: [
       {
@@ -4602,7 +4602,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.ParseMinimal: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.ParseMinimal: {
     Accessibility: Internal,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.ParseMinimal,
     Id: M:System.Uri.ParseMinimal,
@@ -4615,7 +4615,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.ParseRemaining: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.ParseRemaining: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.ParseRemaining,
     Id: M:System.Uri.ParseRemaining,
@@ -4628,7 +4628,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.ParseScheme(System.String,System.Uri.Flags@,System.UriParser@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.ParseScheme(System.String,System.Uri.Flags@,System.UriParser@): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.ParseScheme(System.String,System.Uri.Flags@,System.UriParser@),
     Id: M:System.Uri.ParseScheme(System.String,System.Uri.Flags@,System.UriParser@),
@@ -4685,7 +4685,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.ParseSchemeCheckImplicitFile(System.String,System.ParsingError@,System.Uri.Flags@,System.UriParser@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.ParseSchemeCheckImplicitFile(System.String,System.ParsingError@,System.Uri.Flags@,System.UriParser@): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.ParseSchemeCheckImplicitFile(System.String,System.ParsingError@,System.Uri.Flags@,System.UriParser@),
     Id: M:System.Uri.ParseSchemeCheckImplicitFile(System.String,System.ParsingError@,System.Uri.Flags@,System.UriParser@),
@@ -4756,7 +4756,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.PathDifference(System.String,System.String,System.Boolean): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.PathDifference(System.String,System.String,System.Boolean): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.PathDifference(System.String,System.String,System.Boolean),
     Id: M:System.Uri.PathDifference(System.String,System.String,System.Boolean),
@@ -4807,7 +4807,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.PrivateParseMinimal: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.PrivateParseMinimal: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.PrivateParseMinimal,
     Id: M:System.Uri.PrivateParseMinimal,
@@ -4820,7 +4820,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.RecreateParts(System.Text.ValueStringBuilder@,System.String,System.UriComponents,System.UInt16,System.UriFormat): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.RecreateParts(System.Text.ValueStringBuilder@,System.String,System.UriComponents,System.UInt16,System.UriFormat): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.RecreateParts(System.Text.ValueStringBuilder@,System.String,System.UriComponents,System.UInt16,System.UriFormat),
     Id: M:System.Uri.RecreateParts(System.Text.ValueStringBuilder@,System.String,System.UriComponents,System.UInt16,System.UriFormat),
@@ -4896,7 +4896,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.RecreateParts(System.UriComponents,System.UInt16,System.UriFormat): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.RecreateParts(System.UriComponents,System.UInt16,System.UriFormat): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.RecreateParts(System.UriComponents,System.UInt16,System.UriFormat),
     Id: M:System.Uri.RecreateParts(System.UriComponents,System.UInt16,System.UriFormat),
@@ -4947,7 +4947,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.ResolveHelper(System.Uri,System.Uri,System.String@,System.Boolean@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.ResolveHelper(System.Uri,System.Uri,System.String@,System.Boolean@): {
     Accessibility: Internal,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.ResolveHelper(System.Uri,System.Uri,System.String@,System.Boolean@),
     Id: M:System.Uri.ResolveHelper(System.Uri,System.Uri,System.String@,System.Boolean@),
@@ -5015,7 +5015,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.StaticInFact(System.Uri.Flags,System.Uri.Flags): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.StaticInFact(System.Uri.Flags,System.Uri.Flags): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.StaticInFact(System.Uri.Flags,System.Uri.Flags),
     Id: M:System.Uri.StaticInFact(System.Uri.Flags,System.Uri.Flags),
@@ -5055,7 +5055,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.StaticIsFile(System.UriParser): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.StaticIsFile(System.UriParser): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.StaticIsFile(System.UriParser),
     Id: M:System.Uri.StaticIsFile(System.UriParser),
@@ -5084,7 +5084,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.StaticNotAny(System.Uri.Flags,System.Uri.Flags): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.StaticNotAny(System.Uri.Flags,System.Uri.Flags): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.StaticNotAny(System.Uri.Flags,System.Uri.Flags),
     Id: M:System.Uri.StaticNotAny(System.Uri.Flags,System.Uri.Flags),
@@ -5124,7 +5124,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.System#IFormattable#ToString(System.String,System.IFormatProvider): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.System#IFormattable#ToString(System.String,System.IFormatProvider): {
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.System#IFormattable#ToString(System.String,System.IFormatProvider),
     Id: M:System.Uri.System#IFormattable#ToString(System.String,System.IFormatProvider),
     IsLocal: false,
@@ -5160,7 +5160,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider): {
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
     Id: M:System.Uri.System#ISpanFormattable#TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
     IsLocal: false,
@@ -5221,7 +5221,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
     Id: M:System.Uri.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
     IsLocal: false,
@@ -5257,7 +5257,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.ToString: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.ToString: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.ToString,
     Id: M:System.Uri.ToString,
@@ -5273,7 +5273,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.TryCreate(System.String,System.UriCreationOptions@,System.Uri@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.TryCreate(System.String,System.UriCreationOptions@,System.Uri@): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.TryCreate(System.String,System.UriCreationOptions@,System.Uri@),
     Id: M:System.Uri.TryCreate(System.String,System.UriCreationOptions@,System.Uri@),
@@ -5335,7 +5335,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.TryCreate(System.String,System.UriKind,System.Uri@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.TryCreate(System.String,System.UriKind,System.Uri@): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.TryCreate(System.String,System.UriKind,System.Uri@),
     Id: M:System.Uri.TryCreate(System.String,System.UriKind,System.Uri@),
@@ -5394,7 +5394,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.TryCreate(System.Uri,System.String,System.Uri@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.TryCreate(System.Uri,System.String,System.Uri@): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.TryCreate(System.Uri,System.String,System.Uri@),
     Id: M:System.Uri.TryCreate(System.Uri,System.String,System.Uri@),
@@ -5453,7 +5453,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.TryCreate(System.Uri,System.Uri,System.Uri@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.TryCreate(System.Uri,System.Uri,System.Uri@): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.TryCreate(System.Uri,System.Uri,System.Uri@),
     Id: M:System.Uri.TryCreate(System.Uri,System.Uri,System.Uri@),
@@ -5512,7 +5512,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.TryFormat(System.Span{System.Char},System.Int32@): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.TryFormat(System.Span{System.Char},System.Int32@): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.TryFormat(System.Span{System.Char},System.Int32@),
     Id: M:System.Uri.TryFormat(System.Span{System.Char},System.Int32@),
@@ -5552,7 +5552,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.TryRecreateParts(System.Span{System.Char},System.Int32@,System.UriComponents,System.UInt16,System.UriFormat): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.TryRecreateParts(System.Span{System.Char},System.Int32@,System.UriComponents,System.UInt16,System.UriFormat): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.TryRecreateParts(System.Span{System.Char},System.Int32@,System.UriComponents,System.UInt16,System.UriFormat),
     Id: M:System.Uri.TryRecreateParts(System.Span{System.Char},System.Int32@,System.UriComponents,System.UInt16,System.UriFormat),
@@ -5625,7 +5625,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.Unescape(System.String): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.Unescape(System.String): {
     Accessibility: Protected,
     Attributes: [
       {
@@ -5662,7 +5662,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.UnescapeDataString(System.String): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.UnescapeDataString(System.String): {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.UnescapeDataString(System.String),
     Id: M:System.Uri.UnescapeDataString(System.String),
@@ -5691,7 +5691,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.UnescapeOnly(System.Char*,System.Int32,System.Int32@,System.Char,System.Char,System.Char): {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.UnescapeOnly(System.Char*,System.Int32,System.Int32@,System.Char,System.Char,System.Char): {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.UnescapeOnly(System.Char*,System.Int32,System.Int32@,System.Char,System.Char,System.Char),
     Id: M:System.Uri.UnescapeOnly(System.Char*,System.Int32,System.Int32@,System.Char,System.Char,System.Char),
@@ -5779,7 +5779,7 @@
       IsNullable: false
     }
   },
-  M:System.Uri.UriInfo.#ctor: {
+  System.Private.Uri, Version=x.x.x.x, M:System.Uri.UriInfo.#ctor: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, M:System.Uri.UriInfo.#ctor,
     Id: M:System.Uri.UriInfo.#ctor,
@@ -5787,7 +5787,7 @@
     Name: .ctor,
     ParentId: T:System.Uri.UriInfo
   },
-  P:System.Uri.AbsolutePath: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.AbsolutePath: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.AbsolutePath,
     Getter: {
@@ -5812,7 +5812,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.AbsoluteUri: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.AbsoluteUri: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.AbsoluteUri,
     Getter: {
@@ -5837,7 +5837,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.Authority: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.Authority: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.Authority,
     Getter: {
@@ -5862,7 +5862,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.DisablePathAndQueryCanonicalization: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.DisablePathAndQueryCanonicalization: {
     Accessibility: Internal,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.DisablePathAndQueryCanonicalization,
     Getter: {
@@ -5887,7 +5887,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.DnsSafeHost: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.DnsSafeHost: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.DnsSafeHost,
     Getter: {
@@ -5912,7 +5912,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.Fragment: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.Fragment: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.Fragment,
     Getter: {
@@ -5937,7 +5937,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.Host: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.Host: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.Host,
     Getter: {
@@ -5962,7 +5962,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.HostNameType: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.HostNameType: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.HostNameType,
     Getter: {
@@ -5987,7 +5987,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.HostType: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.HostType: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.HostType,
     Getter: {
@@ -6012,7 +6012,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.IdnHost: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.IdnHost: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.IdnHost,
     Getter: {
@@ -6037,7 +6037,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.IriParsing: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.IriParsing: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.IriParsing,
     Getter: {
@@ -6062,7 +6062,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.IsAbsoluteUri: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsAbsoluteUri: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsAbsoluteUri,
     Getter: {
@@ -6087,7 +6087,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.IsDefaultPort: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsDefaultPort: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsDefaultPort,
     Getter: {
@@ -6112,7 +6112,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.IsDosPath: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsDosPath: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsDosPath,
     Getter: {
@@ -6137,7 +6137,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.IsFile: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsFile: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsFile,
     Getter: {
@@ -6162,7 +6162,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.IsImplicitFile: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsImplicitFile: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsImplicitFile,
     Getter: {
@@ -6187,7 +6187,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.IsLoopback: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsLoopback: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsLoopback,
     Getter: {
@@ -6212,7 +6212,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.IsNotAbsoluteUri: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsNotAbsoluteUri: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsNotAbsoluteUri,
     Getter: {
@@ -6237,7 +6237,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.IsUnc: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsUnc: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsUnc,
     Getter: {
@@ -6262,7 +6262,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.IsUncOrDosPath: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsUncOrDosPath: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsUncOrDosPath,
     Getter: {
@@ -6287,7 +6287,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.IsUncPath: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsUncPath: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsUncPath,
     Getter: {
@@ -6312,7 +6312,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.IsUnixPath: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsUnixPath: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.IsUnixPath,
     Getter: {
@@ -6337,7 +6337,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.LocalPath: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.LocalPath: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.LocalPath,
     Getter: {
@@ -6362,7 +6362,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.OriginalString: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.OriginalString: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.OriginalString,
     Getter: {
@@ -6387,7 +6387,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.PathAndQuery: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.PathAndQuery: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.PathAndQuery,
     Getter: {
@@ -6412,7 +6412,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.Port: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.Port: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.Port,
     Getter: {
@@ -6437,7 +6437,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.PrivateAbsolutePath: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.PrivateAbsolutePath: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.PrivateAbsolutePath,
     Getter: {
@@ -6462,7 +6462,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.Query: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.Query: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.Query,
     Getter: {
@@ -6487,7 +6487,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.Scheme: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.Scheme: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.Scheme,
     Getter: {
@@ -6512,7 +6512,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.SecuredPathIndex: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.SecuredPathIndex: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.SecuredPathIndex,
     Getter: {
@@ -6537,7 +6537,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.Segments: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.Segments: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.Segments,
     Getter: {
@@ -6562,7 +6562,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.Syntax: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.Syntax: {
     Accessibility: Private,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.Syntax,
     Getter: {
@@ -6587,7 +6587,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.UriInfo.MoreInfo: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.UriInfo.MoreInfo: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.UriInfo.MoreInfo,
     Getter: {
@@ -6612,7 +6612,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.UserDrivenParsing: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.UserDrivenParsing: {
     Accessibility: Internal,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.UserDrivenParsing,
     Getter: {
@@ -6637,7 +6637,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.UserEscaped: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.UserEscaped: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.UserEscaped,
     Getter: {
@@ -6662,7 +6662,7 @@
       IsNullable: false
     }
   },
-  P:System.Uri.UserInfo: {
+  System.Private.Uri, Version=x.x.x.x, P:System.Uri.UserInfo: {
     Accessibility: Public,
     FullName: System.Private.Uri, Version=x.x.x.x, P:System.Uri.UserInfo,
     Getter: {

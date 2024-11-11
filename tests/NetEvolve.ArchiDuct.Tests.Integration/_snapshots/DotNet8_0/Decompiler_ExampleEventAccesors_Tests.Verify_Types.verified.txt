@@ -1,5 +1,5 @@
 ﻿{
-  T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors: {
     Accessibility: Public,
     Attributes: [
       {

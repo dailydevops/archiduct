@@ -1,5 +1,5 @@
 ﻿{
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>F546069DB3BB27819A79AE6FE5260007F14C4EDFD61E51D5306B5692DF70DAC3C__FileModifier.#ctor: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>F546069DB3BB27819A79AE6FE5260007F14C4EDFD61E51D5306B5692DF70DAC3C__FileModifier.#ctor: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>F546069DB3BB27819A79AE6FE5260007F14C4EDFD61E51D5306B5692DF70DAC3C__FileModifier.#ctor,
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>F546069DB3BB27819A79AE6FE5260007F14C4EDFD61E51D5306B5692DF70DAC3C__FileModifier.#ctor,
@@ -7,7 +7,7 @@
     Name: .ctor,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>F546069DB3BB27819A79AE6FE5260007F14C4EDFD61E51D5306B5692DF70DAC3C__FileModifier
   },
-  P:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>F546069DB3BB27819A79AE6FE5260007F14C4EDFD61E51D5306B5692DF70DAC3C__FileModifier.Counter: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>F546069DB3BB27819A79AE6FE5260007F14C4EDFD61E51D5306B5692DF70DAC3C__FileModifier.Counter: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>F546069DB3BB27819A79AE6FE5260007F14C4EDFD61E51D5306B5692DF70DAC3C__FileModifier.Counter,
     Getter: {

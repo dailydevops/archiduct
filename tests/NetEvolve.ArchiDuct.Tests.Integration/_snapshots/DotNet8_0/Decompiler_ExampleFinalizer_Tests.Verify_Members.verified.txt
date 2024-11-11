@@ -1,5 +1,5 @@
 ﻿{
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.#ctor: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.#ctor: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.#ctor,
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.#ctor,
@@ -7,7 +7,7 @@
     Name: .ctor,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass
   },
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.Finalize: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.Finalize: {
     Accessibility: Protected,
     Attributes: [
       {
@@ -30,7 +30,7 @@
       IsNullable: false
     }
   },
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.ToString: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.ToString: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.ToString,
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass.ToString,

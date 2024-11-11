@@ -1,5 +1,5 @@
 ﻿{
-  T:System.Uri: {
+  System.Private.Uri, Version=x.x.x.x, T:System.Uri: {
     Accessibility: Public,
     Attributes: [
       {
@@ -240,7 +240,7 @@
     ],
     ParentId: N:System
   },
-  T:System.Uri.Check: {
+  System.Private.Uri, Version=x.x.x.x, T:System.Uri.Check: {
     Accessibility: Private,
     Attributes: [
       {
@@ -324,7 +324,7 @@
     ParentId: T:System.Uri,
     UnderlyingType: T:System.Int32
   },
-  T:System.Uri.Flags: {
+  System.Private.Uri, Version=x.x.x.x, T:System.Uri.Flags: {
     Accessibility: Internal,
     Attributes: [
       {
@@ -456,7 +456,7 @@
     ParentId: T:System.Uri,
     UnderlyingType: T:System.UInt64
   },
-  T:System.Uri.MoreInfo: {
+  System.Private.Uri, Version=x.x.x.x, T:System.Uri.MoreInfo: {
     Accessibility: Private,
     Attributes: [
       {
@@ -517,7 +517,7 @@
     NamespaceId: T:System.Uri,
     ParentId: T:System.Uri
   },
-  T:System.Uri.Offset: {
+  System.Private.Uri, Version=x.x.x.x, T:System.Uri.Offset: {
     Accessibility: Private,
     Attributes: [
       {
@@ -601,7 +601,7 @@
     NamespaceId: T:System.Uri,
     ParentId: T:System.Uri
   },
-  T:System.Uri.UriInfo: {
+  System.Private.Uri, Version=x.x.x.x, T:System.Uri.UriInfo: {
     Accessibility: Private,
     Attributes: [
       {

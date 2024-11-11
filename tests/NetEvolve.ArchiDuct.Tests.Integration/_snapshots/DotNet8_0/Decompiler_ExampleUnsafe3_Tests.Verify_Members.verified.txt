@@ -1,5 +1,5 @@
 ﻿{
-  F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Left: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Left: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Left,
     Id: F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Left,
@@ -14,7 +14,7 @@
       IsNullable: false
     }
   },
-  F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Right: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Right: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Right,
     Id: F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Right,
@@ -29,7 +29,7 @@
       IsNullable: false
     }
   },
-  F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Value: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Value: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Value,
     Id: F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Value,
@@ -41,7 +41,7 @@
       IsNullable: false
     }
   },
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.#ctor: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.#ctor: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.#ctor,
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.#ctor,

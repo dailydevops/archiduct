@@ -1,5 +1,5 @@
 ﻿{
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32): {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32): {
     Accessibility: Public,
     Attributes: [
       {

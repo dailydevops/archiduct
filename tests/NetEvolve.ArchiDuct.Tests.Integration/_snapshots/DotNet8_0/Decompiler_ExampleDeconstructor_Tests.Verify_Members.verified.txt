@@ -1,5 +1,5 @@
 ﻿{
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String): {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String): {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String),
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String),
@@ -53,7 +53,7 @@
     ],
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample
   },
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@): {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@): {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@),
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@),
@@ -98,7 +98,7 @@
       IsNullable: false
     }
   },
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@): {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@): {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@),
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@),
@@ -129,7 +129,7 @@
       IsNullable: false
     }
   },
-  P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.FirstName: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.FirstName: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.FirstName,
     Getter: {
@@ -167,7 +167,7 @@
       }
     }
   },
-  P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.LastName: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.LastName: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.LastName,
     Getter: {

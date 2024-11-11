@@ -1,5 +1,5 @@
 ﻿{
-  T:NetEvolve.ArchiDuct.ArchitectureCollector: {
+  NetEvolve.ArchiDuct, Version=x.x.x.x, T:NetEvolve.ArchiDuct.ArchitectureCollector: {
     Accessibility: Public,
     Attributes: [
       {

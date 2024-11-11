@@ -1,5 +1,5 @@
 ﻿{
-  T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest: {
     Accessibility: Internal,
     Attributes: [
       {

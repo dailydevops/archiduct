@@ -1,5 +1,5 @@
 ﻿{
-  T:System.ArgumentException: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.ArgumentException: {
     Accessibility: Public,
     Attributes: [
       {

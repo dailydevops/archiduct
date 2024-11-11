@@ -1,5 +1,5 @@
 ﻿{
-  T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty: {
     Accessibility: Public,
     Attributes: [
       {

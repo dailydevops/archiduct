@@ -1,5 +1,5 @@
 ﻿{
-  F:System.Numerics.BigInteger._bits: {
+  System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger._bits: {
     Accessibility: Internal,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger._bits,
     Id: F:System.Numerics.BigInteger._bits,
@@ -14,7 +14,7 @@
       IsNullable: true
     }
   },
-  F:System.Numerics.BigInteger._sign: {
+  System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger._sign: {
     Accessibility: Internal,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger._sign,
     Id: F:System.Numerics.BigInteger._sign,
@@ -29,7 +29,7 @@
       IsNullable: false
     }
   },
-  F:System.Numerics.BigInteger.GetBytesMode.AllocateArray: {
+  System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger.GetBytesMode.AllocateArray: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger.GetBytesMode.AllocateArray,
     Id: F:System.Numerics.BigInteger.GetBytesMode.AllocateArray,
@@ -42,7 +42,7 @@
     },
     Value: 0
   },
-  F:System.Numerics.BigInteger.GetBytesMode.Count: {
+  System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger.GetBytesMode.Count: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger.GetBytesMode.Count,
     Id: F:System.Numerics.BigInteger.GetBytesMode.Count,
@@ -55,7 +55,7 @@
     },
     Value: 1
   },
-  F:System.Numerics.BigInteger.GetBytesMode.Span: {
+  System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger.GetBytesMode.Span: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger.GetBytesMode.Span,
     Id: F:System.Numerics.BigInteger.GetBytesMode.Span,
@@ -68,7 +68,7 @@
     },
     Value: 2
   },
-  F:System.Numerics.BigInteger.s_bnMinInt: {
+  System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger.s_bnMinInt: {
     Accessibility: Private,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger.s_bnMinInt,
     Id: F:System.Numerics.BigInteger.s_bnMinInt,
@@ -84,7 +84,7 @@
       IsNullable: false
     }
   },
-  F:System.Numerics.BigInteger.s_bnMinusOneInt: {
+  System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger.s_bnMinusOneInt: {
     Accessibility: Private,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger.s_bnMinusOneInt,
     Id: F:System.Numerics.BigInteger.s_bnMinusOneInt,
@@ -100,7 +100,7 @@
       IsNullable: false
     }
   },
-  F:System.Numerics.BigInteger.s_bnOneInt: {
+  System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger.s_bnOneInt: {
     Accessibility: Private,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger.s_bnOneInt,
     Id: F:System.Numerics.BigInteger.s_bnOneInt,
@@ -116,7 +116,7 @@
       IsNullable: false
     }
   },
-  F:System.Numerics.BigInteger.s_bnZeroInt: {
+  System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger.s_bnZeroInt: {
     Accessibility: Private,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, F:System.Numerics.BigInteger.s_bnZeroInt,
     Id: F:System.Numerics.BigInteger.s_bnZeroInt,
@@ -132,7 +132,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.#cctor: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#cctor: {
     Accessibility: Private,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#cctor,
     Id: M:System.Numerics.BigInteger.#cctor,
@@ -143,7 +143,7 @@
     Name: .cctor,
     ParentId: T:System.Numerics.BigInteger
   },
-  M:System.Numerics.BigInteger.#ctor: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor,
     Id: M:System.Numerics.BigInteger.#ctor,
@@ -165,7 +165,7 @@
     ],
     ParentId: T:System.Numerics.BigInteger
   },
-  M:System.Numerics.BigInteger.#ctor(System.Byte[]): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.Byte[]): {
     Accessibility: Public,
     Attributes: [
       {
@@ -208,7 +208,7 @@
     ],
     ParentId: T:System.Numerics.BigInteger
   },
-  M:System.Numerics.BigInteger.#ctor(System.Decimal): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.Decimal): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.Decimal),
     Id: M:System.Numerics.BigInteger.#ctor(System.Decimal),
@@ -243,7 +243,7 @@
     ],
     ParentId: T:System.Numerics.BigInteger
   },
-  M:System.Numerics.BigInteger.#ctor(System.Double): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.Double): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.Double),
     Id: M:System.Numerics.BigInteger.#ctor(System.Double),
@@ -278,7 +278,7 @@
     ],
     ParentId: T:System.Numerics.BigInteger
   },
-  M:System.Numerics.BigInteger.#ctor(System.Int32,System.UInt32[]): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.Int32,System.UInt32[]): {
     Accessibility: Internal,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.Int32,System.UInt32[]),
     Id: M:System.Numerics.BigInteger.#ctor(System.Int32,System.UInt32[]),
@@ -324,7 +324,7 @@
     ],
     ParentId: T:System.Numerics.BigInteger
   },
-  M:System.Numerics.BigInteger.#ctor(System.Int32): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.Int32): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.Int32),
     Id: M:System.Numerics.BigInteger.#ctor(System.Int32),
@@ -359,7 +359,7 @@
     ],
     ParentId: T:System.Numerics.BigInteger
   },
-  M:System.Numerics.BigInteger.#ctor(System.Int64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.Int64): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.Int64),
     Id: M:System.Numerics.BigInteger.#ctor(System.Int64),
@@ -394,7 +394,7 @@
     ],
     ParentId: T:System.Numerics.BigInteger
   },
-  M:System.Numerics.BigInteger.#ctor(System.ReadOnlySpan{System.Byte},System.Boolean,System.Boolean): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.ReadOnlySpan{System.Byte},System.Boolean,System.Boolean): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.ReadOnlySpan{System.Byte},System.Boolean,System.Boolean),
     Id: M:System.Numerics.BigInteger.#ctor(System.ReadOnlySpan{System.Byte},System.Boolean,System.Boolean),
@@ -453,7 +453,7 @@
     ],
     ParentId: T:System.Numerics.BigInteger
   },
-  M:System.Numerics.BigInteger.#ctor(System.ReadOnlySpan{System.UInt32},System.Boolean): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.ReadOnlySpan{System.UInt32},System.Boolean): {
     Accessibility: Private,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.ReadOnlySpan{System.UInt32},System.Boolean),
     Id: M:System.Numerics.BigInteger.#ctor(System.ReadOnlySpan{System.UInt32},System.Boolean),
@@ -499,7 +499,7 @@
     ],
     ParentId: T:System.Numerics.BigInteger
   },
-  M:System.Numerics.BigInteger.#ctor(System.Single): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.Single): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.Single),
     Id: M:System.Numerics.BigInteger.#ctor(System.Single),
@@ -534,7 +534,7 @@
     ],
     ParentId: T:System.Numerics.BigInteger
   },
-  M:System.Numerics.BigInteger.#ctor(System.Span{System.UInt32}): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.Span{System.UInt32}): {
     Accessibility: Private,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.Span{System.UInt32}),
     Id: M:System.Numerics.BigInteger.#ctor(System.Span{System.UInt32}),
@@ -569,7 +569,7 @@
     ],
     ParentId: T:System.Numerics.BigInteger
   },
-  M:System.Numerics.BigInteger.#ctor(System.UInt32): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.UInt32): {
     Accessibility: Public,
     Attributes: [
       {
@@ -612,7 +612,7 @@
     ],
     ParentId: T:System.Numerics.BigInteger
   },
-  M:System.Numerics.BigInteger.#ctor(System.UInt64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.#ctor(System.UInt64): {
     Accessibility: Public,
     Attributes: [
       {
@@ -655,7 +655,7 @@
     ],
     ParentId: T:System.Numerics.BigInteger
   },
-  M:System.Numerics.BigInteger.Abs(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Abs(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Abs(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.Abs(System.Numerics.BigInteger),
@@ -684,7 +684,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Add(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Add(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Add(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.Add(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -727,7 +727,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Add(System.ReadOnlySpan{System.UInt32},System.Int32,System.ReadOnlySpan{System.UInt32},System.Int32): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Add(System.ReadOnlySpan{System.UInt32},System.Int32,System.ReadOnlySpan{System.UInt32},System.Int32): {
     Accessibility: Private,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Add(System.ReadOnlySpan{System.UInt32},System.Int32,System.ReadOnlySpan{System.UInt32},System.Int32),
     Id: M:System.Numerics.BigInteger.Add(System.ReadOnlySpan{System.UInt32},System.Int32,System.ReadOnlySpan{System.UInt32},System.Int32),
@@ -792,7 +792,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Clamp(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Clamp(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Clamp(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.Clamp(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -843,7 +843,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Compare(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Compare(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Compare(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.Compare(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -883,7 +883,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.CompareTo(System.Int64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.CompareTo(System.Int64): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.CompareTo(System.Int64),
     Id: M:System.Numerics.BigInteger.CompareTo(System.Int64),
@@ -914,7 +914,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.CompareTo(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.CompareTo(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.CompareTo(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.CompareTo(System.Numerics.BigInteger),
@@ -945,7 +945,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.CompareTo(System.Object): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.CompareTo(System.Object): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.CompareTo(System.Object),
     Id: M:System.Numerics.BigInteger.CompareTo(System.Object),
@@ -976,7 +976,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.CompareTo(System.UInt64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.CompareTo(System.UInt64): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1015,7 +1015,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.CopySign(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.CopySign(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.CopySign(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.CopySign(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -1055,7 +1055,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.CreateChecked``1(``0): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.CreateChecked``1(``0): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1101,7 +1101,7 @@
       }
     ]
   },
-  M:System.Numerics.BigInteger.CreateSaturating``1(``0): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.CreateSaturating``1(``0): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1147,7 +1147,7 @@
       }
     ]
   },
-  M:System.Numerics.BigInteger.CreateTruncating``1(``0): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.CreateTruncating``1(``0): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1193,7 +1193,7 @@
       }
     ]
   },
-  M:System.Numerics.BigInteger.Divide(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Divide(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Divide(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.Divide(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -1233,7 +1233,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.DivRem(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.DivRem(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger@): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.DivRem(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger@),
     Id: M:System.Numerics.BigInteger.DivRem(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger@),
@@ -1290,7 +1290,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.DivRem(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.DivRem(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.DivRem(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.DivRem(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -1333,7 +1333,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Equals(System.Int64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Equals(System.Int64): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Equals(System.Int64),
     Id: M:System.Numerics.BigInteger.Equals(System.Int64),
@@ -1364,7 +1364,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Equals(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Equals(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Equals(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.Equals(System.Numerics.BigInteger),
@@ -1395,7 +1395,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Equals(System.Object): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Equals(System.Object): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1437,7 +1437,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Equals(System.UInt64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Equals(System.UInt64): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1476,7 +1476,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.GetBitLength: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GetBitLength: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GetBitLength,
     Id: M:System.Numerics.BigInteger.GetBitLength,
@@ -1489,7 +1489,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.GetByteCount(System.Boolean): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GetByteCount(System.Boolean): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GetByteCount(System.Boolean),
     Id: M:System.Numerics.BigInteger.GetByteCount(System.Boolean),
@@ -1516,7 +1516,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.GetBytesMode.#ctor: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GetBytesMode.#ctor: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GetBytesMode.#ctor,
     Id: M:System.Numerics.BigInteger.GetBytesMode.#ctor,
@@ -1524,7 +1524,7 @@
     Name: .ctor,
     ParentId: T:System.Numerics.BigInteger.GetBytesMode
   },
-  M:System.Numerics.BigInteger.GetDiffLength(System.UInt32[],System.UInt32[],System.Int32): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GetDiffLength(System.UInt32[],System.UInt32[],System.Int32): {
     Accessibility: Internal,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GetDiffLength(System.UInt32[],System.UInt32[],System.Int32),
     Id: M:System.Numerics.BigInteger.GetDiffLength(System.UInt32[],System.UInt32[],System.Int32),
@@ -1575,7 +1575,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.GetGenericMathByteCount: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GetGenericMathByteCount: {
     Accessibility: Private,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GetGenericMathByteCount,
     Id: M:System.Numerics.BigInteger.GetGenericMathByteCount,
@@ -1588,7 +1588,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.GetHashCode: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GetHashCode: {
     Accessibility: Public,
     Attributes: [
       {
@@ -1612,7 +1612,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.GetPartsForBitManipulation(System.Span{System.UInt32}): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GetPartsForBitManipulation(System.Span{System.UInt32}): {
     Accessibility: Private,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GetPartsForBitManipulation(System.Span{System.UInt32}),
     Id: M:System.Numerics.BigInteger.GetPartsForBitManipulation(System.Span{System.UInt32}),
@@ -1638,7 +1638,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.GreatestCommonDivisor(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GreatestCommonDivisor(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GreatestCommonDivisor(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.GreatestCommonDivisor(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -1681,7 +1681,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.GreatestCommonDivisor(System.ReadOnlySpan{System.UInt32},System.ReadOnlySpan{System.UInt32}): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GreatestCommonDivisor(System.ReadOnlySpan{System.UInt32},System.ReadOnlySpan{System.UInt32}): {
     Accessibility: Private,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.GreatestCommonDivisor(System.ReadOnlySpan{System.UInt32},System.ReadOnlySpan{System.UInt32}),
     Id: M:System.Numerics.BigInteger.GreatestCommonDivisor(System.ReadOnlySpan{System.UInt32},System.ReadOnlySpan{System.UInt32}),
@@ -1724,7 +1724,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.IsEvenInteger(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.IsEvenInteger(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.IsEvenInteger(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.IsEvenInteger(System.Numerics.BigInteger),
@@ -1753,7 +1753,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.IsNegative(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.IsNegative(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.IsNegative(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.IsNegative(System.Numerics.BigInteger),
@@ -1782,7 +1782,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.IsOddInteger(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.IsOddInteger(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.IsOddInteger(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.IsOddInteger(System.Numerics.BigInteger),
@@ -1811,7 +1811,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.IsPositive(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.IsPositive(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.IsPositive(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.IsPositive(System.Numerics.BigInteger),
@@ -1840,7 +1840,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.IsPow2(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.IsPow2(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.IsPow2(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.IsPow2(System.Numerics.BigInteger),
@@ -1869,7 +1869,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.LeadingZeroCount(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.LeadingZeroCount(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.LeadingZeroCount(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.LeadingZeroCount(System.Numerics.BigInteger),
@@ -1898,7 +1898,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Log(System.Numerics.BigInteger,System.Double): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Log(System.Numerics.BigInteger,System.Double): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Log(System.Numerics.BigInteger,System.Double),
     Id: M:System.Numerics.BigInteger.Log(System.Numerics.BigInteger,System.Double),
@@ -1941,7 +1941,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Log(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Log(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Log(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.Log(System.Numerics.BigInteger),
@@ -1973,7 +1973,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Log10(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Log10(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Log10(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.Log10(System.Numerics.BigInteger),
@@ -2002,7 +2002,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Log2(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Log2(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Log2(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.Log2(System.Numerics.BigInteger),
@@ -2031,7 +2031,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Max(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Max(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Max(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.Max(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -2071,7 +2071,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.MaxMagnitude(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.MaxMagnitude(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.MaxMagnitude(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.MaxMagnitude(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -2111,7 +2111,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Min(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Min(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Min(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.Min(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -2151,7 +2151,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.MinMagnitude(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.MinMagnitude(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.MinMagnitude(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.MinMagnitude(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -2191,7 +2191,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.ModPow(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.ModPow(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.ModPow(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.ModPow(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -2242,7 +2242,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Multiply(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Multiply(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Multiply(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.Multiply(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -2285,7 +2285,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Multiply(System.ReadOnlySpan{System.UInt32},System.Int32,System.ReadOnlySpan{System.UInt32},System.Int32): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Multiply(System.ReadOnlySpan{System.UInt32},System.Int32,System.ReadOnlySpan{System.UInt32},System.Int32): {
     Accessibility: Private,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Multiply(System.ReadOnlySpan{System.UInt32},System.Int32,System.ReadOnlySpan{System.UInt32},System.Int32),
     Id: M:System.Numerics.BigInteger.Multiply(System.ReadOnlySpan{System.UInt32},System.Int32,System.ReadOnlySpan{System.UInt32},System.Int32),
@@ -2350,7 +2350,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Negate(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Negate(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Negate(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.Negate(System.Numerics.BigInteger),
@@ -2379,7 +2379,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Addition(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Addition(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Addition(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_Addition(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -2418,7 +2418,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_BitwiseAnd(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_BitwiseAnd(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_BitwiseAnd(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_BitwiseAnd(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -2457,7 +2457,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_BitwiseOr(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_BitwiseOr(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_BitwiseOr(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_BitwiseOr(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -2496,7 +2496,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Decrement(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Decrement(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Decrement(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_Decrement(System.Numerics.BigInteger),
@@ -2524,7 +2524,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Division(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Division(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Division(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_Division(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -2563,7 +2563,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Equality(System.Int64,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Equality(System.Int64,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Equality(System.Int64,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_Equality(System.Int64,System.Numerics.BigInteger),
@@ -2608,7 +2608,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.Int64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.Int64): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.Int64),
     Id: M:System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.Int64),
@@ -2653,7 +2653,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -2698,7 +2698,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.UInt64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Equality(System.Numerics.BigInteger,System.UInt64): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2751,7 +2751,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Equality(System.UInt64,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Equality(System.UInt64,System.Numerics.BigInteger): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2804,7 +2804,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_ExclusiveOr(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_ExclusiveOr(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_ExclusiveOr(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_ExclusiveOr(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -2843,7 +2843,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Decimal)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Decimal)~System.Numerics.BigInteger: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Decimal)~System.Numerics.BigInteger,
     Id: M:System.Numerics.BigInteger.op_Explicit(System.Decimal)~System.Numerics.BigInteger,
@@ -2894,7 +2894,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Double)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Double)~System.Numerics.BigInteger: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Double)~System.Numerics.BigInteger,
     Id: M:System.Numerics.BigInteger.op_Explicit(System.Double)~System.Numerics.BigInteger,
@@ -2945,7 +2945,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Half)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Half)~System.Numerics.BigInteger: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Half)~System.Numerics.BigInteger,
     Id: M:System.Numerics.BigInteger.op_Explicit(System.Half)~System.Numerics.BigInteger,
@@ -2996,7 +2996,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~nint: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~nint: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~nint,
     Id: M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~nint,
@@ -3047,7 +3047,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~nuint: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~nuint: {
     Accessibility: Public,
     Attributes: [
       {
@@ -3106,7 +3106,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Byte: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Byte: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Byte,
     Id: M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Byte,
@@ -3157,7 +3157,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Char: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Char: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Char,
     Id: M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Char,
@@ -3208,7 +3208,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Decimal: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Decimal: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Decimal,
     Id: M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Decimal,
@@ -3259,7 +3259,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Double: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Double: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Double,
     Id: M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Double,
@@ -3310,7 +3310,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Half: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Half: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Half,
     Id: M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Half,
@@ -3361,7 +3361,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int128: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int128: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int128,
     Id: M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int128,
@@ -3412,7 +3412,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int16: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int16: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int16,
     Id: M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int16,
@@ -3463,7 +3463,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int32: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int32: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int32,
     Id: M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int32,
@@ -3514,7 +3514,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int64: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int64: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int64,
     Id: M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Int64,
@@ -3565,7 +3565,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.SByte: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.SByte: {
     Accessibility: Public,
     Attributes: [
       {
@@ -3624,7 +3624,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Single: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Single: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Single,
     Id: M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.Single,
@@ -3675,7 +3675,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt128: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt128: {
     Accessibility: Public,
     Attributes: [
       {
@@ -3734,7 +3734,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt16: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt16: {
     Accessibility: Public,
     Attributes: [
       {
@@ -3793,7 +3793,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt32: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt32: {
     Accessibility: Public,
     Attributes: [
       {
@@ -3852,7 +3852,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt64: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.BigInteger)~System.UInt64: {
     Accessibility: Public,
     Attributes: [
       {
@@ -3911,7 +3911,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Numerics.Complex)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.Complex)~System.Numerics.BigInteger: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Numerics.Complex)~System.Numerics.BigInteger,
     Id: M:System.Numerics.BigInteger.op_Explicit(System.Numerics.Complex)~System.Numerics.BigInteger,
@@ -3962,7 +3962,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Explicit(System.Single)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Single)~System.Numerics.BigInteger: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Explicit(System.Single)~System.Numerics.BigInteger,
     Id: M:System.Numerics.BigInteger.op_Explicit(System.Single)~System.Numerics.BigInteger,
@@ -4013,7 +4013,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_GreaterThan(System.Int64,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_GreaterThan(System.Int64,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_GreaterThan(System.Int64,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_GreaterThan(System.Int64,System.Numerics.BigInteger),
@@ -4058,7 +4058,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.Int64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.Int64): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.Int64),
     Id: M:System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.Int64),
@@ -4103,7 +4103,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -4148,7 +4148,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.UInt64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_GreaterThan(System.Numerics.BigInteger,System.UInt64): {
     Accessibility: Public,
     Attributes: [
       {
@@ -4201,7 +4201,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_GreaterThan(System.UInt64,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_GreaterThan(System.UInt64,System.Numerics.BigInteger): {
     Accessibility: Public,
     Attributes: [
       {
@@ -4254,7 +4254,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Int64,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Int64,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Int64,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Int64,System.Numerics.BigInteger),
@@ -4299,7 +4299,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.Int64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.Int64): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.Int64),
     Id: M:System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.Int64),
@@ -4344,7 +4344,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -4389,7 +4389,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.UInt64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_GreaterThanOrEqual(System.Numerics.BigInteger,System.UInt64): {
     Accessibility: Public,
     Attributes: [
       {
@@ -4442,7 +4442,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_GreaterThanOrEqual(System.UInt64,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_GreaterThanOrEqual(System.UInt64,System.Numerics.BigInteger): {
     Accessibility: Public,
     Attributes: [
       {
@@ -4495,7 +4495,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Implicit(nint)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(nint)~System.Numerics.BigInteger: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(nint)~System.Numerics.BigInteger,
     Id: M:System.Numerics.BigInteger.op_Implicit(nint)~System.Numerics.BigInteger,
@@ -4537,7 +4537,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Implicit(nuint)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(nuint)~System.Numerics.BigInteger: {
     Accessibility: Public,
     Attributes: [
       {
@@ -4587,7 +4587,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Implicit(System.Byte)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.Byte)~System.Numerics.BigInteger: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.Byte)~System.Numerics.BigInteger,
     Id: M:System.Numerics.BigInteger.op_Implicit(System.Byte)~System.Numerics.BigInteger,
@@ -4629,7 +4629,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Implicit(System.Char)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.Char)~System.Numerics.BigInteger: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.Char)~System.Numerics.BigInteger,
     Id: M:System.Numerics.BigInteger.op_Implicit(System.Char)~System.Numerics.BigInteger,
@@ -4671,7 +4671,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Implicit(System.Int128)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.Int128)~System.Numerics.BigInteger: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.Int128)~System.Numerics.BigInteger,
     Id: M:System.Numerics.BigInteger.op_Implicit(System.Int128)~System.Numerics.BigInteger,
@@ -4713,7 +4713,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Implicit(System.Int16)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.Int16)~System.Numerics.BigInteger: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.Int16)~System.Numerics.BigInteger,
     Id: M:System.Numerics.BigInteger.op_Implicit(System.Int16)~System.Numerics.BigInteger,
@@ -4755,7 +4755,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Implicit(System.Int32)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.Int32)~System.Numerics.BigInteger: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.Int32)~System.Numerics.BigInteger,
     Id: M:System.Numerics.BigInteger.op_Implicit(System.Int32)~System.Numerics.BigInteger,
@@ -4797,7 +4797,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Implicit(System.Int64)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.Int64)~System.Numerics.BigInteger: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.Int64)~System.Numerics.BigInteger,
     Id: M:System.Numerics.BigInteger.op_Implicit(System.Int64)~System.Numerics.BigInteger,
@@ -4839,7 +4839,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Implicit(System.SByte)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.SByte)~System.Numerics.BigInteger: {
     Accessibility: Public,
     Attributes: [
       {
@@ -4889,7 +4889,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Implicit(System.UInt128)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.UInt128)~System.Numerics.BigInteger: {
     Accessibility: Public,
     Attributes: [
       {
@@ -4939,7 +4939,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Implicit(System.UInt16)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.UInt16)~System.Numerics.BigInteger: {
     Accessibility: Public,
     Attributes: [
       {
@@ -4989,7 +4989,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Implicit(System.UInt32)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.UInt32)~System.Numerics.BigInteger: {
     Accessibility: Public,
     Attributes: [
       {
@@ -5039,7 +5039,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Implicit(System.UInt64)~System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Implicit(System.UInt64)~System.Numerics.BigInteger: {
     Accessibility: Public,
     Attributes: [
       {
@@ -5089,7 +5089,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Increment(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Increment(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Increment(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_Increment(System.Numerics.BigInteger),
@@ -5117,7 +5117,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Inequality(System.Int64,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Inequality(System.Int64,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Inequality(System.Int64,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_Inequality(System.Int64,System.Numerics.BigInteger),
@@ -5162,7 +5162,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.Int64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.Int64): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.Int64),
     Id: M:System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.Int64),
@@ -5207,7 +5207,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -5252,7 +5252,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.UInt64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Inequality(System.Numerics.BigInteger,System.UInt64): {
     Accessibility: Public,
     Attributes: [
       {
@@ -5305,7 +5305,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Inequality(System.UInt64,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Inequality(System.UInt64,System.Numerics.BigInteger): {
     Accessibility: Public,
     Attributes: [
       {
@@ -5358,7 +5358,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_LeftShift(System.Numerics.BigInteger,System.Int32): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LeftShift(System.Numerics.BigInteger,System.Int32): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LeftShift(System.Numerics.BigInteger,System.Int32),
     Id: M:System.Numerics.BigInteger.op_LeftShift(System.Numerics.BigInteger,System.Int32),
@@ -5397,7 +5397,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_LessThan(System.Int64,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LessThan(System.Int64,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LessThan(System.Int64,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_LessThan(System.Int64,System.Numerics.BigInteger),
@@ -5442,7 +5442,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.Int64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.Int64): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.Int64),
     Id: M:System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.Int64),
@@ -5487,7 +5487,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -5532,7 +5532,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.UInt64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LessThan(System.Numerics.BigInteger,System.UInt64): {
     Accessibility: Public,
     Attributes: [
       {
@@ -5585,7 +5585,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_LessThan(System.UInt64,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LessThan(System.UInt64,System.Numerics.BigInteger): {
     Accessibility: Public,
     Attributes: [
       {
@@ -5638,7 +5638,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_LessThanOrEqual(System.Int64,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LessThanOrEqual(System.Int64,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LessThanOrEqual(System.Int64,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_LessThanOrEqual(System.Int64,System.Numerics.BigInteger),
@@ -5683,7 +5683,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.Int64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.Int64): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.Int64),
     Id: M:System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.Int64),
@@ -5728,7 +5728,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -5773,7 +5773,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.UInt64): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LessThanOrEqual(System.Numerics.BigInteger,System.UInt64): {
     Accessibility: Public,
     Attributes: [
       {
@@ -5826,7 +5826,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_LessThanOrEqual(System.UInt64,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_LessThanOrEqual(System.UInt64,System.Numerics.BigInteger): {
     Accessibility: Public,
     Attributes: [
       {
@@ -5879,7 +5879,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Modulus(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Modulus(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Modulus(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_Modulus(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -5918,7 +5918,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Multiply(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Multiply(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Multiply(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_Multiply(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -5957,7 +5957,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_OnesComplement(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_OnesComplement(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_OnesComplement(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_OnesComplement(System.Numerics.BigInteger),
@@ -5985,7 +5985,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_RightShift(System.Numerics.BigInteger,System.Int32): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_RightShift(System.Numerics.BigInteger,System.Int32): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_RightShift(System.Numerics.BigInteger,System.Int32),
     Id: M:System.Numerics.BigInteger.op_RightShift(System.Numerics.BigInteger,System.Int32),
@@ -6024,7 +6024,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_Subtraction(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Subtraction(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_Subtraction(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_Subtraction(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -6063,7 +6063,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_UnaryNegation(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_UnaryNegation(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_UnaryNegation(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_UnaryNegation(System.Numerics.BigInteger),
@@ -6091,7 +6091,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_UnaryPlus(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_UnaryPlus(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_UnaryPlus(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.op_UnaryPlus(System.Numerics.BigInteger),
@@ -6119,7 +6119,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.op_UnsignedRightShift(System.Numerics.BigInteger,System.Int32): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_UnsignedRightShift(System.Numerics.BigInteger,System.Int32): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.op_UnsignedRightShift(System.Numerics.BigInteger,System.Int32),
     Id: M:System.Numerics.BigInteger.op_UnsignedRightShift(System.Numerics.BigInteger,System.Int32),
@@ -6158,7 +6158,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider),
     Id: M:System.Numerics.BigInteger.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider),
@@ -6218,7 +6218,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider),
     Id: M:System.Numerics.BigInteger.Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider),
@@ -6265,7 +6265,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider),
     Id: M:System.Numerics.BigInteger.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider),
@@ -6323,7 +6323,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Parse(System.String,System.Globalization.NumberStyles): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Parse(System.String,System.Globalization.NumberStyles): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Parse(System.String,System.Globalization.NumberStyles),
     Id: M:System.Numerics.BigInteger.Parse(System.String,System.Globalization.NumberStyles),
@@ -6370,7 +6370,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Parse(System.String,System.IFormatProvider): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Parse(System.String,System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Parse(System.String,System.IFormatProvider),
     Id: M:System.Numerics.BigInteger.Parse(System.String,System.IFormatProvider),
@@ -6417,7 +6417,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Parse(System.String): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Parse(System.String): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Parse(System.String),
     Id: M:System.Numerics.BigInteger.Parse(System.String),
@@ -6453,7 +6453,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.PopCount(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.PopCount(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.PopCount(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.PopCount(System.Numerics.BigInteger),
@@ -6482,7 +6482,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Pow(System.Numerics.BigInteger,System.Int32): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Pow(System.Numerics.BigInteger,System.Int32): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Pow(System.Numerics.BigInteger,System.Int32),
     Id: M:System.Numerics.BigInteger.Pow(System.Numerics.BigInteger,System.Int32),
@@ -6522,7 +6522,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Remainder(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Remainder(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Remainder(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.Remainder(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -6562,7 +6562,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.RotateLeft(System.Numerics.BigInteger,System.Int32): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.RotateLeft(System.Numerics.BigInteger,System.Int32): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.RotateLeft(System.Numerics.BigInteger,System.Int32),
     Id: M:System.Numerics.BigInteger.RotateLeft(System.Numerics.BigInteger,System.Int32),
@@ -6602,7 +6602,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.RotateRight(System.Numerics.BigInteger,System.Int32): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.RotateRight(System.Numerics.BigInteger,System.Int32): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.RotateRight(System.Numerics.BigInteger,System.Int32),
     Id: M:System.Numerics.BigInteger.RotateRight(System.Numerics.BigInteger,System.Int32),
@@ -6642,7 +6642,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Subtract(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Subtract(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Subtract(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.Subtract(System.Numerics.BigInteger,System.Numerics.BigInteger),
@@ -6685,7 +6685,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.Subtract(System.ReadOnlySpan{System.UInt32},System.Int32,System.ReadOnlySpan{System.UInt32},System.Int32): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Subtract(System.ReadOnlySpan{System.UInt32},System.Int32,System.ReadOnlySpan{System.UInt32},System.Int32): {
     Accessibility: Private,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.Subtract(System.ReadOnlySpan{System.UInt32},System.Int32,System.ReadOnlySpan{System.UInt32},System.Int32),
     Id: M:System.Numerics.BigInteger.Subtract(System.ReadOnlySpan{System.UInt32},System.Int32,System.ReadOnlySpan{System.UInt32},System.Int32),
@@ -6750,7 +6750,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#GetByteCount: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#GetByteCount: {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#GetByteCount,
     Id: M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#GetByteCount,
     IsLocal: false,
@@ -6762,7 +6762,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#GetShortestBitLength: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#GetShortestBitLength: {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#GetShortestBitLength,
     Id: M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#GetShortestBitLength,
     IsLocal: false,
@@ -6774,7 +6774,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#TryReadBigEndian(System.ReadOnlySpan{System.Byte},System.Boolean,System.Numerics.BigInteger@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#TryReadBigEndian(System.ReadOnlySpan{System.Byte},System.Boolean,System.Numerics.BigInteger@): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#TryReadBigEndian(System.ReadOnlySpan{System.Byte},System.Boolean,System.Numerics.BigInteger@),
     Id: M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#TryReadBigEndian(System.ReadOnlySpan{System.Byte},System.Boolean,System.Numerics.BigInteger@),
     IsLocal: false,
@@ -6827,7 +6827,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#TryReadLittleEndian(System.ReadOnlySpan{System.Byte},System.Boolean,System.Numerics.BigInteger@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#TryReadLittleEndian(System.ReadOnlySpan{System.Byte},System.Boolean,System.Numerics.BigInteger@): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#TryReadLittleEndian(System.ReadOnlySpan{System.Byte},System.Boolean,System.Numerics.BigInteger@),
     Id: M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#TryReadLittleEndian(System.ReadOnlySpan{System.Byte},System.Boolean,System.Numerics.BigInteger@),
     IsLocal: false,
@@ -6880,7 +6880,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#TryWriteBigEndian(System.Span{System.Byte},System.Int32@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#TryWriteBigEndian(System.Span{System.Byte},System.Int32@): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#TryWriteBigEndian(System.Span{System.Byte},System.Int32@),
     Id: M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#TryWriteBigEndian(System.Span{System.Byte},System.Int32@),
     IsLocal: false,
@@ -6919,7 +6919,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#TryWriteLittleEndian(System.Span{System.Byte},System.Int32@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#TryWriteLittleEndian(System.Span{System.Byte},System.Int32@): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#TryWriteLittleEndian(System.Span{System.Byte},System.Int32@),
     Id: M:System.Numerics.BigInteger.System#Numerics#IBinaryInteger{System#Numerics#BigInteger}#TryWriteLittleEndian(System.Span{System.Byte},System.Int32@),
     IsLocal: false,
@@ -6958,7 +6958,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumber{System#Numerics#BigInteger}#MaxNumber(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumber{System#Numerics#BigInteger}#MaxNumber(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumber{System#Numerics#BigInteger}#MaxNumber(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumber{System#Numerics#BigInteger}#MaxNumber(System.Numerics.BigInteger,System.Numerics.BigInteger),
     IsLocal: false,
@@ -6997,7 +6997,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumber{System#Numerics#BigInteger}#MinNumber(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumber{System#Numerics#BigInteger}#MinNumber(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumber{System#Numerics#BigInteger}#MinNumber(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumber{System#Numerics#BigInteger}#MinNumber(System.Numerics.BigInteger,System.Numerics.BigInteger),
     IsLocal: false,
@@ -7036,7 +7036,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumber{System#Numerics#BigInteger}#Sign(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumber{System#Numerics#BigInteger}#Sign(System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumber{System#Numerics#BigInteger}#Sign(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumber{System#Numerics#BigInteger}#Sign(System.Numerics.BigInteger),
     IsLocal: false,
@@ -7064,7 +7064,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsCanonical(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsCanonical(System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsCanonical(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsCanonical(System.Numerics.BigInteger),
     IsLocal: false,
@@ -7092,7 +7092,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsComplexNumber(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsComplexNumber(System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsComplexNumber(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsComplexNumber(System.Numerics.BigInteger),
     IsLocal: false,
@@ -7120,7 +7120,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsFinite(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsFinite(System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsFinite(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsFinite(System.Numerics.BigInteger),
     IsLocal: false,
@@ -7148,7 +7148,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsImaginaryNumber(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsImaginaryNumber(System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsImaginaryNumber(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsImaginaryNumber(System.Numerics.BigInteger),
     IsLocal: false,
@@ -7176,7 +7176,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsInfinity(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsInfinity(System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsInfinity(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsInfinity(System.Numerics.BigInteger),
     IsLocal: false,
@@ -7204,7 +7204,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsInteger(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsInteger(System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsInteger(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsInteger(System.Numerics.BigInteger),
     IsLocal: false,
@@ -7232,7 +7232,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsNaN(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsNaN(System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsNaN(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsNaN(System.Numerics.BigInteger),
     IsLocal: false,
@@ -7260,7 +7260,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsNegativeInfinity(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsNegativeInfinity(System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsNegativeInfinity(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsNegativeInfinity(System.Numerics.BigInteger),
     IsLocal: false,
@@ -7288,7 +7288,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsNormal(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsNormal(System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsNormal(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsNormal(System.Numerics.BigInteger),
     IsLocal: false,
@@ -7316,7 +7316,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsPositiveInfinity(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsPositiveInfinity(System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsPositiveInfinity(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsPositiveInfinity(System.Numerics.BigInteger),
     IsLocal: false,
@@ -7344,7 +7344,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsRealNumber(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsRealNumber(System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsRealNumber(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsRealNumber(System.Numerics.BigInteger),
     IsLocal: false,
@@ -7372,7 +7372,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsSubnormal(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsSubnormal(System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsSubnormal(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsSubnormal(System.Numerics.BigInteger),
     IsLocal: false,
@@ -7400,7 +7400,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsZero(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsZero(System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsZero(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#IsZero(System.Numerics.BigInteger),
     IsLocal: false,
@@ -7428,7 +7428,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#MaxMagnitudeNumber(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#MaxMagnitudeNumber(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#MaxMagnitudeNumber(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#MaxMagnitudeNumber(System.Numerics.BigInteger,System.Numerics.BigInteger),
     IsLocal: false,
@@ -7467,7 +7467,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#MinMagnitudeNumber(System.Numerics.BigInteger,System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#MinMagnitudeNumber(System.Numerics.BigInteger,System.Numerics.BigInteger): {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#MinMagnitudeNumber(System.Numerics.BigInteger,System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#MinMagnitudeNumber(System.Numerics.BigInteger,System.Numerics.BigInteger),
     IsLocal: false,
@@ -7506,7 +7506,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#TryConvertFromChecked``1(``0,System.Numerics.BigInteger@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#TryConvertFromChecked``1(``0,System.Numerics.BigInteger@): {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -7565,7 +7565,7 @@
       }
     ]
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#TryConvertFromSaturating``1(``0,System.Numerics.BigInteger@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#TryConvertFromSaturating``1(``0,System.Numerics.BigInteger@): {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -7624,7 +7624,7 @@
       }
     ]
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#TryConvertFromTruncating``1(``0,System.Numerics.BigInteger@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#TryConvertFromTruncating``1(``0,System.Numerics.BigInteger@): {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -7683,7 +7683,7 @@
       }
     ]
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#TryConvertToChecked``1(System.Numerics.BigInteger,``0@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#TryConvertToChecked``1(System.Numerics.BigInteger,``0@): {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -7742,7 +7742,7 @@
       }
     ]
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#TryConvertToSaturating``1(System.Numerics.BigInteger,``0@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#TryConvertToSaturating``1(System.Numerics.BigInteger,``0@): {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -7801,7 +7801,7 @@
       }
     ]
   },
-  M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#TryConvertToTruncating``1(System.Numerics.BigInteger,``0@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#TryConvertToTruncating``1(System.Numerics.BigInteger,``0@): {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -7860,7 +7860,7 @@
       }
     ]
   },
-  M:System.Numerics.BigInteger.ToByteArray: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.ToByteArray: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.ToByteArray,
     Id: M:System.Numerics.BigInteger.ToByteArray,
@@ -7876,7 +7876,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.ToByteArray(System.Boolean,System.Boolean): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.ToByteArray(System.Boolean,System.Boolean): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.ToByteArray(System.Boolean,System.Boolean),
     Id: M:System.Numerics.BigInteger.ToByteArray(System.Boolean,System.Boolean),
@@ -7918,7 +7918,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.ToString: {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.ToString: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.ToString,
     Id: M:System.Numerics.BigInteger.ToString,
@@ -7939,7 +7939,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.ToString(System.IFormatProvider): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.ToString(System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.ToString(System.IFormatProvider),
     Id: M:System.Numerics.BigInteger.ToString(System.IFormatProvider),
@@ -7970,7 +7970,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.ToString(System.String,System.IFormatProvider): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.ToString(System.String,System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.ToString(System.String,System.IFormatProvider),
     Id: M:System.Numerics.BigInteger.ToString(System.String,System.IFormatProvider),
@@ -8012,7 +8012,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.ToString(System.String): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.ToString(System.String): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.ToString(System.String),
     Id: M:System.Numerics.BigInteger.ToString(System.String),
@@ -8043,7 +8043,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.TrailingZeroCount(System.Numerics.BigInteger): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TrailingZeroCount(System.Numerics.BigInteger): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TrailingZeroCount(System.Numerics.BigInteger),
     Id: M:System.Numerics.BigInteger.TrailingZeroCount(System.Numerics.BigInteger),
@@ -8072,7 +8072,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.TryConvertFromChecked``1(``0,System.Numerics.BigInteger@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryConvertFromChecked``1(``0,System.Numerics.BigInteger@): {
     Accessibility: Private,
     Attributes: [
       {
@@ -8132,7 +8132,7 @@
       }
     ]
   },
-  M:System.Numerics.BigInteger.TryConvertFromSaturating``1(``0,System.Numerics.BigInteger@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryConvertFromSaturating``1(``0,System.Numerics.BigInteger@): {
     Accessibility: Private,
     Attributes: [
       {
@@ -8192,7 +8192,7 @@
       }
     ]
   },
-  M:System.Numerics.BigInteger.TryConvertFromTruncating``1(``0,System.Numerics.BigInteger@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryConvertFromTruncating``1(``0,System.Numerics.BigInteger@): {
     Accessibility: Private,
     Attributes: [
       {
@@ -8252,7 +8252,7 @@
       }
     ]
   },
-  M:System.Numerics.BigInteger.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
     Id: M:System.Numerics.BigInteger.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
@@ -8316,7 +8316,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.TryGetBytes(System.Numerics.BigInteger.GetBytesMode,System.Span{System.Byte},System.Boolean,System.Boolean,System.Int32@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryGetBytes(System.Numerics.BigInteger.GetBytesMode,System.Span{System.Byte},System.Boolean,System.Boolean,System.Int32@): {
     Accessibility: Private,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryGetBytes(System.Numerics.BigInteger.GetBytesMode,System.Span{System.Byte},System.Boolean,System.Boolean,System.Int32@),
     Id: M:System.Numerics.BigInteger.TryGetBytes(System.Numerics.BigInteger.GetBytesMode,System.Span{System.Byte},System.Boolean,System.Boolean,System.Int32@),
@@ -8389,7 +8389,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Numerics.BigInteger@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Numerics.BigInteger@): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Numerics.BigInteger@),
     Id: M:System.Numerics.BigInteger.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Numerics.BigInteger@),
@@ -8461,7 +8461,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Numerics.BigInteger@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Numerics.BigInteger@): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Numerics.BigInteger@),
     Id: M:System.Numerics.BigInteger.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Numerics.BigInteger@),
@@ -8522,7 +8522,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.TryParse(System.ReadOnlySpan{System.Char},System.Numerics.BigInteger@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryParse(System.ReadOnlySpan{System.Char},System.Numerics.BigInteger@): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryParse(System.ReadOnlySpan{System.Char},System.Numerics.BigInteger@),
     Id: M:System.Numerics.BigInteger.TryParse(System.ReadOnlySpan{System.Char},System.Numerics.BigInteger@),
@@ -8572,7 +8572,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Numerics.BigInteger@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Numerics.BigInteger@): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Numerics.BigInteger@),
     Id: M:System.Numerics.BigInteger.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Numerics.BigInteger@),
@@ -8644,7 +8644,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.TryParse(System.String,System.IFormatProvider,System.Numerics.BigInteger@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryParse(System.String,System.IFormatProvider,System.Numerics.BigInteger@): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryParse(System.String,System.IFormatProvider,System.Numerics.BigInteger@),
     Id: M:System.Numerics.BigInteger.TryParse(System.String,System.IFormatProvider,System.Numerics.BigInteger@),
@@ -8705,7 +8705,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.TryParse(System.String,System.Numerics.BigInteger@): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryParse(System.String,System.Numerics.BigInteger@): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryParse(System.String,System.Numerics.BigInteger@),
     Id: M:System.Numerics.BigInteger.TryParse(System.String,System.Numerics.BigInteger@),
@@ -8755,7 +8755,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.TryWriteBytes(System.Span{System.Byte},System.Int32@,System.Boolean,System.Boolean): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryWriteBytes(System.Span{System.Byte},System.Int32@,System.Boolean,System.Boolean): {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryWriteBytes(System.Span{System.Byte},System.Int32@,System.Boolean,System.Boolean),
     Id: M:System.Numerics.BigInteger.TryWriteBytes(System.Span{System.Byte},System.Int32@,System.Boolean,System.Boolean),
@@ -8819,7 +8819,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.TryWriteOrCountBytes(System.Span{System.Byte},System.Int32@,System.Boolean,System.Boolean): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryWriteOrCountBytes(System.Span{System.Byte},System.Int32@,System.Boolean,System.Boolean): {
     Accessibility: Internal,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.TryWriteOrCountBytes(System.Span{System.Byte},System.Int32@,System.Boolean,System.Boolean),
     Id: M:System.Numerics.BigInteger.TryWriteOrCountBytes(System.Span{System.Byte},System.Int32@,System.Boolean,System.Boolean),
@@ -8883,7 +8883,7 @@
       IsNullable: false
     }
   },
-  M:System.Numerics.BigInteger.WriteTo(System.Span{System.UInt32}): {
+  System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.WriteTo(System.Span{System.UInt32}): {
     Accessibility: Private,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.WriteTo(System.Span{System.UInt32}),
     Id: M:System.Numerics.BigInteger.WriteTo(System.Span{System.UInt32}),
@@ -8909,7 +8909,7 @@
       IsNullable: false
     }
   },
-  P:System.Numerics.BigInteger.DebuggerDisplay: {
+  System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.DebuggerDisplay: {
     Accessibility: Private,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.DebuggerDisplay,
     Getter: {
@@ -8934,7 +8934,7 @@
       IsNullable: false
     }
   },
-  P:System.Numerics.BigInteger.IsEven: {
+  System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.IsEven: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.IsEven,
     Getter: {
@@ -8959,7 +8959,7 @@
       IsNullable: false
     }
   },
-  P:System.Numerics.BigInteger.IsOne: {
+  System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.IsOne: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.IsOne,
     Getter: {
@@ -8984,7 +8984,7 @@
       IsNullable: false
     }
   },
-  P:System.Numerics.BigInteger.IsPowerOfTwo: {
+  System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.IsPowerOfTwo: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.IsPowerOfTwo,
     Getter: {
@@ -9009,7 +9009,7 @@
       IsNullable: false
     }
   },
-  P:System.Numerics.BigInteger.IsZero: {
+  System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.IsZero: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.IsZero,
     Getter: {
@@ -9034,7 +9034,7 @@
       IsNullable: false
     }
   },
-  P:System.Numerics.BigInteger.MaxLength: {
+  System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.MaxLength: {
     Accessibility: Internal,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.MaxLength,
     Getter: {
@@ -9062,7 +9062,7 @@
       IsNullable: false
     }
   },
-  P:System.Numerics.BigInteger.MinusOne: {
+  System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.MinusOne: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.MinusOne,
     Getter: {
@@ -9090,7 +9090,7 @@
       IsNullable: false
     }
   },
-  P:System.Numerics.BigInteger.One: {
+  System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.One: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.One,
     Getter: {
@@ -9118,7 +9118,7 @@
       IsNullable: false
     }
   },
-  P:System.Numerics.BigInteger.Sign: {
+  System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.Sign: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.Sign,
     Getter: {
@@ -9143,7 +9143,7 @@
       IsNullable: false
     }
   },
-  P:System.Numerics.BigInteger.System#Numerics#IAdditiveIdentity{System#Numerics#BigInteger,System#Numerics#BigInteger}#AdditiveIdentity: {
+  System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.System#Numerics#IAdditiveIdentity{System#Numerics#BigInteger,System#Numerics#BigInteger}#AdditiveIdentity: {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.System#Numerics#IAdditiveIdentity{System#Numerics#BigInteger,System#Numerics#BigInteger}#AdditiveIdentity,
     Getter: {
       FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#IAdditiveIdentity{System#Numerics#BigInteger,System#Numerics#BigInteger}#get_AdditiveIdentity,
@@ -9169,7 +9169,7 @@
       IsNullable: false
     }
   },
-  P:System.Numerics.BigInteger.System#Numerics#IBinaryNumber{System#Numerics#BigInteger}#AllBitsSet: {
+  System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.System#Numerics#IBinaryNumber{System#Numerics#BigInteger}#AllBitsSet: {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.System#Numerics#IBinaryNumber{System#Numerics#BigInteger}#AllBitsSet,
     Getter: {
       FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#IBinaryNumber{System#Numerics#BigInteger}#get_AllBitsSet,
@@ -9195,7 +9195,7 @@
       IsNullable: false
     }
   },
-  P:System.Numerics.BigInteger.System#Numerics#IMultiplicativeIdentity{System#Numerics#BigInteger,System#Numerics#BigInteger}#MultiplicativeIdentity: {
+  System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.System#Numerics#IMultiplicativeIdentity{System#Numerics#BigInteger,System#Numerics#BigInteger}#MultiplicativeIdentity: {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.System#Numerics#IMultiplicativeIdentity{System#Numerics#BigInteger,System#Numerics#BigInteger}#MultiplicativeIdentity,
     Getter: {
       FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#IMultiplicativeIdentity{System#Numerics#BigInteger,System#Numerics#BigInteger}#get_MultiplicativeIdentity,
@@ -9221,7 +9221,7 @@
       IsNullable: false
     }
   },
-  P:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#Radix: {
+  System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#Radix: {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#Radix,
     Getter: {
       FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#INumberBase{System#Numerics#BigInteger}#get_Radix,
@@ -9247,7 +9247,7 @@
       IsNullable: false
     }
   },
-  P:System.Numerics.BigInteger.System#Numerics#ISignedNumber{System#Numerics#BigInteger}#NegativeOne: {
+  System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.System#Numerics#ISignedNumber{System#Numerics#BigInteger}#NegativeOne: {
     FullName: System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.System#Numerics#ISignedNumber{System#Numerics#BigInteger}#NegativeOne,
     Getter: {
       FullName: System.Runtime.Numerics, Version=x.x.x.x, M:System.Numerics.BigInteger.System#Numerics#ISignedNumber{System#Numerics#BigInteger}#get_NegativeOne,
@@ -9273,7 +9273,7 @@
       IsNullable: false
     }
   },
-  P:System.Numerics.BigInteger.Zero: {
+  System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.Zero: {
     Accessibility: Public,
     FullName: System.Runtime.Numerics, Version=x.x.x.x, P:System.Numerics.BigInteger.Zero,
     Getter: {

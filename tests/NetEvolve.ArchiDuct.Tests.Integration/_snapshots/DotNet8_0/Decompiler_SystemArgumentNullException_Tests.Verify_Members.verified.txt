@@ -1,5 +1,5 @@
 ﻿{
-  M:System.ArgumentNullException.#ctor: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentNullException.#ctor: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentNullException.#ctor,
     Id: M:System.ArgumentNullException.#ctor,
@@ -13,7 +13,7 @@
     ],
     ParentId: T:System.ArgumentNullException
   },
-  M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentNullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
     Accessibility: Protected,
     Attributes: [
       {
@@ -65,7 +65,7 @@
     ],
     ParentId: T:System.ArgumentNullException
   },
-  M:System.ArgumentNullException.#ctor(System.String,System.Exception): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentNullException.#ctor(System.String,System.Exception): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentNullException.#ctor(System.String,System.Exception),
     Id: M:System.ArgumentNullException.#ctor(System.String,System.Exception),
@@ -103,7 +103,7 @@
     ],
     ParentId: T:System.ArgumentNullException
   },
-  M:System.ArgumentNullException.#ctor(System.String,System.String): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentNullException.#ctor(System.String,System.String): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentNullException.#ctor(System.String,System.String),
     Id: M:System.ArgumentNullException.#ctor(System.String,System.String),
@@ -141,7 +141,7 @@
     ],
     ParentId: T:System.ArgumentNullException
   },
-  M:System.ArgumentNullException.#ctor(System.String): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentNullException.#ctor(System.String): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentNullException.#ctor(System.String),
     Id: M:System.ArgumentNullException.#ctor(System.String),
@@ -168,7 +168,7 @@
     ],
     ParentId: T:System.ArgumentNullException
   },
-  M:System.ArgumentNullException.Throw(System.String): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentNullException.Throw(System.String): {
     Accessibility: Internal,
     Attributes: [
       {
@@ -205,7 +205,7 @@
       IsNullable: false
     }
   },
-  M:System.ArgumentNullException.ThrowIfNull(nint,System.String): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentNullException.ThrowIfNull(nint,System.String): {
     Accessibility: Internal,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentNullException.ThrowIfNull(nint,System.String),
     Id: M:System.ArgumentNullException.ThrowIfNull(nint,System.String),
@@ -250,7 +250,7 @@
       IsNullable: false
     }
   },
-  M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String),
     Id: M:System.ArgumentNullException.ThrowIfNull(System.Object,System.String),
@@ -295,7 +295,7 @@
       IsNullable: false
     }
   },
-  M:System.ArgumentNullException.ThrowIfNull(System.Void*,System.String): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentNullException.ThrowIfNull(System.Void*,System.String): {
     Accessibility: Public,
     Attributes: [
       {

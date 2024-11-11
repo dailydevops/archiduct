@@ -1,5 +1,5 @@
 ﻿{
-  T:System.Nullable: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.Nullable: {
     Accessibility: Public,
     Attributes: [
       {

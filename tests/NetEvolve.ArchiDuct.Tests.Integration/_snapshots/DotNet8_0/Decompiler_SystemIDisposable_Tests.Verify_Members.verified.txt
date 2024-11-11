@@ -1,5 +1,5 @@
 ﻿{
-  M:System.IDisposable.Dispose: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.IDisposable.Dispose: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.IDisposable.Dispose,
     Id: M:System.IDisposable.Dispose,

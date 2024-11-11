@@ -1,5 +1,5 @@
 ﻿{
-  T:System.Numerics.BigInteger: {
+  System.Runtime.Numerics, Version=x.x.x.x, T:System.Numerics.BigInteger: {
     Accessibility: Public,
     Attributes: [
       {
@@ -349,7 +349,7 @@
     ],
     ParentId: N:System.Numerics
   },
-  T:System.Numerics.BigInteger.GetBytesMode: {
+  System.Runtime.Numerics, Version=x.x.x.x, T:System.Numerics.BigInteger.GetBytesMode: {
     Accessibility: Private,
     Attributes: [
       {

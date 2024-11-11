@@ -1,5 +1,5 @@
 ﻿{
-  F:System.ArgumentException._paramName: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.ArgumentException._paramName: {
     Accessibility: Private,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.ArgumentException._paramName,
     Id: F:System.ArgumentException._paramName,
@@ -14,7 +14,7 @@
       IsNullable: false
     }
   },
-  M:System.ArgumentException.#ctor: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor,
     Id: M:System.ArgumentException.#ctor,
@@ -29,7 +29,7 @@
     ],
     ParentId: T:System.ArgumentException
   },
-  M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
     Accessibility: Protected,
     Attributes: [
       {
@@ -82,7 +82,7 @@
     ],
     ParentId: T:System.ArgumentException
   },
-  M:System.ArgumentException.#ctor(System.String,System.Exception): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.Exception): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.Exception),
     Id: M:System.ArgumentException.#ctor(System.String,System.Exception),
@@ -121,7 +121,7 @@
     ],
     ParentId: T:System.ArgumentException
   },
-  M:System.ArgumentException.#ctor(System.String,System.String,System.Exception): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
     Id: M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
@@ -171,7 +171,7 @@
     ],
     ParentId: T:System.ArgumentException
   },
-  M:System.ArgumentException.#ctor(System.String,System.String): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String,System.String),
     Id: M:System.ArgumentException.#ctor(System.String,System.String),
@@ -210,7 +210,7 @@
     ],
     ParentId: T:System.ArgumentException
   },
-  M:System.ArgumentException.#ctor(System.String): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.#ctor(System.String),
     Id: M:System.ArgumentException.#ctor(System.String),
@@ -238,7 +238,7 @@
     ],
     ParentId: T:System.ArgumentException
   },
-  M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext): {
     Accessibility: Public,
     Attributes: [
       {
@@ -304,7 +304,7 @@
       IsNullable: false
     }
   },
-  M:System.ArgumentException.SetMessageField: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.SetMessageField: {
     Accessibility: Private,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.SetMessageField,
     Id: M:System.ArgumentException.SetMessageField,
@@ -317,7 +317,7 @@
       IsNullable: false
     }
   },
-  M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String),
     Id: M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String),
@@ -358,7 +358,7 @@
       IsNullable: false
     }
   },
-  M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String),
     Id: M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String),
@@ -399,7 +399,7 @@
       IsNullable: false
     }
   },
-  M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String): {
     Accessibility: Private,
     Attributes: [
       {
@@ -447,7 +447,7 @@
       IsNullable: false
     }
   },
-  M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String): {
     Accessibility: Private,
     Attributes: [
       {
@@ -495,7 +495,7 @@
       IsNullable: false
     }
   },
-  P:System.ArgumentException.Message: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.ArgumentException.Message: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.ArgumentException.Message,
     Getter: {
@@ -523,7 +523,7 @@
       IsNullable: false
     }
   },
-  P:System.ArgumentException.ParamName: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.ArgumentException.ParamName: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.ArgumentException.ParamName,
     Getter: {

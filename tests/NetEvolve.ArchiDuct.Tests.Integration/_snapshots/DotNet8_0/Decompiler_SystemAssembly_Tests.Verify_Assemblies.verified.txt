@@ -1,5 +1,5 @@
 ﻿{
-  A:System.Private.CoreLib: {
+  System.Private.CoreLib: {
     Attributes: [
       {
         FullName: System.CLSCompliantAttribute,

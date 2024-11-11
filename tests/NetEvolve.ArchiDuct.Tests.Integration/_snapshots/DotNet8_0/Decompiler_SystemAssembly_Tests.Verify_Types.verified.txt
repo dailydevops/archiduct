@@ -1,5 +1,5 @@
 ﻿{
-  T:System.String: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.String: {
     Accessibility: Public,
     Attributes: [
       {
@@ -358,7 +358,7 @@
     ],
     ParentId: N:System
   },
-  T:System.String.SearchValuesStorage: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.String.SearchValuesStorage: {
     Accessibility: Internal,
     Attributes: [
       {

@@ -1,5 +1,5 @@
 ﻿{
-  T:System.Text.Json.Serialization.JsonConverter: {
+  System.Text.Json, Version=x.x.x.x, T:System.Text.Json.Serialization.JsonConverter: {
     Accessibility: Public,
     Attributes: [
       {

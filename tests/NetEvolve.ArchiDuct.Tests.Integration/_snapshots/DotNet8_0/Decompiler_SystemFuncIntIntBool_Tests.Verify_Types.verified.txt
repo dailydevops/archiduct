@@ -1,5 +1,5 @@
 ﻿{
-  T:System.Func`3: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.Func`3: {
     Accessibility: Public,
     Attributes: [
       {

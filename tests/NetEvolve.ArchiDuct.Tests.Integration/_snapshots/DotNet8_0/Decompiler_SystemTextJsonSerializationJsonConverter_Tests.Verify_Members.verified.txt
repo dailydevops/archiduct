@@ -1,5 +1,5 @@
 ﻿{
-  F:System.Text.Json.Serialization.JsonConverter._converterStrategy: {
+  System.Text.Json, Version=x.x.x.x, F:System.Text.Json.Serialization.JsonConverter._converterStrategy: {
     Accessibility: Private,
     FullName: System.Text.Json, Version=x.x.x.x, F:System.Text.Json.Serialization.JsonConverter._converterStrategy,
     Id: F:System.Text.Json.Serialization.JsonConverter._converterStrategy,
@@ -11,7 +11,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.#ctor: {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.#ctor: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.#ctor,
     Id: M:System.Text.Json.Serialization.JsonConverter.#ctor,
@@ -19,7 +19,7 @@
     Name: .ctor,
     ParentId: T:System.Text.Json.Serialization.JsonConverter
   },
-  M:System.Text.Json.Serialization.JsonConverter.CanConvert(System.Type): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.CanConvert(System.Type): {
     Accessibility: Public,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.CanConvert(System.Type),
     Id: M:System.Text.Json.Serialization.JsonConverter.CanConvert(System.Type),
@@ -48,7 +48,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.ConfigureJsonTypeInfo(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.JsonSerializerOptions): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ConfigureJsonTypeInfo(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.JsonSerializerOptions): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ConfigureJsonTypeInfo(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.JsonSerializerOptions),
     Id: M:System.Text.Json.Serialization.JsonConverter.ConfigureJsonTypeInfo(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.JsonSerializerOptions),
@@ -88,7 +88,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.ConfigureJsonTypeInfoUsingReflection(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.JsonSerializerOptions): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ConfigureJsonTypeInfoUsingReflection(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.JsonSerializerOptions): {
     Accessibility: Internal,
     Attributes: [
       {
@@ -142,7 +142,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.CreateCastingConverter``1: {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.CreateCastingConverter``1: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.CreateCastingConverter``1,
     Id: M:System.Text.Json.Serialization.JsonConverter.CreateCastingConverter``1,
@@ -164,7 +164,7 @@
       }
     ]
   },
-  M:System.Text.Json.Serialization.JsonConverter.CreateJsonTypeInfo(System.Text.Json.JsonSerializerOptions): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.CreateJsonTypeInfo(System.Text.Json.JsonSerializerOptions): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.CreateJsonTypeInfo(System.Text.Json.JsonSerializerOptions),
     Id: M:System.Text.Json.Serialization.JsonConverter.CreateJsonTypeInfo(System.Text.Json.JsonSerializerOptions),
@@ -193,7 +193,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.DoSingleValueReadWithReadAhead(System.Text.Json.Utf8JsonReader@): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.DoSingleValueReadWithReadAhead(System.Text.Json.Utf8JsonReader@): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.DoSingleValueReadWithReadAhead(System.Text.Json.Utf8JsonReader@),
     Id: M:System.Text.Json.Serialization.JsonConverter.DoSingleValueReadWithReadAhead(System.Text.Json.Utf8JsonReader@),
@@ -225,7 +225,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.GetDefaultConverterStrategy: {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.GetDefaultConverterStrategy: {
     Accessibility: PrivateProtected,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.GetDefaultConverterStrategy,
     Id: M:System.Text.Json.Serialization.JsonConverter.GetDefaultConverterStrategy,
@@ -241,7 +241,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.OnTryReadAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions,System.Text.Json.ReadStack@,System.Object@): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.OnTryReadAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions,System.Text.Json.ReadStack@,System.Object@): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.OnTryReadAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions,System.Text.Json.ReadStack@,System.Object@),
     Id: M:System.Text.Json.Serialization.JsonConverter.OnTryReadAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions,System.Text.Json.ReadStack@,System.Object@),
@@ -323,7 +323,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.OnTryWriteAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Text.Json.WriteStack@): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.OnTryWriteAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Text.Json.WriteStack@): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.OnTryWriteAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Text.Json.WriteStack@),
     Id: M:System.Text.Json.Serialization.JsonConverter.OnTryWriteAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Text.Json.WriteStack@),
@@ -388,7 +388,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.ReadAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ReadAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ReadAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions),
     Id: M:System.Text.Json.Serialization.JsonConverter.ReadAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions),
@@ -442,7 +442,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.ReadAsPropertyNameAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ReadAsPropertyNameAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ReadAsPropertyNameAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions),
     Id: M:System.Text.Json.Serialization.JsonConverter.ReadAsPropertyNameAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions),
@@ -496,7 +496,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.ReadAsPropertyNameCoreAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ReadAsPropertyNameCoreAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ReadAsPropertyNameCoreAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions),
     Id: M:System.Text.Json.Serialization.JsonConverter.ReadAsPropertyNameCoreAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions),
@@ -550,7 +550,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.ReadElementAndSetProperty(System.Object,System.String,System.Text.Json.Utf8JsonReader@,System.Text.Json.JsonSerializerOptions,System.Text.Json.ReadStack@): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ReadElementAndSetProperty(System.Object,System.String,System.Text.Json.Utf8JsonReader@,System.Text.Json.JsonSerializerOptions,System.Text.Json.ReadStack@): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ReadElementAndSetProperty(System.Object,System.String,System.Text.Json.Utf8JsonReader@,System.Text.Json.JsonSerializerOptions,System.Text.Json.ReadStack@),
     Id: M:System.Text.Json.Serialization.JsonConverter.ReadElementAndSetProperty(System.Object,System.String,System.Text.Json.Utf8JsonReader@,System.Text.Json.JsonSerializerOptions,System.Text.Json.ReadStack@),
@@ -629,7 +629,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.ReadNumberWithCustomHandlingAsObject(System.Text.Json.Utf8JsonReader@,System.Text.Json.Serialization.JsonNumberHandling,System.Text.Json.JsonSerializerOptions): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ReadNumberWithCustomHandlingAsObject(System.Text.Json.Utf8JsonReader@,System.Text.Json.Serialization.JsonNumberHandling,System.Text.Json.JsonSerializerOptions): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ReadNumberWithCustomHandlingAsObject(System.Text.Json.Utf8JsonReader@,System.Text.Json.Serialization.JsonNumberHandling,System.Text.Json.JsonSerializerOptions),
     Id: M:System.Text.Json.Serialization.JsonConverter.ReadNumberWithCustomHandlingAsObject(System.Text.Json.Utf8JsonReader@,System.Text.Json.Serialization.JsonNumberHandling,System.Text.Json.JsonSerializerOptions),
@@ -683,7 +683,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.ResolvePolymorphicConverter(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.JsonSerializerOptions,System.Text.Json.WriteStack@): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ResolvePolymorphicConverter(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.JsonSerializerOptions,System.Text.Json.WriteStack@): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ResolvePolymorphicConverter(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.JsonSerializerOptions,System.Text.Json.WriteStack@),
     Id: M:System.Text.Json.Serialization.JsonConverter.ResolvePolymorphicConverter(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.JsonSerializerOptions,System.Text.Json.WriteStack@),
@@ -748,7 +748,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.ResolvePolymorphicConverter(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.ReadStack@): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ResolvePolymorphicConverter(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.ReadStack@): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ResolvePolymorphicConverter(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.ReadStack@),
     Id: M:System.Text.Json.Serialization.JsonConverter.ResolvePolymorphicConverter(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.ReadStack@),
@@ -791,7 +791,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.ShouldFlush(System.Text.Json.Utf8JsonWriter,System.Text.Json.WriteStack@): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ShouldFlush(System.Text.Json.Utf8JsonWriter,System.Text.Json.WriteStack@): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.ShouldFlush(System.Text.Json.Utf8JsonWriter,System.Text.Json.WriteStack@),
     Id: M:System.Text.Json.Serialization.JsonConverter.ShouldFlush(System.Text.Json.Utf8JsonWriter,System.Text.Json.WriteStack@),
@@ -834,7 +834,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.SingleValueReadWithReadAhead(System.Boolean,System.Text.Json.Utf8JsonReader@,System.Text.Json.ReadStack@): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.SingleValueReadWithReadAhead(System.Boolean,System.Text.Json.Utf8JsonReader@,System.Text.Json.ReadStack@): {
     Accessibility: Internal,
     Attributes: [
       {
@@ -899,7 +899,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.TryHandleSerializedObjectReference(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Text.Json.Serialization.JsonConverter,System.Text.Json.WriteStack@): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.TryHandleSerializedObjectReference(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Text.Json.Serialization.JsonConverter,System.Text.Json.WriteStack@): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.TryHandleSerializedObjectReference(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Text.Json.Serialization.JsonConverter,System.Text.Json.WriteStack@),
     Id: M:System.Text.Json.Serialization.JsonConverter.TryHandleSerializedObjectReference(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Text.Json.Serialization.JsonConverter,System.Text.Json.WriteStack@),
@@ -972,7 +972,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.TryReadAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions,System.Text.Json.ReadStack@,System.Object@): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.TryReadAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions,System.Text.Json.ReadStack@,System.Object@): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.TryReadAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions,System.Text.Json.ReadStack@,System.Object@),
     Id: M:System.Text.Json.Serialization.JsonConverter.TryReadAsObject(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions,System.Text.Json.ReadStack@,System.Object@),
@@ -1054,7 +1054,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.TryWriteAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Text.Json.WriteStack@): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.TryWriteAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Text.Json.WriteStack@): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.TryWriteAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Text.Json.WriteStack@),
     Id: M:System.Text.Json.Serialization.JsonConverter.TryWriteAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Text.Json.WriteStack@),
@@ -1119,7 +1119,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.WriteAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.WriteAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.WriteAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions),
     Id: M:System.Text.Json.Serialization.JsonConverter.WriteAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions),
@@ -1170,7 +1170,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.WriteAsPropertyNameAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.WriteAsPropertyNameAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.WriteAsPropertyNameAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions),
     Id: M:System.Text.Json.Serialization.JsonConverter.WriteAsPropertyNameAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions),
@@ -1221,7 +1221,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.WriteAsPropertyNameCoreAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Boolean): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.WriteAsPropertyNameCoreAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Boolean): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.WriteAsPropertyNameCoreAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Boolean),
     Id: M:System.Text.Json.Serialization.JsonConverter.WriteAsPropertyNameCoreAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.JsonSerializerOptions,System.Boolean),
@@ -1283,7 +1283,7 @@
       IsNullable: false
     }
   },
-  M:System.Text.Json.Serialization.JsonConverter.WriteNumberWithCustomHandlingAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.Serialization.JsonNumberHandling): {
+  System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.WriteNumberWithCustomHandlingAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.Serialization.JsonNumberHandling): {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.WriteNumberWithCustomHandlingAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.Serialization.JsonNumberHandling),
     Id: M:System.Text.Json.Serialization.JsonConverter.WriteNumberWithCustomHandlingAsObject(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.Serialization.JsonNumberHandling),
@@ -1334,7 +1334,7 @@
       IsNullable: false
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.CanBePolymorphic: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.CanBePolymorphic: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.CanBePolymorphic,
     Getter: {
@@ -1372,7 +1372,7 @@
       }
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.CanHaveMetadata: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.CanHaveMetadata: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.CanHaveMetadata,
     Getter: {
@@ -1400,7 +1400,7 @@
       IsNullable: false
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.CanPopulate: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.CanPopulate: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.CanPopulate,
     Getter: {
@@ -1428,7 +1428,7 @@
       IsNullable: false
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.CanUseDirectReadOrWrite: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.CanUseDirectReadOrWrite: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.CanUseDirectReadOrWrite,
     Getter: {
@@ -1466,7 +1466,7 @@
       }
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.ConstructorInfo: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.ConstructorInfo: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.ConstructorInfo,
     Getter: {
@@ -1504,7 +1504,7 @@
       }
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.ConstructorIsParameterized: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.ConstructorIsParameterized: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.ConstructorIsParameterized,
     Getter: {
@@ -1532,7 +1532,7 @@
       IsNullable: false
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.ConverterStrategy: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.ConverterStrategy: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.ConverterStrategy,
     Getter: {
@@ -1570,7 +1570,7 @@
       IsNullable: false
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.ElementType: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.ElementType: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.ElementType,
     Getter: {
@@ -1598,7 +1598,7 @@
       IsNullable: true
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.HandleNullOnRead: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.HandleNullOnRead: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.HandleNullOnRead,
     Getter: {
@@ -1636,7 +1636,7 @@
       IsNullable: false
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.HandleNullOnWrite: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.HandleNullOnWrite: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.HandleNullOnWrite,
     Getter: {
@@ -1674,7 +1674,7 @@
       IsNullable: false
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.IsInternalConverter: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.IsInternalConverter: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.IsInternalConverter,
     Getter: {
@@ -1712,7 +1712,7 @@
       IsNullable: false
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.IsInternalConverterForNumberType: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.IsInternalConverterForNumberType: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.IsInternalConverterForNumberType,
     Getter: {
@@ -1750,7 +1750,7 @@
       IsNullable: false
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.IsValueType: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.IsValueType: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.IsValueType,
     Getter: {
@@ -1788,7 +1788,7 @@
       IsNullable: false
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.KeyType: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.KeyType: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.KeyType,
     Getter: {
@@ -1816,7 +1816,7 @@
       IsNullable: true
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.RequiresReadAhead: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.RequiresReadAhead: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.RequiresReadAhead,
     Getter: {
@@ -1854,7 +1854,7 @@
       }
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.SourceConverterForCastingConverter: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.SourceConverterForCastingConverter: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.SourceConverterForCastingConverter,
     Getter: {
@@ -1882,7 +1882,7 @@
       IsNullable: true
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.SupportsCreateObjectDelegate: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.SupportsCreateObjectDelegate: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.SupportsCreateObjectDelegate,
     Getter: {
@@ -1910,7 +1910,7 @@
       IsNullable: false
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.Type: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.Type: {
     Accessibility: Public,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.Type,
     Getter: {
@@ -1938,7 +1938,7 @@
       IsNullable: true
     }
   },
-  P:System.Text.Json.Serialization.JsonConverter.UsesDefaultHandleNull: {
+  System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.UsesDefaultHandleNull: {
     Accessibility: Internal,
     FullName: System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.UsesDefaultHandleNull,
     Getter: {

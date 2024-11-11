@@ -1,5 +1,5 @@
 ﻿{
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.#ctor: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.#ctor: {
     Accessibility: Public,
     Attributes: [
       {
@@ -21,7 +21,7 @@
     Name: .ctor,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty
   },
-  P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.Name: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.Name: {
     Accessibility: Public,
     Attributes: [
       {

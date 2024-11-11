@@ -1,5 +1,5 @@
 ﻿{
-  F:System.AttributeUsageAttribute._allowMultiple: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.AttributeUsageAttribute._allowMultiple: {
     Accessibility: Private,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.AttributeUsageAttribute._allowMultiple,
     Id: F:System.AttributeUsageAttribute._allowMultiple,
@@ -11,7 +11,7 @@
       IsNullable: false
     }
   },
-  F:System.AttributeUsageAttribute._attributeTarget: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.AttributeUsageAttribute._attributeTarget: {
     Accessibility: Private,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.AttributeUsageAttribute._attributeTarget,
     Id: F:System.AttributeUsageAttribute._attributeTarget,
@@ -26,7 +26,7 @@
       IsNullable: false
     }
   },
-  F:System.AttributeUsageAttribute._inherited: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.AttributeUsageAttribute._inherited: {
     Accessibility: Private,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.AttributeUsageAttribute._inherited,
     Id: F:System.AttributeUsageAttribute._inherited,
@@ -38,7 +38,7 @@
       IsNullable: false
     }
   },
-  F:System.AttributeUsageAttribute.Default: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.AttributeUsageAttribute.Default: {
     Accessibility: Internal,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.AttributeUsageAttribute.Default,
     Id: F:System.AttributeUsageAttribute.Default,
@@ -54,7 +54,7 @@
       IsNullable: false
     }
   },
-  M:System.AttributeUsageAttribute.#cctor: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.AttributeUsageAttribute.#cctor: {
     Accessibility: Private,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.AttributeUsageAttribute.#cctor,
     Id: M:System.AttributeUsageAttribute.#cctor,
@@ -65,7 +65,7 @@
     Name: .cctor,
     ParentId: T:System.AttributeUsageAttribute
   },
-  M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets,System.Boolean,System.Boolean): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets,System.Boolean,System.Boolean): {
     Accessibility: Internal,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets,System.Boolean,System.Boolean),
     Id: M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets,System.Boolean,System.Boolean),
@@ -111,7 +111,7 @@
     ],
     ParentId: T:System.AttributeUsageAttribute
   },
-  M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets),
     Id: M:System.AttributeUsageAttribute.#ctor(System.AttributeTargets),
@@ -135,7 +135,7 @@
     ],
     ParentId: T:System.AttributeUsageAttribute
   },
-  P:System.AttributeUsageAttribute.AllowMultiple: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.AttributeUsageAttribute.AllowMultiple: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.AttributeUsageAttribute.AllowMultiple,
     Getter: {
@@ -173,7 +173,7 @@
       }
     }
   },
-  P:System.AttributeUsageAttribute.Inherited: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.AttributeUsageAttribute.Inherited: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.AttributeUsageAttribute.Inherited,
     Getter: {
@@ -211,7 +211,7 @@
       }
     }
   },
-  P:System.AttributeUsageAttribute.ValidOn: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.AttributeUsageAttribute.ValidOn: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.AttributeUsageAttribute.ValidOn,
     Getter: {

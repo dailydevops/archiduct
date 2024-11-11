@@ -1,5 +1,5 @@
 ﻿{
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.SquarePtrParam(System.Int32*): {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.SquarePtrParam(System.Int32*): {
     Accessibility: Internal,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.SquarePtrParam(System.Int32*),
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.SquarePtrParam(System.Int32*),
@@ -29,7 +29,7 @@
       IsNullable: false
     }
   },
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.Test: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.Test: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.Test,
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.Test,

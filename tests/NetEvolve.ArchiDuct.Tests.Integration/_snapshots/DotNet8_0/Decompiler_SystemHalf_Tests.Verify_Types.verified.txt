@@ -1,5 +1,5 @@
 ﻿{
-  T:System.Half: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.Half: {
     Accessibility: Public,
     Attributes: [
       {
