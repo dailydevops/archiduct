@@ -1,5 +1,5 @@
 ﻿{
-  F:System.DayOfWeek.Friday: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.DayOfWeek.Friday: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.DayOfWeek.Friday,
     Id: F:System.DayOfWeek.Friday,
@@ -12,7 +12,7 @@
     },
     Value: 5
   },
-  F:System.DayOfWeek.Monday: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.DayOfWeek.Monday: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.DayOfWeek.Monday,
     Id: F:System.DayOfWeek.Monday,
@@ -25,7 +25,7 @@
     },
     Value: 1
   },
-  F:System.DayOfWeek.Saturday: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.DayOfWeek.Saturday: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.DayOfWeek.Saturday,
     Id: F:System.DayOfWeek.Saturday,
@@ -38,7 +38,7 @@
     },
     Value: 6
   },
-  F:System.DayOfWeek.Sunday: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.DayOfWeek.Sunday: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.DayOfWeek.Sunday,
     Id: F:System.DayOfWeek.Sunday,
@@ -51,7 +51,7 @@
     },
     Value: 0
   },
-  F:System.DayOfWeek.Thursday: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.DayOfWeek.Thursday: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.DayOfWeek.Thursday,
     Id: F:System.DayOfWeek.Thursday,
@@ -64,7 +64,7 @@
     },
     Value: 4
   },
-  F:System.DayOfWeek.Tuesday: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.DayOfWeek.Tuesday: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.DayOfWeek.Tuesday,
     Id: F:System.DayOfWeek.Tuesday,
@@ -77,7 +77,7 @@
     },
     Value: 2
   },
-  F:System.DayOfWeek.Wednesday: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.DayOfWeek.Wednesday: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.DayOfWeek.Wednesday,
     Id: F:System.DayOfWeek.Wednesday,
@@ -90,7 +90,7 @@
     },
     Value: 3
   },
-  M:System.DayOfWeek.#ctor: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.DayOfWeek.#ctor: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.DayOfWeek.#ctor,
     Id: M:System.DayOfWeek.#ctor,

@@ -1,5 +1,5 @@
 ﻿{
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@): {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@): {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@),
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@),
@@ -89,7 +89,7 @@
       IsNullable: false
     }
   },
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@): {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@): {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@),
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@),

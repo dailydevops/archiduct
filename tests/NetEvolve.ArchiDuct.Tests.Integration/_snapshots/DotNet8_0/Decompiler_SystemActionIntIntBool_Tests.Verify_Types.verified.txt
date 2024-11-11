@@ -1,5 +1,5 @@
 ﻿{
-  T:System.Action`3: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.Action`3: {
     Accessibility: Public,
     Attributes: [
       {

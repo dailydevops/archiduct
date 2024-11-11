@@ -20,18 +20,18 @@ internal sealed class Architecture : IArchitecture
 
     internal Architecture(List<ModelAssembly> modelAssemblies)
     {
-        // TODO: Switch back to `x => x.FullName`, when https://github.com/orgs/VerifyTests/discussions/1289 is solved
-
-        Assemblies = modelAssemblies.ToDictionaryInternal(x => x.Id, Ordinal);
+        Assemblies = modelAssemblies.ToDictionaryInternal(x => x.FullName, Ordinal);
 
         Members = modelAssemblies
             .SelectMany(x => x.Members)
-            .ToDictionaryInternal(x => x.Id, Ordinal);
+            .ToDictionaryInternal(x => x.FullName, Ordinal);
 
         Namespaces = modelAssemblies
             .SelectMany(x => x.Namespaces)
-            .ToDictionaryInternal(x => x.Id, Ordinal);
+            .ToDictionaryInternal(x => x.FullName, Ordinal);
 
-        Types = modelAssemblies.SelectMany(x => x.Types).ToDictionaryInternal(x => x.Id, Ordinal);
+        Types = modelAssemblies
+            .SelectMany(x => x.Types)
+            .ToDictionaryInternal(x => x.FullName, Ordinal);
     }
 }

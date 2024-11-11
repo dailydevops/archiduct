@@ -1,5 +1,5 @@
 ﻿{
-  T:System.Text.StringBuilder: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.Text.StringBuilder: {
     Accessibility: Public,
     Attributes: [
       {
@@ -207,7 +207,7 @@
     ],
     ParentId: N:System.Text
   },
-  T:System.Text.StringBuilder.AppendInterpolatedStringHandler: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.Text.StringBuilder.AppendInterpolatedStringHandler: {
     Accessibility: Public,
     Attributes: [
       {
@@ -306,7 +306,7 @@
     NamespaceId: T:System.Text.StringBuilder,
     ParentId: T:System.Text.StringBuilder
   },
-  T:System.Text.StringBuilder.ChunkEnumerator: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.Text.StringBuilder.ChunkEnumerator: {
     Accessibility: Public,
     Attributes: [
       {
@@ -387,7 +387,7 @@
     ],
     ParentId: T:System.Text.StringBuilder
   },
-  T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo: {
     Accessibility: Private,
     Attributes: [
       {

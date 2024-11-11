@@ -1,5 +1,5 @@
 ﻿{
-  F:System.Double.E: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.Double.E: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Double.E,
     Id: F:System.Double.E,
@@ -15,7 +15,7 @@
       IsNullable: false
     }
   },
-  F:System.Double.Epsilon: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.Double.Epsilon: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Double.Epsilon,
     Id: F:System.Double.Epsilon,
@@ -31,7 +31,7 @@
       IsNullable: false
     }
   },
-  F:System.Double.m_value: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.Double.m_value: {
     Accessibility: Private,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Double.m_value,
     Id: F:System.Double.m_value,
@@ -46,7 +46,7 @@
       IsNullable: false
     }
   },
-  F:System.Double.MaxValue: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.Double.MaxValue: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Double.MaxValue,
     Id: F:System.Double.MaxValue,
@@ -62,7 +62,7 @@
       IsNullable: false
     }
   },
-  F:System.Double.MinValue: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.Double.MinValue: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Double.MinValue,
     Id: F:System.Double.MinValue,
@@ -78,7 +78,7 @@
       IsNullable: false
     }
   },
-  F:System.Double.NaN: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.Double.NaN: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Double.NaN,
     Id: F:System.Double.NaN,
@@ -94,7 +94,7 @@
       IsNullable: false
     }
   },
-  F:System.Double.NegativeInfinity: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.Double.NegativeInfinity: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Double.NegativeInfinity,
     Id: F:System.Double.NegativeInfinity,
@@ -110,7 +110,7 @@
       IsNullable: false
     }
   },
-  F:System.Double.NegativeZero: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.Double.NegativeZero: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Double.NegativeZero,
     Id: F:System.Double.NegativeZero,
@@ -126,7 +126,7 @@
       IsNullable: false
     }
   },
-  F:System.Double.Pi: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.Double.Pi: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Double.Pi,
     Id: F:System.Double.Pi,
@@ -142,7 +142,7 @@
       IsNullable: false
     }
   },
-  F:System.Double.PositiveInfinity: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.Double.PositiveInfinity: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Double.PositiveInfinity,
     Id: F:System.Double.PositiveInfinity,
@@ -158,7 +158,7 @@
       IsNullable: false
     }
   },
-  F:System.Double.Tau: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.Double.Tau: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Double.Tau,
     Id: F:System.Double.Tau,
@@ -174,7 +174,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.#ctor: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.#ctor: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.#ctor,
     Id: M:System.Double.#ctor,
@@ -182,7 +182,7 @@
     Name: .ctor,
     ParentId: T:System.Double
   },
-  M:System.Double.Abs(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Abs(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -219,7 +219,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Acos(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Acos(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -256,7 +256,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Acosh(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Acosh(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -293,7 +293,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.AcosPi(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.AcosPi(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.AcosPi(System.Double),
     Id: M:System.Double.AcosPi(System.Double),
@@ -322,7 +322,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Asin(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Asin(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -359,7 +359,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Asinh(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Asinh(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -396,7 +396,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.AsinPi(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.AsinPi(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.AsinPi(System.Double),
     Id: M:System.Double.AsinPi(System.Double),
@@ -425,7 +425,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Atan(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Atan(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -462,7 +462,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Atan2(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Atan2(System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -510,7 +510,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Atan2Pi(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Atan2Pi(System.Double,System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Atan2Pi(System.Double,System.Double),
     Id: M:System.Double.Atan2Pi(System.Double,System.Double),
@@ -550,7 +550,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Atanh(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Atanh(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -587,7 +587,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.AtanPi(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.AtanPi(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.AtanPi(System.Double),
     Id: M:System.Double.AtanPi(System.Double),
@@ -616,7 +616,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.BitDecrement(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.BitDecrement(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.BitDecrement(System.Double),
     Id: M:System.Double.BitDecrement(System.Double),
@@ -645,7 +645,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.BitIncrement(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.BitIncrement(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.BitIncrement(System.Double),
     Id: M:System.Double.BitIncrement(System.Double),
@@ -674,7 +674,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Cbrt(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Cbrt(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -711,7 +711,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Ceiling(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Ceiling(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -748,7 +748,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Clamp(System.Double,System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Clamp(System.Double,System.Double,System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Clamp(System.Double,System.Double,System.Double),
     Id: M:System.Double.Clamp(System.Double,System.Double,System.Double),
@@ -799,7 +799,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.CompareTo(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.CompareTo(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -836,7 +836,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.CompareTo(System.Object): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.CompareTo(System.Object): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.CompareTo(System.Object),
     Id: M:System.Double.CompareTo(System.Object),
@@ -865,7 +865,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.CopySign(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.CopySign(System.Double,System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.CopySign(System.Double,System.Double),
     Id: M:System.Double.CopySign(System.Double,System.Double),
@@ -905,7 +905,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Cos(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Cos(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -942,7 +942,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.CosForIntervalPiBy4(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.CosForIntervalPiBy4(System.Double,System.Double): {
     Accessibility: Private,
     Attributes: [
       {
@@ -990,7 +990,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Cosh(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Cosh(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1027,7 +1027,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.CosPi(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.CosPi(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.CosPi(System.Double),
     Id: M:System.Double.CosPi(System.Double),
@@ -1056,7 +1056,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.CreateChecked``1(``0): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.CreateChecked``1(``0): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1102,7 +1102,7 @@
       }
     ]
   },
-  M:System.Double.CreateSaturating``1(``0): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.CreateSaturating``1(``0): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1148,7 +1148,7 @@
       }
     ]
   },
-  M:System.Double.CreateTruncating``1(``0): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.CreateTruncating``1(``0): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1194,7 +1194,7 @@
       }
     ]
   },
-  M:System.Double.DegreesToRadians(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.DegreesToRadians(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.DegreesToRadians(System.Double),
     Id: M:System.Double.DegreesToRadians(System.Double),
@@ -1223,7 +1223,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Equals(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Equals(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Equals(System.Double),
     Id: M:System.Double.Equals(System.Double),
@@ -1252,7 +1252,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Equals(System.Object): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Equals(System.Object): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1292,7 +1292,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Exp(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Exp(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1329,7 +1329,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Exp10(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Exp10(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Exp10(System.Double),
     Id: M:System.Double.Exp10(System.Double),
@@ -1358,7 +1358,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Exp10M1(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Exp10M1(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Exp10M1(System.Double),
     Id: M:System.Double.Exp10M1(System.Double),
@@ -1387,7 +1387,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Exp2(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Exp2(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Exp2(System.Double),
     Id: M:System.Double.Exp2(System.Double),
@@ -1416,7 +1416,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Exp2M1(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Exp2M1(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Exp2M1(System.Double),
     Id: M:System.Double.Exp2M1(System.Double),
@@ -1445,7 +1445,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.ExpM1(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ExpM1(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ExpM1(System.Double),
     Id: M:System.Double.ExpM1(System.Double),
@@ -1474,7 +1474,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.ExtractBiasedExponentFromBits(System.UInt64): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ExtractBiasedExponentFromBits(System.UInt64): {
     Accessibility: Internal,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ExtractBiasedExponentFromBits(System.UInt64),
     Id: M:System.Double.ExtractBiasedExponentFromBits(System.UInt64),
@@ -1503,7 +1503,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.ExtractTrailingSignificandFromBits(System.UInt64): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ExtractTrailingSignificandFromBits(System.UInt64): {
     Accessibility: Internal,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ExtractTrailingSignificandFromBits(System.UInt64),
     Id: M:System.Double.ExtractTrailingSignificandFromBits(System.UInt64),
@@ -1532,7 +1532,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Floor(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Floor(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1569,7 +1569,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.FusedMultiplyAdd(System.Double,System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.FusedMultiplyAdd(System.Double,System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1628,7 +1628,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.GetHashCode: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.GetHashCode: {
     Accessibility: Public,
     Attributes: [
       {
@@ -1658,7 +1658,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.GetTypeCode: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.GetTypeCode: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.GetTypeCode,
     Id: M:System.Double.GetTypeCode,
@@ -1671,7 +1671,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Hypot(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Hypot(System.Double,System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Hypot(System.Double,System.Double),
     Id: M:System.Double.Hypot(System.Double,System.Double),
@@ -1711,7 +1711,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Ieee754Remainder(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Ieee754Remainder(System.Double,System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Ieee754Remainder(System.Double,System.Double),
     Id: M:System.Double.Ieee754Remainder(System.Double,System.Double),
@@ -1751,7 +1751,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.ILogB(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ILogB(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ILogB(System.Double),
     Id: M:System.Double.ILogB(System.Double),
@@ -1780,7 +1780,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.IsEvenInteger(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsEvenInteger(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsEvenInteger(System.Double),
     Id: M:System.Double.IsEvenInteger(System.Double),
@@ -1809,7 +1809,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.IsFinite(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsFinite(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1852,7 +1852,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.IsInfinity(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsInfinity(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1895,7 +1895,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.IsInteger(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsInteger(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsInteger(System.Double),
     Id: M:System.Double.IsInteger(System.Double),
@@ -1924,7 +1924,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.IsNaN(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsNaN(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -1967,7 +1967,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.IsNegative(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsNegative(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2010,7 +2010,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.IsNegativeInfinity(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsNegativeInfinity(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2053,7 +2053,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.IsNormal(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsNormal(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2090,7 +2090,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.IsOddInteger(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsOddInteger(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsOddInteger(System.Double),
     Id: M:System.Double.IsOddInteger(System.Double),
@@ -2119,7 +2119,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.IsPositive(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsPositive(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsPositive(System.Double),
     Id: M:System.Double.IsPositive(System.Double),
@@ -2148,7 +2148,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.IsPositiveInfinity(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsPositiveInfinity(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2191,7 +2191,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.IsPow2(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsPow2(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsPow2(System.Double),
     Id: M:System.Double.IsPow2(System.Double),
@@ -2220,7 +2220,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.IsRealNumber(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsRealNumber(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsRealNumber(System.Double),
     Id: M:System.Double.IsRealNumber(System.Double),
@@ -2249,7 +2249,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.IsSubnormal(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.IsSubnormal(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2286,7 +2286,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Lerp(System.Double,System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Lerp(System.Double,System.Double,System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Lerp(System.Double,System.Double,System.Double),
     Id: M:System.Double.Lerp(System.Double,System.Double,System.Double),
@@ -2337,7 +2337,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Log(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Log(System.Double,System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Log(System.Double,System.Double),
     Id: M:System.Double.Log(System.Double,System.Double),
@@ -2380,7 +2380,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Log(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Log(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2420,7 +2420,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Log10(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Log10(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2457,7 +2457,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Log10P1(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Log10P1(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Log10P1(System.Double),
     Id: M:System.Double.Log10P1(System.Double),
@@ -2486,7 +2486,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Log2(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Log2(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2523,7 +2523,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Log2P1(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Log2P1(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Log2P1(System.Double),
     Id: M:System.Double.Log2P1(System.Double),
@@ -2552,7 +2552,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.LogP1(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.LogP1(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.LogP1(System.Double),
     Id: M:System.Double.LogP1(System.Double),
@@ -2581,7 +2581,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Max(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Max(System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2629,7 +2629,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.MaxMagnitude(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.MaxMagnitude(System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2677,7 +2677,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.MaxMagnitudeNumber(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.MaxMagnitudeNumber(System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2725,7 +2725,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.MaxNumber(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.MaxNumber(System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2773,7 +2773,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Min(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Min(System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2821,7 +2821,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.MinMagnitude(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.MinMagnitude(System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2869,7 +2869,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.MinMagnitudeNumber(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.MinMagnitudeNumber(System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2917,7 +2917,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.MinNumber(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.MinNumber(System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -2965,7 +2965,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.op_Equality(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.op_Equality(System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -3012,7 +3012,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.op_GreaterThan(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.op_GreaterThan(System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -3059,7 +3059,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.op_GreaterThanOrEqual(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.op_GreaterThanOrEqual(System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -3106,7 +3106,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.op_Inequality(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.op_Inequality(System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -3153,7 +3153,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.op_LessThan(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.op_LessThan(System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -3200,7 +3200,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.op_LessThanOrEqual(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.op_LessThanOrEqual(System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -3247,7 +3247,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Parse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Parse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Parse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider),
     Id: M:System.Double.Parse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider),
@@ -3309,7 +3309,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Parse(System.ReadOnlySpan{System.Byte},System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Parse(System.ReadOnlySpan{System.Byte},System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Parse(System.ReadOnlySpan{System.Byte},System.IFormatProvider),
     Id: M:System.Double.Parse(System.ReadOnlySpan{System.Byte},System.IFormatProvider),
@@ -3358,7 +3358,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider),
     Id: M:System.Double.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider),
@@ -3420,7 +3420,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider),
     Id: M:System.Double.Parse(System.ReadOnlySpan{System.Char},System.IFormatProvider),
@@ -3469,7 +3469,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider),
     Id: M:System.Double.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider),
@@ -3529,7 +3529,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Parse(System.String,System.Globalization.NumberStyles): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Parse(System.String,System.Globalization.NumberStyles): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Parse(System.String,System.Globalization.NumberStyles),
     Id: M:System.Double.Parse(System.String,System.Globalization.NumberStyles),
@@ -3578,7 +3578,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Parse(System.String,System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Parse(System.String,System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Parse(System.String,System.IFormatProvider),
     Id: M:System.Double.Parse(System.String,System.IFormatProvider),
@@ -3627,7 +3627,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Parse(System.String): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Parse(System.String): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Parse(System.String),
     Id: M:System.Double.Parse(System.String),
@@ -3665,7 +3665,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Pow(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Pow(System.Double,System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -3713,7 +3713,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.RadiansToDegrees(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.RadiansToDegrees(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.RadiansToDegrees(System.Double),
     Id: M:System.Double.RadiansToDegrees(System.Double),
@@ -3742,7 +3742,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.ReciprocalEstimate(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ReciprocalEstimate(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ReciprocalEstimate(System.Double),
     Id: M:System.Double.ReciprocalEstimate(System.Double),
@@ -3771,7 +3771,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.ReciprocalSqrtEstimate(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ReciprocalSqrtEstimate(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ReciprocalSqrtEstimate(System.Double),
     Id: M:System.Double.ReciprocalSqrtEstimate(System.Double),
@@ -3800,7 +3800,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.RootN(System.Double,System.Int32): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.RootN(System.Double,System.Int32): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.RootN(System.Double,System.Int32),
     Id: M:System.Double.RootN(System.Double,System.Int32),
@@ -3840,7 +3840,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Round(System.Double,System.Int32,System.MidpointRounding): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Round(System.Double,System.Int32,System.MidpointRounding): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Round(System.Double,System.Int32,System.MidpointRounding),
     Id: M:System.Double.Round(System.Double,System.Int32,System.MidpointRounding),
@@ -3896,7 +3896,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Round(System.Double,System.Int32): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Round(System.Double,System.Int32): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Round(System.Double,System.Int32),
     Id: M:System.Double.Round(System.Double,System.Int32),
@@ -3941,7 +3941,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Round(System.Double,System.MidpointRounding): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Round(System.Double,System.MidpointRounding): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Round(System.Double,System.MidpointRounding),
     Id: M:System.Double.Round(System.Double,System.MidpointRounding),
@@ -3986,7 +3986,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Round(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Round(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -4028,7 +4028,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.ScaleB(System.Double,System.Int32): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ScaleB(System.Double,System.Int32): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ScaleB(System.Double,System.Int32),
     Id: M:System.Double.ScaleB(System.Double,System.Int32),
@@ -4068,7 +4068,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Sign(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Sign(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Sign(System.Double),
     Id: M:System.Double.Sign(System.Double),
@@ -4097,7 +4097,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Sin(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Sin(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -4134,7 +4134,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.SinCos(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.SinCos(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.SinCos(System.Double),
     Id: M:System.Double.SinCos(System.Double),
@@ -4163,7 +4163,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.SinCosPi(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.SinCosPi(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.SinCosPi(System.Double),
     Id: M:System.Double.SinCosPi(System.Double),
@@ -4192,7 +4192,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.SinForIntervalPiBy4(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.SinForIntervalPiBy4(System.Double,System.Double): {
     Accessibility: Private,
     Attributes: [
       {
@@ -4240,7 +4240,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Sinh(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Sinh(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -4277,7 +4277,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.SinPi(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.SinPi(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.SinPi(System.Double),
     Id: M:System.Double.SinPi(System.Double),
@@ -4306,7 +4306,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Sqrt(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Sqrt(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -4343,7 +4343,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#BitsToFloat(System.UInt64): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#BitsToFloat(System.UInt64): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#BitsToFloat(System.UInt64),
     Id: M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#BitsToFloat(System.UInt64),
     IsLocal: false,
@@ -4371,7 +4371,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#FloatToBits(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#FloatToBits(System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#FloatToBits(System.Double),
     Id: M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#FloatToBits(System.Double),
     IsLocal: false,
@@ -4399,7 +4399,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IConvertible#ToBoolean(System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToBoolean(System.IFormatProvider): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToBoolean(System.IFormatProvider),
     Id: M:System.Double.System#IConvertible#ToBoolean(System.IFormatProvider),
     IsLocal: false,
@@ -4424,7 +4424,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IConvertible#ToByte(System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToByte(System.IFormatProvider): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToByte(System.IFormatProvider),
     Id: M:System.Double.System#IConvertible#ToByte(System.IFormatProvider),
     IsLocal: false,
@@ -4449,7 +4449,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IConvertible#ToChar(System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToChar(System.IFormatProvider): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToChar(System.IFormatProvider),
     Id: M:System.Double.System#IConvertible#ToChar(System.IFormatProvider),
     IsLocal: false,
@@ -4474,7 +4474,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IConvertible#ToDateTime(System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToDateTime(System.IFormatProvider): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToDateTime(System.IFormatProvider),
     Id: M:System.Double.System#IConvertible#ToDateTime(System.IFormatProvider),
     IsLocal: false,
@@ -4499,7 +4499,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IConvertible#ToDecimal(System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToDecimal(System.IFormatProvider): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToDecimal(System.IFormatProvider),
     Id: M:System.Double.System#IConvertible#ToDecimal(System.IFormatProvider),
     IsLocal: false,
@@ -4524,7 +4524,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IConvertible#ToDouble(System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToDouble(System.IFormatProvider): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToDouble(System.IFormatProvider),
     Id: M:System.Double.System#IConvertible#ToDouble(System.IFormatProvider),
     IsLocal: false,
@@ -4549,7 +4549,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IConvertible#ToInt16(System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToInt16(System.IFormatProvider): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToInt16(System.IFormatProvider),
     Id: M:System.Double.System#IConvertible#ToInt16(System.IFormatProvider),
     IsLocal: false,
@@ -4574,7 +4574,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IConvertible#ToInt32(System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToInt32(System.IFormatProvider): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToInt32(System.IFormatProvider),
     Id: M:System.Double.System#IConvertible#ToInt32(System.IFormatProvider),
     IsLocal: false,
@@ -4599,7 +4599,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IConvertible#ToInt64(System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToInt64(System.IFormatProvider): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToInt64(System.IFormatProvider),
     Id: M:System.Double.System#IConvertible#ToInt64(System.IFormatProvider),
     IsLocal: false,
@@ -4624,7 +4624,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IConvertible#ToSByte(System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToSByte(System.IFormatProvider): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToSByte(System.IFormatProvider),
     Id: M:System.Double.System#IConvertible#ToSByte(System.IFormatProvider),
     IsLocal: false,
@@ -4649,7 +4649,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IConvertible#ToSingle(System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToSingle(System.IFormatProvider): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToSingle(System.IFormatProvider),
     Id: M:System.Double.System#IConvertible#ToSingle(System.IFormatProvider),
     IsLocal: false,
@@ -4674,7 +4674,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IConvertible#ToType(System.Type,System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToType(System.Type,System.IFormatProvider): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToType(System.Type,System.IFormatProvider),
     Id: M:System.Double.System#IConvertible#ToType(System.Type,System.IFormatProvider),
     IsLocal: false,
@@ -4710,7 +4710,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IConvertible#ToUInt16(System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToUInt16(System.IFormatProvider): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToUInt16(System.IFormatProvider),
     Id: M:System.Double.System#IConvertible#ToUInt16(System.IFormatProvider),
     IsLocal: false,
@@ -4735,7 +4735,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IConvertible#ToUInt32(System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToUInt32(System.IFormatProvider): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToUInt32(System.IFormatProvider),
     Id: M:System.Double.System#IConvertible#ToUInt32(System.IFormatProvider),
     IsLocal: false,
@@ -4760,7 +4760,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#IConvertible#ToUInt64(System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToUInt64(System.IFormatProvider): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IConvertible#ToUInt64(System.IFormatProvider),
     Id: M:System.Double.System#IConvertible#ToUInt64(System.IFormatProvider),
     IsLocal: false,
@@ -4785,7 +4785,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IAdditionOperators{System#Double,System#Double,System#Double}#op_Addition(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IAdditionOperators{System#Double,System#Double,System#Double}#op_Addition(System.Double,System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IAdditionOperators{System#Double,System#Double,System#Double}#op_Addition(System.Double,System.Double),
     Id: M:System.Double.System#Numerics#IAdditionOperators{System#Double,System#Double,System#Double}#op_Addition(System.Double,System.Double),
     IsLocal: false,
@@ -4824,7 +4824,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IBitwiseOperators{System#Double,System#Double,System#Double}#op_BitwiseAnd(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IBitwiseOperators{System#Double,System#Double,System#Double}#op_BitwiseAnd(System.Double,System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IBitwiseOperators{System#Double,System#Double,System#Double}#op_BitwiseAnd(System.Double,System.Double),
     Id: M:System.Double.System#Numerics#IBitwiseOperators{System#Double,System#Double,System#Double}#op_BitwiseAnd(System.Double,System.Double),
     IsLocal: false,
@@ -4863,7 +4863,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IBitwiseOperators{System#Double,System#Double,System#Double}#op_BitwiseOr(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IBitwiseOperators{System#Double,System#Double,System#Double}#op_BitwiseOr(System.Double,System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IBitwiseOperators{System#Double,System#Double,System#Double}#op_BitwiseOr(System.Double,System.Double),
     Id: M:System.Double.System#Numerics#IBitwiseOperators{System#Double,System#Double,System#Double}#op_BitwiseOr(System.Double,System.Double),
     IsLocal: false,
@@ -4902,7 +4902,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IBitwiseOperators{System#Double,System#Double,System#Double}#op_ExclusiveOr(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IBitwiseOperators{System#Double,System#Double,System#Double}#op_ExclusiveOr(System.Double,System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IBitwiseOperators{System#Double,System#Double,System#Double}#op_ExclusiveOr(System.Double,System.Double),
     Id: M:System.Double.System#Numerics#IBitwiseOperators{System#Double,System#Double,System#Double}#op_ExclusiveOr(System.Double,System.Double),
     IsLocal: false,
@@ -4941,7 +4941,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IBitwiseOperators{System#Double,System#Double,System#Double}#op_OnesComplement(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IBitwiseOperators{System#Double,System#Double,System#Double}#op_OnesComplement(System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IBitwiseOperators{System#Double,System#Double,System#Double}#op_OnesComplement(System.Double),
     Id: M:System.Double.System#Numerics#IBitwiseOperators{System#Double,System#Double,System#Double}#op_OnesComplement(System.Double),
     IsLocal: false,
@@ -4969,7 +4969,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IDecrementOperators{System#Double}#op_Decrement(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IDecrementOperators{System#Double}#op_Decrement(System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IDecrementOperators{System#Double}#op_Decrement(System.Double),
     Id: M:System.Double.System#Numerics#IDecrementOperators{System#Double}#op_Decrement(System.Double),
     IsLocal: false,
@@ -4997,7 +4997,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IDivisionOperators{System#Double,System#Double,System#Double}#op_Division(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IDivisionOperators{System#Double,System#Double,System#Double}#op_Division(System.Double,System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IDivisionOperators{System#Double,System#Double,System#Double}#op_Division(System.Double,System.Double),
     Id: M:System.Double.System#Numerics#IDivisionOperators{System#Double,System#Double,System#Double}#op_Division(System.Double,System.Double),
     IsLocal: false,
@@ -5036,7 +5036,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IFloatingPoint{System#Double}#GetExponentByteCount: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPoint{System#Double}#GetExponentByteCount: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPoint{System#Double}#GetExponentByteCount,
     Id: M:System.Double.System#Numerics#IFloatingPoint{System#Double}#GetExponentByteCount,
     IsLocal: false,
@@ -5048,7 +5048,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IFloatingPoint{System#Double}#GetExponentShortestBitLength: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPoint{System#Double}#GetExponentShortestBitLength: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPoint{System#Double}#GetExponentShortestBitLength,
     Id: M:System.Double.System#Numerics#IFloatingPoint{System#Double}#GetExponentShortestBitLength,
     IsLocal: false,
@@ -5060,7 +5060,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IFloatingPoint{System#Double}#GetSignificandBitLength: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPoint{System#Double}#GetSignificandBitLength: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPoint{System#Double}#GetSignificandBitLength,
     Id: M:System.Double.System#Numerics#IFloatingPoint{System#Double}#GetSignificandBitLength,
     IsLocal: false,
@@ -5072,7 +5072,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IFloatingPoint{System#Double}#GetSignificandByteCount: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPoint{System#Double}#GetSignificandByteCount: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPoint{System#Double}#GetSignificandByteCount,
     Id: M:System.Double.System#Numerics#IFloatingPoint{System#Double}#GetSignificandByteCount,
     IsLocal: false,
@@ -5084,7 +5084,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IFloatingPoint{System#Double}#TryWriteExponentBigEndian(System.Span{System.Byte},System.Int32@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPoint{System#Double}#TryWriteExponentBigEndian(System.Span{System.Byte},System.Int32@): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPoint{System#Double}#TryWriteExponentBigEndian(System.Span{System.Byte},System.Int32@),
     Id: M:System.Double.System#Numerics#IFloatingPoint{System#Double}#TryWriteExponentBigEndian(System.Span{System.Byte},System.Int32@),
     IsLocal: false,
@@ -5123,7 +5123,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IFloatingPoint{System#Double}#TryWriteExponentLittleEndian(System.Span{System.Byte},System.Int32@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPoint{System#Double}#TryWriteExponentLittleEndian(System.Span{System.Byte},System.Int32@): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPoint{System#Double}#TryWriteExponentLittleEndian(System.Span{System.Byte},System.Int32@),
     Id: M:System.Double.System#Numerics#IFloatingPoint{System#Double}#TryWriteExponentLittleEndian(System.Span{System.Byte},System.Int32@),
     IsLocal: false,
@@ -5162,7 +5162,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IFloatingPoint{System#Double}#TryWriteSignificandBigEndian(System.Span{System.Byte},System.Int32@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPoint{System#Double}#TryWriteSignificandBigEndian(System.Span{System.Byte},System.Int32@): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPoint{System#Double}#TryWriteSignificandBigEndian(System.Span{System.Byte},System.Int32@),
     Id: M:System.Double.System#Numerics#IFloatingPoint{System#Double}#TryWriteSignificandBigEndian(System.Span{System.Byte},System.Int32@),
     IsLocal: false,
@@ -5201,7 +5201,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IFloatingPoint{System#Double}#TryWriteSignificandLittleEndian(System.Span{System.Byte},System.Int32@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPoint{System#Double}#TryWriteSignificandLittleEndian(System.Span{System.Byte},System.Int32@): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPoint{System#Double}#TryWriteSignificandLittleEndian(System.Span{System.Byte},System.Int32@),
     Id: M:System.Double.System#Numerics#IFloatingPoint{System#Double}#TryWriteSignificandLittleEndian(System.Span{System.Byte},System.Int32@),
     IsLocal: false,
@@ -5240,7 +5240,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IIncrementOperators{System#Double}#op_Increment(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IIncrementOperators{System#Double}#op_Increment(System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IIncrementOperators{System#Double}#op_Increment(System.Double),
     Id: M:System.Double.System#Numerics#IIncrementOperators{System#Double}#op_Increment(System.Double),
     IsLocal: false,
@@ -5268,7 +5268,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IModulusOperators{System#Double,System#Double,System#Double}#op_Modulus(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IModulusOperators{System#Double,System#Double,System#Double}#op_Modulus(System.Double,System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IModulusOperators{System#Double,System#Double,System#Double}#op_Modulus(System.Double,System.Double),
     Id: M:System.Double.System#Numerics#IModulusOperators{System#Double,System#Double,System#Double}#op_Modulus(System.Double,System.Double),
     IsLocal: false,
@@ -5307,7 +5307,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IMultiplyOperators{System#Double,System#Double,System#Double}#op_Multiply(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IMultiplyOperators{System#Double,System#Double,System#Double}#op_Multiply(System.Double,System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IMultiplyOperators{System#Double,System#Double,System#Double}#op_Multiply(System.Double,System.Double),
     Id: M:System.Double.System#Numerics#IMultiplyOperators{System#Double,System#Double,System#Double}#op_Multiply(System.Double,System.Double),
     IsLocal: false,
@@ -5346,7 +5346,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#INumberBase{System#Double}#IsCanonical(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#IsCanonical(System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#IsCanonical(System.Double),
     Id: M:System.Double.System#Numerics#INumberBase{System#Double}#IsCanonical(System.Double),
     IsLocal: false,
@@ -5374,7 +5374,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#INumberBase{System#Double}#IsComplexNumber(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#IsComplexNumber(System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#IsComplexNumber(System.Double),
     Id: M:System.Double.System#Numerics#INumberBase{System#Double}#IsComplexNumber(System.Double),
     IsLocal: false,
@@ -5402,7 +5402,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#INumberBase{System#Double}#IsImaginaryNumber(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#IsImaginaryNumber(System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#IsImaginaryNumber(System.Double),
     Id: M:System.Double.System#Numerics#INumberBase{System#Double}#IsImaginaryNumber(System.Double),
     IsLocal: false,
@@ -5430,7 +5430,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#INumberBase{System#Double}#IsZero(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#IsZero(System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#IsZero(System.Double),
     Id: M:System.Double.System#Numerics#INumberBase{System#Double}#IsZero(System.Double),
     IsLocal: false,
@@ -5458,7 +5458,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#INumberBase{System#Double}#TryConvertFromChecked``1(``0,System.Double@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#TryConvertFromChecked``1(``0,System.Double@): {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -5517,7 +5517,7 @@
       }
     ]
   },
-  M:System.Double.System#Numerics#INumberBase{System#Double}#TryConvertFromSaturating``1(``0,System.Double@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#TryConvertFromSaturating``1(``0,System.Double@): {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -5576,7 +5576,7 @@
       }
     ]
   },
-  M:System.Double.System#Numerics#INumberBase{System#Double}#TryConvertFromTruncating``1(``0,System.Double@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#TryConvertFromTruncating``1(``0,System.Double@): {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -5635,7 +5635,7 @@
       }
     ]
   },
-  M:System.Double.System#Numerics#INumberBase{System#Double}#TryConvertToChecked``1(System.Double,``0@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#TryConvertToChecked``1(System.Double,``0@): {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -5694,7 +5694,7 @@
       }
     ]
   },
-  M:System.Double.System#Numerics#INumberBase{System#Double}#TryConvertToSaturating``1(System.Double,``0@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#TryConvertToSaturating``1(System.Double,``0@): {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -5753,7 +5753,7 @@
       }
     ]
   },
-  M:System.Double.System#Numerics#INumberBase{System#Double}#TryConvertToTruncating``1(System.Double,``0@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#TryConvertToTruncating``1(System.Double,``0@): {
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.MethodImplAttribute,
@@ -5812,7 +5812,7 @@
       }
     ]
   },
-  M:System.Double.System#Numerics#ISubtractionOperators{System#Double,System#Double,System#Double}#op_Subtraction(System.Double,System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#ISubtractionOperators{System#Double,System#Double,System#Double}#op_Subtraction(System.Double,System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#ISubtractionOperators{System#Double,System#Double,System#Double}#op_Subtraction(System.Double,System.Double),
     Id: M:System.Double.System#Numerics#ISubtractionOperators{System#Double,System#Double,System#Double}#op_Subtraction(System.Double,System.Double),
     IsLocal: false,
@@ -5851,7 +5851,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IUnaryNegationOperators{System#Double,System#Double}#op_UnaryNegation(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IUnaryNegationOperators{System#Double,System#Double}#op_UnaryNegation(System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IUnaryNegationOperators{System#Double,System#Double}#op_UnaryNegation(System.Double),
     Id: M:System.Double.System#Numerics#IUnaryNegationOperators{System#Double,System#Double}#op_UnaryNegation(System.Double),
     IsLocal: false,
@@ -5879,7 +5879,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.System#Numerics#IUnaryPlusOperators{System#Double,System#Double}#op_UnaryPlus(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IUnaryPlusOperators{System#Double,System#Double}#op_UnaryPlus(System.Double): {
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IUnaryPlusOperators{System#Double,System#Double}#op_UnaryPlus(System.Double),
     Id: M:System.Double.System#Numerics#IUnaryPlusOperators{System#Double,System#Double}#op_UnaryPlus(System.Double),
     IsLocal: false,
@@ -5907,7 +5907,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Tan(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Tan(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -5944,7 +5944,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.TanForIntervalPiBy4(System.Double,System.Double,System.Boolean): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TanForIntervalPiBy4(System.Double,System.Double,System.Boolean): {
     Accessibility: Private,
     Attributes: [
       {
@@ -6003,7 +6003,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Tanh(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Tanh(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -6040,7 +6040,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.TanPi(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TanPi(System.Double): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TanPi(System.Double),
     Id: M:System.Double.TanPi(System.Double),
@@ -6069,7 +6069,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.ToString: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ToString: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ToString,
     Id: M:System.Double.ToString,
@@ -6090,7 +6090,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.ToString(System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ToString(System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ToString(System.IFormatProvider),
     Id: M:System.Double.ToString(System.IFormatProvider),
@@ -6121,7 +6121,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.ToString(System.String,System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ToString(System.String,System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ToString(System.String,System.IFormatProvider),
     Id: M:System.Double.ToString(System.String,System.IFormatProvider),
@@ -6163,7 +6163,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.ToString(System.String): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ToString(System.String): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.ToString(System.String),
     Id: M:System.Double.ToString(System.String),
@@ -6194,7 +6194,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.Truncate(System.Double): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.Truncate(System.Double): {
     Accessibility: Public,
     Attributes: [
       {
@@ -6231,7 +6231,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.TryConvertFrom``1(``0,System.Double@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryConvertFrom``1(``0,System.Double@): {
     Accessibility: Private,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryConvertFrom``1(``0,System.Double@),
     Id: M:System.Double.TryConvertFrom``1(``0,System.Double@),
@@ -6283,7 +6283,7 @@
       }
     ]
   },
-  M:System.Double.TryConvertTo``1(System.Double,``0@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryConvertTo``1(System.Double,``0@): {
     Accessibility: Private,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryConvertTo``1(System.Double,``0@),
     Id: M:System.Double.TryConvertTo``1(System.Double,``0@),
@@ -6335,7 +6335,7 @@
       }
     ]
   },
-  M:System.Double.TryFormat(System.Span{System.Byte},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryFormat(System.Span{System.Byte},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryFormat(System.Span{System.Byte},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
     Id: M:System.Double.TryFormat(System.Span{System.Byte},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
@@ -6402,7 +6402,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
     Id: M:System.Double.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider),
@@ -6469,7 +6469,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.TryParse(System.ReadOnlySpan{System.Byte},System.Double@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.ReadOnlySpan{System.Byte},System.Double@): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.ReadOnlySpan{System.Byte},System.Double@),
     Id: M:System.Double.TryParse(System.ReadOnlySpan{System.Byte},System.Double@),
@@ -6522,7 +6522,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.TryParse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider,System.Double@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider,System.Double@): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider,System.Double@),
     Id: M:System.Double.TryParse(System.ReadOnlySpan{System.Byte},System.Globalization.NumberStyles,System.IFormatProvider,System.Double@),
@@ -6597,7 +6597,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.TryParse(System.ReadOnlySpan{System.Byte},System.IFormatProvider,System.Double@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.ReadOnlySpan{System.Byte},System.IFormatProvider,System.Double@): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.ReadOnlySpan{System.Byte},System.IFormatProvider,System.Double@),
     Id: M:System.Double.TryParse(System.ReadOnlySpan{System.Byte},System.IFormatProvider,System.Double@),
@@ -6661,7 +6661,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.TryParse(System.ReadOnlySpan{System.Char},System.Double@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.ReadOnlySpan{System.Char},System.Double@): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.ReadOnlySpan{System.Char},System.Double@),
     Id: M:System.Double.TryParse(System.ReadOnlySpan{System.Char},System.Double@),
@@ -6714,7 +6714,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Double@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Double@): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Double@),
     Id: M:System.Double.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Double@),
@@ -6789,7 +6789,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Double@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Double@): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Double@),
     Id: M:System.Double.TryParse(System.ReadOnlySpan{System.Char},System.IFormatProvider,System.Double@),
@@ -6853,7 +6853,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.TryParse(System.String,System.Double@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.String,System.Double@): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.String,System.Double@),
     Id: M:System.Double.TryParse(System.String,System.Double@),
@@ -6906,7 +6906,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Double@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Double@): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Double@),
     Id: M:System.Double.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Double@),
@@ -6981,7 +6981,7 @@
       IsNullable: false
     }
   },
-  M:System.Double.TryParse(System.String,System.IFormatProvider,System.Double@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.String,System.IFormatProvider,System.Double@): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.TryParse(System.String,System.IFormatProvider,System.Double@),
     Id: M:System.Double.TryParse(System.String,System.IFormatProvider,System.Double@),
@@ -7045,7 +7045,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.BiasedExponent: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.BiasedExponent: {
     Accessibility: Internal,
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.BiasedExponent,
     Getter: {
@@ -7070,7 +7070,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.Exponent: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.Exponent: {
     Accessibility: Internal,
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.Exponent,
     Getter: {
@@ -7095,7 +7095,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.Significand: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.Significand: {
     Accessibility: Internal,
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.Significand,
     Getter: {
@@ -7120,7 +7120,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#DenormalMantissaBits: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#DenormalMantissaBits: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#DenormalMantissaBits,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_DenormalMantissaBits,
@@ -7146,7 +7146,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#DenormalMantissaMask: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#DenormalMantissaMask: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#DenormalMantissaMask,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_DenormalMantissaMask,
@@ -7172,7 +7172,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#ExponentBias: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#ExponentBias: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#ExponentBias,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_ExponentBias,
@@ -7198,7 +7198,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#ExponentBits: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#ExponentBits: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#ExponentBits,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_ExponentBits,
@@ -7224,7 +7224,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#InfinityBits: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#InfinityBits: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#InfinityBits,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_InfinityBits,
@@ -7250,7 +7250,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#InfinityExponent: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#InfinityExponent: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#InfinityExponent,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_InfinityExponent,
@@ -7276,7 +7276,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxBinaryExponent: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxBinaryExponent: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxBinaryExponent,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_MaxBinaryExponent,
@@ -7302,7 +7302,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxDecimalExponent: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxDecimalExponent: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxDecimalExponent,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_MaxDecimalExponent,
@@ -7328,7 +7328,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxExponentFastPath: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxExponentFastPath: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxExponentFastPath,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_MaxExponentFastPath,
@@ -7354,7 +7354,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxExponentRoundToEven: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxExponentRoundToEven: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxExponentRoundToEven,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_MaxExponentRoundToEven,
@@ -7380,7 +7380,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxFastFloatDecimalExponent: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxFastFloatDecimalExponent: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxFastFloatDecimalExponent,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_MaxFastFloatDecimalExponent,
@@ -7406,7 +7406,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxMantissaFastPath: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxMantissaFastPath: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MaxMantissaFastPath,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_MaxMantissaFastPath,
@@ -7432,7 +7432,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MinBinaryExponent: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MinBinaryExponent: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MinBinaryExponent,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_MinBinaryExponent,
@@ -7458,7 +7458,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MinDecimalExponent: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MinDecimalExponent: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MinDecimalExponent,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_MinDecimalExponent,
@@ -7484,7 +7484,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MinExponentRoundToEven: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MinExponentRoundToEven: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MinExponentRoundToEven,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_MinExponentRoundToEven,
@@ -7510,7 +7510,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MinFastFloatDecimalExponent: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MinFastFloatDecimalExponent: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#MinFastFloatDecimalExponent,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_MinFastFloatDecimalExponent,
@@ -7536,7 +7536,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#NormalMantissaBits: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#NormalMantissaBits: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#NormalMantissaBits,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_NormalMantissaBits,
@@ -7562,7 +7562,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#NormalMantissaMask: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#NormalMantissaMask: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#NormalMantissaMask,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_NormalMantissaMask,
@@ -7588,7 +7588,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#NumberBufferLength: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#NumberBufferLength: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#NumberBufferLength,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_NumberBufferLength,
@@ -7614,7 +7614,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#OverflowDecimalExponent: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#OverflowDecimalExponent: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#OverflowDecimalExponent,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_OverflowDecimalExponent,
@@ -7640,7 +7640,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#ZeroBits: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#ZeroBits: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#ZeroBits,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#IBinaryFloatParseAndFormatInfo{System#Double}#get_ZeroBits,
@@ -7666,7 +7666,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#IAdditiveIdentity{System#Double,System#Double}#AdditiveIdentity: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IAdditiveIdentity{System#Double,System#Double}#AdditiveIdentity: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IAdditiveIdentity{System#Double,System#Double}#AdditiveIdentity,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IAdditiveIdentity{System#Double,System#Double}#get_AdditiveIdentity,
@@ -7692,7 +7692,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#IBinaryNumber{System#Double}#AllBitsSet: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IBinaryNumber{System#Double}#AllBitsSet: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IBinaryNumber{System#Double}#AllBitsSet,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IBinaryNumber{System#Double}#get_AllBitsSet,
@@ -7718,7 +7718,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#IFloatingPointConstants{System#Double}#E: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IFloatingPointConstants{System#Double}#E: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IFloatingPointConstants{System#Double}#E,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPointConstants{System#Double}#get_E,
@@ -7744,7 +7744,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#IFloatingPointConstants{System#Double}#Pi: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IFloatingPointConstants{System#Double}#Pi: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IFloatingPointConstants{System#Double}#Pi,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPointConstants{System#Double}#get_Pi,
@@ -7770,7 +7770,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#IFloatingPointConstants{System#Double}#Tau: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IFloatingPointConstants{System#Double}#Tau: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IFloatingPointConstants{System#Double}#Tau,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPointConstants{System#Double}#get_Tau,
@@ -7796,7 +7796,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#Epsilon: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#Epsilon: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#Epsilon,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#get_Epsilon,
@@ -7822,7 +7822,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#NaN: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#NaN: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#NaN,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#get_NaN,
@@ -7848,7 +7848,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#NegativeInfinity: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#NegativeInfinity: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#NegativeInfinity,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#get_NegativeInfinity,
@@ -7874,7 +7874,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#NegativeZero: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#NegativeZero: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#NegativeZero,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#get_NegativeZero,
@@ -7900,7 +7900,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#PositiveInfinity: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#PositiveInfinity: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#PositiveInfinity,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IFloatingPointIeee754{System#Double}#get_PositiveInfinity,
@@ -7926,7 +7926,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#IMinMaxValue{System#Double}#MaxValue: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IMinMaxValue{System#Double}#MaxValue: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IMinMaxValue{System#Double}#MaxValue,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IMinMaxValue{System#Double}#get_MaxValue,
@@ -7952,7 +7952,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#IMinMaxValue{System#Double}#MinValue: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IMinMaxValue{System#Double}#MinValue: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IMinMaxValue{System#Double}#MinValue,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IMinMaxValue{System#Double}#get_MinValue,
@@ -7978,7 +7978,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#IMultiplicativeIdentity{System#Double,System#Double}#MultiplicativeIdentity: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IMultiplicativeIdentity{System#Double,System#Double}#MultiplicativeIdentity: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#IMultiplicativeIdentity{System#Double,System#Double}#MultiplicativeIdentity,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#IMultiplicativeIdentity{System#Double,System#Double}#get_MultiplicativeIdentity,
@@ -8004,7 +8004,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#INumberBase{System#Double}#One: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#INumberBase{System#Double}#One: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#INumberBase{System#Double}#One,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#get_One,
@@ -8030,7 +8030,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#INumberBase{System#Double}#Radix: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#INumberBase{System#Double}#Radix: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#INumberBase{System#Double}#Radix,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#get_Radix,
@@ -8056,7 +8056,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#INumberBase{System#Double}#Zero: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#INumberBase{System#Double}#Zero: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#INumberBase{System#Double}#Zero,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#INumberBase{System#Double}#get_Zero,
@@ -8082,7 +8082,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.System#Numerics#ISignedNumber{System#Double}#NegativeOne: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#ISignedNumber{System#Double}#NegativeOne: {
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.System#Numerics#ISignedNumber{System#Double}#NegativeOne,
     Getter: {
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Double.System#Numerics#ISignedNumber{System#Double}#get_NegativeOne,
@@ -8108,7 +8108,7 @@
       IsNullable: false
     }
   },
-  P:System.Double.TrailingSignificand: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Double.TrailingSignificand: {
     Accessibility: Internal,
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Double.TrailingSignificand,
     Getter: {

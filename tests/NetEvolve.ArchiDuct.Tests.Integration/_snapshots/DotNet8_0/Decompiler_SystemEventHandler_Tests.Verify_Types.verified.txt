@@ -1,5 +1,5 @@
 ﻿{
-  T:System.EventHandler: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.EventHandler: {
     Accessibility: Public,
     Attributes: [
       {

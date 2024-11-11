@@ -1,5 +1,5 @@
 ﻿{
-  T:System.StringSplitOptions: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.StringSplitOptions: {
     Accessibility: Public,
     Attributes: [
       {

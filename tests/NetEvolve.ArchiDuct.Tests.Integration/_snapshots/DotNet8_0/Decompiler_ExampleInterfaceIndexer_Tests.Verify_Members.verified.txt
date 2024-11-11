@@ -1,5 +1,5 @@
 ﻿{
-  P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32): {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32): {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.Item(System.Int32),
     Getter: {

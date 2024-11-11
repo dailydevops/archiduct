@@ -1,5 +1,5 @@
 ﻿{
-  T:System.DayOfWeek: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.DayOfWeek: {
     Accessibility: Public,
     Attributes: [
       {

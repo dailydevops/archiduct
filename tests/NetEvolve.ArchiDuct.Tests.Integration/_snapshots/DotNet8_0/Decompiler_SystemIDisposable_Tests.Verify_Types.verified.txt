@@ -1,5 +1,5 @@
 ﻿{
-  T:System.IDisposable: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.IDisposable: {
     Accessibility: Public,
     Attributes: [
       {

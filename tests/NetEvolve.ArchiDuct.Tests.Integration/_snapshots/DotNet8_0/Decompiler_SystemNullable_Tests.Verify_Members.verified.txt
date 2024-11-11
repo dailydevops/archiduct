@@ -1,5 +1,5 @@
 ﻿{
-  M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}),
     Id: M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}),
@@ -48,7 +48,7 @@
       }
     ]
   },
-  M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}),
     Id: M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}),
@@ -97,7 +97,7 @@
       }
     ]
   },
-  M:System.Nullable.GetUnderlyingType(System.Type): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.GetUnderlyingType(System.Type): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.GetUnderlyingType(System.Type),
     Id: M:System.Nullable.GetUnderlyingType(System.Type),
@@ -126,7 +126,7 @@
       IsNullable: true
     }
   },
-  M:System.Nullable.GetValueRefOrDefaultRef``1(System.Nullable{``0}@): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.GetValueRefOrDefaultRef``1(System.Nullable{``0}@): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable.GetValueRefOrDefaultRef``1(System.Nullable{``0}@),
     Id: M:System.Nullable.GetValueRefOrDefaultRef``1(System.Nullable{``0}@),

@@ -1,5 +1,5 @@
 ﻿{
-  T:System.Memory`1: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.Memory`1: {
     Accessibility: Public,
     Attributes: [
       {

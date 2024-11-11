@@ -1,5 +1,5 @@
 ﻿{
-  T:System.Predicate`1: {
+  System.Private.CoreLib, Version=x.x.x.x, T:System.Predicate`1: {
     Accessibility: Public,
     Attributes: [
       {

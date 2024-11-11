@@ -1,5 +1,5 @@
 ﻿{
-  M:System.Range.#ctor: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Range.#ctor: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.#ctor,
     Id: M:System.Range.#ctor,
@@ -10,7 +10,7 @@
     ],
     ParentId: T:System.Range
   },
-  M:System.Range.#ctor(System.Index,System.Index): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Range.#ctor(System.Index,System.Index): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.#ctor(System.Index,System.Index),
     Id: M:System.Range.#ctor(System.Index,System.Index),
@@ -45,7 +45,7 @@
     ],
     ParentId: T:System.Range
   },
-  M:System.Range.EndAt(System.Index): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Range.EndAt(System.Index): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.EndAt(System.Index),
     Id: M:System.Range.EndAt(System.Index),
@@ -74,7 +74,7 @@
       IsNullable: false
     }
   },
-  M:System.Range.Equals(System.Object): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Range.Equals(System.Object): {
     Accessibility: Public,
     Attributes: [
       {
@@ -114,7 +114,7 @@
       IsNullable: false
     }
   },
-  M:System.Range.Equals(System.Range): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Range.Equals(System.Range): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.Equals(System.Range),
     Id: M:System.Range.Equals(System.Range),
@@ -143,7 +143,7 @@
       IsNullable: false
     }
   },
-  M:System.Range.GetHashCode: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Range.GetHashCode: {
     Accessibility: Public,
     Attributes: [
       {
@@ -167,7 +167,7 @@
       IsNullable: false
     }
   },
-  M:System.Range.GetOffsetAndLength(System.Int32): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Range.GetOffsetAndLength(System.Int32): {
     Accessibility: Public,
     Attributes: [
       {
@@ -201,7 +201,7 @@
       IsNullable: false
     }
   },
-  M:System.Range.StartAt(System.Index): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Range.StartAt(System.Index): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.StartAt(System.Index),
     Id: M:System.Range.StartAt(System.Index),
@@ -230,7 +230,7 @@
       IsNullable: false
     }
   },
-  M:System.Range.ThrowArgumentOutOfRangeException: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Range.ThrowArgumentOutOfRangeException: {
     Accessibility: Private,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.ThrowArgumentOutOfRangeException,
     Id: M:System.Range.ThrowArgumentOutOfRangeException,
@@ -246,7 +246,7 @@
       IsNullable: false
     }
   },
-  M:System.Range.ToString: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Range.ToString: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Range.ToString,
     Id: M:System.Range.ToString,
@@ -262,7 +262,7 @@
       IsNullable: false
     }
   },
-  P:System.Range.All: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Range.All: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Range.All,
     Getter: {
@@ -290,7 +290,7 @@
       IsNullable: false
     }
   },
-  P:System.Range.End: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Range.End: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Range.End,
     Getter: {
@@ -315,7 +315,7 @@
       IsNullable: false
     }
   },
-  P:System.Range.Start: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Range.Start: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Range.Start,
     Getter: {

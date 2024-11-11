@@ -1,5 +1,5 @@
 ﻿{
-  F:System.Memory`1._index: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.Memory`1._index: {
     Accessibility: Private,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Memory`1._index,
     Id: F:System.Memory`1._index,
@@ -14,7 +14,7 @@
       IsNullable: false
     }
   },
-  F:System.Memory`1._length: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.Memory`1._length: {
     Accessibility: Private,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Memory`1._length,
     Id: F:System.Memory`1._length,
@@ -29,7 +29,7 @@
       IsNullable: false
     }
   },
-  F:System.Memory`1._object: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.Memory`1._object: {
     Accessibility: Private,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Memory`1._object,
     Id: F:System.Memory`1._object,
@@ -44,7 +44,7 @@
       IsNullable: false
     }
   },
-  M:System.Memory`1.#ctor: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor,
     Id: M:System.Memory`1.#ctor,
@@ -60,7 +60,7 @@
     ],
     ParentId: T:System.Memory`1
   },
-  M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(`0[],System.Int32,System.Int32): {
     Accessibility: Public,
     Attributes: [
       {
@@ -119,7 +119,7 @@
     ],
     ParentId: T:System.Memory`1
   },
-  M:System.Memory`1.#ctor(`0[],System.Int32): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(`0[],System.Int32): {
     Accessibility: Internal,
     Attributes: [
       {
@@ -167,7 +167,7 @@
     ],
     ParentId: T:System.Memory`1
   },
-  M:System.Memory`1.#ctor(`0[]): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(`0[]): {
     Accessibility: Public,
     Attributes: [
       {
@@ -204,7 +204,7 @@
     ],
     ParentId: T:System.Memory`1
   },
-  M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32,System.Int32): {
     Accessibility: Internal,
     Attributes: [
       {
@@ -263,7 +263,7 @@
     ],
     ParentId: T:System.Memory`1
   },
-  M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(System.Buffers.MemoryManager{`0},System.Int32): {
     Accessibility: Internal,
     Attributes: [
       {
@@ -311,7 +311,7 @@
     ],
     ParentId: T:System.Memory`1
   },
-  M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.#ctor(System.Object,System.Int32,System.Int32): {
     Accessibility: Internal,
     Attributes: [
       {
@@ -370,7 +370,7 @@
     ],
     ParentId: T:System.Memory`1
   },
-  M:System.Memory`1.CopyTo(System.Memory{`0}): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.CopyTo(System.Memory{`0}): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.CopyTo(System.Memory{`0}),
     Id: M:System.Memory`1.CopyTo(System.Memory{`0}),
@@ -396,7 +396,7 @@
       IsNullable: false
     }
   },
-  M:System.Memory`1.Equals(System.Memory{`0}): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Equals(System.Memory{`0}): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Equals(System.Memory{`0}),
     Id: M:System.Memory`1.Equals(System.Memory{`0}),
@@ -425,7 +425,7 @@
       IsNullable: false
     }
   },
-  M:System.Memory`1.Equals(System.Object): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Equals(System.Object): {
     Accessibility: Public,
     Attributes: [
       {
@@ -471,7 +471,7 @@
       IsNullable: false
     }
   },
-  M:System.Memory`1.GetHashCode: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.GetHashCode: {
     Accessibility: Public,
     Attributes: [
       {
@@ -501,7 +501,7 @@
       IsNullable: false
     }
   },
-  M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0}: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0}: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
     Id: M:System.Memory`1.op_Implicit(`0[])~System.Memory{`0},
@@ -533,7 +533,7 @@
       IsNullable: false
     }
   },
-  M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0}: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0}: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0},
     Id: M:System.Memory`1.op_Implicit(System.ArraySegment{`0})~System.Memory{`0},
@@ -565,7 +565,7 @@
       IsNullable: false
     }
   },
-  M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0}: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0}: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0},
     Id: M:System.Memory`1.op_Implicit(System.Memory{`0})~System.ReadOnlyMemory{`0},
@@ -597,7 +597,7 @@
       IsNullable: false
     }
   },
-  M:System.Memory`1.Pin: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Pin: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Pin,
     Id: M:System.Memory`1.Pin,
@@ -610,7 +610,7 @@
       IsNullable: false
     }
   },
-  M:System.Memory`1.Slice(System.Int32,System.Int32): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Slice(System.Int32,System.Int32): {
     Accessibility: Public,
     Attributes: [
       {
@@ -658,7 +658,7 @@
       IsNullable: false
     }
   },
-  M:System.Memory`1.Slice(System.Int32): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.Slice(System.Int32): {
     Accessibility: Public,
     Attributes: [
       {
@@ -695,7 +695,7 @@
       IsNullable: false
     }
   },
-  M:System.Memory`1.ToArray: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.ToArray: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.ToArray,
     Id: M:System.Memory`1.ToArray,
@@ -708,7 +708,7 @@
       IsNullable: false
     }
   },
-  M:System.Memory`1.ToString: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.ToString: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.ToString,
     Id: M:System.Memory`1.ToString,
@@ -724,7 +724,7 @@
       IsNullable: false
     }
   },
-  M:System.Memory`1.TryCopyTo(System.Memory{`0}): {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.TryCopyTo(System.Memory{`0}): {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Memory`1.TryCopyTo(System.Memory{`0}),
     Id: M:System.Memory`1.TryCopyTo(System.Memory{`0}),
@@ -750,7 +750,7 @@
       IsNullable: false
     }
   },
-  P:System.Memory`1.Empty: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Memory`1.Empty: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Memory`1.Empty,
     Getter: {
@@ -778,7 +778,7 @@
       IsNullable: false
     }
   },
-  P:System.Memory`1.IsEmpty: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Memory`1.IsEmpty: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Memory`1.IsEmpty,
     Getter: {
@@ -803,7 +803,7 @@
       IsNullable: false
     }
   },
-  P:System.Memory`1.Length: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Memory`1.Length: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Memory`1.Length,
     Getter: {
@@ -828,7 +828,7 @@
       IsNullable: false
     }
   },
-  P:System.Memory`1.Span: {
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Memory`1.Span: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Memory`1.Span,
     Getter: {

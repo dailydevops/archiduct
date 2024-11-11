@@ -1,5 +1,5 @@
 ﻿{
-  F:System.StringSplitOptions.None: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.StringSplitOptions.None: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.StringSplitOptions.None,
     Id: F:System.StringSplitOptions.None,
@@ -12,7 +12,7 @@
     },
     Value: 0
   },
-  F:System.StringSplitOptions.RemoveEmptyEntries: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.StringSplitOptions.RemoveEmptyEntries: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.StringSplitOptions.RemoveEmptyEntries,
     Id: F:System.StringSplitOptions.RemoveEmptyEntries,
@@ -25,7 +25,7 @@
     },
     Value: 1
   },
-  F:System.StringSplitOptions.TrimEntries: {
+  System.Private.CoreLib, Version=x.x.x.x, F:System.StringSplitOptions.TrimEntries: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.StringSplitOptions.TrimEntries,
     Id: F:System.StringSplitOptions.TrimEntries,
@@ -38,7 +38,7 @@
     },
     Value: 2
   },
-  M:System.StringSplitOptions.#ctor: {
+  System.Private.CoreLib, Version=x.x.x.x, M:System.StringSplitOptions.#ctor: {
     Accessibility: Public,
     FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.StringSplitOptions.#ctor,
     Id: M:System.StringSplitOptions.#ctor,

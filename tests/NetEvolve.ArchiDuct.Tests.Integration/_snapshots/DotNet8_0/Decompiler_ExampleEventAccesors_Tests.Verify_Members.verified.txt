@@ -1,5 +1,5 @@
 ﻿{
-  E:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.OnChanged: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, E:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.OnChanged: {
     Accessibility: Internal,
     AddAccessor: {
       Accessibility: Internal,
@@ -41,7 +41,7 @@
       IsNullable: false
     }
   },
-  E:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.PropertyChanged: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, E:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.PropertyChanged: {
     Accessibility: Public,
     AddAccessor: {
       Accessibility: Public,
@@ -83,7 +83,7 @@
       IsNullable: true
     }
   },
-  F:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors._event: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors._event: {
     Accessibility: Private,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors._event,
     Id: F:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors._event,
@@ -98,7 +98,7 @@
       IsNullable: true
     }
   },
-  M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.#ctor: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.#ctor: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.#ctor,
     Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.#ctor,
@@ -106,7 +106,7 @@
     Name: .ctor,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors
   },
-  P:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.Event: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.Event: {
     Accessibility: Public,
     FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.Event,
     Getter: {
