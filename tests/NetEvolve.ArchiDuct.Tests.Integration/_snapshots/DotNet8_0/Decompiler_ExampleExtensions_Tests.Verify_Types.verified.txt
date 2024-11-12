@@ -1,6 +1,6 @@
 ﻿{
-  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample: {
-    Accessibility: Public,
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions: {
+    Accessibility: Internal,
     Attributes: [
       {
         FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
@@ -30,8 +30,8 @@
     BaseTypes: [
       T:System.Object
     ],
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample,
-    Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions,
+    Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions,
     InheritedMembers: [
       M:System.Object.GetType,
       M:System.Object.MemberwiseClone,
@@ -46,15 +46,15 @@
     IsRecord: false,
     Kind: Class,
     Members: [
-      M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct(System.Reflection.PropertyInfo,System.Boolean@,System.Boolean@,System.Boolean@,System.Type@),
-      M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@)
+      M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions.IsNullOrEmpty(System.String),
+      M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions.IsNullOrWhiteSpace(System.String)
     ],
     Modifiers: [
       Abstract,
       Sealed,
       Static
     ],
-    Name: ExtensionExample,
+    Name: ExampleExtensions,
     NamespaceId: N:NetEvolve.ArchiDuct.Tests.Integration.Internals,
     ParentId: N:NetEvolve.ArchiDuct.Tests.Integration.Internals
   }
