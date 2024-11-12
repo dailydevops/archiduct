@@ -4,12 +4,10 @@ using System;
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
 public class Decompiler_ExampleExplicitEvent_Tests(ExampleExplicitEventTypeProvider provider)
-    : TestCaseBase<ExampleExplicitEventTypeProvider>(provider)
-{ }
+    : TestCaseBase<ExampleExplicitEventTypeProvider>(provider) { }
 
 public sealed class ExampleExplicitEventTypeProvider()
-    : TypeProviderBase(typeof(ExampleExplicitEvent))
-{ }
+    : TypeProviderBase(typeof(ExampleExplicitEvent)) { }
 
 public class ExampleExplicitEvent : IExplicitEvent
 {
