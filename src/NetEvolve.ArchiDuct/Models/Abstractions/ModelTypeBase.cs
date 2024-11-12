@@ -47,7 +47,7 @@ public abstract class ModelTypeBase : ModelEntityBase
     /// Collection of all members within this type.
     /// </summary>
     /// <value>Read-only collection of all described members.</value>
-    public HashSet<string> Members { get; internal set; } = [];
+    public HashSet<string> Members { get; } = [];
 
     /// <summary>
     /// Collection of all modifiers for this type.

@@ -3,7 +3,7 @@
 /// <summary>
 /// Describes a <see langword="return"/> type.
 /// </summary>
-public sealed class ModelReturn
+public sealed class ModelType
 {
     /// <summary>
     /// Gets the return type identifier.
@@ -20,7 +20,7 @@ public sealed class ModelReturn
     /// </summary>
     public bool? IsRefReadonly { get; }
 
-    internal ModelReturn(string id, bool isNullable, bool? isRefReadonly = null)
+    internal ModelType(string id, bool isNullable, bool? isRefReadonly = null)
     {
         Id = id;
         IsNullable = isNullable;
@@ -30,5 +30,5 @@ public sealed class ModelReturn
     /// <summary>
     /// <see langword="Return"/> type is <see langword="void"/>.
     /// </summary>
-    public static ModelReturn Void => new ModelReturn("T:System.Void", false);
+    public static ModelType Void => new ModelType("T:System.Void", false);
 }

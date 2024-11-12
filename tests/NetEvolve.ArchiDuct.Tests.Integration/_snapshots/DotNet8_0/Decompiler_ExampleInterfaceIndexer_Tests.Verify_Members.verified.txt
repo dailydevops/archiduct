@@ -10,7 +10,7 @@
       Kind: Method,
       Name: get_Item,
       ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -32,10 +32,6 @@
       }
     ],
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface,
-    ReturnType: {
-      Id: T:System.Int32,
-      IsNullable: false
-    },
     Setter: {
       Accessibility: Public,
       FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface.set_Item(System.Int32,System.Int32),
@@ -44,10 +40,14 @@
       Kind: Method,
       Name: set_Item,
       ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.IIndexInterface,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
+    },
+    Type: {
+      Id: T:System.Int32,
+      IsNullable: false
     }
   }
 }

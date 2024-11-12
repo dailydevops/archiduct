@@ -130,7 +130,7 @@
           ],
           Name: _registeredSources,
           ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-          ReturnType: {
+          Type: {
             Id: T:System.Collections.Generic.HashSet`1[[NetEvolve.ArchiDuct.Models.SourceAssembly]],
             IsNullable: false
           }
@@ -176,7 +176,7 @@
             }
           ],
           ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-          ReturnType: {
+          Type: {
             Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector,
             IsNullable: false
           }
@@ -226,7 +226,7 @@
             }
           ],
           ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-          ReturnType: {
+          Type: {
             Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector,
             IsNullable: false
           }
@@ -239,7 +239,7 @@
           Kind: Method,
           Name: Collect,
           ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-          ReturnType: {
+          Type: {
             Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitecture,
             IsNullable: false
           }
@@ -279,7 +279,7 @@
             }
           ],
           ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-          ReturnType: {
+          Type: {
             Id: T:System.Collections.Generic.List`1[[NetEvolve.ArchiDuct.Models.ModelAssembly]],
             IsNullable: false
           }
@@ -323,7 +323,7 @@
             }
           ],
           ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-          ReturnType: {
+          Type: {
             Id: T:System.Threading.Tasks.ValueTask`1[[NetEvolve.ArchiDuct.Abstractions.IArchitecture]],
             IsNullable: false
           }
@@ -339,7 +339,7 @@
           ],
           Name: Create,
           ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-          ReturnType: {
+          Type: {
             Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector,
             IsNullable: false
           }
@@ -365,7 +365,7 @@
             }
           ],
           ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-          ReturnType: {
+          Type: {
             Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector,
             IsNullable: false
           }
@@ -391,7 +391,7 @@
             }
           ],
           ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-          ReturnType: {
+          Type: {
             Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector,
             IsNullable: false
           }
@@ -420,7 +420,7 @@
             }
           ],
           ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-          ReturnType: {
+          Type: {
             Id: T:System.String,
             IsNullable: false
           }
@@ -621,7 +621,7 @@
       ],
       Name: _registeredSources,
       ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-      ReturnType: {
+      Type: {
         Id: T:System.Collections.Generic.HashSet`1[[NetEvolve.ArchiDuct.Models.SourceAssembly]],
         IsNullable: false
       }
@@ -667,7 +667,7 @@
         }
       ],
       ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-      ReturnType: {
+      Type: {
         Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector,
         IsNullable: false
       }
@@ -717,7 +717,7 @@
         }
       ],
       ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-      ReturnType: {
+      Type: {
         Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector,
         IsNullable: false
       }
@@ -730,7 +730,7 @@
       Kind: Method,
       Name: Collect,
       ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-      ReturnType: {
+      Type: {
         Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitecture,
         IsNullable: false
       }
@@ -770,7 +770,7 @@
         }
       ],
       ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-      ReturnType: {
+      Type: {
         Id: T:System.Collections.Generic.List`1[[NetEvolve.ArchiDuct.Models.ModelAssembly]],
         IsNullable: false
       }
@@ -814,7 +814,7 @@
         }
       ],
       ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-      ReturnType: {
+      Type: {
         Id: T:System.Threading.Tasks.ValueTask`1[[NetEvolve.ArchiDuct.Abstractions.IArchitecture]],
         IsNullable: false
       }
@@ -830,7 +830,7 @@
       ],
       Name: Create,
       ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-      ReturnType: {
+      Type: {
         Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector,
         IsNullable: false
       }
@@ -856,7 +856,7 @@
         }
       ],
       ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-      ReturnType: {
+      Type: {
         Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector,
         IsNullable: false
       }
@@ -882,7 +882,7 @@
         }
       ],
       ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-      ReturnType: {
+      Type: {
         Id: T:NetEvolve.ArchiDuct.Abstractions.IArchitectureCollector,
         IsNullable: false
       }
@@ -911,7 +911,7 @@
         }
       ],
       ParentId: T:NetEvolve.ArchiDuct.ArchitectureCollector,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }

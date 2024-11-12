@@ -9,7 +9,7 @@
     ],
     Name: _bits,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt32[],
       IsNullable: true
     }
@@ -24,7 +24,7 @@
     ],
     Name: _sign,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -36,7 +36,7 @@
     Kind: EnumMember,
     Name: AllocateArray,
     ParentId: T:System.Numerics.BigInteger.GetBytesMode,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger+GetBytesMode,
       IsNullable: false
     },
@@ -49,7 +49,7 @@
     Kind: EnumMember,
     Name: Count,
     ParentId: T:System.Numerics.BigInteger.GetBytesMode,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger+GetBytesMode,
       IsNullable: false
     },
@@ -62,7 +62,7 @@
     Kind: EnumMember,
     Name: Span,
     ParentId: T:System.Numerics.BigInteger.GetBytesMode,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger+GetBytesMode,
       IsNullable: false
     },
@@ -79,7 +79,7 @@
     ],
     Name: s_bnMinInt,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -95,7 +95,7 @@
     ],
     Name: s_bnMinusOneInt,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -111,7 +111,7 @@
     ],
     Name: s_bnOneInt,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -127,7 +127,7 @@
     ],
     Name: s_bnZeroInt,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -679,7 +679,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -722,7 +722,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -787,7 +787,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -838,7 +838,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -878,7 +878,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -909,7 +909,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -940,7 +940,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -971,7 +971,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1010,7 +1010,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1050,7 +1050,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -1087,7 +1087,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     },
@@ -1133,7 +1133,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     },
@@ -1179,7 +1179,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     },
@@ -1228,7 +1228,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -1285,7 +1285,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -1328,7 +1328,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.ValueTuple`2[[System.Numerics.BigInteger],[System.Numerics.BigInteger]],
       IsNullable: false
     }
@@ -1359,7 +1359,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1390,7 +1390,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1432,7 +1432,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1471,7 +1471,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1484,7 +1484,7 @@
     Kind: Method,
     Name: GetBitLength,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int64,
       IsNullable: false
     }
@@ -1511,7 +1511,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1570,7 +1570,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1583,7 +1583,7 @@
     Kind: Method,
     Name: GetGenericMathByteCount,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1607,7 +1607,7 @@
     ],
     Name: GetHashCode,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1633,7 +1633,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1676,7 +1676,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -1719,7 +1719,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -1748,7 +1748,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1777,7 +1777,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1806,7 +1806,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1835,7 +1835,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1864,7 +1864,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1893,7 +1893,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -1936,7 +1936,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Double,
       IsNullable: false
     }
@@ -1968,7 +1968,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Double,
       IsNullable: false
     }
@@ -1997,7 +1997,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Double,
       IsNullable: false
     }
@@ -2026,7 +2026,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2066,7 +2066,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2106,7 +2106,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2146,7 +2146,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2186,7 +2186,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2237,7 +2237,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2280,7 +2280,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2345,7 +2345,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2374,7 +2374,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2413,7 +2413,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2452,7 +2452,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2491,7 +2491,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2519,7 +2519,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2558,7 +2558,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2603,7 +2603,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2648,7 +2648,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2693,7 +2693,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2746,7 +2746,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2799,7 +2799,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2838,7 +2838,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2889,7 +2889,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2940,7 +2940,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -2991,7 +2991,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -3042,7 +3042,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:nint,
       IsNullable: false
     }
@@ -3101,7 +3101,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:nuint,
       IsNullable: false
     }
@@ -3152,7 +3152,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Byte,
       IsNullable: false
     }
@@ -3203,7 +3203,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Char,
       IsNullable: false
     }
@@ -3254,7 +3254,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Decimal,
       IsNullable: false
     }
@@ -3305,7 +3305,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Double,
       IsNullable: false
     }
@@ -3356,7 +3356,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -3407,7 +3407,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int128,
       IsNullable: false
     }
@@ -3458,7 +3458,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int16,
       IsNullable: false
     }
@@ -3509,7 +3509,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -3560,7 +3560,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int64,
       IsNullable: false
     }
@@ -3619,7 +3619,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.SByte,
       IsNullable: false
     }
@@ -3670,7 +3670,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Single,
       IsNullable: false
     }
@@ -3729,7 +3729,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt128,
       IsNullable: false
     }
@@ -3788,7 +3788,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -3847,7 +3847,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt32,
       IsNullable: false
     }
@@ -3906,7 +3906,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt64,
       IsNullable: false
     }
@@ -3957,7 +3957,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -4008,7 +4008,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -4053,7 +4053,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4098,7 +4098,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4143,7 +4143,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4196,7 +4196,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4249,7 +4249,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4294,7 +4294,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4339,7 +4339,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4384,7 +4384,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4437,7 +4437,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4490,7 +4490,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4532,7 +4532,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -4582,7 +4582,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -4624,7 +4624,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -4666,7 +4666,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -4708,7 +4708,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -4750,7 +4750,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -4792,7 +4792,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -4834,7 +4834,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -4884,7 +4884,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -4934,7 +4934,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -4984,7 +4984,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -5034,7 +5034,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -5084,7 +5084,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -5112,7 +5112,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -5157,7 +5157,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5202,7 +5202,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5247,7 +5247,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5300,7 +5300,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5353,7 +5353,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5392,7 +5392,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -5437,7 +5437,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5482,7 +5482,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5527,7 +5527,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5580,7 +5580,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5633,7 +5633,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5678,7 +5678,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5723,7 +5723,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5768,7 +5768,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5821,7 +5821,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5874,7 +5874,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5913,7 +5913,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -5952,7 +5952,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -5980,7 +5980,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6019,7 +6019,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6058,7 +6058,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6086,7 +6086,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6114,7 +6114,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6153,7 +6153,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6213,7 +6213,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6260,7 +6260,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6318,7 +6318,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6365,7 +6365,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6412,7 +6412,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6448,7 +6448,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6477,7 +6477,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6517,7 +6517,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6557,7 +6557,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6597,7 +6597,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6637,7 +6637,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6680,7 +6680,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6745,7 +6745,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -6757,7 +6757,7 @@
     Kind: ExplicitMethod,
     Name: System.Numerics.IBinaryInteger<System.Numerics.BigInteger>.GetByteCount,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -6769,7 +6769,7 @@
     Kind: ExplicitMethod,
     Name: System.Numerics.IBinaryInteger<System.Numerics.BigInteger>.GetShortestBitLength,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -6822,7 +6822,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6875,7 +6875,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6914,7 +6914,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6953,7 +6953,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6992,7 +6992,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -7031,7 +7031,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -7059,7 +7059,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -7087,7 +7087,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7115,7 +7115,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7143,7 +7143,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7171,7 +7171,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7199,7 +7199,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7227,7 +7227,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7255,7 +7255,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7283,7 +7283,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7311,7 +7311,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7339,7 +7339,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7367,7 +7367,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7395,7 +7395,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7423,7 +7423,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7462,7 +7462,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -7501,7 +7501,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -7551,7 +7551,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -7610,7 +7610,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -7669,7 +7669,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -7728,7 +7728,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -7787,7 +7787,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -7846,7 +7846,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -7871,7 +7871,7 @@
       M:System.Numerics.BigInteger.ToByteArray(System.Boolean,System.Boolean)
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Byte[],
       IsNullable: false
     }
@@ -7913,7 +7913,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Byte[],
       IsNullable: false
     }
@@ -7934,7 +7934,7 @@
       M:System.Numerics.BigInteger.ToString(System.String,System.IFormatProvider)
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -7965,7 +7965,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -8007,7 +8007,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -8038,7 +8038,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -8067,7 +8067,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -8118,7 +8118,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -8178,7 +8178,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -8238,7 +8238,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -8311,7 +8311,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -8384,7 +8384,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Byte[],
       IsNullable: false
     }
@@ -8456,7 +8456,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -8517,7 +8517,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -8567,7 +8567,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -8639,7 +8639,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -8700,7 +8700,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -8750,7 +8750,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -8814,7 +8814,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -8878,7 +8878,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -8904,7 +8904,7 @@
       }
     ],
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -8920,7 +8920,7 @@
       Kind: Method,
       Name: get_DebuggerDisplay,
       ParentId: T:System.Numerics.BigInteger,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -8929,7 +8929,7 @@
     Kind: Property,
     Name: DebuggerDisplay,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -8945,7 +8945,7 @@
       Kind: Method,
       Name: get_IsEven,
       ParentId: T:System.Numerics.BigInteger,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -8954,7 +8954,7 @@
     Kind: Property,
     Name: IsEven,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -8970,7 +8970,7 @@
       Kind: Method,
       Name: get_IsOne,
       ParentId: T:System.Numerics.BigInteger,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -8979,7 +8979,7 @@
     Kind: Property,
     Name: IsOne,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -8995,7 +8995,7 @@
       Kind: Method,
       Name: get_IsPowerOfTwo,
       ParentId: T:System.Numerics.BigInteger,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -9004,7 +9004,7 @@
     Kind: Property,
     Name: IsPowerOfTwo,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -9020,7 +9020,7 @@
       Kind: Method,
       Name: get_IsZero,
       ParentId: T:System.Numerics.BigInteger,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -9029,7 +9029,7 @@
     Kind: Property,
     Name: IsZero,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -9045,7 +9045,7 @@
       Kind: Method,
       Name: get_MaxLength,
       ParentId: T:System.Numerics.BigInteger,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -9057,7 +9057,7 @@
     ],
     Name: MaxLength,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -9073,7 +9073,7 @@
       Kind: Method,
       Name: get_MinusOne,
       ParentId: T:System.Numerics.BigInteger,
-      ReturnType: {
+      Type: {
         Id: T:System.Numerics.BigInteger,
         IsNullable: false
       }
@@ -9085,7 +9085,7 @@
     ],
     Name: MinusOne,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -9101,7 +9101,7 @@
       Kind: Method,
       Name: get_One,
       ParentId: T:System.Numerics.BigInteger,
-      ReturnType: {
+      Type: {
         Id: T:System.Numerics.BigInteger,
         IsNullable: false
       }
@@ -9113,7 +9113,7 @@
     ],
     Name: One,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -9129,7 +9129,7 @@
       Kind: Method,
       Name: get_Sign,
       ParentId: T:System.Numerics.BigInteger,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -9138,7 +9138,7 @@
     Kind: Property,
     Name: Sign,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -9152,7 +9152,7 @@
       Kind: Method,
       Name: System.Numerics.IAdditiveIdentity<System.Numerics.BigInteger,System.Numerics.BigInteger>.get_AdditiveIdentity,
       ParentId: T:System.Numerics.BigInteger,
-      ReturnType: {
+      Type: {
         Id: T:System.Numerics.BigInteger,
         IsNullable: false
       }
@@ -9164,7 +9164,7 @@
     ],
     Name: System.Numerics.IAdditiveIdentity<System.Numerics.BigInteger,System.Numerics.BigInteger>.AdditiveIdentity,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -9178,7 +9178,7 @@
       Kind: Method,
       Name: System.Numerics.IBinaryNumber<System.Numerics.BigInteger>.get_AllBitsSet,
       ParentId: T:System.Numerics.BigInteger,
-      ReturnType: {
+      Type: {
         Id: T:System.Numerics.BigInteger,
         IsNullable: false
       }
@@ -9190,7 +9190,7 @@
     ],
     Name: System.Numerics.IBinaryNumber<System.Numerics.BigInteger>.AllBitsSet,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -9204,7 +9204,7 @@
       Kind: Method,
       Name: System.Numerics.IMultiplicativeIdentity<System.Numerics.BigInteger,System.Numerics.BigInteger>.get_MultiplicativeIdentity,
       ParentId: T:System.Numerics.BigInteger,
-      ReturnType: {
+      Type: {
         Id: T:System.Numerics.BigInteger,
         IsNullable: false
       }
@@ -9216,7 +9216,7 @@
     ],
     Name: System.Numerics.IMultiplicativeIdentity<System.Numerics.BigInteger,System.Numerics.BigInteger>.MultiplicativeIdentity,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -9230,7 +9230,7 @@
       Kind: Method,
       Name: System.Numerics.INumberBase<System.Numerics.BigInteger>.get_Radix,
       ParentId: T:System.Numerics.BigInteger,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -9242,7 +9242,7 @@
     ],
     Name: System.Numerics.INumberBase<System.Numerics.BigInteger>.Radix,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -9256,7 +9256,7 @@
       Kind: Method,
       Name: System.Numerics.ISignedNumber<System.Numerics.BigInteger>.get_NegativeOne,
       ParentId: T:System.Numerics.BigInteger,
-      ReturnType: {
+      Type: {
         Id: T:System.Numerics.BigInteger,
         IsNullable: false
       }
@@ -9268,7 +9268,7 @@
     ],
     Name: System.Numerics.ISignedNumber<System.Numerics.BigInteger>.NegativeOne,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }
@@ -9284,7 +9284,7 @@
       Kind: Method,
       Name: get_Zero,
       ParentId: T:System.Numerics.BigInteger,
-      ReturnType: {
+      Type: {
         Id: T:System.Numerics.BigInteger,
         IsNullable: false
       }
@@ -9296,7 +9296,7 @@
     ],
     Name: Zero,
     ParentId: T:System.Numerics.BigInteger,
-    ReturnType: {
+    Type: {
       Id: T:System.Numerics.BigInteger,
       IsNullable: false
     }

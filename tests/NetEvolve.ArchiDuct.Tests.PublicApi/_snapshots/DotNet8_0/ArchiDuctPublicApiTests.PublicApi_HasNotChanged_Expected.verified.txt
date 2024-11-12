@@ -60,7 +60,7 @@ namespace NetEvolve.ArchiDuct.Models.Abstractions
     {
         public NetEvolve.ArchiDuct.Models.ModelAccessibility Accessibility { get; }
         public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.ModelModifier> Modifiers { get; }
-        public NetEvolve.ArchiDuct.Models.ModelReturn? ReturnType { get; }
+        public NetEvolve.ArchiDuct.Models.ModelType? Type { get; }
     }
     public abstract class ModelTypeBase : NetEvolve.ArchiDuct.Models.Abstractions.ModelEntityBase
     {
@@ -121,7 +121,7 @@ namespace NetEvolve.ArchiDuct.Models
     {
         public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
         public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.ModelParameter> Parameters { get; }
-        public NetEvolve.ArchiDuct.Models.ModelReturn Type { get; }
+        public NetEvolve.ArchiDuct.Models.ModelType Type { get; }
     }
     public sealed class ModelDestructor : NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberBase
     {
@@ -146,9 +146,9 @@ namespace NetEvolve.ArchiDuct.Models
     public class ModelEvent : NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberBase
     {
         public NetEvolve.ArchiDuct.Models.ModelMethod? AddAccessor { get; }
+        public NetEvolve.ArchiDuct.Models.ModelMethod? InvokeAccessor { get; }
         public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
         public NetEvolve.ArchiDuct.Models.ModelMethod? RemoveAccessor { get; }
-        public NetEvolve.ArchiDuct.Models.ModelReturn Type { get; }
     }
     public sealed class ModelExplicitEvent : NetEvolve.ArchiDuct.Models.ModelEvent
     {
@@ -251,7 +251,7 @@ namespace NetEvolve.ArchiDuct.Models
         public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
         public System.Collections.Generic.HashSet<NetEvolve.ArchiDuct.Models.ModelModifier> Modifiers { get; }
         public string? OptionalValue { get; }
-        public NetEvolve.ArchiDuct.Models.ModelReturn? Type { get; }
+        public NetEvolve.ArchiDuct.Models.ModelType? Type { get; }
     }
     public class ModelProperty : NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberBase
     {
@@ -266,13 +266,6 @@ namespace NetEvolve.ArchiDuct.Models
         public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
         public System.Version Version { get; }
     }
-    public sealed class ModelReturn
-    {
-        public string Id { get; }
-        public bool IsNullable { get; }
-        public bool? IsRefReadonly { get; }
-        public static NetEvolve.ArchiDuct.Models.ModelReturn Void { get; }
-    }
     public sealed class ModelStaticConstructor : NetEvolve.ArchiDuct.Models.Abstractions.ModelMemberBase
     {
         public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
@@ -281,6 +274,13 @@ namespace NetEvolve.ArchiDuct.Models
     {
         public bool IsRecord { get; }
         public override NetEvolve.ArchiDuct.Models.ModelKind Kind { get; }
+    }
+    public sealed class ModelType
+    {
+        public string Id { get; }
+        public bool IsNullable { get; }
+        public bool? IsRefReadonly { get; }
+        public static NetEvolve.ArchiDuct.Models.ModelType Void { get; }
     }
     public sealed class ModelTypeParameter : NetEvolve.ArchiDuct.Models.Abstractions.ModelEntityBase
     {

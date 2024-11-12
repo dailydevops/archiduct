@@ -19,7 +19,7 @@ public sealed class ModelParameter : ModelEntityBase
     /// <summary>
     /// Describes the type of the parameter.
     /// </summary>
-    public ModelReturn? Type { get; }
+    public ModelType? Type { get; }
 
     /// <summary>
     /// Gets the optional value of this parameter. If IsOptional is false, this will be always null.

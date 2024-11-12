@@ -9,7 +9,7 @@
     ],
     Name: Left,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3,
-    ReturnType: {
+    Type: {
       Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3*,
       IsNullable: false
     }
@@ -24,7 +24,7 @@
     ],
     Name: Right,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3,
-    ReturnType: {
+    Type: {
       Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3*,
       IsNullable: false
     }
@@ -36,7 +36,7 @@
     Kind: Field,
     Name: Value,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }

@@ -11,7 +11,9 @@ public sealed class ExternClassTypeProvider() : TypeProviderBase(typeof(ExternTe
 
 internal static class ExternTest
 {
+#pragma warning disable SYSLIB1054 // Use 'LibraryImportAttribute' instead of 'DllImportAttribute' to generate P/Invoke marshalling code at compile time
     [DllImport("User32.dll", CharSet = CharSet.Unicode)]
     [DefaultDllImportSearchPaths(DllImportSearchPath.System32)]
     public static extern int MessageBox(IntPtr h, string m, string c, int type);
+#pragma warning restore SYSLIB1054 // Use 'LibraryImportAttribute' instead of 'DllImportAttribute' to generate P/Invoke marshalling code at compile time
 }

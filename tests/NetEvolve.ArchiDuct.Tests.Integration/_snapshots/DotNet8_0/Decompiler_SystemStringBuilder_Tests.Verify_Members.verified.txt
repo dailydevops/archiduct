@@ -9,7 +9,7 @@
     ],
     Name: _hasCustomFormatter,
     ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -24,7 +24,7 @@
     ],
     Name: _provider,
     ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-    ReturnType: {
+    Type: {
       Id: T:System.IFormatProvider,
       IsNullable: false
     }
@@ -39,7 +39,7 @@
     ],
     Name: _stringBuilder,
     ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -51,7 +51,7 @@
     Kind: Field,
     Name: _currentChunk,
     ParentId: T:System.Text.StringBuilder.ChunkEnumerator,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -66,7 +66,7 @@
     ],
     Name: _firstChunk,
     ParentId: T:System.Text.StringBuilder.ChunkEnumerator,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -81,7 +81,7 @@
     ],
     Name: _manyChunks,
     ParentId: T:System.Text.StringBuilder.ChunkEnumerator,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder+ChunkEnumerator+ManyChunkInfo,
       IsNullable: false
     }
@@ -93,7 +93,7 @@
     Kind: Field,
     Name: _chunkPos,
     ParentId: T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -108,7 +108,7 @@
     ],
     Name: _chunks,
     ParentId: T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder[],
       IsNullable: false
     }
@@ -120,7 +120,7 @@
     Kind: Field,
     Name: m_ChunkChars,
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Char[],
       IsNullable: false
     }
@@ -132,7 +132,7 @@
     Kind: Field,
     Name: m_ChunkLength,
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -144,7 +144,7 @@
     Kind: Field,
     Name: m_ChunkOffset,
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -156,7 +156,7 @@
     Kind: Field,
     Name: m_ChunkPrevious,
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -168,7 +168,7 @@
     Kind: Field,
     Name: m_MaxCapacity,
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -576,7 +576,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -630,7 +630,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -695,7 +695,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -749,7 +749,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -825,7 +825,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -879,7 +879,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -947,7 +947,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -1023,7 +1023,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -1077,7 +1077,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -1131,7 +1131,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -1199,7 +1199,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -1253,7 +1253,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -1307,7 +1307,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -1361,7 +1361,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -1415,7 +1415,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -1469,7 +1469,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -1523,7 +1523,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -1585,7 +1585,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -1639,7 +1639,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -1715,7 +1715,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -1769,7 +1769,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -1845,7 +1845,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -1902,7 +1902,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -1956,7 +1956,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -2018,7 +2018,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -2080,7 +2080,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -2142,7 +2142,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -2190,7 +2190,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -2275,7 +2275,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -2349,7 +2349,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -2412,7 +2412,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -2478,7 +2478,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -2544,7 +2544,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -2607,7 +2607,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -2681,7 +2681,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -2744,7 +2744,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -2796,7 +2796,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -2851,7 +2851,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -2914,7 +2914,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     },
@@ -2997,7 +2997,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     },
@@ -3109,7 +3109,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     },
@@ -3217,7 +3217,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     },
@@ -3288,7 +3288,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -3450,7 +3450,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     },
@@ -3519,7 +3519,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -3579,7 +3579,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -3615,7 +3615,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -3675,7 +3675,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -3711,7 +3711,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -3769,7 +3769,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     },
@@ -3825,7 +3825,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     },
@@ -3881,7 +3881,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     },
@@ -3926,7 +3926,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     },
@@ -3983,7 +3983,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     },
@@ -4018,7 +4018,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder.AppendInterpolatedStringHandler,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -4065,7 +4065,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -4112,7 +4112,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -4159,7 +4159,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -4206,7 +4206,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -4250,7 +4250,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     },
@@ -4303,7 +4303,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     },
@@ -4366,7 +4366,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     },
@@ -4429,7 +4429,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     },
@@ -4456,7 +4456,7 @@
       M:System.Text.StringBuilder.AppendLine(System.IFormatProvider,System.Text.StringBuilder.AppendInterpolatedStringHandler@)
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -4501,7 +4501,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -4532,7 +4532,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -4566,7 +4566,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -4592,7 +4592,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     },
@@ -4642,7 +4642,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -4680,7 +4680,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -4724,7 +4724,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -4788,7 +4788,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder.ChunkEnumerator,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -4809,7 +4809,7 @@
     Kind: Method,
     Name: GetEnumerator,
     ParentId: T:System.Text.StringBuilder.ChunkEnumerator,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder+ChunkEnumerator,
       IsNullable: false
     }
@@ -4870,7 +4870,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder.ChunkEnumerator.ManyChunkInfo,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4883,7 +4883,7 @@
     Kind: Method,
     Name: MoveNext,
     ParentId: T:System.Text.StringBuilder.ChunkEnumerator,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4896,7 +4896,7 @@
     Kind: Method,
     Name: Clear,
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -4958,7 +4958,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -5009,7 +5009,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -5035,7 +5035,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -5064,7 +5064,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5093,7 +5093,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5119,7 +5119,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -5145,7 +5145,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -5158,7 +5158,7 @@
     Kind: Method,
     Name: GetChunks,
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder+ChunkEnumerator,
       IsNullable: false
     }
@@ -5184,7 +5184,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -5243,7 +5243,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -5302,7 +5302,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -5361,7 +5361,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -5442,7 +5442,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -5501,7 +5501,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -5574,7 +5574,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -5633,7 +5633,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -5692,7 +5692,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -5751,7 +5751,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -5810,7 +5810,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -5869,7 +5869,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -5928,7 +5928,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -5998,7 +5998,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -6057,7 +6057,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -6124,7 +6124,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -6183,7 +6183,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -6253,7 +6253,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -6312,7 +6312,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -6379,7 +6379,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -6446,7 +6446,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -6513,7 +6513,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -6550,7 +6550,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     },
@@ -6596,7 +6596,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -6672,7 +6672,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -6698,7 +6698,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -6766,7 +6766,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -6806,7 +6806,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -6870,7 +6870,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -6912,7 +6912,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -6976,7 +6976,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -7018,7 +7018,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.StringBuilder,
       IsNullable: false
     }
@@ -7077,7 +7077,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -7117,7 +7117,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -7157,7 +7157,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -7183,7 +7183,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -7251,7 +7251,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -7310,7 +7310,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7346,7 +7346,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -7365,7 +7365,7 @@
       M:System.Text.StringBuilder.ToString(System.Int32,System.Int32)
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -7405,7 +7405,7 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -7421,7 +7421,7 @@
       Kind: Method,
       Name: get_Capacity,
       ParentId: T:System.Text.StringBuilder,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -7430,10 +7430,6 @@
     Kind: Property,
     Name: Capacity,
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
-      Id: T:System.Int32,
-      IsNullable: false
-    },
     Setter: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Text.StringBuilder.set_Capacity(System.Int32),
@@ -7442,10 +7438,14 @@
       Kind: Method,
       Name: set_Capacity,
       ParentId: T:System.Text.StringBuilder,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
+    },
+    Type: {
+      Id: T:System.Int32,
+      IsNullable: false
     }
   },
   System.Private.CoreLib, Version=x.x.x.x, P:System.Text.StringBuilder.Chars(System.Int32): {
@@ -7467,7 +7467,7 @@
       Kind: Method,
       Name: get_Chars,
       ParentId: T:System.Text.StringBuilder,
-      ReturnType: {
+      Type: {
         Id: T:System.Char,
         IsNullable: false
       }
@@ -7489,10 +7489,6 @@
       }
     ],
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
-      Id: T:System.Char,
-      IsNullable: false
-    },
     Setter: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Text.StringBuilder.set_Chars(System.Int32,System.Char),
@@ -7501,10 +7497,14 @@
       Kind: Method,
       Name: set_Chars,
       ParentId: T:System.Text.StringBuilder,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
+    },
+    Type: {
+      Id: T:System.Char,
+      IsNullable: false
     }
   },
   System.Private.CoreLib, Version=x.x.x.x, P:System.Text.StringBuilder.ChunkEnumerator.Current: {
@@ -7518,7 +7518,7 @@
       Kind: Method,
       Name: get_Current,
       ParentId: T:System.Text.StringBuilder.ChunkEnumerator,
-      ReturnType: {
+      Type: {
         Id: T:System.ReadOnlyMemory`1[[System.Char]],
         IsNullable: false
       }
@@ -7527,7 +7527,7 @@
     Kind: Property,
     Name: Current,
     ParentId: T:System.Text.StringBuilder.ChunkEnumerator,
-    ReturnType: {
+    Type: {
       Id: T:System.ReadOnlyMemory`1[[System.Char]],
       IsNullable: false
     }
@@ -7543,7 +7543,7 @@
       Kind: Method,
       Name: get_Length,
       ParentId: T:System.Text.StringBuilder,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -7552,10 +7552,6 @@
     Kind: Property,
     Name: Length,
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
-      Id: T:System.Int32,
-      IsNullable: false
-    },
     Setter: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Text.StringBuilder.set_Length(System.Int32),
@@ -7564,10 +7560,14 @@
       Kind: Method,
       Name: set_Length,
       ParentId: T:System.Text.StringBuilder,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
+    },
+    Type: {
+      Id: T:System.Int32,
+      IsNullable: false
     }
   },
   System.Private.CoreLib, Version=x.x.x.x, P:System.Text.StringBuilder.MaxCapacity: {
@@ -7581,7 +7581,7 @@
       Kind: Method,
       Name: get_MaxCapacity,
       ParentId: T:System.Text.StringBuilder,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -7590,7 +7590,7 @@
     Kind: Property,
     Name: MaxCapacity,
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -7606,7 +7606,7 @@
       Kind: Method,
       Name: get_RemainingCurrentChunk,
       ParentId: T:System.Text.StringBuilder,
-      ReturnType: {
+      Type: {
         Id: T:System.Span`1[[System.Char]],
         IsNullable: false
       }
@@ -7615,7 +7615,7 @@
     Kind: Property,
     Name: RemainingCurrentChunk,
     ParentId: T:System.Text.StringBuilder,
-    ReturnType: {
+    Type: {
       Id: T:System.Span`1[[System.Char]],
       IsNullable: false
     }

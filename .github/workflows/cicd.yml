@@ -27,5 +27,6 @@ jobs:
       disablePublish: true
       dotnet-logging: ${{ inputs.dotnet-logging }}
       dotnet-version: ${{ vars.NE_DOTNET_TARGETFRAMEWORKS }}
+      enableSonarQube: true
       solution: ./ArchiDuct.sln
     secrets: inherit

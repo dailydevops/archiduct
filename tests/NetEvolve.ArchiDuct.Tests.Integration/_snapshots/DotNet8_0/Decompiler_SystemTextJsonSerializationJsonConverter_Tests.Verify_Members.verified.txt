@@ -6,7 +6,7 @@
     Kind: Field,
     Name: _converterStrategy,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.Json.ConverterStrategy,
       IsNullable: false
     }
@@ -43,7 +43,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -83,7 +83,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -137,7 +137,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -150,7 +150,7 @@
     Kind: Method,
     Name: CreateCastingConverter,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.Json.Serialization.JsonConverter`1[[``0]],
       IsNullable: false
     },
@@ -188,7 +188,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.Json.Serialization.Metadata.JsonTypeInfo,
       IsNullable: false
     }
@@ -220,7 +220,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -236,7 +236,7 @@
     ],
     Name: GetDefaultConverterStrategy,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.Json.ConverterStrategy,
       IsNullable: false
     }
@@ -318,7 +318,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -383,7 +383,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -437,7 +437,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Object,
       IsNullable: false
     }
@@ -491,7 +491,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Object,
       IsNullable: false
     }
@@ -545,7 +545,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Object,
       IsNullable: false
     }
@@ -624,7 +624,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -678,7 +678,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Object,
       IsNullable: false
     }
@@ -743,7 +743,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.Json.Serialization.JsonConverter,
       IsNullable: false
     }
@@ -786,7 +786,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.Json.Serialization.JsonConverter,
       IsNullable: false
     }
@@ -829,7 +829,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -894,7 +894,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -967,7 +967,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1049,7 +1049,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1114,7 +1114,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1165,7 +1165,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -1216,7 +1216,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -1278,7 +1278,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -1329,7 +1329,7 @@
       }
     ],
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -1345,7 +1345,7 @@
       Kind: Method,
       Name: get_CanBePolymorphic,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -1354,10 +1354,6 @@
     Kind: Property,
     Name: CanBePolymorphic,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
-      Id: T:System.Boolean,
-      IsNullable: false
-    },
     Setter: {
       Accessibility: Internal,
       FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.set_CanBePolymorphic(System.Boolean),
@@ -1366,10 +1362,14 @@
       Kind: Method,
       Name: set_CanBePolymorphic,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
+    },
+    Type: {
+      Id: T:System.Boolean,
+      IsNullable: false
     }
   },
   System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.CanHaveMetadata: {
@@ -1383,7 +1383,7 @@
       Kind: Method,
       Name: get_CanHaveMetadata,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -1395,7 +1395,7 @@
     ],
     Name: CanHaveMetadata,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1411,7 +1411,7 @@
       Kind: Method,
       Name: get_CanPopulate,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -1423,7 +1423,7 @@
     ],
     Name: CanPopulate,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1439,7 +1439,7 @@
       Kind: Method,
       Name: get_CanUseDirectReadOrWrite,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -1448,10 +1448,6 @@
     Kind: Property,
     Name: CanUseDirectReadOrWrite,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
-      Id: T:System.Boolean,
-      IsNullable: false
-    },
     Setter: {
       Accessibility: Internal,
       FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.set_CanUseDirectReadOrWrite(System.Boolean),
@@ -1460,10 +1456,14 @@
       Kind: Method,
       Name: set_CanUseDirectReadOrWrite,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
+    },
+    Type: {
+      Id: T:System.Boolean,
+      IsNullable: false
     }
   },
   System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.ConstructorInfo: {
@@ -1477,7 +1477,7 @@
       Kind: Method,
       Name: get_ConstructorInfo,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Reflection.ConstructorInfo,
         IsNullable: false
       }
@@ -1486,10 +1486,6 @@
     Kind: Property,
     Name: ConstructorInfo,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
-      Id: T:System.Reflection.ConstructorInfo,
-      IsNullable: true
-    },
     Setter: {
       Accessibility: Internal,
       FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.set_ConstructorInfo(System.Reflection.ConstructorInfo),
@@ -1498,10 +1494,14 @@
       Kind: Method,
       Name: set_ConstructorInfo,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
+    },
+    Type: {
+      Id: T:System.Reflection.ConstructorInfo,
+      IsNullable: true
     }
   },
   System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.ConstructorIsParameterized: {
@@ -1515,7 +1515,7 @@
       Kind: Method,
       Name: get_ConstructorIsParameterized,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -1527,7 +1527,7 @@
     ],
     Name: ConstructorIsParameterized,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1543,7 +1543,7 @@
       Kind: Method,
       Name: get_ConverterStrategy,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Text.Json.ConverterStrategy,
         IsNullable: false
       }
@@ -1557,7 +1557,7 @@
       Kind: Method,
       Name: set_ConverterStrategy,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -1565,7 +1565,7 @@
     Kind: Property,
     Name: ConverterStrategy,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.Json.ConverterStrategy,
       IsNullable: false
     }
@@ -1581,7 +1581,7 @@
       Kind: Method,
       Name: get_ElementType,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Type,
         IsNullable: false
       }
@@ -1593,7 +1593,7 @@
     ],
     Name: ElementType,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Type,
       IsNullable: true
     }
@@ -1609,7 +1609,7 @@
       Kind: Method,
       Name: get_HandleNullOnRead,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -1623,7 +1623,7 @@
       Kind: Method,
       Name: set_HandleNullOnRead,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -1631,7 +1631,7 @@
     Kind: Property,
     Name: HandleNullOnRead,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1647,7 +1647,7 @@
       Kind: Method,
       Name: get_HandleNullOnWrite,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -1661,7 +1661,7 @@
       Kind: Method,
       Name: set_HandleNullOnWrite,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -1669,7 +1669,7 @@
     Kind: Property,
     Name: HandleNullOnWrite,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1685,7 +1685,7 @@
       Kind: Method,
       Name: get_IsInternalConverter,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -1699,7 +1699,7 @@
       Kind: Method,
       Name: set_IsInternalConverter,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -1707,7 +1707,7 @@
     Kind: Property,
     Name: IsInternalConverter,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1723,7 +1723,7 @@
       Kind: Method,
       Name: get_IsInternalConverterForNumberType,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -1737,7 +1737,7 @@
       Kind: Method,
       Name: set_IsInternalConverterForNumberType,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -1745,7 +1745,7 @@
     Kind: Property,
     Name: IsInternalConverterForNumberType,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1761,7 +1761,7 @@
       Kind: Method,
       Name: get_IsValueType,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -1775,7 +1775,7 @@
       Kind: Method,
       Name: set_IsValueType,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -1783,7 +1783,7 @@
     Kind: Property,
     Name: IsValueType,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1799,7 +1799,7 @@
       Kind: Method,
       Name: get_KeyType,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Type,
         IsNullable: false
       }
@@ -1811,7 +1811,7 @@
     ],
     Name: KeyType,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Type,
       IsNullable: true
     }
@@ -1827,7 +1827,7 @@
       Kind: Method,
       Name: get_RequiresReadAhead,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -1836,10 +1836,6 @@
     Kind: Property,
     Name: RequiresReadAhead,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
-      Id: T:System.Boolean,
-      IsNullable: false
-    },
     Setter: {
       Accessibility: Internal,
       FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.set_RequiresReadAhead(System.Boolean),
@@ -1848,10 +1844,14 @@
       Kind: Method,
       Name: set_RequiresReadAhead,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
+    },
+    Type: {
+      Id: T:System.Boolean,
+      IsNullable: false
     }
   },
   System.Text.Json, Version=x.x.x.x, P:System.Text.Json.Serialization.JsonConverter.SourceConverterForCastingConverter: {
@@ -1865,7 +1865,7 @@
       Kind: Method,
       Name: get_SourceConverterForCastingConverter,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Text.Json.Serialization.JsonConverter,
         IsNullable: false
       }
@@ -1877,7 +1877,7 @@
     ],
     Name: SourceConverterForCastingConverter,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Text.Json.Serialization.JsonConverter,
       IsNullable: true
     }
@@ -1893,7 +1893,7 @@
       Kind: Method,
       Name: get_SupportsCreateObjectDelegate,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -1905,7 +1905,7 @@
     ],
     Name: SupportsCreateObjectDelegate,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1921,7 +1921,7 @@
       Kind: Method,
       Name: get_Type,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Type,
         IsNullable: true
       }
@@ -1933,7 +1933,7 @@
     ],
     Name: Type,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
+    Type: {
       Id: T:System.Type,
       IsNullable: true
     }
@@ -1949,7 +1949,7 @@
       Kind: Method,
       Name: get_UsesDefaultHandleNull,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -1958,10 +1958,6 @@
     Kind: Property,
     Name: UsesDefaultHandleNull,
     ParentId: T:System.Text.Json.Serialization.JsonConverter,
-    ReturnType: {
-      Id: T:System.Boolean,
-      IsNullable: false
-    },
     Setter: {
       Accessibility: PrivateProtected,
       FullName: System.Text.Json, Version=x.x.x.x, M:System.Text.Json.Serialization.JsonConverter.set_UsesDefaultHandleNull(System.Boolean),
@@ -1970,10 +1966,14 @@
       Kind: Method,
       Name: set_UsesDefaultHandleNull,
       ParentId: T:System.Text.Json.Serialization.JsonConverter,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
+    },
+    Type: {
+      Id: T:System.Boolean,
+      IsNullable: false
     }
   }
 }

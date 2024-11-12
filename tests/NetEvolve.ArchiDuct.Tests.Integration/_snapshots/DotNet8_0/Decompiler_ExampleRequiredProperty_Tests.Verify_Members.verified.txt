@@ -40,7 +40,7 @@
       Kind: Method,
       Name: get_Name,
       ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -52,10 +52,6 @@
     ],
     Name: Name,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty,
-    ReturnType: {
-      Id: T:System.String,
-      IsNullable: false
-    },
     Setter: {
       Accessibility: Public,
       FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty.set_Name(System.String),
@@ -64,10 +60,14 @@
       Kind: Method,
       Name: set_Name,
       ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleRequiredProperty,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
+    },
+    Type: {
+      Id: T:System.String,
+      IsNullable: false
     }
   }
 }

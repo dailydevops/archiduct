@@ -24,7 +24,7 @@
       }
     ],
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -40,7 +40,7 @@
     ],
     Name: Test,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }

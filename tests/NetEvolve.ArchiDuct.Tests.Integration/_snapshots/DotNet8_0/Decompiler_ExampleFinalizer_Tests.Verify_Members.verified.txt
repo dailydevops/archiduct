@@ -25,7 +25,7 @@
     ],
     Name: Finalize,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -41,7 +41,7 @@
     ],
     Name: ToString,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.FinalizerClass,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }

@@ -7,7 +7,7 @@
     Kind: Method,
     Name: Dispose,
     ParentId: T:System.IDisposable,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }

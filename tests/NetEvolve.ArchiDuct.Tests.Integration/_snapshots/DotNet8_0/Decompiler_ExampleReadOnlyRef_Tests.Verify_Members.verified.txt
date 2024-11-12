@@ -56,7 +56,7 @@
       Kind: Method,
       Name: get_Rate,
       ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest,
-      ReturnType: {
+      Type: {
         Id: T:System.Double,
         IsNullable: false
       }
@@ -65,7 +65,7 @@
     Kind: Property,
     Name: Rate,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest,
-    ReturnType: {
+    Type: {
       Id: T:System.Double,
       IsNullable: false
     }
@@ -81,7 +81,7 @@
       Kind: Method,
       Name: get_Values,
       ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest,
-      ReturnType: {
+      Type: {
         Id: T:System.ReadOnlySpan`1[[System.Double]],
         IsNullable: false
       }
@@ -90,7 +90,7 @@
     Kind: Property,
     Name: Values,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ConversionRequest,
-    ReturnType: {
+    Type: {
       Id: T:System.ReadOnlySpan`1[[System.Double]],
       IsNullable: false
     }

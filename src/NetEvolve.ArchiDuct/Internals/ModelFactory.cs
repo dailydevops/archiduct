@@ -212,7 +212,7 @@ internal static class ModelFactory
                 }
             );
 
-    internal static ModelReturn? GetReturnType(IMember member, bool? isRefReadonly = null)
+    internal static ModelType? GetReturnType(IMember member)
     {
         if (member is IMethod constructor && constructor.IsConstructor)
         {
@@ -220,9 +220,9 @@ internal static class ModelFactory
         }
 
         var returnType = member.ReturnType;
-        if (returnType.FullName == "System.Void")
+        if (returnType.IsKnownType(KnownTypeCode.Void))
         {
-            return ModelReturn.Void;
+            return ModelType.Void;
         }
 
         var returnId = $"T:{returnType.ReflectionName}";
@@ -235,19 +235,21 @@ internal static class ModelFactory
                     : $"T:{member.DeclaringTypeDefinition!.ReflectionName}.{returnType.Name}";
         }
 
-        return new ModelReturn(
-            returnId,
-            returnType.Nullability == Nullability.Nullable,
-            isRefReadonly
-        );
+        bool? isRefReadonly = null;
+        if (member.IsReturnTypeIsRefReadOnly())
+        {
+            isRefReadonly = true;
+        }
+
+        return new ModelType(returnId, returnType.IsNullable(), isRefReadonly);
     }
 
-    internal static ModelReturn GetReturnType(IParameter parameter)
+    internal static ModelType GetReturnType(IParameter parameter)
     {
         var returnType = parameter.Type;
-        if (returnType.FullName == "System.Void")
+        if (returnType.IsKnownType(KnownTypeCode.Void))
         {
-            return ModelReturn.Void;
+            return ModelType.Void;
         }
 
         var returnId = $"T:{returnType.ReflectionName}";
@@ -258,7 +260,7 @@ internal static class ModelFactory
                 : $"T:{method.DeclaringTypeDefinition!.ReflectionName}.{returnType.Name}";
         }
 
-        return new ModelReturn(returnId, returnType.Nullability == Nullability.Nullable);
+        return new ModelType(returnId, returnType.IsNullable());
     }
 
     internal static HashSet<ModelModifier> MapModifiers(IParameter parameter)

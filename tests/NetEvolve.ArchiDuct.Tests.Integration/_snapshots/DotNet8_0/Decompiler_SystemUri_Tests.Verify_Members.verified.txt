@@ -6,7 +6,7 @@
     Kind: Field,
     Name: _flags,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     }
@@ -18,7 +18,7 @@
     Kind: Field,
     Name: _info,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+UriInfo,
       IsNullable: false
     }
@@ -30,7 +30,7 @@
     Kind: Field,
     Name: _originalUnicodeString,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -42,7 +42,7 @@
     Kind: Field,
     Name: _string,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -54,7 +54,7 @@
     Kind: Field,
     Name: _syntax,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.UriParser,
       IsNullable: false
     }
@@ -66,7 +66,7 @@
     Kind: EnumMember,
     Name: BackslashInPath,
     ParentId: T:System.Uri.Check,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Check,
       IsNullable: false
     },
@@ -79,7 +79,7 @@
     Kind: EnumMember,
     Name: DisplayCanonical,
     ParentId: T:System.Uri.Check,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Check,
       IsNullable: false
     },
@@ -92,7 +92,7 @@
     Kind: EnumMember,
     Name: DotSlashAttn,
     ParentId: T:System.Uri.Check,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Check,
       IsNullable: false
     },
@@ -105,7 +105,7 @@
     Kind: EnumMember,
     Name: DotSlashEscaped,
     ParentId: T:System.Uri.Check,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Check,
       IsNullable: false
     },
@@ -118,7 +118,7 @@
     Kind: EnumMember,
     Name: EscapedCanonical,
     ParentId: T:System.Uri.Check,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Check,
       IsNullable: false
     },
@@ -131,7 +131,7 @@
     Kind: EnumMember,
     Name: FoundNonAscii,
     ParentId: T:System.Uri.Check,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Check,
       IsNullable: false
     },
@@ -144,7 +144,7 @@
     Kind: EnumMember,
     Name: None,
     ParentId: T:System.Uri.Check,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Check,
       IsNullable: false
     },
@@ -157,7 +157,7 @@
     Kind: EnumMember,
     Name: NotIriCanonical,
     ParentId: T:System.Uri.Check,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Check,
       IsNullable: false
     },
@@ -170,7 +170,7 @@
     Kind: EnumMember,
     Name: ReservedFound,
     ParentId: T:System.Uri.Check,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Check,
       IsNullable: false
     },
@@ -183,7 +183,7 @@
     Kind: EnumMember,
     Name: AllUriInfoSet,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -196,7 +196,7 @@
     Kind: EnumMember,
     Name: AuthorityFound,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -209,7 +209,7 @@
     Kind: EnumMember,
     Name: BackslashInPath,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -222,7 +222,7 @@
     Kind: EnumMember,
     Name: BasicHostType,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -235,7 +235,7 @@
     Kind: EnumMember,
     Name: CannotDisplayCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -248,7 +248,7 @@
     Kind: EnumMember,
     Name: CanonicalDnsHost,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -261,7 +261,7 @@
     Kind: EnumMember,
     Name: CustomParser_ParseMinimalAlreadyCalled,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -274,7 +274,7 @@
     Kind: EnumMember,
     Name: Debug_LeftConstructor,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -287,7 +287,7 @@
     Kind: EnumMember,
     Name: DisablePathAndQueryCanonicalization,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -300,7 +300,7 @@
     Kind: EnumMember,
     Name: DnsHostType,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -313,7 +313,7 @@
     Kind: EnumMember,
     Name: DosPath,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -326,7 +326,7 @@
     Kind: EnumMember,
     Name: E_CannotDisplayCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -339,7 +339,7 @@
     Kind: EnumMember,
     Name: E_FragmentNotCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -352,7 +352,7 @@
     Kind: EnumMember,
     Name: E_HostNotCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -365,7 +365,7 @@
     Kind: EnumMember,
     Name: E_PathNotCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -378,7 +378,7 @@
     Kind: EnumMember,
     Name: E_PortNotCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -391,7 +391,7 @@
     Kind: EnumMember,
     Name: E_QueryNotCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -404,7 +404,7 @@
     Kind: EnumMember,
     Name: E_UserNotCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -417,7 +417,7 @@
     Kind: EnumMember,
     Name: ErrorOrParsingRecursion,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -430,7 +430,7 @@
     Kind: EnumMember,
     Name: FirstSlashAbsent,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -443,7 +443,7 @@
     Kind: EnumMember,
     Name: FragmentIriCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -456,7 +456,7 @@
     Kind: EnumMember,
     Name: FragmentNotCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -469,7 +469,7 @@
     Kind: EnumMember,
     Name: HasUnicode,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -482,7 +482,7 @@
     Kind: EnumMember,
     Name: HasUserInfo,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -495,7 +495,7 @@
     Kind: EnumMember,
     Name: HostNotCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -508,7 +508,7 @@
     Kind: EnumMember,
     Name: HostNotParsed,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -521,7 +521,7 @@
     Kind: EnumMember,
     Name: HostTypeMask,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -534,7 +534,7 @@
     Kind: EnumMember,
     Name: HostUnicodeNormalized,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -547,7 +547,7 @@
     Kind: EnumMember,
     Name: IdnHost,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -560,7 +560,7 @@
     Kind: EnumMember,
     Name: ImplicitFile,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -573,7 +573,7 @@
     Kind: EnumMember,
     Name: IndexMask,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -586,7 +586,7 @@
     Kind: EnumMember,
     Name: IntranetUri,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -599,7 +599,7 @@
     Kind: EnumMember,
     Name: IPv4HostType,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -612,7 +612,7 @@
     Kind: EnumMember,
     Name: IPv6HostType,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -625,7 +625,7 @@
     Kind: EnumMember,
     Name: IriCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -638,7 +638,7 @@
     Kind: EnumMember,
     Name: LoopbackHost,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -651,7 +651,7 @@
     Kind: EnumMember,
     Name: MinimalUriInfoSet,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -664,7 +664,7 @@
     Kind: EnumMember,
     Name: NotDefaultPort,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -677,7 +677,7 @@
     Kind: EnumMember,
     Name: PathIriCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -690,7 +690,7 @@
     Kind: EnumMember,
     Name: PathNotCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -703,7 +703,7 @@
     Kind: EnumMember,
     Name: PortNotCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -716,7 +716,7 @@
     Kind: EnumMember,
     Name: QueryIriCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -729,7 +729,7 @@
     Kind: EnumMember,
     Name: QueryNotCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -742,7 +742,7 @@
     Kind: EnumMember,
     Name: RestUnicodeNormalized,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -755,7 +755,7 @@
     Kind: EnumMember,
     Name: SchemeNotCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -768,7 +768,7 @@
     Kind: EnumMember,
     Name: ShouldBeCompressed,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -781,7 +781,7 @@
     Kind: EnumMember,
     Name: UncHostType,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -794,7 +794,7 @@
     Kind: EnumMember,
     Name: UncPath,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -807,7 +807,7 @@
     Kind: EnumMember,
     Name: UnicodeHost,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -820,7 +820,7 @@
     Kind: EnumMember,
     Name: UnixPath,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -833,7 +833,7 @@
     Kind: EnumMember,
     Name: UnknownHostType,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -846,7 +846,7 @@
     Kind: EnumMember,
     Name: UnusedHostType,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -859,7 +859,7 @@
     Kind: EnumMember,
     Name: UserDrivenParsing,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -872,7 +872,7 @@
     Kind: EnumMember,
     Name: UserEscaped,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -885,7 +885,7 @@
     Kind: EnumMember,
     Name: UserIriCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -898,7 +898,7 @@
     Kind: EnumMember,
     Name: UserNotCanonical,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -911,7 +911,7 @@
     Kind: EnumMember,
     Name: Zero,
     ParentId: T:System.Uri.Flags,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     },
@@ -924,7 +924,7 @@
     Kind: Field,
     Name: AbsoluteUri,
     ParentId: T:System.Uri.MoreInfo,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -936,7 +936,7 @@
     Kind: Field,
     Name: Fragment,
     ParentId: T:System.Uri.MoreInfo,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -948,7 +948,7 @@
     Kind: Field,
     Name: Path,
     ParentId: T:System.Uri.MoreInfo,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -960,7 +960,7 @@
     Kind: Field,
     Name: Query,
     ParentId: T:System.Uri.MoreInfo,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -972,7 +972,7 @@
     Kind: Field,
     Name: RemoteUrl,
     ParentId: T:System.Uri.MoreInfo,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -984,7 +984,7 @@
     Kind: Field,
     Name: End,
     ParentId: T:System.Uri.Offset,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -996,7 +996,7 @@
     Kind: Field,
     Name: Fragment,
     ParentId: T:System.Uri.Offset,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -1008,7 +1008,7 @@
     Kind: Field,
     Name: Host,
     ParentId: T:System.Uri.Offset,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -1020,7 +1020,7 @@
     Kind: Field,
     Name: Path,
     ParentId: T:System.Uri.Offset,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -1032,7 +1032,7 @@
     Kind: Field,
     Name: PortValue,
     ParentId: T:System.Uri.Offset,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -1044,7 +1044,7 @@
     Kind: Field,
     Name: Query,
     ParentId: T:System.Uri.Offset,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -1056,7 +1056,7 @@
     Kind: Field,
     Name: Scheme,
     ParentId: T:System.Uri.Offset,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -1068,7 +1068,7 @@
     Kind: Field,
     Name: User,
     ParentId: T:System.Uri.Offset,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -1084,7 +1084,7 @@
     ],
     Name: s_schemeChars,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Buffers.SearchValues`1[[System.Char]],
       IsNullable: false
     }
@@ -1100,7 +1100,7 @@
     ],
     Name: s_segmentSeparatorChars,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Buffers.SearchValues`1[[System.Char]],
       IsNullable: false
     }
@@ -1116,7 +1116,7 @@
     ],
     Name: SchemeDelimiter,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1128,7 +1128,7 @@
     Kind: Field,
     Name: _moreInfo,
     ParentId: T:System.Uri.UriInfo,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+MoreInfo,
       IsNullable: false
     }
@@ -1140,7 +1140,7 @@
     Kind: Field,
     Name: Host,
     ParentId: T:System.Uri.UriInfo,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1152,7 +1152,7 @@
     Kind: Field,
     Name: IdnHost,
     ParentId: T:System.Uri.UriInfo,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1164,7 +1164,7 @@
     Kind: Field,
     Name: Offset,
     ParentId: T:System.Uri.UriInfo,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Offset,
       IsNullable: false
     }
@@ -1176,7 +1176,7 @@
     Kind: Field,
     Name: PathAndQuery,
     ParentId: T:System.Uri.UriInfo,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1188,7 +1188,7 @@
     Kind: Field,
     Name: ScopeId,
     ParentId: T:System.Uri.UriInfo,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1200,7 +1200,7 @@
     Kind: Field,
     Name: String,
     ParentId: T:System.Uri.UriInfo,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1216,7 +1216,7 @@
     ],
     Name: UriSchemeFile,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1232,7 +1232,7 @@
     ],
     Name: UriSchemeFtp,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1248,7 +1248,7 @@
     ],
     Name: UriSchemeFtps,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1264,7 +1264,7 @@
     ],
     Name: UriSchemeGopher,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1280,7 +1280,7 @@
     ],
     Name: UriSchemeHttp,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1296,7 +1296,7 @@
     ],
     Name: UriSchemeHttps,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1312,7 +1312,7 @@
     ],
     Name: UriSchemeMailto,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1328,7 +1328,7 @@
     ],
     Name: UriSchemeNetPipe,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1344,7 +1344,7 @@
     ],
     Name: UriSchemeNetTcp,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1360,7 +1360,7 @@
     ],
     Name: UriSchemeNews,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1376,7 +1376,7 @@
     ],
     Name: UriSchemeNntp,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1392,7 +1392,7 @@
     ],
     Name: UriSchemeSftp,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1408,7 +1408,7 @@
     ],
     Name: UriSchemeSsh,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1424,7 +1424,7 @@
     ],
     Name: UriSchemeTelnet,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1440,7 +1440,7 @@
     ],
     Name: UriSchemeWs,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1456,7 +1456,7 @@
     ],
     Name: UriSchemeWss,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -1913,7 +1913,7 @@
     ],
     Name: Canonicalize,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -2025,7 +2025,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2144,7 +2144,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -2209,7 +2209,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Check,
       IsNullable: false
     }
@@ -2238,7 +2238,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2267,7 +2267,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2296,7 +2296,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.UriHostNameType,
       IsNullable: false
     }
@@ -2325,7 +2325,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2368,7 +2368,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.UriParser,
       IsNullable: false
     }
@@ -2392,7 +2392,7 @@
     ],
     Name: CheckSecurity,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -2443,7 +2443,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -2516,7 +2516,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2584,7 +2584,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -2627,7 +2627,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2707,7 +2707,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri,
       IsNullable: false
     }
@@ -2720,7 +2720,7 @@
     Kind: Method,
     Name: CreateHostString,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -2799,7 +2799,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -2870,7 +2870,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -2904,7 +2904,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -2960,7 +2960,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -2986,7 +2986,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -3020,7 +3020,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -3033,7 +3033,7 @@
     Kind: Method,
     Name: EnsureParseRemaining,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -3054,7 +3054,7 @@
     Kind: Method,
     Name: EnsureUriInfo,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+UriInfo,
       IsNullable: false
     }
@@ -3083,7 +3083,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -3107,7 +3107,7 @@
     ],
     Name: Escape,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -3136,7 +3136,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -3173,7 +3173,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -3232,7 +3232,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -3269,7 +3269,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -3306,7 +3306,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -3346,7 +3346,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -3411,7 +3411,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -3448,7 +3448,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -3485,7 +3485,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -3511,7 +3511,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -3540,7 +3540,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.UriFormatException,
       IsNullable: false
     }
@@ -3556,7 +3556,7 @@
     ],
     Name: GetHashCode,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -3569,7 +3569,7 @@
     Kind: Method,
     Name: GetHostViaCustomSyntax,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -3595,7 +3595,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -3649,7 +3649,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -3662,7 +3662,7 @@
     Kind: Method,
     Name: GetLocalPath,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -3699,7 +3699,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -3736,7 +3736,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -3762,7 +3762,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -3799,7 +3799,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -3825,7 +3825,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -3854,7 +3854,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -3897,7 +3897,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Char,
       IsNullable: false
     }
@@ -3923,7 +3923,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -3974,7 +3974,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -4000,7 +4000,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -4029,7 +4029,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -4066,7 +4066,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -4079,7 +4079,7 @@
     Kind: Method,
     Name: InternalIsWellFormedOriginalString,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4108,7 +4108,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4145,7 +4145,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4171,7 +4171,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4197,7 +4197,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4234,7 +4234,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4263,7 +4263,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4303,7 +4303,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4340,7 +4340,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4353,7 +4353,7 @@
     Kind: Method,
     Name: IsWellFormedOriginalString,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4393,7 +4393,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4427,7 +4427,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -4453,7 +4453,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri,
       IsNullable: false
     }
@@ -4487,7 +4487,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4534,7 +4534,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4573,7 +4573,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4597,7 +4597,7 @@
     ],
     Name: Parse,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -4610,7 +4610,7 @@
     Kind: Method,
     Name: ParseMinimal,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.UriFormatException,
       IsNullable: false
     }
@@ -4623,7 +4623,7 @@
     Kind: Method,
     Name: ParseRemaining,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -4680,7 +4680,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.ParsingError,
       IsNullable: false
     }
@@ -4751,7 +4751,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -4802,7 +4802,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -4815,7 +4815,7 @@
     Kind: Method,
     Name: PrivateParseMinimal,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.ParsingError,
       IsNullable: false
     }
@@ -4891,7 +4891,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.ReadOnlySpan`1[[System.Char]],
       IsNullable: false
     }
@@ -4942,7 +4942,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -5010,7 +5010,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri,
       IsNullable: false
     }
@@ -5050,7 +5050,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5079,7 +5079,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5119,7 +5119,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5155,7 +5155,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -5216,7 +5216,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5252,7 +5252,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -5268,7 +5268,7 @@
     ],
     Name: ToString,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -5330,7 +5330,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5389,7 +5389,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5448,7 +5448,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5507,7 +5507,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5547,7 +5547,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5620,7 +5620,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5657,7 +5657,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -5686,7 +5686,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -5774,7 +5774,7 @@
       }
     ],
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -5798,7 +5798,7 @@
       Kind: Method,
       Name: get_AbsolutePath,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -5807,7 +5807,7 @@
     Kind: Property,
     Name: AbsolutePath,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -5823,7 +5823,7 @@
       Kind: Method,
       Name: get_AbsoluteUri,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -5832,7 +5832,7 @@
     Kind: Property,
     Name: AbsoluteUri,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -5848,7 +5848,7 @@
       Kind: Method,
       Name: get_Authority,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -5857,7 +5857,7 @@
     Kind: Property,
     Name: Authority,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -5873,7 +5873,7 @@
       Kind: Method,
       Name: get_DisablePathAndQueryCanonicalization,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -5882,7 +5882,7 @@
     Kind: Property,
     Name: DisablePathAndQueryCanonicalization,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5898,7 +5898,7 @@
       Kind: Method,
       Name: get_DnsSafeHost,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -5907,7 +5907,7 @@
     Kind: Property,
     Name: DnsSafeHost,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -5923,7 +5923,7 @@
       Kind: Method,
       Name: get_Fragment,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -5932,7 +5932,7 @@
     Kind: Property,
     Name: Fragment,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -5948,7 +5948,7 @@
       Kind: Method,
       Name: get_Host,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -5957,7 +5957,7 @@
     Kind: Property,
     Name: Host,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -5973,7 +5973,7 @@
       Kind: Method,
       Name: get_HostNameType,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.UriHostNameType,
         IsNullable: false
       }
@@ -5982,7 +5982,7 @@
     Kind: Property,
     Name: HostNameType,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.UriHostNameType,
       IsNullable: false
     }
@@ -5998,7 +5998,7 @@
       Kind: Method,
       Name: get_HostType,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Uri+Flags,
         IsNullable: false
       }
@@ -6007,7 +6007,7 @@
     Kind: Property,
     Name: HostType,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+Flags,
       IsNullable: false
     }
@@ -6023,7 +6023,7 @@
       Kind: Method,
       Name: get_IdnHost,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -6032,7 +6032,7 @@
     Kind: Property,
     Name: IdnHost,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -6048,7 +6048,7 @@
       Kind: Method,
       Name: get_IriParsing,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -6057,7 +6057,7 @@
     Kind: Property,
     Name: IriParsing,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6073,7 +6073,7 @@
       Kind: Method,
       Name: get_IsAbsoluteUri,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -6082,7 +6082,7 @@
     Kind: Property,
     Name: IsAbsoluteUri,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6098,7 +6098,7 @@
       Kind: Method,
       Name: get_IsDefaultPort,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -6107,7 +6107,7 @@
     Kind: Property,
     Name: IsDefaultPort,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6123,7 +6123,7 @@
       Kind: Method,
       Name: get_IsDosPath,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -6132,7 +6132,7 @@
     Kind: Property,
     Name: IsDosPath,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6148,7 +6148,7 @@
       Kind: Method,
       Name: get_IsFile,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -6157,7 +6157,7 @@
     Kind: Property,
     Name: IsFile,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6173,7 +6173,7 @@
       Kind: Method,
       Name: get_IsImplicitFile,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -6182,7 +6182,7 @@
     Kind: Property,
     Name: IsImplicitFile,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6198,7 +6198,7 @@
       Kind: Method,
       Name: get_IsLoopback,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -6207,7 +6207,7 @@
     Kind: Property,
     Name: IsLoopback,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6223,7 +6223,7 @@
       Kind: Method,
       Name: get_IsNotAbsoluteUri,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -6232,7 +6232,7 @@
     Kind: Property,
     Name: IsNotAbsoluteUri,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6248,7 +6248,7 @@
       Kind: Method,
       Name: get_IsUnc,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -6257,7 +6257,7 @@
     Kind: Property,
     Name: IsUnc,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6273,7 +6273,7 @@
       Kind: Method,
       Name: get_IsUncOrDosPath,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -6282,7 +6282,7 @@
     Kind: Property,
     Name: IsUncOrDosPath,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6298,7 +6298,7 @@
       Kind: Method,
       Name: get_IsUncPath,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -6307,7 +6307,7 @@
     Kind: Property,
     Name: IsUncPath,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6323,7 +6323,7 @@
       Kind: Method,
       Name: get_IsUnixPath,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -6332,7 +6332,7 @@
     Kind: Property,
     Name: IsUnixPath,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6348,7 +6348,7 @@
       Kind: Method,
       Name: get_LocalPath,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -6357,7 +6357,7 @@
     Kind: Property,
     Name: LocalPath,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -6373,7 +6373,7 @@
       Kind: Method,
       Name: get_OriginalString,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -6382,7 +6382,7 @@
     Kind: Property,
     Name: OriginalString,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -6398,7 +6398,7 @@
       Kind: Method,
       Name: get_PathAndQuery,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -6407,7 +6407,7 @@
     Kind: Property,
     Name: PathAndQuery,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -6423,7 +6423,7 @@
       Kind: Method,
       Name: get_Port,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6432,7 +6432,7 @@
     Kind: Property,
     Name: Port,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -6448,7 +6448,7 @@
       Kind: Method,
       Name: get_PrivateAbsolutePath,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -6457,7 +6457,7 @@
     Kind: Property,
     Name: PrivateAbsolutePath,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -6473,7 +6473,7 @@
       Kind: Method,
       Name: get_Query,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -6482,7 +6482,7 @@
     Kind: Property,
     Name: Query,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -6498,7 +6498,7 @@
       Kind: Method,
       Name: get_Scheme,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -6507,7 +6507,7 @@
     Kind: Property,
     Name: Scheme,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -6523,7 +6523,7 @@
       Kind: Method,
       Name: get_SecuredPathIndex,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6532,7 +6532,7 @@
     Kind: Property,
     Name: SecuredPathIndex,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -6548,7 +6548,7 @@
       Kind: Method,
       Name: get_Segments,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -6557,7 +6557,7 @@
     Kind: Property,
     Name: Segments,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String[],
       IsNullable: false
     }
@@ -6573,7 +6573,7 @@
       Kind: Method,
       Name: get_Syntax,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.UriParser,
         IsNullable: false
       }
@@ -6582,7 +6582,7 @@
     Kind: Property,
     Name: Syntax,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.UriParser,
       IsNullable: false
     }
@@ -6598,7 +6598,7 @@
       Kind: Method,
       Name: get_MoreInfo,
       ParentId: T:System.Uri.UriInfo,
-      ReturnType: {
+      Type: {
         Id: T:System.Uri+MoreInfo,
         IsNullable: false
       }
@@ -6607,7 +6607,7 @@
     Kind: Property,
     Name: MoreInfo,
     ParentId: T:System.Uri.UriInfo,
-    ReturnType: {
+    Type: {
       Id: T:System.Uri+MoreInfo,
       IsNullable: false
     }
@@ -6623,7 +6623,7 @@
       Kind: Method,
       Name: get_UserDrivenParsing,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -6632,7 +6632,7 @@
     Kind: Property,
     Name: UserDrivenParsing,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6648,7 +6648,7 @@
       Kind: Method,
       Name: get_UserEscaped,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -6657,7 +6657,7 @@
     Kind: Property,
     Name: UserEscaped,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6673,7 +6673,7 @@
       Kind: Method,
       Name: get_UserInfo,
       ParentId: T:System.Uri,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -6682,7 +6682,7 @@
     Kind: Property,
     Name: UserInfo,
     ParentId: T:System.Uri,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }

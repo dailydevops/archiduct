@@ -9,7 +9,7 @@
     ],
     Name: m_value,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -25,7 +25,7 @@
     ],
     Name: MaxValue,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -41,7 +41,7 @@
     ],
     Name: MinValue,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -78,7 +78,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -129,7 +129,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -158,7 +158,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -187,7 +187,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -227,7 +227,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -264,7 +264,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     },
@@ -310,7 +310,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     },
@@ -356,7 +356,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     },
@@ -405,7 +405,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.ValueTuple`2[[System.Int32],[System.Int32]],
       IsNullable: false
     }
@@ -442,7 +442,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -482,7 +482,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -506,7 +506,7 @@
     ],
     Name: GetHashCode,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -519,7 +519,7 @@
     Kind: Method,
     Name: GetTypeCode,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.TypeCode,
       IsNullable: false
     }
@@ -548,7 +548,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -577,7 +577,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -606,7 +606,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -635,7 +635,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -664,7 +664,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -701,7 +701,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -744,7 +744,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -784,7 +784,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -824,7 +824,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -864,7 +864,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -904,7 +904,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -966,7 +966,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1015,7 +1015,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1077,7 +1077,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1126,7 +1126,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1186,7 +1186,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1235,7 +1235,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1284,7 +1284,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1322,7 +1322,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1359,7 +1359,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1407,7 +1407,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1455,7 +1455,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1484,7 +1484,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1523,7 +1523,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1551,7 +1551,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1579,7 +1579,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1604,7 +1604,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1629,7 +1629,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Byte,
       IsNullable: false
     }
@@ -1654,7 +1654,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Char,
       IsNullable: false
     }
@@ -1679,7 +1679,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.DateTime,
       IsNullable: false
     }
@@ -1704,7 +1704,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Decimal,
       IsNullable: false
     }
@@ -1729,7 +1729,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Double,
       IsNullable: false
     }
@@ -1754,7 +1754,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int16,
       IsNullable: false
     }
@@ -1779,7 +1779,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1804,7 +1804,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int64,
       IsNullable: false
     }
@@ -1829,7 +1829,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.SByte,
       IsNullable: false
     }
@@ -1854,7 +1854,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Single,
       IsNullable: false
     }
@@ -1890,7 +1890,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Object,
       IsNullable: false
     }
@@ -1915,7 +1915,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -1940,7 +1940,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt32,
       IsNullable: false
     }
@@ -1965,7 +1965,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt64,
       IsNullable: false
     }
@@ -2004,7 +2004,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2043,7 +2043,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2055,7 +2055,7 @@
     Kind: ExplicitMethod,
     Name: System.Numerics.IBinaryInteger<System.Int32>.GetByteCount,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2067,7 +2067,7 @@
     Kind: ExplicitMethod,
     Name: System.Numerics.IBinaryInteger<System.Int32>.GetShortestBitLength,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2120,7 +2120,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2173,7 +2173,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2212,7 +2212,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2251,7 +2251,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2290,7 +2290,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2329,7 +2329,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2368,7 +2368,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2396,7 +2396,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2435,7 +2435,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2474,7 +2474,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2513,7 +2513,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2552,7 +2552,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2580,7 +2580,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2608,7 +2608,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2647,7 +2647,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2686,7 +2686,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2725,7 +2725,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2753,7 +2753,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2781,7 +2781,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2820,7 +2820,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2859,7 +2859,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2898,7 +2898,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2937,7 +2937,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -2976,7 +2976,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -3004,7 +3004,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -3032,7 +3032,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -3060,7 +3060,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -3088,7 +3088,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -3116,7 +3116,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -3144,7 +3144,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -3172,7 +3172,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -3200,7 +3200,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -3228,7 +3228,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -3256,7 +3256,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -3284,7 +3284,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -3312,7 +3312,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -3340,7 +3340,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -3379,7 +3379,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -3418,7 +3418,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -3468,7 +3468,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -3527,7 +3527,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -3586,7 +3586,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -3645,7 +3645,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -3704,7 +3704,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -3763,7 +3763,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -3811,7 +3811,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -3850,7 +3850,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -3889,7 +3889,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -3928,7 +3928,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -3967,7 +3967,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -3995,7 +3995,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -4023,7 +4023,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -4051,7 +4051,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -4072,7 +4072,7 @@
       M:System.Int32.ToString(System.String,System.IFormatProvider)
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -4103,7 +4103,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -4145,7 +4145,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -4176,7 +4176,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -4213,7 +4213,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -4264,7 +4264,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -4324,7 +4324,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -4384,7 +4384,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -4460,7 +4460,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4527,7 +4527,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4602,7 +4602,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4666,7 +4666,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4719,7 +4719,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4794,7 +4794,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4858,7 +4858,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4911,7 +4911,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4986,7 +4986,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5050,7 +5050,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5103,7 +5103,7 @@
       }
     ],
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5117,7 +5117,7 @@
       Kind: Method,
       Name: System.IBinaryIntegerParseAndFormatInfo<System.Int32>.get_IsSigned,
       ParentId: T:System.Int32,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -5129,7 +5129,7 @@
     ],
     Name: System.IBinaryIntegerParseAndFormatInfo<System.Int32>.IsSigned,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -5143,7 +5143,7 @@
       Kind: Method,
       Name: System.IBinaryIntegerParseAndFormatInfo<System.Int32>.get_MaxDigitCount,
       ParentId: T:System.Int32,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -5155,7 +5155,7 @@
     ],
     Name: System.IBinaryIntegerParseAndFormatInfo<System.Int32>.MaxDigitCount,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -5169,7 +5169,7 @@
       Kind: Method,
       Name: System.IBinaryIntegerParseAndFormatInfo<System.Int32>.get_MaxHexDigitCount,
       ParentId: T:System.Int32,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -5181,7 +5181,7 @@
     ],
     Name: System.IBinaryIntegerParseAndFormatInfo<System.Int32>.MaxHexDigitCount,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -5195,7 +5195,7 @@
       Kind: Method,
       Name: System.IBinaryIntegerParseAndFormatInfo<System.Int32>.get_MaxValueDiv10,
       ParentId: T:System.Int32,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -5207,7 +5207,7 @@
     ],
     Name: System.IBinaryIntegerParseAndFormatInfo<System.Int32>.MaxValueDiv10,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -5221,7 +5221,7 @@
       Kind: Method,
       Name: System.IBinaryIntegerParseAndFormatInfo<System.Int32>.get_OverflowMessage,
       ParentId: T:System.Int32,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -5233,7 +5233,7 @@
     ],
     Name: System.IBinaryIntegerParseAndFormatInfo<System.Int32>.OverflowMessage,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -5247,7 +5247,7 @@
       Kind: Method,
       Name: System.Numerics.IAdditiveIdentity<System.Int32,System.Int32>.get_AdditiveIdentity,
       ParentId: T:System.Int32,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -5259,7 +5259,7 @@
     ],
     Name: System.Numerics.IAdditiveIdentity<System.Int32,System.Int32>.AdditiveIdentity,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -5273,7 +5273,7 @@
       Kind: Method,
       Name: System.Numerics.IBinaryNumber<System.Int32>.get_AllBitsSet,
       ParentId: T:System.Int32,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -5285,7 +5285,7 @@
     ],
     Name: System.Numerics.IBinaryNumber<System.Int32>.AllBitsSet,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -5299,7 +5299,7 @@
       Kind: Method,
       Name: System.Numerics.IMinMaxValue<System.Int32>.get_MaxValue,
       ParentId: T:System.Int32,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -5311,7 +5311,7 @@
     ],
     Name: System.Numerics.IMinMaxValue<System.Int32>.MaxValue,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -5325,7 +5325,7 @@
       Kind: Method,
       Name: System.Numerics.IMinMaxValue<System.Int32>.get_MinValue,
       ParentId: T:System.Int32,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -5337,7 +5337,7 @@
     ],
     Name: System.Numerics.IMinMaxValue<System.Int32>.MinValue,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -5351,7 +5351,7 @@
       Kind: Method,
       Name: System.Numerics.IMultiplicativeIdentity<System.Int32,System.Int32>.get_MultiplicativeIdentity,
       ParentId: T:System.Int32,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -5363,7 +5363,7 @@
     ],
     Name: System.Numerics.IMultiplicativeIdentity<System.Int32,System.Int32>.MultiplicativeIdentity,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -5377,7 +5377,7 @@
       Kind: Method,
       Name: System.Numerics.INumberBase<System.Int32>.get_One,
       ParentId: T:System.Int32,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -5389,7 +5389,7 @@
     ],
     Name: System.Numerics.INumberBase<System.Int32>.One,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -5403,7 +5403,7 @@
       Kind: Method,
       Name: System.Numerics.INumberBase<System.Int32>.get_Radix,
       ParentId: T:System.Int32,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -5415,7 +5415,7 @@
     ],
     Name: System.Numerics.INumberBase<System.Int32>.Radix,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -5429,7 +5429,7 @@
       Kind: Method,
       Name: System.Numerics.INumberBase<System.Int32>.get_Zero,
       ParentId: T:System.Int32,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -5441,7 +5441,7 @@
     ],
     Name: System.Numerics.INumberBase<System.Int32>.Zero,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -5455,7 +5455,7 @@
       Kind: Method,
       Name: System.Numerics.ISignedNumber<System.Int32>.get_NegativeOne,
       ParentId: T:System.Int32,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -5467,7 +5467,7 @@
     ],
     Name: System.Numerics.ISignedNumber<System.Int32>.NegativeOne,
     ParentId: T:System.Int32,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
