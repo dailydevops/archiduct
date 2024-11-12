@@ -1,7 +1,6 @@
 ﻿namespace NetEvolve.ArchiDuct.Tests.Integration._internals;
 
 using System;
-using System.Linq;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using VerifyXunit;
@@ -25,7 +24,8 @@ public abstract class TestCaseBase<TTypeProvider>(
         && ci.Equals("true", StringComparison.OrdinalIgnoreCase);
 
     protected bool IsOperationSystemUnsupported =>
-        _operationSystems is not null && !_operationSystems.All(RuntimeInformation.IsOSPlatform);
+        _operationSystems is not null
+        && !Array.TrueForAll(_operationSystems, RuntimeInformation.IsOSPlatform);
 
     [SkippableFact]
     public void Instance_AssemblyOne_Expected()

@@ -14,11 +14,13 @@ public class EventAccesors : INotifyPropertyChanged
 
     public event PropertyChangedEventHandler? PropertyChanged;
 
+#pragma warning disable RCS1159 // Use EventHandler<T>
     internal event PropertyChangedEventHandler OnChanged
     {
         add => PropertyChanged += value;
         remove => PropertyChanged -= value;
     }
+#pragma warning restore RCS1159 // Use EventHandler<T>
 
     public string? Event
     {
