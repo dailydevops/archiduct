@@ -4,12 +4,13 @@ using System;
 using System.Reflection;
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
-public class Decompiler_ExampleExtensionMethod_Tests(ExtensionExampleTypeProvider provider)
-    : TestCaseBase<ExtensionExampleTypeProvider>(provider) { }
+public class Decompiler_ExampleDeconstructMethod_Tests(DeconstructExampleTypeProvider provider)
+    : TestCaseBase<DeconstructExampleTypeProvider>(provider) { }
 
-public sealed class ExtensionExampleTypeProvider() : TypeProviderBase(typeof(ExtensionExample)) { }
+public sealed class DeconstructExampleTypeProvider()
+    : TypeProviderBase(typeof(DeconstructExample)) { }
 
-public static class ExtensionExample
+public static class DeconstructExample
 {
     public static void Deconstruct(
         this PropertyInfo p,
