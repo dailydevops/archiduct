@@ -9,7 +9,7 @@ Inspired by tools like [ArchUnitNET](https://github.com/TNG/ArchUnitNET) and [Ne
 <br />
 <br />
 
-> **"In the same way that aqueducts elegantly and reliably directed the flow of water across the Roman Empire, *ArchiDuct* ensures the flow of clean, well-structured code in your .NET projects."**
+> **In the same way that aqueducts elegantly and reliably directed the flow of water across the Roman Empire, *ArchiDuct* ensures the flow of clean, well-structured code in your .NET projects.**
 
 ## Table of Contents
 
