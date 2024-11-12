@@ -22,12 +22,12 @@ public sealed class ModelAssembly : ModelBase
     /// <summary>
     /// Enumerable of all members within this assembly.
     /// </summary>
-    public HashSet<ModelMemberBase> Members { get; internal set; } = [];
+    public HashSet<ModelMemberBase> Members { get; } = [];
 
     /// <summary>
     /// Enumerable of all namespaces within this assembly.
     /// </summary>
-    public HashSet<ModelNamespace> Namespaces { get; internal set; } = [];
+    public HashSet<ModelNamespace> Namespaces { get; } = [];
 
     /// <summary>
     /// Enumerable of all references within this assembly.
@@ -37,7 +37,7 @@ public sealed class ModelAssembly : ModelBase
     /// <summary>
     /// Enumerable of all types within this assembly.
     /// </summary>
-    public HashSet<ModelTypeBase> Types { get; internal set; } = [];
+    public HashSet<ModelTypeBase> Types { get; } = [];
 
     /// <summary>
     /// Version of the assembly.
