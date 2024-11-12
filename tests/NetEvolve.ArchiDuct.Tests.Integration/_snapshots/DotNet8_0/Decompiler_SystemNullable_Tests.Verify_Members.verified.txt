@@ -18,7 +18,7 @@
         ParentId: M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}),
         Type: {
           Id: T:System.Nullable`1[[``0]],
-          IsNullable: false
+          IsNullable: true
         }
       },
       {
@@ -29,12 +29,12 @@
         ParentId: M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0}),
         Type: {
           Id: T:System.Nullable`1[[``0]],
-          IsNullable: false
+          IsNullable: true
         }
       }
     ],
     ParentId: T:System.Nullable,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     },
@@ -67,7 +67,7 @@
         ParentId: M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}),
         Type: {
           Id: T:System.Nullable`1[[``0]],
-          IsNullable: false
+          IsNullable: true
         }
       },
       {
@@ -78,12 +78,12 @@
         ParentId: M:System.Nullable.Equals``1(System.Nullable{``0},System.Nullable{``0}),
         Type: {
           Id: T:System.Nullable`1[[``0]],
-          IsNullable: false
+          IsNullable: true
         }
       }
     ],
     ParentId: T:System.Nullable,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -121,7 +121,7 @@
       }
     ],
     ParentId: T:System.Nullable,
-    ReturnType: {
+    Type: {
       Id: T:System.Type,
       IsNullable: true
     }
@@ -156,9 +156,10 @@
       }
     ],
     ParentId: T:System.Nullable,
-    ReturnType: {
+    Type: {
       Id: T:``0&,
-      IsNullable: false
+      IsNullable: false,
+      IsRefReadonly: true
     },
     TypeParameters: [
       {

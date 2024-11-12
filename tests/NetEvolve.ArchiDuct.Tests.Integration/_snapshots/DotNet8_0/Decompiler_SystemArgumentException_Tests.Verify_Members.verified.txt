@@ -9,7 +9,7 @@
     ],
     Name: _paramName,
     ParentId: T:System.ArgumentException,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -299,7 +299,7 @@
       }
     ],
     ParentId: T:System.ArgumentException,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -312,7 +312,7 @@
     Kind: Method,
     Name: SetMessageField,
     ParentId: T:System.ArgumentException,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -353,7 +353,7 @@
       }
     ],
     ParentId: T:System.ArgumentException,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -394,7 +394,7 @@
       }
     ],
     ParentId: T:System.ArgumentException,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -442,7 +442,7 @@
       }
     ],
     ParentId: T:System.ArgumentException,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -490,7 +490,7 @@
       }
     ],
     ParentId: T:System.ArgumentException,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -506,7 +506,7 @@
       Kind: Method,
       Name: get_Message,
       ParentId: T:System.ArgumentException,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -518,7 +518,7 @@
     ],
     Name: Message,
     ParentId: T:System.ArgumentException,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -534,7 +534,7 @@
       Kind: Method,
       Name: get_ParamName,
       ParentId: T:System.ArgumentException,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: true
       }
@@ -546,7 +546,7 @@
     ],
     Name: ParamName,
     ParentId: T:System.ArgumentException,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: true
     }

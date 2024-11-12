@@ -6,7 +6,7 @@
     Kind: EnumMember,
     Name: Friday,
     ParentId: T:System.DayOfWeek,
-    ReturnType: {
+    Type: {
       Id: T:System.DayOfWeek,
       IsNullable: false
     },
@@ -19,7 +19,7 @@
     Kind: EnumMember,
     Name: Monday,
     ParentId: T:System.DayOfWeek,
-    ReturnType: {
+    Type: {
       Id: T:System.DayOfWeek,
       IsNullable: false
     },
@@ -32,7 +32,7 @@
     Kind: EnumMember,
     Name: Saturday,
     ParentId: T:System.DayOfWeek,
-    ReturnType: {
+    Type: {
       Id: T:System.DayOfWeek,
       IsNullable: false
     },
@@ -45,7 +45,7 @@
     Kind: EnumMember,
     Name: Sunday,
     ParentId: T:System.DayOfWeek,
-    ReturnType: {
+    Type: {
       Id: T:System.DayOfWeek,
       IsNullable: false
     },
@@ -58,7 +58,7 @@
     Kind: EnumMember,
     Name: Thursday,
     ParentId: T:System.DayOfWeek,
-    ReturnType: {
+    Type: {
       Id: T:System.DayOfWeek,
       IsNullable: false
     },
@@ -71,7 +71,7 @@
     Kind: EnumMember,
     Name: Tuesday,
     ParentId: T:System.DayOfWeek,
-    ReturnType: {
+    Type: {
       Id: T:System.DayOfWeek,
       IsNullable: false
     },
@@ -84,7 +84,7 @@
     Kind: EnumMember,
     Name: Wednesday,
     ParentId: T:System.DayOfWeek,
-    ReturnType: {
+    Type: {
       Id: T:System.DayOfWeek,
       IsNullable: false
     },

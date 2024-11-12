@@ -93,7 +93,7 @@
       }
     ],
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -124,7 +124,7 @@
       }
     ],
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -140,7 +140,7 @@
       Kind: Method,
       Name: get_FirstName,
       ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -149,10 +149,6 @@
     Kind: Property,
     Name: FirstName,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample,
-    ReturnType: {
-      Id: T:System.String,
-      IsNullable: false
-    },
     Setter: {
       Accessibility: Public,
       FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.set_FirstName(System.String),
@@ -161,10 +157,14 @@
       Kind: Method,
       Name: set_FirstName,
       ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
+    },
+    Type: {
+      Id: T:System.String,
+      IsNullable: false
     }
   },
   NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.LastName: {
@@ -178,7 +178,7 @@
       Kind: Method,
       Name: get_LastName,
       ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -187,10 +187,6 @@
     Kind: Property,
     Name: LastName,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample,
-    ReturnType: {
-      Id: T:System.String,
-      IsNullable: false
-    },
     Setter: {
       Accessibility: Public,
       FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.set_LastName(System.String),
@@ -199,10 +195,14 @@
       Kind: Method,
       Name: set_LastName,
       ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
+    },
+    Type: {
+      Id: T:System.String,
+      IsNullable: false
     }
   }
 }

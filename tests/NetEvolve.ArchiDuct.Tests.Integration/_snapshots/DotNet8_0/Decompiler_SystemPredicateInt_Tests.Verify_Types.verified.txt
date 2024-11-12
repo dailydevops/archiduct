@@ -81,8 +81,7 @@
     ParentId: N:System,
     Type: {
       Id: T:System.Boolean,
-      IsNullable: false,
-      IsRefReadonly: false
+      IsNullable: false
     },
     TypeParameters: [
       {

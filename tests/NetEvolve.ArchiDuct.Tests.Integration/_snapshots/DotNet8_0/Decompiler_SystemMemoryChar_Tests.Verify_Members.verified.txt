@@ -9,7 +9,7 @@
     ],
     Name: _index,
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -24,7 +24,7 @@
     ],
     Name: _length,
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -39,7 +39,7 @@
     ],
     Name: _object,
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Object,
       IsNullable: false
     }
@@ -391,7 +391,7 @@
       }
     ],
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -420,7 +420,7 @@
       }
     ],
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -466,7 +466,7 @@
       }
     ],
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -496,7 +496,7 @@
     ],
     Name: GetHashCode,
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -528,7 +528,7 @@
       }
     ],
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Memory`1[[`0]],
       IsNullable: false
     }
@@ -560,7 +560,7 @@
       }
     ],
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Memory`1[[`0]],
       IsNullable: false
     }
@@ -592,7 +592,7 @@
       }
     ],
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.ReadOnlyMemory`1[[`0]],
       IsNullable: false
     }
@@ -605,7 +605,7 @@
     Kind: Method,
     Name: Pin,
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Buffers.MemoryHandle,
       IsNullable: false
     }
@@ -653,7 +653,7 @@
       }
     ],
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Memory`1[[`0]],
       IsNullable: false
     }
@@ -690,7 +690,7 @@
       }
     ],
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Memory`1[[`0]],
       IsNullable: false
     }
@@ -703,7 +703,7 @@
     Kind: Method,
     Name: ToArray,
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:`0[],
       IsNullable: false
     }
@@ -719,7 +719,7 @@
     ],
     Name: ToString,
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -745,7 +745,7 @@
       }
     ],
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -761,7 +761,7 @@
       Kind: Method,
       Name: get_Empty,
       ParentId: T:System.Memory`1,
-      ReturnType: {
+      Type: {
         Id: T:System.Memory`1[[`0]],
         IsNullable: false
       }
@@ -773,7 +773,7 @@
     ],
     Name: Empty,
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Memory`1[[`0]],
       IsNullable: false
     }
@@ -789,7 +789,7 @@
       Kind: Method,
       Name: get_IsEmpty,
       ParentId: T:System.Memory`1,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -798,7 +798,7 @@
     Kind: Property,
     Name: IsEmpty,
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -814,7 +814,7 @@
       Kind: Method,
       Name: get_Length,
       ParentId: T:System.Memory`1,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -823,7 +823,7 @@
     Kind: Property,
     Name: Length,
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -839,7 +839,7 @@
       Kind: Method,
       Name: get_Span,
       ParentId: T:System.Memory`1,
-      ReturnType: {
+      Type: {
         Id: T:System.Span`1[[`0]],
         IsNullable: false
       }
@@ -848,7 +848,7 @@
     Kind: Property,
     Name: Span,
     ParentId: T:System.Memory`1,
-    ReturnType: {
+    Type: {
       Id: T:System.Span`1[[`0]],
       IsNullable: false
     }

@@ -6,7 +6,7 @@
     Kind: EnumMember,
     Name: None,
     ParentId: T:System.StringSplitOptions,
-    ReturnType: {
+    Type: {
       Id: T:System.StringSplitOptions,
       IsNullable: false
     },
@@ -19,7 +19,7 @@
     Kind: EnumMember,
     Name: RemoveEmptyEntries,
     ParentId: T:System.StringSplitOptions,
-    ReturnType: {
+    Type: {
       Id: T:System.StringSplitOptions,
       IsNullable: false
     },
@@ -32,7 +32,7 @@
     Kind: EnumMember,
     Name: TrimEntries,
     ParentId: T:System.StringSplitOptions,
-    ReturnType: {
+    Type: {
       Id: T:System.StringSplitOptions,
       IsNullable: false
     },

@@ -168,7 +168,7 @@
       Kind: Field,
       Name: _firstChar,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Char,
         IsNullable: false
       }
@@ -191,7 +191,7 @@
       ],
       Name: _stringLength,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -215,7 +215,7 @@
       ],
       Name: Empty,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -231,7 +231,7 @@
       ],
       Name: NewLineChars,
       ParentId: T:System.String.SearchValuesStorage,
-      ReturnType: {
+      Type: {
         Id: T:System.Buffers.SearchValues`1[[System.Char]],
         IsNullable: false
       }
@@ -783,7 +783,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -812,7 +812,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -825,7 +825,7 @@
       Kind: Method,
       Name: Clone,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Object,
         IsNullable: false
       }
@@ -931,7 +931,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -1026,7 +1026,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -1132,7 +1132,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -1227,7 +1227,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -1311,7 +1311,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -1384,7 +1384,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -1446,7 +1446,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -1519,7 +1519,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -1581,7 +1581,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -1632,7 +1632,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -1684,7 +1684,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -1761,7 +1761,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -1805,7 +1805,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -1900,7 +1900,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -1943,7 +1943,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -1972,7 +1972,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -2001,7 +2001,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -2045,7 +2045,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -2111,7 +2111,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -2166,7 +2166,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -2210,7 +2210,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -2257,7 +2257,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -2345,7 +2345,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -2422,7 +2422,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -2488,7 +2488,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -2543,7 +2543,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -2620,7 +2620,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -2686,7 +2686,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -2741,7 +2741,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -2788,7 +2788,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -2832,7 +2832,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       },
@@ -2883,7 +2883,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -2914,7 +2914,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -2956,7 +2956,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -2987,7 +2987,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -3030,7 +3030,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -3081,7 +3081,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -3143,7 +3143,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -3180,7 +3180,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -3227,7 +3227,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -3285,7 +3285,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -3340,7 +3340,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       },
@@ -3392,7 +3392,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -3424,7 +3424,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -3461,7 +3461,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -3502,7 +3502,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -3554,7 +3554,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -3591,7 +3591,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -3641,7 +3641,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -3702,7 +3702,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -3741,7 +3741,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -3803,7 +3803,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -3843,7 +3843,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -3882,7 +3882,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -3955,7 +3955,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -4017,7 +4017,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -4057,7 +4057,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -4088,7 +4088,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -4141,7 +4141,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -4183,7 +4183,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -4214,7 +4214,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -4227,7 +4227,7 @@
       Kind: Method,
       Name: EnumerateRunes,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Text.StringRuneEnumerator,
         IsNullable: false
       }
@@ -4262,7 +4262,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -4327,7 +4327,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -4381,7 +4381,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -4432,7 +4432,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -4472,7 +4472,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -4520,7 +4520,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -4560,7 +4560,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -4600,7 +4600,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -4638,7 +4638,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -4726,7 +4726,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -4803,7 +4803,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -4869,7 +4869,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -4938,7 +4938,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -5007,7 +5007,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -5073,7 +5073,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -5150,7 +5150,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -5216,7 +5216,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -5271,7 +5271,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -5329,7 +5329,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -5395,7 +5395,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       },
@@ -5481,7 +5481,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       },
@@ -5596,7 +5596,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       },
@@ -5707,7 +5707,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       },
@@ -5781,7 +5781,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -5832,7 +5832,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -5861,7 +5861,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Globalization.CompareOptions,
         IsNullable: false
       }
@@ -5890,7 +5890,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Globalization.CompareOptions,
         IsNullable: false
       }
@@ -5903,7 +5903,7 @@
       Kind: Method,
       Name: GetEnumerator,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.CharEnumerator,
         IsNullable: false
       }
@@ -5932,7 +5932,7 @@
         M:System.String.GetHashCode(System.ReadOnlySpan{System.Char},System.StringComparison)
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -5977,7 +5977,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6019,7 +6019,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6050,7 +6050,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6074,7 +6074,7 @@
         M:System.String.GetHashCodeOrdinalIgnoreCase(System.ReadOnlySpan{System.Char})
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6114,7 +6114,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6127,7 +6127,7 @@
       Kind: Method,
       Name: GetNonRandomizedHashCode,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6140,7 +6140,7 @@
       Kind: Method,
       Name: GetNonRandomizedHashCodeOrdinalIgnoreCase,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6171,9 +6171,10 @@
       ],
       Name: GetPinnableReference,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Char&,
-        IsNullable: false
+        IsNullable: false,
+        IsRefReadonly: true
       }
     },
     System.Private.CoreLib, Version=x.x.x.x, M:System.String.GetRawStringData: {
@@ -6184,7 +6185,7 @@
       Kind: Method,
       Name: GetRawStringData,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Char&,
         IsNullable: false
       }
@@ -6197,7 +6198,7 @@
       Kind: Method,
       Name: GetRawStringDataAsUInt16,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.UInt16&,
         IsNullable: false
       }
@@ -6210,7 +6211,7 @@
       Kind: Method,
       Name: GetTypeCode,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.TypeCode,
         IsNullable: false
       }
@@ -6269,7 +6270,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6317,7 +6318,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6365,7 +6366,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6402,7 +6403,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6472,7 +6473,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6531,7 +6532,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6590,7 +6591,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6638,7 +6639,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6686,7 +6687,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6723,7 +6724,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6775,7 +6776,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6816,7 +6817,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6846,7 +6847,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6872,7 +6873,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6926,7 +6927,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -6963,7 +6964,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -6990,7 +6991,7 @@
         M:System.String.Intern(System.String)
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -7022,7 +7023,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -7073,7 +7074,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -7110,7 +7111,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -7137,7 +7138,7 @@
         M:System.String.IsInterned(System.String)
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -7169,7 +7170,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: true
       }
@@ -7185,7 +7186,7 @@
         M:System.String.IsNormalized(System.Text.NormalizationForm)
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -7214,7 +7215,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -7243,7 +7244,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -7272,7 +7273,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -7325,7 +7326,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -7397,7 +7398,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -7450,7 +7451,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -7500,7 +7501,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -7553,7 +7554,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -7625,7 +7626,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -7678,7 +7679,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -7728,7 +7729,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       },
@@ -7787,7 +7788,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       },
@@ -7841,7 +7842,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -7886,7 +7887,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -7953,7 +7954,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -7998,7 +7999,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       },
@@ -8065,7 +8066,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8112,7 +8113,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8148,7 +8149,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8217,7 +8218,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8275,7 +8276,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8333,7 +8334,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8380,7 +8381,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8427,7 +8428,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8463,7 +8464,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8515,7 +8516,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8556,7 +8557,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8586,7 +8587,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8640,7 +8641,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -8697,7 +8698,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -8768,7 +8769,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -8844,7 +8845,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -8860,7 +8861,7 @@
         M:System.String.Normalize(System.Text.NormalizationForm)
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -8889,7 +8890,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -8928,7 +8929,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -8970,7 +8971,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.ReadOnlySpan`1[[System.Char]],
         IsNullable: false
       }
@@ -9009,7 +9010,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -9049,7 +9050,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9078,7 +9079,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9118,7 +9119,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9147,7 +9148,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9187,7 +9188,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9216,7 +9217,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9258,7 +9259,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9322,7 +9323,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9375,7 +9376,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9417,7 +9418,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9493,7 +9494,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9555,7 +9556,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9603,7 +9604,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9619,7 +9620,7 @@
         M:System.String.ReplaceLineEndings(System.String)
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9656,7 +9657,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9682,7 +9683,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9695,7 +9696,7 @@
       Kind: Method,
       Name: ReplaceLineEndingsWithLineFeed,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -9743,7 +9744,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -9803,7 +9804,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -9852,7 +9853,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -9911,7 +9912,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -9959,7 +9960,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -10007,7 +10008,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -10047,7 +10048,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -10107,7 +10108,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -10156,7 +10157,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -10215,7 +10216,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -10263,7 +10264,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -10315,7 +10316,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -10367,7 +10368,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -10430,7 +10431,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -10489,7 +10490,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -10559,7 +10560,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String[],
         IsNullable: false
       }
@@ -10590,7 +10591,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -10643,7 +10644,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -10693,7 +10694,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -10724,7 +10725,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -10754,7 +10755,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -10794,7 +10795,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -10823,7 +10824,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -10835,7 +10836,7 @@
       Kind: ExplicitMethod,
       Name: System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Collections.Generic.IEnumerator`1[[System.Char]],
         IsNullable: false
       }
@@ -10847,7 +10848,7 @@
       Kind: ExplicitMethod,
       Name: System.Collections.IEnumerable.GetEnumerator,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Collections.IEnumerator,
         IsNullable: false
       }
@@ -10872,7 +10873,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -10897,7 +10898,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Byte,
         IsNullable: false
       }
@@ -10922,7 +10923,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Char,
         IsNullable: false
       }
@@ -10947,7 +10948,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.DateTime,
         IsNullable: false
       }
@@ -10972,7 +10973,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Decimal,
         IsNullable: false
       }
@@ -10997,7 +10998,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Double,
         IsNullable: false
       }
@@ -11022,7 +11023,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int16,
         IsNullable: false
       }
@@ -11047,7 +11048,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -11072,7 +11073,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int64,
         IsNullable: false
       }
@@ -11097,7 +11098,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.SByte,
         IsNullable: false
       }
@@ -11122,7 +11123,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Single,
         IsNullable: false
       }
@@ -11158,7 +11159,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Object,
         IsNullable: false
       }
@@ -11183,7 +11184,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.UInt16,
         IsNullable: false
       }
@@ -11208,7 +11209,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.UInt32,
         IsNullable: false
       }
@@ -11233,7 +11234,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.UInt64,
         IsNullable: false
       }
@@ -11272,7 +11273,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11325,7 +11326,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -11364,7 +11365,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11417,7 +11418,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -11462,7 +11463,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -11478,7 +11479,7 @@
         M:System.String.ToCharArray(System.Int32,System.Int32)
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Char[],
         IsNullable: false
       }
@@ -11518,7 +11519,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Char[],
         IsNullable: false
       }
@@ -11534,7 +11535,7 @@
         M:System.String.ToLower(System.Globalization.CultureInfo)
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11563,7 +11564,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11576,7 +11577,7 @@
       Kind: Method,
       Name: ToLowerInvariant,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11595,7 +11596,7 @@
         M:System.String.ToString(System.IFormatProvider)
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11624,7 +11625,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11640,7 +11641,7 @@
         M:System.String.ToUpper(System.Globalization.CultureInfo)
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11669,7 +11670,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11682,7 +11683,7 @@
       Kind: Method,
       Name: ToUpperInvariant,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11699,7 +11700,7 @@
         M:System.String.Trim(System.Char[])
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11729,7 +11730,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11762,7 +11763,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11779,7 +11780,7 @@
         M:System.String.TrimEnd(System.Char[])
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11809,7 +11810,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11842,7 +11843,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11893,7 +11894,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11910,7 +11911,7 @@
         M:System.String.TrimStart(System.Char[])
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11940,7 +11941,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11973,7 +11974,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -11999,7 +12000,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: false
       }
@@ -12033,7 +12034,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -12092,7 +12093,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -12132,7 +12133,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -12162,7 +12163,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -12186,7 +12187,7 @@
         Kind: Method,
         Name: get_Chars,
         ParentId: T:System.String,
-        ReturnType: {
+        Type: {
           Id: T:System.Char,
           IsNullable: false
         }
@@ -12208,7 +12209,7 @@
         }
       ],
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Char,
         IsNullable: false
       }
@@ -12224,7 +12225,7 @@
         Kind: Method,
         Name: get_Length,
         ParentId: T:System.String,
-        ReturnType: {
+        Type: {
           Id: T:System.Int32,
           IsNullable: false
         }
@@ -12233,7 +12234,7 @@
       Kind: Property,
       Name: Length,
       ParentId: T:System.String,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }

@@ -83,7 +83,7 @@
       }
     ],
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest2,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }

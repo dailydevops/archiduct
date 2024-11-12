@@ -9,7 +9,7 @@
       Kind: Method,
       Name: add_OnChanged,
       ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -27,14 +27,10 @@
       Kind: Method,
       Name: remove_OnChanged,
       ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
-    },
-    ReturnType: {
-      Id: T:System.ComponentModel.PropertyChangedEventHandler,
-      IsNullable: false
     },
     Type: {
       Id: T:System.ComponentModel.PropertyChangedEventHandler,
@@ -51,7 +47,7 @@
       Kind: Method,
       Name: add_PropertyChanged,
       ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
@@ -69,14 +65,10 @@
       Kind: Method,
       Name: remove_PropertyChanged,
       ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
-    },
-    ReturnType: {
-      Id: T:System.ComponentModel.PropertyChangedEventHandler,
-      IsNullable: true
     },
     Type: {
       Id: T:System.ComponentModel.PropertyChangedEventHandler,
@@ -93,7 +85,7 @@
     ],
     Name: _event,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: true
     }
@@ -117,7 +109,7 @@
       Kind: Method,
       Name: get_Event,
       ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
-      ReturnType: {
+      Type: {
         Id: T:System.String,
         IsNullable: true
       }
@@ -126,10 +118,6 @@
     Kind: Property,
     Name: Event,
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
-    ReturnType: {
-      Id: T:System.String,
-      IsNullable: true
-    },
     Setter: {
       Accessibility: Public,
       FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors.set_Event(System.String),
@@ -138,10 +126,14 @@
       Kind: Method,
       Name: set_Event,
       ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.EventAccesors,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
+    },
+    Type: {
+      Id: T:System.String,
+      IsNullable: true
     }
   }
 }

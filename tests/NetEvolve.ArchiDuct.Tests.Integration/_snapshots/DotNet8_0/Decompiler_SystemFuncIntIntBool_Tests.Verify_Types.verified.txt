@@ -92,8 +92,7 @@
     ParentId: N:System,
     Type: {
       Id: T:System.Func`3.TResult,
-      IsNullable: false,
-      IsRefReadonly: false
+      IsNullable: false
     },
     TypeParameters: [
       {

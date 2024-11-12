@@ -84,7 +84,7 @@
       }
     ],
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -113,7 +113,7 @@
         ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample.Deconstruct``1(System.Nullable{``0},System.Boolean@,``0@),
         Type: {
           Id: T:System.Nullable`1[[``0]],
-          IsNullable: false
+          IsNullable: true
         }
       },
       {
@@ -146,7 +146,7 @@
       }
     ],
     ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExtensionExample,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     },

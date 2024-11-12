@@ -9,7 +9,7 @@
     ],
     Name: _value,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -122,7 +122,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -151,7 +151,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -180,7 +180,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -209,7 +209,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -249,7 +249,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -278,7 +278,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -307,7 +307,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -336,7 +336,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -365,7 +365,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -405,7 +405,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -445,7 +445,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -474,7 +474,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -503,7 +503,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -532,7 +532,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -561,7 +561,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -590,7 +590,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -619,7 +619,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -670,7 +670,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -699,7 +699,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -728,7 +728,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -768,7 +768,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -797,7 +797,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -826,7 +826,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -855,7 +855,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -892,7 +892,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     },
@@ -952,7 +952,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Double,
       IsNullable: false
     }
@@ -992,7 +992,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Double,
       IsNullable: false
     }
@@ -1032,7 +1032,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -1069,7 +1069,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     },
@@ -1115,7 +1115,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     },
@@ -1153,7 +1153,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -1182,7 +1182,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1222,7 +1222,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1251,7 +1251,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -1280,7 +1280,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -1309,7 +1309,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -1338,7 +1338,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -1367,7 +1367,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -1396,7 +1396,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -1425,7 +1425,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Byte,
       IsNullable: false
     }
@@ -1454,7 +1454,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -1483,7 +1483,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -1534,7 +1534,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -1558,7 +1558,7 @@
     ],
     Name: GetHashCode,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1598,7 +1598,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -1638,7 +1638,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -1667,7 +1667,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -1696,7 +1696,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1725,7 +1725,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1754,7 +1754,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1783,7 +1783,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1812,7 +1812,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1841,7 +1841,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1870,7 +1870,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1899,7 +1899,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1928,7 +1928,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1957,7 +1957,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -1986,7 +1986,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2015,7 +2015,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2044,7 +2044,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2073,7 +2073,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2102,7 +2102,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2153,7 +2153,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2196,7 +2196,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2228,7 +2228,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2257,7 +2257,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2286,7 +2286,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2315,7 +2315,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2344,7 +2344,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2373,7 +2373,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2413,7 +2413,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2453,7 +2453,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2493,7 +2493,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2533,7 +2533,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2573,7 +2573,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2613,7 +2613,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2653,7 +2653,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2693,7 +2693,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2722,7 +2722,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2751,7 +2751,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.ValueTuple`2[[System.Int32],[System.UInt32]],
       IsNullable: false
     }
@@ -2790,7 +2790,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2818,7 +2818,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Byte,
       IsNullable: false
     }
@@ -2846,7 +2846,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2885,7 +2885,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -2924,7 +2924,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -2981,7 +2981,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -3046,7 +3046,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -3103,7 +3103,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -3160,7 +3160,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -3217,7 +3217,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -3274,7 +3274,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:nint,
       IsNullable: false
     }
@@ -3339,7 +3339,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:nuint,
       IsNullable: false
     }
@@ -3396,7 +3396,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Byte,
       IsNullable: false
     }
@@ -3453,7 +3453,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Char,
       IsNullable: false
     }
@@ -3510,7 +3510,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Decimal,
       IsNullable: false
     }
@@ -3567,7 +3567,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Double,
       IsNullable: false
     }
@@ -3624,7 +3624,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int128,
       IsNullable: false
     }
@@ -3681,7 +3681,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int16,
       IsNullable: false
     }
@@ -3738,7 +3738,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -3795,7 +3795,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int64,
       IsNullable: false
     }
@@ -3860,7 +3860,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.SByte,
       IsNullable: false
     }
@@ -3917,7 +3917,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Single,
       IsNullable: false
     }
@@ -3982,7 +3982,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt128,
       IsNullable: false
     }
@@ -4047,7 +4047,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -4112,7 +4112,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt32,
       IsNullable: false
     }
@@ -4177,7 +4177,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt64,
       IsNullable: false
     }
@@ -4234,7 +4234,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -4291,7 +4291,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -4348,7 +4348,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -4405,7 +4405,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -4470,7 +4470,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -4535,7 +4535,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -4600,7 +4600,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -4639,7 +4639,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4678,7 +4678,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4709,7 +4709,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -4748,7 +4748,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -4776,7 +4776,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -4815,7 +4815,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4854,7 +4854,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4893,7 +4893,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -4932,7 +4932,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -4971,7 +4971,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5010,7 +5010,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5038,7 +5038,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5066,7 +5066,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5128,7 +5128,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5177,7 +5177,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5239,7 +5239,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5288,7 +5288,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5350,7 +5350,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5399,7 +5399,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5448,7 +5448,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5486,7 +5486,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5526,7 +5526,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5555,7 +5555,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5584,7 +5584,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5613,7 +5613,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5653,7 +5653,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5709,7 +5709,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5754,7 +5754,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5799,7 +5799,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5833,7 +5833,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5884,7 +5884,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -5924,7 +5924,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -5967,7 +5967,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt32,
       IsNullable: false
     }
@@ -6010,7 +6010,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt64,
       IsNullable: false
     }
@@ -6039,7 +6039,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -6068,7 +6068,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -6097,7 +6097,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.ValueTuple`2[[System.Half],[System.Half]],
       IsNullable: false
     }
@@ -6126,7 +6126,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.ValueTuple`2[[System.Half],[System.Half]],
       IsNullable: false
     }
@@ -6155,7 +6155,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -6184,7 +6184,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -6213,7 +6213,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -6242,7 +6242,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt32,
       IsNullable: false
     }
@@ -6270,7 +6270,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -6298,7 +6298,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt64,
       IsNullable: false
     }
@@ -6337,7 +6337,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -6376,7 +6376,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -6415,7 +6415,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -6443,7 +6443,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -6455,7 +6455,7 @@
     Kind: ExplicitMethod,
     Name: System.Numerics.IFloatingPoint<System.Half>.GetExponentByteCount,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -6467,7 +6467,7 @@
     Kind: ExplicitMethod,
     Name: System.Numerics.IFloatingPoint<System.Half>.GetExponentShortestBitLength,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -6479,7 +6479,7 @@
     Kind: ExplicitMethod,
     Name: System.Numerics.IFloatingPoint<System.Half>.GetSignificandBitLength,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -6491,7 +6491,7 @@
     Kind: ExplicitMethod,
     Name: System.Numerics.IFloatingPoint<System.Half>.GetSignificandByteCount,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -6530,7 +6530,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6569,7 +6569,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6608,7 +6608,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6647,7 +6647,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6675,7 +6675,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6703,7 +6703,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6731,7 +6731,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6759,7 +6759,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -6809,7 +6809,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -6868,7 +6868,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -6927,7 +6927,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -6986,7 +6986,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -7045,7 +7045,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -7104,7 +7104,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -7142,7 +7142,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -7171,7 +7171,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -7200,7 +7200,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -7221,7 +7221,7 @@
       M:System.Half.ToString(System.String,System.IFormatProvider)
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -7252,7 +7252,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -7294,7 +7294,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -7325,7 +7325,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.String,
       IsNullable: false
     }
@@ -7354,7 +7354,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -7397,7 +7397,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -7449,7 +7449,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     },
@@ -7525,7 +7525,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7592,7 +7592,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7667,7 +7667,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7720,7 +7720,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7784,7 +7784,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7859,7 +7859,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7912,7 +7912,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -7976,7 +7976,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -8051,7 +8051,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -8104,7 +8104,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -8168,7 +8168,7 @@
       }
     ],
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -8184,7 +8184,7 @@
       Kind: Method,
       Name: get_BiasedExponent,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Byte,
         IsNullable: false
       }
@@ -8193,7 +8193,7 @@
     Kind: Property,
     Name: BiasedExponent,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Byte,
       IsNullable: false
     }
@@ -8209,7 +8209,7 @@
       Kind: Method,
       Name: get_E,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Half,
         IsNullable: false
       }
@@ -8221,7 +8221,7 @@
     ],
     Name: E,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -8237,7 +8237,7 @@
       Kind: Method,
       Name: get_Epsilon,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Half,
         IsNullable: false
       }
@@ -8249,7 +8249,7 @@
     ],
     Name: Epsilon,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -8265,7 +8265,7 @@
       Kind: Method,
       Name: get_Exponent,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.SByte,
         IsNullable: false
       }
@@ -8274,7 +8274,7 @@
     Kind: Property,
     Name: Exponent,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.SByte,
       IsNullable: false
     }
@@ -8290,7 +8290,7 @@
       Kind: Method,
       Name: get_MaxValue,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Half,
         IsNullable: false
       }
@@ -8302,7 +8302,7 @@
     ],
     Name: MaxValue,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -8318,7 +8318,7 @@
       Kind: Method,
       Name: get_MinValue,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Half,
         IsNullable: false
       }
@@ -8330,7 +8330,7 @@
     ],
     Name: MinValue,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -8346,7 +8346,7 @@
       Kind: Method,
       Name: get_MultiplicativeIdentity,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Half,
         IsNullable: false
       }
@@ -8358,7 +8358,7 @@
     ],
     Name: MultiplicativeIdentity,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -8374,7 +8374,7 @@
       Kind: Method,
       Name: get_NaN,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Half,
         IsNullable: false
       }
@@ -8386,7 +8386,7 @@
     ],
     Name: NaN,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -8402,7 +8402,7 @@
       Kind: Method,
       Name: get_NegativeInfinity,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Half,
         IsNullable: false
       }
@@ -8414,7 +8414,7 @@
     ],
     Name: NegativeInfinity,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -8430,7 +8430,7 @@
       Kind: Method,
       Name: get_NegativeOne,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Half,
         IsNullable: false
       }
@@ -8442,7 +8442,7 @@
     ],
     Name: NegativeOne,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -8458,7 +8458,7 @@
       Kind: Method,
       Name: get_NegativeZero,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Half,
         IsNullable: false
       }
@@ -8470,7 +8470,7 @@
     ],
     Name: NegativeZero,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -8486,7 +8486,7 @@
       Kind: Method,
       Name: get_One,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Half,
         IsNullable: false
       }
@@ -8498,7 +8498,7 @@
     ],
     Name: One,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -8514,7 +8514,7 @@
       Kind: Method,
       Name: get_Pi,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Half,
         IsNullable: false
       }
@@ -8526,7 +8526,7 @@
     ],
     Name: Pi,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -8542,7 +8542,7 @@
       Kind: Method,
       Name: get_PositiveInfinity,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Half,
         IsNullable: false
       }
@@ -8554,7 +8554,7 @@
     ],
     Name: PositiveInfinity,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -8570,7 +8570,7 @@
       Kind: Method,
       Name: get_Significand,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.UInt16,
         IsNullable: false
       }
@@ -8579,7 +8579,7 @@
     Kind: Property,
     Name: Significand,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -8593,7 +8593,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_DenormalMantissaBits,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.UInt16,
         IsNullable: false
       }
@@ -8605,7 +8605,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.DenormalMantissaBits,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -8619,7 +8619,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_DenormalMantissaMask,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.UInt64,
         IsNullable: false
       }
@@ -8631,7 +8631,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.DenormalMantissaMask,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt64,
       IsNullable: false
     }
@@ -8645,7 +8645,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_ExponentBias,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8657,7 +8657,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.ExponentBias,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -8671,7 +8671,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_ExponentBits,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.UInt16,
         IsNullable: false
       }
@@ -8683,7 +8683,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.ExponentBits,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -8697,7 +8697,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_InfinityBits,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.UInt64,
         IsNullable: false
       }
@@ -8709,7 +8709,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.InfinityBits,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt64,
       IsNullable: false
     }
@@ -8723,7 +8723,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_InfinityExponent,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8735,7 +8735,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.InfinityExponent,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -8749,7 +8749,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_MaxBinaryExponent,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8761,7 +8761,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.MaxBinaryExponent,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -8775,7 +8775,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_MaxDecimalExponent,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8787,7 +8787,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.MaxDecimalExponent,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -8801,7 +8801,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_MaxExponentFastPath,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8813,7 +8813,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.MaxExponentFastPath,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -8827,7 +8827,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_MaxExponentRoundToEven,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8839,7 +8839,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.MaxExponentRoundToEven,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -8853,7 +8853,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_MaxFastFloatDecimalExponent,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8865,7 +8865,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.MaxFastFloatDecimalExponent,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -8879,7 +8879,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_MaxMantissaFastPath,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.UInt64,
         IsNullable: false
       }
@@ -8891,7 +8891,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.MaxMantissaFastPath,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt64,
       IsNullable: false
     }
@@ -8905,7 +8905,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_MinBinaryExponent,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8917,7 +8917,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.MinBinaryExponent,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -8931,7 +8931,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_MinDecimalExponent,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8943,7 +8943,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.MinDecimalExponent,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -8957,7 +8957,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_MinExponentRoundToEven,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8969,7 +8969,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.MinExponentRoundToEven,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -8983,7 +8983,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_MinFastFloatDecimalExponent,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -8995,7 +8995,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.MinFastFloatDecimalExponent,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -9009,7 +9009,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_NormalMantissaBits,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.UInt16,
         IsNullable: false
       }
@@ -9021,7 +9021,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.NormalMantissaBits,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -9035,7 +9035,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_NormalMantissaMask,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.UInt64,
         IsNullable: false
       }
@@ -9047,7 +9047,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.NormalMantissaMask,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt64,
       IsNullable: false
     }
@@ -9061,7 +9061,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_NumberBufferLength,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -9073,7 +9073,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.NumberBufferLength,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -9087,7 +9087,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_OverflowDecimalExponent,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -9099,7 +9099,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.OverflowDecimalExponent,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -9113,7 +9113,7 @@
       Kind: Method,
       Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.get_ZeroBits,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.UInt64,
         IsNullable: false
       }
@@ -9125,7 +9125,7 @@
     ],
     Name: System.IBinaryFloatParseAndFormatInfo<System.Half>.ZeroBits,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt64,
       IsNullable: false
     }
@@ -9139,7 +9139,7 @@
       Kind: Method,
       Name: System.Numerics.IAdditiveIdentity<System.Half,System.Half>.get_AdditiveIdentity,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Half,
         IsNullable: false
       }
@@ -9151,7 +9151,7 @@
     ],
     Name: System.Numerics.IAdditiveIdentity<System.Half,System.Half>.AdditiveIdentity,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -9165,7 +9165,7 @@
       Kind: Method,
       Name: System.Numerics.IBinaryNumber<System.Half>.get_AllBitsSet,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Half,
         IsNullable: false
       }
@@ -9177,7 +9177,7 @@
     ],
     Name: System.Numerics.IBinaryNumber<System.Half>.AllBitsSet,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -9191,7 +9191,7 @@
       Kind: Method,
       Name: System.Numerics.INumberBase<System.Half>.get_Radix,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Int32,
         IsNullable: false
       }
@@ -9203,7 +9203,7 @@
     ],
     Name: System.Numerics.INumberBase<System.Half>.Radix,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Int32,
       IsNullable: false
     }
@@ -9219,7 +9219,7 @@
       Kind: Method,
       Name: get_Tau,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Half,
         IsNullable: false
       }
@@ -9231,7 +9231,7 @@
     ],
     Name: Tau,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }
@@ -9247,7 +9247,7 @@
       Kind: Method,
       Name: get_TrailingSignificand,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.UInt16,
         IsNullable: false
       }
@@ -9256,7 +9256,7 @@
     Kind: Property,
     Name: TrailingSignificand,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.UInt16,
       IsNullable: false
     }
@@ -9272,7 +9272,7 @@
       Kind: Method,
       Name: get_Zero,
       ParentId: T:System.Half,
-      ReturnType: {
+      Type: {
         Id: T:System.Half,
         IsNullable: false
       }
@@ -9284,7 +9284,7 @@
     ],
     Name: Zero,
     ParentId: T:System.Half,
-    ReturnType: {
+    Type: {
       Id: T:System.Half,
       IsNullable: false
     }

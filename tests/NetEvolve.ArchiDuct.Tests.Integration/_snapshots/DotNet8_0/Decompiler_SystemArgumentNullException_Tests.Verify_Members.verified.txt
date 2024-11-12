@@ -200,7 +200,7 @@
       }
     ],
     ParentId: T:System.ArgumentNullException,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -245,7 +245,7 @@
       }
     ],
     ParentId: T:System.ArgumentNullException,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -290,7 +290,7 @@
       }
     ],
     ParentId: T:System.ArgumentNullException,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }
@@ -344,7 +344,7 @@
       }
     ],
     ParentId: T:System.ArgumentNullException,
-    ReturnType: {
+    Type: {
       Id: T:System.Void,
       IsNullable: false
     }

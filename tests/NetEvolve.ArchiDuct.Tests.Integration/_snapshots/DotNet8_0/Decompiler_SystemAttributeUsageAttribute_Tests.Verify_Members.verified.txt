@@ -6,7 +6,7 @@
     Kind: Field,
     Name: _allowMultiple,
     ParentId: T:System.AttributeUsageAttribute,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -21,7 +21,7 @@
     ],
     Name: _attributeTarget,
     ParentId: T:System.AttributeUsageAttribute,
-    ReturnType: {
+    Type: {
       Id: T:System.AttributeTargets,
       IsNullable: false
     }
@@ -33,7 +33,7 @@
     Kind: Field,
     Name: _inherited,
     ParentId: T:System.AttributeUsageAttribute,
-    ReturnType: {
+    Type: {
       Id: T:System.Boolean,
       IsNullable: false
     }
@@ -49,7 +49,7 @@
     ],
     Name: Default,
     ParentId: T:System.AttributeUsageAttribute,
-    ReturnType: {
+    Type: {
       Id: T:System.AttributeUsageAttribute,
       IsNullable: false
     }
@@ -146,7 +146,7 @@
       Kind: Method,
       Name: get_AllowMultiple,
       ParentId: T:System.AttributeUsageAttribute,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -155,10 +155,6 @@
     Kind: Property,
     Name: AllowMultiple,
     ParentId: T:System.AttributeUsageAttribute,
-    ReturnType: {
-      Id: T:System.Boolean,
-      IsNullable: false
-    },
     Setter: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.AttributeUsageAttribute.set_AllowMultiple(System.Boolean),
@@ -167,10 +163,14 @@
       Kind: Method,
       Name: set_AllowMultiple,
       ParentId: T:System.AttributeUsageAttribute,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
+    },
+    Type: {
+      Id: T:System.Boolean,
+      IsNullable: false
     }
   },
   System.Private.CoreLib, Version=x.x.x.x, P:System.AttributeUsageAttribute.Inherited: {
@@ -184,7 +184,7 @@
       Kind: Method,
       Name: get_Inherited,
       ParentId: T:System.AttributeUsageAttribute,
-      ReturnType: {
+      Type: {
         Id: T:System.Boolean,
         IsNullable: false
       }
@@ -193,10 +193,6 @@
     Kind: Property,
     Name: Inherited,
     ParentId: T:System.AttributeUsageAttribute,
-    ReturnType: {
-      Id: T:System.Boolean,
-      IsNullable: false
-    },
     Setter: {
       Accessibility: Public,
       FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.AttributeUsageAttribute.set_Inherited(System.Boolean),
@@ -205,10 +201,14 @@
       Kind: Method,
       Name: set_Inherited,
       ParentId: T:System.AttributeUsageAttribute,
-      ReturnType: {
+      Type: {
         Id: T:System.Void,
         IsNullable: false
       }
+    },
+    Type: {
+      Id: T:System.Boolean,
+      IsNullable: false
     }
   },
   System.Private.CoreLib, Version=x.x.x.x, P:System.AttributeUsageAttribute.ValidOn: {
@@ -222,7 +222,7 @@
       Kind: Method,
       Name: get_ValidOn,
       ParentId: T:System.AttributeUsageAttribute,
-      ReturnType: {
+      Type: {
         Id: T:System.AttributeTargets,
         IsNullable: false
       }
@@ -231,7 +231,7 @@
     Kind: Property,
     Name: ValidOn,
     ParentId: T:System.AttributeUsageAttribute,
-    ReturnType: {
+    Type: {
       Id: T:System.AttributeTargets,
       IsNullable: false
     }
