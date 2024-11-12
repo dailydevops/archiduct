@@ -1,11 +1,12 @@
 # NetEvolve.ArchiDuct
 
-<img src="logo.jpg" alt="NetEvolve.ArchiDuct" title="In the same way that aqueducts elegantly and reliably directed the flow of water across the Roman Empire, *ArchiDuct* ensures the flow of clean, well-structured code in your .NET projects." width="250" align="right" />
+<img src="logo.jpg" alt="NetEvolve.ArchiDuct" title="In the same way that aqueducts elegantly and reliably directed the flow of water across the Roman Empire, *ArchiDuct* ensures the flow of clean, well-structured code in your .NET projects." width="250" align="left" />
 
 ***ArchiDuct*** (short version for `NetEvolve.ArchiDuct`) is a powerful .NET library designed to help developers enforce architectural rules and maintain a clean, structured codebase. By integrating seamlessly with popular testing frameworks such as **xUnit**, **NUnit** *(planned)*, and **MSTest** *(planned)*, ***ArchiDuct*** ensures that your project architecture stays in line with defined rules throughout its lifecycle.
 
 Inspired by tools like [ArchUnitNET](https://github.com/TNG/ArchUnitNET) and [NetArchTest](https://github.com/BenMorris/NetArchTest), ***ArchiDuct*** takes the concept further by focusing on both flexibility and performance.
 
+<br />
 <br />
 
 > **"In the same way that aqueducts elegantly and reliably directed the flow of water across the Roman Empire, *ArchiDuct* ensures the flow of clean, well-structured code in your .NET projects."**
