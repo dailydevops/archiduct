@@ -5,6 +5,11 @@ using ICSharpCode.Decompiler.TypeSystem.Implementation;
 
 internal static class IMemberExtensions
 {
+    public static bool IsReturnTypeIsRefReadOnly(this IMember member) =>
+        (member is IMethod me && me.ReturnTypeIsRefReadOnly)
+        || (member is IProperty pe && pe.ReturnTypeIsRefReadOnly)
+        || (member is IField fe && fe.ReturnTypeIsRefReadOnly);
+
     public static bool IsUnsafe(this IMember member) =>
         IsUnsafe(member.ReturnType)
         || (member is IParameterizedMember method && method.Parameters.Any(p => IsUnsafe(p.Type)));
