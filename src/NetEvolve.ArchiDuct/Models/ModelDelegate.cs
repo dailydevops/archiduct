@@ -26,7 +26,7 @@ public sealed class ModelDelegate : ModelTypeBase
     /// <summary>
     /// Gets the return type.
     /// </summary>
-    public ModelReturn Type { get; } = default!;
+    public ModelType Type { get; } = default!;
 
     /// <inheritdoc />
     internal ModelDelegate(ITypeDefinition typeDefinition, ModelBase parent, XElement? doc)
@@ -36,7 +36,7 @@ public sealed class ModelDelegate : ModelTypeBase
         {
             Parameters = method.Parameters.Select(p => new ModelParameter(p, this)).ToHashSet();
 
-            Type = ModelFactory.GetReturnType(method, method.ReturnTypeIsRefReadOnly)!;
+            Type = ModelFactory.GetReturnType(method)!;
         }
     }
 }

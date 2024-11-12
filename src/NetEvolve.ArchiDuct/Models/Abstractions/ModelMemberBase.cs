@@ -26,14 +26,14 @@ public abstract class ModelMemberBase : ModelEntityBase
     /// <summary>
     /// Describes the return type of the member.
     /// </summary>
-    public ModelReturn? ReturnType { get; }
+    public ModelType? Type { get; }
 
     /// <inheritdoc />
     private protected ModelMemberBase(IMember member, ModelTypeBase parent, XElement? doc)
         : base(member.GetIdString(), member.Name, member.GetQualifiedName(), parent, doc)
     {
         Accessibility = MapAccessibility(member);
-        ReturnType = ModelFactory.GetReturnType(member);
+        Type = ModelFactory.GetReturnType(member);
     }
 
     private static ModelAccessibility MapAccessibility(IMember member)
