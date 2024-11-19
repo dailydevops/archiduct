@@ -266,24 +266,21 @@ internal static class ModelFactory
     internal static HashSet<ModelModifier> MapModifiers(IParameter parameter)
     {
         var modifiers = new HashSet<ModelModifier>();
-        if (parameter.IsIn)
+        if (parameter.ReferenceKind is ReferenceKind.In)
         {
             _ = modifiers.Add(ModelModifier.In);
         }
 
-        if (parameter.IsRef)
+        if (parameter.ReferenceKind is ReferenceKind.Ref or ReferenceKind.RefReadOnly)
         {
-            var requiresLocation = parameter
-                .GetAttributes()
-                .Any(x => x.AttributeType.Name == "RequiresLocationAttribute");
-            if (requiresLocation)
+            if (parameter.ReferenceKind is ReferenceKind.RefReadOnly)
             {
                 _ = modifiers.Add(ModelModifier.ReadOnly);
             }
             _ = modifiers.Add(ModelModifier.Ref);
         }
 
-        if (parameter.IsOut)
+        if (parameter.ReferenceKind is ReferenceKind.Out)
         {
             _ = modifiers.Add(ModelModifier.Out);
         }
