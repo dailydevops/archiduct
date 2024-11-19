@@ -4,8 +4,10 @@ using System;
 
 internal static class ArchiDuctArchitecture
 {
-    private static readonly Lazy<ArchUnitNET.Domain.Architecture> _instance =
-        new(LoadArchitecture, System.Threading.LazyThreadSafetyMode.PublicationOnly);
+    private static readonly Lazy<ArchUnitNET.Domain.Architecture> _instance = new(
+        LoadArchitecture,
+        System.Threading.LazyThreadSafetyMode.PublicationOnly
+    );
 
     public static ArchUnitNET.Domain.Architecture Instance => _instance.Value;
 
