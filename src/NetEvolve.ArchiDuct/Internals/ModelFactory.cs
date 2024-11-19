@@ -273,9 +273,6 @@ internal static class ModelFactory
 
         if (parameter.ReferenceKind is ReferenceKind.Ref or ReferenceKind.RefReadOnly)
         {
-            var requiresLocation = parameter
-                .GetAttributes()
-                .Any(x => x.AttributeType.Name == "RequiresLocationAttribute");
             if (parameter.ReferenceKind is ReferenceKind.RefReadOnly)
             {
                 _ = modifiers.Add(ModelModifier.ReadOnly);
