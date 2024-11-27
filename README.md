@@ -57,7 +57,8 @@ In the fast-paced world of modern software development, maintaining a well-defin
 - Naming conventions
 - Modular boundaries
 - Inheritance hierarchies
-- And man
+- Coupling and cohesion
+- And many more
 
 ### 2. **Integration with Popular Testing Frameworks**
 ***ArchiDuct*** is designed to integrate seamlessly with xUnit, NUnit *(planned)*, and MSTest *(planned)*. This means you can run your architectural tests alongside your unit and integration tests without any additional setup.
