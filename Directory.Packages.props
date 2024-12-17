@@ -20,7 +20,7 @@
     <PackageVersion Include="ICSharpCode.Decompiler" Version="9.0.0.7833-preview3" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
     <PackageVersion Include="NetEvolve.Arguments" Version="1.3.0" />
-    <PackageVersion Include="NetEvolve.Extensions.XUnit" Version="2.4.0" />
+    <PackageVersion Include="NetEvolve.Extensions.XUnit" Version="2.5.0" />
     <PackageVersion Include="NetEvolve.FluentValue" Version="0.3.0" />
     <PackageVersion Include="NetEvolve.Logging.XUnit" Version="1.1.14" />
     <PackageVersion Include="PublicApiGenerator" Version="11.2.0" />
