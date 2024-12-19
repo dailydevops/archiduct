@@ -25,7 +25,7 @@
     <PackageVersion Include="NetEvolve.Logging.XUnit" Version="1.1.14" />
     <PackageVersion Include="PublicApiGenerator" Version="11.3.0" />
     <PackageVersion Include="TngTech.ArchUnitNET.xUnit" Version="0.11.1" />
-    <PackageVersion Include="Verify.Xunit" Version="28.6.0" />
+    <PackageVersion Include="Verify.Xunit" Version="28.6.1" />
     <PackageVersion Include="xunit" Version="2.9.2" />
     <PackageVersion Include="xunit.runner.visualstudio" Version="3.0.0" />
     <PackageVersion Include="Xunit.SkippableFact" Version="1.5.23" />
