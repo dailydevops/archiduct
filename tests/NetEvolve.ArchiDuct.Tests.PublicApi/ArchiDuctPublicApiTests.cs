@@ -37,7 +37,7 @@ public class ArchiDuctPublicApiTests
 
         var publicApi = assembly.GeneratePublicApi(options);
 
-        return Verifier.Verify(publicApi);
+        return Verify(publicApi);
     }
 
     private static bool IsVisibleToIntelliSense(Type type)

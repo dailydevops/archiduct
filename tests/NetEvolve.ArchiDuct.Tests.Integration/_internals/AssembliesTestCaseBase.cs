@@ -15,7 +15,7 @@ public abstract class AssembliesTestCaseBase<TTestCase>(GenericTypeProvider<TTes
         Skip.If(IsCIExecution, "Disabled in CI for now.");
 
         var architecture = _provider.Architecture;
-        _ = await Verifier.Verify(architecture);
+        _ = await Verify(architecture);
     }
 
     [SkippableFact]
@@ -34,6 +34,6 @@ public abstract class AssembliesTestCaseBase<TTestCase>(GenericTypeProvider<TTes
                 assembly.Value.Members.Clear();
             }
         );
-        _ = await Verifier.Verify(architecture.Assemblies);
+        _ = await Verify(architecture.Assemblies);
     }
 }

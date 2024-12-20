@@ -69,7 +69,7 @@ public abstract class TestCaseBase<TTypeProvider>(
         var members = _provider.Architecture.Members;
         Skip.If(members.Count == 0, "Members are empty.");
 
-        _ = await Verifier.Verify(members);
+        _ = await Verify(members);
     }
 
     [SkippableFact]
@@ -80,6 +80,6 @@ public abstract class TestCaseBase<TTypeProvider>(
         var types = _provider.Architecture.Types;
         Skip.If(types.Count == 0, "Types are empty.");
 
-        _ = await Verifier.Verify(types);
+        _ = await Verify(types);
     }
 }
