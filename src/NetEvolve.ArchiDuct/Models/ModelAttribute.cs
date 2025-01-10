@@ -22,7 +22,5 @@ public sealed class ModelAttribute : ModelBase
 #pragma warning disable IDE0060, RCS1163 // Remove unused parameter
     internal ModelAttribute(IAttribute attribute, ITypeDefinition typeDefinition, XElement? doc)
 #pragma warning restore IDE0060, RCS1163 // Remove unused parameter
-        : base(typeDefinition.GetIdString(), typeDefinition.Name, typeDefinition.FullName, doc)
-    {
-    }
+        : base(typeDefinition.GetIdString(), typeDefinition.Name, typeDefinition.FullName, doc) { }
 }
