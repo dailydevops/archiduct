@@ -8,8 +8,6 @@ using NetEvolve.ArchiDuct.Models;
 /// </summary>
 public abstract class ModelBase
 {
-    // TODO: Add DisplayValue
-
     /// <summary>
     /// Gets the xml for the described object.
     /// </summary>
