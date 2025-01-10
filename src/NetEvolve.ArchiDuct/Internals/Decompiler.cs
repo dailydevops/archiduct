@@ -66,8 +66,6 @@ internal sealed partial class Decompiler
         MapTypeModels(modelAssembly, module, filters);
         SetReferences(modelAssembly);
 
-        // TODO: Add GitVersion informations
-
         return modelAssembly;
     }
 

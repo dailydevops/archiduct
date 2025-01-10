@@ -24,6 +24,5 @@ public sealed class ModelAttribute : ModelBase
 #pragma warning restore IDE0060, RCS1163 // Remove unused parameter
         : base(typeDefinition.GetIdString(), typeDefinition.Name, typeDefinition.FullName, doc)
     {
-        // TODO: Map constructor with values
     }
 }
