@@ -160,7 +160,7 @@ internal sealed partial class Decompiler
 
         if (!ModelFactory.TryGetDocumentation(member, _resolver, out var doc))
         {
-            //TODO: Include undocumented items?
+            //Include undocumented items?
         }
 
         if (
@@ -174,8 +174,8 @@ internal sealed partial class Decompiler
 
         var modelMember = ModelFactory.CreateModelMemberType(member, parent, doc, _resolver);
         MapModelMemberParameters(modelMember, member);
-        //TODO: Map TypeParameters for methods and indexers
-        //TODO: ReturnAttributes
+        //Map TypeParameters for methods and indexers
+        //ReturnAttributes
 
         _ = modelAssembly.Members.Add(modelMember);
         _ = parent.Members.Add(modelMember.Id);
@@ -211,7 +211,7 @@ internal sealed partial class Decompiler
 
         if (ModelFactory.TryGetDocumentation(typeDefinition, _resolver, out var doc))
         {
-            //TODO: Include undocumented items?
+            //Include undocumented items?
         }
 
         if (parent is null)
