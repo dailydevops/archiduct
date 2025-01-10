@@ -11,7 +11,7 @@ public abstract class AssembliesTestCaseBase<TTestCase>(GenericTypeProvider<TTes
     [SkippableFact]
     public async Task Verify_Architecture()
     {
-        // TODO: This is a workaround for the issue that CI pipeline, which is running on Linux, is failing the test.
+        // This is a workaround for the issue that CI pipeline, which is running on Linux, is failing the test.
         Skip.If(IsCIExecution, "Disabled in CI for now.");
 
         var architecture = _provider.Architecture;
@@ -21,7 +21,7 @@ public abstract class AssembliesTestCaseBase<TTestCase>(GenericTypeProvider<TTes
     [SkippableFact]
     public async Task Verify_Assemblies()
     {
-        // TODO: This is a workaround for the issue that CI pipeline, which is running on Linux, is failing the test.
+        // This is a workaround for the issue that CI pipeline, which is running on Linux, is failing the test.
         Skip.If(IsCIExecution, "Disabled in CI for now.");
 
         var architecture = _provider.Architecture;
