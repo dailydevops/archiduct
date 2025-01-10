@@ -277,3 +277,6 @@ dotnet_diagnostic.SA1504.severity                                       = none
 dotnet_diagnostic.SA1515.severity                                       = none
 dotnet_diagnostic.SA1516.severity                                       = none
 
+# Support for NetEvolve.Arguments Methods
+# https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1062#null-check-validation-methods
+dotnet_code_quality.CA1062.null_check_validation_methods                = M:NetEvolve.Arguments.Argument.ThrowIfNull(System.Object,System.String)|M:NetEvolve.Arguments.Argument.ThrowIfNull(System.Void*,System.String)|M:NetEvolve.Arguments.Argument.ThrowIfNullOrEmpty(System.String,System.String)|M:NetEvolve.Arguments.Argument.ThrowIfNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0},System.String)|M:NetEvolve.Arguments.Argument.ThrowIfNullOrWhiteSpace(System.String,System.String)
