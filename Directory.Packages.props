@@ -23,7 +23,7 @@
     <PackageVersion Include="NetEvolve.Extensions.XUnit" Version="2.5.0" />
     <PackageVersion Include="NetEvolve.FluentValue" Version="0.3.0" />
     <PackageVersion Include="NetEvolve.Logging.XUnit" Version="1.1.14" />
-    <PackageVersion Include="PublicApiGenerator" Version="11.3.0" />
+    <PackageVersion Include="PublicApiGenerator" Version="11.4.0" />
     <PackageVersion Include="TngTech.ArchUnitNET.xUnit" Version="0.11.2" />
     <PackageVersion Include="Verify.Xunit" Version="28.9.0" />
     <PackageVersion Include="xunit" Version="2.9.3" />
