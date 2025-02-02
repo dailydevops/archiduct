@@ -24,7 +24,7 @@ tab_width = unset
 trim_trailing_whitespace = false
 
 # Code files
-[*.{cs,csx,vb,vbx}]
+[*.{cs,csx,vb,vbx,razor.cs}]
 indent_size = 4
 insert_final_newline = true
 charset = utf-8-bom
@@ -34,6 +34,7 @@ charset = utf-8-bom
 # See https://github.com/dotnet/aspnetcore/pull/23502 and https://github.com/dotnet/aspnetcore/issues/22753
 [*.{razor,cshtml}]
 charset = utf-8-bom
+indent_size = 4
 
 # Generated code
 [*{_AssemblyInfo.cs,.notsupported.cs,.generated.cs}]
