@@ -19,7 +19,7 @@
     <PackageVersion Include="coverlet.msbuild" Version="6.0.4" />
     <PackageVersion Include="ICSharpCode.Decompiler" Version="9.0.0.7889" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
-    <PackageVersion Include="NetEvolve.Arguments" Version="1.3.0" />
+    <PackageVersion Include="NetEvolve.Arguments" Version="1.3.43" />
     <PackageVersion Include="NetEvolve.Extensions.XUnit" Version="2.5.63" />
     <PackageVersion Include="NetEvolve.FluentValue" Version="0.3.40" />
     <PackageVersion Include="NetEvolve.Logging.XUnit" Version="1.1.14" />
