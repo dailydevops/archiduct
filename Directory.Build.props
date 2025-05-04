@@ -1,5 +1,4 @@
 <Project>
-
   <PropertyGroup Label="Package settings">
     <Title>$(MSBuildProjectName)</Title>
     <Description>.NET Architecture Test Framework</Description>
@@ -9,12 +8,9 @@
     <PackageTags>test;architecture;archiduct</PackageTags>
     <CopyrightYearStart>2024</CopyrightYearStart>
   </PropertyGroup>
-
   <PropertyGroup>
     <NetEvolve_ProjectTargetFrameworks>net8.0</NetEvolve_ProjectTargetFrameworks>
     <NetEvolve_TestTargetFrameworks>net8.0</NetEvolve_TestTargetFrameworks>
-
     <NoWarn>$(NoWarn);NU5104</NoWarn>
   </PropertyGroup>
-
 </Project>

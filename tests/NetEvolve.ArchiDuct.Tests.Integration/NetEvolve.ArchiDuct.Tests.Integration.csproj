@@ -1,13 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFrameworks>$(NetEvolve_TestTargetFrameworks)</TargetFrameworks>
-
     <DisableBannedApiForConsole>true</DisableBannedApiForConsole>
-
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="coverlet.msbuild" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" />
@@ -24,13 +20,10 @@
     </PackageReference>
     <PackageReference Include="Xunit.SkippableFact" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\..\src\NetEvolve.ArchiDuct\NetEvolve.ArchiDuct.csproj" />
   </ItemGroup>
-
   <ItemGroup>
     <AssemblyAttribute Include="NetEvolve.Extensions.XUnit.IntegrationTestAttribute" />
   </ItemGroup>
-
 </Project>

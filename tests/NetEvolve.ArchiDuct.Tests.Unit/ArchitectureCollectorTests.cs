@@ -83,8 +83,8 @@ public class ArchitectureCollectorTests
         // Act
 
         // Assert
-        _ = Assert.Throws<DirectoryNotFoundException>(
-            () => collector.AddDirectory(@"c:\NonExistingDirectory")
+        _ = Assert.Throws<DirectoryNotFoundException>(() =>
+            collector.AddDirectory(@"c:\NonExistingDirectory")
         );
     }
 
