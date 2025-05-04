@@ -1,11 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFrameworks>$(NetEvolve_TestTargetFrameworks)</TargetFrameworks>
-
     <DisableBannedApiForConsole>true</DisableBannedApiForConsole>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="coverlet.msbuild" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" />
@@ -22,13 +19,10 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\..\src\NetEvolve.ArchiDuct\NetEvolve.ArchiDuct.csproj" />
   </ItemGroup>
-
   <ItemGroup>
     <AssemblyAttribute Include="NetEvolve.Extensions.XUnit.IntegrationTestAttribute" />
   </ItemGroup>
-
 </Project>
