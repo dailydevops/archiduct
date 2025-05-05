@@ -30,7 +30,7 @@ public sealed class ModelDelegate : ModelTypeBase
     {
         if (typeDefinition.GetDelegateInvokeMethod() is IMethod method)
         {
-            Parameters = method.Parameters.Select(p => new ModelParameter(p, this)).ToHashSet();
+            Parameters = [.. method.Parameters.Select(p => new ModelParameter(p, this))];
 
             Type = ModelFactory.GetReturnType(method)!;
         }

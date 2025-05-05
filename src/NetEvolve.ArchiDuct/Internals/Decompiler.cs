@@ -40,10 +40,12 @@ internal sealed partial class Decompiler
 
                 var model = DecompileModule(module, filters);
 
-                model.References = typeSystem
-                    .ReferencedModules.Where(module => module.AssemblyVersion != _zeroVersion)
-                    .Select(module => new ModelReference(module))
-                    .ToHashSet();
+                model.References =
+                [
+                    .. typeSystem
+                        .ReferencedModules.Where(module => module.AssemblyVersion != _zeroVersion)
+                        .Select(module => new ModelReference(module)),
+                ];
 
                 result.Add(model);
             }
@@ -111,16 +113,18 @@ internal sealed partial class Decompiler
         {
             if (member is IMethod genericMethod && genericMethod.TypeParameters.Any())
             {
-                modelWithParameters.TypeParameters = genericMethod
-                    .TypeParameters.Select(p => new ModelTypeParameter(p, modelWithParameters))
-                    .ToHashSet();
+                modelWithParameters.TypeParameters =
+                [
+                    .. genericMethod.TypeParameters.Select(p => new ModelTypeParameter(p, modelWithParameters)),
+                ];
             }
 
             if (member is IParameterizedMember parameterizedMember && parameterizedMember.Parameters.Any())
             {
-                modelWithParameters.Parameters = parameterizedMember
-                    .Parameters.Select(p => new ModelParameter(p, modelWithParameters))
-                    .ToHashSet();
+                modelWithParameters.Parameters =
+                [
+                    .. parameterizedMember.Parameters.Select(p => new ModelParameter(p, modelWithParameters)),
+                ];
             }
         }
         else if (
@@ -129,9 +133,7 @@ internal sealed partial class Decompiler
             && parameterized.Parameters.Any()
         )
         {
-            modelIndexer.Parameters = parameterized
-                .Parameters.Select(p => new ModelParameter(p, modelIndexer))
-                .ToHashSet();
+            modelIndexer.Parameters = [.. parameterized.Parameters.Select(p => new ModelParameter(p, modelIndexer))];
         }
     }
 
@@ -139,9 +141,7 @@ internal sealed partial class Decompiler
     {
         if (typeDefinition.TypeParameters.Any())
         {
-            model.TypeParameters = typeDefinition
-                .TypeParameters.Select(p => new ModelTypeParameter(p, model))
-                .ToHashSet();
+            model.TypeParameters = [.. typeDefinition.TypeParameters.Select(p => new ModelTypeParameter(p, model))];
         }
     }
 
