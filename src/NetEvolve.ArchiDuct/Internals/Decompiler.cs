@@ -22,10 +22,7 @@ internal sealed partial class Decompiler
         _resolver = new CSharpResolver(_decompiler.TypeSystem);
     }
 
-    public List<ModelAssembly> Decompile(
-        HashSet<SourceFilter> filters,
-        bool includeReferences = false
-    )
+    public List<ModelAssembly> Decompile(HashSet<SourceFilter> filters, bool includeReferences = false)
     {
         var typeSystem = _decompiler.TypeSystem;
 
@@ -119,10 +116,7 @@ internal sealed partial class Decompiler
                     .ToHashSet();
             }
 
-            if (
-                member is IParameterizedMember parameterizedMember
-                && parameterizedMember.Parameters.Any()
-            )
+            if (member is IParameterizedMember parameterizedMember && parameterizedMember.Parameters.Any())
             {
                 modelWithParameters.Parameters = parameterizedMember
                     .Parameters.Select(p => new ModelParameter(p, modelWithParameters))
@@ -163,11 +157,7 @@ internal sealed partial class Decompiler
             //Include undocumented items?
         }
 
-        if (
-            parent is ModelEnum
-            && member is IField enumField
-            && enumField.Name.Equals("value__", Ordinal)
-        )
+        if (parent is ModelEnum && member is IField enumField && enumField.Name.Equals("value__", Ordinal))
         {
             return;
         }
@@ -232,11 +222,7 @@ internal sealed partial class Decompiler
         }
     }
 
-    private void MapTypeModels(
-        ModelAssembly modelAssembly,
-        IModule module,
-        HashSet<SourceFilter> filters
-    )
+    private void MapTypeModels(ModelAssembly modelAssembly, IModule module, HashSet<SourceFilter> filters)
     {
         foreach (var typeDefinition in module.TopLevelTypeDefinitions)
         {
@@ -251,9 +237,7 @@ internal sealed partial class Decompiler
 
     private ModelNamespace GetOrAddNamespace(ModelAssembly modelAssembly, string fullNamespace)
     {
-        var @namespace = modelAssembly.Namespaces.FirstOrDefault(x =>
-            x.FullName.Equals(fullNamespace, Ordinal)
-        );
+        var @namespace = modelAssembly.Namespaces.FirstOrDefault(x => x.FullName.Equals(fullNamespace, Ordinal));
 
         if (@namespace is null)
         {
@@ -280,8 +264,7 @@ internal sealed partial class Decompiler
 
             type.DerivedTypes = modelAssembly
                 .Types.Where(x =>
-                    x.BaseTypes.Union(x.Implementations, StringComparer.Ordinal)
-                        .Any(t => t.Equals(type.Id, Ordinal))
+                    x.BaseTypes.Union(x.Implementations, StringComparer.Ordinal).Any(t => t.Equals(type.Id, Ordinal))
                 )
                 .Select(x => x.Id)
                 .ToHashSet(StringComparer.Ordinal);

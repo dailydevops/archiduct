@@ -19,8 +19,9 @@ internal static class IMemberExtensions
         type.Kind switch
         {
             TypeKind.Pointer or TypeKind.FunctionPointer => true,
-            TypeKind.ByReference or TypeKind.Array when type is TypeWithElementType elementType =>
-                IsUnsafe(elementType.ElementType),
+            TypeKind.ByReference or TypeKind.Array when type is TypeWithElementType elementType => IsUnsafe(
+                elementType.ElementType
+            ),
             _ => false,
         };
 #pragma warning restore IDE0072 // Add missing cases

@@ -4,9 +4,9 @@ using System.Xml.Linq;
 
 internal sealed class XNameEqualityComparer : IEqualityComparer<XName?>
 {
-    private static readonly Lazy<IEqualityComparer<XName?>> _instance = new Lazy<
-        IEqualityComparer<XName?>
-    >(() => new XNameEqualityComparer());
+    private static readonly Lazy<IEqualityComparer<XName?>> _instance = new Lazy<IEqualityComparer<XName?>>(() =>
+        new XNameEqualityComparer()
+    );
 
     public static IEqualityComparer<XName?> Instance => _instance.Value;
 

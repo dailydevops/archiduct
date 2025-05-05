@@ -5,9 +5,8 @@ using ICSharpCode.Decompiler.TypeSystem;
 
 internal static class ITypeDefinitionExtensions
 {
-    public static IEnumerable<ITypeDefinition> EnumerateBaseTypeDefinitions(
-        this ITypeDefinition typeDefinition
-    ) => typeDefinition.GetAllBaseTypeDefinitions().Reverse().Skip(1);
+    public static IEnumerable<ITypeDefinition> EnumerateBaseTypeDefinitions(this ITypeDefinition typeDefinition) =>
+        typeDefinition.GetAllBaseTypeDefinitions().Reverse().Skip(1);
 
     public static HashSet<string> GetAllBaseTypeIds(this ITypeDefinition typeDefinition)
     {
@@ -55,9 +54,7 @@ internal static class ITypeDefinitionExtensions
 
         if (typeDefinition.Kind == TypeKind.Interface)
         {
-            inheritedMemberIds = inheritedMemberIds.Where(x =>
-                !x.StartsWith("M:System.Object.", OrdinalIgnoreCase)
-            );
+            inheritedMemberIds = inheritedMemberIds.Where(x => !x.StartsWith("M:System.Object.", OrdinalIgnoreCase));
         }
 
         return inheritedMemberIds.ToHashSet(StringComparer.Ordinal);

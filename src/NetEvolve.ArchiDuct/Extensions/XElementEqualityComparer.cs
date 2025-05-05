@@ -4,9 +4,9 @@ using System.Xml.Linq;
 
 internal sealed class XElementEqualityComparer : IEqualityComparer<XElement?>
 {
-    private static readonly Lazy<IEqualityComparer<XElement?>> _instance = new Lazy<
-        IEqualityComparer<XElement?>
-    >(() => new XElementEqualityComparer());
+    private static readonly Lazy<IEqualityComparer<XElement?>> _instance = new Lazy<IEqualityComparer<XElement?>>(() =>
+        new XElementEqualityComparer()
+    );
 
     public static IEqualityComparer<XElement?> Instance => _instance.Value;
 
@@ -31,9 +31,7 @@ internal sealed class XElementEqualityComparer : IEqualityComparer<XElement?>
         return sortedX is not null
             && sortedY is not null
             && sortedX.Name == sortedY.Name
-            && sortedX
-                .Attributes()
-                .SequenceEqual(sortedY.Attributes(), XAttributeEqualityComparer.Instance)
+            && sortedX.Attributes().SequenceEqual(sortedY.Attributes(), XAttributeEqualityComparer.Instance)
             && sortedX.Elements().SequenceEqual(sortedY.Elements(), this);
     }
 

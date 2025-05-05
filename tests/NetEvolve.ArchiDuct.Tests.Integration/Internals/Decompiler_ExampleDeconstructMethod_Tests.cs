@@ -7,8 +7,7 @@ using NetEvolve.ArchiDuct.Tests.Integration._internals;
 public class Decompiler_ExampleDeconstructMethod_Tests(DeconstructExampleTypeProvider provider)
     : TestCaseBase<DeconstructExampleTypeProvider>(provider) { }
 
-public sealed class DeconstructExampleTypeProvider()
-    : TypeProviderBase(typeof(DeconstructExample)) { }
+public sealed class DeconstructExampleTypeProvider() : TypeProviderBase(typeof(DeconstructExample)) { }
 
 public static class DeconstructExample
 {

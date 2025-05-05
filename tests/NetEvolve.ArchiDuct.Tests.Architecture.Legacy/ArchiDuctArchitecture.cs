@@ -12,7 +12,5 @@ internal static class ArchiDuctArchitecture
     public static ArchUnitNET.Domain.Architecture Instance => _instance.Value;
 
     private static ArchUnitNET.Domain.Architecture LoadArchitecture() =>
-        new ArchUnitNET.Loader.ArchLoader()
-            .LoadAssemblies(typeof(ArchitectureCollector).Assembly)
-            .Build();
+        new ArchUnitNET.Loader.ArchLoader().LoadAssemblies(typeof(ArchitectureCollector).Assembly).Build();
 }

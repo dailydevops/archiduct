@@ -10,6 +10,5 @@ internal static class ArchitectureExtensions
         Func<TSource, TKey> keySelector,
         IEqualityComparer<TKey>? comparer
     )
-        where TKey : notnull =>
-        source.DistinctBy(keySelector).ToFrozenDictionary(keySelector, comparer);
+        where TKey : notnull => source.DistinctBy(keySelector).ToFrozenDictionary(keySelector, comparer);
 }

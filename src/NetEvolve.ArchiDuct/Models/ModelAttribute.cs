@@ -9,11 +9,7 @@ using NetEvolve.ArchiDuct.Models.Abstractions;
 /// <summary>
 /// Represents an attribute.
 /// </summary>
-[SuppressMessage(
-    "Naming",
-    "CA1711:Identifiers should not have incorrect suffix",
-    Justification = "As designed."
-)]
+[SuppressMessage("Naming", "CA1711:Identifiers should not have incorrect suffix", Justification = "As designed.")]
 public sealed class ModelAttribute : ModelBase
 {
     /// <inheritdoc/>

@@ -6,8 +6,7 @@ using NetEvolve.ArchiDuct.Tests.Integration._internals;
 public class Decompiler_ExampleReadOnlyRef_Tests(ConversionRequestTypeProvider provider)
     : TestCaseBase<ConversionRequestTypeProvider>(provider) { }
 
-public sealed class ConversionRequestTypeProvider()
-    : TypeProviderBase(typeof(ConversionRequest)) { }
+public sealed class ConversionRequestTypeProvider() : TypeProviderBase(typeof(ConversionRequest)) { }
 
 public readonly ref struct ConversionRequest
 {

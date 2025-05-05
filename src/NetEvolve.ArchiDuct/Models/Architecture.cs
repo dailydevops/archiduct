@@ -22,16 +22,10 @@ internal sealed class Architecture : IArchitecture
     {
         Assemblies = modelAssemblies.ToDictionaryInternal(x => x.FullName, Ordinal);
 
-        Members = modelAssemblies
-            .SelectMany(x => x.Members)
-            .ToDictionaryInternal(x => x.FullName, Ordinal);
+        Members = modelAssemblies.SelectMany(x => x.Members).ToDictionaryInternal(x => x.FullName, Ordinal);
 
-        Namespaces = modelAssemblies
-            .SelectMany(x => x.Namespaces)
-            .ToDictionaryInternal(x => x.FullName, Ordinal);
+        Namespaces = modelAssemblies.SelectMany(x => x.Namespaces).ToDictionaryInternal(x => x.FullName, Ordinal);
 
-        Types = modelAssemblies
-            .SelectMany(x => x.Types)
-            .ToDictionaryInternal(x => x.FullName, Ordinal);
+        Types = modelAssemblies.SelectMany(x => x.Types).ToDictionaryInternal(x => x.FullName, Ordinal);
     }
 }

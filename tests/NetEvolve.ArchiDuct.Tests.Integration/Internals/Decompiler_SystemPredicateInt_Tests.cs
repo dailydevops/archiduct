@@ -2,6 +2,5 @@
 
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
-public class Decompiler_SystemPredicateInt_Tests(
-    GenericTypeProvider<System.Predicate<int>> provider
-) : TypesTestCaseGenericBase<System.Predicate<int>>(provider, disableMembersCheck: true) { }
+public class Decompiler_SystemPredicateInt_Tests(GenericTypeProvider<System.Predicate<int>> provider)
+    : TypesTestCaseGenericBase<System.Predicate<int>>(provider, disableMembersCheck: true) { }
