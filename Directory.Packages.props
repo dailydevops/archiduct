@@ -14,7 +14,7 @@
     <GlobalPackageReference Include="Roslynator.Analyzers" Version="4.13.1" />
     <GlobalPackageReference
       Include="SonarAnalyzer.CSharp"
-      Version="10.6.0.109712"
+      Version="10.9.0.115408"
       Condition=" '$(BuildingInsideVisualStudio)' == 'true' "
     />
   </ItemGroup>
