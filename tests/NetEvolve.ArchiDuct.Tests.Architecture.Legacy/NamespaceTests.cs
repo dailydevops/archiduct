@@ -7,9 +7,7 @@ using static ArchUnitNET.Fluent.ArchRuleDefinition;
 
 public class NamespaceTests
 {
-    private readonly IObjectProvider<IType> _types = Types()
-        .That()
-        .ResideInNamespace("NetEvolve.ArchiDuct");
+    private readonly IObjectProvider<IType> _types = Types().That().ResideInNamespace("NetEvolve.ArchiDuct");
 
     [Fact]
     public void Types_should_be_public()

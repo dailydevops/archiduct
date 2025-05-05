@@ -2,6 +2,5 @@
 
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
-public class Decompiler_SystemFuncIntIntBool_Tests(
-    GenericTypeProvider<System.Func<int, int, bool>> provider
-) : TypesTestCaseGenericBase<System.Func<int, int, bool>>(provider, disableMembersCheck: true) { }
+public class Decompiler_SystemFuncIntIntBool_Tests(GenericTypeProvider<System.Func<int, int, bool>> provider)
+    : TypesTestCaseGenericBase<System.Func<int, int, bool>>(provider, disableMembersCheck: true) { }

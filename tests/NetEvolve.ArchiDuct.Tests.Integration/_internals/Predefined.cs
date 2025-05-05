@@ -17,11 +17,7 @@ internal static class Predefined
         Verifier.DerivePathInfo(
             (sourceFile, projectDirectory, type, method) =>
             {
-                var directory = Path.Combine(
-                    projectDirectory,
-                    "_snapshots",
-                    Namer.TargetFrameworkNameAndVersion
-                );
+                var directory = Path.Combine(projectDirectory, "_snapshots", Namer.TargetFrameworkNameAndVersion);
                 _ = Directory.CreateDirectory(directory);
                 return new(directory, type.Name, method.Name);
             }
@@ -58,11 +54,7 @@ internal static class Predefined
         do
         {
             var value = builder.ToString();
-            var versionIndex = value.IndexOf(
-                version,
-                startIndex,
-                StringComparison.OrdinalIgnoreCase
-            );
+            var versionIndex = value.IndexOf(version, startIndex, StringComparison.OrdinalIgnoreCase);
             if (versionIndex == -1)
             {
                 return;
@@ -73,9 +65,7 @@ internal static class Predefined
             {
                 return;
             }
-            _ = builder
-                .Remove(versionIndex, endIndex - versionIndex)
-                .Insert(versionIndex, $"{version}x.x.x.x");
+            _ = builder.Remove(versionIndex, endIndex - versionIndex).Insert(versionIndex, $"{version}x.x.x.x");
             startIndex = versionIndex + version.Length;
         } while (startIndex < builder.Length);
     }

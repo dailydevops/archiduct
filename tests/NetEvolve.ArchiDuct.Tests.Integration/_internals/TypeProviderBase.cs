@@ -12,9 +12,5 @@ public abstract class TypeProviderBase(Type type) : IAsyncLifetime
     public Task DisposeAsync() => Task.CompletedTask;
 
     public async Task InitializeAsync() =>
-        Architecture = await ArchitectureCollector
-            .Create()
-            .FilterType(type)
-            .CollectAsync()
-            .ConfigureAwait(false);
+        Architecture = await ArchitectureCollector.Create().FilterType(type).CollectAsync().ConfigureAwait(false);
 }

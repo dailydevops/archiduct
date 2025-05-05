@@ -25,10 +25,7 @@ public sealed class ArchitectureCollector : IArchitectureCollector
     public static IArchitectureCollector Create() => new ArchitectureCollector();
 
     /// <inheritdoc cref="IArchitectureCollector.AddAssembly(Assembly, bool)" />
-    public IArchitectureCollector AddAssembly(
-        [NotNull] Assembly assembly,
-        bool includeReferences = false
-    )
+    public IArchitectureCollector AddAssembly([NotNull] Assembly assembly, bool includeReferences = false)
     {
         Argument.ThrowIfNull(assembly);
 
@@ -36,9 +33,7 @@ public sealed class ArchitectureCollector : IArchitectureCollector
 
         if (!_registeredSources.Add(source))
         {
-            throw new InvalidOperationException(
-                $"The assembly '{assembly.FullName}' has already been registered."
-            );
+            throw new InvalidOperationException($"The assembly '{assembly.FullName}' has already been registered.");
         }
 
         return this;
@@ -57,9 +52,7 @@ public sealed class ArchitectureCollector : IArchitectureCollector
 
         if (!directory.Exists)
         {
-            throw new DirectoryNotFoundException(
-                $"The directory '{directory.FullName}' does not exist."
-            );
+            throw new DirectoryNotFoundException($"The directory '{directory.FullName}' does not exist.");
         }
 
         var options = new EnumerationOptions
@@ -126,18 +119,13 @@ public sealed class ArchitectureCollector : IArchitectureCollector
 
             if (!_registeredSources.Add(source))
             {
-                throw new InvalidOperationException(
-                    $"The assembly '{assembly.FullName}' has already been registered."
-                );
+                throw new InvalidOperationException($"The assembly '{assembly.FullName}' has already been registered.");
             }
         }
 
         if (
             !source.Filters.Add(
-                new SourceFilter(
-                    td => td.ReflectionName,
-                    Value.Not.Null.And.EqualTo(typeFullName, Ordinal)
-                )
+                new SourceFilter(td => td.ReflectionName, Value.Not.Null.And.EqualTo(typeFullName, Ordinal))
             )
         )
         {
@@ -172,10 +160,7 @@ public sealed class ArchitectureCollector : IArchitectureCollector
         }
 
         var results = new List<ModelAssembly>();
-        var decompilerSettings = new DecompilerSettings(LanguageVersion.Latest)
-        {
-            ThrowOnAssemblyResolveErrors = true,
-        };
+        var decompilerSettings = new DecompilerSettings(LanguageVersion.Latest) { ThrowOnAssemblyResolveErrors = true };
 
         _ = Parallel.ForEach(
             _registeredSources,
@@ -194,9 +179,7 @@ public sealed class ArchitectureCollector : IArchitectureCollector
     }
 
     /// <inheritdoc cref="IArchitectureCollector.CollectAsync(CancellationToken)" />
-    public async ValueTask<IArchitecture> CollectAsync(
-        CancellationToken cancellationToken = default
-    )
+    public async ValueTask<IArchitecture> CollectAsync(CancellationToken cancellationToken = default)
     {
         if (_registeredSources.Count == 0)
         {
@@ -204,10 +187,7 @@ public sealed class ArchitectureCollector : IArchitectureCollector
         }
 
         var results = new List<ModelAssembly>();
-        var decompilerSettings = new DecompilerSettings(LanguageVersion.Latest)
-        {
-            ThrowOnAssemblyResolveErrors = true,
-        };
+        var decompilerSettings = new DecompilerSettings(LanguageVersion.Latest) { ThrowOnAssemblyResolveErrors = true };
 
         await Parallel
             .ForEachAsync(
@@ -235,10 +215,7 @@ public sealed class ArchitectureCollector : IArchitectureCollector
         return new Architecture(results);
     }
 
-    private static List<ModelAssembly> CollectAssembly(
-        SourceAssembly source,
-        DecompilerSettings decompilerSettings
-    )
+    private static List<ModelAssembly> CollectAssembly(SourceAssembly source, DecompilerSettings decompilerSettings)
     {
         var assembly = source.Assembly;
 

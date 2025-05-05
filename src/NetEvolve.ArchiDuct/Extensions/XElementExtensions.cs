@@ -12,15 +12,13 @@ internal static class XElementExtensions
         node switch
         {
             null => string.Empty,
-            XElement element when element.Name.LocalName.Equals(Para, OrdinalIgnoreCase) =>
-                element.Value,
+            XElement element when element.Name.LocalName.Equals(Para, OrdinalIgnoreCase) => element.Value,
             XCData cData => cData.Value,
             XText text => text.Value,
             _ => node.ToString(),
         };
 
-    public static string? GetCRefAttribute(this XElement? element) =>
-        element?.Attribute(CRef)?.Value;
+    public static string? GetCRefAttribute(this XElement? element) => element?.Attribute(CRef)?.Value;
 
     public static string? GetElementValue(
         this XElement? element,
@@ -51,29 +49,19 @@ internal static class XElementExtensions
         return string.IsNullOrEmpty(result) ? null : result;
     }
 
-    public static string? GetHRefAttribute(this XElement? element) =>
-        element?.Attribute(HRef)?.Value;
+    public static string? GetHRefAttribute(this XElement? element) => element?.Attribute(HRef)?.Value;
 
-    public static string? GetLangwordAttribute(this XElement? element) =>
-        element?.Attribute(Langword)?.Value;
+    public static string? GetLangwordAttribute(this XElement? element) => element?.Attribute(Langword)?.Value;
 
-    public static string? GetNameAttribute(this XElement? element) =>
-        element?.Attribute(Name)?.Value;
+    public static string? GetNameAttribute(this XElement? element) => element?.Attribute(Name)?.Value;
 
-    public static bool HasInheritDoc(
-        this XElement? element,
-        [NotNullWhen(true)] out XElement? inheritDoc
-    )
+    public static bool HasInheritDoc(this XElement? element, [NotNullWhen(true)] out XElement? inheritDoc)
     {
         inheritDoc = element?.Element(InheritDoc);
         return inheritDoc is not null;
     }
 
-    public static XElement? Merge(
-        this XElement? left,
-        XElement? right,
-        params string[] ignoredElements
-    )
+    public static XElement? Merge(this XElement? left, XElement? right, params string[] ignoredElements)
     {
         if (left is null)
         {
@@ -89,10 +77,7 @@ internal static class XElementExtensions
         foreach (var rightElement in rightElements)
         {
             var leftElements = left.Elements().ToArray();
-            var leftElement = Array.Find(
-                leftElements,
-                x => XElementEqualityComparer.Instance.Equals(x, rightElement)
-            );
+            var leftElement = Array.Find(leftElements, x => XElementEqualityComparer.Instance.Equals(x, rightElement));
 
             if (leftElement is null)
             {
@@ -107,9 +92,7 @@ internal static class XElementExtensions
                 || ignoredElements.Length == 0
                 || !Array.Exists(
                     ignoredElements,
-                    x =>
-                        rightElement?.Name is not null
-                        && rightElement.Name.ToString().Equals(x, OrdinalIgnoreCase)
+                    x => rightElement?.Name is not null && rightElement.Name.ToString().Equals(x, OrdinalIgnoreCase)
                 )
             )
             {
@@ -156,11 +139,7 @@ internal static class XElementExtensions
 
         if (element.HasAttributes)
         {
-            foreach (
-                var attrib in element
-                    .Attributes()
-                    .OrderBy(y => y.ToString(), StringComparer.Ordinal)
-            )
+            foreach (var attrib in element.Attributes().OrderBy(y => y.ToString(), StringComparer.Ordinal))
             {
                 newElement.SetAttributeValue(attrib.Name, attrib.Value);
             }

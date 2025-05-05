@@ -44,8 +44,7 @@ public sealed class ModelDocumentation
         Returns = returns;
     }
 
-    internal static ModelDocumentation? Default(XElement? doc) =>
-        doc is not null ? new ModelDocumentation(doc) : null;
+    internal static ModelDocumentation? Default(XElement? doc) => doc is not null ? new ModelDocumentation(doc) : null;
 
     internal static ModelDocumentation? LoadParameter(ModelDocumentation? parent, string name)
     {
@@ -58,11 +57,7 @@ public sealed class ModelDocumentation
             parent._documentation,
             GetElements(parent._documentation, DocumentationXmlPropertyConstants.Param)
                 ?.FirstOrDefault(p =>
-                    string.Equals(
-                        p.Attribute(DocumentationXmlAttributeConstants.Name)?.Value,
-                        name,
-                        Ordinal
-                    )
+                    string.Equals(p.Attribute(DocumentationXmlAttributeConstants.Name)?.Value, name, Ordinal)
                 )
                 .GetElementValue()
         );
@@ -81,11 +76,7 @@ public sealed class ModelDocumentation
             parent._documentation,
             GetElements(parent._documentation, DocumentationXmlPropertyConstants.TypeParam)
                 ?.FirstOrDefault(p =>
-                    string.Equals(
-                        p.Attribute(DocumentationXmlAttributeConstants.Name)?.Value,
-                        name,
-                        Ordinal
-                    )
+                    string.Equals(p.Attribute(DocumentationXmlAttributeConstants.Name)?.Value, name, Ordinal)
                 )
                 .GetElementValue()
         );
@@ -100,9 +91,7 @@ public sealed class ModelDocumentation
     /// <param name="elementName">Property name within the parent xml.</param>
     /// <returns>Returns the full parent for <paramref name="elementName"/> as xml.</returns>
     private static IEnumerable<XElement>? GetElements(XElement? doc, string? elementName) =>
-        string.IsNullOrWhiteSpace(elementName)
-            ? doc?.Elements()
-            : doc?.Elements(elementName.Trim());
+        string.IsNullOrWhiteSpace(elementName) ? doc?.Elements() : doc?.Elements(elementName.Trim());
 
     /// <summary>
     /// Determines the parent content for the parameter <paramref name="elementName"/>.
@@ -115,8 +104,5 @@ public sealed class ModelDocumentation
         XElement? doc,
         string? elementName = null,
         Func<XNode?, string>? convertElement = null
-    ) =>
-        string.IsNullOrWhiteSpace(elementName)
-            ? null
-            : doc?.GetElementValue(elementName.Trim(), convertElement);
+    ) => string.IsNullOrWhiteSpace(elementName) ? null : doc?.GetElementValue(elementName.Trim(), convertElement);
 }

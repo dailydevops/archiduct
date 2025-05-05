@@ -72,8 +72,7 @@ public abstract class ModelTypeBase : ModelEntityBase
 
     private protected ModelTypeBase(ITypeDefinition typeDefinition, ModelBase parent, XElement? doc)
         : base(
-            typeDefinition?.GetIdString()
-                ?? throw new ArgumentNullException(nameof(typeDefinition)),
+            typeDefinition?.GetIdString() ?? throw new ArgumentNullException(nameof(typeDefinition)),
             typeDefinition.Name,
             typeDefinition.GetQualifiedName(),
             parent,

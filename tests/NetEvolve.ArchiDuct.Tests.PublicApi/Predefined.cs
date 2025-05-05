@@ -13,11 +13,7 @@ internal static class Predefined
         Verifier.DerivePathInfo(
             (sourceFile, projectDirectory, type, method) =>
             {
-                var directory = Path.Combine(
-                    projectDirectory,
-                    "_snapshots",
-                    Namer.TargetFrameworkNameAndVersion
-                );
+                var directory = Path.Combine(projectDirectory, "_snapshots", Namer.TargetFrameworkNameAndVersion);
                 _ = Directory.CreateDirectory(directory);
                 return new(directory, type.Name, method.Name);
             }

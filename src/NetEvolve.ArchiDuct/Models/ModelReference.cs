@@ -18,10 +18,6 @@ public sealed class ModelReference : ModelBase
     public Version Version { get; }
 
     internal ModelReference(IModule module)
-        : base(
-            $"A:{module.AssemblyName}",
-            module.AssemblyName,
-            module.AssemblyName,
-            (ModelDocumentation?)null
-        ) => Version = module.AssemblyVersion;
+        : base($"A:{module.AssemblyName}", module.AssemblyName, module.AssemblyName, (ModelDocumentation?)null) =>
+        Version = module.AssemblyVersion;
 }

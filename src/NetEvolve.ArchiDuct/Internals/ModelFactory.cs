@@ -27,10 +27,9 @@ internal static class ModelFactory
         DocumentationXmlPropertyConstants.Summary,
     ];
 
-    private static readonly ConcurrentDictionary<
-        IModule,
-        IDocumentationProvider?
-    > _documentationProviders = new(new ModuleEqualityComparer());
+    private static readonly ConcurrentDictionary<IModule, IDocumentationProvider?> _documentationProviders = new(
+        new ModuleEqualityComparer()
+    );
 
     public static bool TryGetDocumentationProvider(
         IModule module,
@@ -68,14 +67,13 @@ internal static class ModelFactory
     {
         ModelMemberBase model = member switch
         {
-            IField field when member.DeclaringType.Kind == TypeKind.Enum => new ModelEnumMember(
-                field,
+            IField field when member.DeclaringType.Kind == TypeKind.Enum => new ModelEnumMember(field, parent, doc),
+            IField field => new ModelField(field, parent, doc),
+            IProperty property when property.IsExplicitInterfaceImplementation => new ModelExplicitProperty(
+                property,
                 parent,
                 doc
             ),
-            IField field => new ModelField(field, parent, doc),
-            IProperty property when property.IsExplicitInterfaceImplementation =>
-                new ModelExplicitProperty(property, parent, doc),
             IProperty property when property.IsIndexer => new ModelIndexer(property, parent, doc),
             IProperty property => new ModelProperty(property, parent, doc),
             IMethod method when method.IsExplicitInterfaceImplementation => new ModelExplicitMethod(
@@ -83,24 +81,22 @@ internal static class ModelFactory
                 parent,
                 doc
             ),
-            IMethod method when method.IsConstructor && method.IsStatic =>
-                new ModelStaticConstructor(method, parent, doc),
-            IMethod method when method.IsConstructor => new ModelConstructor(method, parent, doc),
-            IMethod method when method.IsOperator => new ModelOperator(method, parent, doc),
-            IMethod method when method.IsDestructor => new ModelDestructor(method, parent, doc),
-            IMethod method when method.Name.Equals("Deconstruct", Ordinal) =>
-                new ModelDeconstructor(method, parent, doc),
-            IMethod method when method.IsExtensionMethod => new ModelExtensionMethod(
+            IMethod method when method.IsConstructor && method.IsStatic => new ModelStaticConstructor(
                 method,
                 parent,
                 doc
             ),
-            IMethod method => new ModelMethod(method, parent, doc),
-            IEvent @event when @event.IsExplicitInterfaceImplementation => new ModelExplicitEvent(
-                @event,
+            IMethod method when method.IsConstructor => new ModelConstructor(method, parent, doc),
+            IMethod method when method.IsOperator => new ModelOperator(method, parent, doc),
+            IMethod method when method.IsDestructor => new ModelDestructor(method, parent, doc),
+            IMethod method when method.Name.Equals("Deconstruct", Ordinal) => new ModelDeconstructor(
+                method,
                 parent,
                 doc
             ),
+            IMethod method when method.IsExtensionMethod => new ModelExtensionMethod(method, parent, doc),
+            IMethod method => new ModelMethod(method, parent, doc),
+            IEvent @event when @event.IsExplicitInterfaceImplementation => new ModelExplicitEvent(@event, parent, doc),
             IEvent @event => new ModelEvent(@event, parent, doc),
             _ => throw new InvalidOperationException(),
         };
@@ -160,10 +156,7 @@ internal static class ModelFactory
 #pragma warning restore IDE0072 // Add missing cases
     }
 
-    internal static HashSet<ModelAttribute> MapAttributes(
-        IMember member,
-        ITypeResolveContext resolver
-    ) =>
+    internal static HashSet<ModelAttribute> MapAttributes(IMember member, ITypeResolveContext resolver) =>
         member
             .GetAttributes(true)
             .Aggregate(
@@ -442,11 +435,7 @@ internal static class ModelFactory
             _ = modifiers.Add(ModelModifier.Extern);
         }
 
-        if (
-            method
-                .GetAttributes()
-                .Any(x => x.AttributeType.Name.Equals("LibraryImportAttribute", OrdinalIgnoreCase))
-        )
+        if (method.GetAttributes().Any(x => x.AttributeType.Name.Equals("LibraryImportAttribute", OrdinalIgnoreCase)))
         {
             _ = modifiers.Add(ModelModifier.Partial);
         }
@@ -460,10 +449,7 @@ internal static class ModelFactory
 
     private static bool HasFileAccessModifier(ITypeDefinition typeDefinition)
     {
-        var entityName = typeDefinition.Name.Split(
-            _fileTypeSeparator,
-            StringSplitOptions.RemoveEmptyEntries
-        );
+        var entityName = typeDefinition.Name.Split(_fileTypeSeparator, StringSplitOptions.RemoveEmptyEntries);
 
         return entityName.Length > 1 && typeDefinition.Name.StartsWith('<');
     }
@@ -613,7 +599,5 @@ internal static class ModelFactory
     }
 
     private static XElement? ConvertToDocumentation(string? documentationString) =>
-        string.IsNullOrWhiteSpace(documentationString)
-            ? null
-            : XElement.Parse($"<doc>{documentationString}</doc>");
+        string.IsNullOrWhiteSpace(documentationString) ? null : XElement.Parse($"<doc>{documentationString}</doc>");
 }

@@ -61,9 +61,7 @@ public class ArchitectureCollectorTests
     [Theory]
     [InlineData("")]
     [InlineData("\t")]
-    public void AddDirectory_WhenDirectoryPathIsEmptyOrWhiteSpace_ShouldThrowArgumentException(
-        string? directoryPath
-    )
+    public void AddDirectory_WhenDirectoryPathIsEmptyOrWhiteSpace_ShouldThrowArgumentException(string? directoryPath)
     {
         // Arrange
         var collector = ArchitectureCollector.Create();
@@ -83,9 +81,7 @@ public class ArchitectureCollectorTests
         // Act
 
         // Assert
-        _ = Assert.Throws<DirectoryNotFoundException>(() =>
-            collector.AddDirectory(@"c:\NonExistingDirectory")
-        );
+        _ = Assert.Throws<DirectoryNotFoundException>(() => collector.AddDirectory(@"c:\NonExistingDirectory"));
     }
 
     [Fact]
