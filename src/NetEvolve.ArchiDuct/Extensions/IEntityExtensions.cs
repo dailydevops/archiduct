@@ -5,6 +5,9 @@ using ICSharpCode.Decompiler.TypeSystem;
 
 internal static class IEntityExtensions
 {
+    public static bool HasDerivedImplementations(this IEntity entity) =>
+        entity is IMember member && (member.IsOverride || member.IsExplicitInterfaceImplementation);
+
     public static bool IsDefaultConstructor(this IEntity entity) =>
         entity is IMethod method
         && method.IsConstructor

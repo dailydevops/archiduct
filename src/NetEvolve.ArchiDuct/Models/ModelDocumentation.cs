@@ -26,7 +26,12 @@ public sealed class ModelDocumentation
     public string? Summary { get; }
 
     private ModelDocumentation(XElement doc)
-        : this(doc, null, null, null) { }
+        : this(
+            doc,
+            GetElementValue(doc, DocumentationXmlPropertyConstants.Summary),
+            GetElementValue(doc, DocumentationXmlPropertyConstants.Remarks),
+            GetElementValue(doc, DocumentationXmlPropertyConstants.Returns)
+        ) { }
 
     private ModelDocumentation(XElement doc, string? summary)
         : this(doc, summary, null, null) { }
@@ -34,10 +39,15 @@ public sealed class ModelDocumentation
     private ModelDocumentation(XElement doc, string? summary, string? remarks, string? returns)
     {
         _documentation = doc;
-        Summary = summary ?? GetElementValue(doc, DocumentationXmlPropertyConstants.Summary);
-        Remarks = remarks ?? GetElementValue(doc, DocumentationXmlPropertyConstants.Remarks);
-        Returns = returns ?? GetElementValue(doc, DocumentationXmlPropertyConstants.Returns);
+        Summary = summary;
+        Remarks = remarks;
+        Returns = returns;
     }
+
+    internal bool IsValid() =>
+        !string.IsNullOrWhiteSpace(Summary)
+        || !string.IsNullOrWhiteSpace(Remarks)
+        || !string.IsNullOrWhiteSpace(Returns);
 
     internal static ModelDocumentation? Default(XElement? doc) => doc is not null ? new ModelDocumentation(doc) : null;
 
@@ -48,7 +58,7 @@ public sealed class ModelDocumentation
             return null;
         }
 
-        var doc = new ModelDocumentation(
+        return new ModelDocumentation(
             parent._documentation,
             GetElements(parent._documentation, DocumentationXmlPropertyConstants.Param)
                 ?.FirstOrDefault(p =>
@@ -56,8 +66,6 @@ public sealed class ModelDocumentation
                 )
                 .GetElementValue()
         );
-
-        return doc;
     }
 
     internal static ModelDocumentation? LoadTypeParameter(ModelDocumentation? parent, string name)
@@ -67,7 +75,7 @@ public sealed class ModelDocumentation
             return null;
         }
 
-        var doc = new ModelDocumentation(
+        return new ModelDocumentation(
             parent._documentation,
             GetElements(parent._documentation, DocumentationXmlPropertyConstants.TypeParam)
                 ?.FirstOrDefault(p =>
@@ -75,8 +83,6 @@ public sealed class ModelDocumentation
                 )
                 .GetElementValue()
         );
-
-        return doc;
     }
 
     /// <summary>
