@@ -63,19 +63,46 @@ public sealed class ArchitectureCollector : IArchitectureCollector
             AttributesToSkip = FileAttributes.Hidden | FileAttributes.System,
             IgnoreInaccessible = true,
         };
+        var catchedExceptions = new List<Exception>();
+        var addedAssemblies = false;
 
-        foreach (var candidate in directory.EnumerateFiles("*.(dll|exe)", options))
+        foreach (var candidate in directory.EnumerateFiles("*.*", options))
         {
+            if (candidate.Extension is not ".dll" and not ".exe")
+            {
+                continue;
+            }
+
             try
             {
-                var assembly = Assembly.Load(candidate.FullName);
+#pragma warning disable S3885 // "Assembly.Load" should be used
+                var assembly = Assembly.LoadFile(candidate.FullName);
+#pragma warning restore S3885 // "Assembly.Load" should be used
 
                 _ = AddAssembly(assembly, includeReferences);
+                addedAssemblies = true;
             }
-            catch
+            catch (BadImageFormatException)
             {
-                // ignored
+                // Ignore invalid assemblies
             }
+            catch (Exception ex)
+            {
+                catchedExceptions.Add(ex);
+            }
+        }
+
+        if (catchedExceptions.Count > 0)
+        {
+            throw new AggregateException(
+                $"Some assemblies could not be loaded from the directory '{directory.FullName}'.",
+                catchedExceptions
+            );
+        }
+
+        if (!addedAssemblies)
+        {
+            throw new InvalidOperationException($"No assemblies were found in the directory '{directory.FullName}'.");
         }
 
         return this;
@@ -123,11 +150,8 @@ public sealed class ArchitectureCollector : IArchitectureCollector
             }
         }
 
-        if (
-            !source.Filters.Add(
-                new SourceFilter(td => td.ReflectionName, Value.Not.Null.And.EqualTo(typeFullName, Ordinal))
-            )
-        )
+        var filter = new SourceFilter(td => td.ReflectionName, Value.Not.Null.And.EqualTo(typeFullName, Ordinal));
+        if (!source.Filters.Add(filter))
         {
             throw new InvalidOperationException("SourceFilter already registered.");
         }
@@ -135,18 +159,18 @@ public sealed class ArchitectureCollector : IArchitectureCollector
         return this;
     }
 
-    private static string GetTypeFullName(Type type)
+    internal static string GetTypeFullName(Type type)
     {
         if (!type.IsNested || type.DeclaringType is null)
         {
             return $"{type.Namespace}.{type.Name}";
         }
 
-        Type? declaringType;
-        do
+        var declaringType = type.DeclaringType;
+        while (declaringType.IsNested && declaringType.DeclaringType is not null)
         {
-            declaringType = type.DeclaringType;
-        } while (declaringType.IsNested && declaringType.DeclaringType is not null);
+            declaringType = declaringType.DeclaringType;
+        }
 
         return $"{declaringType.Namespace}.{declaringType.Name}";
     }

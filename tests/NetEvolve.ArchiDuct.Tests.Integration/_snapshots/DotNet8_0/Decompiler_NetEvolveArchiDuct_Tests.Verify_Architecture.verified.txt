@@ -510,7 +510,7 @@
       }
     },
     NetEvolve.ArchiDuct, Version=x.x.x.x, M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type): {
-      Accessibility: Private,
+      Accessibility: Internal,
       FullName: NetEvolve.ArchiDuct, Version=x.x.x.x, M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type),
       Id: M:NetEvolve.ArchiDuct.ArchitectureCollector.GetTypeFullName(System.Type),
       IsLocal: false,
