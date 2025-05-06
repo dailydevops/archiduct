@@ -1,5 +1,6 @@
 ﻿namespace NetEvolve.ArchiDuct.Tests.Integration._internals;
 
+[InheritsTests]
 public abstract class TestCaseGenericBase<TTestCase>(
     GenericTypeProvider<TTestCase> provider,
     bool disableMembersCheck = false,

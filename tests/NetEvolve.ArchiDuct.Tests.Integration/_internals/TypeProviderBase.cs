@@ -3,13 +3,11 @@
 using System;
 using System.Threading.Tasks;
 using NetEvolve.ArchiDuct.Abstractions;
-using Xunit;
+using TUnit.Core.Interfaces;
 
-public abstract class TypeProviderBase(Type type) : IAsyncLifetime
+public abstract class TypeProviderBase(Type type) : IAsyncInitializer
 {
     public IArchitecture Architecture { get; private set; } = default!;
-
-    public Task DisposeAsync() => Task.CompletedTask;
 
     public async Task InitializeAsync() =>
         Architecture = await ArchitectureCollector.Create().FilterType(type).CollectAsync().ConfigureAwait(false);

@@ -1,0 +1,171 @@
+﻿{
+  System.Private.CoreLib, Version=x.x.x.x, T:System.ArgumentException: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      }
+    ],
+    BaseTypes: [
+      T:System.SystemException,
+      T:System.Exception,
+      T:System.Object
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.ArgumentException,
+    Id: T:System.ArgumentException,
+    Implementations: [
+      T:System.Runtime.Serialization.ISerializable
+    ],
+    InheritedMembers: [
+      M:System.SystemException.#ctor,
+      M:System.SystemException.#ctor(System.String),
+      M:System.SystemException.#ctor(System.String,System.Exception),
+      M:System.SystemException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+      F:System.Exception._exceptionMethod,
+      F:System.Exception._message,
+      F:System.Exception._data,
+      F:System.Exception._innerException,
+      F:System.Exception._helpURL,
+      F:System.Exception._stackTrace,
+      F:System.Exception._watsonBuckets,
+      F:System.Exception._stackTraceString,
+      F:System.Exception._remoteStackTraceString,
+      F:System.Exception._source,
+      F:System.Exception._ipForWatsonBuckets,
+      F:System.Exception._xptrs,
+      F:System.Exception._xcode,
+      F:System.Exception._HResult,
+      F:System.Exception._COMPlusExceptionCode,
+      F:System.Exception.InnerExceptionPrefix,
+      M:System.Exception.CreateDataContainer,
+      M:System.Exception.IsImmutableAgileException(System.Exception),
+      M:System.Exception.GetMethodFromStackTrace(System.Runtime.CompilerServices.ObjectHandleOnStack,System.Runtime.CompilerServices.ObjectHandleOnStack),
+      M:System.Exception.GetExceptionMethodFromStackTrace,
+      M:System.Exception.OnDeserialized(System.Runtime.Serialization.StreamingContext),
+      M:System.Exception.InternalPreserveStackTrace,
+      M:System.Exception.PrepareForForeignExceptionRaise,
+      M:System.Exception.GetFrozenStackTrace(System.Exception),
+      M:System.Exception.GetExceptionCount,
+      M:System.Exception.RestoreDispatchState(System.Exception.DispatchState@),
+      M:System.Exception.GetMessageFromNativeResources(System.Exception.ExceptionMessageKind),
+      M:System.Exception.GetMessageFromNativeResources(System.Exception.ExceptionMessageKind,System.Runtime.CompilerServices.StringHandleOnStack),
+      M:System.Exception.CaptureDispatchState,
+      M:System.Exception.CanSetRemoteStackTrace,
+      M:System.Exception.GetHelpContext(System.UInt32@),
+      M:System.Exception.#ctor,
+      M:System.Exception.#ctor(System.String),
+      M:System.Exception.#ctor(System.String,System.Exception),
+      M:System.Exception.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+      M:System.Exception.GetClassName,
+      M:System.Exception.GetBaseException,
+      M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+      M:System.Exception.ToString,
+      M:System.Exception.GetType,
+      M:System.Exception.RestoreRemoteStackTrace(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+      M:System.Exception.GetStackTrace,
+      M:System.Exception.SetCurrentStackTrace,
+      M:System.Exception.SetRemoteStackTrace(System.String),
+      M:System.Exception.{ToString}g__Write|58_0(System.String,System.Span{System.Char}@),
+      P:System.Exception.TargetSite,
+      P:System.Exception.HasBeenThrown,
+      P:System.Exception.SerializationWatsonBuckets,
+      P:System.Exception.Message,
+      P:System.Exception.Data,
+      P:System.Exception.InnerException,
+      P:System.Exception.HelpLink,
+      P:System.Exception.Source,
+      P:System.Exception.HResult,
+      P:System.Exception.StackTrace,
+      P:System.Exception.SerializationStackTraceString,
+      E:System.Exception.SerializeObjectState,
+      M:System.Object.GetType,
+      M:System.Object.MemberwiseClone,
+      M:System.Object.Finalize,
+      M:System.Object.ToString,
+      M:System.Object.Equals(System.Object),
+      M:System.Object.Equals(System.Object,System.Object),
+      M:System.Object.ReferenceEquals(System.Object,System.Object),
+      M:System.Object.GetHashCode
+    ],
+    IsNested: false,
+    IsRecord: false,
+    Kind: Class,
+    Members: [
+      F:System.ArgumentException._paramName,
+      M:System.ArgumentException.#ctor,
+      M:System.ArgumentException.#ctor(System.String),
+      M:System.ArgumentException.#ctor(System.String,System.Exception),
+      M:System.ArgumentException.#ctor(System.String,System.String,System.Exception),
+      M:System.ArgumentException.#ctor(System.String,System.String),
+      M:System.ArgumentException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+      M:System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext),
+      M:System.ArgumentException.SetMessageField,
+      M:System.ArgumentException.ThrowIfNullOrEmpty(System.String,System.String),
+      M:System.ArgumentException.ThrowIfNullOrWhiteSpace(System.String,System.String),
+      M:System.ArgumentException.ThrowNullOrEmptyException(System.String,System.String),
+      M:System.ArgumentException.ThrowNullOrWhiteSpaceException(System.String,System.String),
+      P:System.ArgumentException.Message,
+      P:System.ArgumentException.ParamName
+    ],
+    Name: ArgumentException,
+    NamespaceId: N:System,
+    ParentId: N:System
+  }
+}

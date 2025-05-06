@@ -2,6 +2,8 @@
 
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
+[InheritsTests]
+[ClassDataSource<GenericTypeProvider<ExampleRequiredProperty>>(Shared = SharedType.PerClass)]
 public class Decompiler_ExampleRequiredProperty_Tests(GenericTypeProvider<ExampleRequiredProperty> provider)
     : TypesTestCaseGenericBase<ExampleRequiredProperty>(provider) { }
 

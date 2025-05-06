@@ -3,6 +3,8 @@
 using System.Runtime.InteropServices;
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
+[InheritsTests]
+[ClassDataSource<GenericTypeProvider<System.Uri>>(Shared = SharedType.PerClass)]
 public class Decompiler_SystemUri_Tests(GenericTypeProvider<System.Uri> provider)
     : TypesTestCaseGenericBase<System.Uri>(
         provider,

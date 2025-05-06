@@ -1,0 +1,15 @@
+﻿{
+  System.Private.CoreLib, Version=x.x.x.x, M:System.IDisposable.Dispose: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.IDisposable.Dispose,
+    Id: M:System.IDisposable.Dispose,
+    IsLocal: false,
+    Kind: Method,
+    Name: Dispose,
+    ParentId: T:System.IDisposable,
+    Type: {
+      Id: T:System.Void,
+      IsNullable: false
+    }
+  }
+}

@@ -7,7 +7,7 @@ using System.Text;
 using NetEvolve.ArchiDuct.Models;
 using NetEvolve.ArchiDuct.Models.Abstractions;
 using VerifyTests;
-using VerifyXunit;
+using VerifyTUnit;
 
 internal static class Predefined
 {

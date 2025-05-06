@@ -3,12 +3,11 @@
 using System;
 using System.Xml.Linq;
 using NetEvolve.ArchiDuct.Extensions;
-using Xunit;
 
 public class XElementExtensionsTests
 {
-    [Fact]
-    public void GetCRefAttribute_Should_Return_CRefAttributeValue()
+    [Test]
+    public async Task GetCRefAttribute_Should_Return_CRefAttributeValue()
     {
         // Arrange
         var element = new XElement("TestElement");
@@ -18,11 +17,11 @@ public class XElementExtensionsTests
         var crefAttribute = element.GetCRefAttribute();
 
         // Assert
-        Assert.Equal("TestCRef", crefAttribute);
+        _ = await Assert.That(crefAttribute).IsEqualTo("TestCRef");
     }
 
-    [Fact]
-    public void GetCRefAttribute_Should_Return_Null_If_Attribute_Not_Present()
+    [Test]
+    public async Task GetCRefAttribute_Should_Return_Null_If_Attribute_Not_Present()
     {
         // Arrange
         var element = new XElement("TestElement");
@@ -31,11 +30,11 @@ public class XElementExtensionsTests
         var crefAttribute = element.GetCRefAttribute();
 
         // Assert
-        Assert.Null(crefAttribute);
+        _ = await Assert.That(crefAttribute).IsNull();
     }
 
-    [Fact]
-    public void GetElementValue_Should_Return_ElementValue()
+    [Test]
+    public async Task GetElementValue_Should_Return_ElementValue()
     {
         // Arrange
         var element = new XElement("TestElement", "TestValue");
@@ -44,11 +43,11 @@ public class XElementExtensionsTests
         var elementValue = element.GetElementValue();
 
         // Assert
-        Assert.Equal("TestValue", elementValue);
+        _ = await Assert.That(elementValue).IsEqualTo("TestValue");
     }
 
-    [Fact]
-    public void GetElementValue_Should_Return_Null_If_Element_Not_Present()
+    [Test]
+    public async Task GetElementValue_Should_Return_Null_If_Element_Not_Present()
     {
         // Arrange
         var element = new XElement("TestElement");
@@ -57,11 +56,11 @@ public class XElementExtensionsTests
         var elementValue = element.GetElementValue("NonExistentElement");
 
         // Assert
-        Assert.Null(elementValue);
+        _ = await Assert.That(elementValue).IsNull();
     }
 
-    [Fact]
-    public void GetHRefAttribute_Should_Return_HRefAttributeValue()
+    [Test]
+    public async Task GetHRefAttribute_Should_Return_HRefAttributeValue()
     {
         // Arrange
         var element = new XElement("TestElement");
@@ -71,11 +70,11 @@ public class XElementExtensionsTests
         var hrefAttribute = element.GetHRefAttribute();
 
         // Assert
-        Assert.Equal("TestHRef", hrefAttribute);
+        _ = await Assert.That(hrefAttribute).IsEqualTo("TestHRef");
     }
 
-    [Fact]
-    public void GetHRefAttribute_Should_Return_Null_If_Attribute_Not_Present()
+    [Test]
+    public async Task GetHRefAttribute_Should_Return_Null_If_Attribute_Not_Present()
     {
         // Arrange
         var element = new XElement("TestElement");
@@ -84,11 +83,11 @@ public class XElementExtensionsTests
         var hrefAttribute = element.GetHRefAttribute();
 
         // Assert
-        Assert.Null(hrefAttribute);
+        _ = await Assert.That(hrefAttribute).IsNull();
     }
 
-    [Fact]
-    public void GetLangwordAttribute_Should_Return_LangwordAttributeValue()
+    [Test]
+    public async Task GetLangwordAttribute_Should_Return_LangwordAttributeValue()
     {
         // Arrange
         var element = new XElement("TestElement");
@@ -98,11 +97,11 @@ public class XElementExtensionsTests
         var langwordAttribute = element.GetLangwordAttribute();
 
         // Assert
-        Assert.Equal("TestLangword", langwordAttribute);
+        _ = await Assert.That(langwordAttribute).IsEqualTo("TestLangword");
     }
 
-    [Fact]
-    public void GetLangwordAttribute_Should_Return_Null_If_Attribute_Not_Present()
+    [Test]
+    public async Task GetLangwordAttribute_Should_Return_Null_If_Attribute_Not_Present()
     {
         // Arrange
         var element = new XElement("TestElement");
@@ -111,11 +110,11 @@ public class XElementExtensionsTests
         var langwordAttribute = element.GetLangwordAttribute();
 
         // Assert
-        Assert.Null(langwordAttribute);
+        _ = await Assert.That(langwordAttribute).IsNull();
     }
 
-    [Fact]
-    public void GetNameAttribute_Should_Return_NameAttributeValue()
+    [Test]
+    public async Task GetNameAttribute_Should_Return_NameAttributeValue()
     {
         // Arrange
         var element = new XElement("TestElement");
@@ -125,11 +124,11 @@ public class XElementExtensionsTests
         var nameAttribute = element.GetNameAttribute();
 
         // Assert
-        Assert.Equal("TestName", nameAttribute);
+        _ = await Assert.That(nameAttribute).IsEqualTo("TestName");
     }
 
-    [Fact]
-    public void GetNameAttribute_Should_Return_Null_If_Attribute_Not_Present()
+    [Test]
+    public async Task GetNameAttribute_Should_Return_Null_If_Attribute_Not_Present()
     {
         // Arrange
         var element = new XElement("TestElement");
@@ -138,11 +137,11 @@ public class XElementExtensionsTests
         var nameAttribute = element.GetNameAttribute();
 
         // Assert
-        Assert.Null(nameAttribute);
+        _ = await Assert.That(nameAttribute).IsNull();
     }
 
-    [Fact]
-    public void HasInheritDoc_Should_Return_True_If_InheritDoc_Element_Present()
+    [Test]
+    public async Task HasInheritDoc_Should_Return_True_If_InheritDoc_Element_Present()
     {
         // Arrange
         var element = new XElement("TestElement");
@@ -152,11 +151,11 @@ public class XElementExtensionsTests
         var hasInheritDoc = element.HasInheritDoc(out _);
 
         // Assert
-        Assert.True(hasInheritDoc);
+        _ = await Assert.That(hasInheritDoc).IsTrue();
     }
 
-    [Fact]
-    public void HasInheritDoc_Should_Return_False_If_InheritDoc_Element_Not_Present()
+    [Test]
+    public async Task HasInheritDoc_Should_Return_False_If_InheritDoc_Element_Not_Present()
     {
         // Arrange
         var element = new XElement("TestElement");
@@ -165,11 +164,11 @@ public class XElementExtensionsTests
         var hasInheritDoc = element.HasInheritDoc(out _);
 
         // Assert
-        Assert.False(hasInheritDoc);
+        _ = await Assert.That(hasInheritDoc).IsFalse();
     }
 
-    [Fact]
-    public void Merge_Should_Return_Right_Element_If_Left_Element_Null()
+    [Test]
+    public async Task Merge_Should_Return_Right_Element_If_Left_Element_Null()
     {
         // Arrange
         XElement? left = null;
@@ -179,11 +178,11 @@ public class XElementExtensionsTests
         var mergedElement = left.Merge(right);
 
         // Assert
-        Assert.Equal(right, mergedElement);
+        _ = await Assert.That(mergedElement).IsEqualTo(right);
     }
 
-    [Fact]
-    public void Merge_Should_Return_Left_Element_If_Right_Element_Null()
+    [Test]
+    public async Task Merge_Should_Return_Left_Element_If_Right_Element_Null()
     {
         // Arrange
         var left = new XElement("TestElement");
@@ -193,11 +192,11 @@ public class XElementExtensionsTests
         var mergedElement = left.Merge(right);
 
         // Assert
-        Assert.Equal(left, mergedElement);
+        _ = await Assert.That(mergedElement).IsEqualTo(left);
     }
 
-    [Fact]
-    public void Merge_Should_Merge_Child_Elements_If_Present_In_Both_Left_And_Right_Elements()
+    [Test]
+    public async Task Merge_Should_Merge_Child_Elements_If_Present_In_Both_Left_And_Right_Elements()
     {
         // Arrange
         var left = new XElement("TestElement");
@@ -209,14 +208,14 @@ public class XElementExtensionsTests
         var mergedElement = left.Merge(right);
 
         // Assert
-        Assert.NotNull(mergedElement);
+        mergedElement = await Assert.That(mergedElement).IsNotNull();
         var mergedChildElement = mergedElement.Element("ChildElement");
-        Assert.NotNull(mergedChildElement);
-        Assert.Equal("RightValue", mergedChildElement.Value);
+        _ = await Assert.That(mergedChildElement).IsNotNull();
+        _ = await Assert.That(mergedChildElement!.Value).IsEqualTo("RightValue");
     }
 
-    [Fact]
-    public void Merge_Should_Not_Merge_Child_Elements_If_Present_In_IgnoredElements()
+    [Test]
+    public async Task Merge_Should_Not_Merge_Child_Elements_If_Present_In_IgnoredElements()
     {
         // Arrange
         var left = new XElement("TestElement");
@@ -228,14 +227,14 @@ public class XElementExtensionsTests
         var mergedElement = left.Merge(right, "ChildElement");
 
         // Assert
-        Assert.NotNull(mergedElement);
+        mergedElement = await Assert.That(mergedElement).IsNotNull();
         var mergedChildElement = mergedElement.Element("ChildElement");
-        Assert.NotNull(mergedChildElement);
-        Assert.Equal("LeftValue", mergedChildElement.Value);
+        _ = await Assert.That(mergedChildElement).IsNotNull();
+        _ = await Assert.That(mergedChildElement!.Value).IsEqualTo("LeftValue");
     }
 
-    [Fact]
-    public void Sort_Should_Return_Null_If_Element_Null()
+    [Test]
+    public async Task Sort_Should_Return_Null_If_Element_Null()
     {
         // Arrange
         XElement? element = null;
@@ -244,11 +243,11 @@ public class XElementExtensionsTests
         var sortedElement = element.Sort();
 
         // Assert
-        Assert.Null(sortedElement);
+        _ = await Assert.That(sortedElement).IsNull();
     }
 
-    [Fact]
-    public void Sort_Should_Return_New_Element_With_Sorted_Child_Elements()
+    [Test]
+    public async Task Sort_Should_Return_New_Element_With_Sorted_Child_Elements()
     {
         // Arrange
         var element = new XElement("TestElement");
@@ -260,18 +259,13 @@ public class XElementExtensionsTests
         var sortedElement = element.Sort();
 
         // Assert
-        Assert.NotNull(sortedElement);
-        var sortedChildElements = sortedElement.Elements();
-        Assert.Collection(
-            sortedChildElements,
-            e => Assert.Equal("A", e.Name.LocalName),
-            e => Assert.Equal("B", e.Name.LocalName),
-            e => Assert.Equal("C", e.Name.LocalName)
-        );
+        _ = await Assert.That(sortedElement).IsNotNull();
+        var sortedChildElements = sortedElement!.Elements();
+        _ = await Assert.That(sortedChildElements.Select(e => e.Name.LocalName)).IsEquivalentTo(["A", "B", "C"]);
     }
 
-    [Fact]
-    public void Sort_Should_Return_New_Element_With_Sorted_Attributes()
+    [Test]
+    public async Task Sort_Should_Return_New_Element_With_Sorted_Attributes()
     {
         // Arrange
         var element = new XElement("TestElement");
@@ -283,13 +277,8 @@ public class XElementExtensionsTests
         var sortedElement = element.Sort();
 
         // Assert
-        Assert.NotNull(sortedElement);
-        var sortedAttributes = sortedElement.Attributes();
-        Assert.Collection(
-            sortedAttributes,
-            a => Assert.Equal("A", a.Name.LocalName),
-            a => Assert.Equal("B", a.Name.LocalName),
-            a => Assert.Equal("C", a.Name.LocalName)
-        );
+        _ = await Assert.That(sortedElement).IsNotNull();
+        var sortedAttributes = sortedElement!.Attributes();
+        _ = await Assert.That(sortedAttributes.Select(a => a.Name.LocalName)).IsEquivalentTo(["A", "B", "C"]);
     }
 }

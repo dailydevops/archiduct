@@ -9,8 +9,8 @@
     <CopyrightYearStart>2024</CopyrightYearStart>
   </PropertyGroup>
   <PropertyGroup>
-    <NetEvolve_ProjectTargetFrameworks>net9.0</NetEvolve_ProjectTargetFrameworks>
-    <NetEvolve_TestTargetFrameworks>net9.0</NetEvolve_TestTargetFrameworks>
+    <NetEvolve_ProjectTargetFrameworks>net8.0;net9.0</NetEvolve_ProjectTargetFrameworks>
+    <NetEvolve_TestTargetFrameworks>net8.0;net9.0</NetEvolve_TestTargetFrameworks>
     <NoWarn>$(NoWarn);NU5104</NoWarn>
   </PropertyGroup>
 </Project>

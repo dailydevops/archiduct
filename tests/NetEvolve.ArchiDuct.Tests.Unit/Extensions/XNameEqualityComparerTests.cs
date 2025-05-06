@@ -2,12 +2,11 @@
 
 using System.Xml.Linq;
 using NetEvolve.ArchiDuct.Extensions;
-using Xunit;
 
 public class XNameEqualityComparerTests
 {
-    [Fact]
-    public void Equals_WhenBothXNameAreNull_ReturnsTrue()
+    [Test]
+    public async Task Equals_WhenBothXNameAreNull_ReturnsTrue()
     {
         // Arrange
         XName? x = null;
@@ -17,11 +16,11 @@ public class XNameEqualityComparerTests
         var result = XNameEqualityComparer.Instance.Equals(x, y);
 
         // Assert
-        Assert.True(result);
+        _ = await Assert.That(result).IsTrue();
     }
 
-    [Fact]
-    public void Equals_WhenOneXNameIsNull_ReturnsFalse()
+    [Test]
+    public async Task Equals_WhenOneXNameIsNull_ReturnsFalse()
     {
         // Arrange
         var x = XName.Get("element");
@@ -31,11 +30,11 @@ public class XNameEqualityComparerTests
         var result = XNameEqualityComparer.Instance.Equals(x, y);
 
         // Assert
-        Assert.False(result);
+        _ = await Assert.That(result).IsFalse();
     }
 
-    [Fact]
-    public void Equals_WhenXNameLocalNamesAreEqual_ReturnsTrue()
+    [Test]
+    public async Task Equals_WhenXNameLocalNamesAreEqual_ReturnsTrue()
     {
         // Arrange
         var x = XName.Get("element");
@@ -45,11 +44,11 @@ public class XNameEqualityComparerTests
         var result = XNameEqualityComparer.Instance.Equals(x, y);
 
         // Assert
-        Assert.True(result);
+        _ = await Assert.That(result).IsTrue();
     }
 
-    [Fact]
-    public void Equals_WhenXNameLocalNamesAreNotEqual_ReturnsFalse()
+    [Test]
+    public async Task Equals_WhenXNameLocalNamesAreNotEqual_ReturnsFalse()
     {
         // Arrange
         var x = XName.Get("element1");
@@ -59,11 +58,11 @@ public class XNameEqualityComparerTests
         var result = XNameEqualityComparer.Instance.Equals(x, y);
 
         // Assert
-        Assert.False(result);
+        _ = await Assert.That(result).IsFalse();
     }
 
-    [Fact]
-    public void GetHashCode_WhenXNameIsNull_ReturnsDefaultHashCode()
+    [Test]
+    public async Task GetHashCode_WhenXNameIsNull_ReturnsDefaultHashCode()
     {
         // Arrange
         XName? x = null;
@@ -72,11 +71,11 @@ public class XNameEqualityComparerTests
         var result = XNameEqualityComparer.Instance.GetHashCode(x);
 
         // Assert
-        Assert.Equal(default, result);
+        _ = await Assert.That(result).IsEqualTo(default);
     }
 
-    [Fact]
-    public void GetHashCode_WhenXNameIsNotNull_ReturnsHashCode()
+    [Test]
+    public async Task GetHashCode_WhenXNameIsNotNull_ReturnsHashCode()
     {
         // Arrange
         var x = XName.Get("element");
@@ -85,6 +84,6 @@ public class XNameEqualityComparerTests
         var result = XNameEqualityComparer.Instance.GetHashCode(x);
 
         // Assert
-        Assert.Equal(x.GetHashCode(), result);
+        _ = await Assert.That(result).IsEqualTo(x.GetHashCode());
     }
 }

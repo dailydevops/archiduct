@@ -4,12 +4,11 @@ using System;
 using System.IO;
 using System.Reflection;
 using NetEvolve.FluentValue;
-using Xunit;
 
 public class ArchitectureCollectorTests
 {
-    [Fact]
-    public void Create_WhenCalled_ShouldReturnNewInstance()
+    [Test]
+    public async Task Create_WhenCalled_ShouldReturnNewInstance()
     {
         // Arrange
         var result = ArchitectureCollector.Create();
@@ -17,100 +16,93 @@ public class ArchitectureCollectorTests
         // Act
 
         // Assert
-        Assert.NotNull(result);
+        _ = await Assert.That(result).IsNotNull();
     }
 
-    [Fact]
+    [Test]
     public void AddAssembly_WhenAssemblyIsNull_ShouldThrowArgumentNullException()
     {
         // Arrange
         var collector = ArchitectureCollector.Create();
         Assembly assembly = null!;
 
-        // Act
-
-        // Assert
+        // Act & Assert
         _ = Assert.Throws<ArgumentNullException>(() => collector.AddAssembly(assembly));
     }
 
-    [Fact]
+    [Test]
     public void AddAssembly_WhenAssemblyIsDuplicate_ShouldThrowInvalidOperationException()
     {
         // Arrange
         var assembly = Assembly.GetExecutingAssembly();
         var collector = ArchitectureCollector.Create().AddAssembly(assembly);
 
-        // Act
-
-        // Assert
+        // Act & Assert
         _ = Assert.Throws<InvalidOperationException>(() => collector.AddAssembly(assembly));
     }
 
-    [Fact]
+    [Test]
     public void AddDirectory_WhenDirectoryNull_ShouldThrowArgumentNullException()
     {
         // Arrange
         var collector = ArchitectureCollector.Create();
 
-        // Act
-
-        // Assert
+        // Act & Assert
         _ = Assert.Throws<ArgumentNullException>(() => collector.AddDirectory(null!));
     }
 
-    [Theory]
-    [InlineData("")]
-    [InlineData("\t")]
-    public void AddDirectory_WhenDirectoryPathIsEmptyOrWhiteSpace_ShouldThrowArgumentException(string? directoryPath)
+    [Test]
+    public void AddDirectory_WhenDirectoryPathIsEmptyOrWhiteSpace_ShouldThrowArgumentException()
     {
         // Arrange
         var collector = ArchitectureCollector.Create();
 
-        // Act
-
-        // Assert
-        _ = Assert.Throws<ArgumentException>(() => collector.AddDirectory(directoryPath));
+        // Act & Assert
+        using (Assert.Multiple())
+        {
+            _ = Assert.Throws<ArgumentException>(() => collector.AddDirectory(""));
+            _ = Assert.Throws<ArgumentException>(() => collector.AddDirectory("\t"));
+        }
     }
 
-    [Fact]
+    [Test]
+    [System.Diagnostics.CodeAnalysis.SuppressMessage(
+        "Minor Code Smell",
+        "S1075:URIs should not be hardcoded",
+        Justification = "Required for testing."
+    )]
     public void AddDirectory_WhenDirectoryDoesNotExist_ShouldThrowDirectoryNotFoundException()
     {
         // Arrange
         var collector = ArchitectureCollector.Create();
 
-        // Act
-
-        // Assert
+        // Act & Assert
         _ = Assert.Throws<DirectoryNotFoundException>(() => collector.AddDirectory(@"c:\NonExistingDirectory"));
     }
 
-    [Fact]
+    [Test]
     public void FilterNamespace_WhenConstraintIsNull_ShouldThrowArgumentNullException()
     {
         // Arrange
         var collector = ArchitectureCollector.Create();
         IConstraint constraint = null!;
 
-        // Act
-
-        // Assert
+        // Act & Assert
         _ = Assert.Throws<ArgumentNullException>(() => collector.FilterNamespace(constraint));
     }
 
-    [Fact]
+    [Test]
     public void FilterNamespace_WhenNoAssemblies_ShouldThrowArgumentException()
     {
         // Arrange
         var collector = ArchitectureCollector.Create();
         var constraint = Value.Null;
 
-        // Act
-
-        // Assert
+        // Act & Assert
         _ = Assert.Throws<ArgumentException>(() => collector.FilterNamespace(constraint));
     }
 
-    [Fact]
+    [Test]
     public void FilterNamespace_WhenConstraintIsAlreadyRegistered_ShouldThrowArgumentException()
     {
         // Arrange
@@ -120,7 +112,7 @@ public class ArchitectureCollectorTests
             .AddAssembly(Assembly.GetExecutingAssembly())
             .FilterNamespace(constraint);
 
-        // Assert
+        // Act & Assert
         _ = Assert.Throws<ArgumentException>(() => collector.FilterNamespace(constraint));
     }
 }

@@ -3,6 +3,8 @@
 using System;
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
+[InheritsTests]
+[ClassDataSource<FinalizerClassTypeProvider>(Shared = SharedType.PerClass)]
 public class Decompiler_ExampleFinalizer_Tests(FinalizerClassTypeProvider provider)
     : TestCaseBase<FinalizerClassTypeProvider>(provider) { }
 

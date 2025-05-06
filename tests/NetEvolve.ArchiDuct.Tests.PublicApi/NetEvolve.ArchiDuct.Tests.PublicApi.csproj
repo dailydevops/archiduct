@@ -1,28 +1,28 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFrameworks>$(NetEvolve_TestTargetFrameworks)</TargetFrameworks>
     <DisableBannedApiForConsole>true</DisableBannedApiForConsole>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="coverlet.msbuild" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" />
-    <PackageReference Include="NetEvolve.Extensions.XUnit" />
-    <PackageReference Include="PublicApiGenerator" />
-    <PackageReference Include="Verify.Xunit" />
-    <PackageReference Include="xunit" />
-    <PackageReference Include="xunit.runner.visualstudio">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
     <PackageReference Include="coverlet.collector">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="coverlet.msbuild" />
+    <PackageReference Include="Microsoft.Testing.Extensions.CodeCoverage" />
+    <PackageReference Include="NetEvolve.Extensions.TUnit" />
+    <PackageReference Include="PublicApiGenerator" />
+    <PackageReference Include="TUnit" />
+    <PackageReference Include="Verify.TUnit" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\NetEvolve.ArchiDuct\NetEvolve.ArchiDuct.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <AssemblyAttribute Include="NetEvolve.Extensions.XUnit.IntegrationTestAttribute" />
+    <AssemblyAttribute Include="NetEvolve.Extensions.TUnit.IntegrationTestAttribute" />
+    <AssemblyAttribute Include="NetEvolve.Extensions.TUnit.TestGroupAttribute">
+      <_Parameter1>ArchiDuct</_Parameter1>
+    </AssemblyAttribute>
   </ItemGroup>
 </Project>

@@ -3,6 +3,8 @@
 using System;
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
+[InheritsTests]
+[ClassDataSource<ExampleExplicitEventTypeProvider>(Shared = SharedType.PerClass)]
 public class Decompiler_ExampleExplicitEvent_Tests(ExampleExplicitEventTypeProvider provider)
     : TestCaseBase<ExampleExplicitEventTypeProvider>(provider) { }
 
