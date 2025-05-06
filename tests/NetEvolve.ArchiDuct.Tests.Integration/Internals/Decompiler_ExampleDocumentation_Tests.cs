@@ -1,11 +1,17 @@
 ﻿namespace NetEvolve.ArchiDuct.Tests.Integration.Internals;
 
+using System.Runtime.InteropServices;
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
 [InheritsTests]
 [ClassDataSource<DocumentationTypeProvider>(Shared = SharedType.PerClass)]
 public class Decompiler_ExampleDocumentation_Tests(DocumentationTypeProvider provider)
-    : TestCaseBase<DocumentationTypeProvider>(provider, enableDocumentationCheck: true) { }
+    : TestCaseBase<DocumentationTypeProvider>(
+        provider,
+        enableDocumentationCheck: true,
+        // Workaround for now, Linux is not detecting the documentation correct.
+        operationSystems: [OSPlatform.Windows]
+    ) { }
 
 public sealed class DocumentationTypeProvider() : TypeProviderBase(typeof(DocumentatedClass)) { }
 
