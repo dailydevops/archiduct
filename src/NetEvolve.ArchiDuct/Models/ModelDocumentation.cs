@@ -26,12 +26,7 @@ public sealed class ModelDocumentation
     public string? Summary { get; }
 
     private ModelDocumentation(XElement doc)
-        : this(
-            doc,
-            GetElementValue(doc, DocumentationXmlPropertyConstants.Summary),
-            GetElementValue(doc, DocumentationXmlPropertyConstants.Remarks),
-            GetElementValue(doc, DocumentationXmlPropertyConstants.Returns)
-        ) { }
+        : this(doc, null, null, null) { }
 
     private ModelDocumentation(XElement doc, string? summary)
         : this(doc, summary, null, null) { }
@@ -39,9 +34,9 @@ public sealed class ModelDocumentation
     private ModelDocumentation(XElement doc, string? summary, string? remarks, string? returns)
     {
         _documentation = doc;
-        Summary = summary;
-        Remarks = remarks;
-        Returns = returns;
+        Summary = summary ?? GetElementValue(doc, DocumentationXmlPropertyConstants.Summary);
+        Remarks = remarks ?? GetElementValue(doc, DocumentationXmlPropertyConstants.Remarks);
+        Returns = returns ?? GetElementValue(doc, DocumentationXmlPropertyConstants.Returns);
     }
 
     internal static ModelDocumentation? Default(XElement? doc) => doc is not null ? new ModelDocumentation(doc) : null;

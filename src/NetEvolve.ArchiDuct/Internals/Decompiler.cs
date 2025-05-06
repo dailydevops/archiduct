@@ -70,9 +70,7 @@ internal sealed partial class Decompiler
 
     private void MapAttributes(ModelAssembly modelAssembly, IModule module)
     {
-        var attributes = module.GetAssemblyAttributes();
-
-        foreach (var attribute in attributes)
+        foreach (var attribute in module.GetAssemblyAttributes())
         {
             if (attribute is null)
             {

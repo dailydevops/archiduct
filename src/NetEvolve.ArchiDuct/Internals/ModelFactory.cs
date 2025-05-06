@@ -197,7 +197,7 @@ internal static class ModelFactory
                             new ModelAttribute(
                                 attribute,
                                 attributeTypeDefinition,
-                                GetDocumentation(typeDefinition.GetIdString(), resolver)
+                                GetDocumentation(attributeTypeDefinition.GetIdString(), resolver)
                             )
                         );
                     }
@@ -454,7 +454,7 @@ internal static class ModelFactory
         return entityName.Length > 1 && typeDefinition.Name.StartsWith('<');
     }
 
-    private static bool TryGetDocFromBaseClass(
+    private static bool TryGetDocumentationFromBaseType(
         IEntity entity,
         ITypeResolveContext resolver,
         [NotNullWhen(true)] out XElement? baseDocumentation
@@ -470,7 +470,7 @@ internal static class ModelFactory
         return result;
     }
 
-    private static bool TryGetDocFromExplicit(
+    private static bool TryGetDocumentationFromExplicit(
         IEntity entity,
         ITypeResolveContext resolver,
         [NotNullWhen(true)] out XElement? baseDocumentation
@@ -487,7 +487,7 @@ internal static class ModelFactory
         return result;
     }
 
-    private static bool TryGetDocFromInterface(
+    private static bool TryGetDocumentationFromInterface(
         IEntity entity,
         ITypeResolveContext resolver,
         [NotNullWhen(true)] out XElement? baseDocumentation
@@ -502,9 +502,8 @@ internal static class ModelFactory
             var typeDefinition = member.DeclaringTypeDefinition;
 
             result =
-                typeDefinition is not null
-                && typeDefinition
-                    .EnumerateBaseTypeDefinitions()
+                typeDefinition
+                    ?.EnumerateBaseTypeDefinitions()
                     .Any(type =>
                     {
                         if (type.Kind != TypeKind.Interface)
@@ -517,14 +516,14 @@ internal static class ModelFactory
                         var lookupId = entityId.Replace(parent, type.FullName, OrdinalIgnoreCase);
                         resultDocumentation = GetDocumentation(lookupId, resolver);
                         return resultDocumentation is not null;
-                    });
+                    }) == true;
         }
 
         baseDocumentation = resultDocumentation;
         return result;
     }
 
-    private static bool TryGetDocFromReference(
+    private static bool TryResolveDocumentationFromReference(
         string? reference,
         ITypeResolveContext resolver,
         [NotNullWhen(true)] out XElement? baseDocumentation
@@ -583,10 +582,10 @@ internal static class ModelFactory
             inheritedDocumentation.Remove();
 
             if (
-                TryGetDocFromReference(reference, resolver, out var baseDocumentation)
-                || TryGetDocFromExplicit(entity, resolver, out baseDocumentation)
-                || TryGetDocFromBaseClass(entity, resolver, out baseDocumentation)
-                || TryGetDocFromInterface(entity, resolver, out baseDocumentation)
+                TryResolveDocumentationFromReference(reference, resolver, out var baseDocumentation)
+                || TryGetDocumentationFromExplicit(entity, resolver, out baseDocumentation)
+                || TryGetDocumentationFromBaseType(entity, resolver, out baseDocumentation)
+                || TryGetDocumentationFromInterface(entity, resolver, out baseDocumentation)
             )
             {
                 result = baseDocumentation.Merge(result, _ignoredElements);

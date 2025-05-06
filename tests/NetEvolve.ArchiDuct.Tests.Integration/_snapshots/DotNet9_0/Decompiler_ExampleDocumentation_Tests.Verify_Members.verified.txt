@@ -1,0 +1,75 @@
+﻿{
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass.#ctor: {
+    Accessibility: Public,
+    Documentation: null,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass.#ctor,
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass.#ctor,
+    Kind: Constructor,
+    Name: .ctor,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass.IsValid: {
+    Accessibility: Public,
+    Documentation: {
+      Returns: <see langword="true" /> if the class is valid; otherwise, <see langword="false" />.,
+      Summary: Validates the class.
+    },
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass.IsValid,
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass.IsValid,
+    IsLocal: false,
+    Kind: Method,
+    Name: IsValid,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass,
+    Type: {
+      Id: T:System.Boolean,
+      IsNullable: false
+    }
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass.Name: {
+    Accessibility: Public,
+    Documentation: {
+      Summary: Gets or sets the name of this class.
+    },
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass.Name,
+    Getter: {
+      Accessibility: Public,
+      Documentation: {
+        Summary: Gets or sets the name of this class.
+      },
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass.get_Name,
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass.get_Name,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_Name,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass,
+      Type: {
+        Id: T:System.String,
+        IsNullable: true
+      }
+    },
+    Id: P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass.Name,
+    Kind: Property,
+    Name: Name,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass,
+    Setter: {
+      Accessibility: Public,
+      Documentation: {
+        Summary: Gets or sets the name of this class.
+      },
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass.set_Name(System.String),
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass.set_Name(System.String),
+      IsLocal: false,
+      Kind: Method,
+      Name: set_Name,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass,
+      Type: {
+        Id: T:System.Void,
+        IsNullable: false
+      }
+    },
+    Type: {
+      Id: T:System.String,
+      IsNullable: true
+    }
+  }
+}
