@@ -236,7 +236,6 @@ public class ArchitectureCollectorTests
     }
 }
 
-
 #pragma warning disable CA1812 // CA1812: Avoid uninstantiated internal classes
 internal sealed partial class GetTypeFullNameTestClass
 {
