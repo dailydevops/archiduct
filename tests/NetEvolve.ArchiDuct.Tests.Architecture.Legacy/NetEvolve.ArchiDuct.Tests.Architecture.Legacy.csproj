@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>$(NetEvolve_TestTargetFrameworks)</TargetFrameworks>
   </PropertyGroup>
@@ -22,5 +22,8 @@
   </ItemGroup>
   <ItemGroup>
     <AssemblyAttribute Include="NetEvolve.Extensions.XUnit.ArchitectureTestAttribute" />
+    <AssemblyAttribute Include="NetEvolve.Extensions.XUnit.TestGroupAttribute">
+      <_Parameter1>ArchiDuct</_Parameter1>
+    </AssemblyAttribute>
   </ItemGroup>
 </Project>

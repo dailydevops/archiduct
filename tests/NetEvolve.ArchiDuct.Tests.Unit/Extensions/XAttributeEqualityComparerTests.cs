@@ -2,12 +2,11 @@
 
 using System.Xml.Linq;
 using NetEvolve.ArchiDuct.Extensions;
-using Xunit;
 
 public class XAttributeEqualityComparerTests
 {
-    [Fact]
-    public void Equals_WithEqualAttributes_ReturnsTrue()
+    [Test]
+    public async Task Equals_WithEqualAttributes_ReturnsTrue()
     {
         // Arrange
         var attribute1 = new XAttribute("Name", "Value");
@@ -17,11 +16,11 @@ public class XAttributeEqualityComparerTests
         var result = XAttributeEqualityComparer.Instance.Equals(attribute1, attribute2);
 
         // Assert
-        Assert.True(result);
+        _ = await Assert.That(result).IsTrue();
     }
 
-    [Fact]
-    public void Equals_WithDifferentAttributes_ReturnsFalse()
+    [Test]
+    public async Task Equals_WithDifferentAttributes_ReturnsFalse()
     {
         // Arrange
         var attribute1 = new XAttribute("Name1", "Value1");
@@ -31,11 +30,11 @@ public class XAttributeEqualityComparerTests
         var result = XAttributeEqualityComparer.Instance.Equals(attribute1, attribute2);
 
         // Assert
-        Assert.False(result);
+        _ = await Assert.That(result).IsFalse();
     }
 
-    [Fact]
-    public void Equals_WithNullAttributes_ReturnsTrue()
+    [Test]
+    public async Task Equals_WithNullAttributes_ReturnsTrue()
     {
         // Arrange
         XAttribute? attribute1 = null;
@@ -45,11 +44,11 @@ public class XAttributeEqualityComparerTests
         var result = XAttributeEqualityComparer.Instance.Equals(attribute1, attribute2);
 
         // Assert
-        Assert.True(result);
+        _ = await Assert.That(result).IsTrue();
     }
 
-    [Fact]
-    public void GetHashCode_WithNonNullAttribute_ReturnsHashCode()
+    [Test]
+    public async Task GetHashCode_WithNonNullAttribute_ReturnsHashCode()
     {
         // Arrange
         var attribute = new XAttribute("Name", "Value");
@@ -58,11 +57,11 @@ public class XAttributeEqualityComparerTests
         var hashCode = XAttributeEqualityComparer.Instance.GetHashCode(attribute);
 
         // Assert
-        Assert.Equal(attribute.GetHashCode(), hashCode);
+        _ = await Assert.That(attribute.GetHashCode()).IsEqualTo(hashCode);
     }
 
-    [Fact]
-    public void GetHashCode_WithNullAttribute_ReturnsDefaultHashCode()
+    [Test]
+    public async Task GetHashCode_WithNullAttribute_ReturnsDefaultHashCode()
     {
         // Arrange
         XAttribute? attribute = null;
@@ -71,6 +70,6 @@ public class XAttributeEqualityComparerTests
         var hashCode = XAttributeEqualityComparer.Instance.GetHashCode(attribute);
 
         // Assert
-        Assert.Equal(default, hashCode);
+        _ = await Assert.That(hashCode).IsEqualTo(default);
     }
 }

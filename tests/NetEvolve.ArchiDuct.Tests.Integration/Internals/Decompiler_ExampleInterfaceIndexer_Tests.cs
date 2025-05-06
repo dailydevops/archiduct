@@ -2,6 +2,8 @@
 
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
+[InheritsTests]
+[ClassDataSource<InterfaceIndexerTypeProvider>(Shared = SharedType.PerClass)]
 public class Decompiler_ExampleInterfaceIndexer_Tests(InterfaceIndexerTypeProvider provider)
     : TestCaseBase<InterfaceIndexerTypeProvider>(provider) { }
 

@@ -3,15 +3,13 @@
 using System;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
-using VerifyXunit;
-using Xunit;
 
 public abstract class TestCaseBase<TTypeProvider>(
     TTypeProvider provider,
     bool disableMembersCheck = false,
     bool disableTypesCheck = false,
     OSPlatform[]? operationSystems = null
-) : IClassFixture<TTypeProvider>
+)
     where TTypeProvider : notnull, TypeProviderBase
 {
     private protected readonly TTypeProvider _provider = provider;
@@ -19,65 +17,62 @@ public abstract class TestCaseBase<TTypeProvider>(
     private readonly bool _disableTypesCheck = disableTypesCheck;
     private readonly OSPlatform[]? _operationSystems = operationSystems;
 
-    protected static bool IsCIExecution =>
-        Environment.GetEnvironmentVariable("CI") is string ci && ci.Equals("true", StringComparison.OrdinalIgnoreCase);
-
     protected bool IsOperationSystemUnsupported =>
         _operationSystems is not null && !Array.TrueForAll(_operationSystems, RuntimeInformation.IsOSPlatform);
 
-    [SkippableFact]
-    public void Instance_AssemblyOne_Expected()
+    [Test]
+    public async ValueTask Instance_AssemblyOne_Expected()
     {
-        Skip.If(IsOperationSystemUnsupported, "Operation system is not supported.");
+        Skip.When(IsOperationSystemUnsupported, "Operation system is not supported.");
 
-        _ = Assert.Single(_provider.Architecture.Assemblies);
+        _ = await Assert.That(_provider.Architecture.Assemblies).HasSingleItem();
     }
 
-    [SkippableFact]
-    public void Instance_MembersNotEmpty_Expected()
+    [Test]
+    public async ValueTask Instance_MembersNotEmpty_Expected()
     {
-        Skip.If(IsOperationSystemUnsupported, "Operation system is not supported.");
-        Skip.If(_disableMembersCheck, "Members check is disabled.");
+        Skip.When(IsOperationSystemUnsupported, "Operation system is not supported.");
+        Skip.When(_disableMembersCheck, "Members check is disabled.");
 
-        Assert.NotEmpty(_provider.Architecture.Members);
+        _ = await Assert.That(_provider.Architecture.Members).IsNotEmpty();
     }
 
-    [SkippableFact]
-    public void Instance_NamespacesOne_Expected()
+    [Test]
+    public async ValueTask Instance_NamespacesOne_Expected()
     {
-        Skip.If(IsOperationSystemUnsupported, "Operation system is not supported.");
+        Skip.When(IsOperationSystemUnsupported, "Operation system is not supported.");
 
-        _ = Assert.Single(_provider.Architecture.Namespaces);
+        _ = await Assert.That(_provider.Architecture.Namespaces).HasSingleItem();
     }
 
-    [SkippableFact]
-    public void Instance_TypesNotEmpty_Expected()
+    [Test]
+    public async ValueTask Instance_TypesNotEmpty_Expected()
     {
-        Skip.If(IsOperationSystemUnsupported, "Operation system is not supported.");
-        Skip.If(_disableTypesCheck, "Types check is disabled.");
+        Skip.When(IsOperationSystemUnsupported, "Operation system is not supported.");
+        Skip.When(_disableTypesCheck, "Types check is disabled.");
 
-        Assert.NotEmpty(_provider.Architecture.Types);
+        _ = await Assert.That(_provider.Architecture.Types).IsNotEmpty();
     }
 
-    [SkippableFact]
+    [Test]
     public async Task Verify_Members()
     {
-        Skip.If(IsOperationSystemUnsupported, "Operation system is not supported.");
-        Skip.If(_disableMembersCheck, "Members check is disabled.");
+        Skip.When(IsOperationSystemUnsupported, "Operation system is not supported.");
+        Skip.When(_disableMembersCheck, "Members check is disabled.");
         var members = _provider.Architecture.Members;
-        Skip.If(members.Count == 0, "Members are empty.");
+        Skip.When(members.Count == 0, "Members are empty.");
 
-        _ = await Verify(members);
+        _ = await Verify(members).IgnoreParameters();
     }
 
-    [SkippableFact]
+    [Test]
     public async Task Verify_Types()
     {
-        Skip.If(IsOperationSystemUnsupported, "Operation system is not supported.");
-        Skip.If(_disableTypesCheck, "Types check is disabled.");
+        Skip.When(IsOperationSystemUnsupported, "Operation system is not supported.");
+        Skip.When(_disableTypesCheck, "Types check is disabled.");
         var types = _provider.Architecture.Types;
-        Skip.If(types.Count == 0, "Types are empty.");
+        Skip.When(types.Count == 0, "Types are empty.");
 
-        _ = await Verify(types);
+        _ = await Verify(types).IgnoreParameters();
     }
 }

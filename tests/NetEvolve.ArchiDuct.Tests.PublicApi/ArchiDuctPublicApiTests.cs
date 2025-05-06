@@ -10,12 +10,10 @@ using System.Runtime.CompilerServices;
 using System.Runtime.Versioning;
 using System.Threading.Tasks;
 using PublicApiGenerator;
-using VerifyXunit;
-using Xunit;
 
 public class ArchiDuctPublicApiTests
 {
-    [Fact]
+    [Test]
     public Task PublicApi_HasNotChanged_Expected()
     {
         var assembly = typeof(ArchitectureCollector).Assembly;
@@ -44,6 +42,11 @@ public class ArchiDuctPublicApiTests
 
     private static bool IsVisibleToIntelliSense(Type type)
     {
+        if (type.FullName!.Contains("AssemblyLoader", StringComparison.OrdinalIgnoreCase))
+        {
+            return false;
+        }
+
         var browsable = type.GetCustomAttribute<BrowsableAttribute>();
         if (browsable is null || browsable.Browsable)
         {

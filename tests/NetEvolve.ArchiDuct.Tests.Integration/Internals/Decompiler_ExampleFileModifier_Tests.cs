@@ -3,6 +3,8 @@
 using System.Runtime.InteropServices;
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
+[InheritsTests]
+[ClassDataSource<FileModifierTypeProvider>(Shared = SharedType.PerClass)]
 public class Decompiler_ExampleFileModifier_Tests(FileModifierTypeProvider provider)
     : TestCaseBase<FileModifierTypeProvider>(
         provider,

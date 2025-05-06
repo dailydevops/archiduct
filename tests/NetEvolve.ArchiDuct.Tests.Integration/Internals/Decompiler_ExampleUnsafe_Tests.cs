@@ -3,6 +3,8 @@
 using System;
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
+[InheritsTests]
+[ClassDataSource<UnsafeClassTypeProvider>(Shared = SharedType.PerClass)]
 public class Decompiler_ExampleUnsafe_Tests(UnsafeClassTypeProvider provider)
     : TestCaseBase<UnsafeClassTypeProvider>(provider) { }
 

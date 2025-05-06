@@ -3,7 +3,7 @@
 using System.IO;
 using System.Runtime.CompilerServices;
 using VerifyTests;
-using VerifyXunit;
+using VerifyTUnit;
 
 internal static class Predefined
 {

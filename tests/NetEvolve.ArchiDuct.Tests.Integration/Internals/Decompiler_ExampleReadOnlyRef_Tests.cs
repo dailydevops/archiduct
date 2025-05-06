@@ -3,6 +3,8 @@
 using System;
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
+[InheritsTests]
+[ClassDataSource<ConversionRequestTypeProvider>(Shared = SharedType.PerClass)]
 public class Decompiler_ExampleReadOnlyRef_Tests(ConversionRequestTypeProvider provider)
     : TestCaseBase<ConversionRequestTypeProvider>(provider) { }
 

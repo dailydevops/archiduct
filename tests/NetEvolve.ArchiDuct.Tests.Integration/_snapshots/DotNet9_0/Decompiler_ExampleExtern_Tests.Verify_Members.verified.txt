@@ -1,0 +1,79 @@
+﻿{
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32): {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute,
+        Id: T:System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute,
+        Kind: Attribute,
+        Name: DefaultDllImportSearchPathsAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.DllImportAttribute,
+        Id: T:System.Runtime.InteropServices.DllImportAttribute,
+        Kind: Attribute,
+        Name: DllImportAttribute
+      }
+    ],
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32),
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32),
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Static,
+      Extern
+    ],
+    Name: MessageBox,
+    Parameters: [
+      {
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32).h,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32).h,
+        Kind: Parameter,
+        Name: h,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32),
+        Type: {
+          Id: T:nint,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32).m,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32).m,
+        Kind: Parameter,
+        Name: m,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32),
+        Type: {
+          Id: T:System.String,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32).c,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32).c,
+        Kind: Parameter,
+        Name: c,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32),
+        Type: {
+          Id: T:System.String,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32).type,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32).type,
+        Kind: Parameter,
+        Name: type,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest.MessageBox(nint,System.String,System.String,System.Int32),
+        Type: {
+          Id: T:System.Int32,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExternTest,
+    Type: {
+      Id: T:System.Int32,
+      IsNullable: false
+    }
+  }
+}

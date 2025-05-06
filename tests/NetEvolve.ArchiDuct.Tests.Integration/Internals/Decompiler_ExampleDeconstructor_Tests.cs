@@ -2,6 +2,8 @@
 
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
+[InheritsTests]
+[ClassDataSource<DeconstructorTypeProvider>(Shared = SharedType.PerClass)]
 public class Decompiler_ExampleDeconstructor_Tests(DeconstructorTypeProvider provider)
     : TestCaseBase<DeconstructorTypeProvider>(provider) { }
 

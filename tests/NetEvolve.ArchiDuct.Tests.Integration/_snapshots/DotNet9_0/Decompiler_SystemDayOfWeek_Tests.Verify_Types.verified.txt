@@ -1,0 +1,78 @@
+﻿{
+  System.Private.CoreLib, Version=x.x.x.x, T:System.DayOfWeek: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      }
+    ],
+    BaseTypes: [
+      T:System.Enum,
+      T:System.ValueType,
+      T:System.Object
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.DayOfWeek,
+    Id: T:System.DayOfWeek,
+    IsNested: false,
+    Kind: Enum,
+    Members: [
+      F:System.DayOfWeek.Sunday,
+      F:System.DayOfWeek.Monday,
+      F:System.DayOfWeek.Tuesday,
+      F:System.DayOfWeek.Wednesday,
+      F:System.DayOfWeek.Thursday,
+      F:System.DayOfWeek.Friday,
+      F:System.DayOfWeek.Saturday,
+      M:System.DayOfWeek.#ctor
+    ],
+    Name: DayOfWeek,
+    NamespaceId: N:System,
+    ParentId: N:System,
+    UnderlyingType: T:System.Int32
+  }
+}

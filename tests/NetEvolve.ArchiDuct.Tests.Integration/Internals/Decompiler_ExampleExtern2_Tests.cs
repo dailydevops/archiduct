@@ -4,6 +4,8 @@ using System;
 using System.Runtime.InteropServices;
 using NetEvolve.ArchiDuct.Tests.Integration._internals;
 
+[InheritsTests]
+[ClassDataSource<Extern2ClassTypeProvider>(Shared = SharedType.PerClass)]
 public class Decompiler_ExampleExtern2_Tests(Extern2ClassTypeProvider provider)
     : TestCaseBase<Extern2ClassTypeProvider>(provider) { }
 

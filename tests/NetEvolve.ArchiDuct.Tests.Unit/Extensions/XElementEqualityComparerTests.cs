@@ -2,12 +2,11 @@
 
 using System.Xml.Linq;
 using NetEvolve.ArchiDuct.Extensions;
-using Xunit;
 
 public class XElementEqualityComparerTests
 {
-    [Fact]
-    public void Equals_WhenXAndYAreNull_ReturnsTrue()
+    [Test]
+    public async Task Equals_WhenXAndYAreNull_ReturnsTrue()
     {
         // Arrange
         XElement? x = null;
@@ -17,11 +16,11 @@ public class XElementEqualityComparerTests
         var result = XElementEqualityComparer.Instance.Equals(x, y);
 
         // Assert
-        Assert.True(result);
+        _ = await Assert.That(result).IsTrue();
     }
 
-    [Fact]
-    public void Equals_WhenXIsNullAndYIsNotNull_ReturnsFalse()
+    [Test]
+    public async Task Equals_WhenXIsNullAndYIsNotNull_ReturnsFalse()
     {
         // Arrange
         XElement? x = null;
@@ -31,11 +30,11 @@ public class XElementEqualityComparerTests
         var result = XElementEqualityComparer.Instance.Equals(x, y);
 
         // Assert
-        Assert.False(result);
+        _ = await Assert.That(result).IsFalse();
     }
 
-    [Fact]
-    public void Equals_WhenXIsNotNullAndYIsNull_ReturnsFalse()
+    [Test]
+    public async Task Equals_WhenXIsNotNullAndYIsNull_ReturnsFalse()
     {
         // Arrange
         var x = new XElement("element");
@@ -45,11 +44,11 @@ public class XElementEqualityComparerTests
         var result = XElementEqualityComparer.Instance.Equals(x, y);
 
         // Assert
-        Assert.False(result);
+        _ = await Assert.That(result).IsFalse();
     }
 
-    [Fact]
-    public void Equals_WhenXAndYAreSameInstance_ReturnsTrue()
+    [Test]
+    public async Task Equals_WhenXAndYAreSameInstance_ReturnsTrue()
     {
         // Arrange
         var x = new XElement("element");
@@ -59,11 +58,11 @@ public class XElementEqualityComparerTests
         var result = XElementEqualityComparer.Instance.Equals(x, y);
 
         // Assert
-        Assert.True(result);
+        _ = await Assert.That(result).IsTrue();
     }
 
-    [Fact]
-    public void Equals_WhenXAndYHaveDifferentNames_ReturnsFalse()
+    [Test]
+    public async Task Equals_WhenXAndYHaveDifferentNames_ReturnsFalse()
     {
         // Arrange
         var x = new XElement("element1");
@@ -73,11 +72,11 @@ public class XElementEqualityComparerTests
         var result = XElementEqualityComparer.Instance.Equals(x, y);
 
         // Assert
-        Assert.False(result);
+        _ = await Assert.That(result).IsFalse();
     }
 
-    [Fact]
-    public void Equals_WhenXAndYHaveDifferentAttributes_ReturnsFalse()
+    [Test]
+    public async Task Equals_WhenXAndYHaveDifferentAttributes_ReturnsFalse()
     {
         // Arrange
         var x = new XElement("element", new XAttribute("attr1", "value1"));
@@ -87,11 +86,11 @@ public class XElementEqualityComparerTests
         var result = XElementEqualityComparer.Instance.Equals(x, y);
 
         // Assert
-        Assert.False(result);
+        _ = await Assert.That(result).IsFalse();
     }
 
-    [Fact]
-    public void Equals_WhenXAndYHaveDifferentElements_ReturnsFalse()
+    [Test]
+    public async Task Equals_WhenXAndYHaveDifferentElements_ReturnsFalse()
     {
         // Arrange
         var x = new XElement("element", new XElement("child1"));
@@ -101,11 +100,11 @@ public class XElementEqualityComparerTests
         var result = XElementEqualityComparer.Instance.Equals(x, y);
 
         // Assert
-        Assert.False(result);
+        _ = await Assert.That(result).IsFalse();
     }
 
-    [Fact]
-    public void Equals_WhenXAndYAreEqual_ReturnsTrue()
+    [Test]
+    public async Task Equals_WhenXAndYAreEqual_ReturnsTrue()
     {
         // Arrange
         var x = new XElement("element", new XAttribute("attr", "value"), new XElement("child"));
@@ -115,11 +114,11 @@ public class XElementEqualityComparerTests
         var result = XElementEqualityComparer.Instance.Equals(x, y);
 
         // Assert
-        Assert.True(result);
+        _ = await Assert.That(result).IsTrue();
     }
 
-    [Fact]
-    public void GetHashCode_WhenXIsNull_ReturnsDefaultHashCode()
+    [Test]
+    public async Task GetHashCode_WhenXIsNull_ReturnsDefaultHashCode()
     {
         // Arrange
         XElement? x = null;
@@ -128,11 +127,11 @@ public class XElementEqualityComparerTests
         var hashCode = XElementEqualityComparer.Instance.GetHashCode(x);
 
         // Assert
-        Assert.Equal(default, hashCode);
+        _ = await Assert.That(hashCode).IsEqualTo(default);
     }
 
-    [Fact]
-    public void GetHashCode_WhenXIsNotNull_ReturnsXHashCode()
+    [Test]
+    public async Task GetHashCode_WhenXIsNotNull_ReturnsXHashCode()
     {
         // Arrange
         var x = new XElement("element");
@@ -141,6 +140,6 @@ public class XElementEqualityComparerTests
         var hashCode = XElementEqualityComparer.Instance.GetHashCode(x);
 
         // Assert
-        Assert.Equal(x.GetHashCode(), hashCode);
+        _ = await Assert.That(hashCode).IsEqualTo(x.GetHashCode());
     }
 }
