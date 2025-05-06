@@ -38,8 +38,12 @@ public interface IArchitectureCollector
     /// <returns>
     /// The current instance of the <see cref="IArchitectureCollector"/>.
     /// </returns>
-    IArchitectureCollector AddAssembly([NotNull] Type type, bool includeReferences = false) =>
-        AddAssembly(type.Assembly, includeReferences);
+    IArchitectureCollector AddAssembly([NotNull] Type type, bool includeReferences = false)
+    {
+        ArgumentNullException.ThrowIfNull(type);
+
+        return AddAssembly(type.Assembly, includeReferences);
+    }
 
     /// <summary>
     /// Adds the assembly of the given type to the list of assemblies to be collected.
