@@ -236,6 +236,8 @@ public class ArchitectureCollectorTests
     }
 }
 
+
+#pragma warning disable CA1812 // CA1812: Avoid uninstantiated internal classes
 internal sealed partial class GetTypeFullNameTestClass
 {
     internal sealed partial class NestedClass1
@@ -243,3 +245,4 @@ internal sealed partial class GetTypeFullNameTestClass
         internal sealed partial class NestedClass2;
     }
 }
+#pragma warning restore CA1812 // CA1812: Avoid uninstantiated internal classes
