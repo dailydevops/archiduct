@@ -197,7 +197,7 @@ internal static class ModelFactory
                             new ModelAttribute(
                                 attribute,
                                 attributeTypeDefinition,
-                                GetDocumentation(typeDefinition.GetIdString(), resolver)
+                                GetDocumentation(attributeTypeDefinition.GetIdString(), resolver)
                             )
                         );
                     }
@@ -454,40 +454,7 @@ internal static class ModelFactory
         return entityName.Length > 1 && typeDefinition.Name.StartsWith('<');
     }
 
-    private static bool TryGetDocFromBaseClass(
-        IEntity entity,
-        ITypeResolveContext resolver,
-        [NotNullWhen(true)] out XElement? baseDocumentation
-    )
-    {
-        XElement? resultDocumentation = null;
-        var result =
-            entity is ITypeDefinition typeDefinition
-            && typeDefinition
-                .EnumerateBaseTypeDefinitions()
-                .Any(type => TryGetDocumentation(type, resolver, out resultDocumentation));
-        baseDocumentation = resultDocumentation;
-        return result;
-    }
-
-    private static bool TryGetDocFromExplicit(
-        IEntity entity,
-        ITypeResolveContext resolver,
-        [NotNullWhen(true)] out XElement? baseDocumentation
-    )
-    {
-        XElement? resultDocumentation = null;
-        var result =
-            entity is IMember member
-            && member.IsExplicitInterfaceImplementation
-            && member.ExplicitlyImplementedInterfaceMembers.Any(type =>
-                TryGetDocumentation(type, resolver, out resultDocumentation)
-            );
-        baseDocumentation = resultDocumentation;
-        return result;
-    }
-
-    private static bool TryGetDocFromInterface(
+    private static bool TryGetDocumentationFromBaseType(
         IEntity entity,
         ITypeResolveContext resolver,
         [NotNullWhen(true)] out XElement? baseDocumentation
@@ -495,36 +462,59 @@ internal static class ModelFactory
     {
         XElement? resultDocumentation = null;
         var result = false;
-        if (entity is IMember member)
+
+        if (entity is IMethod method && method.DeclaringTypeDefinition is not null)
         {
-            var parent = member.DeclaringTypeDefinition!.FullName;
-            var entityId = member.GetIdString();
-            var typeDefinition = member.DeclaringTypeDefinition;
+            foreach (var baseType in method.DeclaringTypeDefinition.EnumerateBaseTypeDefinitions())
+            {
+                var lookupId = method
+                    .GetIdString()
+                    .Replace(method.DeclaringTypeDefinition.FullName, baseType.FullName, OrdinalIgnoreCase);
+                result = TryResolveDocumentationFromReference(lookupId, resolver, out resultDocumentation);
 
-            result =
-                typeDefinition is not null
-                && typeDefinition
-                    .EnumerateBaseTypeDefinitions()
-                    .Any(type =>
-                    {
-                        if (type.Kind != TypeKind.Interface)
-                        {
-                            return false;
-                        }
+                if (result)
+                {
+                    break;
+                }
+            }
+        }
+        else if (entity is ITypeDefinition typeDefinition)
+        {
+            result = typeDefinition
+                .EnumerateBaseTypeDefinitions()
+                .Any(type => TryGetDocumentation(type, resolver, out resultDocumentation));
+        }
+        baseDocumentation = resultDocumentation;
+        return result;
+    }
 
-                        _ = TryGetDocumentationProvider(type.ParentModule!, out _);
+    private static bool TryGetDocumentationFromExplicitInterfaceImplementation(
+        IEntity entity,
+        ITypeResolveContext resolver,
+        [NotNullWhen(true)] out XElement? baseDocumentation
+    )
+    {
+        XElement? resultDocumentation = null;
+        var result = false;
 
-                        var lookupId = entityId.Replace(parent, type.FullName, OrdinalIgnoreCase);
-                        resultDocumentation = GetDocumentation(lookupId, resolver);
-                        return resultDocumentation is not null;
-                    });
+        if (entity is IMember member && member.IsExplicitInterfaceImplementation)
+        {
+            foreach (var implementedMember in member.ExplicitlyImplementedInterfaceMembers)
+            {
+                result = TryGetDocumentation(implementedMember.MemberDefinition, resolver, out resultDocumentation);
+
+                if (result)
+                {
+                    break;
+                }
+            }
         }
 
         baseDocumentation = resultDocumentation;
         return result;
     }
 
-    private static bool TryGetDocFromReference(
+    private static bool TryResolveDocumentationFromReference(
         string? reference,
         ITypeResolveContext resolver,
         [NotNullWhen(true)] out XElement? baseDocumentation
@@ -570,23 +560,18 @@ internal static class ModelFactory
             return false;
         }
 
-        var result = ConvertToDocumentation(documentationProvider.GetDocumentation(entity));
+        var documentationString = documentationProvider.GetDocumentation(entity);
+        var result = ConvertToDocumentation(documentationString);
 
-        if (result is null)
-        {
-            return false;
-        }
-
-        if (result.HasInheritDoc(out var inheritedDocumentation))
+        if (result.HasInheritDoc(out var inheritedDocumentation) || entity.HasDerivedImplementations())
         {
             var reference = inheritedDocumentation.GetCRefAttribute();
-            inheritedDocumentation.Remove();
+            inheritedDocumentation?.Remove();
 
             if (
-                TryGetDocFromReference(reference, resolver, out var baseDocumentation)
-                || TryGetDocFromExplicit(entity, resolver, out baseDocumentation)
-                || TryGetDocFromBaseClass(entity, resolver, out baseDocumentation)
-                || TryGetDocFromInterface(entity, resolver, out baseDocumentation)
+                TryResolveDocumentationFromReference(reference, resolver, out var baseDocumentation)
+                || TryGetDocumentationFromExplicitInterfaceImplementation(entity, resolver, out baseDocumentation)
+                || TryGetDocumentationFromBaseType(entity, resolver, out baseDocumentation)
             )
             {
                 result = baseDocumentation.Merge(result, _ignoredElements);

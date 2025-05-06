@@ -44,6 +44,11 @@ public sealed class ModelDocumentation
         Returns = returns;
     }
 
+    internal bool IsValid() =>
+        !string.IsNullOrWhiteSpace(Summary)
+        || !string.IsNullOrWhiteSpace(Remarks)
+        || !string.IsNullOrWhiteSpace(Returns);
+
     internal static ModelDocumentation? Default(XElement? doc) => doc is not null ? new ModelDocumentation(doc) : null;
 
     internal static ModelDocumentation? LoadParameter(ModelDocumentation? parent, string name)
@@ -53,7 +58,7 @@ public sealed class ModelDocumentation
             return null;
         }
 
-        var doc = new ModelDocumentation(
+        return new ModelDocumentation(
             parent._documentation,
             GetElements(parent._documentation, DocumentationXmlPropertyConstants.Param)
                 ?.FirstOrDefault(p =>
@@ -61,8 +66,6 @@ public sealed class ModelDocumentation
                 )
                 .GetElementValue()
         );
-
-        return doc;
     }
 
     internal static ModelDocumentation? LoadTypeParameter(ModelDocumentation? parent, string name)
@@ -72,7 +75,7 @@ public sealed class ModelDocumentation
             return null;
         }
 
-        var doc = new ModelDocumentation(
+        return new ModelDocumentation(
             parent._documentation,
             GetElements(parent._documentation, DocumentationXmlPropertyConstants.TypeParam)
                 ?.FirstOrDefault(p =>
@@ -80,8 +83,6 @@ public sealed class ModelDocumentation
                 )
                 .GetElementValue()
         );
-
-        return doc;
     }
 
     /// <summary>

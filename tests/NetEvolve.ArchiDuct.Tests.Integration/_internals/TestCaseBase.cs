@@ -3,11 +3,13 @@
 using System;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
+using NetEvolve.ArchiDuct.Models;
 
 public abstract class TestCaseBase<TTypeProvider>(
     TTypeProvider provider,
     bool disableMembersCheck = false,
     bool disableTypesCheck = false,
+    bool enableDocumentationCheck = false,
     OSPlatform[]? operationSystems = null
 )
     where TTypeProvider : notnull, TypeProviderBase
@@ -15,6 +17,7 @@ public abstract class TestCaseBase<TTypeProvider>(
     private protected readonly TTypeProvider _provider = provider;
     private readonly bool _disableMembersCheck = disableMembersCheck;
     private readonly bool _disableTypesCheck = disableTypesCheck;
+    private readonly bool _enableDocumentationCheck = enableDocumentationCheck;
     private readonly OSPlatform[]? _operationSystems = operationSystems;
 
     protected bool IsOperationSystemUnsupported =>
@@ -62,7 +65,14 @@ public abstract class TestCaseBase<TTypeProvider>(
         var members = _provider.Architecture.Members;
         Skip.When(members.Count == 0, "Members are empty.");
 
-        _ = await Verify(members).IgnoreParameters();
+        var verify = Verify(members).IgnoreParameters();
+
+        if (_enableDocumentationCheck)
+        {
+            verify = verify.IgnoreMembersWithType<ModelAttribute>().AlwaysIncludeMembersWithType<ModelDocumentation>();
+        }
+
+        _ = await verify;
     }
 
     [Test]
@@ -73,6 +83,13 @@ public abstract class TestCaseBase<TTypeProvider>(
         var types = _provider.Architecture.Types;
         Skip.When(types.Count == 0, "Types are empty.");
 
-        _ = await Verify(types).IgnoreParameters();
+        var verify = Verify(types).IgnoreParameters();
+
+        if (_enableDocumentationCheck)
+        {
+            verify = verify.IgnoreMembersWithType<ModelAttribute>().AlwaysIncludeMembersWithType<ModelDocumentation>();
+        }
+
+        _ = await verify;
     }
 }

@@ -8,10 +8,12 @@ using NetEvolve.ArchiDuct.Models;
 /// </summary>
 public abstract class ModelBase
 {
+    private readonly ModelDocumentation? _documentation;
+
     /// <summary>
     /// Gets the xml for the described object.
     /// </summary>
-    public ModelDocumentation? Documentation { get; }
+    public ModelDocumentation? Documentation => _documentation?.IsValid() == true ? _documentation : null;
 
     /// <summary>
     /// Gets the fully qualified name of the class the return type is pointing to.
@@ -48,6 +50,6 @@ public abstract class ModelBase
         Name = name;
         FullName = fullName;
 
-        Documentation = doc;
+        _documentation = doc;
     }
 }
