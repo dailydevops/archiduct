@@ -16,10 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Solution.props = Directory.Solution.props
 		GitVersion.yml = GitVersion.yml
 		LICENSE = LICENSE
-		new-project.ps1 = new-project.ps1
 		nuget.config = nuget.config
 		README.md = README.md
-		update-solution.ps1 = update-solution.ps1
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{21AE3C2F-9B31-4DFF-97ED-F1DF42186E96}"
