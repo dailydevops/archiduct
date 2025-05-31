@@ -5,7 +5,8 @@ using System.Xml.Linq;
 internal sealed class XAttributeEqualityComparer : IEqualityComparer<XAttribute?>
 {
     private static readonly Lazy<IEqualityComparer<XAttribute?>> _instance = new Lazy<IEqualityComparer<XAttribute?>>(
-        () => new XAttributeEqualityComparer()
+        () =>
+            new XAttributeEqualityComparer()
     );
 
     public static IEqualityComparer<XAttribute?> Instance => _instance.Value;
