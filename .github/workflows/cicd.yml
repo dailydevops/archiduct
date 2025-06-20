@@ -22,7 +22,7 @@ jobs:
   all:
     if: github.run_id != 1
     name: Build & Tests
-    uses: dailydevops/pipelines/.github/workflows/cicd-dotnet.yml@0.14.82
+    uses: dailydevops/pipelines/.github/workflows/cicd-dotnet.yml@1.0.1
     with:
       disablePublish: true
       dotnet-logging: ${{ inputs.dotnet-logging }}
