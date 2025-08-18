@@ -22,10 +22,9 @@ jobs:
   all:
     if: github.run_id != 1
     name: Build & Tests
-    uses: dailydevops/pipelines/.github/workflows/cicd-dotnet.yml@0.14.82
+    uses: dailydevops/pipelines/.github/workflows/build-dotnet-single.yml@1.0.8
     with:
-      disablePublish: true
-      dotnet-logging: ${{ inputs.dotnet-logging }}
-      dotnet-version: ${{ vars.NE_DOTNET_TARGETFRAMEWORKS }}
+      dotnetLogging: ${{ inputs.dotnet-logging || 'minimal' }}
+      dotnetVersion: ${{ vars.NE_DOTNET_TARGETFRAMEWORKS }}
       solution: ./ArchiDuct.sln
     secrets: inherit

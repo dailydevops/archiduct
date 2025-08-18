@@ -16,7 +16,7 @@ public sealed class SkipCIAttribute : SkipAttribute
     public SkipCIAttribute()
         : base("Disabled in CI for now.") { }
 
-    public override Task<bool> ShouldSkip(BeforeTestContext context) =>
+    public override Task<bool> ShouldSkip(TestRegisteredContext context) =>
         Task.FromResult(
             Environment.GetEnvironmentVariable("CI") is string ci
                 && ci.Equals("true", StringComparison.OrdinalIgnoreCase)
