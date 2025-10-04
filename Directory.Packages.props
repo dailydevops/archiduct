@@ -28,7 +28,7 @@
     <PackageVersion Include="PublicApiGenerator" Version="11.4.6" />
     <PackageVersion Include="TngTech.ArchUnitNET.xUnit" Version="0.11.4" />
     <PackageVersion Include="TUnit" Version="0.63.3" />
-    <PackageVersion Include="Verify.TUnit" Version="30.19.2" />
+    <PackageVersion Include="Verify.TUnit" Version="30.20.0" />
     <PackageVersion Include="Verify.Xunit" Version="30.7.3" />
     <PackageVersion Include="xunit" Version="2.9.3" />
     <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.5" />
