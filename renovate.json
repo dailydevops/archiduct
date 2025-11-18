@@ -1,0 +1,43 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    ":disableDependencyDashboard",
+    ":automergeMinor",
+    ":automergePatch",
+    ":rebaseStalePrs"
+  ],
+  "ignorePresets": [
+    "group:monorepos"
+  ],
+  "automergeType": "pr",
+  "automergeStrategy": "squash",
+  "enabledManagers": [
+    "nuget",
+    "custom.regex"
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/\\.csproj$/"
+      ],
+      "matchStrings": [
+        "<PackageReference\\s+Include=\"(?<depName>[^\"]+)\"\\s+Version=\"\\[(?<currentValue>[^,]+),.*\""
+      ],
+      "datasourceTemplate": "nuget",
+      "versioningTemplate": "nuget"
+    }
+  ],
+  "packageRules": [
+    {
+      "matchManagers": [
+        "nuget",
+        "custom.regex"
+      ],
+      "labels": [
+        "dependency:nuget"
+      ]
+    }
+  ]
+}
