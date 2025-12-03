@@ -1,0 +1,208 @@
+﻿{
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String): {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String),
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String),
+    Kind: Constructor,
+    Name: .ctor,
+    Parameters: [
+      {
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).fname,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).fname,
+        Kind: Parameter,
+        Name: fname,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).lname,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).lname,
+        Kind: Parameter,
+        Name: lname,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).cityName,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).cityName,
+        Kind: Parameter,
+        Name: cityName,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).stateName,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String).stateName,
+        Kind: Parameter,
+        Name: stateName,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.#ctor(System.String,System.String,System.String,System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@): {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@),
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@),
+    Kind: Deconstructor,
+    Name: Deconstruct,
+    OverloadedMembers: [
+      M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@)
+    ],
+    Parameters: [
+      {
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@).fname,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@).fname,
+        Kind: Parameter,
+        Modifiers: [
+          Out
+        ],
+        Name: fname,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@),
+        Type: {
+          Id: T:System.String&,
+          IsNullable: false
+        }
+      },
+      {
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@).lname,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@).lname,
+        Kind: Parameter,
+        Modifiers: [
+          Out
+        ],
+        Name: lname,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@),
+        Type: {
+          Id: T:System.String&,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample,
+    Type: {
+      Id: T:System.Void,
+      IsNullable: false
+    }
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@): {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@),
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@),
+    Kind: Deconstructor,
+    Name: Deconstruct,
+    OverloadedMembers: [
+      M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@,System.String@)
+    ],
+    Parameters: [
+      {
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@).fullName,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@).fullName,
+        Kind: Parameter,
+        Modifiers: [
+          Out
+        ],
+        Name: fullName,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.Deconstruct(System.String@),
+        Type: {
+          Id: T:System.String&,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample,
+    Type: {
+      Id: T:System.Void,
+      IsNullable: false
+    }
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.FirstName: {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.FirstName,
+    Getter: {
+      Accessibility: Public,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.get_FirstName,
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.get_FirstName,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_FirstName,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample,
+      Type: {
+        Id: T:System.String,
+        IsNullable: false
+      }
+    },
+    Id: P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.FirstName,
+    Kind: Property,
+    Name: FirstName,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample,
+    Setter: {
+      Accessibility: Public,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.set_FirstName(System.String),
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.set_FirstName(System.String),
+      IsLocal: false,
+      Kind: Method,
+      Name: set_FirstName,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample,
+      Type: {
+        Id: T:System.Void,
+        IsNullable: false
+      }
+    },
+    Type: {
+      Id: T:System.String,
+      IsNullable: false
+    }
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.LastName: {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.LastName,
+    Getter: {
+      Accessibility: Public,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.get_LastName,
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.get_LastName,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_LastName,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample,
+      Type: {
+        Id: T:System.String,
+        IsNullable: false
+      }
+    },
+    Id: P:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.LastName,
+    Kind: Property,
+    Name: LastName,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample,
+    Setter: {
+      Accessibility: Public,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.set_LastName(System.String),
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample.set_LastName(System.String),
+      IsLocal: false,
+      Kind: Method,
+      Name: set_LastName,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DeconstructorExample,
+      Type: {
+        Id: T:System.Void,
+        IsNullable: false
+      }
+    },
+    Type: {
+      Id: T:System.String,
+      IsNullable: false
+    }
+  }
+}

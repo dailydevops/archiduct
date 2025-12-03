@@ -1,0 +1,52 @@
+﻿{
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Left: {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Left,
+    Id: F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Left,
+    Kind: Field,
+    Modifiers: [
+      Unsafe
+    ],
+    Name: Left,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3,
+    Type: {
+      Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3*,
+      IsNullable: false
+    }
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Right: {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Right,
+    Id: F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Right,
+    Kind: Field,
+    Modifiers: [
+      Unsafe
+    ],
+    Name: Right,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3,
+    Type: {
+      Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3*,
+      IsNullable: false
+    }
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Value: {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Value,
+    Id: F:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.Value,
+    Kind: Field,
+    Name: Value,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3,
+    Type: {
+      Id: T:System.Int32,
+      IsNullable: false
+    }
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.#ctor: {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.#ctor,
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3.#ctor,
+    Kind: Constructor,
+    Name: .ctor,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest3
+  }
+}

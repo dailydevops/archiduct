@@ -1,0 +1,35 @@
+﻿{
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FileModifier.#ctor: {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FileModifier.#ctor,
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FileModifier.#ctor,
+    Kind: Constructor,
+    Name: .ctor,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FileModifier
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FileModifier.Counter: {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, P:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FileModifier.Counter,
+    Getter: {
+      Accessibility: Public,
+      FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FileModifier.get_Counter,
+      Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FileModifier.get_Counter,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_Counter,
+      ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FileModifier,
+      Type: {
+        Id: T:System.Int32,
+        IsNullable: false
+      }
+    },
+    Id: P:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FileModifier.Counter,
+    Kind: Property,
+    Name: Counter,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FileModifier,
+    Type: {
+      Id: T:System.Int32,
+      IsNullable: false
+    }
+  }
+}

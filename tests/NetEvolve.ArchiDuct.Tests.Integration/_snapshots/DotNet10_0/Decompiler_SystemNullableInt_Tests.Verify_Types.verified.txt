@@ -1,0 +1,115 @@
+﻿{
+  System.Private.CoreLib, Version=x.x.x.x, T:System.Nullable`1: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Id: T:System.Runtime.CompilerServices.TypeForwardedFromAttribute,
+        Kind: Attribute,
+        Name: TypeForwardedFromAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Id: T:System.Runtime.InteropServices.ClassInterfaceAttribute,
+        Kind: Attribute,
+        Name: ClassInterfaceAttribute
+      },
+      {
+        FullName: System.Runtime.InteropServices.ComVisibleAttribute,
+        Id: T:System.Runtime.InteropServices.ComVisibleAttribute,
+        Kind: Attribute,
+        Name: ComVisibleAttribute
+      },
+      {
+        FullName: System.Runtime.Versioning.NonVersionableAttribute,
+        Id: T:System.Runtime.Versioning.NonVersionableAttribute,
+        Kind: Attribute,
+        Name: NonVersionableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      },
+      {
+        FullName: System.SerializableAttribute,
+        Id: T:System.SerializableAttribute,
+        Kind: Attribute,
+        Name: SerializableAttribute
+      }
+    ],
+    BaseTypes: [
+      T:System.ValueType,
+      T:System.Object
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.Nullable`1,
+    Id: T:System.Nullable`1,
+    InheritedMembers: [
+      M:System.ValueType.Equals(System.Object),
+      M:System.ValueType.CanCompareBitsOrUseFastGetHashCode(System.Runtime.CompilerServices.MethodTable*),
+      M:System.ValueType.CanCompareBitsOrUseFastGetHashCodeHelper(System.Runtime.CompilerServices.MethodTable*),
+      M:System.ValueType.GetHashCode,
+      M:System.ValueType.GetHashCodeStrategy(System.Runtime.CompilerServices.MethodTable*,System.Runtime.CompilerServices.ObjectHandleOnStack,System.UInt32@,System.UInt32@,System.Runtime.CompilerServices.MethodTable*@),
+      M:System.ValueType.ToString,
+      M:System.ValueType.{CanCompareBitsOrUseFastGetHashCodeHelper}g____PInvoke|2_0(System.Runtime.CompilerServices.MethodTable*),
+      M:System.ValueType.{GetHashCodeStrategy}g____PInvoke|5_0(System.Runtime.CompilerServices.MethodTable*,System.Runtime.CompilerServices.ObjectHandleOnStack,System.UInt32*,System.UInt32*,System.Runtime.CompilerServices.MethodTable**),
+      M:System.Object.GetType,
+      M:System.Object.MemberwiseClone,
+      M:System.Object.Finalize,
+      M:System.Object.ToString,
+      M:System.Object.Equals(System.Object),
+      M:System.Object.Equals(System.Object,System.Object),
+      M:System.Object.ReferenceEquals(System.Object,System.Object),
+      M:System.Object.GetHashCode
+    ],
+    IsNested: false,
+    IsRecord: false,
+    Kind: Struct,
+    Members: [
+      F:System.Nullable`1.hasValue,
+      F:System.Nullable`1.value,
+      M:System.Nullable`1.#ctor(`0),
+      M:System.Nullable`1.GetValueOrDefault,
+      M:System.Nullable`1.GetValueOrDefault(`0),
+      M:System.Nullable`1.Equals(System.Object),
+      M:System.Nullable`1.GetHashCode,
+      M:System.Nullable`1.ToString,
+      M:System.Nullable`1.op_Implicit(`0)~System.Nullable{`0},
+      M:System.Nullable`1.op_Explicit(System.Nullable{`0})~`0,
+      M:System.Nullable`1.#ctor,
+      P:System.Nullable`1.HasValue,
+      P:System.Nullable`1.Value
+    ],
+    Name: Nullable,
+    NamespaceId: N:System,
+    ParentId: N:System,
+    TypeParameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, T:System.Nullable`1.T,
+        Id: T:System.Nullable`1.T,
+        Kind: TypeParameter,
+        Name: T,
+        ParentId: T:System.Nullable`1
+      }
+    ]
+  }
+}

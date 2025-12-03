@@ -1,0 +1,148 @@
+﻿{
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.#ctor: {
+    Accessibility: Public,
+    Documentation: null,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.#ctor,
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.#ctor,
+    Kind: Constructor,
+    Name: .ctor,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2): {
+    Accessibility: Public,
+    Documentation: {
+      Returns: <see langword="true" /> if the objects are considered equal; otherwise, <see langword="false" />. If both <paramref name="objA" /> and <paramref name="objB" /> are null, the method returns <see langword="true" />.,
+      Summary: Determines whether the specified object instances are considered equal.
+    },
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2),
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2),
+    IsLocal: false,
+    Kind: Method,
+    Name: Equals,
+    OverloadedMembers: [
+      M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(System.Object)
+    ],
+    Parameters: [
+      {
+        Documentation: null,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2).x,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2).x,
+        Kind: Parameter,
+        Name: x,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2),
+        Type: {
+          Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,
+          IsNullable: true
+        }
+      },
+      {
+        Documentation: null,
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2).y,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2).y,
+        Kind: Parameter,
+        Name: y,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2),
+        Type: {
+          Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,
+          IsNullable: true
+        }
+      }
+    ],
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,
+    Type: {
+      Id: T:System.Boolean,
+      IsNullable: false
+    }
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(System.Object): {
+    Accessibility: Public,
+    Documentation: {
+      Returns: <see langword="true" /> if the specified object  is equal to the current object; otherwise, <see langword="false" />.,
+      Summary: Determines whether the specified object is equal to the current object.
+    },
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(System.Object),
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(System.Object),
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Override
+    ],
+    Name: Equals,
+    OverloadedMembers: [
+      M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2)
+    ],
+    Parameters: [
+      {
+        Documentation: {
+          Summary: The object to compare with the current object.
+        },
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(System.Object).obj,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(System.Object).obj,
+        Kind: Parameter,
+        Name: obj,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.Equals(System.Object),
+        Type: {
+          Id: T:System.Object,
+          IsNullable: true
+        }
+      }
+    ],
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,
+    Type: {
+      Id: T:System.Boolean,
+      IsNullable: false
+    }
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.GetHashCode: {
+    Accessibility: Public,
+    Documentation: {
+      Returns: A hash code for the current object.,
+      Summary: Serves as the default hash function.
+    },
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.GetHashCode,
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.GetHashCode,
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Override
+    ],
+    Name: GetHashCode,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,
+    Type: {
+      Id: T:System.Int32,
+      IsNullable: false
+    }
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.System#Collections#Generic#IEqualityComparer{NetEvolve#ArchiDuct#Tests#Integration#Internals#DocumentatedClass2}#GetHashCode(NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2): {
+    Documentation: {
+      Returns: A hash code for the specified object.,
+      Summary: Returns a hash code for the specified object.
+    },
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.System#Collections#Generic#IEqualityComparer{NetEvolve#ArchiDuct#Tests#Integration#Internals#DocumentatedClass2}#GetHashCode(NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2),
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.System#Collections#Generic#IEqualityComparer{NetEvolve#ArchiDuct#Tests#Integration#Internals#DocumentatedClass2}#GetHashCode(NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2),
+    IsLocal: false,
+    Kind: ExplicitMethod,
+    Name: System.Collections.Generic.IEqualityComparer<NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2>.GetHashCode,
+    Parameters: [
+      {
+        Documentation: {
+          Summary: The <see cref="T:System.Object" /> for which a hash code is to be returned.
+        },
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.System#Collections#Generic#IEqualityComparer{NetEvolve#ArchiDuct#Tests#Integration#Internals#DocumentatedClass2}#GetHashCode(NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2).obj,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.System#Collections#Generic#IEqualityComparer{NetEvolve#ArchiDuct#Tests#Integration#Internals#DocumentatedClass2}#GetHashCode(NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2).obj,
+        Kind: Parameter,
+        Name: obj,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2.System#Collections#Generic#IEqualityComparer{NetEvolve#ArchiDuct#Tests#Integration#Internals#DocumentatedClass2}#GetHashCode(NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2),
+        Type: {
+          Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.DocumentatedClass2,
+    Type: {
+      Id: T:System.Int32,
+      IsNullable: false
+    }
+  }
+}

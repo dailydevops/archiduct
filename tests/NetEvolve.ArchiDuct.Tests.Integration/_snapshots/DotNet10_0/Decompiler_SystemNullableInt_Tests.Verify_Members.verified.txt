@@ -1,0 +1,324 @@
+﻿{
+  System.Private.CoreLib, Version=x.x.x.x, F:System.Nullable`1.hasValue: {
+    Accessibility: Private,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Nullable`1.hasValue,
+    Id: F:System.Nullable`1.hasValue,
+    Kind: Field,
+    Modifiers: [
+      ReadOnly
+    ],
+    Name: hasValue,
+    ParentId: T:System.Nullable`1,
+    Type: {
+      Id: T:System.Boolean,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=x.x.x.x, F:System.Nullable`1.value: {
+    Accessibility: Internal,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, F:System.Nullable`1.value,
+    Id: F:System.Nullable`1.value,
+    Kind: Field,
+    Name: value,
+    ParentId: T:System.Nullable`1,
+    Type: {
+      Id: T:System.Nullable`1.T,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.#ctor: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.#ctor,
+    Id: M:System.Nullable`1.#ctor,
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.Nullable`1.#ctor(`0)
+    ],
+    ParentId: T:System.Nullable`1
+  },
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.#ctor(`0): {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.Versioning.NonVersionableAttribute,
+        Id: T:System.Runtime.Versioning.NonVersionableAttribute,
+        Kind: Attribute,
+        Name: NonVersionableAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.#ctor(`0),
+    Id: M:System.Nullable`1.#ctor(`0),
+    Kind: Constructor,
+    Name: .ctor,
+    OverloadedMembers: [
+      M:System.Nullable`1.#ctor
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.#ctor(`0).value,
+        Id: M:System.Nullable`1.#ctor(`0).value,
+        Kind: Parameter,
+        Name: value,
+        ParentId: M:System.Nullable`1.#ctor(`0),
+        Type: {
+          Id: T:System.Nullable`1.T,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Nullable`1
+  },
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.Equals(System.Object): {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute,
+        Id: T:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute,
+        Kind: Attribute,
+        Name: UnconditionalSuppressMessageAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.Equals(System.Object),
+    Id: M:System.Nullable`1.Equals(System.Object),
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Override
+    ],
+    Name: Equals,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.Equals(System.Object).other,
+        Id: M:System.Nullable`1.Equals(System.Object).other,
+        Kind: Parameter,
+        Name: other,
+        ParentId: M:System.Nullable`1.Equals(System.Object),
+        Type: {
+          Id: T:System.Object,
+          IsNullable: true
+        }
+      }
+    ],
+    ParentId: T:System.Nullable`1,
+    Type: {
+      Id: T:System.Boolean,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.GetHashCode: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.GetHashCode,
+    Id: M:System.Nullable`1.GetHashCode,
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Override
+    ],
+    Name: GetHashCode,
+    ParentId: T:System.Nullable`1,
+    Type: {
+      Id: T:System.Int32,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.GetValueOrDefault: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.Versioning.NonVersionableAttribute,
+        Id: T:System.Runtime.Versioning.NonVersionableAttribute,
+        Kind: Attribute,
+        Name: NonVersionableAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.GetValueOrDefault,
+    Id: M:System.Nullable`1.GetValueOrDefault,
+    IsLocal: false,
+    Kind: Method,
+    Name: GetValueOrDefault,
+    OverloadedMembers: [
+      M:System.Nullable`1.GetValueOrDefault(`0)
+    ],
+    ParentId: T:System.Nullable`1,
+    Type: {
+      Id: T:System.Nullable`1.T,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.GetValueOrDefault(`0): {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.Versioning.NonVersionableAttribute,
+        Id: T:System.Runtime.Versioning.NonVersionableAttribute,
+        Kind: Attribute,
+        Name: NonVersionableAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.GetValueOrDefault(`0),
+    Id: M:System.Nullable`1.GetValueOrDefault(`0),
+    IsLocal: false,
+    Kind: Method,
+    Name: GetValueOrDefault,
+    OverloadedMembers: [
+      M:System.Nullable`1.GetValueOrDefault
+    ],
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.GetValueOrDefault(`0).defaultValue,
+        Id: M:System.Nullable`1.GetValueOrDefault(`0).defaultValue,
+        Kind: Parameter,
+        Name: defaultValue,
+        ParentId: M:System.Nullable`1.GetValueOrDefault(`0),
+        Type: {
+          Id: T:System.Nullable`1.T,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Nullable`1,
+    Type: {
+      Id: T:System.Nullable`1.T,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.op_Explicit(System.Nullable{`0})~`0: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.Versioning.NonVersionableAttribute,
+        Id: T:System.Runtime.Versioning.NonVersionableAttribute,
+        Kind: Attribute,
+        Name: NonVersionableAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.op_Explicit(System.Nullable{`0})~`0,
+    Id: M:System.Nullable`1.op_Explicit(System.Nullable{`0})~`0,
+    Kind: Operator,
+    Modifiers: [
+      Static
+    ],
+    Name: op_Explicit,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.op_Explicit(System.Nullable{`0})~`0.value,
+        Id: M:System.Nullable`1.op_Explicit(System.Nullable{`0})~`0.value,
+        Kind: Parameter,
+        Name: value,
+        ParentId: M:System.Nullable`1.op_Explicit(System.Nullable{`0})~`0,
+        Type: {
+          Id: T:System.Nullable`1[[`0]],
+          IsNullable: true
+        }
+      }
+    ],
+    ParentId: T:System.Nullable`1,
+    Type: {
+      Id: T:System.Nullable`1.T,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.op_Implicit(`0)~System.Nullable{`0}: {
+    Accessibility: Public,
+    Attributes: [
+      {
+        FullName: System.Runtime.Versioning.NonVersionableAttribute,
+        Id: T:System.Runtime.Versioning.NonVersionableAttribute,
+        Kind: Attribute,
+        Name: NonVersionableAttribute
+      }
+    ],
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.op_Implicit(`0)~System.Nullable{`0},
+    Id: M:System.Nullable`1.op_Implicit(`0)~System.Nullable{`0},
+    Kind: Operator,
+    Modifiers: [
+      Static
+    ],
+    Name: op_Implicit,
+    Parameters: [
+      {
+        FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.op_Implicit(`0)~System.Nullable{`0}.value,
+        Id: M:System.Nullable`1.op_Implicit(`0)~System.Nullable{`0}.value,
+        Kind: Parameter,
+        Name: value,
+        ParentId: M:System.Nullable`1.op_Implicit(`0)~System.Nullable{`0},
+        Type: {
+          Id: T:System.Nullable`1.T,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:System.Nullable`1,
+    Type: {
+      Id: T:System.Nullable`1[[`0]],
+      IsNullable: true
+    }
+  },
+  System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.ToString: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.ToString,
+    Id: M:System.Nullable`1.ToString,
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Override
+    ],
+    Name: ToString,
+    ParentId: T:System.Nullable`1,
+    Type: {
+      Id: T:System.String,
+      IsNullable: true
+    }
+  },
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Nullable`1.HasValue: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Nullable`1.HasValue,
+    Getter: {
+      Accessibility: Public,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.get_HasValue,
+      Id: M:System.Nullable`1.get_HasValue,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_HasValue,
+      ParentId: T:System.Nullable`1,
+      Type: {
+        Id: T:System.Boolean,
+        IsNullable: false
+      }
+    },
+    Id: P:System.Nullable`1.HasValue,
+    Kind: Property,
+    Name: HasValue,
+    ParentId: T:System.Nullable`1,
+    Type: {
+      Id: T:System.Boolean,
+      IsNullable: false
+    }
+  },
+  System.Private.CoreLib, Version=x.x.x.x, P:System.Nullable`1.Value: {
+    Accessibility: Public,
+    FullName: System.Private.CoreLib, Version=x.x.x.x, P:System.Nullable`1.Value,
+    Getter: {
+      Accessibility: Public,
+      FullName: System.Private.CoreLib, Version=x.x.x.x, M:System.Nullable`1.get_Value,
+      Id: M:System.Nullable`1.get_Value,
+      IsLocal: false,
+      Kind: Method,
+      Name: get_Value,
+      ParentId: T:System.Nullable`1,
+      Type: {
+        Id: T:System.Nullable`1.T,
+        IsNullable: false
+      }
+    },
+    Id: P:System.Nullable`1.Value,
+    Kind: Property,
+    Name: Value,
+    ParentId: T:System.Nullable`1,
+    Type: {
+      Id: T:System.Nullable`1.T,
+      IsNullable: false
+    }
+  }
+}
