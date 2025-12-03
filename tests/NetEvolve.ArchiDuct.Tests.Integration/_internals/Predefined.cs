@@ -39,6 +39,7 @@ internal static class Predefined
         VerifierSettings.IgnoreMembersWithType<ModelDocumentation>();
 
         VerifierSettings.AddScrubber(ReplaceVersions);
+        VerifierSettings.AddScrubber(ReplaceGenericFileModifier);
     }
 
     private static void ReplaceVersions(StringBuilder builder)
@@ -67,6 +68,33 @@ internal static class Predefined
             }
             _ = builder.Remove(versionIndex, endIndex - versionIndex).Insert(versionIndex, $"{version}x.x.x.x");
             startIndex = versionIndex + version.Length;
+        } while (startIndex < builder.Length);
+    }
+
+    private static void ReplaceGenericFileModifier(StringBuilder builder)
+    {
+        const string startMarker = ">F";
+        const string endMarker = "__FileModifier";
+
+        var startIndex = 0;
+        do
+        {
+            var value = builder.ToString();
+            var versionIndex = value.IndexOf(startMarker, startIndex, StringComparison.OrdinalIgnoreCase);
+            if (versionIndex == -1)
+            {
+                return;
+            }
+
+            var endIndex = value.IndexOf(endMarker, versionIndex, StringComparison.Ordinal);
+            if (endIndex == -1)
+            {
+                return;
+            }
+
+            endIndex += endMarker.Length;
+            _ = builder.Remove(versionIndex, endIndex - versionIndex).Insert(versionIndex, ">FileModifier");
+            startIndex = versionIndex + startMarker.Length;
         } while (startIndex < builder.Length);
     }
 }

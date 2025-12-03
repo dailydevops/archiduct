@@ -1,5 +1,5 @@
 ﻿{
-  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FAA0CDCEBEE8F1487564AF647375E45D4B62E665FEBA406048E9C1ACF194F429D__FileModifier: {
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FileModifier: {
     Accessibility: File,
     Attributes: [
       {
@@ -30,8 +30,8 @@
     BaseTypes: [
       T:System.Object
     ],
-    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FAA0CDCEBEE8F1487564AF647375E45D4B62E665FEBA406048E9C1ACF194F429D__FileModifier,
-    Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FAA0CDCEBEE8F1487564AF647375E45D4B62E665FEBA406048E9C1ACF194F429D__FileModifier,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, T:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FileModifier,
+    Id: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FileModifier,
     InheritedMembers: [
       M:System.Object.GetType,
       M:System.Object.MemberwiseClone,
@@ -46,13 +46,13 @@
     IsRecord: false,
     Kind: Class,
     Members: [
-      M:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FAA0CDCEBEE8F1487564AF647375E45D4B62E665FEBA406048E9C1ACF194F429D__FileModifier.#ctor,
-      P:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FAA0CDCEBEE8F1487564AF647375E45D4B62E665FEBA406048E9C1ACF194F429D__FileModifier.Counter
+      M:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FileModifier.#ctor,
+      P:NetEvolve.ArchiDuct.Tests.Integration.Internals.<Decompiler_ExampleFileModifier_Tests>FileModifier.Counter
     ],
     Modifiers: [
       Sealed
     ],
-    Name: <Decompiler_ExampleFileModifier_Tests>FAA0CDCEBEE8F1487564AF647375E45D4B62E665FEBA406048E9C1ACF194F429D__FileModifier,
+    Name: <Decompiler_ExampleFileModifier_Tests>FileModifier,
     NamespaceId: N:NetEvolve.ArchiDuct.Tests.Integration.Internals,
     ParentId: N:NetEvolve.ArchiDuct.Tests.Integration.Internals
   }

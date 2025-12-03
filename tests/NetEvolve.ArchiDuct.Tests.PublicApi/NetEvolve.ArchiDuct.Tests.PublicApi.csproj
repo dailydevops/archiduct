@@ -19,5 +19,8 @@
     <AssemblyAttribute Include="NetEvolve.Extensions.TUnit.TestGroupAttribute">
       <_Parameter1>ArchiDuct</_Parameter1>
     </AssemblyAttribute>
+    <AssemblyAttribute Include="NetEvolve.Extensions.TUnit.TestGroupAttribute">
+      <_Parameter1>PublicApi</_Parameter1>
+    </AssemblyAttribute>
   </ItemGroup>
 </Project>
