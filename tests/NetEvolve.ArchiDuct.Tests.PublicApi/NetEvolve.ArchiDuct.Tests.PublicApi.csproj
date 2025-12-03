@@ -5,11 +5,6 @@
     <DisableBannedApiForConsole>true</DisableBannedApiForConsole>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="coverlet.collector">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-    <PackageReference Include="coverlet.msbuild" />
     <PackageReference Include="Microsoft.Testing.Extensions.CodeCoverage" />
     <PackageReference Include="NetEvolve.Extensions.TUnit" />
     <PackageReference Include="PublicApiGenerator" />
@@ -23,6 +18,9 @@
     <AssemblyAttribute Include="NetEvolve.Extensions.TUnit.IntegrationTestAttribute" />
     <AssemblyAttribute Include="NetEvolve.Extensions.TUnit.TestGroupAttribute">
       <_Parameter1>ArchiDuct</_Parameter1>
+    </AssemblyAttribute>
+    <AssemblyAttribute Include="NetEvolve.Extensions.TUnit.TestGroupAttribute">
+      <_Parameter1>PublicApi</_Parameter1>
     </AssemblyAttribute>
   </ItemGroup>
 </Project>
