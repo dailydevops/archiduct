@@ -1,17 +1,16 @@
 ﻿namespace NetEvolve.ArchiDuct.Tests.Architecture.Legacy.Models;
 
 using ArchUnitNET.Domain;
-using ArchUnitNET.xUnit;
-using Xunit;
+using ArchUnitNET.TUnit;
 using static ArchUnitNET.Fluent.ArchRuleDefinition;
 
 public class NamespaceTests
 {
     private readonly IObjectProvider<IType> _types = Types()
         .That()
-        .ResideInNamespace(@"^NetEvolve\.ArchiDuct\.Models.+", true);
+        .ResideInNamespaceMatching(@"^NetEvolve\.ArchiDuct\.Models.+");
 
-    [Fact]
+    [Test]
     public void Types_should_be_public()
     {
         var rule = Classes().That().Are(_types).Should().BePublic();
@@ -19,7 +18,7 @@ public class NamespaceTests
         rule.Check(ArchiDuctArchitecture.Instance);
     }
 
-    [Fact]
+    [Test]
     public void Constructors_should_be_restricted()
     {
         var rule = Members()
