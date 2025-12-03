@@ -1,0 +1,48 @@
+﻿{
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.SquarePtrParam(System.Int32*): {
+    Accessibility: Internal,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.SquarePtrParam(System.Int32*),
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.SquarePtrParam(System.Int32*),
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Static,
+      Unsafe
+    ],
+    Name: SquarePtrParam,
+    Parameters: [
+      {
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.SquarePtrParam(System.Int32*).p,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.SquarePtrParam(System.Int32*).p,
+        Kind: Parameter,
+        Name: p,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.SquarePtrParam(System.Int32*),
+        Type: {
+          Id: T:System.Int32*,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2,
+    Type: {
+      Id: T:System.Void,
+      IsNullable: false
+    }
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.Test: {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.Test,
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2.Test,
+    IsLocal: false,
+    Kind: Method,
+    Modifiers: [
+      Static
+    ],
+    Name: Test,
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.UnsafeTest2,
+    Type: {
+      Id: T:System.Void,
+      IsNullable: false
+    }
+  }
+}

@@ -1,0 +1,66 @@
+﻿{
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions.IsNullOrEmpty(System.String): {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions.IsNullOrEmpty(System.String),
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions.IsNullOrEmpty(System.String),
+    IsLocal: false,
+    Kind: ExtensionMethod,
+    Modifiers: [
+      Static
+    ],
+    Name: IsNullOrEmpty,
+    Parameters: [
+      {
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions.IsNullOrEmpty(System.String).value,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions.IsNullOrEmpty(System.String).value,
+        Kind: Parameter,
+        Modifiers: [
+          This
+        ],
+        Name: value,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions.IsNullOrEmpty(System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions,
+    Type: {
+      Id: T:System.Boolean,
+      IsNullable: false
+    }
+  },
+  NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions.IsNullOrWhiteSpace(System.String): {
+    Accessibility: Public,
+    FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions.IsNullOrWhiteSpace(System.String),
+    Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions.IsNullOrWhiteSpace(System.String),
+    IsLocal: false,
+    Kind: ExtensionMethod,
+    Modifiers: [
+      Static
+    ],
+    Name: IsNullOrWhiteSpace,
+    Parameters: [
+      {
+        FullName: NetEvolve.ArchiDuct.Tests.Integration, Version=x.x.x.x, M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions.IsNullOrWhiteSpace(System.String).value,
+        Id: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions.IsNullOrWhiteSpace(System.String).value,
+        Kind: Parameter,
+        Modifiers: [
+          This
+        ],
+        Name: value,
+        ParentId: M:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions.IsNullOrWhiteSpace(System.String),
+        Type: {
+          Id: T:System.String,
+          IsNullable: false
+        }
+      }
+    ],
+    ParentId: T:NetEvolve.ArchiDuct.Tests.Integration.Internals.ExampleExtensions,
+    Type: {
+      Id: T:System.Boolean,
+      IsNullable: false
+    }
+  }
+}
