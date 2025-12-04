@@ -22,7 +22,7 @@
     <PackageVersion Include="NetEvolve.FluentValue" Version="0.4.0" />
     <PackageVersion Include="PublicApiGenerator" Version="11.5.0" />
     <PackageVersion Include="TngTech.ArchUnitNET.TUnit" Version="0.12.3" />
-    <PackageVersion Include="TUnit" Version="0.67.19" />
+    <PackageVersion Include="TUnit" Version="0.90.45" />
     <PackageVersion Include="Verify.TUnit" Version="31.0.4" />
   </ItemGroup>
 </Project>
