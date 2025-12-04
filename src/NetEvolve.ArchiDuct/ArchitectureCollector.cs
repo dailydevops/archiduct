@@ -1,6 +1,7 @@
 ﻿namespace NetEvolve.ArchiDuct;
 
 using System.Diagnostics.CodeAnalysis;
+using System.Linq;
 using System.Reflection;
 using ICSharpCode.Decompiler;
 using ICSharpCode.Decompiler.CSharp;
@@ -119,12 +120,9 @@ public sealed class ArchitectureCollector : IArchitectureCollector
             throw new ArgumentException("No sources were registered.", nameof(constraint));
         }
 
-        foreach (var source in _registeredSources)
+        if (_registeredSources.Any(source => !source.Filters.Add(new SourceFilter(td => td.Namespace, constraint))))
         {
-            if (!source.Filters.Add(new SourceFilter(td => td.Namespace, constraint)))
-            {
-                throw new ArgumentException("SourceFilter already registered.", nameof(constraint));
-            }
+            throw new ArgumentException("SourceFilter already registered.", nameof(constraint));
         }
 
         return this;

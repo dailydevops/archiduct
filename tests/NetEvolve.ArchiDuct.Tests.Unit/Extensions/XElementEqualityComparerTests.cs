@@ -127,7 +127,7 @@ public class XElementEqualityComparerTests
         var hashCode = XElementEqualityComparer.Instance.GetHashCode(x);
 
         // Assert
-        _ = await Assert.That(hashCode).IsEqualTo(default);
+        _ = await Assert.That(hashCode).IsEqualTo(default(int));
     }
 
     [Test]

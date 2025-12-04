@@ -70,6 +70,6 @@ public class XAttributeEqualityComparerTests
         var hashCode = XAttributeEqualityComparer.Instance.GetHashCode(attribute);
 
         // Assert
-        _ = await Assert.That(hashCode).IsEqualTo(default);
+        _ = await Assert.That(hashCode).IsEqualTo(default(int));
     }
 }

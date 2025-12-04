@@ -71,7 +71,7 @@ public class XNameEqualityComparerTests
         var result = XNameEqualityComparer.Instance.GetHashCode(x);
 
         // Assert
-        _ = await Assert.That(result).IsEqualTo(default);
+        _ = await Assert.That(result).IsEqualTo(default(int));
     }
 
     [Test]
