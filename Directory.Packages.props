@@ -18,7 +18,7 @@
     <PackageVersion Include="ICSharpCode.Decompiler" Version="9.1.0.7988" />
     <PackageVersion Include="Microsoft.Testing.Extensions.CodeCoverage" Version="17.14.2" />
     <PackageVersion Include="NetEvolve.Arguments" Version="2.0.17" />
-    <PackageVersion Include="NetEvolve.Extensions.TUnit" Version="2.7.59" />
+    <PackageVersion Include="NetEvolve.Extensions.TUnit" Version="3.1.0" />
     <PackageVersion Include="NetEvolve.FluentValue" Version="0.4.0" />
     <PackageVersion Include="PublicApiGenerator" Version="11.5.3" />
     <PackageVersion Include="TngTech.ArchUnitNET.TUnit" Version="0.12.3" />
