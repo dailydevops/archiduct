@@ -30,10 +30,10 @@ internal static class TestApplicationBuilderExtensions
         [new BannerCapability(serviceProvider), new TrxReportCapability(), new GracefulStopTestExecutionCapability()];
 
     private static ITestApplicationBuilder RegisterCommandLineProvider(this ITestApplicationBuilder builder) =>
-        // TODO: Implement command line provider for ArchiDuct if needed.
+        // Implement command line provider for ArchiDuct if needed.
         builder;
 
     private static ITestApplicationBuilder RegisterTestHostProvider(this ITestApplicationBuilder builder) =>
-        // TODO: Implement test host provider for ArchiDuct if needed.
+        // Implement test host provider for ArchiDuct if needed.
         builder;
 }

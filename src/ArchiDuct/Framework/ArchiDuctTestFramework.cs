@@ -10,9 +10,13 @@ using Microsoft.Testing.Platform.Services;
 
 internal sealed class ArchiDuctTestFramework : ITestFramework
 {
+#pragma warning disable S4487 // Unread "private" fields should be removed
     private readonly ITestFrameworkCapabilities _capabilities;
+#pragma warning restore S4487 // Unread "private" fields should be removed
     private readonly ILogger _logger;
+#pragma warning disable S1450 // Private fields only used as local variables in methods should become local variables
     private readonly IServiceProvider _serviceProvider;
+#pragma warning restore S1450 // Private fields only used as local variables in methods should become local variables
 
     public string Uid => ArchiDuctFramework.Uid;
 
@@ -31,8 +35,11 @@ internal sealed class ArchiDuctTestFramework : ITestFramework
         _logger = loggingFactory?.CreateLogger<ArchiDuctTestFramework>() ?? NullLogger<ArchiDuctTestFramework>.Instance;
     }
 
-    public Task<CloseTestSessionResult> CloseTestSessionAsync(CloseTestSessionContext context) =>
-        Task.FromResult(new CloseTestSessionResult { IsSuccess = false });
+    public async Task<CloseTestSessionResult> CloseTestSessionAsync(CloseTestSessionContext context)
+    {
+        await _logger.LogInformationAsync("Closing test session...").ConfigureAwait(false);
+        return new CloseTestSessionResult { IsSuccess = false };
+    }
 
     public Task<CreateTestSessionResult> CreateTestSessionAsync(CreateTestSessionContext context) =>
         Task.FromResult(new CreateTestSessionResult { IsSuccess = true });
