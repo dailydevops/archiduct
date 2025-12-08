@@ -1,0 +1,68 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    ":disableDependencyDashboard",
+    ":automergeMinor",
+    ":automergePatch",
+    ":rebaseStalePrs"
+  ],
+  "ignorePresets": [
+    "group:monorepos"
+  ],
+  "automergeType": "pr",
+  "automergeStrategy": "squash",
+  "enabledManagers": [
+    "github-actions",
+    "nuget",
+    "custom.regex"
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/\\.(?:cs|fs|vb)proj$/",
+        "/\\.(?:props|targets)$/"
+      ],
+      "matchStrings": [
+        "<PackageReference\\s+Include=\"(?<depName>[^\"]+)\"\\s+Version=\"\\[(?<currentValue>[^,]+),.*\"",
+        "<Sdk\\s+Name=\"(?<depName>[^\"]+)\"\\s+Version=\"(?<currentValue>[^,]+)\"",
+        "<Project\\s+Sdk=\"(?<depName>[^\"]+)/(?<currentValue>[^,]+)\""
+      ],
+      "datasourceTemplate": "nuget",
+      "versioningTemplate": "nuget"
+    }
+  ],
+  "packageRules": [
+    {
+      "matchManagers": [
+        "nuget",
+        "custom.regex"
+      ],
+      "labels": [
+        "dependency:nuget"
+      ],
+      "semanticCommits": "enabled",
+      "semanticCommitType": "chore",
+      "semanticCommitScope": "deps",
+      "assignees": [
+        "samtrion"
+      ]
+    },
+    {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "labels": [
+        "dependency:actions"
+      ],
+      "automerge": true,
+      "semanticCommits": "enabled",
+      "semanticCommitType": "chore",
+      "semanticCommitScope": "ci",
+      "assignees": [
+        "samtrion"
+      ]
+    }
+  ]
+}
