@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion Condition=" '$(LangVersion)' == '' ">latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ImplicitUsings)' == 'true' or '$(ImplicitUsings)' == 'enable' ">
+    <Using Include="ArchiDuct" Static="false" />
+    <Using Include="ArchiDuct.Attributes" Static="false" />
+    <Using Include="ArchiDuct.Enumerations" Static="false" />
+  </ItemGroup>
+</Project>

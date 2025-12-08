@@ -1,1 +1,29 @@
-<Solution></Solution>
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".commitlintrc" />
+    <File Path=".csharpierignore" />
+    <File Path=".editorconfig" />
+    <File Path=".filenesting.json" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path=".mcp.json" />
+    <File Path="AGENTS.md" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="Directory.Solution.props" />
+    <File Path="GitVersion.yml" />
+    <File Path="global.json" />
+    <File Path="LICENSE" />
+    <File Path="logo.png" />
+    <File Path="nuget.config" />
+    <File Path="README.md" />
+    <File Path="renovate.json" />
+    <File Path="testEnvironments.json" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/ArchiDuct/ArchiDuct.csproj" Id="480cfde1-9b83-437f-9c7b-230985f7e672" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ArchiDuct.Tests.Unit/ArchiDuct.Tests.Unit.csproj" Id="4d1d3236-d3cd-454a-a269-e3a200209e4e" />
+  </Folder>
+</Solution>

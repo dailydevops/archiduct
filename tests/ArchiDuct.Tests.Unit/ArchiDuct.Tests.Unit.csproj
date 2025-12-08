@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>$(NetEvolve_TestTargetFrameworks)</TargetFrameworks>
+    <OutputType>Exe</OutputType>
+    <NoWarn>$(NoWarn);TPEXP</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NetEvolve.Extensions.TUnit" />
+    <PackageReference Include="TUnit" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ArchiDuct\ArchiDuct.csproj" />
+  </ItemGroup>
+</Project>
