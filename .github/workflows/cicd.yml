@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      dotnet-logging:
+        required: true
+        type: choice
+        default: minimal
+        options:
+          - quiet
+          - minimal
+          - normal
+          - detailed
+          - diagnostic
+
+jobs:
+  all:
+    if: github.run_id != 1
+    name: Build & Tests
+    uses: dailydevops/pipelines/.github/workflows/build-dotnet-single.yml@cb37352bc6f2f8b723d966d5d879625d3dd5413b # 1.3.13
+    with:
+      dotnetLogging: ${{ inputs.dotnet-logging || 'minimal' }}
+      dotnetVersion: ${{ vars.NE_DOTNET_TARGETFRAMEWORKS }}
+      solution: ./ArchiDuct.slnx
+    secrets: inherit
