@@ -13,4 +13,7 @@
     <PackageReference Include="Microsoft.Testing.Platform" />
     <PackageReference Include="NetEvolve.Arguments" />
   </ItemGroup>
+  <ItemGroup Condition=" '$(IsPackTarget)' == 'true' ">
+    <PackageReference Include="Microsoft.Testing.Platform.MSBuild" />
+  </ItemGroup>
 </Project>
