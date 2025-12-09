@@ -1,4 +1,4 @@
-﻿namespace ArchiDuct;
+﻿namespace NetEvolve.ArchiDuct;
 
 /// <summary>
 /// Provides constants that define metadata for the ArchiDuct integration of <see cref="Microsoft.Testing.Platform"/>.

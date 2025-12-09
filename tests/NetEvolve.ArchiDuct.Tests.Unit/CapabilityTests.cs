@@ -1,4 +1,4 @@
-namespace ArchiDuct.Tests.Unit;
+namespace NetEvolve.ArchiDuct.Tests.Unit;
 
 using System.Threading.Tasks;
 using ArchiDuct.Framework.Capabilities;

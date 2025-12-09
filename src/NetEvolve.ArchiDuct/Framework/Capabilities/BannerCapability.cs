@@ -1,11 +1,11 @@
-﻿namespace ArchiDuct.Framework.Capabilities;
+﻿namespace NetEvolve.ArchiDuct.Framework.Capabilities;
 
 using System;
 using System.Threading.Tasks;
-using ArchiDuct;
-using ArchiDuct.Framework.Commands;
 using Microsoft.Testing.Platform.Capabilities.TestFramework;
 using Microsoft.Testing.Platform.Services;
+using NetEvolve.ArchiDuct;
+using NetEvolve.ArchiDuct.Framework.Commands;
 
 /// <summary>
 /// Implements the banner message capability for ArchiDuct, displaying framework and platform information at test execution start.
@@ -20,7 +20,7 @@ internal sealed class BannerCapability : IBannerMessageOwnerCapability
     /// <summary>
     /// Initializes a new instance of the <see cref="BannerCapability"/> class.
     /// </summary>
-    /// <param name="serviceProvider">The service provider for resolving platform information implementing <see cref="System.IServiceProvider"/>.</param>
+    /// <param name="serviceProvider">The service provider for resolving platform information implementing <see cref="IServiceProvider"/>.</param>
     public BannerCapability(IServiceProvider serviceProvider) => _serviceProvider = serviceProvider;
 
     /// <inheritdoc />

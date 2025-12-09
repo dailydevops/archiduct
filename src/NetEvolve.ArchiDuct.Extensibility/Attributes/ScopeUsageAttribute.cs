@@ -1,4 +1,4 @@
-﻿namespace ArchiDuct.Attributes;
+﻿namespace NetEvolve.ArchiDuct.Attributes;
 
 /// <summary>
 /// Marks a method that uses a dynamic Architecture Testing Scope.

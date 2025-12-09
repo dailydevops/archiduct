@@ -1,4 +1,4 @@
-﻿namespace ArchiDuct.Abstractions;
+﻿namespace NetEvolve.ArchiDuct.Abstractions;
 
 /// <summary>
 /// Represents a definition that asynchronously enumerates a collection of scopes.

@@ -1,4 +1,6 @@
-﻿namespace ArchiDuct.Tests.Architecture;
+﻿namespace NetEvolve.ArchiDuct.Tests.Architecture;
+
+using NetEvolve.ArchiDuct.Abstractions;
 
 public class NamespaceTests
 {

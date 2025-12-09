@@ -1,4 +1,4 @@
-﻿namespace ArchiDuct.Framework.Capabilities;
+﻿namespace NetEvolve.ArchiDuct.Framework.Capabilities;
 
 using Microsoft.Testing.Extensions.TrxReport.Abstractions;
 

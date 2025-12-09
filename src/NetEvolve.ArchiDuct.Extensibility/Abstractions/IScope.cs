@@ -1,4 +1,4 @@
-﻿namespace ArchiDuct.Abstractions;
+﻿namespace NetEvolve.ArchiDuct.Abstractions;
 
 /// <summary>
 /// Represents a scope that can be nested and managed within a scope hierarchy.

@@ -1,15 +1,16 @@
-﻿namespace ArchiDuct.Framework;
+﻿namespace NetEvolve.ArchiDuct.Framework;
 
 using System;
 using System.Threading.Tasks;
-using ArchiDuct.Logging;
 using Microsoft.Testing.Platform.Capabilities.TestFramework;
 using Microsoft.Testing.Platform.Extensions.TestFramework;
 using Microsoft.Testing.Platform.Logging;
 using Microsoft.Testing.Platform.Services;
+using NetEvolve.ArchiDuct;
+using NetEvolve.ArchiDuct.Logging;
 
 /// <summary>
-/// Implements the core test framework adapter for ArchiDuct, integrating with <see cref="Microsoft.Testing.Platform.Extensions.TestFramework.ITestFramework"/>.
+/// Implements the core test framework adapter for ArchiDuct, integrating with <see cref="ITestFramework"/>.
 /// </summary>
 /// <remarks>
 /// This class provides the primary integration point between ArchiDuct and the Microsoft Testing Platform,
@@ -40,8 +41,8 @@ internal sealed class ArchiDuctTestFramework : ITestFramework
     /// <summary>
     /// Initializes a new instance of the <see cref="ArchiDuctTestFramework"/> class.
     /// </summary>
-    /// <param name="capabilities">The test framework capabilities provided by <see cref="Microsoft.Testing.Platform.Capabilities.TestFramework.ITestFrameworkCapabilities"/>.</param>
-    /// <param name="serviceProvider">The service provider for dependency resolution implementing <see cref="System.IServiceProvider"/>.</param>
+    /// <param name="capabilities">The test framework capabilities provided by <see cref="ITestFrameworkCapabilities"/>.</param>
+    /// <param name="serviceProvider">The service provider for dependency resolution implementing <see cref="IServiceProvider"/>.</param>
     public ArchiDuctTestFramework(ITestFrameworkCapabilities capabilities, IServiceProvider serviceProvider)
     {
         _capabilities = capabilities;

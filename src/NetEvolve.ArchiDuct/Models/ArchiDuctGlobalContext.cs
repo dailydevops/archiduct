@@ -1,11 +1,11 @@
-﻿namespace ArchiDuct.Models;
+﻿namespace NetEvolve.ArchiDuct.Models;
 
 /// <summary>
 /// Represents the global context for the ArchiDuct testing framework, providing thread-safe singleton access
 /// to shared state across test execution lifecycle.
 /// </summary>
 /// <remarks>
-/// This class uses the singleton pattern with <see cref="System.Lazy{T}"/> to ensure thread-safe initialization.
+/// This class uses the singleton pattern with <see cref="Lazy{T}"/> to ensure thread-safe initialization.
 /// It maintains global state that is shared across the entire test execution process.
 /// </remarks>
 public sealed partial class ArchiDuctGlobalContext

@@ -1,10 +1,11 @@
-﻿namespace ArchiDuct.Framework.Commands;
+﻿namespace NetEvolve.ArchiDuct.Framework.Commands;
 
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.Testing.Platform.CommandLine;
 using Microsoft.Testing.Platform.Extensions;
 using Microsoft.Testing.Platform.Extensions.CommandLine;
+using NetEvolve.ArchiDuct;
 
 internal sealed class DisableLogoCommandProvider : ICommandLineOptionsProvider
 {

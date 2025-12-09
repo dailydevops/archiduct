@@ -1,10 +1,10 @@
-﻿namespace ArchiDuct.Logging;
+﻿namespace NetEvolve.ArchiDuct.Logging;
 
 using System.Threading.Tasks;
 using Microsoft.Testing.Platform.Logging;
 
 /// <summary>
-/// Provides a null implementation of <see cref="Microsoft.Testing.Platform.Logging.ILogger{TLogger}"/> that performs no logging operations.
+/// Provides a null implementation of <see cref="ILogger{TLogger}"/> that performs no logging operations.
 /// </summary>
 /// <typeparam name="TLogger">The type associated with the logger instance.</typeparam>
 /// <remarks>

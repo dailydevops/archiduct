@@ -1,4 +1,4 @@
-﻿namespace ArchiDuct.Framework;
+﻿namespace NetEvolve.ArchiDuct.Framework;
 
 using ArchiDuct.Framework.Capabilities;
 using ArchiDuct.Framework.Commands;
@@ -17,9 +17,9 @@ internal static class TestApplicationBuilderExtensions
     /// <summary>
     /// Registers the ArchiDuct test framework with the test application builder.
     /// </summary>
-    /// <param name="builder">The test application builder instance implementing <see cref="Microsoft.Testing.Platform.Builder.ITestApplicationBuilder"/>.</param>
+    /// <param name="builder">The test application builder instance implementing <see cref="ITestApplicationBuilder"/>.</param>
     /// <returns>The test application builder for method chaining.</returns>
-    /// <exception cref="System.ArgumentNullException">Thrown when <paramref name="builder"/> is <see langword="null"/>.</exception>
+    /// <exception cref="ArgumentNullException">Thrown when <paramref name="builder"/> is <see langword="null"/>.</exception>
     /// <remarks>
     /// This method configures the ArchiDuct test framework by registering its capabilities, test framework implementation,
     /// command line provider, and test host provider with the testing platform.
@@ -40,15 +40,15 @@ internal static class TestApplicationBuilderExtensions
     /// <summary>
     /// Gets the collection of test framework capabilities supported by ArchiDuct.
     /// </summary>
-    /// <param name="serviceProvider">The service provider for dependency resolution implementing <see cref="System.IServiceProvider"/>.</param>
-    /// <returns>A read-only collection of <see cref="Microsoft.Testing.Platform.Capabilities.TestFramework.ITestFrameworkCapability"/> instances.</returns>
+    /// <param name="serviceProvider">The service provider for dependency resolution implementing <see cref="IServiceProvider"/>.</param>
+    /// <returns>A read-only collection of <see cref="ITestFrameworkCapability"/> instances.</returns>
     private static IReadOnlyCollection<ITestFrameworkCapability> GetCapabilities(IServiceProvider serviceProvider) =>
         [new BannerCapability(serviceProvider), new TrxReportCapability(), new GracefulStopTestExecutionCapability()];
 
     /// <summary>
     /// Registers the command line provider for ArchiDuct test framework.
     /// </summary>
-    /// <param name="builder">The test application builder instance implementing <see cref="Microsoft.Testing.Platform.Builder.ITestApplicationBuilder"/>.</param>
+    /// <param name="builder">The test application builder instance implementing <see cref="ITestApplicationBuilder"/>.</param>
     /// <returns>The test application builder for method chaining.</returns>
     /// <remarks>
     /// This is a placeholder for future command line provider implementation.
@@ -63,7 +63,7 @@ internal static class TestApplicationBuilderExtensions
     /// <summary>
     /// Registers the test host provider for ArchiDuct test framework.
     /// </summary>
-    /// <param name="builder">The test application builder instance implementing <see cref="Microsoft.Testing.Platform.Builder.ITestApplicationBuilder"/>.</param>
+    /// <param name="builder">The test application builder instance implementing <see cref="ITestApplicationBuilder"/>.</param>
     /// <returns>The test application builder for method chaining.</returns>
     /// <remarks>
     /// This is a placeholder for future test host provider implementation.
