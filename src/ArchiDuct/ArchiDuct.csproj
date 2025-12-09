@@ -18,4 +18,7 @@
   <ItemGroup Condition=" '$(IsPackTarget)' == 'true' ">
     <PackageReference Include="Microsoft.Testing.Platform.MSBuild" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArchiDuct.Extensibility\ArchiDuct.Extensibility.csproj" />
+  </ItemGroup>
 </Project>

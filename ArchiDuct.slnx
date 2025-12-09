@@ -21,9 +21,10 @@
     <File Path="testEnvironments.json" />
   </Folder>
   <Folder Name="/src/">
-    <Project Path="src/ArchiDuct/ArchiDuct.csproj" Id="480cfde1-9b83-437f-9c7b-230985f7e672" />
+    <Project Path="src/ArchiDuct.Extensibility/ArchiDuct.Extensibility.csproj" />
+    <Project Path="src/ArchiDuct/ArchiDuct.csproj" />
   </Folder>
   <Folder Name="/tests/">
-    <Project Path="tests/ArchiDuct.Tests.Unit/ArchiDuct.Tests.Unit.csproj" Id="4d1d3236-d3cd-454a-a269-e3a200209e4e" />
+    <Project Path="tests/ArchiDuct.Tests.Unit/ArchiDuct.Tests.Unit.csproj" />
   </Folder>
 </Solution>

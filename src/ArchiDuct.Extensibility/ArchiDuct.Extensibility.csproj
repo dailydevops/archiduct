@@ -1,0 +1,6 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>$(NetEvolve_ProjectTargetFrameworks)</TargetFrameworks>
+    <RootNamespace>ArchiDuct</RootNamespace>
+  </PropertyGroup>
+</Project>
