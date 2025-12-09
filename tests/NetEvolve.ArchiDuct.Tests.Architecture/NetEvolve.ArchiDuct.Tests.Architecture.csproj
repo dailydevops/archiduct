@@ -4,15 +4,15 @@
     <NoWarn>$(NoWarn);TPEXP</NoWarn>
   </PropertyGroup>
 
-  <Import Project="..\..\src\ArchiDuct\buildMultiTargeting\ArchiDuct.props" />
+  <Import Project="..\..\src\NetEvolve.ArchiDuct\buildMultiTargeting\NetEvolve.ArchiDuct.props" />
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Testing.Extensions.CodeCoverage" />
     <PackageReference Include="Microsoft.Testing.Platform.MSBuild" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\ArchiDuct\ArchiDuct.csproj" />
+    <ProjectReference Include="..\..\src\NetEvolve.ArchiDuct\NetEvolve.ArchiDuct.csproj" />
   </ItemGroup>
 
-  <Import Project="..\..\src\ArchiDuct\buildMultiTargeting\ArchiDuct.targets" />
+  <Import Project="..\..\src\NetEvolve.ArchiDuct\buildMultiTargeting\NetEvolve.ArchiDuct.targets" />
 </Project>

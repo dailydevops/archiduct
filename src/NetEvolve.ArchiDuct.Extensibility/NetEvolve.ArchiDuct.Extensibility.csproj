@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>$(NetEvolve_ProjectTargetFrameworks)</TargetFrameworks>
-    <RootNamespace>ArchiDuct</RootNamespace>
+    <RootNamespace>NetEvolve.ArchiDuct</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup Condition=" !$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net8.0')) ">

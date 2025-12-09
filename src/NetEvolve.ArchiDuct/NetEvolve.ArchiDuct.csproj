@@ -22,6 +22,6 @@
     <PackageReference Include="Microsoft.Testing.Platform.MSBuild" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ArchiDuct.Extensibility\ArchiDuct.Extensibility.csproj" />
+    <ProjectReference Include="..\NetEvolve.ArchiDuct.Extensibility\NetEvolve.ArchiDuct.Extensibility.csproj" />
   </ItemGroup>
 </Project>
