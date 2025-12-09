@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>$(NetEvolve_TestTargetFrameworks)</TargetFrameworks>
+    <NoWarn>$(NoWarn);TPEXP</NoWarn>
+  </PropertyGroup>
+
+  <Import Project="..\..\src\ArchiDuct\buildMultiTargeting\ArchiDuct.props" />
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Testing.Extensions.CodeCoverage" />
+    <PackageReference Include="Microsoft.Testing.Platform.MSBuild" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ArchiDuct\ArchiDuct.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\..\src\ArchiDuct\buildMultiTargeting\ArchiDuct.targets" />
+</Project>

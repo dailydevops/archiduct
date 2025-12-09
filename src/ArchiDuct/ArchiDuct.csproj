@@ -15,7 +15,13 @@
     <PackageReference Include="Microsoft.Testing.Platform" />
     <PackageReference Include="NetEvolve.Arguments" />
   </ItemGroup>
+  <ItemGroup Condition=" !$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net8.0')) ">
+    <PackageReference Include="System.Threading.Tasks.Extensions" />
+  </ItemGroup>
   <ItemGroup Condition=" '$(IsPackTarget)' == 'true' ">
     <PackageReference Include="Microsoft.Testing.Platform.MSBuild" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArchiDuct.Extensibility\ArchiDuct.Extensibility.csproj" />
   </ItemGroup>
 </Project>

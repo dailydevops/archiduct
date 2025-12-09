@@ -15,6 +15,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <AssemblyAttribute Include="NetEvolve.Extensions.TUnit.UnitTestAttribute" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\..\src\ArchiDuct\ArchiDuct.csproj" />
   </ItemGroup>
 </Project>

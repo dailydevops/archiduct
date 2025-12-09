@@ -3,6 +3,7 @@
 using System;
 using System.Threading.Tasks;
 using ArchiDuct;
+using ArchiDuct.Framework.Commands;
 using Microsoft.Testing.Platform.Capabilities.TestFramework;
 using Microsoft.Testing.Platform.Services;
 
@@ -15,7 +16,6 @@ using Microsoft.Testing.Platform.Services;
 internal sealed class BannerCapability : IBannerMessageOwnerCapability
 {
     private readonly IServiceProvider _serviceProvider;
-    private const string Separator = "----------------------------------------";
 
     /// <summary>
     /// Initializes a new instance of the <see cref="BannerCapability"/> class.
@@ -27,11 +27,29 @@ internal sealed class BannerCapability : IBannerMessageOwnerCapability
     public Task<string?> GetBannerMessageAsync()
     {
         var platformInformation = _serviceProvider.GetRequiredService<IPlatformInformation>();
+        var commandLineOptions = _serviceProvider.GetCommandLineOptions();
+        var runtimeInformation =
+            $"{ArchiDuctFramework.DisplayName} v{ArchiDuctFramework.Version} running on {platformInformation.Name} v{platformInformation.Version}";
+
+        if (commandLineOptions.IsOptionSet(DisableLogoCommandProvider.DisableLogo))
+        {
+            return Task.FromResult<string?>(runtimeInformation);
+        }
+
+        var seperator = new string('=', runtimeInformation.Length);
 
         return Task.FromResult<string?>(
             $"""
-            {ArchiDuctFramework.DisplayName} v{ArchiDuctFramework.Version} running on {platformInformation.Name} v{platformInformation.Version}
-            {Separator}
+
+              ,---.               ,--.     ,--.,------.                  ,--.
+             /  o  \ ,--.--. ,---.|  ,---. `--'|  .-.  \ ,--.,--. ,---.,-'  '-.
+            |  .-.  ||  .--'| .--'|  .-.  |,--.|  |  \  :|  ||  || .--''-.  .-'
+            |  | |  ||  |   \ `--.|  | |  ||  ||  '--'  /'  ''  '\ `--.  |  |
+            `--' `--'`--'    `---'`--' `--'`--'`-------'  `----'  `---'  `--'
+
+            {seperator}
+            {runtimeInformation}
+            {seperator}
             """
         );
     }
