@@ -29,5 +29,6 @@ jobs:
       disableTestsOnWindows: false
       dotnetLogging: ${{ inputs.dotnet-logging || 'minimal' }}
       dotnetVersion: ${{ vars.NE_DOTNET_TARGETFRAMEWORKS }}
+      failFast: false
       solution: ./ArchiDuct.slnx
     secrets: inherit
