@@ -7,10 +7,14 @@
     <PackageReleaseNotes>$(PackageProjectUrl)/releases</PackageReleaseNotes>
     <PackageTags>test;architecture;archiduct</PackageTags>
     <CopyrightYearStart>2023</CopyrightYearStart>
+    <NetEvolve_ProjectTargetFrameworks>netstandard2.0;net8.0;net9.0;net10.0</NetEvolve_ProjectTargetFrameworks>
+    <NetEvolve_TestTargetFrameworks>net8.0;net9.0;net10.0</NetEvolve_TestTargetFrameworks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(OS)' == 'Windows_NT' " Label="Windows Only Settings">
+    <NetEvolve_TestTargetFrameworks>$(NetEvolve_TestTargetFrameworks);net472;net481</NetEvolve_TestTargetFrameworks>
   </PropertyGroup>
   <PropertyGroup>
-    <NetEvolve_ProjectTargetFrameworks>net8.0;net9.0;net10.0</NetEvolve_ProjectTargetFrameworks>
-    <NetEvolve_TestTargetFrameworks>net8.0;net9.0;net10.0</NetEvolve_TestTargetFrameworks>
     <NoWarn>$(NoWarn);NU5104</NoWarn>
+    <EnableTUnitPolyfills>false</EnableTUnitPolyfills>
   </PropertyGroup>
 </Project>

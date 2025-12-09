@@ -1,0 +1,17 @@
+<Project>
+  <PropertyGroup>
+    <IsTestProject>true</IsTestProject>
+    <IsTestingPlatformApplication>true</IsTestingPlatformApplication>
+    <IsTestingPlatformEnabled>true</IsTestingPlatformEnabled>
+    <TestingPlatformCaptureOutput>false</TestingPlatformCaptureOutput>
+    <TestingPlatformDotnetTestSupport>true</TestingPlatformDotnetTestSupport>
+    <TestingPlatformShowTestsFailure>true</TestingPlatformShowTestsFailure>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <TestingPlatformBuilderHook Include="E0BD7068-1F88-41B4-AD5C-912EDE5311A9">
+      <DisplayName>ArchiDuct</DisplayName>
+      <TypeFullName>ArchiDuct.Framework.TestingPlatformBuilderHook</TypeFullName>
+    </TestingPlatformBuilderHook>
+  </ItemGroup>
+</Project>
