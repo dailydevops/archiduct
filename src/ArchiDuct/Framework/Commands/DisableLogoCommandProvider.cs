@@ -22,7 +22,7 @@ internal sealed class DisableLogoCommandProvider : ICommandLineOptionsProvider
         [
             new CommandLineOption(
                 DisableLogo,
-                "Disables the TUnit logo when starting a test session",
+                "Disables the ArchiDuct logo when starting a test session",
                 ArgumentArity.Zero,
                 false
             ),
