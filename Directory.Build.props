@@ -7,10 +7,12 @@
     <PackageReleaseNotes>$(PackageProjectUrl)/releases</PackageReleaseNotes>
     <PackageTags>test;architecture;archiduct</PackageTags>
     <CopyrightYearStart>2023</CopyrightYearStart>
-  </PropertyGroup>
-  <PropertyGroup>
     <NetEvolve_ProjectTargetFrameworks>netstandard2.0;net8.0;net9.0;net10.0</NetEvolve_ProjectTargetFrameworks>
     <NetEvolve_TestTargetFrameworks>net8.0;net9.0;net10.0</NetEvolve_TestTargetFrameworks>
+    <NetEvolve_TestTargetFrameworks Condition=" '$(OS)' == 'Windows_NT' ">$(NetEvolve_TestTargetFrameworks);net472;net481</NetEvolve_TestTargetFrameworks>
+  </PropertyGroup>
+  <PropertyGroup>
     <NoWarn>$(NoWarn);NU5104</NoWarn>
+    <EnableTUnitPolyfills>false</EnableTUnitPolyfills>
   </PropertyGroup>
 </Project>
