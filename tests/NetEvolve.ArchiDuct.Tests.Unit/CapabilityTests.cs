@@ -1,7 +1,7 @@
 namespace NetEvolve.ArchiDuct.Tests.Unit;
 
 using System.Threading.Tasks;
-using ArchiDuct.Framework.Capabilities;
+using NetEvolve.ArchiDuct.Framework.Capabilities;
 using TUnit.Assertions;
 
 public sealed class CapabilityTests

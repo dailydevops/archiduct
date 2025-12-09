@@ -1,9 +1,9 @@
 ﻿namespace NetEvolve.ArchiDuct.Framework;
 
-using ArchiDuct.Framework.Capabilities;
-using ArchiDuct.Framework.Commands;
 using Microsoft.Testing.Platform.Builder;
 using Microsoft.Testing.Platform.Capabilities.TestFramework;
+using NetEvolve.ArchiDuct.Framework.Capabilities;
+using NetEvolve.ArchiDuct.Framework.Commands;
 using NetEvolve.Arguments;
 
 /// <summary>

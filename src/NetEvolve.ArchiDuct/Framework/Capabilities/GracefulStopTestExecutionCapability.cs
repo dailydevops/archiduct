@@ -2,8 +2,8 @@
 
 using System.Threading;
 using System.Threading.Tasks;
-using ArchiDuct.Models;
 using Microsoft.Testing.Platform.Capabilities.TestFramework;
+using NetEvolve.ArchiDuct.Models;
 
 /// <summary>
 /// Implements the graceful stop capability for ArchiDuct test execution, allowing tests to be stopped cleanly without abrupt termination.
