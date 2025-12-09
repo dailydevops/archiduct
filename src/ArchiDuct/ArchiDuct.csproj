@@ -2,6 +2,8 @@
   <PropertyGroup>
     <TargetFrameworks>$(NetEvolve_ProjectTargetFrameworks)</TargetFrameworks>
     <NoWarn>$(NoWarn);TPEXP</NoWarn>
+    <IsTestProject>false</IsTestProject>
+    <IsTestingPlatformApplication>false</IsTestingPlatformApplication>
   </PropertyGroup>
   <ItemGroup>
     <None Include="build\**" Pack="true" PackagePath="build\" />
