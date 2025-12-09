@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion Condition=" '$(LangVersion)' == '' ">latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(Language)' == 'C#' and ('$(ImplicitUsings)' == 'enable' or '$(ImplicitUsings)' == 'true')">
+    <Using Include="NetEvolve.ArchiDuct" Static="false" />
+    <Using Include="NetEvolve.ArchiDuct.Abstractions" Static="false" />
+    <Using Include="NetEvolve.ArchiDuct.Attributes" Static="false" />
+  </ItemGroup>
+</Project>
