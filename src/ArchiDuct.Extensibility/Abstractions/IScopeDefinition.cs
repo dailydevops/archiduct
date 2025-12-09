@@ -1,14 +1,22 @@
 ﻿namespace ArchiDuct.Abstractions;
 
-using System.Diagnostics.CodeAnalysis;
-
 /// <summary>
-/// Defines the contract for a dynamic Architecture Testing Scope.
+/// Represents a definition that asynchronously enumerates a collection of scopes.
 /// </summary>
 /// <remarks>
-/// This interface represents a defined testing scope within the architecture testing framework.
-/// Implementations of this interface define the boundaries and rules for validating architectural constraints
-/// within a specific testing context. The interface is intentionally generic to allow for flexible scope implementations.
+/// <para>
+/// The <see cref="IScopeDefinition{T}"/> interface defines a contract for scope definitions that produce sequences of scopes
+/// through asynchronous enumeration. This is useful for defining scope hierarchies or collections that are populated asynchronously.
+/// </para>
+/// <para>
+/// Implementers must support the <see cref="IAsyncEnumerable{T}"/> protocol, allowing consumers to iterate over scopes
+/// using the <c>await foreach</c> statement. This enables efficient streaming of scope instances without requiring
+/// the entire collection to be available upfront.
+/// </para>
 /// </remarks>
-[SuppressMessage("Design", "CA1040:Avoid empty interfaces", Justification = "Generic Interface")]
-public interface IScopeDefinition { }
+/// <typeparam name="T">
+/// The scope type parameter, constrained to implement <see cref="IScope{T}"/> where T is itself.
+/// This ensures type safety and proper scope type preservation throughout enumeration.
+/// </typeparam>
+public interface IScopeDefinition<out T> : IAsyncEnumerable<T>
+    where T : IScope<T>;

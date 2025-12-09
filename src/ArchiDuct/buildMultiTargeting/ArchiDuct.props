@@ -2,11 +2,12 @@
   <PropertyGroup>
     <IsTestProject>true</IsTestProject>
     <IsTestingPlatformApplication>true</IsTestingPlatformApplication>
-    <IsTestingPlatformEnabled>true</IsTestingPlatformEnabled>
-    <TestingPlatformCaptureOutput>false</TestingPlatformCaptureOutput>
     <TestingPlatformDotnetTestSupport>true</TestingPlatformDotnetTestSupport>
     <TestingPlatformShowTestsFailure>true</TestingPlatformShowTestsFailure>
+    <TestingPlatformCaptureOutput>false</TestingPlatformCaptureOutput>
     <OutputType>Exe</OutputType>
+    <UseTestingPlatformProtocol>true</UseTestingPlatformProtocol>
+    <IsTestingPlatformEnabled>true</IsTestingPlatformEnabled>
   </PropertyGroup>
   <ItemGroup>
     <TestingPlatformBuilderHook Include="E0BD7068-1F88-41B4-AD5C-912EDE5311A9">
