@@ -25,6 +25,7 @@
     <Project Path="src/ArchiDuct/ArchiDuct.csproj" />
   </Folder>
   <Folder Name="/tests/">
+    <Project Path="tests/ArchiDuct.Tests.Architecture/ArchiDuct.Tests.Architecture.csproj" Id="4127547b-3c74-424c-8d5b-7a0bfc238c4b" />
     <Project Path="tests/ArchiDuct.Tests.Unit/ArchiDuct.Tests.Unit.csproj" />
   </Folder>
 </Solution>
