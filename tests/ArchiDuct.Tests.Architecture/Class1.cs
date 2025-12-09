@@ -19,7 +19,4 @@ internal static class ValueTaskExtensions
 }
 #endif
 
-public sealed class ScopeNamespace : IScope<ScopeNamespace>
-{
-    public ValueTask DisposeAsync() => throw new NotImplementedException();
-}
+public sealed class ScopeNamespace : IScope<ScopeNamespace> { }

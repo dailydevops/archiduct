@@ -13,5 +13,10 @@
 /// The scope type parameter, constrained to implement <see cref="IScope{T}"/> itself.
 /// This self-referential constraint enables proper type preservation in scope hierarchies.
 /// </typeparam>
-[System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1040:Avoid empty interfaces", Justification = "Design marker interface for scope types.")]
-public interface IScope<out T> where T : IScope<T>;
+[System.Diagnostics.CodeAnalysis.SuppressMessage(
+    "Design",
+    "CA1040:Avoid empty interfaces",
+    Justification = "Design marker interface for scope types."
+)]
+public interface IScope<out T>
+    where T : IScope<T>;
