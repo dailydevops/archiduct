@@ -55,7 +55,7 @@ internal sealed class ArchiDuctTestFramework : ITestFramework
     public async Task<CloseTestSessionResult> CloseTestSessionAsync(CloseTestSessionContext context)
     {
         await _logger.LogInformationAsync("Closing test session...").ConfigureAwait(false);
-        return new CloseTestSessionResult { IsSuccess = false };
+        return new CloseTestSessionResult { IsSuccess = true };
     }
 
     /// <inheritdoc />
@@ -63,7 +63,12 @@ internal sealed class ArchiDuctTestFramework : ITestFramework
         Task.FromResult(new CreateTestSessionResult { IsSuccess = true });
 
     /// <inheritdoc />
-    public Task ExecuteRequestAsync(ExecuteRequestContext context) => Task.CompletedTask;
+    public Task ExecuteRequestAsync(ExecuteRequestContext context)
+    {
+        context.Complete();
+
+        return Task.CompletedTask;
+    }
 
     /// <inheritdoc />
     public Task<bool> IsEnabledAsync() => Task.FromResult(true);

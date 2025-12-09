@@ -1,6 +1,7 @@
 ﻿namespace ArchiDuct.Framework;
 
 using ArchiDuct.Framework.Capabilities;
+using ArchiDuct.Framework.Commands;
 using Microsoft.Testing.Platform.Builder;
 using Microsoft.Testing.Platform.Capabilities.TestFramework;
 using NetEvolve.Arguments;
@@ -52,9 +53,12 @@ internal static class TestApplicationBuilderExtensions
     /// <remarks>
     /// This is a placeholder for future command line provider implementation.
     /// </remarks>
-    private static ITestApplicationBuilder RegisterCommandLineProvider(this ITestApplicationBuilder builder) =>
-        // Implement command line provider for ArchiDuct if needed.
-        builder;
+    private static ITestApplicationBuilder RegisterCommandLineProvider(this ITestApplicationBuilder builder)
+    {
+        builder.CommandLine.AddProvider(() => new DisableLogoCommandProvider());
+
+        return builder;
+    }
 
     /// <summary>
     /// Registers the test host provider for ArchiDuct test framework.
