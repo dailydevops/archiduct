@@ -7,6 +7,7 @@
   <Import Project="..\..\src\ArchiDuct\buildMultiTargeting\ArchiDuct.props" />
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Testing.Extensions.CodeCoverage" />
     <PackageReference Include="Microsoft.Testing.Platform.MSBuild" />
   </ItemGroup>
   <ItemGroup>
