@@ -22,7 +22,7 @@ jobs:
   all:
     if: github.run_id != 1
     name: Build & Tests
-    uses: dailydevops/pipelines/.github/workflows/build-dotnet-matrix.yml@882aa576cd9f4c61e14caaa3e5a2356e25425640 # 2.3.0
+    uses: dailydevops/pipelines/.github/workflows/build-dotnet-matrix.yml@cb2e329ddbd6ad42afc18b24518abf49eabbd9ad # 2.3.1
     with:
       disableTestsOnLinux: false
       disableTestsOnMacOs: false
