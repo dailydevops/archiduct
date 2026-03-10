@@ -18,7 +18,7 @@
     <GlobalPackageReference Include="SonarAnalyzer.CSharp" Version="10.20.0.135146" />
   </ItemGroup>
   <ItemGroup>
-    <PackageVersion Include="Microsoft.Bcl.AsyncInterfaces" Version="10.0.3" />
+    <PackageVersion Include="Microsoft.Bcl.AsyncInterfaces" Version="10.0.4" />
     <PackageVersion Include="Microsoft.Testing.Extensions.CodeCoverage" Version="18.5.2" />
     <PackageVersion Include="Microsoft.Testing.Extensions.TrxReport.Abstractions" Version="2.1.0" />
     <PackageVersion Include="Microsoft.Testing.Platform" Version="2.1.0" />
